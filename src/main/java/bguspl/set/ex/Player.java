@@ -2,6 +2,12 @@ package bguspl.set.ex;
 
 import bguspl.set.Env;
 
+import java.util.LinkedList;
+import java.util.Queue;
+import bguspl.set.ex.Main; // Import the Main class
+
+
+
 /**
  * This class manages the players' threads and data
  *
@@ -50,20 +56,34 @@ public class Player implements Runnable {
      */
     private int score;
 
+	//----------new fields----------------
     /**
+	 * queue of key presses
+	 */
+		
+	private Queue<Integer> keyPresses;
+
+	private int queueCounter; 
+	
+	//----------new fields----------------
+
+	/**
      * The class constructor.
      *
-     * @param env    - the environment object.
-     * @param dealer - the dealer object.
+     * @param env    
      * @param table  - the table object.
      * @param id     - the id of the player.
      * @param human  - true iff the player is a human player (i.e. input is provided manually, via the keyboard).
      */
+
     public Player(Env env, Dealer dealer, Table table, int id, boolean human) {
         this.env = env;
         this.table = table;
         this.id = id;
         this.human = human;
+	 	this.queueCounter = 0; 
+		this.keyPresses = new LinkedList<Integer>();
+
     }
 
     /**
@@ -76,8 +96,7 @@ public class Player implements Runnable {
         if (!human) createArtificialIntelligence();
 
         while (!terminate) {
-            // TODO implement main player loop
-        }
+			playerThread.start();        }
         if (!human) try { aiThread.join(); } catch (InterruptedException ignored) {}
         env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
     }
@@ -105,7 +124,10 @@ public class Player implements Runnable {
      * Called when the game should be terminated.
      */
     public void terminate() {
-        // TODO implement
+        
+		if (aiThread != null) aiThread.interrupt();
+		if (playerThread != null) playerThread.interrupt();
+		terminate = true;
     }
 
     /**
@@ -114,9 +136,28 @@ public class Player implements Runnable {
      * @param slot - the slot corresponding to the key pressed.
      */
     public void keyPressed(int slot) {
-        // TODO implement
-    }
-
+		boolean isDoubleClick = false;	
+		for(int i = 0; i < queueCounter; i++){
+			int pull= keyPresses.poll();
+			if(pull != slot)
+				keyPresses.add(pull);
+			else{
+				isDoubleClick = true;
+				table.removeToken(id, slot);
+				queueCounter--;
+			}
+		}
+		if (!isDoubleClick) {
+			keyPresses.add(slot);
+			queueCounter++;
+			table.placeToken(id, slot);
+		}
+		if (queueCounter == 3) {
+			Main.dealer.addPlayer(this); //before delete the cards from the queue the dealer need to check the cards 
+			for(int i = 0; i < queueCounter; i++)
+				keyPresses.remove();
+		}
+	}
     /**
      * Award a point to a player and perform other related actions.
      *
@@ -124,17 +165,28 @@ public class Player implements Runnable {
      * @post - the player's score is updated in the ui.
      */
     public void point() {
-        // TODO implement
+		env.ui.setScore(id, ++score);
+		env.ui.setFreeze(id, env.config.penaltyFreezeMillis);
+		score++;
+
+		try {
+			Thread.sleep(env.config.penaltyFreezeMillis);
+		} catch (InterruptedException e){}
+
 
         int ignored = table.countCards(); // this part is just for demonstration in the unit tests
-        env.ui.setScore(id, ++score);
+
     }
 
     /**
      * Penalize a player and perform other related actions.
      */
     public void penalty() {
-        // TODO implement
+        env.ui.setFreeze(id, env.config.penaltyFreezeMillis);
+		try {
+			Thread.sleep(env.config.penaltyFreezeMillis);
+		} catch (InterruptedException e){}
+
     }
 
     public int score() {

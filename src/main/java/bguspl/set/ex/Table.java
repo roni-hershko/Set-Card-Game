@@ -106,6 +106,8 @@ public class Table {
             Thread.sleep(env.config.tableDelayMillis);
         } catch (InterruptedException ignored) {}
 
+		int CardToRemove = slotToCard[slot];
+        cardToSlot[CardToRemove] = null;
         slotToCard[slot] = null;
         env.ui.removeCard(slot);
     }

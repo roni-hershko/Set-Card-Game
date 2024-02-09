@@ -2,9 +2,13 @@ package bguspl.set.ex;
 
 import bguspl.set.Env;
 
+import bguspl.set.Main;	// added
+
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.Queue;	// added
+import java.util.LinkedList;	// added
 
 /**
  * This class manages the dealer's threads and data
@@ -32,23 +36,37 @@ public class Dealer implements Runnable {
      */
     private volatile boolean terminate;
 
+	//----------------new fields----------------
+
+	/**
+	 * queue of players
+	 */
+	private volatile Queue<Player> playersQueue;
+
+	//----------------new fields----------------
+
+
     /**
      * The time when the dealer needs to reshuffle the deck due to turn timeout.
      */
     private long reshuffleTime = Long.MAX_VALUE;
 
-    public Dealer(Env env, Table table, Player[] players) {
-        this.env = env;
-        this.table = table;
-        this.players = players;
-        deck = IntStream.range(0, env.config.deckSize).boxed().collect(Collectors.toList());
-    }
+public Dealer(Env env, Table table, Player[] players) {
+	this.env = env;
+	this.table = table;
+	this.players = players;
+	deck = IntStream.range(0, env.config.deckSize).boxed().collect(Collectors.toList());
+	terminate = false;
+	playersQueue = new LinkedList<Player>();
+}
 
     /**
      * The dealer thread starts here (main loop for the dealer thread).
      */
     @Override
     public void run() {
+		//need to check player queue with the apropiate keypresses queue
+		//check if the counter of the key press is 3 and then check if it is a set
         env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
         while (!shouldFinish()) {
             placeCardsOnTable();
@@ -76,9 +94,11 @@ public class Dealer implements Runnable {
      * Called when the game should be terminated.
      */
     public void terminate() {
-        // TODO implement
-    }
-
+		for (Player player : players) {
+			player.terminate();
+ 	   }
+	    terminate = true;
+	}
     /**
      * Check if the game should be terminated or the game end conditions are met.
      *
@@ -92,7 +112,7 @@ public class Dealer implements Runnable {
      * Checks cards should be removed from the table and removes them.
      */
     private void removeCardsFromTable() {
-        // TODO implement
+		table.freez
     }
 
     /**
@@ -129,4 +149,13 @@ public class Dealer implements Runnable {
     private void announceWinners() {
         // TODO implement
     }
+
+	public void addPlayer(Player player) {
+		playersQueue.add(player);
+	}
+
+	public boolean checkSet(Queue<Integer> keyPresses ) {
+		int[] cards = new int[3];
+		return env.util.testSet(cards);
+	}
 }
