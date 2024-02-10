@@ -131,7 +131,7 @@ public Dealer(Env env, Table table, Player[] players) {
      */
     private void removeCardsFromTable() { //synchronized?
 		//need to verify that no player do anything while removing the cards
-		List<Integer> cardsToRemove = this.cardsToRemove;
+
 		//the goal of the field card to remove is to save all 3 cards in the list and then remove them is one action
 		for (int currSlot : cardsToRemove) {
 			table.removeToken(currSlot); //need to add the player to the signature
@@ -178,8 +178,8 @@ public Dealer(Env env, Table table, Player[] players) {
      */
     private void announceWinners() {
 		int winnerScore = 0;
-		int [] winners = new int[env.config.players]; 
-		for (int i = 0; i < env.config.players; i++) {
+		int [] winners = new int[players.length]; 
+		for (int i = 0; i < players.length; i++) {
 			if (players[i].score() > winnerScore) {
 				winnerScore = players[i].score();
 				winners[0] = players[i].id();
