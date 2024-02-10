@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.Queue;	// added
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.LinkedList;	// added
 
 /**
@@ -34,16 +35,14 @@ public class Dealer implements Runnable {
      */
     private volatile boolean terminate;
 
-    long countdown=0;
-	//new fields
-    	/**
-	 * queue of players
-	 */
-
     /**
      * The time when the dealer needs to reshuffle the deck due to turn timeout.
      */
     private long reshuffleTime = Long.MAX_VALUE;
+ 
+    //new fields
+    long countdown=0;
+	
 
 public Dealer(Env env, Table table, Player[] players) {
 	this.env = env;
@@ -93,7 +92,6 @@ private void timerLoop() {
 	while (!terminate && System.currentTimeMillis() < reshuffleTime) {
 		sleepUntilWokenOrTimeout();
 		updateTimerDisplay(false);
-		checkSet(table.getQueuePlayers());
 		removeCardsFromTable();
 		placeCardsOnTable();
 	}
@@ -128,13 +126,14 @@ private void timerLoop() {
 
 		for (Player player : players) {
 			if(player.queueCounter == 3){ //how to check 
-                if(checkSet(player.keyPresses)){
+                if(checkSet(player.slotQueue)){
                     player.point();
                     for (int j = 0; j < player.queueCounter; j++){
-                        int slot =player.keyPresses.poll();
-                        table.removeToken(player.id, slot);
+                        int slot =player.slotQueue.poll();
+                        table.removeToken(player.id, slot); //check for every player if they had also token on card should be removed
                         table.removeCard(slot);
                     }
+                    player.queueCounter = 0;
                 }
                 else player.penalty();
             }
@@ -148,6 +147,7 @@ private void timerLoop() {
     private void placeCardsOnTable() {
 		//need to verify that no player do anything while removing the cards
         //relevent also for put 3 cards and also to fill all the table
+        //place cards on the table
         for (int i = 0; i < env.config.tableSize; i++){
             if (table.slotToCard[i] == null){
                 if (deck.size() > 0){
@@ -157,6 +157,7 @@ private void timerLoop() {
             }
         }
         notifyAll();
+        //create lists for searching sets
         List<Integer>cardList=new LinkedList<Integer>();
         for(int i=0; i<table.slotToCard.length; i++){
             if(table.slotToCard[i] != null){
@@ -175,10 +176,6 @@ private void timerLoop() {
                 placeCardsOnTable();
             }
         }
-        
-
-        if(findSetsDeck.size()==0)
-            terminate = true;
     }
 
     /**
@@ -211,7 +208,7 @@ private void timerLoop() {
         }
         for(int i = 0; i < players.length; i++){
             for (int j = 0; j < players[i].queueCounter; j++){
-                int slot =players[i].keyPresses.poll();
+                int slot =players[i].slotQueue.poll();
                 table.removeToken(players[i].id, slot);
             }
         }
@@ -247,9 +244,9 @@ private void timerLoop() {
 	}
 
 	public boolean checkSet(Queue<Integer> playQueue ) {
-		int[] cards = new int[keyPresses.size()];
-        for (int i = 0; i < keyPresses.size(); i++) {
-            cards[i] = table.slotToCard[keyPresses.poll()];
+		int[] cards = new int[playQueue.size()];
+        for (int i = 0; i < playQueue.size(); i++) {
+            cards[i] = table.slotToCard[playQueue.poll()];
         }
 		return env.util.testSet(cards);
 	}

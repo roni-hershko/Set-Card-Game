@@ -60,7 +60,7 @@ public class Player implements Runnable {
 	 * queue of key presses
 	 */
 		
-	Queue<Integer> keyPresses;
+	Queue<Integer> slotQueue;
 
 	int queueCounter; 
 	
@@ -80,7 +80,7 @@ public class Player implements Runnable {
         this.id = id;
         this.human = human;
 	 	this.queueCounter = 0; 
-		this.keyPresses = new LinkedList<Integer>();
+		this.slotQueue = new LinkedList<Integer>();
 
     }
 
@@ -138,9 +138,9 @@ public class Player implements Runnable {
     public void keyPressed(int slot) {
 		boolean isDoubleClick = false;	
 		for(int i = 0; i < queueCounter; i++){
-			int pull= keyPresses.poll();
-			if(pull != slot)
-				keyPresses.add(pull);
+			int currSlot= slotQueue.poll();
+			if(currSlot != slot)
+             slotQueue.add(currSlot);
 			else{
 				isDoubleClick = true;
 				table.removeToken(id, slot);
@@ -148,17 +148,18 @@ public class Player implements Runnable {
 			}
 		}
 		if (!isDoubleClick) {
-			keyPresses.add(slot); //add the key press to the queue
+			slotQueue.add(slot); //add the key press to the queue
 			queueCounter++;
 			table.placeToken(id, slot); //place the token on the table
 		}
-		try {
-			Thread.currentThread().wait();
-		} catch (InterruptedException e) {} //wait for dealer to check if winner or penalty
-		//need to ask the dealer if the cards in the queue are a set
-		//if they are a set, then point, else penalty
-		
-	}
+        if(queueCounter == 3){
+            try {
+                Thread.currentThread().wait();
+            } catch (InterruptedException e) {} //wait for dealer to check if winner or penalty
+            //need to ask the dealer if the cards in the queue are a set
+            //if they are a set, then point, else penalty
+        }
+    }
     /**
      * Award a point to a player and perform other related actions.
      *

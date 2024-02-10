@@ -49,7 +49,7 @@ public class Table {
 	/**
 	 * queue of players (gets player's id) that are waiting to be checked
 	 */
-	private ConcurrentLinkedQueue<Integer> playersQueue;
+	ConcurrentLinkedQueue<Player> playersQueue;
 
 
 
@@ -58,7 +58,7 @@ public class Table {
         this.env = env;
         this.slotToCard = slotToCard;
         this.cardToSlot = cardToSlot;
-		playersQueue = new ConcurrentLinkedQueue<Integer>();
+		playersQueue = new ConcurrentLinkedQueue<Player>();
     }
 
     /**
@@ -105,7 +105,6 @@ public class Table {
      * @post - the card placed is on the table, in the assigned slot.
      */
     public void placeCard(int card, int slot) {
-        synchronized (lock) {
 		
         try { 
             Thread.sleep(env.config.tableDelayMillis);
@@ -115,7 +114,6 @@ public class Table {
       		cardToSlot[card] = slot;
        		slotToCard[slot] = card;
 			env.ui.placeCard(card, slot);
-		}
 	}
 }
 
@@ -124,8 +122,6 @@ public class Table {
      * @param slot - the slot from which to remove the card.
      */
     public void removeCard(int slot) {
-
-        synchronized (lock) {
 
         try {
             Thread.sleep(env.config.tableDelayMillis);
@@ -138,7 +134,6 @@ public class Table {
 			env.ui.removeCard(slot);  
 		}
     }
-}
 
     /** 
      * Places a player token on a grid slot.
@@ -163,7 +158,12 @@ public class Table {
         	return true; //need to check
 	}
 
-    public ConcurrentLinkedQueue<Integer> getQueuePlayers() {
-        return playersQueue;
+    //new methods GP
+    public void addQueuePlayers(Player player) {
+        playersQueue.add(player);
+    }
+
+    public void removeQueuePlayers(Player player) { 
+        playersQueue.remove(player);
     }
 }
