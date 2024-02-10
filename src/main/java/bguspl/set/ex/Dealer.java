@@ -34,13 +34,11 @@ public class Dealer implements Runnable {
      */
     private volatile boolean terminate;
 
-
+    long countdown=0;
 	//new fields
     	/**
 	 * queue of players
 	 */
-	//private volatile Queue<Player> playersQueue;
-
 
     /**
      * The time when the dealer needs to reshuffle the deck due to turn timeout.
@@ -53,6 +51,8 @@ public Dealer(Env env, Table table, Player[] players) {
 	this.players = players;
 	deck = IntStream.range(0, env.config.deckSize).boxed().collect(Collectors.toList());
 	terminate = false;
+    //GP: added
+    countdown= System.currentTimeMillis();
 	//playersQueue = new LinkedList<Player>();
 }
 
@@ -93,7 +93,7 @@ private void timerLoop() {
 	while (!terminate && System.currentTimeMillis() < reshuffleTime) {
 		sleepUntilWokenOrTimeout();
 		updateTimerDisplay(false);
-		checkSet(table.playQueue);
+		checkSet(table.getQueuePlayers());
 		removeCardsFromTable();
 		placeCardsOnTable();
 	}
@@ -187,7 +187,7 @@ private void timerLoop() {
     private void sleepUntilWokenOrTimeout() {
         try {
             synchronized (this) { //?
-                wait(//second); //neeed to check 
+                wait(System.currentTimeMillis()-countdown ==env.config.turnTimeoutMillis) //second); //neeed to check 
             }
         } catch (InterruptedException ignored) {}
     }

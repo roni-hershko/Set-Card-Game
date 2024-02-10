@@ -33,7 +33,6 @@ public class Table {
     protected final Integer[] cardToSlot; // slot per card (if any)
 
     //new fields
-    Object lock = new Object();
     /**
      * Constructor for testing.
      *
@@ -107,7 +106,6 @@ public class Table {
      */
     public void placeCard(int card, int slot) {
         synchronized (lock) {
-           
 		
         try { 
             Thread.sleep(env.config.tableDelayMillis);
@@ -119,6 +117,7 @@ public class Table {
 			env.ui.placeCard(card, slot);
 		}
 	}
+}
 
     /**
      * Removes a card from a grid slot on the table.
@@ -139,6 +138,7 @@ public class Table {
 			env.ui.removeCard(slot);  
 		}
     }
+}
 
     /** 
      * Places a player token on a grid slot.
@@ -159,9 +159,11 @@ public class Table {
      */
     //if some player can't remove token, he will be in sleep mode, else he can remove.
     public boolean removeToken(int player, int slot) {
-		synchronized(lock){ //rh
         	env.ui.removeToken(player, slot);
         	return true; //need to check
-   		}	
 	}
+
+    public ConcurrentLinkedQueue<Integer> getQueuePlayers() {
+        return playersQueue;
+    }
 }
