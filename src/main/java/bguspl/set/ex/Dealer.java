@@ -2,8 +2,6 @@ package bguspl.set.ex;
 
 import bguspl.set.Env;
 
-import bguspl.set.Main;	// added
-
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -36,14 +34,18 @@ public class Dealer implements Runnable {
      */
     private volatile boolean terminate;
 
-	//----------------new fields----------------
+
+	//new fields
 
 	/**
 	 * queue of players
 	 */
 	private volatile Queue<Player> playersQueue;
 
-	//----------------new fields----------------
+	/**
+	 * cards that should be removed from the table
+	 */
+	private List<Integer> cardsToRemove;
 
 
     /**
@@ -58,6 +60,7 @@ public Dealer(Env env, Table table, Player[] players) {
 	deck = IntStream.range(0, env.config.deckSize).boxed().collect(Collectors.toList());
 	terminate = false;
 	playersQueue = new LinkedList<Player>();
+	cardsToRemove = new LinkedList<Integer>(); 
 }
 
     /**
@@ -65,8 +68,20 @@ public Dealer(Env env, Table table, Player[] players) {
      */
     @Override
     public void run() {
-		//need to check player queue with the apropiate keypresses queue
-		//check if the counter of the key press is 3 and then check if it is a set
+
+		//check if the counter of the keypress queue is 3 
+		//check if the key presses in the keypress queue represent a set 
+		// if set is found remove the cards from the table-----------------timeloop
+		// discard the 3 cards from, the table and add 3 new cards from the deck using placeCardsOnTable ------------timeloop-- removeCardsFromTable+placeCardsOnTable	
+		//if there are not enough cards in the deck put all the deck 
+		//give the succesful player one point -----------where is the action of updating the score?
+		//else if set is not found, penalty -------------check the time 
+		//start the next round------------------- time loop
+		//updateTimerDisplay------------------- time loop
+		//check if there is a set on the table
+		//if not reshuffle the table
+
+		//every minute the dealer should reshuffle the table- collect all cards and put new cards
         env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
         while (!shouldFinish()) {
             placeCardsOnTable();
@@ -98,6 +113,9 @@ public Dealer(Env env, Table table, Player[] players) {
 			player.terminate();
  	   }
 	    terminate = true;
+
+		//the game will countinue until the there are no more sets in the table or on deck!!!
+		//the player with the most point will win 
 	}
     /**
      * Check if the game should be terminated or the game end conditions are met.
@@ -111,14 +129,22 @@ public Dealer(Env env, Table table, Player[] players) {
     /**
      * Checks cards should be removed from the table and removes them.
      */
-    private void removeCardsFromTable() {
-		table.freez
+    private void removeCardsFromTable() { //synchronized?
+		//need to verify that no player do anything while removing the cards
+		List<Integer> cardsToRemove = this.cardsToRemove;
+		//the goal of the field card to remove is to save all 3 cards in the list and then remove them is one action
+		for (int currSlot : cardsToRemove) {
+			table.removeToken(currSlot); //need to add the player to the signature
+            table.removeCard(currSlot); 
+        }
     }
 
     /**
      * Check if any cards can be removed from the deck and placed on the table.
      */
     private void placeCardsOnTable() {
+		//need to verify that no player do anything while removing the cards
+
         // TODO implement
     }
 
@@ -140,22 +166,41 @@ public Dealer(Env env, Table table, Player[] players) {
      * Returns all the cards from the table to the deck.
      */
     private void removeAllCardsFromTable() {
-        // TODO implement
+		//need to verify that no player do anything while removing the cards
+
+		for (int i = 0; i < env.config.tableSize; i++)
+			table.removeCard(i);
+		for(int i = 0; i < player; i++)
     }
 
     /**
      * Check who is/are the winner/s and displays them.
      */
     private void announceWinners() {
-        // TODO implement
+		int winnerScore = 0;
+		int [] winners = new int[env.config.players]; 
+		for (int i = 0; i < env.config.players; i++) {
+			if (players[i].score() > winnerScore) {
+				winnerScore = players[i].score();
+				winners[0] = players[i].id();
+			}
+			else if (players[i].score() == winnerScore) {
+				winners[1] = players[i].id();
+			}
+		}
+		env.ui.announceWinner(winners);
+		terminate = true;
     }
+
+
+	//new methods
 
 	public void addPlayer(Player player) {
 		playersQueue.add(player);
 	}
 
 	public boolean checkSet(Queue<Integer> keyPresses ) {
-		int[] cards = new int[3];
+		int[] cards = new int[keyPresses.size()];
 		return env.util.testSet(cards);
 	}
 }

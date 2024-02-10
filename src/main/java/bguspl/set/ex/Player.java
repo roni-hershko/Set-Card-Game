@@ -4,7 +4,6 @@ import bguspl.set.Env;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import bguspl.set.ex.Main; // Import the Main class
 
 
 
@@ -56,7 +55,7 @@ public class Player implements Runnable {
      */
     private int score;
 
-	//----------new fields----------------
+	//new fields
     /**
 	 * queue of key presses
 	 */
@@ -65,7 +64,6 @@ public class Player implements Runnable {
 
 	private int queueCounter; 
 	
-	//----------new fields----------------
 
 	/**
      * The class constructor.
@@ -99,6 +97,8 @@ public class Player implements Runnable {
 			playerThread.start();        }
         if (!human) try { aiThread.join(); } catch (InterruptedException ignored) {}
         env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
+
+		//Once the player places his third token on the table, he must notify the dealer and wait until the dealer checks if it is a legal set or not. 
     }
 
     /**
@@ -148,15 +148,16 @@ public class Player implements Runnable {
 			}
 		}
 		if (!isDoubleClick) {
-			keyPresses.add(slot);
+			keyPresses.add(slot); //add the key press to the queue
 			queueCounter++;
-			table.placeToken(id, slot);
+			table.placeToken(id, slot); //place the token on the table
 		}
-		if (queueCounter == 3) {
-			Main.dealer.addPlayer(this); //before delete the cards from the queue the dealer need to check the cards 
-			for(int i = 0; i < queueCounter; i++)
-				keyPresses.remove();
-		}
+		try {
+			Thread.currentThread().wait();
+		} catch (InterruptedException e) {} //wait for dealer to check if winner or penalty
+		//need to ask the dealer if the cards in the queue are a set
+		//if they are a set, then point, else penalty
+		
 	}
     /**
      * Award a point to a player and perform other related actions.
@@ -166,11 +167,11 @@ public class Player implements Runnable {
      */
     public void point() {
 		env.ui.setScore(id, ++score);
-		env.ui.setFreeze(id, env.config.penaltyFreezeMillis);
+		env.ui.setFreeze(id, env.config.pointFreezeMillis);
 		score++;
 
 		try {
-			Thread.sleep(env.config.penaltyFreezeMillis);
+			Thread.sleep(env.config.pointFreezeMillis);
 		} catch (InterruptedException e){}
 
 
@@ -192,4 +193,10 @@ public class Player implements Runnable {
     public int score() {
         return score;
     }
+
+	//new methods
+	public int id() {
+		return id;
+	}
+
 }

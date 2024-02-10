@@ -87,7 +87,7 @@ public class Table {
      * @post - the card placed is on the table, in the assigned slot.
      */
     public void placeCard(int card, int slot) {
-        try {
+        try { //if we use this function this is beacuse we remove card from the table, so we need to sleep
             Thread.sleep(env.config.tableDelayMillis);
         } catch (InterruptedException ignored) {}
 
@@ -108,7 +108,7 @@ public class Table {
 
 		int CardToRemove = slotToCard[slot];
         cardToSlot[CardToRemove] = null;
-        slotToCard[slot] = null;
+        slotToCard[slot] = null; 
         env.ui.removeCard(slot);
     }
 
@@ -130,6 +130,6 @@ public class Table {
     //if some player can't remove token, he will be in sleep mode, else he can remove.
     public boolean removeToken(int player, int slot) {
         env.ui.removeToken(player, slot);
-        return true;
+        return true; //need to check
     }
 }
