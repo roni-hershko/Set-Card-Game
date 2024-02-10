@@ -3,8 +3,11 @@ package bguspl.set.ex;
 import bguspl.set.Env;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
+import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.stream.Collectors;
 
 /**
@@ -36,11 +39,25 @@ public class Table {
      * @param slotToCard - mapping between a slot and the card placed in it (null if none).
      * @param cardToSlot - mapping between a card and the slot it is in (null if none).
      */
+
+	//new fields
+
+	// rh: new lock 
+	public final Object lock = new Object();
+
+	/**
+	 * queue of players (gets player's id) that are waiting to be checked
+	 */
+	private ConcurrentLinkedQueue<Integer> playersQueue;
+
+
+
     public Table(Env env, Integer[] slotToCard, Integer[] cardToSlot) {
 
         this.env = env;
         this.slotToCard = slotToCard;
         this.cardToSlot = cardToSlot;
+		playersQueue = new ConcurrentLinkedQueue<Integer>();
     }
 
     /**
@@ -87,38 +104,45 @@ public class Table {
      * @post - the card placed is on the table, in the assigned slot.
      */
     public void placeCard(int card, int slot) {
-        try { //if we use this function this is beacuse we remove card from the table, so we need to sleep
+		
+        try { 
             Thread.sleep(env.config.tableDelayMillis);
         } catch (InterruptedException ignored) {}
 
-        cardToSlot[card] = slot;
-        slotToCard[slot] = card;
-
-        env.ui.placeCard(card, slot);
-    }
+		synchronized(lock){ //rh
+      		cardToSlot[card] = slot;
+       		slotToCard[slot] = card;
+			env.ui.placeCard(card, slot);
+		}
+	}
 
     /**
      * Removes a card from a grid slot on the table.
      * @param slot - the slot from which to remove the card.
      */
     public void removeCard(int slot) {
+
         try {
             Thread.sleep(env.config.tableDelayMillis);
         } catch (InterruptedException ignored) {}
 
-		int CardToRemove = slotToCard[slot];
-        cardToSlot[CardToRemove] = null;
-        slotToCard[slot] = null; 
-        env.ui.removeCard(slot);
+		synchronized(lock){ //rh
+			int CardToRemove = slotToCard[slot];
+			cardToSlot[CardToRemove] = null;
+			slotToCard[slot] = null; 
+			env.ui.removeCard(slot);  
+		}
     }
 
-    /**
+    /** 
      * Places a player token on a grid slot.
      * @param player - the player the token belongs to.
      * @param slot   - the slot on which to place the token.
      */
     public void placeToken(int player, int slot) {
-        env.ui.placeToken(player, slot);
+		synchronized(lock){ //rh
+      	  env.ui.placeToken(player, slot);
+		}
     }
 
     /**
@@ -129,7 +153,9 @@ public class Table {
      */
     //if some player can't remove token, he will be in sleep mode, else he can remove.
     public boolean removeToken(int player, int slot) {
-        env.ui.removeToken(player, slot);
-        return true; //need to check
-    }
+		synchronized(lock){ //rh
+        	env.ui.removeToken(player, slot);
+        	return true; //need to check
+   		}	
+	}
 }

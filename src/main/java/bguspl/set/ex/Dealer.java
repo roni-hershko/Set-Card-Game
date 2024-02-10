@@ -39,12 +39,7 @@ public class Dealer implements Runnable {
     	/**
 	 * queue of players
 	 */
-	private volatile Queue<Player> playersQueue;
-
-	/**
-	 * cards that should be removed from the table
-	 */
-	private List<Integer> cardsToRemove;
+	//private volatile Queue<Player> playersQueue;
 
 
     /**
@@ -58,8 +53,7 @@ public Dealer(Env env, Table table, Player[] players) {
 	this.players = players;
 	deck = IntStream.range(0, env.config.deckSize).boxed().collect(Collectors.toList());
 	terminate = false;
-	playersQueue = new LinkedList<Player>();
-	cardsToRemove = new LinkedList<Integer>();
+	//playersQueue = new LinkedList<Player>();
 }
 
     /**
@@ -131,9 +125,8 @@ public Dealer(Env env, Table table, Player[] players) {
     private void removeCardsFromTable() { //synchronized?
 		//need to verify that no player do anything while removing the cards
 
-		//the goal of the field card to remove is to save all 3 cards in the list and then remove them is one action
 		for (Player player : players) {
-			if(player.queueCounter == 3){
+			if(player.queueCounter == 3){ //how to check 
                 if(checkSet(player.keyPresses)){
                     player.point();
                     for (int j = 0; j < player.queueCounter; j++){
@@ -192,12 +185,12 @@ public Dealer(Env env, Table table, Player[] players) {
      */
     private void sleepUntilWokenOrTimeout() {
         try {
-            synchronized (this) {
-                wait(reshuffleTime); //neeed to check 
+            synchronized (this) { //?
+                wait(//second); //neeed to check 
             }
         } catch (InterruptedException ignored) {}
     }
-
+	//one secod o update the timer
     /**
      * Reset and/or update the countdown and the countdown display.
      */
