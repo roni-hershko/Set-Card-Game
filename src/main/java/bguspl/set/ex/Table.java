@@ -29,6 +29,8 @@ public class Table {
      */
     protected final Integer[] cardToSlot; // slot per card (if any)
 
+    //new fields
+    Object lock = new Object();
     /**
      * Constructor for testing.
      *
@@ -87,6 +89,8 @@ public class Table {
      * @post - the card placed is on the table, in the assigned slot.
      */
     public void placeCard(int card, int slot) {
+        synchronized (lock) {
+           
         try { //if we use this function this is beacuse we remove card from the table, so we need to sleep
             Thread.sleep(env.config.tableDelayMillis);
         } catch (InterruptedException ignored) {}
@@ -95,6 +99,8 @@ public class Table {
         slotToCard[slot] = card;
 
         env.ui.placeCard(card, slot);
+
+        }
     }
 
     /**
@@ -102,6 +108,8 @@ public class Table {
      * @param slot - the slot from which to remove the card.
      */
     public void removeCard(int slot) {
+        synchronized (lock) {
+
         try {
             Thread.sleep(env.config.tableDelayMillis);
         } catch (InterruptedException ignored) {}
@@ -111,6 +119,7 @@ public class Table {
         slotToCard[slot] = null; 
         env.ui.removeCard(slot);
     }
+}
 
     /**
      * Places a player token on a grid slot.
@@ -118,7 +127,9 @@ public class Table {
      * @param slot   - the slot on which to place the token.
      */
     public void placeToken(int player, int slot) {
+        synchronized (lock) {
         env.ui.placeToken(player, slot);
+        }
     }
 
     /**

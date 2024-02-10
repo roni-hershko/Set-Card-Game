@@ -60,9 +60,9 @@ public class Player implements Runnable {
 	 * queue of key presses
 	 */
 		
-	private Queue<Integer> keyPresses;
+	Queue<Integer> keyPresses;
 
-	private int queueCounter; 
+	int queueCounter; 
 	
 
 	/**
@@ -199,4 +199,7 @@ public class Player implements Runnable {
 		return id;
 	}
 
+    public Thread getPlayerThread() {
+        return playerThread;
+    }
 }
