@@ -32,6 +32,8 @@ public class Table {
      */
     protected final Integer[] cardToSlot; // slot per card (if any)
 
+    //new fields
+    Object lock = new Object();
     /**
      * Constructor for testing.
      *
@@ -104,6 +106,8 @@ public class Table {
      * @post - the card placed is on the table, in the assigned slot.
      */
     public void placeCard(int card, int slot) {
+        synchronized (lock) {
+           
 		
         try { 
             Thread.sleep(env.config.tableDelayMillis);
@@ -121,6 +125,8 @@ public class Table {
      * @param slot - the slot from which to remove the card.
      */
     public void removeCard(int slot) {
+
+        synchronized (lock) {
 
         try {
             Thread.sleep(env.config.tableDelayMillis);

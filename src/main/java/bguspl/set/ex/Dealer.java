@@ -89,14 +89,15 @@ public Dealer(Env env, Table table, Player[] players) {
     /**
      * The inner loop of the dealer thread that runs as long as the countdown did not time out.
      */
-    private void timerLoop() {
-        while (!terminate && System.currentTimeMillis() < reshuffleTime) {
-            sleepUntilWokenOrTimeout();
-            updateTimerDisplay(false);
-            removeCardsFromTable();
-            placeCardsOnTable();
-        }
-    }
+private void timerLoop() {
+	while (!terminate && System.currentTimeMillis() < reshuffleTime) {
+		sleepUntilWokenOrTimeout();
+		updateTimerDisplay(false);
+		checkSet(table.playQueue);
+		removeCardsFromTable();
+		placeCardsOnTable();
+	}
+}
 
     /**
      * Called when the game should be terminated.
@@ -245,7 +246,7 @@ public Dealer(Env env, Table table, Player[] players) {
 		playersQueue.add(player);
 	}
 
-	public boolean checkSet(Queue<Integer> keyPresses ) {
+	public boolean checkSet(Queue<Integer> playQueue ) {
 		int[] cards = new int[keyPresses.size()];
         for (int i = 0; i < keyPresses.size(); i++) {
             cards[i] = table.slotToCard[keyPresses.poll()];
