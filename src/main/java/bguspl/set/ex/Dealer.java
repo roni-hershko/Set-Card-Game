@@ -36,8 +36,7 @@ public class Dealer implements Runnable {
 
 
 	//new fields
-
-	/**
+    	/**
 	 * queue of players
 	 */
 	private volatile Queue<Player> playersQueue;
@@ -60,7 +59,7 @@ public Dealer(Env env, Table table, Player[] players) {
 	deck = IntStream.range(0, env.config.deckSize).boxed().collect(Collectors.toList());
 	terminate = false;
 	playersQueue = new LinkedList<Player>();
-	cardsToRemove = new LinkedList<Integer>(); 
+	cardsToRemove = new LinkedList<Integer>();
 }
 
     /**
@@ -133,10 +132,20 @@ public Dealer(Env env, Table table, Player[] players) {
 		//need to verify that no player do anything while removing the cards
 
 		//the goal of the field card to remove is to save all 3 cards in the list and then remove them is one action
-		for (int currSlot : cardsToRemove) {
-			table.removeToken(currSlot); //need to add the player to the signature
-            table.removeCard(currSlot); 
+		for (Player player : players) {
+			if(player.queueCounter == 3){
+                if(checkSet(player.keyPresses)){
+                    player.point();
+                    for (int j = 0; j < player.queueCounter; j++){
+                        int slot =player.keyPresses.poll();
+                        table.removeToken(player.id, slot);
+                        table.removeCard(slot);
+                    }
+                }
+                else player.penalty();
+            }
         }
+        
     }
 
     /**
@@ -144,15 +153,49 @@ public Dealer(Env env, Table table, Player[] players) {
      */
     private void placeCardsOnTable() {
 		//need to verify that no player do anything while removing the cards
+        //relevent also for put 3 cards and also to fill all the table
+        for (int i = 0; i < env.config.tableSize; i++){
+            if (table.slotToCard[i] == null){
+                if (deck.size() > 0){
+                    int card = deck.remove(0);
+                    table.placeCard(card, i);
+                }
+            }
+        }
+        notifyAll();
+        List<Integer>cardList=new LinkedList<Integer>();
+        for(int i=0; i<table.slotToCard.length; i++){
+            if(table.slotToCard[i] != null){
+                cardList.add(table.slotToCard[i]);
+            }
+        }
+        List<int[]> findSetsTable = env.util.findSets(cardList, 3);
+        List<int[]> findSetsDeck = env.util.findSets(deck, 3);
 
-        // TODO implement
+        if(findSetsTable.size()==0){
+            if(findSetsDeck.size()==0){
+                terminate = true;
+            }
+            else{
+                removeAllCardsFromTable();
+                placeCardsOnTable();
+            }
+        }
+        
+
+        if(findSetsDeck.size()==0)
+            terminate = true;
     }
 
     /**
      * Sleep for a fixed amount of time or until the thread is awakened for some purpose.
      */
     private void sleepUntilWokenOrTimeout() {
-        // TODO implement
+        try {
+            synchronized (this) {
+                wait(reshuffleTime); //neeed to check 
+            }
+        } catch (InterruptedException ignored) {}
     }
 
     /**
@@ -167,10 +210,20 @@ public Dealer(Env env, Table table, Player[] players) {
      */
     private void removeAllCardsFromTable() {
 		//need to verify that no player do anything while removing the cards
-
-		for (int i = 0; i < env.config.tableSize; i++)
-			table.removeCard(i);
-		for(int i = 0; i < player; i++)
+        for(int i = 0; i < players.length; i++){
+            try {
+                players[i].getPlayerThread().wait();
+            } catch (InterruptedException e) {}
+        }
+        for(int i = 0; i < players.length; i++){
+            for (int j = 0; j < players[i].queueCounter; j++){
+                int slot =players[i].keyPresses.poll();
+                table.removeToken(players[i].id, slot);
+            }
+        }
+        for (int i = 0; i < env.config.tableSize; i++){
+            table.removeCard(i);
+        }
     }
 
     /**
@@ -201,6 +254,9 @@ public Dealer(Env env, Table table, Player[] players) {
 
 	public boolean checkSet(Queue<Integer> keyPresses ) {
 		int[] cards = new int[keyPresses.size()];
+        for (int i = 0; i < keyPresses.size(); i++) {
+            cards[i] = table.slotToCard[keyPresses.poll()];
+        }
 		return env.util.testSet(cards);
 	}
 }
