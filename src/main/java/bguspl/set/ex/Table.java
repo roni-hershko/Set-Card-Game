@@ -141,9 +141,7 @@ public class Table {
      * @param slot   - the slot on which to place the token.
      */
     public void placeToken(int player, int slot) {
-		synchronized(lock){ //rh
       	  env.ui.placeToken(player, slot);
-		}
     }
 
     /**

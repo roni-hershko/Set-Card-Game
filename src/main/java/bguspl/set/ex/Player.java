@@ -64,6 +64,7 @@ public class Player implements Runnable {
 
 	int queueCounter; 
 	
+    volatile boolean isChecked; //mabye atomic/ volatile boolean
 
 	/**
      * The class constructor.
@@ -81,7 +82,7 @@ public class Player implements Runnable {
         this.human = human;
 	 	this.queueCounter = 0; 
 		this.slotQueue = new LinkedList<Integer>();
-
+        this.isChecked = false;
     }
 
     /**
@@ -153,11 +154,15 @@ public class Player implements Runnable {
 			table.placeToken(id, slot); //place the token on the table
 		}
         if(queueCounter == 3){
-            try {
-                Thread.currentThread().wait();
-            } catch (InterruptedException e) {} //wait for dealer to check if winner or penalty
-            //need to ask the dealer if the cards in the queue are a set
-            //if they are a set, then point, else penalty
+            notifyAll(); //need to check when two players do notifyAll when the other still need to sleep
+            while (!isChecked) {
+                try {
+                    Thread.currentThread().wait();
+                } catch (InterruptedException e) {} //wait for dealer to check if winner or penalty
+                //need to ask the dealer if the cards in the queue are a set
+                //if they are a set, then point, else penalty
+            }
+            isChecked = false;
         }
     }
     /**

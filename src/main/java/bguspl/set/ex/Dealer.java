@@ -130,12 +130,19 @@ private void timerLoop() {
                     player.point();
                     for (int j = 0; j < player.queueCounter; j++){
                         int slot =player.slotQueue.poll();
-                        table.removeToken(player.id, slot); //check for every player if they had also token on card should be removed
-                        table.removeCard(slot);
+                        table.removeToken(player.id, slot); 
+                        for (Player playerSlot : players) {
+                            if(playerSlot.slotQueue.contains(slot)){
+                                playerSlot.slotQueue.remove(slot);
+                                playerSlot.queueCounter--;
+                            }
+                        }
+                        table.removeCard(slot);// check if other players have placed token while the dealer was checking the set
                     }
                     player.queueCounter = 0;
                 }
                 else player.penalty();
+                player.isChecked = true;
             }
         }
         
@@ -167,7 +174,7 @@ private void timerLoop() {
         List<int[]> findSetsTable = env.util.findSets(cardList, 3);
         List<int[]> findSetsDeck = env.util.findSets(deck, 3);
 
-        if(findSetsTable.size()==0){
+        if(findSetsTable.size()==0){ /// check how to shuffle the deck
             if(findSetsDeck.size()==0){
                 terminate = true;
             }
@@ -182,18 +189,24 @@ private void timerLoop() {
      * Sleep for a fixed amount of time or until the thread is awakened for some purpose.
      */
     private void sleepUntilWokenOrTimeout() {
+        
         try {
-            synchronized (this) { //?
-                wait(System.currentTimeMillis()-countdown ==env.config.turnTimeoutMillis) //second); //neeed to check 
-            }
-        } catch (InterruptedException ignored) {}
+                wait(System.currentTimeMillis()-countdown ==env.config.turnTimeoutMillis);  //neeed to check 
+            } catch (InterruptedException ignored) {}
     }
 	//one secod o update the timer
     /**
      * Reset and/or update the countdown and the countdown display.
      */
     private void updateTimerDisplay(boolean reset) {
-        // TODO implement
+        if(reset){
+            env.ui.setCountdown(env.config.turnTimeoutMillis, false);
+            countdown = System.currentTimeMillis();
+        }
+        if(System.currentTimeMillis()-countdown < env.config.turnTimeoutWarningMillis)
+            env.ui.setCountdown(System.currentTimeMillis()-countdown, true);
+        else
+            env.ui.setCountdown(System.currentTimeMillis()-countdown, false);
     }
 
     /**
@@ -222,26 +235,25 @@ private void timerLoop() {
      */
     private void announceWinners() {
 		int winnerScore = 0;
+        int winnerIndex = 0;
 		int [] winners = new int[players.length]; 
 		for (int i = 0; i < players.length; i++) {
 			if (players[i].score() > winnerScore) {
 				winnerScore = players[i].score();
-				winners[0] = players[i].id();
-			}
-			else if (players[i].score() == winnerScore) {
-				winners[1] = players[i].id();
 			}
 		}
+        for (int i = 0; i < players.length; i++) {
+            if (players[i].score() == winnerScore) {
+                winners[winnerIndex] = players[i].id;
+                winnerIndex++;
+            }
+        }
 		env.ui.announceWinner(winners);
 		terminate = true;
     }
 
 
-	//new methods
-
-	public void addPlayer(Player player) {
-		playersQueue.add(player);
-	}
+	//new method
 
 	public boolean checkSet(Queue<Integer> playQueue ) {
 		int[] cards = new int[playQueue.size()];
@@ -250,4 +262,6 @@ private void timerLoop() {
         }
 		return env.util.testSet(cards);
 	}
+
 }
+
