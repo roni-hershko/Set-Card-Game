@@ -154,6 +154,7 @@ public class Player implements Runnable {
 			table.placeToken(id, slot); //place the token on the table
 		}
         if(queueCounter == 3){
+            table.addQueuePlayers(this);
             notifyAll(); //need to check when two players do notifyAll when the other still need to sleep
             while (!isChecked) {
                 try {
@@ -193,7 +194,6 @@ public class Player implements Runnable {
 		try {
 			Thread.sleep(env.config.penaltyFreezeMillis);
 		} catch (InterruptedException e){}
-
     }
 
     public int score() {
