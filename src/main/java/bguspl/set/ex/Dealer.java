@@ -130,13 +130,13 @@ private void timerLoop() {
     private void removeCardsFromTable() { //synchronized?
 		//need to verify that no player do anything while removing the cards
         freezeAllPlayers(env.config.tableDelayMillis);
-		for (Player player : players) {
-			if(player.queueCounter == 3){ //how to check 
+		for (Player player : table.playersQueue) {
                 if(checkSet(player.slotQueue)){
                     player.point();
                     for (int j = 0; j < player.queueCounter; j++){
                         int slot =player.slotQueue.poll();
                         table.removeToken(player.id, slot); 
+                        table.removeQueuePlayers(player);
                         for (Player playerSlot : players) {
                             if(playerSlot.slotQueue.contains(slot)){
                                 playerSlot.slotQueue.remove(slot);
@@ -151,7 +151,6 @@ private void timerLoop() {
                 else player.penalty();
                 player.isChecked = true;
             }
-        }
         
     }
 
@@ -207,10 +206,10 @@ private void timerLoop() {
      * Sleep for a fixed amount of time or until the thread is awakened for some purpose.
      */
     private void sleepUntilWokenOrTimeout() {
-        if (table.playersQueue.size()==0) {
+        if (table.playersQueue.size()==0) { //
             try {
                 wait(second);
-            } catch (InterruptedException x) { Thread.currentThread().interrupt();}
+            } catch (InterruptedException x) { Thread.currentThread().interrupt();}  
         }
     }
 	//one secod o update the timer
