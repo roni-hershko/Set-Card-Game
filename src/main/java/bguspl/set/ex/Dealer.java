@@ -73,6 +73,11 @@ public Dealer(Env env, Table table, Player[] players) {
 		//check if there is a set on the table
 		//if not reshuffle the table
 
+
+		//compare and set= boolean cas = env.util.testSet(int[] cards);
+		//atomic integer, atomic boolean
+		//concurrent queue, concurrent hash map, concurrent linked queue, 
+
 		//every minute the dealer should reshuffle the table- collect all cards and put new cards
         env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
         while (!shouldFinish()) {
