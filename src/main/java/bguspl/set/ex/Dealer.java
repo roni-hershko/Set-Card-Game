@@ -41,12 +41,17 @@ public class Dealer implements Runnable {
     private long reshuffleTime = Long.MAX_VALUE;
  
     //new fields
+	private Thread dealerThread;
+
     long lastUpdateForElapsed;
 
     int second = 1000;
 	
+		//compare and set= boolean cas = env.util.testSet(int[] cards);
+		//atomic integer, atomic boolean
+		//concurrent queue, concurrent hash map, concurrent linked queue, 
 
-public Dealer(Env env, Table table, Player[] players) {
+	public Dealer(Env env, Table table, Player[] players) {
 	this.env = env;
 	this.table = table;
 	this.players = players;
@@ -54,9 +59,6 @@ public Dealer(Env env, Table table, Player[] players) {
 	terminate = false;
     reshuffleTime = System.currentTimeMillis() + env.config.turnTimeoutMillis;
     lastUpdateForElapsed = System.currentTimeMillis();
-    //GP: added
-	
-    //playersQueue = new LinkedList<Player>();
 }
 
     /**
@@ -64,26 +66,14 @@ public Dealer(Env env, Table table, Player[] players) {
      */
     @Override
     public void run() {
-
-		//check if the counter of the keypress queue is 3 
-		//check if the key presses in the keypress queue represent a set 
-		// if set is found remove the cards from the table-----------------timeloop
-		// discard the 3 cards from, the table and add 3 new cards from the deck using placeCardsOnTable ------------timeloop-- removeCardsFromTable+placeCardsOnTable	
-		//if there are not enough cards in the deck put all the deck 
-		//give the succesful player one point -----------where is the action of updating the score?
-		//else if set is not found, penalty -------------check the time 
-		//start the next round------------------- time loop
-		//updateTimerDisplay------------------- time loop
-		//check if there is a set on the table
-		//if not reshuffle the table
-
-
-		//compare and set= boolean cas = env.util.testSet(int[] cards);
-		//atomic integer, atomic boolean
-		//concurrent queue, concurrent hash map, concurrent linked queue, 
-
-		//every minute the dealer should reshuffle the table- collect all cards and put new cards
         env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
+		dealerThread = Thread.currentThread();
+		for (Player player : players) {
+			//player.dealerThread = Thread.currentThread(); //??????
+            new Thread(player).start(); 
+		}
+		updateTimerDisplay(true);	
+
         while (!shouldFinish()) {
             placeCardsOnTable();
             timerLoop();
@@ -97,7 +87,7 @@ public Dealer(Env env, Table table, Player[] players) {
     /**
      * The inner loop of the dealer thread that runs as long as the countdown did not time out.
      */
-private void timerLoop() {
+	private void timerLoop() {
 	while (!terminate && System.currentTimeMillis() < reshuffleTime) {
 		sleepUntilWokenOrTimeout();
 		updateTimerDisplay(false);
@@ -110,16 +100,15 @@ private void timerLoop() {
      * Called when the game should be terminated.
      */
     public void terminate() {
-        freezeAllPlayers(env.config.endGamePauseMillies);
-
-		for (Player player : players) {
-			player.terminate();
- 	   }
+        freezeAllPlayers(env.config.endGamePauseMillies); //????? the players cant do terminate while they are frozen
+		if(!terminate){
+			for (Player player : players) {
+				player.terminate();
+ 	  	 }
+		}
 	    terminate = true;
-
-		//the game will countinue until the there are no more sets in the table or on deck!!!
-		//the player with the most point will win 
 	}
+
     /**
      * Check if the game should be terminated or the game end conditions are met.
      *
@@ -132,18 +121,24 @@ private void timerLoop() {
     /**
      * Checks cards should be removed from the table and removes them.
      */
-    private void removeCardsFromTable() { //synchronized?
-		//need to verify that no player do anything while removing the cards
-        freezeAllPlayers(env.config.tableDelayMillis);
+    private void removeCardsFromTable() { 
+        //freezeAllPlayers(env.config.tableDelayMillis); //????? not needed beause happen in table
+
+		//check if there is a valid set and remove the cards
 		for (Player player : table.playersQueue) {
-                if(checkSet(player.slotQueue)){
+                if(checkSet(player.slotQueue)){ //check the set for the first player in the playerqueue
                     player.point();
+
+					//remove the set cards
                     for (int j = 0; j < player.queueCounter; j++){
-                        int slot =player.slotQueue.poll();
+                        int slot = player.slotQueue.poll();
                         table.removeToken(player.id, slot); 
                         table.removeQueuePlayers(player);
+
+						//remove the tokens of the cards that were removed from the table from the other players
                         for (Player playerSlot : players) {
                             if(playerSlot.slotQueue.contains(slot)){
+								table.removeToken(playerSlot.id, slot); 
                                 playerSlot.slotQueue.remove(slot);
                                 playerSlot.queueCounter--;
                             }
@@ -163,11 +158,10 @@ private void timerLoop() {
      * Check if any cards can be removed from the deck and placed on the table.
      */
     private void placeCardsOnTable() {
-		//need to verify that no player do anything while removing the cards
-        //relevent also for put 3 cards and also to fill all the table
-        //place cards on the table
-        freezeAllPlayers(env.config.tableDelayMillis);
-        for (int i = 0; i < env.config.tableSize; i++){
+        //freezeAllPlayers(env.config.tableDelayMillis); same as in removeCardsFromTable
+		
+		shuffleDeck();
+		for (int i = 0; i < env.config.tableSize; i++){
             if (table.slotToCard[i] == null){
                 if (deck.size() > 0){
                     int card = deck.remove(0);
@@ -177,34 +171,34 @@ private void timerLoop() {
         }
         notifyAll();
         //create lists for searching sets
-        List<Integer>cardList=new LinkedList<Integer>();
-        for(int i=0; i<table.slotToCard.length; i++){
-            if(table.slotToCard[i] != null){
-                cardList.add(table.slotToCard[i]);
-            }
-        }
-        List<int[]> findSetsTable = env.util.findSets(cardList, 3);
-        if(findSetsTable.size()==0){ /// no set on table
-            List<Integer> deckAndTable=new LinkedList<Integer>();
-            for(int i=0; i<table.slotToCard.length; i++){
-                if(table.slotToCard[i] != null){
-                    deckAndTable.add(table.slotToCard[i]);
-                }
-            }
-            for(int i=0; i<deck.size(); i++){
-                deckAndTable.add(deck.get(i));
-            }
+        // List<Integer>cardList=new LinkedList<Integer>();
+        // for(int i=0; i<table.slotToCard.length; i++){
+        //     if(table.slotToCard[i] != null){
+        //         cardList.add(table.slotToCard[i]);
+        //     }
+        // }
+        // List<int[]> findSetsTable = env.util.findSets(cardList, 3);
+        // if(findSetsTable.size()==0){ /// no set on table
+        //     List<Integer> deckAndTable=new LinkedList<Integer>();
+        //     for(int i=0; i<table.slotToCard.length; i++){
+        //         if(table.slotToCard[i] != null){
+        //             deckAndTable.add(table.slotToCard[i]);
+        //         }
+        //     }
+        //     for(int i=0; i<deck.size(); i++){
+        //         deckAndTable.add(deck.get(i));
+        //     }
 
-            List<int[]> findSetsDeck = env.util.findSets(deckAndTable, 3);
+        //     List<int[]> findSetsDeck = env.util.findSets(deckAndTable, 3);
 
-            if(findSetsDeck.size()==0){
-                terminate = true;
-            }
-            else{
-                shuffleDeck();
-                placeCardsOnTable();
-            }
-        }
+        //     if(findSetsDeck.size()==0){
+        //         terminate = true;
+        //     }
+        //     else{
+        //         shuffleDeck();
+        //         placeCardsOnTable();
+        //     }
+        // }
     }
 
     /**
@@ -244,27 +238,31 @@ private void timerLoop() {
                     env.ui.setCountdown(reshuffleTime -System.currentTimeMillis() , false);
             }
         }
-    }
+    }		//every minute the dealer should reshuffle the table- collect all cards and put new cards
+
 
     /**
      * Returns all the cards from the table to the deck.
      */
     private void removeAllCardsFromTable() {
-        freezeAllPlayers(env.config.tableDelayMillis);
+        //freezeAllPlayers(env.config.tableDelayMillis); //????? not needed beause happen in table
         
-        for(int i = 0; i < players.length; i++){
+        for(int i = 0; i < players.length; i++){ ///????? same as above
             try {
                 players[i].getPlayerThread().wait();
             } catch (InterruptedException e) {}
         }
         for(int i = 0; i < players.length; i++){
             for (int j = 0; j < players[i].queueCounter; j++){
-                int slot =players[i].slotQueue.poll();
+                int slot = players[i].slotQueue.poll();
                 table.removeToken(players[i].id, slot);
             }
         }
         for (int i = 0; i < env.config.tableSize; i++){
-            table.removeCard(i);
+			if (table.slotToCard[i] != null) { 
+            	table.removeCard(i);
+				deck.add(i); //add cards from table to deck
+			}
         }
     }
 
@@ -275,6 +273,7 @@ private void timerLoop() {
 		int winnerScore = 0;
         int winnerIndex = 0;
 		int [] winners = new int[players.length]; 
+
 		for (int i = 0; i < players.length; i++) {
 			if (players[i].score() > winnerScore) {
 				winnerScore = players[i].score();
@@ -290,9 +289,7 @@ private void timerLoop() {
 		terminate = true;
     }
 
-
-	//new method
-
+	//new methods
 	public boolean checkSet(Queue<Integer> playQueue ) {
 		int[] cards = new int[playQueue.size()];
         for (int i = 0; i < playQueue.size(); i++) {
@@ -301,15 +298,14 @@ private void timerLoop() {
 		return env.util.testSet(cards);
 	}
 
-
     public void shuffleDeck() {
-        for(int i=0; i<table.slotToCard.length; i++){
-            if(table.slotToCard[i] != null){
-                deck.add(table.slotToCard[i]);
-            }
-        }
-        removeAllCardsFromTable();
-        //shuffle the deck
+        // for(int i=0; i<table.slotToCard.length; i++){
+        //     if(table.slotToCard[i] != null){
+        //         deck.add(table.slotToCard[i]);
+        //     }
+        // }
+        // removeAllCardsFromTable();
+        // //shuffle the deck
         for (int i = 0; i < env.config.deckSize; i++) {
             int randomIndex = (int) (Math.random() * deck.size());
             int temp = deck.get(i);

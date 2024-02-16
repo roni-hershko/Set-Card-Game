@@ -1,10 +1,6 @@
 package bguspl.set.ex;
-
 import bguspl.set.Env;
-
-import java.util.LinkedList;
-import java.util.Queue;
-
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 
 /**
@@ -59,12 +55,17 @@ public class Player implements Runnable {
     /**
 	 * queue of key presses
 	 */
-		
-	Queue<Integer> slotQueue;
+	ConcurrentLinkedQueue<Integer> slotQueue;
 
 	int queueCounter; 
-	
-    volatile boolean isChecked; //mabye atomic/ volatile boolean
+
+	public volatile boolean isChecked;
+
+	public final Object humanPlayerLock;
+
+    public final Object aiPlayerLock;
+
+	int second = 1000;
 
 	/**
      * The class constructor.
@@ -81,32 +82,33 @@ public class Player implements Runnable {
         this.id = id;
         this.human = human;
 	 	this.queueCounter = 0; 
-		this.slotQueue = new LinkedList<Integer>();
+		this.slotQueue = new ConcurrentLinkedQueue<Integer>();
         this.isChecked = false;
+		this.humanPlayerLock = new Object();
+		this.aiPlayerLock = new Object();
     }
 
     /**
      * The main player thread of each player starts here (main loop for the player thread).
      */
     @Override
-    public void run() {
+    public void run() { //?????
         playerThread = Thread.currentThread();
         env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
         if (!human) createArtificialIntelligence();
 
-        while (!terminate) {
-			playerThread.start();        }
+        while (!terminate) {  
+		} 
         if (!human) try { aiThread.join(); } catch (InterruptedException ignored) {}
         env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
-
-		//Once the player places his third token on the table, he must notify the dealer and wait until the dealer checks if it is a legal set or not. 
+		
     }
 
     /**
      * Creates an additional thread for an AI (computer) player. The main loop of this thread repeatedly generates
      * key presses. If the queue of key presses is full, the thread waits until it is not full.
      */
-    private void createArtificialIntelligence() {
+    private void createArtificialIntelligence() { //?????
         // note: this is a very, very smart AI (!)
         aiThread = new Thread(() -> {
             env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
@@ -126,7 +128,7 @@ public class Player implements Runnable {
      */
     public void terminate() {
         
-		if (aiThread != null) aiThread.interrupt();
+		if (!human) aiThread.interrupt();
 		if (playerThread != null) playerThread.interrupt();
 		terminate = true;
     }
@@ -137,11 +139,21 @@ public class Player implements Runnable {
      * @param slot - the slot corresponding to the key pressed.
      */
     public void keyPressed(int slot) {
+
 		boolean isDoubleClick = false;	
+
+		//add slot to slotQueue
+			//poll remove the first element from the queue, we add the element back to the queue ?????
+			// but when we reach the double slot we stop the process so the order of element is different
+			//i dont think its a problem bur should be checked
+
+			//another thing we need to check that there is no access to the table somehow ????
 		for(int i = 0; i < queueCounter; i++){
-			int currSlot= slotQueue.poll();
+			int currSlot= slotQueue.poll(); 
 			if(currSlot != slot)
-             slotQueue.add(currSlot);
+            	slotQueue.add(currSlot);
+
+			//if the key is pressed twice, remove the token from the table
 			else{
 				isDoubleClick = true;
 				table.removeToken(id, slot);
@@ -153,19 +165,19 @@ public class Player implements Runnable {
 			queueCounter++;
 			table.placeToken(id, slot); //place the token on the table
 		}
-        if(queueCounter == 3){
+        if(queueCounter == 3 && !terminate){
             table.addQueuePlayers(this);
-            notifyAll(); //need to check when two players do notifyAll when the other still need to sleep
+            notifyAll(); 
+			//if notifyAll wakes up another player thread that already pressed 3 keys and is waiting for the dealer to check, put him back to sleep 
             while (!isChecked) {
                 try {
                     Thread.currentThread().wait();
-                } catch (InterruptedException e) {} //wait for dealer to check if winner or penalty
-                //need to ask the dealer if the cards in the queue are a set
-                //if they are a set, then point, else penalty
+                } catch (InterruptedException e) {} 
             }
             isChecked = false;
         }
     }
+
     /**
      * Award a point to a player and perform other related actions.
      *
@@ -174,26 +186,35 @@ public class Player implements Runnable {
      */
     public void point() {
 		env.ui.setScore(id, ++score);
-		env.ui.setFreeze(id, env.config.pointFreezeMillis);
+		long pointFreeze = env.config.pointFreezeMillis;
+        env.ui.setFreeze(id, pointFreeze);
 		score++;
 
-		try {
-			Thread.sleep(env.config.pointFreezeMillis);
-		} catch (InterruptedException e){}
-
-
+		while(pointFreeze > 0){ 
+			try {
+				Thread.sleep(second); //cut the freeze time of point to seconds so the updateTimerDisplay function will update the time countdown currently
+			} catch (InterruptedException e){}
+			pointFreeze -= second;
+			env.ui.setFreeze(id, pointFreeze);
+		}
         int ignored = table.countCards(); // this part is just for demonstration in the unit tests
-
     }
 
     /**
      * Penalize a player and perform other related actions.
      */
     public void penalty() {
-        env.ui.setFreeze(id, env.config.penaltyFreezeMillis);
-		try {
-			Thread.sleep(env.config.penaltyFreezeMillis);
-		} catch (InterruptedException e){}
+
+		long penaltyFreeze = env.config.penaltyFreezeMillis;
+        env.ui.setFreeze(id, penaltyFreeze);
+
+		while(penaltyFreeze > 0){ 
+			try {
+				Thread.sleep(second); //same as point
+			} catch (InterruptedException e){}
+			penaltyFreeze -= second;
+			env.ui.setFreeze(id, penaltyFreeze);
+		}
     }
 
     public int score() {

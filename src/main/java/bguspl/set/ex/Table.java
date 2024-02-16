@@ -1,12 +1,8 @@
 package bguspl.set.ex;
-
 import bguspl.set.Env;
-
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
-import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.stream.Collectors;
 
@@ -41,15 +37,9 @@ public class Table {
      */
 
 	//new fields
+	public final Object lock;
 
-	// rh: new lock 
-	public final Object lock = new Object();
-
-	/**
-	 * queue of players (gets player's id) that are waiting to be checked
-	 */
 	ConcurrentLinkedQueue<Player> playersQueue;
-
 
 
     public Table(Env env, Integer[] slotToCard, Integer[] cardToSlot) {
@@ -57,6 +47,7 @@ public class Table {
         this.env = env;
         this.slotToCard = slotToCard;
         this.cardToSlot = cardToSlot;
+		this.lock = new Object();
 		playersQueue = new ConcurrentLinkedQueue<Player>();
     }
 
@@ -109,7 +100,7 @@ public class Table {
             Thread.sleep(env.config.tableDelayMillis);
         } catch (InterruptedException ignored) {}
 
-		synchronized(lock){ //rh
+		synchronized(lock){ //?????
       		cardToSlot[card] = slot;
        		slotToCard[slot] = card;
 			env.ui.placeCard(card, slot);
@@ -126,7 +117,7 @@ public class Table {
             Thread.sleep(env.config.tableDelayMillis);
         } catch (InterruptedException ignored) {}
 
-		synchronized(lock){ //rh
+		synchronized(lock){  //?????
 			int CardToRemove = slotToCard[slot];
 			cardToSlot[CardToRemove] = null;
 			slotToCard[slot] = null; 
@@ -149,10 +140,10 @@ public class Table {
      * @param slot   - the slot from which to remove the token.
      * @return       - true iff a token was successfully removed.
      */
-    //if some player can't remove token, he will be in sleep mode, else he can remove.
+    //if some player can't remove token, he will be in sleep mode, else he can remove therefor always true
     public boolean removeToken(int player, int slot) {
         	env.ui.removeToken(player, slot);
-        	return true; //need to check
+        	return true; //???
 	}
 
     //new methods GP
