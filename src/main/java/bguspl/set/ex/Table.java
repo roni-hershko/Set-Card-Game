@@ -32,7 +32,6 @@ public class Table {
      */
     protected final Integer[] cardToSlot; // slot per card (if any)
 
-    //new fields
     /**
      * Constructor for testing.
      *

@@ -41,7 +41,9 @@ public class Dealer implements Runnable {
     private long reshuffleTime = Long.MAX_VALUE;
  
     //new fields
-    long countdown=0;
+    long lastUpdateForElapsed;
+
+    int second = 1000;
 	
 
 public Dealer(Env env, Table table, Player[] players) {
@@ -50,9 +52,11 @@ public Dealer(Env env, Table table, Player[] players) {
 	this.players = players;
 	deck = IntStream.range(0, env.config.deckSize).boxed().collect(Collectors.toList());
 	terminate = false;
+    reshuffleTime = System.currentTimeMillis() + env.config.turnTimeoutMillis;
+    lastUpdateForElapsed = System.currentTimeMillis();
     //GP: added
-    countdown= System.currentTimeMillis();
-	//playersQueue = new LinkedList<Player>();
+	
+    //playersQueue = new LinkedList<Player>();
 }
 
     /**
@@ -83,7 +87,7 @@ public Dealer(Env env, Table table, Player[] players) {
         while (!shouldFinish()) {
             placeCardsOnTable();
             timerLoop();
-            updateTimerDisplay(false);
+            updateTimerDisplay(true);
             removeAllCardsFromTable();
         }
         announceWinners();
@@ -106,6 +110,8 @@ private void timerLoop() {
      * Called when the game should be terminated.
      */
     public void terminate() {
+        freezeAllPlayers(env.config.endGamePauseMillies);
+
 		for (Player player : players) {
 			player.terminate();
  	   }
@@ -128,7 +134,7 @@ private void timerLoop() {
      */
     private void removeCardsFromTable() { //synchronized?
 		//need to verify that no player do anything while removing the cards
-
+        freezeAllPlayers(env.config.tableDelayMillis);
 		for (Player player : players) {
 			if(player.queueCounter == 3){ //how to check 
                 if(checkSet(player.slotQueue)){
@@ -143,6 +149,7 @@ private void timerLoop() {
                             }
                         }
                         table.removeCard(slot);// check if other players have placed token while the dealer was checking the set
+                        updateTimerDisplay(true);
                     }
                     player.queueCounter = 0;
                 }
@@ -160,6 +167,7 @@ private void timerLoop() {
 		//need to verify that no player do anything while removing the cards
         //relevent also for put 3 cards and also to fill all the table
         //place cards on the table
+        freezeAllPlayers(env.config.tableDelayMillis);
         for (int i = 0; i < env.config.tableSize; i++){
             if (table.slotToCard[i] == null){
                 if (deck.size() > 0){
@@ -177,14 +185,24 @@ private void timerLoop() {
             }
         }
         List<int[]> findSetsTable = env.util.findSets(cardList, 3);
-        List<int[]> findSetsDeck = env.util.findSets(deck, 3);
+        if(findSetsTable.size()==0){ /// no set on table
+            List<Integer> deckAndTable=new LinkedList<Integer>();
+            for(int i=0; i<table.slotToCard.length; i++){
+                if(table.slotToCard[i] != null){
+                    deckAndTable.add(table.slotToCard[i]);
+                }
+            }
+            for(int i=0; i<deck.size(); i++){
+                deckAndTable.add(deck.get(i));
+            }
 
-        if(findSetsTable.size()==0){ /// check how to shuffle the deck
+            List<int[]> findSetsDeck = env.util.findSets(deckAndTable, 3);
+
             if(findSetsDeck.size()==0){
                 terminate = true;
             }
             else{
-                removeAllCardsFromTable();
+                shuffleDeck();
                 placeCardsOnTable();
             }
         }
@@ -194,31 +212,47 @@ private void timerLoop() {
      * Sleep for a fixed amount of time or until the thread is awakened for some purpose.
      */
     private void sleepUntilWokenOrTimeout() {
-        
-        try {
-                wait(System.currentTimeMillis()-countdown ==env.config.turnTimeoutMillis);  //neeed to check 
-            } catch (InterruptedException ignored) {}
+        if (table.playersQueue.size()==0) {
+            try {
+                wait(second);
+            } catch (InterruptedException x) { Thread.currentThread().interrupt();}
+        }
     }
 	//one secod o update the timer
     /**
      * Reset and/or update the countdown and the countdown display.
      */
     private void updateTimerDisplay(boolean reset) {
-        if(reset){
-            env.ui.setCountdown(env.config.turnTimeoutMillis, false);
-            countdown = System.currentTimeMillis();
+        if(env.config.turnTimeoutMillis == 0){
+            if (reset) {
+                env.ui.setElapsed(0);
+                lastUpdateForElapsed = System.currentTimeMillis();
+            } 
+            else {
+                env.ui.setElapsed(System.currentTimeMillis() - lastUpdateForElapsed);
+            }
         }
-        if(System.currentTimeMillis()-countdown < env.config.turnTimeoutWarningMillis)
-            env.ui.setCountdown(System.currentTimeMillis()-countdown, true);
-        else
-            env.ui.setCountdown(System.currentTimeMillis()-countdown, false);
+
+        if(env.config.turnTimeoutMillis > 0) {
+            if(reset){
+                reshuffleTime = System.currentTimeMillis() + env.config.turnTimeoutMillis;
+                env.ui.setCountdown(env.config.turnTimeoutMillis, false);
+            }
+            else{
+                if(reshuffleTime -System.currentTimeMillis() <= env.config.turnTimeoutWarningMillis)
+                    env.ui.setCountdown(reshuffleTime -System.currentTimeMillis() , true);
+                else
+                    env.ui.setCountdown(reshuffleTime -System.currentTimeMillis() , false);
+            }
+        }
     }
 
     /**
      * Returns all the cards from the table to the deck.
      */
     private void removeAllCardsFromTable() {
-		//need to verify that no player do anything while removing the cards
+        freezeAllPlayers(env.config.tableDelayMillis);
+        
         for(int i = 0; i < players.length; i++){
             try {
                 players[i].getPlayerThread().wait();
@@ -268,5 +302,30 @@ private void timerLoop() {
 		return env.util.testSet(cards);
 	}
 
+
+    public void shuffleDeck() {
+        for(int i=0; i<table.slotToCard.length; i++){
+            if(table.slotToCard[i] != null){
+                deck.add(table.slotToCard[i]);
+            }
+        }
+        removeAllCardsFromTable();
+        //shuffle the deck
+        for (int i = 0; i < env.config.deckSize; i++) {
+            int randomIndex = (int) (Math.random() * deck.size());
+            int temp = deck.get(i);
+            deck.set(i, deck.get(randomIndex));
+            deck.set(randomIndex, temp);
+        }
+    }
+
+    public void freezeAllPlayers(long time) { //problem with static
+        for (Player player : players) {
+            env.ui.setFreeze(player.id(), time);
+            try {
+                player.getPlayerThread().sleep(time);
+            } catch (InterruptedException e) {}
+        }
+    }
 }
 
