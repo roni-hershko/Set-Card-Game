@@ -139,6 +139,7 @@ public class Table {
      */
     //if some player can't remove token, he will be in sleep mode, else he can remove therefor always true
     public boolean removeToken(int player, int slot) {
+            //check if the player has this solt in his queue
         	env.ui.removeToken(player, slot);
         	return true; //???
 	}

@@ -138,42 +138,43 @@ public class Player implements Runnable {
      * @param slot - the slot corresponding to the key pressed.
      */
     public void keyPressed(int slot) {
+        if(table.slotToCard[slot] != null){ 
+            boolean isDoubleClick = false;	
 
-		boolean isDoubleClick = false;	
+            //add slot to slotQueue
+                //poll remove the first element from the queue, we add the element back to the queue ?????
+                // but when we reach the double slot we stop the process so the order of element is different
+                //i dont think its a problem bur should be checked
 
-		//add slot to slotQueue
-			//poll remove the first element from the queue, we add the element back to the queue ?????
-			// but when we reach the double slot we stop the process so the order of element is different
-			//i dont think its a problem bur should be checked
+                //another thing we need to check that there is no access to the table somehow ????
+            for(int i = 0; i < queueCounter; i++){
+                int currSlot= slotQueue.poll(); 
+                if(currSlot != slot)
+                    slotQueue.add(currSlot);
 
-			//another thing we need to check that there is no access to the table somehow ????
-		for(int i = 0; i < queueCounter; i++){
-			int currSlot= slotQueue.poll(); 
-			if(currSlot != slot)
-            	slotQueue.add(currSlot);
-
-			//if the key is pressed twice, remove the token from the table
-			else{
-				isDoubleClick = true;
-				table.removeToken(id, slot);
-				queueCounter--;
-			}
-		}
-		if (!isDoubleClick) {
-			slotQueue.add(slot); //add the key press to the queue
-			queueCounter++;
-			table.placeToken(id, slot); //place the token on the table
-		}
-        if(queueCounter == 3 && !terminate){
-            table.addQueuePlayers(this);
-            notifyAll(); 
-			//if notifyAll wakes up another player thread that already pressed 3 keys and is waiting for the dealer to check, put him back to sleep 
-            while (!isChecked) {
-                try {
-                    Thread.currentThread().wait();
-                } catch (InterruptedException e) {} 
+                //if the key is pressed twice, remove the token from the table
+                else{
+                    isDoubleClick = true;
+                    table.removeToken(id, slot);
+                    queueCounter--;
+                }
             }
-            isChecked = false;
+            if (!isDoubleClick) {
+                slotQueue.add(slot); //add the key press to the queue
+                queueCounter++;
+                table.placeToken(id, slot); //place the token on the table
+            }
+            if(queueCounter == env.config.featureSize && !terminate){
+                table.addQueuePlayers(this);
+                notifyAll(); 
+                //if notifyAll wakes up another player thread that already pressed env.config.featureSize keys and is waiting for the dealer to check, put him back to sleep 
+                while (!isChecked) {
+                    try {
+                        Thread.currentThread().wait();
+                    } catch (InterruptedException e) {} 
+                }
+                isChecked = false;
+            }
         }
     }
 

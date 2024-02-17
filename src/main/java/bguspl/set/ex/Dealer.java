@@ -126,22 +126,26 @@ public class Dealer implements Runnable {
 		for (Player player : table.playersQueue) {
                 if(checkSet(player.slotQueue)){ //check the set for the first player in the playerqueue
                     player.point();
-
-					//remove the set cards
+                    table.removeQueuePlayers(player);
+					
+                    //remove the set cards
                     for (int j = 0; j < player.queueCounter; j++){
                         int slot = player.slotQueue.poll();
                         table.removeToken(player.id, slot); 
-                        table.removeQueuePlayers(player);
+
+                        table.removeCard(slot);
 
 						//remove the tokens of the cards that were removed from the table from the other players
                         for (Player playerSlot : players) {
                             if(playerSlot.slotQueue.contains(slot)){
-								table.removeToken(playerSlot.id, slot); 
+								table.removeToken(playerSlot.id, slot);
+                                //check if the player is in the queue of players
+                                if(table.playersQueue.contains(playerSlot))
+                                    table.removeQueuePlayers(playerSlot);
                                 playerSlot.slotQueue.remove(slot);
                                 playerSlot.queueCounter--;
                             }
                         }
-                        table.removeCard(slot);// check if other players have placed token while the dealer was checking the set
                         updateTimerDisplay(true);
                     }
                     player.queueCounter = 0;
@@ -167,7 +171,6 @@ public class Dealer implements Runnable {
                 }
             }
         }
-        notifyAll();
         //create lists for searching sets
          List<Integer>cardList=new LinkedList<Integer>();
         for(int i=0; i<table.slotToCard.length; i++){
@@ -175,11 +178,12 @@ public class Dealer implements Runnable {
                 cardList.add(table.slotToCard[i]);
              }
          }
-        List<int[]> findSetsTable = env.util.findSets(cardList, 3);
+        List<int[]> findSetsTable = env.util.findSets(cardList, env.config.featureSize);
         if(findSetsTable.size()==0){ /// no set on table
             removeAllCardsFromTable();
             placeCardsOnTable();
         }
+        notifyAll();
             // List<Integer> deckAndTable=new LinkedList<Integer>();
             // for(int i=0; i<table.slotToCard.length; i++){
             //     if(table.slotToCard[i] != null){
@@ -190,7 +194,7 @@ public class Dealer implements Runnable {
             //     deckAndTable.add(deck.get(i));
             // }
 
-            // List<int[]> findSetsDeck = env.util.findSets(deckAndTable, 3);
+            // List<int[]> findSetsDeck = env.util.findSets(deckAndTable, env.config.featureSize);
 
             // if(findSetsDeck.size()==0){
             //     terminate = true;
