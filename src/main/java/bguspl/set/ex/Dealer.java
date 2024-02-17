@@ -41,7 +41,6 @@ public class Dealer implements Runnable {
     private long reshuffleTime = Long.MAX_VALUE;
  
     //new fields
-	private Thread dealerThread;
 
     long lastUpdateForElapsed;
 
@@ -67,7 +66,6 @@ public class Dealer implements Runnable {
     @Override
     public void run() {
         env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
-		dealerThread = Thread.currentThread();
 		for (Player player : players) {
 			//player.dealerThread = Thread.currentThread(); //??????
             new Thread(player).start(); 
@@ -122,7 +120,7 @@ public class Dealer implements Runnable {
      * Checks cards should be removed from the table and removes them.
      */
     private void removeCardsFromTable() { 
-        //freezeAllPlayers(env.config.tableDelayMillis); //????? not needed beause happen in table
+        freezeAllPlayers(env.config.tableDelayMillis); //????? not needed beause happen in table
 
 		//check if there is a valid set and remove the cards
 		for (Player player : table.playersQueue) {
@@ -158,7 +156,7 @@ public class Dealer implements Runnable {
      * Check if any cards can be removed from the deck and placed on the table.
      */
     private void placeCardsOnTable() {
-        //freezeAllPlayers(env.config.tableDelayMillis); same as in removeCardsFromTable
+        freezeAllPlayers(env.config.tableDelayMillis); //same as in removeCardsFromTable
 		
 		shuffleDeck();
 		for (int i = 0; i < env.config.tableSize; i++){
@@ -171,34 +169,36 @@ public class Dealer implements Runnable {
         }
         notifyAll();
         //create lists for searching sets
-        // List<Integer>cardList=new LinkedList<Integer>();
-        // for(int i=0; i<table.slotToCard.length; i++){
-        //     if(table.slotToCard[i] != null){
-        //         cardList.add(table.slotToCard[i]);
-        //     }
-        // }
-        // List<int[]> findSetsTable = env.util.findSets(cardList, 3);
-        // if(findSetsTable.size()==0){ /// no set on table
-        //     List<Integer> deckAndTable=new LinkedList<Integer>();
-        //     for(int i=0; i<table.slotToCard.length; i++){
-        //         if(table.slotToCard[i] != null){
-        //             deckAndTable.add(table.slotToCard[i]);
-        //         }
-        //     }
-        //     for(int i=0; i<deck.size(); i++){
-        //         deckAndTable.add(deck.get(i));
-        //     }
+         List<Integer>cardList=new LinkedList<Integer>();
+        for(int i=0; i<table.slotToCard.length; i++){
+             if(table.slotToCard[i] != null){
+                cardList.add(table.slotToCard[i]);
+             }
+         }
+        List<int[]> findSetsTable = env.util.findSets(cardList, 3);
+        if(findSetsTable.size()==0){ /// no set on table
+            removeAllCardsFromTable();
+            placeCardsOnTable();
+        }
+            // List<Integer> deckAndTable=new LinkedList<Integer>();
+            // for(int i=0; i<table.slotToCard.length; i++){
+            //     if(table.slotToCard[i] != null){
+            //         deckAndTable.add(table.slotToCard[i]);
+            //     }
+            // }
+            // for(int i=0; i<deck.size(); i++){
+            //     deckAndTable.add(deck.get(i));
+            // }
 
-        //     List<int[]> findSetsDeck = env.util.findSets(deckAndTable, 3);
+            // List<int[]> findSetsDeck = env.util.findSets(deckAndTable, 3);
 
-        //     if(findSetsDeck.size()==0){
-        //         terminate = true;
-        //     }
-        //     else{
-        //         shuffleDeck();
-        //         placeCardsOnTable();
-        //     }
-        // }
+            // if(findSetsDeck.size()==0){
+            //     terminate = true;
+            // }
+            // else{
+            //     shuffleDeck();
+            //     placeCardsOnTable();
+            // }
     }
 
     /**
@@ -245,7 +245,7 @@ public class Dealer implements Runnable {
      * Returns all the cards from the table to the deck.
      */
     private void removeAllCardsFromTable() {
-        //freezeAllPlayers(env.config.tableDelayMillis); //????? not needed beause happen in table
+        freezeAllPlayers(env.config.tableDelayMillis); //????? not needed beause happen in table
         
         for(int i = 0; i < players.length; i++){ ///????? same as above
             try {
@@ -299,13 +299,6 @@ public class Dealer implements Runnable {
 	}
 
     public void shuffleDeck() {
-        // for(int i=0; i<table.slotToCard.length; i++){
-        //     if(table.slotToCard[i] != null){
-        //         deck.add(table.slotToCard[i]);
-        //     }
-        // }
-        // removeAllCardsFromTable();
-        // //shuffle the deck
         for (int i = 0; i < env.config.deckSize; i++) {
             int randomIndex = (int) (Math.random() * deck.size());
             int temp = deck.get(i);

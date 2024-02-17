@@ -61,7 +61,7 @@ public class Player implements Runnable {
 
 	public volatile boolean isChecked;
 
-	public final Object humanPlayerLock;
+	public final Object PlayerLock;
 
     public final Object aiPlayerLock;
 
@@ -84,7 +84,7 @@ public class Player implements Runnable {
 	 	this.queueCounter = 0; 
 		this.slotQueue = new ConcurrentLinkedQueue<Integer>();
         this.isChecked = false;
-		this.humanPlayerLock = new Object();
+		this.PlayerLock = new Object();
 		this.aiPlayerLock = new Object();
     }
 
@@ -101,7 +101,6 @@ public class Player implements Runnable {
 		} 
         if (!human) try { aiThread.join(); } catch (InterruptedException ignored) {}
         env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
-		
     }
 
     /**
