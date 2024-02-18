@@ -165,7 +165,7 @@ public class Dealer implements Runnable {
 		shuffleDeck();
 		for (int i = 0; i < env.config.tableSize; i++){
             if (table.slotToCard[i] == null){
-                if (deck.size() > 0){
+                if (env.config.deckSize > 0){
                     int card = deck.remove(0);
                     table.placeCard(card, i);
                 }
@@ -304,7 +304,7 @@ public class Dealer implements Runnable {
 
     public void shuffleDeck() {
         for (int i = 0; i < env.config.deckSize; i++) {
-            int randomIndex = (int) (Math.random() * deck.size());
+            int randomIndex = (int) (Math.random() * env.config.deckSize);
             int temp = deck.get(i);
             deck.set(i, deck.get(randomIndex));
             deck.set(randomIndex, temp);

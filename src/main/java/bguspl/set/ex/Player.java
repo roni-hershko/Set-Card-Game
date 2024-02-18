@@ -1,5 +1,7 @@
 package bguspl.set.ex;
 import bguspl.set.Env;
+
+import java.util.Random;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 
@@ -95,7 +97,12 @@ public class Player implements Runnable {
     public void run() { //?????
         playerThread = Thread.currentThread();
         env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
-        if (!human) createArtificialIntelligence();
+        if (!human) {
+            createArtificialIntelligence();
+            synchronized (aiPlayerLock) { 
+                
+            }
+        }
 
         while (!terminate) {  
 		} 
@@ -110,9 +117,15 @@ public class Player implements Runnable {
     private void createArtificialIntelligence() { //?????
         // note: this is a very, very smart AI (!)
         aiThread = new Thread(() -> {
+
+            
             env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
+            synchronized (aiPlayerLock) { 
+                aiPlayerLock.notifyAll(); //wake up the player thread
+            }
             while (!terminate) {
-                // TODO implement player key press simulator
+                
+                IAkeyPressed();
                 try {
                     synchronized (this) { wait(); }
                 } catch (InterruptedException ignored) {}
@@ -229,4 +242,11 @@ public class Player implements Runnable {
     public Thread getPlayerThread() {
         return playerThread;
     }
+
+    public void IAkeyPressed(){
+        Random rand = new Random();
+        int rand_int1 = rand.nextInt(env.config.tableSize+1);
+        keyPressed(rand_int1);
+    }
+
 }
