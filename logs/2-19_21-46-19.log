@@ -1,0 +1,33 @@
+[21:46:19.130] [INFO   ] thread bguspl.set.Main.main() starting.
+[21:46:19.133] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[21:46:19.133] [SEVERE ] configuration file was loaded from resources directory.
+[21:46:19.647] [INFO   ] thread dealer starting.
+[21:46:19.648] [INFO   ] thread dealer starting.
+[21:46:19.649] [SEVERE ] updating countdown to 60000
+[21:46:19.650] [INFO   ] thread dealer step 1
+[21:46:19.657] [INFO   ] thread dealer step 2
+[21:46:19.657] [SEVERE ] setting player 1 freeze to 100
+[21:46:19.724] [INFO   ] thread Thread-2 starting.
+[21:46:19.725] [INFO   ] thread Thread-1 starting.
+[21:46:19.767] [SEVERE ] setting player 2 freeze to 100
+[21:46:19.984] [SEVERE ] placing card 4 in slot 0
+[21:46:20.092] [SEVERE ] placing card 9 in slot 1
+[21:46:20.202] [SEVERE ] placing card 3 in slot 2
+[21:46:20.310] [SEVERE ] placing card 49 in slot 3
+[21:46:20.419] [SEVERE ] placing card 0 in slot 4
+[21:46:20.528] [SEVERE ] placing card 41 in slot 5
+[21:46:20.638] [SEVERE ] placing card 80 in slot 6
+[21:46:20.745] [SEVERE ] placing card 60 in slot 7
+[21:46:20.855] [SEVERE ] placing card 7 in slot 8
+[21:46:20.964] [SEVERE ] placing card 8 in slot 9
+[21:46:21.072] [SEVERE ] placing card 40 in slot 10
+[21:46:21.183] [SEVERE ] placing card 37 in slot 11
+[21:46:21.185] [INFO   ] thread dealer step 3
+[21:46:21.186] [INFO   ] thread dealer step 4
+[21:46:21.186] [INFO   ] thread dealer step 5
+[21:46:21.188] [INFO   ] thread dealer terminated.
+[21:46:25.606] [SEVERE ] exit button pressed
+[21:46:25.606] [SEVERE ] setting player 1 freeze to 5000
+[21:46:26.197] [SEVERE ] thanks for playing... it was fun!
+[21:46:26.199] [INFO   ] thread bguspl.set.Main.main() terminated.
+[21:46:30.608] [SEVERE ] setting player 2 freeze to 5000

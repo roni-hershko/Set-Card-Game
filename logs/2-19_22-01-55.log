@@ -1,0 +1,45 @@
+[22:01:55.579] [INFO   ] thread main starting.
+[22:01:55.579] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[22:01:55.595] [SEVERE ] configuration file was loaded from resources directory.
+[22:01:56.155] [INFO   ] thread dealer starting.
+[22:01:56.165] [INFO   ] thread dealer starting.
+[22:01:56.165] [SEVERE ] updating countdown to 60000
+[22:01:56.165] [INFO   ] thread Thread-0 starting.
+[22:01:56.165] [INFO   ] thread Thread-1 starting.
+[22:01:56.165] [INFO   ] thread dealer step 1
+[22:01:56.218] [INFO   ] thread dealer step 2
+[22:01:56.218] [SEVERE ] setting player 1 freeze to 100
+[22:01:56.329] [SEVERE ] setting player 2 freeze to 100
+[22:01:56.445] [INFO   ] thread dealer place card step 1.
+[22:01:56.445] [INFO   ] thread dealer place card step 2
+[22:01:56.554] [SEVERE ] placing card 52 in slot 0
+[22:01:56.664] [SEVERE ] placing card 5 in slot 1
+[22:01:56.767] [SEVERE ] placing card 58 in slot 2
+[22:01:56.875] [SEVERE ] placing card 16 in slot 3
+[22:01:56.984] [SEVERE ] placing card 49 in slot 4
+[22:01:57.092] [SEVERE ] placing card 47 in slot 5
+[22:01:57.203] [SEVERE ] placing card 1 in slot 6
+[22:01:57.313] [SEVERE ] placing card 74 in slot 7
+[22:01:57.423] [SEVERE ] placing card 53 in slot 8
+[22:01:57.530] [SEVERE ] placing card 75 in slot 9
+[22:01:57.641] [SEVERE ] placing card 19 in slot 10
+[22:01:57.751] [SEVERE ] placing card 23 in slot 11
+[22:01:57.751] [INFO   ] thread dealer place card step 3
+[22:01:57.751] [INFO   ] thread dealer place card step 4
+[22:01:57.754] [INFO   ] thread dealer place card step 8
+[22:01:57.754] [INFO   ] thread dealer step 3
+[22:01:57.754] [INFO   ] thread dealer step 4
+[22:01:57.754] [INFO   ] thread dealer step 5
+[22:01:58.759] [INFO   ] thread dealer step 6
+[22:01:58.759] [SEVERE ] updating countdown to 57406
+[22:01:58.759] [INFO   ] thread dealer step 7
+[22:01:58.759] [SEVERE ] setting player 1 freeze to 100
+[22:01:58.864] [SEVERE ] setting player 2 freeze to 100
+[22:01:58.975] [INFO   ] thread dealer step 8
+[22:01:58.975] [SEVERE ] setting player 1 freeze to 100
+[22:01:59.084] [SEVERE ] setting player 2 freeze to 100
+[22:01:59.194] [INFO   ] thread dealer place card step 1.
+[22:01:59.194] [INFO   ] thread dealer terminated.
+[22:02:04.202] [SEVERE ] thanks for playing... it was fun!
+[22:02:04.202] [INFO   ] thread main terminated.
+[22:02:04.202] [SEVERE ] disposing of user interface elements

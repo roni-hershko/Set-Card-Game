@@ -97,7 +97,7 @@ public class Table {
      * @post - the card placed is on the table, in the assigned slot.
      */
     public void placeCard(int card, int slot) {
-		
+		env.logger.info("thread " + Thread.currentThread().getName() + " place card table.");
         try { 
             Thread.sleep(env.config.tableDelayMillis);
         } catch (InterruptedException ignored) {}
@@ -105,6 +105,8 @@ public class Table {
         cardToSlot[card] = slot;
         slotToCard[slot] = card;
         env.ui.placeCard(card, slot);
+		env.logger.info("thread " + Thread.currentThread().getName() + " place card table. 0.2");
+
 }
 
     /**

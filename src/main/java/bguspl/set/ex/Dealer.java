@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.Queue;	// added
 import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.Collections;
 import java.util.LinkedList;	// added
 
 /**
@@ -43,14 +44,10 @@ public class Dealer implements Runnable {
     //new fields
 
     long lastUpdateForElapsed;
-
     int second = 1000;
     long dealerSleepTime=1000;
     int miliSec10 = 10;
 	
-		//compare and set= boolean cas = env.util.testSet(int[] cards);
-		//atomic integer, atomic boolean
-		//concurrent queue, concurrent hash map, concurrent linked queue, 
 
 	public Dealer(Env env, Table table, Player[] players) {
 	this.env = env;
@@ -69,7 +66,6 @@ public class Dealer implements Runnable {
     public void run() {
         env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
 		for (Player player : players) {
-			//player.dealerThread = Thread.currentThread(); //??????
             new Thread(player).start(); 
             synchronized(player.aiPlayerLock){
                 if(!player.isHuman() && !player.AICreated){
@@ -83,16 +79,12 @@ public class Dealer implements Runnable {
 		env.logger.info("thread " + Thread.currentThread().getName() + " step 1");
 
         while (!shouldFinish()) {
-			env.logger.info("thread " + Thread.currentThread().getName() + " step 2");
 
             placeCardsOnTable();
-			env.logger.info("thread " + Thread.currentThread().getName() + " step 3");
 
             timerLoop();
-			env.logger.info("thread " + Thread.currentThread().getName() + " step ?");
 
             updateTimerDisplay(true);
-			env.logger.info("thread " + Thread.currentThread().getName() + " step ??");
 
             removeAllCardsFromTable();
 			env.logger.info("thread " + Thread.currentThread().getName() + " step ???");
@@ -130,14 +122,14 @@ public class Dealer implements Runnable {
      * Called when the game should be terminated.
      */
     public void terminate() {
-        freezeAllPlayers(env.config.endGamePauseMillies); //????? the players cant do terminate while they are frozen
+        //freezeAllPlayers(env.config.endGamePauseMillies); 
 		if(!terminate){
 			for (Player player : players) {
                 player.terminate();
                 try {
                     player.getPlayerThread().join();
                 } catch (InterruptedException e) { }
- 	  	 }
+ 	  		}
 		}
 	    terminate = true;
         //Thread.currentThread().interrupt();
@@ -156,12 +148,15 @@ public class Dealer implements Runnable {
      * Checks cards should be removed from the table and removes them.
      */
     private void removeCardsFromTable() { 
-        freezeAllPlayers(env.config.tableDelayMillis); //????? not needed beause happen in table
+        //freezeAllPlayers(env.config.tableDelayMillis);
+
         table.canPlaceTokens=false;
+		
 		//check if there is a valid set and remove the cards
 		for (Player player : table.playersQueue) {
             synchronized(player) {
-                if(checkSet(player.slotQueue)){ //check the set for the first player in the playerqueue
+				//check the set
+                if(checkSet(player.slotQueue)){ 
                     player.point();
                     table.removeQueuePlayers(player);
 					
@@ -169,7 +164,6 @@ public class Dealer implements Runnable {
                     for (int j = 0; j < player.queueCounter; j++){
                         int slot = player.slotQueue.poll();
                         table.removeToken(player.id, slot); 
-
                         table.removeCard(slot);
 
 						//remove the tokens of the cards that were removed from the table from the other players
@@ -188,14 +182,15 @@ public class Dealer implements Runnable {
                     player.queueCounter = 0;
                 }
                 else player.penalty();
-                player.isChecked = true;
+
+                //player.isChecked = true;
                 player.notifyAll();
             }
         
-        table.canPlaceTokens = true;
-        synchronized(table.lock){
-            table.lock.notifyAll();
-        }
+			table.canPlaceTokens = true;
+			synchronized(table.lock){
+				table.lock.notifyAll();
+			}
         }
     }
 
@@ -203,9 +198,11 @@ public class Dealer implements Runnable {
      * Check if any cards can be removed from the deck and placed on the table.
      */
     private void placeCardsOnTable() {
-        freezeAllPlayers(env.config.tableDelayMillis); //same as in removeCardsFromTable
+        //freezeAllPlayers(env.config.tableDelayMillis); /
 		table.canPlaceTokens=false;
-		shuffleDeck();
+
+		Collections.shuffle(deck);
+
         //place cards on null slots- removed cards 
 		for (int i = 0; i < env.config.tableSize; i++){
             if (table.slotToCard[i] == null){
@@ -216,29 +213,33 @@ public class Dealer implements Runnable {
             }
         }
 
-        //create lists for searching sets
+        //create lists for searching sets on table
         List<Integer>cardListTable=new LinkedList<Integer>();
         for(int i=0; i<table.slotToCard.length; i++){
              if(table.slotToCard[i] != null){
                 cardListTable.add(table.slotToCard[i]);
              }
          }
+
+		//check if there is a valid set on the table
         List<int[]> findSetsTable = env.util.findSets(cardListTable, env.config.featureSize);
-        if(findSetsTable.size()==0){ /// no set on table
-            if(deck.size() == 0){
+        if(findSetsTable.size()==0){ // no set on table
+            if(deck.size() == 0){ //and no cards in deck
                 terminate();
             }
 
+			//new cards on table
             removeAllCardsFromTable();
 
-            //check sets in the deck + table
-            List<Integer> deck=new LinkedList<Integer>();
+            //create lists for searching sets on deck + table
+            List<Integer> deck = new LinkedList<Integer>();
             for(int i=0; i<env.config.deckSize; i++){
                    deck.add(deck.get(i));
             }
-    
+
+			//check if there are sets on deck + table
             List<int[]> findSetsDeck = env.util.findSets(deck, env.config.featureSize);
-            if(findSetsDeck.size()==0){
+            if(findSetsDeck.size()==0){ //no sets on deck + table
                 terminate();
             }
             placeCardsOnTable();
@@ -248,6 +249,8 @@ public class Dealer implements Runnable {
         synchronized(table.lock){
             table.lock.notifyAll();
         }
+		env.logger.info("thread " + Thread.currentThread().getName() + " place card step 8");
+
             // List<Integer> deckAndTable=new LinkedList<Integer>();
             // for(int i=0; i<table.slotToCard.length; i++){
             //     if(table.slotToCard[i] != null){
@@ -273,13 +276,15 @@ public class Dealer implements Runnable {
      * Sleep for a fixed amount of time or until the thread is awakened for some purpose.
      */
     private void sleepUntilWokenOrTimeout() {
-        if (table.playersQueue.size()==0) { //
-            try {
-                wait(dealerSleepTime);
-            } catch (InterruptedException x) { Thread.currentThread().interrupt();}  
-        }
+		synchronized(this){
+			if (table.playersQueue.size()==0) { //
+				try {
+					wait(dealerSleepTime);
+				} catch (InterruptedException x) { Thread.currentThread().interrupt();}  
+			}
+		}
     }
-	//one secod o update the timer
+
     /**
      * Reset and/or update the countdown and the countdown display.
      */
@@ -319,14 +324,13 @@ public class Dealer implements Runnable {
                     env.ui.setCountdown(timer , false);
             }
         }
-    }		//every minute the dealer should reshuffle the table- collect all cards and put new cards
-
+    }
 
     /**
      * Returns all the cards from the table to the deck.
      */
     private void removeAllCardsFromTable() {
-        freezeAllPlayers(env.config.tableDelayMillis); 
+        //freezeAllPlayers(env.config.tableDelayMillis); 
         table.canPlaceTokens=false;
 
         //empty the queue of players in the table
@@ -400,6 +404,7 @@ public class Dealer implements Runnable {
             deck.set(i, deck.get(randomIndex));
             deck.set(randomIndex, temp);
         }
+		Collections.shuffle(deck);
     }
 
     public void freezeAllPlayers(long time) { //problem with static

@@ -181,8 +181,10 @@ public class Player implements Runnable {
      */
     public void terminate() {
         
-		if (!human) aiThread.interrupt();
-		if (playerThread != null) playerThread.interrupt();
+		if (!human) 
+			aiThread.interrupt();
+		if (playerThread != null) 
+			playerThread.interrupt();
         try {
             playerThread.join();
         } catch (InterruptedException ignored) {}
