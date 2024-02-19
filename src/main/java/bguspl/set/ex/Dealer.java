@@ -80,12 +80,23 @@ public class Dealer implements Runnable {
             }
 		}
 		updateTimerDisplay(true);	
+		env.logger.info("thread " + Thread.currentThread().getName() + " step 1");
 
         while (!shouldFinish()) {
+			env.logger.info("thread " + Thread.currentThread().getName() + " step 2");
+
             placeCardsOnTable();
+			env.logger.info("thread " + Thread.currentThread().getName() + " step 3");
+
             timerLoop();
+			env.logger.info("thread " + Thread.currentThread().getName() + " step ?");
+
             updateTimerDisplay(true);
+			env.logger.info("thread " + Thread.currentThread().getName() + " step ??");
+
             removeAllCardsFromTable();
+			env.logger.info("thread " + Thread.currentThread().getName() + " step ???");
+
         }
         announceWinners();
         env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
@@ -95,11 +106,23 @@ public class Dealer implements Runnable {
      * The inner loop of the dealer thread that runs as long as the countdown did not time out.
      */
 	private void timerLoop() {
+		env.logger.info("thread " + Thread.currentThread().getName() + " step 4");
+
         while (!terminate && System.currentTimeMillis() < reshuffleTime) {
+			env.logger.info("thread " + Thread.currentThread().getName() + " step 5");
+
             sleepUntilWokenOrTimeout();
+			env.logger.info("thread " + Thread.currentThread().getName() + " step 6");
+
             updateTimerDisplay(false);
+			env.logger.info("thread " + Thread.currentThread().getName() + " step 7");
+
             removeCardsFromTable();
+			env.logger.info("thread " + Thread.currentThread().getName() + " step 8");
+
             placeCardsOnTable();
+			env.logger.info("thread " + Thread.currentThread().getName() + " step 9");
+
         }
     }
 

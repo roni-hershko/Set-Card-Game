@@ -1,0 +1,26 @@
+[21:27:35.874] [INFO   ] thread main starting.
+[21:27:35.882] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[21:27:35.884] [SEVERE ] configuration file was loaded from resources directory.
+[21:27:36.414] [INFO   ] thread dealer starting.
+[21:27:36.415] [INFO   ] thread dealer starting.
+[21:27:36.416] [SEVERE ] updating countdown to 60000
+[21:27:36.416] [INFO   ] thread Thread-1 starting.
+[21:27:36.416] [INFO   ] thread Thread-0 starting.
+[21:27:36.427] [SEVERE ] setting player 1 freeze to 100
+[21:27:36.532] [SEVERE ] setting player 2 freeze to 100
+[21:27:36.783] [SEVERE ] placing card 60 in slot 0
+[21:27:36.893] [SEVERE ] placing card 5 in slot 1
+[21:27:37.001] [SEVERE ] placing card 35 in slot 2
+[21:27:37.109] [SEVERE ] placing card 39 in slot 3
+[21:27:37.219] [SEVERE ] placing card 32 in slot 4
+[21:27:37.328] [SEVERE ] placing card 36 in slot 5
+[21:27:37.438] [SEVERE ] placing card 37 in slot 6
+[21:27:37.546] [SEVERE ] placing card 21 in slot 7
+[21:27:37.655] [SEVERE ] placing card 31 in slot 8
+[21:27:37.765] [SEVERE ] placing card 33 in slot 9
+[21:27:37.875] [SEVERE ] placing card 78 in slot 10
+[21:27:37.985] [SEVERE ] placing card 18 in slot 11
+[21:27:37.991] [INFO   ] thread dealer terminated.
+[21:27:42.995] [SEVERE ] thanks for playing... it was fun!
+[21:27:42.996] [INFO   ] thread main terminated.
+[21:27:42.996] [SEVERE ] disposing of user interface elements
