@@ -41,6 +41,8 @@ public class Table {
 
 	ConcurrentLinkedQueue<Player> playersQueue;
 
+    volatile boolean canPlaceTokens = true;
+
 
     public Table(Env env, Integer[] slotToCard, Integer[] cardToSlot) {
 
@@ -128,6 +130,7 @@ public class Table {
      * @param slot   - the slot on which to place the token.
      */
     public void placeToken(int player, int slot) {
+        if(canPlaceTokens)
       	  env.ui.placeToken(player, slot);
     }
 
@@ -140,8 +143,11 @@ public class Table {
     //if some player can't remove token, he will be in sleep mode, else he can remove therefor always true
     public boolean removeToken(int player, int slot) {
             //check if the player has this solt in his queue
-        	env.ui.removeToken(player, slot);
-        	return true; //???
+            if(canPlaceTokens){
+        	    env.ui.removeToken(player, slot);
+                    return true; //???
+            }
+            return false;
 	}
 
     //new methods GP

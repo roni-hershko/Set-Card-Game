@@ -69,6 +69,10 @@ public class Player implements Runnable {
 
 	int second = 1000;
 
+    boolean AICreated = false;
+    
+    Dealer dealer;
+
 	/**
      * The class constructor.
      *
@@ -88,6 +92,7 @@ public class Player implements Runnable {
         this.isChecked = false;
 		this.PlayerLock = new Object();
 		this.aiPlayerLock = new Object();
+        this.dealer = dealer;
     }
 
     /**
@@ -100,11 +105,18 @@ public class Player implements Runnable {
         if (!human) {
             createArtificialIntelligence();
             synchronized (aiPlayerLock) { 
+                if(!AICreated) 
+                    try { 
+                        aiPlayerLock.wait(); 
+                    } catch (InterruptedException e) {Thread.currentThread().interrupt();}
                 
             }
         }
+        synchronized(aiPlayerLock) {  //for the dealer
+            aiPlayerLock.notifyAll(); 
+        }
+        while (!terminate) { 
 
-        while (!terminate) {  
 		} 
         if (!human) try { aiThread.join(); } catch (InterruptedException ignored) {}
         env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
@@ -118,17 +130,28 @@ public class Player implements Runnable {
         // note: this is a very, very smart AI (!)
         aiThread = new Thread(() -> {
 
-            
+            AICreated = true;
             env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
             synchronized (aiPlayerLock) { 
                 aiPlayerLock.notifyAll(); //wake up the player thread
             }
             while (!terminate) {
-                
-                IAkeyPressed();
-                try {
-                    synchronized (this) { wait(); }
-                } catch (InterruptedException ignored) {}
+                synchronized (this) {
+                    if(!table.canPlaceTokens){
+                        synchronized (table.lock) {
+                            if(!table.canPlaceTokens){ 
+                                try { 
+                                    table.lock.wait(); 
+                                } catch (InterruptedException e) {Thread.currentThread().interrupt();}
+                                table.lock.notifyAll();
+                            }
+                        }
+                    }
+                }
+                    IAkeyPressed();
+                    try {
+                        synchronized (this) { wait(); }
+                    } catch (InterruptedException ignored) {}
             }
             env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
         }, "computer-" + id);
@@ -143,6 +166,7 @@ public class Player implements Runnable {
 		if (!human) aiThread.interrupt();
 		if (playerThread != null) playerThread.interrupt();
 		terminate = true;
+        //join
     }
 
     /**
@@ -179,14 +203,13 @@ public class Player implements Runnable {
             }
             if(queueCounter == env.config.featureSize && !terminate){
                 table.addQueuePlayers(this);
-                notifyAll(); 
-                //if notifyAll wakes up another player thread that already pressed env.config.featureSize keys and is waiting for the dealer to check, put him back to sleep 
-                while (!isChecked) {
+                dealer.notifyAll(); 
+                if (!isChecked) {
                     try {
                         Thread.currentThread().wait();
                     } catch (InterruptedException e) {} 
                 }
-                isChecked = false;
+                isChecked = false; 
             }
         }
     }
@@ -249,4 +272,7 @@ public class Player implements Runnable {
         keyPressed(rand_int1);
     }
 
+    public boolean isHuman() {
+        return human;
+    }
 }
