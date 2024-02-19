@@ -45,6 +45,8 @@ public class Dealer implements Runnable {
     long lastUpdateForElapsed;
 
     int second = 1000;
+    long dealerSleepTime=1000;
+    int miliSec10 = 10;
 	
 		//compare and set= boolean cas = env.util.testSet(int[] cards);
 		//atomic integer, atomic boolean
@@ -111,11 +113,11 @@ public class Dealer implements Runnable {
                 player.terminate();
                 try {
                     player.getPlayerThread().join();
-                } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
+                } catch (InterruptedException e) { }
  	  	 }
 		}
 	    terminate = true;
-        Thread.currentThread().interrupt();
+        //Thread.currentThread().interrupt();
 	}
 
     /**
@@ -135,6 +137,7 @@ public class Dealer implements Runnable {
         table.canPlaceTokens=false;
 		//check if there is a valid set and remove the cards
 		for (Player player : table.playersQueue) {
+            synchronized(player) {
                 if(checkSet(player.slotQueue)){ //check the set for the first player in the playerqueue
                     player.point();
                     table.removeQueuePlayers(player);
@@ -170,6 +173,7 @@ public class Dealer implements Runnable {
         synchronized(table.lock){
             table.lock.notifyAll();
         }
+        }
     }
 
     /**
@@ -179,6 +183,7 @@ public class Dealer implements Runnable {
         freezeAllPlayers(env.config.tableDelayMillis); //same as in removeCardsFromTable
 		table.canPlaceTokens=false;
 		shuffleDeck();
+        //place cards on null slots- removed cards 
 		for (int i = 0; i < env.config.tableSize; i++){
             if (table.slotToCard[i] == null){
                 if (env.config.deckSize > 0){
@@ -203,6 +208,7 @@ public class Dealer implements Runnable {
 
             removeAllCardsFromTable();
 
+            //check sets in the deck + table
             List<Integer> deck=new LinkedList<Integer>();
             for(int i=0; i<env.config.deckSize; i++){
                    deck.add(deck.get(i));
@@ -246,7 +252,7 @@ public class Dealer implements Runnable {
     private void sleepUntilWokenOrTimeout() {
         if (table.playersQueue.size()==0) { //
             try {
-                wait(second);
+                wait(dealerSleepTime);
             } catch (InterruptedException x) { Thread.currentThread().interrupt();}  
         }
     }
@@ -255,26 +261,39 @@ public class Dealer implements Runnable {
      * Reset and/or update the countdown and the countdown display.
      */
     private void updateTimerDisplay(boolean reset) {
+        long timer;
+
         if(env.config.turnTimeoutMillis == 0){
             if (reset) {
                 env.ui.setElapsed(0);
                 lastUpdateForElapsed = System.currentTimeMillis();
             } 
             else {
-                env.ui.setElapsed(System.currentTimeMillis() - lastUpdateForElapsed);
+                timer = System.currentTimeMillis() - lastUpdateForElapsed;
+                env.ui.setElapsed(timer);
             }
         }
 
-        if(env.config.turnTimeoutMillis > 0) {
+        else if(env.config.turnTimeoutMillis > 0) {
+            dealerSleepTime=second;
             if(reset){
-                reshuffleTime = System.currentTimeMillis() + env.config.turnTimeoutMillis;
-                env.ui.setCountdown(env.config.turnTimeoutMillis, false);
+                timer = env.config.turnTimeoutMillis;
+                if(timer <= env.config.turnTimeoutWarningMillis){
+                    env.ui.setCountdown(timer, true);
+                    dealerSleepTime = miliSec10;
+                }
+                else
+                    env.ui.setCountdown(timer, false);
+                    reshuffleTime = System.currentTimeMillis() + env.config.turnTimeoutMillis;
             }
             else{
-                if(reshuffleTime -System.currentTimeMillis() <= env.config.turnTimeoutWarningMillis)
-                    env.ui.setCountdown(reshuffleTime -System.currentTimeMillis() , true);
+                timer = reshuffleTime - System.currentTimeMillis();
+                if(timer <= env.config.turnTimeoutWarningMillis){
+                    env.ui.setCountdown(timer , true);
+                    dealerSleepTime = miliSec10;
+                }
                 else
-                    env.ui.setCountdown(reshuffleTime -System.currentTimeMillis() , false);
+                    env.ui.setCountdown(timer , false);
             }
         }
     }		//every minute the dealer should reshuffle the table- collect all cards and put new cards
@@ -284,14 +303,19 @@ public class Dealer implements Runnable {
      * Returns all the cards from the table to the deck.
      */
     private void removeAllCardsFromTable() {
-        freezeAllPlayers(env.config.tableDelayMillis); //????? not needed beause happen in table
+        freezeAllPlayers(env.config.tableDelayMillis); 
         table.canPlaceTokens=false;
 
-        for(int i = 0; i < players.length; i++){ ///????? same as above
-            try {
-                players[i].getPlayerThread().wait();
-            } catch (InterruptedException e) {}
+        //empty the queue of players in the table
+        for(int i = 0; i < players.length; i++){ 
+            for( Player player : table.playersQueue){
+                synchronized(player){
+                    table.removeQueuePlayers(player);
+                    player.notifyAll();
+                }
+            }
         }
+
         //remove all the tokens from the table
         for(int i = 0; i < players.length; i++){
             for (int j = 0; j < players[i].queueCounter; j++){
@@ -299,6 +323,7 @@ public class Dealer implements Runnable {
                 table.removeToken(players[i].id, slot);
             }
         }
+        
         //remove all the cards from the table
         for (int i = 0; i < env.config.tableSize; i++){
 			if (table.slotToCard[i] != null) { 
@@ -306,6 +331,7 @@ public class Dealer implements Runnable {
 				deck.add(i); //add cards from table to deck
 			}
         }
+        
         table.canPlaceTokens = true;
         synchronized(table.lock){
             table.lock.notifyAll();
@@ -316,7 +342,6 @@ public class Dealer implements Runnable {
      * Check who is/are the winner/s and displays them.
      */
     private void announceWinners() {
-        terminate();
 
         int winnerScore = 0;
         int winnerIndex = 0;

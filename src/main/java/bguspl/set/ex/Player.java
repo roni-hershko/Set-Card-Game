@@ -99,7 +99,7 @@ public class Player implements Runnable {
      * The main player thread of each player starts here (main loop for the player thread).
      */
     @Override
-    public void run() { //?????
+    public void run() { 
         playerThread = Thread.currentThread();
         env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
         if (!human) {
@@ -117,22 +117,25 @@ public class Player implements Runnable {
         }
         while (!terminate) { 
             synchronized(this){
-                if(queueCounter == env.config.featureSize){
-                    table.addQueuePlayers(this);
-                    dealer.notifyAll(); 
-                    if (!isChecked) {
-                        try {
-                            Thread.currentThread().wait();
-                        } catch (InterruptedException e) { Thread.currentThread().interrupt(); } 
-                    }
-                    isChecked = false; 
+                if(queueCounter != env.config.featureSize){
+                    try {
+                        notifyAll();
+                        wait();
+                    } catch (InterruptedException e) {Thread.currentThread().interrupt();}
                 }
+
+                table.addQueuePlayers(this);
+                synchronized(dealer){
+                    dealer.notifyAll();
+                }
+               // if (!isChecked) { //maybe syncronized
+                try {
+                    wait();
+                } catch (InterruptedException e) { Thread.currentThread().interrupt(); } 
+                isChecked = false; 
             }
-            synchronized(dealer) {dealer.notifyAll();}
-            try {
-                synchronized (this) { wait(); }
-            } catch (InterruptedException ignored) {Thread.currentThread().interrupt();}
 		} 
+        Thread.interrupted();
         if (!human) try { aiThread.join(); } catch (InterruptedException ignored) {}
         env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
     }
@@ -163,10 +166,10 @@ public class Player implements Runnable {
                         }
                     }
                 }
-                    AIkeyPressed();
-                    try {
-                        synchronized (this) { wait(); }
-                    } catch (InterruptedException ignored) {}
+                AIkeyPressed();
+                try {
+                    synchronized (this) { wait(); }
+                } catch (InterruptedException ignored) {}
             }
             env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
         }, "computer-" + id);
@@ -184,7 +187,6 @@ public class Player implements Runnable {
             playerThread.join();
         } catch (InterruptedException ignored) {}
 		terminate = true;
-        //join
     }
 
     /**
@@ -196,12 +198,6 @@ public class Player implements Runnable {
         if(table.slotToCard[slot] != null){ 
             boolean isDoubleClick = false;	
 
-            //add slot to slotQueue
-                //poll remove the first element from the queue, we add the element back to the queue ?????
-                // but when we reach the double slot we stop the process so the order of element is different
-                //i dont think its a problem bur should be checked
-
-                //another thing we need to check that there is no access to the table somehow ????
             for(int i = 0; i < queueCounter; i++){
                 int currSlot= slotQueue.poll(); 
                 if(currSlot != slot)
@@ -218,6 +214,11 @@ public class Player implements Runnable {
                 slotQueue.add(slot); //add the key press to the queue
                 queueCounter++;
                 table.placeToken(id, slot); //place the token on the table
+            }
+        }
+        synchronized(this){
+            if(queueCounter == env.config.featureSize && !terminate){
+                notifyAll();
             }
         }
     }
