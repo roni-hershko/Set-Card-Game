@@ -116,7 +116,22 @@ public class Player implements Runnable {
             aiPlayerLock.notifyAll(); 
         }
         while (!terminate) { 
-
+            synchronized(this){
+                if(queueCounter == env.config.featureSize){
+                    table.addQueuePlayers(this);
+                    dealer.notifyAll(); 
+                    if (!isChecked) {
+                        try {
+                            Thread.currentThread().wait();
+                        } catch (InterruptedException e) { Thread.currentThread().interrupt(); } 
+                    }
+                    isChecked = false; 
+                }
+            }
+            synchronized(dealer) {dealer.notifyAll();}
+            try {
+                synchronized (this) { wait(); }
+            } catch (InterruptedException ignored) {Thread.currentThread().interrupt();}
 		} 
         if (!human) try { aiThread.join(); } catch (InterruptedException ignored) {}
         env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
@@ -148,7 +163,7 @@ public class Player implements Runnable {
                         }
                     }
                 }
-                    IAkeyPressed();
+                    AIkeyPressed();
                     try {
                         synchronized (this) { wait(); }
                     } catch (InterruptedException ignored) {}
@@ -165,6 +180,9 @@ public class Player implements Runnable {
         
 		if (!human) aiThread.interrupt();
 		if (playerThread != null) playerThread.interrupt();
+        try {
+            playerThread.join();
+        } catch (InterruptedException ignored) {}
 		terminate = true;
         //join
     }
@@ -200,16 +218,6 @@ public class Player implements Runnable {
                 slotQueue.add(slot); //add the key press to the queue
                 queueCounter++;
                 table.placeToken(id, slot); //place the token on the table
-            }
-            if(queueCounter == env.config.featureSize && !terminate){
-                table.addQueuePlayers(this);
-                dealer.notifyAll(); 
-                if (!isChecked) {
-                    try {
-                        Thread.currentThread().wait();
-                    } catch (InterruptedException e) {} 
-                }
-                isChecked = false; 
             }
         }
     }
@@ -266,7 +274,7 @@ public class Player implements Runnable {
         return playerThread;
     }
 
-    public void IAkeyPressed(){
+    public void AIkeyPressed(){
         Random rand = new Random();
         int rand_int1 = rand.nextInt(env.config.tableSize+1);
         keyPressed(rand_int1);
@@ -275,4 +283,5 @@ public class Player implements Runnable {
     public boolean isHuman() {
         return human;
     }
+
 }

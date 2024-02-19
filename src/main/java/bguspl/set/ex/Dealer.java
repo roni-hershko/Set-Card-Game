@@ -108,10 +108,14 @@ public class Dealer implements Runnable {
         freezeAllPlayers(env.config.endGamePauseMillies); //????? the players cant do terminate while they are frozen
 		if(!terminate){
 			for (Player player : players) {
-				player.terminate();
+                player.terminate();
+                try {
+                    player.getPlayerThread().join();
+                } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
  	  	 }
 		}
 	    terminate = true;
+        Thread.currentThread().interrupt();
 	}
 
     /**
@@ -174,7 +178,6 @@ public class Dealer implements Runnable {
     private void placeCardsOnTable() {
         freezeAllPlayers(env.config.tableDelayMillis); //same as in removeCardsFromTable
 		table.canPlaceTokens=false;
-        synchronized(table){}
 		shuffleDeck();
 		for (int i = 0; i < env.config.tableSize; i++){
             if (table.slotToCard[i] == null){
