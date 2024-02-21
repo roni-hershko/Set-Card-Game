@@ -1,0 +1,95 @@
+[13:38:54.451] [INFO   ] thread main starting.
+[13:38:54.459] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[13:38:54.459] [SEVERE ] configuration file was loaded from resources directory.
+[13:38:55.055] [INFO   ] thread dealer starting.
+[13:38:55.055] [INFO   ] thread dealer starting.
+[13:38:55.057] [SEVERE ] updating countdown to 60000
+[13:38:55.057] [INFO   ] thread Thread-0 starting.
+[13:38:55.057] [INFO   ] thread Thread-1 starting.
+[13:38:55.062] [SEVERE ] setting player 1 freeze to 100
+[13:38:55.174] [SEVERE ] setting player 2 freeze to 100
+[13:38:55.288] [INFO   ] card 45
+[13:38:55.395] [SEVERE ] placing card 45 in slot 0
+[13:38:55.395] [INFO   ] the card 45was placed in slot 0
+[13:38:55.395] [INFO   ] card 7
+[13:38:55.500] [SEVERE ] placing card 7 in slot 1
+[13:38:55.500] [INFO   ] the card 7was placed in slot 1
+[13:38:55.500] [INFO   ] card 21
+[13:38:55.613] [SEVERE ] placing card 21 in slot 2
+[13:38:55.614] [INFO   ] the card 21was placed in slot 2
+[13:38:55.614] [INFO   ] card 57
+[13:38:55.727] [SEVERE ] placing card 57 in slot 3
+[13:38:55.727] [INFO   ] the card 57was placed in slot 3
+[13:38:55.727] [INFO   ] card 51
+[13:38:55.833] [SEVERE ] placing card 51 in slot 4
+[13:38:55.833] [INFO   ] the card 51was placed in slot 4
+[13:38:55.833] [INFO   ] card 52
+[13:38:55.947] [SEVERE ] placing card 52 in slot 5
+[13:38:55.947] [INFO   ] the card 52was placed in slot 5
+[13:38:55.947] [INFO   ] card 66
+[13:38:56.061] [SEVERE ] placing card 66 in slot 6
+[13:38:56.061] [INFO   ] the card 66was placed in slot 6
+[13:38:56.061] [INFO   ] card 5
+[13:38:56.175] [SEVERE ] placing card 5 in slot 7
+[13:38:56.175] [INFO   ] the card 5was placed in slot 7
+[13:38:56.175] [INFO   ] card 29
+[13:38:56.280] [SEVERE ] placing card 29 in slot 8
+[13:38:56.280] [INFO   ] the card 29was placed in slot 8
+[13:38:56.280] [INFO   ] card 64
+[13:38:56.394] [SEVERE ] placing card 64 in slot 9
+[13:38:56.394] [INFO   ] the card 64was placed in slot 9
+[13:38:56.394] [INFO   ] card 8
+[13:38:56.499] [SEVERE ] placing card 8 in slot 10
+[13:38:56.499] [INFO   ] the card 8was placed in slot 10
+[13:38:56.499] [INFO   ] card 53
+[13:38:56.602] [SEVERE ] placing card 53 in slot 11
+[13:38:56.602] [INFO   ] the card 53was placed in slot 11
+[13:38:57.610] [SEVERE ] updating countdown to 57448
+[13:38:57.610] [SEVERE ] setting player 1 freeze to 100
+[13:38:57.719] [SEVERE ] setting player 2 freeze to 100
+[13:38:57.829] [INFO   ] should place cards after set 
+[13:38:57.829] [SEVERE ] setting player 1 freeze to 100
+[13:38:57.939] [SEVERE ] setting player 2 freeze to 100
+[13:38:59.051] [SEVERE ] updating countdown to 56007
+[13:38:59.051] [SEVERE ] setting player 1 freeze to 100
+[13:38:59.082] [SEVERE ] key 65 was pressed by player 1
+[13:38:59.082] [SEVERE ] player 1 placing token on slot 4
+[13:38:59.160] [SEVERE ] setting player 2 freeze to 100
+[13:38:59.207] [SEVERE ] key 83 was pressed by player 1
+[13:38:59.223] [SEVERE ] player 1 placing token on slot 5
+[13:38:59.270] [INFO   ] should place cards after set 
+[13:38:59.270] [SEVERE ] setting player 1 freeze to 100
+[13:38:59.380] [SEVERE ] setting player 2 freeze to 100
+[13:39:00.493] [SEVERE ] updating countdown to 54565
+[13:39:00.493] [SEVERE ] setting player 1 freeze to 100
+[13:39:00.602] [SEVERE ] setting player 2 freeze to 100
+[13:39:00.711] [INFO   ] should place cards after set 
+[13:39:00.711] [SEVERE ] setting player 1 freeze to 100
+[13:39:00.821] [SEVERE ] setting player 2 freeze to 100
+[13:39:01.710] [SEVERE ] key 86 was pressed by player 1
+[13:39:01.710] [SEVERE ] player 1 placing token on slot 11
+[13:39:01.711] [SEVERE ] updating countdown to 53347
+[13:39:01.711] [SEVERE ] setting player 1 freeze to 100
+[13:39:01.826] [SEVERE ] setting player 2 freeze to 100
+[13:39:01.936] [INFO   ] removed slot 4
+[13:39:01.936] [INFO   ] point step 1
+[13:39:01.936] [SEVERE ] setting player 1 score to 1
+[13:39:01.936] [SEVERE ] setting player 1 freeze to 1000
+[13:39:01.936] [INFO   ] point step 2
+[13:39:02.940] [SEVERE ] setting player 1 freeze to 0
+[13:39:02.940] [INFO   ] removed slot 4
+[13:39:02.940] [SEVERE ] removing player 1 token from slot 4
+[13:39:03.050] [SEVERE ] removing card from slot 4
+[13:39:03.050] [SEVERE ] updating countdown to 60000
+[13:39:03.050] [INFO   ] removed slot 5
+[13:39:03.050] [SEVERE ] removing player 1 token from slot 5
+[13:39:03.160] [SEVERE ] removing card from slot 5
+[13:39:03.160] [SEVERE ] updating countdown to 60000
+[13:39:03.160] [INFO   ] removed slot 11
+[13:39:03.160] [SEVERE ] removing player 1 token from slot 11
+[13:39:03.269] [SEVERE ] removing card from slot 11
+[13:39:03.269] [SEVERE ] updating countdown to 60000
+[13:39:03.269] [INFO   ] thread dealer terminated.
+[13:39:08.279] [SEVERE ] thanks for playing... it was fun!
+[13:39:08.281] [INFO   ] thread main terminated.
+[13:39:08.281] [SEVERE ] disposing of user interface elements

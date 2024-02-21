@@ -1,0 +1,145 @@
+[12:32:39.348] [INFO   ] thread main starting.
+[12:32:39.354] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[12:32:39.357] [SEVERE ] configuration file was loaded from resources directory.
+[12:32:39.959] [INFO   ] thread dealer starting.
+[12:32:39.959] [INFO   ] thread dealer starting.
+[12:32:39.959] [SEVERE ] updating countdown to 60000
+[12:32:39.959] [INFO   ] thread Thread-1 starting.
+[12:32:39.959] [INFO   ] thread Thread-0 starting.
+[12:32:39.961] [INFO   ] thread dealer place card table.
+[12:32:40.068] [SEVERE ] placing card 56 in slot 0
+[12:32:40.068] [INFO   ] thread dealer place card table. 0.2
+[12:32:40.068] [INFO   ] thread dealer place card table.
+[12:32:40.181] [SEVERE ] placing card 65 in slot 1
+[12:32:40.181] [INFO   ] thread dealer place card table. 0.2
+[12:32:40.181] [INFO   ] thread dealer place card table.
+[12:32:40.292] [SEVERE ] placing card 15 in slot 2
+[12:32:40.292] [INFO   ] thread dealer place card table. 0.2
+[12:32:40.292] [INFO   ] thread dealer place card table.
+[12:32:40.401] [SEVERE ] placing card 6 in slot 3
+[12:32:40.401] [INFO   ] thread dealer place card table. 0.2
+[12:32:40.401] [INFO   ] thread dealer place card table.
+[12:32:40.512] [SEVERE ] placing card 77 in slot 4
+[12:32:40.512] [INFO   ] thread dealer place card table. 0.2
+[12:32:40.512] [INFO   ] thread dealer place card table.
+[12:32:40.625] [SEVERE ] placing card 5 in slot 5
+[12:32:40.625] [INFO   ] thread dealer place card table. 0.2
+[12:32:40.625] [INFO   ] thread dealer place card table.
+[12:32:40.732] [SEVERE ] placing card 14 in slot 6
+[12:32:40.732] [INFO   ] thread dealer place card table. 0.2
+[12:32:40.732] [INFO   ] thread dealer place card table.
+[12:32:40.837] [SEVERE ] placing card 44 in slot 7
+[12:32:40.837] [INFO   ] thread dealer place card table. 0.2
+[12:32:40.837] [INFO   ] thread dealer place card table.
+[12:32:40.951] [SEVERE ] placing card 59 in slot 8
+[12:32:40.951] [INFO   ] thread dealer place card table. 0.2
+[12:32:40.951] [INFO   ] thread dealer place card table.
+[12:32:41.053] [SEVERE ] placing card 62 in slot 9
+[12:32:41.053] [INFO   ] thread dealer place card table. 0.2
+[12:32:41.053] [INFO   ] thread dealer place card table.
+[12:32:41.160] [SEVERE ] placing card 21 in slot 10
+[12:32:41.160] [INFO   ] thread dealer place card table. 0.2
+[12:32:41.160] [INFO   ] thread dealer place card table.
+[12:32:41.274] [SEVERE ] placing card 64 in slot 11
+[12:32:41.274] [INFO   ] thread dealer place card table. 0.2
+[12:32:42.282] [SEVERE ] updating countdown to 57679
+[12:32:42.282] [SEVERE ] setting player 1 freeze to 100
+[12:32:42.392] [SEVERE ] setting player 2 freeze to 100
+[12:32:43.507] [SEVERE ] updating countdown to 56454
+[12:32:43.507] [SEVERE ] setting player 1 freeze to 100
+[12:32:43.616] [SEVERE ] setting player 2 freeze to 100
+[12:32:44.727] [SEVERE ] updating countdown to 55234
+[12:32:44.727] [SEVERE ] setting player 1 freeze to 100
+[12:32:44.837] [SEVERE ] setting player 2 freeze to 100
+[12:32:45.947] [SEVERE ] updating countdown to 54014
+[12:32:45.947] [SEVERE ] setting player 1 freeze to 100
+[12:32:46.056] [SEVERE ] setting player 2 freeze to 100
+[12:32:47.170] [SEVERE ] updating countdown to 52791
+[12:32:47.170] [SEVERE ] setting player 1 freeze to 100
+[12:32:47.280] [SEVERE ] setting player 2 freeze to 100
+[12:32:48.392] [SEVERE ] updating countdown to 51569
+[12:32:48.392] [SEVERE ] setting player 1 freeze to 100
+[12:32:48.502] [SEVERE ] setting player 2 freeze to 100
+[12:32:49.616] [SEVERE ] updating countdown to 50345
+[12:32:49.616] [SEVERE ] setting player 1 freeze to 100
+[12:32:49.725] [SEVERE ] setting player 2 freeze to 100
+[12:32:50.832] [SEVERE ] key 74 was pressed by player 2
+[12:32:50.832] [SEVERE ] player 2 placing token on slot 4
+[12:32:50.848] [SEVERE ] updating countdown to 49113
+[12:32:50.848] [SEVERE ] setting player 1 freeze to 100
+[12:32:50.957] [SEVERE ] setting player 2 freeze to 100
+[12:32:52.068] [SEVERE ] updating countdown to 47893
+[12:32:52.068] [SEVERE ] setting player 1 freeze to 100
+[12:32:52.177] [SEVERE ] setting player 2 freeze to 100
+[12:32:53.087] [SEVERE ] key 75 was pressed by player 2
+[12:32:53.087] [SEVERE ] player 2 placing token on slot 5
+[12:32:53.290] [SEVERE ] updating countdown to 46671
+[12:32:53.290] [SEVERE ] setting player 1 freeze to 100
+[12:32:53.400] [SEVERE ] setting player 2 freeze to 100
+[12:32:53.682] [SEVERE ] key 75 was pressed by player 2
+[12:32:53.682] [SEVERE ] removing player 2 token from slot 5
+[12:32:54.524] [SEVERE ] updating countdown to 45437
+[12:32:54.524] [SEVERE ] setting player 1 freeze to 100
+[12:32:54.634] [SEVERE ] setting player 2 freeze to 100
+[12:32:55.748] [SEVERE ] updating countdown to 44213
+[12:32:55.748] [SEVERE ] setting player 1 freeze to 100
+[12:32:55.857] [SEVERE ] setting player 2 freeze to 100
+[12:32:56.968] [SEVERE ] updating countdown to 42993
+[12:32:56.968] [SEVERE ] setting player 1 freeze to 100
+[12:32:57.077] [SEVERE ] setting player 2 freeze to 100
+[12:32:58.188] [SEVERE ] updating countdown to 41773
+[12:32:58.188] [SEVERE ] setting player 1 freeze to 100
+[12:32:58.298] [SEVERE ] setting player 2 freeze to 100
+[12:32:59.409] [SEVERE ] updating countdown to 40552
+[12:32:59.409] [SEVERE ] setting player 1 freeze to 100
+[12:32:59.518] [SEVERE ] setting player 2 freeze to 100
+[12:33:00.628] [SEVERE ] updating countdown to 39333
+[12:33:00.629] [SEVERE ] setting player 1 freeze to 100
+[12:33:00.738] [SEVERE ] setting player 2 freeze to 100
+[12:33:01.850] [SEVERE ] updating countdown to 38111
+[12:33:01.850] [SEVERE ] setting player 1 freeze to 100
+[12:33:01.959] [SEVERE ] setting player 2 freeze to 100
+[12:33:03.070] [SEVERE ] updating countdown to 36891
+[12:33:03.070] [SEVERE ] setting player 1 freeze to 100
+[12:33:03.180] [SEVERE ] setting player 2 freeze to 100
+[12:33:04.293] [SEVERE ] updating countdown to 35668
+[12:33:04.293] [SEVERE ] setting player 1 freeze to 100
+[12:33:04.402] [SEVERE ] setting player 2 freeze to 100
+[12:33:05.513] [SEVERE ] updating countdown to 34448
+[12:33:05.513] [SEVERE ] setting player 1 freeze to 100
+[12:33:05.622] [SEVERE ] setting player 2 freeze to 100
+[12:33:06.734] [SEVERE ] updating countdown to 33227
+[12:33:06.734] [SEVERE ] setting player 1 freeze to 100
+[12:33:06.843] [SEVERE ] setting player 2 freeze to 100
+[12:33:07.953] [SEVERE ] updating countdown to 32008
+[12:33:07.953] [SEVERE ] setting player 1 freeze to 100
+[12:33:08.062] [SEVERE ] setting player 2 freeze to 100
+[12:33:09.173] [SEVERE ] updating countdown to 30788
+[12:33:09.173] [SEVERE ] setting player 1 freeze to 100
+[12:33:09.283] [SEVERE ] setting player 2 freeze to 100
+[12:33:10.063] [SEVERE ] key 73 was pressed by player 2
+[12:33:10.063] [SEVERE ] player 2 placing token on slot 1
+[12:33:10.393] [SEVERE ] updating countdown to 29568
+[12:33:10.393] [SEVERE ] setting player 1 freeze to 100
+[12:33:10.503] [SEVERE ] setting player 2 freeze to 100
+[12:33:11.628] [SEVERE ] updating countdown to 28333
+[12:33:11.629] [SEVERE ] setting player 1 freeze to 100
+[12:33:11.738] [SEVERE ] setting player 2 freeze to 100
+[12:33:12.850] [SEVERE ] updating countdown to 27111
+[12:33:12.850] [SEVERE ] setting player 1 freeze to 100
+[12:33:12.961] [SEVERE ] setting player 2 freeze to 100
+[12:33:14.070] [SEVERE ] updating countdown to 25891
+[12:33:14.070] [SEVERE ] setting player 1 freeze to 100
+[12:33:14.070] [SEVERE ] key 44 was pressed by player 2
+[12:33:14.070] [SEVERE ] player 2 placing token on slot 9
+[12:33:14.179] [SEVERE ] setting player 2 freeze to 100
+[12:33:14.289] [INFO   ] remove step 1
+[12:33:14.289] [SEVERE ] setting player 2 freeze to 3000
+[12:33:15.304] [SEVERE ] setting player 2 freeze to 2000
+[12:33:16.307] [SEVERE ] setting player 2 freeze to 1000
+[12:33:17.309] [SEVERE ] setting player 2 freeze to 0
+[12:33:17.309] [INFO   ] remove step 3
+[12:33:17.309] [INFO   ] thread dealer terminated.
+[12:33:22.317] [SEVERE ] thanks for playing... it was fun!
+[12:33:22.317] [INFO   ] thread main terminated.
+[12:33:22.317] [SEVERE ] disposing of user interface elements

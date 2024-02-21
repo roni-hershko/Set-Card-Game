@@ -2,7 +2,9 @@ package bguspl.set.ex;
 import bguspl.set.Env;
 
 import java.util.Random;
+import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.LinkedBlockingDeque;
 
 
 /**
@@ -57,7 +59,7 @@ public class Player implements Runnable {
     /**
 	 * queue of key presses
 	 */
-	ConcurrentLinkedQueue<Integer> slotQueue;
+	BlockingQueue<Integer> slotQueue;
 
 	int queueCounter; 
 
@@ -88,7 +90,7 @@ public class Player implements Runnable {
         this.id = id;
         this.human = human;
 	 	this.queueCounter = 0; 
-		this.slotQueue = new ConcurrentLinkedQueue<Integer>();
+		this.slotQueue = new LinkedBlockingDeque<>();
         this.isChecked = false;
 		this.PlayerLock = new Object();
 		this.aiPlayerLock = new Object();
@@ -181,14 +183,14 @@ public class Player implements Runnable {
      */
     public void terminate() {
         
+		terminate = true;
 		if (!human) 
 			aiThread.interrupt();
 		if (playerThread != null) 
 			playerThread.interrupt();
-        try {
-            playerThread.join();
-        } catch (InterruptedException ignored) {}
-		terminate = true;
+        // try {
+        //     playerThread.join();
+        // } catch (InterruptedException ignored) {}
     }
 
     /**
@@ -232,10 +234,12 @@ public class Player implements Runnable {
      * @post - the player's score is updated in the ui.
      */
     public void point() {
-		env.ui.setScore(id, ++score);
+		env.logger.info("point step 1");
+		score++;
+		env.ui.setScore(id, score);
 		long pointFreeze = env.config.pointFreezeMillis;
         env.ui.setFreeze(id, pointFreeze);
-		score++;
+		env.logger.info("point step 2");
 
 		while(pointFreeze > 0){ 
 			try {

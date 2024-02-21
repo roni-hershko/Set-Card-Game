@@ -1,0 +1,61 @@
+[11:53:47.406] [INFO   ] thread main starting.
+[11:53:47.420] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[11:53:47.420] [SEVERE ] configuration file was loaded from resources directory.
+[11:53:48.261] [INFO   ] thread dealer starting.
+[11:53:48.261] [INFO   ] thread dealer starting.
+[11:53:48.261] [SEVERE ] updating countdown to 60000
+[11:53:48.261] [INFO   ] thread Thread-1 starting.
+[11:53:48.261] [INFO   ] thread Thread-0 starting.
+[11:53:48.266] [INFO   ] thread dealer step 1
+[11:53:48.275] [INFO   ] thread dealer place card table.
+[11:53:48.380] [SEVERE ] placing card 21 in slot 0
+[11:53:48.380] [INFO   ] thread dealer place card table. 0.2
+[11:53:48.380] [INFO   ] thread dealer place card table.
+[11:53:48.483] [SEVERE ] placing card 3 in slot 1
+[11:53:48.483] [INFO   ] thread dealer place card table. 0.2
+[11:53:48.483] [INFO   ] thread dealer place card table.
+[11:53:48.596] [SEVERE ] placing card 13 in slot 2
+[11:53:48.596] [INFO   ] thread dealer place card table. 0.2
+[11:53:48.596] [INFO   ] thread dealer place card table.
+[11:53:48.710] [SEVERE ] placing card 35 in slot 3
+[11:53:48.710] [INFO   ] thread dealer place card table. 0.2
+[11:53:48.710] [INFO   ] thread dealer place card table.
+[11:53:48.821] [SEVERE ] placing card 28 in slot 4
+[11:53:48.821] [INFO   ] thread dealer place card table. 0.2
+[11:53:48.821] [INFO   ] thread dealer place card table.
+[11:53:48.929] [SEVERE ] placing card 6 in slot 5
+[11:53:48.929] [INFO   ] thread dealer place card table. 0.2
+[11:53:48.929] [INFO   ] thread dealer place card table.
+[11:53:49.035] [SEVERE ] placing card 29 in slot 6
+[11:53:49.035] [INFO   ] thread dealer place card table. 0.2
+[11:53:49.035] [INFO   ] thread dealer place card table.
+[11:53:49.144] [SEVERE ] placing card 18 in slot 7
+[11:53:49.144] [INFO   ] thread dealer place card table. 0.2
+[11:53:49.144] [INFO   ] thread dealer place card table.
+[11:53:49.246] [SEVERE ] placing card 57 in slot 8
+[11:53:49.246] [INFO   ] thread dealer place card table. 0.2
+[11:53:49.246] [INFO   ] thread dealer place card table.
+[11:53:49.353] [SEVERE ] placing card 60 in slot 9
+[11:53:49.353] [INFO   ] thread dealer place card table. 0.2
+[11:53:49.353] [INFO   ] thread dealer place card table.
+[11:53:49.455] [SEVERE ] placing card 2 in slot 10
+[11:53:49.455] [INFO   ] thread dealer place card table. 0.2
+[11:53:49.455] [INFO   ] thread dealer place card table.
+[11:53:49.569] [SEVERE ] placing card 75 in slot 11
+[11:53:49.569] [INFO   ] thread dealer place card table. 0.2
+[11:53:49.685] [SEVERE ] removing card from slot 0
+[11:53:49.800] [SEVERE ] removing card from slot 1
+[11:53:49.902] [SEVERE ] removing card from slot 2
+[11:53:50.004] [SEVERE ] removing card from slot 3
+[11:53:50.116] [SEVERE ] removing card from slot 4
+[11:53:50.220] [SEVERE ] removing card from slot 5
+[11:53:50.323] [SEVERE ] removing card from slot 6
+[11:53:50.434] [SEVERE ] removing card from slot 7
+[11:53:50.545] [SEVERE ] removing card from slot 8
+[11:53:50.658] [SEVERE ] removing card from slot 9
+[11:53:50.769] [SEVERE ] removing card from slot 10
+[11:53:50.878] [SEVERE ] removing card from slot 11
+[11:53:50.881] [INFO   ] thread dealer terminated.
+[11:53:55.893] [SEVERE ] thanks for playing... it was fun!
+[11:53:55.893] [INFO   ] thread main terminated.
+[11:53:55.893] [SEVERE ] disposing of user interface elements

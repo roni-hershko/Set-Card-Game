@@ -1,0 +1,401 @@
+[11:54:26.699] [INFO   ] thread main starting.
+[11:54:26.707] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[11:54:26.715] [SEVERE ] configuration file was loaded from resources directory.
+[11:54:27.297] [INFO   ] thread dealer starting.
+[11:54:27.298] [INFO   ] thread dealer starting.
+[11:54:27.299] [SEVERE ] updating countdown to 60000
+[11:54:27.299] [INFO   ] thread Thread-1 starting.
+[11:54:27.299] [INFO   ] thread Thread-0 starting.
+[11:54:27.300] [INFO   ] thread dealer step 1
+[11:54:27.308] [INFO   ] thread dealer place card table.
+[11:54:27.414] [SEVERE ] placing card 8 in slot 0
+[11:54:27.415] [INFO   ] thread dealer place card table. 0.2
+[11:54:27.415] [INFO   ] thread dealer place card table.
+[11:54:27.528] [SEVERE ] placing card 6 in slot 1
+[11:54:27.528] [INFO   ] thread dealer place card table. 0.2
+[11:54:27.528] [INFO   ] thread dealer place card table.
+[11:54:27.642] [SEVERE ] placing card 65 in slot 2
+[11:54:27.642] [INFO   ] thread dealer place card table. 0.2
+[11:54:27.642] [INFO   ] thread dealer place card table.
+[11:54:27.756] [SEVERE ] placing card 26 in slot 3
+[11:54:27.756] [INFO   ] thread dealer place card table. 0.2
+[11:54:27.756] [INFO   ] thread dealer place card table.
+[11:54:27.868] [SEVERE ] placing card 80 in slot 4
+[11:54:27.868] [INFO   ] thread dealer place card table. 0.2
+[11:54:27.869] [INFO   ] thread dealer place card table.
+[11:54:27.980] [SEVERE ] placing card 31 in slot 5
+[11:54:27.980] [INFO   ] thread dealer place card table. 0.2
+[11:54:27.980] [INFO   ] thread dealer place card table.
+[11:54:28.087] [SEVERE ] placing card 44 in slot 6
+[11:54:28.087] [INFO   ] thread dealer place card table. 0.2
+[11:54:28.087] [INFO   ] thread dealer place card table.
+[11:54:28.201] [SEVERE ] placing card 56 in slot 7
+[11:54:28.201] [INFO   ] thread dealer place card table. 0.2
+[11:54:28.201] [INFO   ] thread dealer place card table.
+[11:54:28.311] [SEVERE ] placing card 35 in slot 8
+[11:54:28.311] [INFO   ] thread dealer place card table. 0.2
+[11:54:28.311] [INFO   ] thread dealer place card table.
+[11:54:28.422] [SEVERE ] placing card 11 in slot 9
+[11:54:28.422] [INFO   ] thread dealer place card table. 0.2
+[11:54:28.422] [INFO   ] thread dealer place card table.
+[11:54:28.531] [SEVERE ] placing card 21 in slot 10
+[11:54:28.531] [INFO   ] thread dealer place card table. 0.2
+[11:54:28.531] [INFO   ] thread dealer place card table.
+[11:54:28.641] [SEVERE ] placing card 15 in slot 11
+[11:54:28.641] [INFO   ] thread dealer place card table. 0.2
+[11:54:28.641] [INFO   ] thread dealer place card step 8
+[11:54:28.641] [INFO   ] thread dealer step 4
+[11:54:28.641] [INFO   ] thread dealer step 5
+[11:54:29.643] [INFO   ] thread dealer step 6
+[11:54:29.643] [SEVERE ] updating countdown to 57657
+[11:54:29.643] [INFO   ] thread dealer step 7
+[11:54:29.643] [INFO   ] thread dealer step 8
+[11:54:29.643] [INFO   ] thread dealer place card step 8
+[11:54:29.643] [INFO   ] thread dealer step 9
+[11:54:29.643] [INFO   ] thread dealer step 5
+[11:54:30.645] [INFO   ] thread dealer step 6
+[11:54:30.645] [SEVERE ] updating countdown to 56655
+[11:54:30.645] [INFO   ] thread dealer step 7
+[11:54:30.645] [INFO   ] thread dealer step 8
+[11:54:30.645] [INFO   ] thread dealer place card step 8
+[11:54:30.645] [INFO   ] thread dealer step 9
+[11:54:30.645] [INFO   ] thread dealer step 5
+[11:54:31.648] [INFO   ] thread dealer step 6
+[11:54:31.648] [SEVERE ] updating countdown to 55652
+[11:54:31.648] [INFO   ] thread dealer step 7
+[11:54:31.648] [INFO   ] thread dealer step 8
+[11:54:31.648] [INFO   ] thread dealer place card step 8
+[11:54:31.648] [INFO   ] thread dealer step 9
+[11:54:31.648] [INFO   ] thread dealer step 5
+[11:54:32.653] [INFO   ] thread dealer step 6
+[11:54:32.653] [SEVERE ] updating countdown to 54647
+[11:54:32.653] [INFO   ] thread dealer step 7
+[11:54:32.653] [INFO   ] thread dealer step 8
+[11:54:32.653] [INFO   ] thread dealer place card step 8
+[11:54:32.653] [INFO   ] thread dealer step 9
+[11:54:32.653] [INFO   ] thread dealer step 5
+[11:54:33.657] [INFO   ] thread dealer step 6
+[11:54:33.657] [SEVERE ] updating countdown to 53643
+[11:54:33.657] [INFO   ] thread dealer step 7
+[11:54:33.657] [INFO   ] thread dealer step 8
+[11:54:33.657] [INFO   ] thread dealer place card step 8
+[11:54:33.657] [INFO   ] thread dealer step 9
+[11:54:33.657] [INFO   ] thread dealer step 5
+[11:54:34.660] [INFO   ] thread dealer step 6
+[11:54:34.660] [SEVERE ] updating countdown to 52640
+[11:54:34.660] [INFO   ] thread dealer step 7
+[11:54:34.660] [INFO   ] thread dealer step 8
+[11:54:34.660] [INFO   ] thread dealer place card step 8
+[11:54:34.660] [INFO   ] thread dealer step 9
+[11:54:34.660] [INFO   ] thread dealer step 5
+[11:54:35.662] [INFO   ] thread dealer step 6
+[11:54:35.662] [SEVERE ] updating countdown to 51638
+[11:54:35.662] [INFO   ] thread dealer step 7
+[11:54:35.662] [INFO   ] thread dealer step 8
+[11:54:35.662] [INFO   ] thread dealer place card step 8
+[11:54:35.662] [INFO   ] thread dealer step 9
+[11:54:35.662] [INFO   ] thread dealer step 5
+[11:54:36.663] [INFO   ] thread dealer step 6
+[11:54:36.663] [SEVERE ] updating countdown to 50637
+[11:54:36.663] [INFO   ] thread dealer step 7
+[11:54:36.663] [INFO   ] thread dealer step 8
+[11:54:36.663] [INFO   ] thread dealer place card step 8
+[11:54:36.663] [INFO   ] thread dealer step 9
+[11:54:36.663] [INFO   ] thread dealer step 5
+[11:54:37.439] [SEVERE ] key 81 was pressed by player 1
+[11:54:37.439] [SEVERE ] player 1 placing token on slot 0
+[11:54:37.666] [INFO   ] thread dealer step 6
+[11:54:37.666] [SEVERE ] updating countdown to 49634
+[11:54:37.666] [INFO   ] thread dealer step 7
+[11:54:37.666] [INFO   ] thread dealer step 8
+[11:54:37.666] [INFO   ] thread dealer place card step 8
+[11:54:37.666] [INFO   ] thread dealer step 9
+[11:54:37.666] [INFO   ] thread dealer step 5
+[11:54:38.668] [INFO   ] thread dealer step 6
+[11:54:38.668] [SEVERE ] updating countdown to 48632
+[11:54:38.668] [INFO   ] thread dealer step 7
+[11:54:38.668] [INFO   ] thread dealer step 8
+[11:54:38.668] [INFO   ] thread dealer place card step 8
+[11:54:38.668] [INFO   ] thread dealer step 9
+[11:54:38.668] [INFO   ] thread dealer step 5
+[11:54:39.669] [INFO   ] thread dealer step 6
+[11:54:39.669] [SEVERE ] updating countdown to 47631
+[11:54:39.669] [INFO   ] thread dealer step 7
+[11:54:39.669] [INFO   ] thread dealer step 8
+[11:54:39.669] [INFO   ] thread dealer place card step 8
+[11:54:39.669] [INFO   ] thread dealer step 9
+[11:54:39.669] [INFO   ] thread dealer step 5
+[11:54:40.672] [INFO   ] thread dealer step 6
+[11:54:40.672] [SEVERE ] updating countdown to 46628
+[11:54:40.672] [INFO   ] thread dealer step 7
+[11:54:40.672] [INFO   ] thread dealer step 8
+[11:54:40.672] [INFO   ] thread dealer place card step 8
+[11:54:40.672] [INFO   ] thread dealer step 9
+[11:54:40.672] [INFO   ] thread dealer step 5
+[11:54:41.676] [INFO   ] thread dealer step 6
+[11:54:41.676] [SEVERE ] updating countdown to 45624
+[11:54:41.676] [INFO   ] thread dealer step 7
+[11:54:41.676] [INFO   ] thread dealer step 8
+[11:54:41.676] [INFO   ] thread dealer place card step 8
+[11:54:41.676] [INFO   ] thread dealer step 9
+[11:54:41.676] [INFO   ] thread dealer step 5
+[11:54:42.679] [INFO   ] thread dealer step 6
+[11:54:42.679] [SEVERE ] updating countdown to 44621
+[11:54:42.679] [INFO   ] thread dealer step 7
+[11:54:42.679] [INFO   ] thread dealer step 8
+[11:54:42.679] [INFO   ] thread dealer place card step 8
+[11:54:42.679] [INFO   ] thread dealer step 9
+[11:54:42.679] [INFO   ] thread dealer step 5
+[11:54:43.680] [INFO   ] thread dealer step 6
+[11:54:43.680] [SEVERE ] updating countdown to 43620
+[11:54:43.680] [INFO   ] thread dealer step 7
+[11:54:43.680] [INFO   ] thread dealer step 8
+[11:54:43.680] [INFO   ] thread dealer place card step 8
+[11:54:43.680] [INFO   ] thread dealer step 9
+[11:54:43.680] [INFO   ] thread dealer step 5
+[11:54:44.682] [INFO   ] thread dealer step 6
+[11:54:44.682] [SEVERE ] updating countdown to 42618
+[11:54:44.682] [INFO   ] thread dealer step 7
+[11:54:44.682] [INFO   ] thread dealer step 8
+[11:54:44.682] [INFO   ] thread dealer place card step 8
+[11:54:44.682] [INFO   ] thread dealer step 9
+[11:54:44.682] [INFO   ] thread dealer step 5
+[11:54:45.683] [INFO   ] thread dealer step 6
+[11:54:45.683] [SEVERE ] updating countdown to 41617
+[11:54:45.683] [INFO   ] thread dealer step 7
+[11:54:45.683] [INFO   ] thread dealer step 8
+[11:54:45.683] [INFO   ] thread dealer place card step 8
+[11:54:45.683] [INFO   ] thread dealer step 9
+[11:54:45.683] [INFO   ] thread dealer step 5
+[11:54:46.684] [INFO   ] thread dealer step 6
+[11:54:46.684] [SEVERE ] updating countdown to 40616
+[11:54:46.684] [INFO   ] thread dealer step 7
+[11:54:46.684] [INFO   ] thread dealer step 8
+[11:54:46.684] [INFO   ] thread dealer place card step 8
+[11:54:46.684] [INFO   ] thread dealer step 9
+[11:54:46.684] [INFO   ] thread dealer step 5
+[11:54:47.688] [INFO   ] thread dealer step 6
+[11:54:47.688] [SEVERE ] updating countdown to 39612
+[11:54:47.688] [INFO   ] thread dealer step 7
+[11:54:47.688] [INFO   ] thread dealer step 8
+[11:54:47.688] [INFO   ] thread dealer place card step 8
+[11:54:47.688] [INFO   ] thread dealer step 9
+[11:54:47.688] [INFO   ] thread dealer step 5
+[11:54:48.691] [INFO   ] thread dealer step 6
+[11:54:48.691] [SEVERE ] updating countdown to 38609
+[11:54:48.691] [INFO   ] thread dealer step 7
+[11:54:48.691] [INFO   ] thread dealer step 8
+[11:54:48.691] [INFO   ] thread dealer place card step 8
+[11:54:48.691] [INFO   ] thread dealer step 9
+[11:54:48.691] [INFO   ] thread dealer step 5
+[11:54:49.704] [INFO   ] thread dealer step 6
+[11:54:49.704] [SEVERE ] updating countdown to 37596
+[11:54:49.705] [INFO   ] thread dealer step 7
+[11:54:49.705] [INFO   ] thread dealer step 8
+[11:54:49.705] [INFO   ] thread dealer place card step 8
+[11:54:49.705] [INFO   ] thread dealer step 9
+[11:54:49.706] [INFO   ] thread dealer step 5
+[11:54:50.707] [INFO   ] thread dealer step 6
+[11:54:50.707] [SEVERE ] updating countdown to 36593
+[11:54:50.707] [INFO   ] thread dealer step 7
+[11:54:50.707] [INFO   ] thread dealer step 8
+[11:54:50.707] [INFO   ] thread dealer place card step 8
+[11:54:50.707] [INFO   ] thread dealer step 9
+[11:54:50.707] [INFO   ] thread dealer step 5
+[11:54:51.710] [INFO   ] thread dealer step 6
+[11:54:51.710] [SEVERE ] updating countdown to 35590
+[11:54:51.710] [INFO   ] thread dealer step 7
+[11:54:51.710] [INFO   ] thread dealer step 8
+[11:54:51.710] [INFO   ] thread dealer place card step 8
+[11:54:51.710] [INFO   ] thread dealer step 9
+[11:54:51.710] [INFO   ] thread dealer step 5
+[11:54:52.712] [INFO   ] thread dealer step 6
+[11:54:52.712] [SEVERE ] updating countdown to 34588
+[11:54:52.712] [INFO   ] thread dealer step 7
+[11:54:52.712] [INFO   ] thread dealer step 8
+[11:54:52.712] [INFO   ] thread dealer place card step 8
+[11:54:52.712] [INFO   ] thread dealer step 9
+[11:54:52.712] [INFO   ] thread dealer step 5
+[11:54:53.166] [SEVERE ] key 75 was pressed by player 2
+[11:54:53.166] [SEVERE ] player 2 placing token on slot 5
+[11:54:53.714] [INFO   ] thread dealer step 6
+[11:54:53.714] [SEVERE ] updating countdown to 33586
+[11:54:53.714] [INFO   ] thread dealer step 7
+[11:54:53.714] [INFO   ] thread dealer step 8
+[11:54:53.714] [INFO   ] thread dealer place card step 8
+[11:54:53.714] [INFO   ] thread dealer step 9
+[11:54:53.714] [INFO   ] thread dealer step 5
+[11:54:54.717] [INFO   ] thread dealer step 6
+[11:54:54.717] [SEVERE ] updating countdown to 32583
+[11:54:54.717] [INFO   ] thread dealer step 7
+[11:54:54.717] [INFO   ] thread dealer step 8
+[11:54:54.717] [INFO   ] thread dealer place card step 8
+[11:54:54.717] [INFO   ] thread dealer step 9
+[11:54:54.717] [INFO   ] thread dealer step 5
+[11:54:54.826] [SEVERE ] key 75 was pressed by player 2
+[11:54:54.826] [SEVERE ] removing player 2 token from slot 5
+[11:54:55.720] [INFO   ] thread dealer step 6
+[11:54:55.720] [SEVERE ] updating countdown to 31580
+[11:54:55.720] [INFO   ] thread dealer step 7
+[11:54:55.720] [INFO   ] thread dealer step 8
+[11:54:55.720] [INFO   ] thread dealer place card step 8
+[11:54:55.720] [INFO   ] thread dealer step 9
+[11:54:55.720] [INFO   ] thread dealer step 5
+[11:54:56.722] [INFO   ] thread dealer step 6
+[11:54:56.722] [SEVERE ] updating countdown to 30578
+[11:54:56.722] [INFO   ] thread dealer step 7
+[11:54:56.722] [INFO   ] thread dealer step 8
+[11:54:56.722] [INFO   ] thread dealer place card step 8
+[11:54:56.722] [INFO   ] thread dealer step 9
+[11:54:56.722] [INFO   ] thread dealer step 5
+[11:54:57.725] [INFO   ] thread dealer step 6
+[11:54:57.725] [SEVERE ] updating countdown to 29575
+[11:54:57.726] [INFO   ] thread dealer step 7
+[11:54:57.726] [INFO   ] thread dealer step 8
+[11:54:57.726] [INFO   ] thread dealer place card step 8
+[11:54:57.726] [INFO   ] thread dealer step 9
+[11:54:57.726] [INFO   ] thread dealer step 5
+[11:54:58.729] [INFO   ] thread dealer step 6
+[11:54:58.729] [SEVERE ] updating countdown to 28571
+[11:54:58.729] [INFO   ] thread dealer step 7
+[11:54:58.729] [INFO   ] thread dealer step 8
+[11:54:58.729] [INFO   ] thread dealer place card step 8
+[11:54:58.729] [INFO   ] thread dealer step 9
+[11:54:58.729] [INFO   ] thread dealer step 5
+[11:54:59.733] [INFO   ] thread dealer step 6
+[11:54:59.733] [SEVERE ] updating countdown to 27567
+[11:54:59.733] [INFO   ] thread dealer step 7
+[11:54:59.733] [INFO   ] thread dealer step 8
+[11:54:59.733] [INFO   ] thread dealer place card step 8
+[11:54:59.733] [INFO   ] thread dealer step 9
+[11:54:59.733] [INFO   ] thread dealer step 5
+[11:55:00.735] [INFO   ] thread dealer step 6
+[11:55:00.735] [SEVERE ] updating countdown to 26565
+[11:55:00.735] [INFO   ] thread dealer step 7
+[11:55:00.735] [INFO   ] thread dealer step 8
+[11:55:00.735] [INFO   ] thread dealer place card step 8
+[11:55:00.735] [INFO   ] thread dealer step 9
+[11:55:00.735] [INFO   ] thread dealer step 5
+[11:55:01.736] [INFO   ] thread dealer step 6
+[11:55:01.736] [SEVERE ] updating countdown to 25564
+[11:55:01.736] [INFO   ] thread dealer step 7
+[11:55:01.736] [INFO   ] thread dealer step 8
+[11:55:01.736] [INFO   ] thread dealer place card step 8
+[11:55:01.736] [INFO   ] thread dealer step 9
+[11:55:01.736] [INFO   ] thread dealer step 5
+[11:55:01.767] [SEVERE ] key 74 was pressed by player 2
+[11:55:01.767] [SEVERE ] player 2 placing token on slot 4
+[11:55:02.740] [INFO   ] thread dealer step 6
+[11:55:02.740] [SEVERE ] updating countdown to 24560
+[11:55:02.740] [INFO   ] thread dealer step 7
+[11:55:02.740] [INFO   ] thread dealer step 8
+[11:55:02.740] [INFO   ] thread dealer place card step 8
+[11:55:02.740] [INFO   ] thread dealer step 9
+[11:55:02.740] [INFO   ] thread dealer step 5
+[11:55:03.743] [INFO   ] thread dealer step 6
+[11:55:03.743] [SEVERE ] updating countdown to 23557
+[11:55:03.743] [INFO   ] thread dealer step 7
+[11:55:03.743] [INFO   ] thread dealer step 8
+[11:55:03.743] [INFO   ] thread dealer place card step 8
+[11:55:03.743] [INFO   ] thread dealer step 9
+[11:55:03.743] [INFO   ] thread dealer step 5
+[11:55:04.040] [SEVERE ] key 85 was pressed by player 2
+[11:55:04.040] [SEVERE ] player 2 placing token on slot 0
+[11:55:04.638] [SEVERE ] key 85 was pressed by player 2
+[11:55:04.638] [SEVERE ] removing player 2 token from slot 0
+[11:55:04.746] [INFO   ] thread dealer step 6
+[11:55:04.746] [SEVERE ] updating countdown to 22554
+[11:55:04.746] [INFO   ] thread dealer step 7
+[11:55:04.746] [INFO   ] thread dealer step 8
+[11:55:04.746] [INFO   ] thread dealer place card step 8
+[11:55:04.746] [INFO   ] thread dealer step 9
+[11:55:04.746] [INFO   ] thread dealer step 5
+[11:55:05.748] [INFO   ] thread dealer step 6
+[11:55:05.748] [SEVERE ] updating countdown to 21552
+[11:55:05.748] [INFO   ] thread dealer step 7
+[11:55:05.748] [INFO   ] thread dealer step 8
+[11:55:05.748] [INFO   ] thread dealer place card step 8
+[11:55:05.748] [INFO   ] thread dealer step 9
+[11:55:05.748] [INFO   ] thread dealer step 5
+[11:55:05.889] [SEVERE ] key 85 was pressed by player 2
+[11:55:05.889] [SEVERE ] player 2 placing token on slot 0
+[11:55:06.757] [INFO   ] thread dealer step 6
+[11:55:06.757] [SEVERE ] updating countdown to 20543
+[11:55:06.757] [INFO   ] thread dealer step 7
+[11:55:06.757] [INFO   ] thread dealer step 8
+[11:55:06.757] [INFO   ] thread dealer place card step 8
+[11:55:06.757] [INFO   ] thread dealer step 9
+[11:55:06.757] [INFO   ] thread dealer step 5
+[11:55:07.070] [SEVERE ] key 76 was pressed by player 2
+[11:55:07.070] [SEVERE ] player 2 placing token on slot 6
+[11:55:07.070] [INFO   ] thread dealer step 6
+[11:55:07.071] [SEVERE ] updating countdown to 20229
+[11:55:07.071] [INFO   ] thread dealer step 7
+[11:55:07.071] [SEVERE ] setting player 2 freeze to 3000
+[11:55:08.079] [SEVERE ] setting player 2 freeze to 2000
+[11:55:09.082] [SEVERE ] setting player 2 freeze to 1000
+[11:55:10.096] [SEVERE ] setting player 2 freeze to 0
+[11:55:10.096] [INFO   ] thread dealer step 8
+[11:55:10.096] [INFO   ] thread dealer place card step 8
+[11:55:10.096] [INFO   ] thread dealer step 9
+[11:55:10.096] [INFO   ] thread dealer step 5
+[11:55:10.096] [INFO   ] thread dealer step 6
+[11:55:10.096] [SEVERE ] updating countdown to 17204
+[11:55:10.096] [INFO   ] thread dealer step 7
+[11:55:10.096] [SEVERE ] setting player 2 freeze to 3000
+[11:55:11.101] [SEVERE ] setting player 2 freeze to 2000
+[11:55:12.103] [SEVERE ] setting player 2 freeze to 1000
+[11:55:13.110] [SEVERE ] setting player 2 freeze to 0
+[11:55:13.110] [SEVERE ] setting player 2 freeze to 3000
+[11:55:14.112] [SEVERE ] setting player 2 freeze to 2000
+[11:55:15.126] [SEVERE ] setting player 2 freeze to 1000
+[11:55:16.134] [SEVERE ] setting player 2 freeze to 0
+[11:55:16.134] [INFO   ] thread dealer step 8
+[11:55:16.134] [INFO   ] thread dealer place card step 8
+[11:55:16.134] [INFO   ] thread dealer step 9
+[11:55:16.134] [INFO   ] thread dealer step 5
+[11:55:16.134] [INFO   ] thread dealer step 6
+[11:55:16.134] [SEVERE ] updating countdown to 11166
+[11:55:16.134] [INFO   ] thread dealer step 7
+[11:55:16.134] [SEVERE ] setting player 2 freeze to 3000
+[11:55:17.138] [SEVERE ] setting player 2 freeze to 2000
+[11:55:18.140] [SEVERE ] setting player 2 freeze to 1000
+[11:55:19.144] [SEVERE ] setting player 2 freeze to 0
+[11:55:19.144] [SEVERE ] setting player 2 freeze to 3000
+[11:55:20.146] [SEVERE ] setting player 2 freeze to 2000
+[11:55:21.149] [SEVERE ] setting player 2 freeze to 1000
+[11:55:22.159] [SEVERE ] setting player 2 freeze to 0
+[11:55:22.159] [SEVERE ] setting player 2 freeze to 3000
+[11:55:23.161] [SEVERE ] setting player 2 freeze to 2000
+[11:55:24.165] [SEVERE ] setting player 2 freeze to 1000
+[11:55:25.169] [SEVERE ] setting player 2 freeze to 0
+[11:55:25.169] [INFO   ] thread dealer step 8
+[11:55:25.169] [INFO   ] thread dealer place card step 8
+[11:55:25.169] [INFO   ] thread dealer step 9
+[11:55:25.169] [INFO   ] thread dealer step 5
+[11:55:25.169] [INFO   ] thread dealer step 6
+[11:55:25.169] [INFO   ] thread dealer step 7
+[11:55:25.169] [SEVERE ] setting player 2 freeze to 3000
+[11:55:26.177] [SEVERE ] setting player 2 freeze to 2000
+[11:55:27.178] [SEVERE ] setting player 2 freeze to 1000
+[11:55:28.181] [SEVERE ] setting player 2 freeze to 0
+[11:55:28.181] [SEVERE ] setting player 2 freeze to 3000
+[11:55:29.182] [SEVERE ] setting player 2 freeze to 2000
+[11:55:30.189] [SEVERE ] setting player 2 freeze to 1000
+[11:55:31.198] [SEVERE ] setting player 2 freeze to 0
+[11:55:31.198] [SEVERE ] setting player 2 freeze to 3000
+[11:55:32.208] [SEVERE ] setting player 2 freeze to 2000
+[11:55:33.216] [SEVERE ] setting player 2 freeze to 1000
+[11:55:34.221] [SEVERE ] setting player 2 freeze to 0
+[11:55:34.221] [SEVERE ] setting player 2 freeze to 3000
+[11:55:35.224] [SEVERE ] setting player 2 freeze to 2000
+[11:55:36.229] [SEVERE ] setting player 2 freeze to 1000
+[11:55:37.244] [SEVERE ] setting player 2 freeze to 0
+[11:55:37.244] [INFO   ] thread dealer step 8
+[11:55:37.244] [INFO   ] thread dealer place card step 8
+[11:55:37.244] [INFO   ] thread dealer step 9
+[11:55:37.244] [SEVERE ] updating countdown to 60000
+[11:55:37.244] [INFO   ] thread dealer terminated.
+[11:55:42.254] [SEVERE ] thanks for playing... it was fun!
+[11:55:42.254] [INFO   ] thread main terminated.
+[11:55:42.254] [SEVERE ] disposing of user interface elements

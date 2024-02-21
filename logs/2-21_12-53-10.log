@@ -1,0 +1,109 @@
+[12:53:10.473] [INFO   ] thread main starting.
+[12:53:10.481] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[12:53:10.482] [SEVERE ] configuration file was loaded from resources directory.
+[12:53:11.021] [INFO   ] thread dealer starting.
+[12:53:11.022] [INFO   ] thread dealer starting.
+[12:53:11.022] [SEVERE ] updating countdown to 60000
+[12:53:11.023] [INFO   ] thread Thread-1 starting.
+[12:53:11.022] [INFO   ] thread Thread-0 starting.
+[12:53:11.025] [INFO   ] thread dealer place card table.
+[12:53:11.137] [SEVERE ] placing card 0 in slot 0
+[12:53:11.137] [INFO   ] thread dealer place card table. 0.2
+[12:53:11.137] [INFO   ] thread dealer place card table.
+[12:53:11.242] [SEVERE ] placing card 11 in slot 1
+[12:53:11.242] [INFO   ] thread dealer place card table. 0.2
+[12:53:11.242] [INFO   ] thread dealer place card table.
+[12:53:11.345] [SEVERE ] placing card 38 in slot 2
+[12:53:11.345] [INFO   ] thread dealer place card table. 0.2
+[12:53:11.345] [INFO   ] thread dealer place card table.
+[12:53:11.454] [SEVERE ] placing card 34 in slot 3
+[12:53:11.454] [INFO   ] thread dealer place card table. 0.2
+[12:53:11.454] [INFO   ] thread dealer place card table.
+[12:53:11.559] [SEVERE ] placing card 46 in slot 4
+[12:53:11.559] [INFO   ] thread dealer place card table. 0.2
+[12:53:11.559] [INFO   ] thread dealer place card table.
+[12:53:11.673] [SEVERE ] placing card 13 in slot 5
+[12:53:11.673] [INFO   ] thread dealer place card table. 0.2
+[12:53:11.673] [INFO   ] thread dealer place card table.
+[12:53:11.787] [SEVERE ] placing card 33 in slot 6
+[12:53:11.787] [INFO   ] thread dealer place card table. 0.2
+[12:53:11.787] [INFO   ] thread dealer place card table.
+[12:53:11.900] [SEVERE ] placing card 17 in slot 7
+[12:53:11.900] [INFO   ] thread dealer place card table. 0.2
+[12:53:11.900] [INFO   ] thread dealer place card table.
+[12:53:12.014] [SEVERE ] placing card 68 in slot 8
+[12:53:12.015] [INFO   ] thread dealer place card table. 0.2
+[12:53:12.015] [INFO   ] thread dealer place card table.
+[12:53:12.128] [SEVERE ] placing card 48 in slot 9
+[12:53:12.128] [INFO   ] thread dealer place card table. 0.2
+[12:53:12.128] [INFO   ] thread dealer place card table.
+[12:53:12.242] [SEVERE ] placing card 71 in slot 10
+[12:53:12.242] [INFO   ] thread dealer place card table. 0.2
+[12:53:12.242] [INFO   ] thread dealer place card table.
+[12:53:12.349] [SEVERE ] placing card 74 in slot 11
+[12:53:12.349] [INFO   ] thread dealer place card table. 0.2
+[12:53:13.361] [SEVERE ] updating countdown to 57662
+[12:53:13.361] [SEVERE ] setting player 1 freeze to 100
+[12:53:13.471] [SEVERE ] setting player 2 freeze to 100
+[12:53:14.584] [SEVERE ] updating countdown to 56439
+[12:53:14.584] [SEVERE ] setting player 1 freeze to 100
+[12:53:14.694] [SEVERE ] setting player 2 freeze to 100
+[12:53:15.805] [SEVERE ] updating countdown to 55218
+[12:53:15.805] [SEVERE ] setting player 1 freeze to 100
+[12:53:15.914] [SEVERE ] setting player 2 freeze to 100
+[12:53:17.027] [SEVERE ] updating countdown to 53996
+[12:53:17.027] [SEVERE ] setting player 1 freeze to 100
+[12:53:17.137] [SEVERE ] setting player 2 freeze to 100
+[12:53:17.831] [SEVERE ] key 77 was pressed by player 2
+[12:53:17.831] [SEVERE ] player 2 placing token on slot 8
+[12:53:18.248] [SEVERE ] updating countdown to 52775
+[12:53:18.248] [SEVERE ] setting player 1 freeze to 100
+[12:53:18.357] [SEVERE ] setting player 2 freeze to 100
+[12:53:19.468] [SEVERE ] updating countdown to 51555
+[12:53:19.468] [SEVERE ] setting player 1 freeze to 100
+[12:53:19.580] [SEVERE ] setting player 2 freeze to 100
+[12:53:20.695] [SEVERE ] updating countdown to 50328
+[12:53:20.695] [SEVERE ] setting player 1 freeze to 100
+[12:53:20.805] [SEVERE ] setting player 2 freeze to 100
+[12:53:21.917] [SEVERE ] updating countdown to 49106
+[12:53:21.917] [SEVERE ] setting player 1 freeze to 100
+[12:53:22.027] [SEVERE ] setting player 2 freeze to 100
+[12:53:22.795] [SEVERE ] key 73 was pressed by player 2
+[12:53:22.795] [SEVERE ] player 2 placing token on slot 1
+[12:53:23.140] [SEVERE ] updating countdown to 47883
+[12:53:23.140] [SEVERE ] setting player 1 freeze to 100
+[12:53:23.249] [SEVERE ] setting player 2 freeze to 100
+[12:53:24.361] [SEVERE ] updating countdown to 46662
+[12:53:24.361] [SEVERE ] setting player 1 freeze to 100
+[12:53:24.470] [SEVERE ] setting player 2 freeze to 100
+[12:53:24.658] [SEVERE ] key 73 was pressed by player 2
+[12:53:24.658] [SEVERE ] removing player 2 token from slot 1
+[12:53:25.581] [SEVERE ] updating countdown to 45442
+[12:53:25.581] [SEVERE ] setting player 1 freeze to 100
+[12:53:25.691] [SEVERE ] setting player 2 freeze to 100
+[12:53:26.133] [SEVERE ] key 79 was pressed by player 2
+[12:53:26.133] [SEVERE ] player 2 placing token on slot 2
+[12:53:26.805] [SEVERE ] updating countdown to 44218
+[12:53:26.805] [SEVERE ] setting player 1 freeze to 100
+[12:53:26.915] [SEVERE ] setting player 2 freeze to 100
+[12:53:28.027] [SEVERE ] updating countdown to 42996
+[12:53:28.027] [SEVERE ] setting player 1 freeze to 100
+[12:53:28.137] [SEVERE ] setting player 2 freeze to 100
+[12:53:29.249] [SEVERE ] updating countdown to 41774
+[12:53:29.249] [SEVERE ] setting player 1 freeze to 100
+[12:53:29.265] [SEVERE ] key 59 was pressed by player 2
+[12:53:29.265] [SEVERE ] player 2 placing token on slot 7
+[12:53:29.359] [SEVERE ] setting player 2 freeze to 100
+[12:53:29.468] [INFO   ] remove step 1
+[12:53:29.468] [INFO   ] player name: 1 queue size: 3
+[12:53:29.468] [INFO   ] remove step 2
+[12:53:29.468] [INFO   ] point step 1
+[12:53:29.468] [SEVERE ] setting player 2 score to 1
+[12:53:29.468] [SEVERE ] setting player 2 freeze to 1000
+[12:53:29.468] [INFO   ] point step 2
+[12:53:30.472] [SEVERE ] setting player 2 freeze to 0
+[12:53:30.472] [INFO   ] remove step 3
+[12:53:30.476] [INFO   ] thread dealer terminated.
+[12:53:35.489] [SEVERE ] thanks for playing... it was fun!
+[12:53:35.489] [INFO   ] thread main terminated.
+[12:53:35.489] [SEVERE ] disposing of user interface elements

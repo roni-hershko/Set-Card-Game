@@ -1,0 +1,136 @@
+[12:27:30.820] [INFO   ] thread main starting.
+[12:27:30.825] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[12:27:30.833] [SEVERE ] configuration file was loaded from resources directory.
+[12:27:31.323] [INFO   ] thread dealer starting.
+[12:27:31.330] [INFO   ] thread dealer starting.
+[12:27:31.330] [SEVERE ] updating countdown to 60000
+[12:27:31.331] [INFO   ] thread Thread-1 starting.
+[12:27:31.330] [INFO   ] thread Thread-0 starting.
+[12:27:31.333] [INFO   ] thread dealer step 1
+[12:27:31.333] [INFO   ] thread dealer place card table.
+[12:27:31.439] [SEVERE ] placing card 50 in slot 0
+[12:27:31.439] [INFO   ] thread dealer place card table. 0.2
+[12:27:31.439] [INFO   ] thread dealer place card table.
+[12:27:31.545] [SEVERE ] placing card 11 in slot 1
+[12:27:31.545] [INFO   ] thread dealer place card table. 0.2
+[12:27:31.545] [INFO   ] thread dealer place card table.
+[12:27:31.659] [SEVERE ] placing card 36 in slot 2
+[12:27:31.659] [INFO   ] thread dealer place card table. 0.2
+[12:27:31.659] [INFO   ] thread dealer place card table.
+[12:27:31.765] [SEVERE ] placing card 32 in slot 3
+[12:27:31.766] [INFO   ] thread dealer place card table. 0.2
+[12:27:31.766] [INFO   ] thread dealer place card table.
+[12:27:31.876] [SEVERE ] placing card 34 in slot 4
+[12:27:31.876] [INFO   ] thread dealer place card table. 0.2
+[12:27:31.876] [INFO   ] thread dealer place card table.
+[12:27:31.981] [SEVERE ] placing card 43 in slot 5
+[12:27:31.981] [INFO   ] thread dealer place card table. 0.2
+[12:27:31.981] [INFO   ] thread dealer place card table.
+[12:27:32.087] [SEVERE ] placing card 16 in slot 6
+[12:27:32.087] [INFO   ] thread dealer place card table. 0.2
+[12:27:32.087] [INFO   ] thread dealer place card table.
+[12:27:32.194] [SEVERE ] placing card 80 in slot 7
+[12:27:32.194] [INFO   ] thread dealer place card table. 0.2
+[12:27:32.194] [INFO   ] thread dealer place card table.
+[12:27:32.307] [SEVERE ] placing card 79 in slot 8
+[12:27:32.307] [INFO   ] thread dealer place card table. 0.2
+[12:27:32.308] [INFO   ] thread dealer place card table.
+[12:27:32.416] [SEVERE ] placing card 33 in slot 9
+[12:27:32.416] [INFO   ] thread dealer place card table. 0.2
+[12:27:32.416] [INFO   ] thread dealer place card table.
+[12:27:32.531] [SEVERE ] placing card 39 in slot 10
+[12:27:32.531] [INFO   ] thread dealer place card table. 0.2
+[12:27:32.531] [INFO   ] thread dealer place card table.
+[12:27:32.637] [SEVERE ] placing card 37 in slot 11
+[12:27:32.637] [INFO   ] thread dealer place card table. 0.2
+[12:27:32.637] [INFO   ] thread dealer place card step 8
+[12:27:32.637] [INFO   ] thread dealer step 4
+[12:27:33.648] [SEVERE ] updating countdown to 57685
+[12:27:33.648] [SEVERE ] setting player 1 freeze to 100
+[12:27:33.758] [SEVERE ] setting player 2 freeze to 100
+[12:27:33.868] [INFO   ] thread dealer place card step 8
+[12:27:34.868] [SEVERE ] updating countdown to 56465
+[12:27:34.868] [SEVERE ] setting player 1 freeze to 100
+[12:27:34.978] [SEVERE ] setting player 2 freeze to 100
+[12:27:35.088] [INFO   ] thread dealer place card step 8
+[12:27:36.092] [SEVERE ] updating countdown to 55241
+[12:27:36.092] [SEVERE ] setting player 1 freeze to 100
+[12:27:36.201] [SEVERE ] setting player 2 freeze to 100
+[12:27:36.311] [INFO   ] thread dealer place card step 8
+[12:27:37.312] [SEVERE ] updating countdown to 54021
+[12:27:37.312] [SEVERE ] setting player 1 freeze to 100
+[12:27:37.421] [SEVERE ] setting player 2 freeze to 100
+[12:27:37.531] [INFO   ] thread dealer place card step 8
+[12:27:38.539] [SEVERE ] updating countdown to 52794
+[12:27:38.539] [SEVERE ] setting player 1 freeze to 100
+[12:27:38.648] [SEVERE ] setting player 2 freeze to 100
+[12:27:38.758] [INFO   ] thread dealer place card step 8
+[12:27:39.759] [SEVERE ] updating countdown to 51574
+[12:27:39.759] [SEVERE ] setting player 1 freeze to 100
+[12:27:39.869] [SEVERE ] setting player 2 freeze to 100
+[12:27:39.978] [INFO   ] thread dealer place card step 8
+[12:27:40.981] [SEVERE ] updating countdown to 50352
+[12:27:40.981] [SEVERE ] setting player 1 freeze to 100
+[12:27:41.090] [SEVERE ] setting player 2 freeze to 100
+[12:27:41.201] [INFO   ] thread dealer place card step 8
+[12:27:42.202] [SEVERE ] updating countdown to 49131
+[12:27:42.202] [SEVERE ] setting player 1 freeze to 100
+[12:27:42.311] [SEVERE ] setting player 2 freeze to 100
+[12:27:42.421] [INFO   ] thread dealer place card step 8
+[12:27:43.435] [SEVERE ] updating countdown to 47898
+[12:27:43.435] [SEVERE ] setting player 1 freeze to 100
+[12:27:43.545] [SEVERE ] setting player 2 freeze to 100
+[12:27:43.654] [INFO   ] thread dealer place card step 8
+[12:27:44.655] [SEVERE ] updating countdown to 46678
+[12:27:44.655] [SEVERE ] setting player 1 freeze to 100
+[12:27:44.764] [SEVERE ] setting player 2 freeze to 100
+[12:27:44.874] [INFO   ] thread dealer place card step 8
+[12:27:45.878] [SEVERE ] updating countdown to 45455
+[12:27:45.878] [SEVERE ] setting player 1 freeze to 100
+[12:27:45.988] [SEVERE ] setting player 2 freeze to 100
+[12:27:46.098] [INFO   ] thread dealer place card step 8
+[12:27:47.102] [SEVERE ] updating countdown to 44231
+[12:27:47.103] [SEVERE ] setting player 1 freeze to 100
+[12:27:47.213] [SEVERE ] setting player 2 freeze to 100
+[12:27:47.322] [INFO   ] thread dealer place card step 8
+[12:27:48.323] [SEVERE ] updating countdown to 43010
+[12:27:48.323] [SEVERE ] setting player 1 freeze to 100
+[12:27:48.433] [SEVERE ] setting player 2 freeze to 100
+[12:27:48.537] [INFO   ] thread dealer place card step 8
+[12:27:49.390] [SEVERE ] key 74 was pressed by player 2
+[12:27:49.390] [SEVERE ] player 2 placing token on slot 4
+[12:27:49.549] [SEVERE ] updating countdown to 41784
+[12:27:49.549] [SEVERE ] setting player 1 freeze to 100
+[12:27:49.659] [SEVERE ] setting player 2 freeze to 100
+[12:27:49.765] [INFO   ] thread dealer place card step 8
+[12:27:50.769] [SEVERE ] updating countdown to 40564
+[12:27:50.769] [SEVERE ] setting player 1 freeze to 100
+[12:27:50.879] [SEVERE ] setting player 2 freeze to 100
+[12:27:50.988] [INFO   ] thread dealer place card step 8
+[12:27:51.663] [SEVERE ] key 85 was pressed by player 2
+[12:27:51.663] [SEVERE ] player 2 placing token on slot 0
+[12:27:51.991] [SEVERE ] updating countdown to 39342
+[12:27:51.991] [SEVERE ] setting player 1 freeze to 100
+[12:27:52.101] [SEVERE ] setting player 2 freeze to 100
+[12:27:52.210] [INFO   ] thread dealer place card step 8
+[12:27:53.212] [SEVERE ] updating countdown to 38121
+[12:27:53.212] [SEVERE ] setting player 1 freeze to 100
+[12:27:53.321] [SEVERE ] setting player 2 freeze to 100
+[12:27:53.431] [INFO   ] thread dealer place card step 8
+[12:27:54.445] [SEVERE ] updating countdown to 36888
+[12:27:54.445] [SEVERE ] setting player 1 freeze to 100
+[12:27:54.555] [SEVERE ] setting player 2 freeze to 100
+[12:27:54.665] [INFO   ] thread dealer place card step 8
+[12:27:54.852] [SEVERE ] key 79 was pressed by player 2
+[12:27:54.852] [SEVERE ] player 2 placing token on slot 2
+[12:27:54.852] [SEVERE ] updating countdown to 36481
+[12:27:54.852] [SEVERE ] setting player 1 freeze to 100
+[12:27:54.962] [SEVERE ] setting player 2 freeze to 100
+[12:27:55.071] [SEVERE ] setting player 2 freeze to 3000
+[12:27:56.073] [SEVERE ] setting player 2 freeze to 2000
+[12:27:57.077] [SEVERE ] setting player 2 freeze to 1000
+[12:27:58.079] [SEVERE ] setting player 2 freeze to 0
+[12:27:58.079] [INFO   ] thread dealer terminated.
+[12:28:03.085] [SEVERE ] thanks for playing... it was fun!
+[12:28:03.085] [INFO   ] thread main terminated.
+[12:28:03.085] [SEVERE ] disposing of user interface elements

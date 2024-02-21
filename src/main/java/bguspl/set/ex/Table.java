@@ -97,7 +97,6 @@ public class Table {
      * @post - the card placed is on the table, in the assigned slot.
      */
     public void placeCard(int card, int slot) {
-		env.logger.info("thread " + Thread.currentThread().getName() + " place card table.");
         try { 
             Thread.sleep(env.config.tableDelayMillis);
         } catch (InterruptedException ignored) {}
@@ -105,8 +104,6 @@ public class Table {
         cardToSlot[card] = slot;
         slotToCard[slot] = card;
         env.ui.placeCard(card, slot);
-		env.logger.info("thread " + Thread.currentThread().getName() + " place card table. 0.2");
-
 }
 
     /**
@@ -143,12 +140,9 @@ public class Table {
      */
     //if some player can't remove token, he will be in sleep mode, else he can remove therefor always true
     public boolean removeToken(int player, int slot) {
-            //check if the player has this solt in his queue
-            if(canPlaceTokens){
-        	    env.ui.removeToken(player, slot);
-                    return true; //???
-            }
-            return false;
+        //check if the player has this solt in his queue
+		env.ui.removeToken(player, slot);
+		return true; 
 	}
 
     //new methods GP
