@@ -1,0 +1,2911 @@
+[16:01:22.873] [INFO   ] thread main starting.
+[16:01:22.881] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[16:01:22.883] [SEVERE ] configuration file was loaded from resources directory.
+[16:01:23.481] [INFO   ] thread dealer starting.
+[16:01:23.484] [INFO   ] thread dealer starting.
+[16:01:23.484] [SEVERE ] updating countdown to 60000
+[16:01:23.485] [INFO   ] thread Thread-0 starting.
+[16:01:23.485] [INFO   ] thread Thread-1 starting.
+[16:01:23.712] [INFO   ] place card step 0 
+[16:01:23.713] [INFO   ] place card step 1 
+[16:01:23.824] [SEVERE ] placing card 56 in slot 0
+[16:01:23.936] [SEVERE ] placing card 7 in slot 1
+[16:01:24.046] [SEVERE ] placing card 60 in slot 2
+[16:01:24.154] [SEVERE ] placing card 59 in slot 3
+[16:01:24.264] [SEVERE ] placing card 51 in slot 4
+[16:01:24.372] [SEVERE ] placing card 10 in slot 5
+[16:01:24.480] [SEVERE ] placing card 42 in slot 6
+[16:01:24.589] [SEVERE ] placing card 71 in slot 7
+[16:01:24.697] [SEVERE ] placing card 73 in slot 8
+[16:01:24.808] [SEVERE ] placing card 39 in slot 9
+[16:01:24.916] [SEVERE ] placing card 64 in slot 10
+[16:01:25.025] [SEVERE ] placing card 77 in slot 11
+[16:01:25.026] [INFO   ] place card step 2 
+[16:01:25.026] [INFO   ] place card step 3 
+[16:01:25.033] [INFO   ] place card step 5 
+[16:01:25.033] [INFO   ] place card step 6 
+[16:01:25.034] [INFO   ] place card step 7 
+[16:01:25.034] [INFO   ] place card step 8 
+[16:01:25.034] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:26.043] [SEVERE ] updating countdown to 57444
+[16:01:26.480] [INFO   ] place card step 0 
+[16:01:26.480] [INFO   ] place card step 1 
+[16:01:26.480] [INFO   ] place card step 2 
+[16:01:26.480] [INFO   ] place card step 3 
+[16:01:26.483] [INFO   ] place card step 5 
+[16:01:26.483] [INFO   ] place card step 6 
+[16:01:26.483] [INFO   ] place card step 7 
+[16:01:26.483] [INFO   ] place card step 8 
+[16:01:26.483] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:27.498] [SEVERE ] updating countdown to 55989
+[16:01:27.940] [INFO   ] place card step 0 
+[16:01:27.941] [INFO   ] place card step 1 
+[16:01:27.941] [INFO   ] place card step 2 
+[16:01:27.941] [INFO   ] place card step 3 
+[16:01:27.945] [INFO   ] place card step 5 
+[16:01:27.946] [INFO   ] place card step 6 
+[16:01:27.946] [INFO   ] place card step 7 
+[16:01:27.946] [INFO   ] place card step 8 
+[16:01:27.947] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:28.949] [SEVERE ] updating countdown to 54538
+[16:01:29.386] [INFO   ] place card step 0 
+[16:01:29.387] [INFO   ] place card step 1 
+[16:01:29.387] [INFO   ] place card step 2 
+[16:01:29.387] [INFO   ] place card step 3 
+[16:01:29.391] [INFO   ] place card step 5 
+[16:01:29.391] [INFO   ] place card step 6 
+[16:01:29.391] [INFO   ] place card step 7 
+[16:01:29.391] [INFO   ] place card step 8 
+[16:01:29.392] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:30.403] [SEVERE ] updating countdown to 53084
+[16:01:30.846] [INFO   ] place card step 0 
+[16:01:30.846] [INFO   ] place card step 1 
+[16:01:30.846] [INFO   ] place card step 2 
+[16:01:30.847] [INFO   ] place card step 3 
+[16:01:30.849] [INFO   ] place card step 5 
+[16:01:30.849] [INFO   ] place card step 6 
+[16:01:30.849] [INFO   ] place card step 7 
+[16:01:30.849] [INFO   ] place card step 8 
+[16:01:30.849] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:31.858] [SEVERE ] updating countdown to 51629
+[16:01:32.293] [INFO   ] place card step 0 
+[16:01:32.294] [INFO   ] place card step 1 
+[16:01:32.294] [INFO   ] place card step 2 
+[16:01:32.294] [INFO   ] place card step 3 
+[16:01:32.296] [INFO   ] place card step 5 
+[16:01:32.296] [INFO   ] place card step 6 
+[16:01:32.297] [INFO   ] place card step 7 
+[16:01:32.297] [INFO   ] place card step 8 
+[16:01:32.297] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:33.307] [SEVERE ] updating countdown to 50180
+[16:01:33.743] [INFO   ] place card step 0 
+[16:01:33.743] [INFO   ] place card step 1 
+[16:01:33.743] [INFO   ] place card step 2 
+[16:01:33.743] [INFO   ] place card step 3 
+[16:01:33.745] [INFO   ] place card step 5 
+[16:01:33.745] [INFO   ] place card step 6 
+[16:01:33.745] [INFO   ] place card step 7 
+[16:01:33.745] [INFO   ] place card step 8 
+[16:01:33.745] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:34.748] [SEVERE ] updating countdown to 48739
+[16:01:35.185] [INFO   ] place card step 0 
+[16:01:35.186] [INFO   ] place card step 1 
+[16:01:35.186] [INFO   ] place card step 2 
+[16:01:35.186] [INFO   ] place card step 3 
+[16:01:35.187] [INFO   ] place card step 5 
+[16:01:35.188] [INFO   ] place card step 6 
+[16:01:35.188] [INFO   ] place card step 7 
+[16:01:35.188] [INFO   ] place card step 8 
+[16:01:35.188] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:36.199] [SEVERE ] updating countdown to 47288
+[16:01:36.636] [INFO   ] place card step 0 
+[16:01:36.636] [INFO   ] place card step 1 
+[16:01:36.637] [INFO   ] place card step 2 
+[16:01:36.637] [INFO   ] place card step 3 
+[16:01:36.638] [INFO   ] place card step 5 
+[16:01:36.639] [INFO   ] place card step 6 
+[16:01:36.639] [INFO   ] place card step 7 
+[16:01:36.639] [INFO   ] place card step 8 
+[16:01:36.640] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:37.647] [SEVERE ] updating countdown to 45840
+[16:01:38.100] [INFO   ] place card step 0 
+[16:01:38.100] [INFO   ] place card step 1 
+[16:01:38.100] [INFO   ] place card step 2 
+[16:01:38.100] [INFO   ] place card step 3 
+[16:01:38.100] [INFO   ] place card step 5 
+[16:01:38.100] [INFO   ] place card step 6 
+[16:01:38.100] [INFO   ] place card step 7 
+[16:01:38.100] [INFO   ] place card step 8 
+[16:01:38.100] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:38.710] [SEVERE ] key 47 was pressed by player 2
+[16:01:38.710] [SEVERE ] player 2 placing token on slot 11
+[16:01:39.102] [SEVERE ] updating countdown to 44385
+[16:01:39.541] [INFO   ] place card step 0 
+[16:01:39.541] [INFO   ] place card step 1 
+[16:01:39.541] [INFO   ] place card step 2 
+[16:01:39.541] [INFO   ] place card step 3 
+[16:01:39.541] [INFO   ] place card step 5 
+[16:01:39.541] [INFO   ] place card step 6 
+[16:01:39.541] [INFO   ] place card step 7 
+[16:01:39.541] [INFO   ] place card step 8 
+[16:01:39.541] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:40.542] [SEVERE ] updating countdown to 42945
+[16:01:40.980] [INFO   ] place card step 0 
+[16:01:40.980] [INFO   ] place card step 1 
+[16:01:40.980] [INFO   ] place card step 2 
+[16:01:40.980] [INFO   ] place card step 3 
+[16:01:40.980] [INFO   ] place card step 5 
+[16:01:40.980] [INFO   ] place card step 6 
+[16:01:40.980] [INFO   ] place card step 7 
+[16:01:40.980] [INFO   ] place card step 8 
+[16:01:40.980] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:41.981] [SEVERE ] updating countdown to 41506
+[16:01:42.138] [SEVERE ] key 79 was pressed by player 2
+[16:01:42.138] [SEVERE ] player 2 placing token on slot 2
+[16:01:42.419] [INFO   ] place card step 0 
+[16:01:42.419] [INFO   ] place card step 1 
+[16:01:42.419] [INFO   ] place card step 2 
+[16:01:42.419] [INFO   ] place card step 3 
+[16:01:42.419] [INFO   ] place card step 5 
+[16:01:42.419] [INFO   ] place card step 6 
+[16:01:42.419] [INFO   ] place card step 7 
+[16:01:42.419] [INFO   ] place card step 8 
+[16:01:42.419] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:43.421] [SEVERE ] updating countdown to 40066
+[16:01:43.859] [INFO   ] place card step 0 
+[16:01:43.859] [INFO   ] place card step 1 
+[16:01:43.859] [INFO   ] place card step 2 
+[16:01:43.859] [INFO   ] place card step 3 
+[16:01:43.859] [INFO   ] place card step 5 
+[16:01:43.859] [INFO   ] place card step 6 
+[16:01:43.859] [INFO   ] place card step 7 
+[16:01:43.859] [INFO   ] place card step 8 
+[16:01:43.859] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:44.863] [SEVERE ] updating countdown to 38624
+[16:01:45.300] [INFO   ] place card step 0 
+[16:01:45.300] [INFO   ] place card step 1 
+[16:01:45.300] [INFO   ] place card step 2 
+[16:01:45.300] [INFO   ] place card step 3 
+[16:01:45.300] [INFO   ] place card step 5 
+[16:01:45.300] [INFO   ] place card step 6 
+[16:01:45.300] [INFO   ] place card step 7 
+[16:01:45.300] [INFO   ] place card step 8 
+[16:01:45.300] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:46.302] [SEVERE ] updating countdown to 37185
+[16:01:46.739] [INFO   ] place card step 0 
+[16:01:46.739] [INFO   ] place card step 1 
+[16:01:46.739] [INFO   ] place card step 2 
+[16:01:46.739] [INFO   ] place card step 3 
+[16:01:46.739] [INFO   ] place card step 5 
+[16:01:46.739] [INFO   ] place card step 6 
+[16:01:46.739] [INFO   ] place card step 7 
+[16:01:46.739] [INFO   ] place card step 8 
+[16:01:46.739] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:47.740] [SEVERE ] updating countdown to 35747
+[16:01:48.022] [SEVERE ] key 81 was pressed by player 1
+[16:01:48.022] [SEVERE ] player 1 placing token on slot 0
+[16:01:48.179] [INFO   ] place card step 0 
+[16:01:48.179] [INFO   ] place card step 1 
+[16:01:48.179] [INFO   ] place card step 2 
+[16:01:48.179] [INFO   ] place card step 3 
+[16:01:48.179] [INFO   ] place card step 5 
+[16:01:48.179] [INFO   ] place card step 6 
+[16:01:48.179] [INFO   ] place card step 7 
+[16:01:48.179] [INFO   ] place card step 8 
+[16:01:48.179] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:48.335] [SEVERE ] key 87 was pressed by player 1
+[16:01:48.335] [SEVERE ] player 1 placing token on slot 1
+[16:01:49.179] [SEVERE ] updating countdown to 34308
+[16:01:49.619] [INFO   ] place card step 0 
+[16:01:49.619] [INFO   ] place card step 1 
+[16:01:49.619] [INFO   ] place card step 2 
+[16:01:49.619] [INFO   ] place card step 3 
+[16:01:49.619] [INFO   ] place card step 5 
+[16:01:49.619] [INFO   ] place card step 6 
+[16:01:49.619] [INFO   ] place card step 7 
+[16:01:49.619] [INFO   ] place card step 8 
+[16:01:49.619] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:49.650] [SEVERE ] key 46 was pressed by player 2
+[16:01:49.650] [SEVERE ] player 2 placing token on slot 10
+[16:01:49.650] [SEVERE ] updating countdown to 33837
+[16:01:49.871] [INFO   ] remove  in the table step 1
+[16:01:49.871] [INFO   ] remove  in the table step 2
+[16:01:49.871] [INFO   ] point step 1!!!!
+[16:01:49.871] [SEVERE ] setting player 2 score to 1
+[16:01:49.871] [INFO   ] point step 2
+[16:01:49.871] [SEVERE ] setting player 2 freeze to 1000
+[16:01:49.871] [INFO   ] point step 3
+[16:01:49.871] [INFO   ] point step while!!!!!! poimt freeze1000
+[16:01:49.903] [SEVERE ] key 83 was pressed by player 1
+[16:01:50.873] [SEVERE ] setting player 2 freeze to 0
+[16:01:50.873] [SEVERE ] removing player 2 token from slot 11
+[16:01:50.983] [SEVERE ] removing card from slot 11
+[16:01:50.983] [SEVERE ] removing player 2 token from slot 2
+[16:01:51.092] [SEVERE ] removing card from slot 2
+[16:01:51.092] [SEVERE ] removing player 2 token from slot 10
+[16:01:51.202] [SEVERE ] removing card from slot 10
+[16:01:51.202] [SEVERE ] updating countdown to 60000
+[16:01:51.421] [INFO   ] place card step 0 
+[16:01:51.421] [INFO   ] place card step 1 
+[16:01:51.531] [SEVERE ] placing card 34 in slot 2
+[16:01:51.640] [SEVERE ] placing card 12 in slot 10
+[16:01:51.750] [SEVERE ] placing card 49 in slot 11
+[16:01:51.750] [INFO   ] place card step 2 
+[16:01:51.750] [INFO   ] place card step 3 
+[16:01:51.750] [INFO   ] place card step 5 
+[16:01:51.750] [INFO   ] place card step 6 
+[16:01:51.750] [INFO   ] place card step 7 
+[16:01:51.750] [INFO   ] place card step 8 
+[16:01:51.750] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:51.750] [SEVERE ] updating countdown to 59452
+[16:01:51.969] [INFO   ] remove  in the table step 1
+[16:01:51.969] [INFO   ] remove  in the table step 2
+[16:01:51.969] [INFO   ] penalty step 1!!!!
+[16:01:51.969] [SEVERE ] setting player 1 freeze to 3000
+[16:01:51.969] [INFO   ] penalty step 1!!!!
+[16:01:51.969] [INFO   ] penalty while step 1!!!!
+[16:01:52.973] [INFO   ] penalty while step 2!!!!
+[16:01:52.973] [SEVERE ] setting player 1 freeze to 2000
+[16:01:52.973] [INFO   ] penalty while step 1!!!!
+[16:01:53.974] [INFO   ] penalty while step 2!!!!
+[16:01:53.974] [SEVERE ] setting player 1 freeze to 1000
+[16:01:53.974] [INFO   ] penalty while step 1!!!!
+[16:01:54.978] [INFO   ] penalty while step 2!!!!
+[16:01:54.978] [SEVERE ] setting player 1 freeze to 0
+[16:01:54.978] [SEVERE ] removing player 1 token from slot 0
+[16:01:54.978] [SEVERE ] removing player 1 token from slot 1
+[16:01:54.978] [SEVERE ] removing player 1 token from slot 5
+[16:01:55.196] [INFO   ] place card step 0 
+[16:01:55.196] [INFO   ] place card step 1 
+[16:01:55.196] [INFO   ] place card step 2 
+[16:01:55.196] [INFO   ] place card step 3 
+[16:01:55.196] [INFO   ] place card step 5 
+[16:01:55.196] [INFO   ] place card step 6 
+[16:01:55.196] [INFO   ] place card step 7 
+[16:01:55.196] [INFO   ] place card step 8 
+[16:01:55.196] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:56.198] [SEVERE ] updating countdown to 55004
+[16:01:56.637] [INFO   ] place card step 0 
+[16:01:56.637] [INFO   ] place card step 1 
+[16:01:56.637] [INFO   ] place card step 2 
+[16:01:56.637] [INFO   ] place card step 3 
+[16:01:56.637] [INFO   ] place card step 5 
+[16:01:56.637] [INFO   ] place card step 6 
+[16:01:56.637] [INFO   ] place card step 7 
+[16:01:56.637] [INFO   ] place card step 8 
+[16:01:56.637] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:57.652] [SEVERE ] updating countdown to 53550
+[16:01:58.090] [INFO   ] place card step 0 
+[16:01:58.090] [INFO   ] place card step 1 
+[16:01:58.090] [INFO   ] place card step 2 
+[16:01:58.090] [INFO   ] place card step 3 
+[16:01:58.090] [INFO   ] place card step 5 
+[16:01:58.090] [INFO   ] place card step 6 
+[16:01:58.090] [INFO   ] place card step 7 
+[16:01:58.090] [INFO   ] place card step 8 
+[16:01:58.090] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:01:59.091] [SEVERE ] updating countdown to 52111
+[16:01:59.528] [INFO   ] place card step 0 
+[16:01:59.528] [INFO   ] place card step 1 
+[16:01:59.528] [INFO   ] place card step 2 
+[16:01:59.528] [INFO   ] place card step 3 
+[16:01:59.528] [INFO   ] place card step 5 
+[16:01:59.528] [INFO   ] place card step 6 
+[16:01:59.528] [INFO   ] place card step 7 
+[16:01:59.528] [INFO   ] place card step 8 
+[16:01:59.528] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:00.529] [SEVERE ] updating countdown to 50673
+[16:02:00.968] [INFO   ] place card step 0 
+[16:02:00.968] [INFO   ] place card step 1 
+[16:02:00.968] [INFO   ] place card step 2 
+[16:02:00.968] [INFO   ] place card step 3 
+[16:02:00.968] [INFO   ] place card step 5 
+[16:02:00.968] [INFO   ] place card step 6 
+[16:02:00.968] [INFO   ] place card step 7 
+[16:02:00.968] [INFO   ] place card step 8 
+[16:02:00.968] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:01.970] [SEVERE ] updating countdown to 49232
+[16:02:02.409] [INFO   ] place card step 0 
+[16:02:02.409] [INFO   ] place card step 1 
+[16:02:02.409] [INFO   ] place card step 2 
+[16:02:02.409] [INFO   ] place card step 3 
+[16:02:02.409] [INFO   ] place card step 5 
+[16:02:02.409] [INFO   ] place card step 6 
+[16:02:02.409] [INFO   ] place card step 7 
+[16:02:02.409] [INFO   ] place card step 8 
+[16:02:02.409] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:03.410] [SEVERE ] updating countdown to 47792
+[16:02:03.848] [INFO   ] place card step 0 
+[16:02:03.848] [INFO   ] place card step 1 
+[16:02:03.848] [INFO   ] place card step 2 
+[16:02:03.848] [INFO   ] place card step 3 
+[16:02:03.849] [INFO   ] place card step 5 
+[16:02:03.849] [INFO   ] place card step 6 
+[16:02:03.849] [INFO   ] place card step 7 
+[16:02:03.849] [INFO   ] place card step 8 
+[16:02:03.849] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:04.852] [SEVERE ] updating countdown to 46350
+[16:02:05.278] [SEVERE ] key 65 was pressed by player 1
+[16:02:05.294] [INFO   ] place card step 0 
+[16:02:05.294] [INFO   ] place card step 1 
+[16:02:05.294] [INFO   ] place card step 2 
+[16:02:05.294] [INFO   ] place card step 3 
+[16:02:05.294] [INFO   ] place card step 5 
+[16:02:05.294] [INFO   ] place card step 6 
+[16:02:05.294] [INFO   ] place card step 7 
+[16:02:05.294] [INFO   ] place card step 8 
+[16:02:05.294] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:06.297] [SEVERE ] updating countdown to 44905
+[16:02:06.391] [SEVERE ] key 59 was pressed by player 2
+[16:02:06.391] [SEVERE ] player 2 placing token on slot 7
+[16:02:06.734] [INFO   ] place card step 0 
+[16:02:06.734] [INFO   ] place card step 1 
+[16:02:06.734] [INFO   ] place card step 2 
+[16:02:06.734] [INFO   ] place card step 3 
+[16:02:06.734] [INFO   ] place card step 5 
+[16:02:06.734] [INFO   ] place card step 6 
+[16:02:06.734] [INFO   ] place card step 7 
+[16:02:06.734] [INFO   ] place card step 8 
+[16:02:06.734] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:06.891] [SEVERE ] key 83 was pressed by player 1
+[16:02:06.891] [SEVERE ] player 1 placing token on slot 5
+[16:02:07.736] [SEVERE ] updating countdown to 43466
+[16:02:08.080] [SEVERE ] key 65 was pressed by player 1
+[16:02:08.080] [SEVERE ] removing player 1 token from slot 4
+[16:02:08.175] [INFO   ] place card step 0 
+[16:02:08.175] [INFO   ] place card step 1 
+[16:02:08.175] [INFO   ] place card step 2 
+[16:02:08.175] [INFO   ] place card step 3 
+[16:02:08.175] [INFO   ] place card step 5 
+[16:02:08.175] [INFO   ] place card step 6 
+[16:02:08.175] [INFO   ] place card step 7 
+[16:02:08.175] [INFO   ] place card step 8 
+[16:02:08.175] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:08.228] [SEVERE ] key 44 was pressed by player 2
+[16:02:08.228] [SEVERE ] player 2 placing token on slot 9
+[16:02:09.176] [SEVERE ] updating countdown to 42026
+[16:02:09.614] [INFO   ] place card step 0 
+[16:02:09.614] [INFO   ] place card step 1 
+[16:02:09.614] [INFO   ] place card step 2 
+[16:02:09.614] [INFO   ] place card step 3 
+[16:02:09.614] [INFO   ] place card step 5 
+[16:02:09.614] [INFO   ] place card step 6 
+[16:02:09.614] [INFO   ] place card step 7 
+[16:02:09.614] [INFO   ] place card step 8 
+[16:02:09.614] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:10.475] [SEVERE ] key 65 was pressed by player 1
+[16:02:10.475] [SEVERE ] player 1 placing token on slot 4
+[16:02:10.616] [SEVERE ] updating countdown to 40586
+[16:02:10.899] [SEVERE ] key 75 was pressed by player 2
+[16:02:10.899] [SEVERE ] player 2 placing token on slot 5
+[16:02:11.055] [INFO   ] place card step 0 
+[16:02:11.055] [INFO   ] place card step 1 
+[16:02:11.055] [INFO   ] place card step 2 
+[16:02:11.055] [INFO   ] place card step 3 
+[16:02:11.055] [INFO   ] place card step 5 
+[16:02:11.055] [INFO   ] place card step 6 
+[16:02:11.055] [INFO   ] place card step 7 
+[16:02:11.055] [INFO   ] place card step 8 
+[16:02:11.055] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:11.055] [SEVERE ] updating countdown to 40147
+[16:02:11.275] [INFO   ] remove  in the table step 1
+[16:02:11.275] [INFO   ] remove  in the table step 2
+[16:02:11.275] [INFO   ] point step 1!!!!
+[16:02:11.275] [SEVERE ] setting player 2 score to 2
+[16:02:11.275] [INFO   ] point step 2
+[16:02:11.275] [SEVERE ] setting player 2 freeze to 1000
+[16:02:11.275] [INFO   ] point step 3
+[16:02:11.275] [INFO   ] point step while!!!!!! poimt freeze1000
+[16:02:12.278] [SEVERE ] setting player 2 freeze to 0
+[16:02:12.278] [SEVERE ] removing player 2 token from slot 7
+[16:02:12.387] [SEVERE ] removing card from slot 7
+[16:02:12.387] [SEVERE ] removing player 2 token from slot 9
+[16:02:12.497] [SEVERE ] removing card from slot 9
+[16:02:12.497] [SEVERE ] removing player 2 token from slot 5
+[16:02:12.541] [SEVERE ] key 90 was pressed by player 1
+[16:02:12.606] [SEVERE ] removing card from slot 5
+[16:02:12.606] [SEVERE ] removing player 1 token from slot 5
+[16:02:12.606] [INFO   ] remove  in the table step 1
+[16:02:12.606] [INFO   ] remove  in the table step 2
+[16:02:12.607] [SEVERE ] updating countdown to 60000
+[16:02:12.825] [INFO   ] place card step 0 
+[16:02:12.825] [INFO   ] place card step 1 
+[16:02:12.934] [SEVERE ] placing card 69 in slot 5
+[16:02:13.044] [SEVERE ] placing card 55 in slot 7
+[16:02:13.153] [SEVERE ] placing card 62 in slot 9
+[16:02:13.153] [INFO   ] place card step 2 
+[16:02:13.153] [INFO   ] place card step 3 
+[16:02:13.153] [INFO   ] place card step 5 
+[16:02:13.153] [INFO   ] place card step 6 
+[16:02:13.153] [INFO   ] place card step 7 
+[16:02:13.153] [INFO   ] place card step 8 
+[16:02:13.153] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:14.154] [SEVERE ] updating countdown to 58453
+[16:02:14.327] [SEVERE ] key 90 was pressed by player 1
+[16:02:14.327] [SEVERE ] removing player 1 token from slot 8
+[16:02:14.592] [INFO   ] place card step 0 
+[16:02:14.592] [INFO   ] place card step 1 
+[16:02:14.592] [INFO   ] place card step 2 
+[16:02:14.592] [INFO   ] place card step 3 
+[16:02:14.592] [INFO   ] place card step 5 
+[16:02:14.592] [INFO   ] place card step 6 
+[16:02:14.592] [INFO   ] place card step 7 
+[16:02:14.592] [INFO   ] place card step 8 
+[16:02:14.592] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:14.904] [SEVERE ] key 90 was pressed by player 1
+[16:02:14.904] [SEVERE ] player 1 placing token on slot 8
+[16:02:15.594] [SEVERE ] updating countdown to 57013
+[16:02:16.032] [INFO   ] place card step 0 
+[16:02:16.032] [INFO   ] place card step 1 
+[16:02:16.032] [INFO   ] place card step 2 
+[16:02:16.032] [INFO   ] place card step 3 
+[16:02:16.032] [INFO   ] place card step 5 
+[16:02:16.032] [INFO   ] place card step 6 
+[16:02:16.032] [INFO   ] place card step 7 
+[16:02:16.032] [INFO   ] place card step 8 
+[16:02:16.032] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:17.034] [SEVERE ] updating countdown to 55573
+[16:02:17.473] [INFO   ] place card step 0 
+[16:02:17.473] [INFO   ] place card step 1 
+[16:02:17.473] [INFO   ] place card step 2 
+[16:02:17.473] [INFO   ] place card step 3 
+[16:02:17.473] [INFO   ] place card step 5 
+[16:02:17.473] [INFO   ] place card step 6 
+[16:02:17.473] [INFO   ] place card step 7 
+[16:02:17.473] [INFO   ] place card step 8 
+[16:02:17.473] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:18.177] [SEVERE ] key 83 was pressed by player 1
+[16:02:18.177] [SEVERE ] player 1 placing token on slot 5
+[16:02:18.177] [SEVERE ] updating countdown to 54430
+[16:02:18.396] [INFO   ] remove  in the table step 1
+[16:02:18.396] [INFO   ] remove  in the table step 2
+[16:02:18.396] [INFO   ] penalty step 1!!!!
+[16:02:18.396] [SEVERE ] setting player 1 freeze to 3000
+[16:02:18.396] [INFO   ] penalty step 1!!!!
+[16:02:18.396] [INFO   ] penalty while step 1!!!!
+[16:02:19.398] [INFO   ] penalty while step 2!!!!
+[16:02:19.398] [SEVERE ] setting player 1 freeze to 2000
+[16:02:19.398] [INFO   ] penalty while step 1!!!!
+[16:02:20.400] [INFO   ] penalty while step 2!!!!
+[16:02:20.400] [SEVERE ] setting player 1 freeze to 1000
+[16:02:20.400] [INFO   ] penalty while step 1!!!!
+[16:02:21.402] [INFO   ] penalty while step 2!!!!
+[16:02:21.402] [SEVERE ] setting player 1 freeze to 0
+[16:02:21.402] [SEVERE ] removing player 1 token from slot 4
+[16:02:21.403] [SEVERE ] removing player 1 token from slot 8
+[16:02:21.403] [SEVERE ] removing player 1 token from slot 5
+[16:02:21.620] [INFO   ] place card step 0 
+[16:02:21.620] [INFO   ] place card step 1 
+[16:02:21.620] [INFO   ] place card step 2 
+[16:02:21.620] [INFO   ] place card step 3 
+[16:02:21.620] [INFO   ] place card step 5 
+[16:02:21.620] [INFO   ] place card step 6 
+[16:02:21.620] [INFO   ] place card step 7 
+[16:02:21.620] [INFO   ] place card step 8 
+[16:02:21.620] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:22.621] [SEVERE ] updating countdown to 49986
+[16:02:23.060] [INFO   ] place card step 0 
+[16:02:23.060] [INFO   ] place card step 1 
+[16:02:23.060] [INFO   ] place card step 2 
+[16:02:23.060] [INFO   ] place card step 3 
+[16:02:23.060] [INFO   ] place card step 5 
+[16:02:23.060] [INFO   ] place card step 6 
+[16:02:23.060] [INFO   ] place card step 7 
+[16:02:23.060] [INFO   ] place card step 8 
+[16:02:23.060] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:24.076] [SEVERE ] updating countdown to 48531
+[16:02:24.514] [INFO   ] place card step 0 
+[16:02:24.514] [INFO   ] place card step 1 
+[16:02:24.514] [INFO   ] place card step 2 
+[16:02:24.514] [INFO   ] place card step 3 
+[16:02:24.514] [INFO   ] place card step 5 
+[16:02:24.514] [INFO   ] place card step 6 
+[16:02:24.514] [INFO   ] place card step 7 
+[16:02:24.514] [INFO   ] place card step 8 
+[16:02:24.514] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:25.515] [SEVERE ] updating countdown to 47092
+[16:02:25.952] [INFO   ] place card step 0 
+[16:02:25.952] [INFO   ] place card step 1 
+[16:02:25.952] [INFO   ] place card step 2 
+[16:02:25.952] [INFO   ] place card step 3 
+[16:02:25.952] [INFO   ] place card step 5 
+[16:02:25.952] [INFO   ] place card step 6 
+[16:02:25.952] [INFO   ] place card step 7 
+[16:02:25.952] [INFO   ] place card step 8 
+[16:02:25.952] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:26.954] [SEVERE ] updating countdown to 45653
+[16:02:27.391] [INFO   ] place card step 0 
+[16:02:27.391] [INFO   ] place card step 1 
+[16:02:27.391] [INFO   ] place card step 2 
+[16:02:27.391] [INFO   ] place card step 3 
+[16:02:27.391] [INFO   ] place card step 5 
+[16:02:27.391] [INFO   ] place card step 6 
+[16:02:27.391] [INFO   ] place card step 7 
+[16:02:27.391] [INFO   ] place card step 8 
+[16:02:27.391] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:28.406] [SEVERE ] updating countdown to 44201
+[16:02:28.845] [INFO   ] place card step 0 
+[16:02:28.845] [INFO   ] place card step 1 
+[16:02:28.845] [INFO   ] place card step 2 
+[16:02:28.845] [INFO   ] place card step 3 
+[16:02:28.845] [INFO   ] place card step 5 
+[16:02:28.845] [INFO   ] place card step 6 
+[16:02:28.845] [INFO   ] place card step 7 
+[16:02:28.845] [INFO   ] place card step 8 
+[16:02:28.845] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:29.847] [SEVERE ] updating countdown to 42760
+[16:02:30.285] [INFO   ] place card step 0 
+[16:02:30.285] [INFO   ] place card step 1 
+[16:02:30.285] [INFO   ] place card step 2 
+[16:02:30.285] [INFO   ] place card step 3 
+[16:02:30.286] [INFO   ] place card step 5 
+[16:02:30.286] [INFO   ] place card step 6 
+[16:02:30.286] [INFO   ] place card step 7 
+[16:02:30.286] [INFO   ] place card step 8 
+[16:02:30.286] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:31.291] [SEVERE ] updating countdown to 41316
+[16:02:31.729] [INFO   ] place card step 0 
+[16:02:31.729] [INFO   ] place card step 1 
+[16:02:31.729] [INFO   ] place card step 2 
+[16:02:31.729] [INFO   ] place card step 3 
+[16:02:31.729] [INFO   ] place card step 5 
+[16:02:31.729] [INFO   ] place card step 6 
+[16:02:31.729] [INFO   ] place card step 7 
+[16:02:31.729] [INFO   ] place card step 8 
+[16:02:31.729] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:32.732] [SEVERE ] updating countdown to 39875
+[16:02:33.170] [INFO   ] place card step 0 
+[16:02:33.170] [INFO   ] place card step 1 
+[16:02:33.170] [INFO   ] place card step 2 
+[16:02:33.170] [INFO   ] place card step 3 
+[16:02:33.170] [INFO   ] place card step 5 
+[16:02:33.170] [INFO   ] place card step 6 
+[16:02:33.170] [INFO   ] place card step 7 
+[16:02:33.170] [INFO   ] place card step 8 
+[16:02:33.170] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:34.172] [SEVERE ] updating countdown to 38435
+[16:02:34.605] [INFO   ] place card step 0 
+[16:02:34.605] [INFO   ] place card step 1 
+[16:02:34.605] [INFO   ] place card step 2 
+[16:02:34.605] [INFO   ] place card step 3 
+[16:02:34.605] [INFO   ] place card step 5 
+[16:02:34.605] [INFO   ] place card step 6 
+[16:02:34.605] [INFO   ] place card step 7 
+[16:02:34.605] [INFO   ] place card step 8 
+[16:02:34.605] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:35.607] [SEVERE ] updating countdown to 37000
+[16:02:36.045] [INFO   ] place card step 0 
+[16:02:36.045] [INFO   ] place card step 1 
+[16:02:36.045] [INFO   ] place card step 2 
+[16:02:36.045] [INFO   ] place card step 3 
+[16:02:36.045] [INFO   ] place card step 5 
+[16:02:36.045] [INFO   ] place card step 6 
+[16:02:36.045] [INFO   ] place card step 7 
+[16:02:36.045] [INFO   ] place card step 8 
+[16:02:36.045] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:37.013] [SEVERE ] key 67 was pressed by player 1
+[16:02:37.013] [SEVERE ] player 1 placing token on slot 10
+[16:02:37.060] [SEVERE ] updating countdown to 35547
+[16:02:37.453] [SEVERE ] key 86 was pressed by player 1
+[16:02:37.453] [SEVERE ] player 1 placing token on slot 11
+[16:02:37.499] [INFO   ] place card step 0 
+[16:02:37.499] [INFO   ] place card step 1 
+[16:02:37.499] [INFO   ] place card step 2 
+[16:02:37.499] [INFO   ] place card step 3 
+[16:02:37.499] [INFO   ] place card step 5 
+[16:02:37.499] [INFO   ] place card step 6 
+[16:02:37.499] [INFO   ] place card step 7 
+[16:02:37.499] [INFO   ] place card step 8 
+[16:02:37.499] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:38.508] [SEVERE ] updating countdown to 34099
+[16:02:38.837] [SEVERE ] key 82 was pressed by player 1
+[16:02:38.838] [SEVERE ] player 1 placing token on slot 3
+[16:02:38.945] [INFO   ] place card step 0 
+[16:02:38.945] [INFO   ] place card step 1 
+[16:02:38.945] [INFO   ] place card step 2 
+[16:02:38.945] [INFO   ] place card step 3 
+[16:02:38.945] [INFO   ] place card step 5 
+[16:02:38.945] [INFO   ] place card step 6 
+[16:02:38.945] [INFO   ] place card step 7 
+[16:02:38.945] [INFO   ] place card step 8 
+[16:02:38.945] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:38.945] [SEVERE ] updating countdown to 33662
+[16:02:39.162] [INFO   ] remove  in the table step 1
+[16:02:39.162] [INFO   ] remove  in the table step 2
+[16:02:39.162] [INFO   ] point step 1!!!!
+[16:02:39.162] [SEVERE ] setting player 1 score to 1
+[16:02:39.162] [INFO   ] point step 2
+[16:02:39.163] [SEVERE ] setting player 1 freeze to 1000
+[16:02:39.163] [INFO   ] point step 3
+[16:02:39.163] [INFO   ] point step while!!!!!! poimt freeze1000
+[16:02:40.167] [SEVERE ] setting player 1 freeze to 0
+[16:02:40.167] [SEVERE ] removing player 1 token from slot 10
+[16:02:40.277] [SEVERE ] removing card from slot 10
+[16:02:40.277] [SEVERE ] removing player 1 token from slot 11
+[16:02:40.387] [SEVERE ] removing card from slot 11
+[16:02:40.387] [SEVERE ] removing player 1 token from slot 3
+[16:02:40.498] [SEVERE ] removing card from slot 3
+[16:02:40.498] [SEVERE ] updating countdown to 60000
+[16:02:40.715] [INFO   ] place card step 0 
+[16:02:40.715] [INFO   ] place card step 1 
+[16:02:40.825] [SEVERE ] placing card 6 in slot 3
+[16:02:40.935] [SEVERE ] placing card 15 in slot 10
+[16:02:41.045] [SEVERE ] placing card 48 in slot 11
+[16:02:41.045] [INFO   ] place card step 2 
+[16:02:41.045] [INFO   ] place card step 3 
+[16:02:41.046] [INFO   ] place card step 5 
+[16:02:41.046] [INFO   ] place card step 6 
+[16:02:41.046] [INFO   ] place card step 7 
+[16:02:41.046] [INFO   ] place card step 8 
+[16:02:41.046] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:42.055] [SEVERE ] updating countdown to 58443
+[16:02:42.494] [INFO   ] place card step 0 
+[16:02:42.494] [INFO   ] place card step 1 
+[16:02:42.494] [INFO   ] place card step 2 
+[16:02:42.494] [INFO   ] place card step 3 
+[16:02:42.495] [INFO   ] place card step 5 
+[16:02:42.495] [INFO   ] place card step 6 
+[16:02:42.495] [INFO   ] place card step 7 
+[16:02:42.495] [INFO   ] place card step 8 
+[16:02:42.495] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:43.506] [SEVERE ] updating countdown to 56992
+[16:02:43.942] [INFO   ] place card step 0 
+[16:02:43.942] [INFO   ] place card step 1 
+[16:02:43.942] [INFO   ] place card step 2 
+[16:02:43.942] [INFO   ] place card step 3 
+[16:02:43.943] [INFO   ] place card step 5 
+[16:02:43.943] [INFO   ] place card step 6 
+[16:02:43.943] [INFO   ] place card step 7 
+[16:02:43.943] [INFO   ] place card step 8 
+[16:02:43.943] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:44.166] [SEVERE ] key 46 was pressed by player 2
+[16:02:44.166] [SEVERE ] player 2 placing token on slot 10
+[16:02:44.956] [SEVERE ] updating countdown to 55542
+[16:02:45.141] [SEVERE ] key 76 was pressed by player 2
+[16:02:45.141] [SEVERE ] player 2 placing token on slot 6
+[16:02:45.396] [INFO   ] place card step 0 
+[16:02:45.396] [INFO   ] place card step 1 
+[16:02:45.396] [INFO   ] place card step 2 
+[16:02:45.396] [INFO   ] place card step 3 
+[16:02:45.397] [INFO   ] place card step 5 
+[16:02:45.397] [INFO   ] place card step 6 
+[16:02:45.397] [INFO   ] place card step 7 
+[16:02:45.397] [INFO   ] place card step 8 
+[16:02:45.397] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:45.531] [SEVERE ] key 75 was pressed by player 2
+[16:02:45.531] [SEVERE ] player 2 placing token on slot 5
+[16:02:45.531] [SEVERE ] updating countdown to 54967
+[16:02:45.754] [INFO   ] remove  in the table step 1
+[16:02:45.754] [INFO   ] remove  in the table step 2
+[16:02:45.754] [INFO   ] point step 1!!!!
+[16:02:45.754] [SEVERE ] setting player 2 score to 3
+[16:02:45.754] [INFO   ] point step 2
+[16:02:45.754] [SEVERE ] setting player 2 freeze to 1000
+[16:02:45.754] [INFO   ] point step 3
+[16:02:45.754] [INFO   ] point step while!!!!!! poimt freeze1000
+[16:02:46.759] [SEVERE ] setting player 2 freeze to 0
+[16:02:46.759] [SEVERE ] removing player 2 token from slot 10
+[16:02:46.869] [SEVERE ] removing card from slot 10
+[16:02:46.869] [SEVERE ] removing player 2 token from slot 6
+[16:02:46.979] [SEVERE ] removing card from slot 6
+[16:02:46.979] [SEVERE ] removing player 2 token from slot 5
+[16:02:47.089] [SEVERE ] removing card from slot 5
+[16:02:47.089] [SEVERE ] updating countdown to 60000
+[16:02:47.309] [INFO   ] place card step 0 
+[16:02:47.309] [INFO   ] place card step 1 
+[16:02:47.419] [SEVERE ] placing card 26 in slot 5
+[16:02:47.529] [SEVERE ] placing card 30 in slot 6
+[16:02:47.640] [SEVERE ] placing card 80 in slot 10
+[16:02:47.640] [INFO   ] place card step 2 
+[16:02:47.640] [INFO   ] place card step 3 
+[16:02:47.640] [INFO   ] place card step 5 
+[16:02:47.640] [INFO   ] place card step 6 
+[16:02:47.640] [INFO   ] place card step 7 
+[16:02:47.640] [INFO   ] place card step 8 
+[16:02:47.640] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:48.124] [SEVERE ] key 90 was pressed by player 1
+[16:02:48.124] [SEVERE ] player 1 placing token on slot 8
+[16:02:48.640] [SEVERE ] updating countdown to 58450
+[16:02:48.973] [SEVERE ] key 90 was pressed by player 1
+[16:02:48.973] [SEVERE ] removing player 1 token from slot 8
+[16:02:49.076] [INFO   ] place card step 0 
+[16:02:49.076] [INFO   ] place card step 1 
+[16:02:49.076] [INFO   ] place card step 2 
+[16:02:49.076] [INFO   ] place card step 3 
+[16:02:49.077] [INFO   ] place card step 5 
+[16:02:49.077] [INFO   ] place card step 6 
+[16:02:49.077] [INFO   ] place card step 7 
+[16:02:49.077] [INFO   ] place card step 8 
+[16:02:49.077] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:49.284] [SEVERE ] key 88 was pressed by player 1
+[16:02:49.285] [SEVERE ] player 1 placing token on slot 9
+[16:02:50.090] [SEVERE ] updating countdown to 57000
+[16:02:50.460] [SEVERE ] key 69 was pressed by player 1
+[16:02:50.460] [SEVERE ] player 1 placing token on slot 2
+[16:02:50.532] [INFO   ] place card step 0 
+[16:02:50.532] [INFO   ] place card step 1 
+[16:02:50.532] [INFO   ] place card step 2 
+[16:02:50.532] [INFO   ] place card step 3 
+[16:02:50.532] [INFO   ] place card step 5 
+[16:02:50.532] [INFO   ] place card step 6 
+[16:02:50.532] [INFO   ] place card step 7 
+[16:02:50.533] [INFO   ] place card step 8 
+[16:02:50.533] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:50.754] [SEVERE ] key 82 was pressed by player 1
+[16:02:50.754] [SEVERE ] player 1 placing token on slot 3
+[16:02:50.754] [SEVERE ] updating countdown to 56336
+[16:02:50.977] [INFO   ] remove  in the table step 1
+[16:02:50.977] [INFO   ] remove  in the table step 2
+[16:02:50.977] [INFO   ] point step 1!!!!
+[16:02:50.977] [SEVERE ] setting player 1 score to 2
+[16:02:50.977] [INFO   ] point step 2
+[16:02:50.977] [SEVERE ] setting player 1 freeze to 1000
+[16:02:50.977] [INFO   ] point step 3
+[16:02:50.977] [INFO   ] point step while!!!!!! poimt freeze1000
+[16:02:51.980] [SEVERE ] setting player 1 freeze to 0
+[16:02:51.980] [SEVERE ] removing player 1 token from slot 9
+[16:02:52.089] [SEVERE ] removing card from slot 9
+[16:02:52.089] [SEVERE ] removing player 1 token from slot 2
+[16:02:52.199] [SEVERE ] removing card from slot 2
+[16:02:52.200] [SEVERE ] removing player 1 token from slot 3
+[16:02:52.309] [SEVERE ] removing card from slot 3
+[16:02:52.309] [SEVERE ] updating countdown to 60000
+[16:02:52.529] [INFO   ] place card step 0 
+[16:02:52.529] [INFO   ] place card step 1 
+[16:02:52.638] [SEVERE ] placing card 72 in slot 2
+[16:02:52.747] [SEVERE ] placing card 13 in slot 3
+[16:02:52.857] [SEVERE ] placing card 78 in slot 9
+[16:02:52.857] [INFO   ] place card step 2 
+[16:02:52.857] [INFO   ] place card step 3 
+[16:02:52.857] [INFO   ] place card step 5 
+[16:02:52.857] [INFO   ] place card step 6 
+[16:02:52.857] [INFO   ] place card step 7 
+[16:02:52.857] [INFO   ] place card step 8 
+[16:02:52.857] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:53.859] [SEVERE ] updating countdown to 58450
+[16:02:54.297] [INFO   ] place card step 0 
+[16:02:54.297] [INFO   ] place card step 1 
+[16:02:54.297] [INFO   ] place card step 2 
+[16:02:54.297] [INFO   ] place card step 3 
+[16:02:54.298] [INFO   ] place card step 5 
+[16:02:54.298] [INFO   ] place card step 6 
+[16:02:54.298] [INFO   ] place card step 7 
+[16:02:54.298] [INFO   ] place card step 8 
+[16:02:54.298] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:54.406] [SEVERE ] key 77 was pressed by player 2
+[16:02:54.406] [SEVERE ] player 2 placing token on slot 8
+[16:02:55.299] [SEVERE ] updating countdown to 57010
+[16:02:55.548] [SEVERE ] key 88 was pressed by player 1
+[16:02:55.548] [SEVERE ] player 1 placing token on slot 9
+[16:02:55.737] [INFO   ] place card step 0 
+[16:02:55.737] [INFO   ] place card step 1 
+[16:02:55.737] [INFO   ] place card step 2 
+[16:02:55.737] [INFO   ] place card step 3 
+[16:02:55.737] [INFO   ] place card step 5 
+[16:02:55.737] [INFO   ] place card step 6 
+[16:02:55.737] [INFO   ] place card step 7 
+[16:02:55.737] [INFO   ] place card step 8 
+[16:02:55.737] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:55.830] [SEVERE ] key 74 was pressed by player 2
+[16:02:55.830] [SEVERE ] player 2 placing token on slot 4
+[16:02:56.393] [SEVERE ] key 75 was pressed by player 2
+[16:02:56.393] [SEVERE ] player 2 placing token on slot 5
+[16:02:56.393] [SEVERE ] updating countdown to 55916
+[16:02:56.612] [INFO   ] remove  in the table step 1
+[16:02:56.612] [INFO   ] remove  in the table step 2
+[16:02:56.612] [INFO   ] penalty step 1!!!!
+[16:02:56.612] [SEVERE ] setting player 2 freeze to 3000
+[16:02:56.612] [INFO   ] penalty step 1!!!!
+[16:02:56.612] [INFO   ] penalty while step 1!!!!
+[16:02:56.612] [SEVERE ] key 68 was pressed by player 1
+[16:02:56.847] [SEVERE ] key 70 was pressed by player 1
+[16:02:57.613] [INFO   ] penalty while step 2!!!!
+[16:02:57.613] [SEVERE ] setting player 2 freeze to 2000
+[16:02:57.613] [INFO   ] penalty while step 1!!!!
+[16:02:58.615] [INFO   ] penalty while step 2!!!!
+[16:02:58.615] [SEVERE ] setting player 2 freeze to 1000
+[16:02:58.615] [INFO   ] penalty while step 1!!!!
+[16:02:59.630] [INFO   ] penalty while step 2!!!!
+[16:02:59.630] [SEVERE ] setting player 2 freeze to 0
+[16:02:59.630] [SEVERE ] removing player 2 token from slot 8
+[16:02:59.630] [SEVERE ] removing player 2 token from slot 4
+[16:02:59.630] [SEVERE ] removing player 2 token from slot 5
+[16:02:59.850] [INFO   ] place card step 0 
+[16:02:59.850] [INFO   ] place card step 1 
+[16:02:59.850] [INFO   ] place card step 2 
+[16:02:59.850] [INFO   ] place card step 3 
+[16:02:59.850] [INFO   ] place card step 5 
+[16:02:59.850] [INFO   ] place card step 6 
+[16:02:59.850] [INFO   ] place card step 7 
+[16:02:59.850] [INFO   ] place card step 8 
+[16:02:59.850] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:02:59.850] [SEVERE ] updating countdown to 52459
+[16:03:00.069] [INFO   ] remove  in the table step 1
+[16:03:00.069] [INFO   ] remove  in the table step 2
+[16:03:00.069] [INFO   ] penalty step 1!!!!
+[16:03:00.069] [SEVERE ] setting player 1 freeze to 3000
+[16:03:00.069] [INFO   ] penalty step 1!!!!
+[16:03:00.069] [INFO   ] penalty while step 1!!!!
+[16:03:00.554] [SEVERE ] key 77 was pressed by player 2
+[16:03:01.070] [INFO   ] penalty while step 2!!!!
+[16:03:01.070] [SEVERE ] setting player 1 freeze to 2000
+[16:03:01.070] [INFO   ] penalty while step 1!!!!
+[16:03:01.588] [SEVERE ] key 77 was pressed by player 2
+[16:03:01.588] [SEVERE ] removing player 2 token from slot 8
+[16:03:02.074] [INFO   ] penalty while step 2!!!!
+[16:03:02.074] [SEVERE ] setting player 1 freeze to 1000
+[16:03:02.074] [INFO   ] penalty while step 1!!!!
+[16:03:02.605] [SEVERE ] key 77 was pressed by player 2
+[16:03:03.074] [INFO   ] penalty while step 2!!!!
+[16:03:03.074] [SEVERE ] setting player 1 freeze to 0
+[16:03:03.074] [SEVERE ] removing player 1 token from slot 9
+[16:03:03.074] [SEVERE ] removing player 1 token from slot 6
+[16:03:03.074] [SEVERE ] removing player 1 token from slot 7
+[16:03:03.074] [SEVERE ] key 77 was pressed by player 2
+[16:03:03.074] [SEVERE ] removing player 2 token from slot 8
+[16:03:03.292] [INFO   ] place card step 0 
+[16:03:03.292] [INFO   ] place card step 1 
+[16:03:03.292] [INFO   ] place card step 2 
+[16:03:03.292] [INFO   ] place card step 3 
+[16:03:03.292] [INFO   ] place card step 5 
+[16:03:03.292] [INFO   ] place card step 6 
+[16:03:03.292] [INFO   ] place card step 7 
+[16:03:03.292] [INFO   ] place card step 8 
+[16:03:03.292] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:03.636] [SEVERE ] key 77 was pressed by player 2
+[16:03:03.646] [SEVERE ] player 2 placing token on slot 8
+[16:03:04.153] [SEVERE ] key 77 was pressed by player 2
+[16:03:04.153] [SEVERE ] removing player 2 token from slot 8
+[16:03:04.294] [SEVERE ] updating countdown to 48015
+[16:03:04.560] [SEVERE ] key 77 was pressed by player 2
+[16:03:04.560] [SEVERE ] player 2 placing token on slot 8
+[16:03:04.732] [INFO   ] place card step 0 
+[16:03:04.732] [INFO   ] place card step 1 
+[16:03:04.732] [INFO   ] place card step 2 
+[16:03:04.732] [INFO   ] place card step 3 
+[16:03:04.732] [INFO   ] place card step 5 
+[16:03:04.732] [INFO   ] place card step 6 
+[16:03:04.732] [INFO   ] place card step 7 
+[16:03:04.732] [INFO   ] place card step 8 
+[16:03:04.732] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:05.381] [SEVERE ] key 75 was pressed by player 2
+[16:03:05.381] [SEVERE ] player 2 placing token on slot 5
+[16:03:05.735] [SEVERE ] updating countdown to 46574
+[16:03:06.172] [INFO   ] place card step 0 
+[16:03:06.172] [INFO   ] place card step 1 
+[16:03:06.172] [INFO   ] place card step 2 
+[16:03:06.172] [INFO   ] place card step 3 
+[16:03:06.173] [INFO   ] place card step 5 
+[16:03:06.173] [INFO   ] place card step 6 
+[16:03:06.173] [INFO   ] place card step 7 
+[16:03:06.173] [INFO   ] place card step 8 
+[16:03:06.173] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:07.176] [SEVERE ] updating countdown to 45133
+[16:03:07.316] [SEVERE ] key 59 was pressed by player 2
+[16:03:07.316] [SEVERE ] player 2 placing token on slot 7
+[16:03:07.394] [INFO   ] remove  in the table step 1
+[16:03:07.394] [INFO   ] remove  in the table step 2
+[16:03:07.394] [INFO   ] penalty step 1!!!!
+[16:03:07.394] [SEVERE ] setting player 2 freeze to 3000
+[16:03:07.394] [INFO   ] penalty step 1!!!!
+[16:03:07.394] [INFO   ] penalty while step 1!!!!
+[16:03:07.738] [SEVERE ] key 59 was pressed by player 2
+[16:03:07.738] [SEVERE ] removing player 2 token from slot 7
+[16:03:08.400] [INFO   ] penalty while step 2!!!!
+[16:03:08.400] [SEVERE ] setting player 2 freeze to 2000
+[16:03:08.400] [INFO   ] penalty while step 1!!!!
+[16:03:09.403] [INFO   ] penalty while step 2!!!!
+[16:03:09.403] [SEVERE ] setting player 2 freeze to 1000
+[16:03:09.403] [INFO   ] penalty while step 1!!!!
+[16:03:10.407] [INFO   ] penalty while step 2!!!!
+[16:03:10.407] [SEVERE ] setting player 2 freeze to 0
+[16:03:10.407] [SEVERE ] removing player 2 token from slot 8
+[16:03:10.407] [SEVERE ] removing player 2 token from slot 5
+[16:03:10.628] [INFO   ] place card step 0 
+[16:03:10.628] [INFO   ] place card step 1 
+[16:03:10.628] [INFO   ] place card step 2 
+[16:03:10.628] [INFO   ] place card step 3 
+[16:03:10.628] [INFO   ] place card step 5 
+[16:03:10.628] [INFO   ] place card step 6 
+[16:03:10.628] [INFO   ] place card step 7 
+[16:03:10.628] [INFO   ] place card step 8 
+[16:03:10.628] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:11.632] [SEVERE ] updating countdown to 40677
+[16:03:12.069] [INFO   ] place card step 0 
+[16:03:12.069] [INFO   ] place card step 1 
+[16:03:12.069] [INFO   ] place card step 2 
+[16:03:12.069] [INFO   ] place card step 3 
+[16:03:12.069] [INFO   ] place card step 5 
+[16:03:12.069] [INFO   ] place card step 6 
+[16:03:12.069] [INFO   ] place card step 7 
+[16:03:12.069] [INFO   ] place card step 8 
+[16:03:12.069] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:12.101] [SEVERE ] key 77 was pressed by player 2
+[16:03:12.101] [SEVERE ] player 2 placing token on slot 8
+[16:03:13.072] [SEVERE ] updating countdown to 39237
+[16:03:13.512] [INFO   ] place card step 0 
+[16:03:13.512] [INFO   ] place card step 1 
+[16:03:13.512] [INFO   ] place card step 2 
+[16:03:13.512] [INFO   ] place card step 3 
+[16:03:13.512] [INFO   ] place card step 5 
+[16:03:13.512] [INFO   ] place card step 6 
+[16:03:13.513] [INFO   ] place card step 7 
+[16:03:13.513] [INFO   ] place card step 8 
+[16:03:13.513] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:14.172] [SEVERE ] key 75 was pressed by player 2
+[16:03:14.172] [SEVERE ] player 2 placing token on slot 5
+[16:03:14.515] [SEVERE ] updating countdown to 37794
+[16:03:14.953] [INFO   ] place card step 0 
+[16:03:14.953] [INFO   ] place card step 1 
+[16:03:14.953] [INFO   ] place card step 2 
+[16:03:14.953] [INFO   ] place card step 3 
+[16:03:14.953] [INFO   ] place card step 5 
+[16:03:14.953] [INFO   ] place card step 6 
+[16:03:14.953] [INFO   ] place card step 7 
+[16:03:14.953] [INFO   ] place card step 8 
+[16:03:14.953] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:15.660] [SEVERE ] key 47 was pressed by player 2
+[16:03:15.660] [SEVERE ] player 2 placing token on slot 11
+[16:03:15.660] [SEVERE ] updating countdown to 36649
+[16:03:15.877] [INFO   ] remove  in the table step 1
+[16:03:15.877] [INFO   ] remove  in the table step 2
+[16:03:15.877] [INFO   ] point step 1!!!!
+[16:03:15.877] [SEVERE ] setting player 2 score to 4
+[16:03:15.877] [INFO   ] point step 2
+[16:03:15.877] [SEVERE ] setting player 2 freeze to 1000
+[16:03:15.877] [INFO   ] point step 3
+[16:03:15.877] [INFO   ] point step while!!!!!! poimt freeze1000
+[16:03:16.879] [SEVERE ] setting player 2 freeze to 0
+[16:03:16.879] [SEVERE ] removing player 2 token from slot 8
+[16:03:16.988] [SEVERE ] removing card from slot 8
+[16:03:16.988] [SEVERE ] removing player 2 token from slot 5
+[16:03:17.098] [SEVERE ] removing card from slot 5
+[16:03:17.098] [SEVERE ] removing player 2 token from slot 11
+[16:03:17.208] [SEVERE ] removing card from slot 11
+[16:03:17.208] [SEVERE ] updating countdown to 60000
+[16:03:17.224] [SEVERE ] key 81 was pressed by player 1
+[16:03:17.237] [SEVERE ] player 1 placing token on slot 0
+[16:03:17.428] [INFO   ] place card step 0 
+[16:03:17.428] [INFO   ] place card step 1 
+[16:03:17.490] [SEVERE ] key 87 was pressed by player 1
+[16:03:17.537] [SEVERE ] placing card 66 in slot 5
+[16:03:17.647] [SEVERE ] placing card 2 in slot 8
+[16:03:17.756] [SEVERE ] placing card 22 in slot 11
+[16:03:17.756] [INFO   ] place card step 2 
+[16:03:17.756] [INFO   ] place card step 3 
+[16:03:17.756] [INFO   ] place card step 5 
+[16:03:17.756] [INFO   ] place card step 6 
+[16:03:17.756] [INFO   ] place card step 7 
+[16:03:17.756] [INFO   ] place card step 8 
+[16:03:17.756] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:18.757] [SEVERE ] updating countdown to 58451
+[16:03:19.195] [INFO   ] place card step 0 
+[16:03:19.195] [INFO   ] place card step 1 
+[16:03:19.195] [INFO   ] place card step 2 
+[16:03:19.195] [INFO   ] place card step 3 
+[16:03:19.195] [INFO   ] place card step 5 
+[16:03:19.195] [INFO   ] place card step 6 
+[16:03:19.195] [INFO   ] place card step 7 
+[16:03:19.195] [INFO   ] place card step 8 
+[16:03:19.195] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:20.196] [SEVERE ] updating countdown to 57012
+[16:03:20.634] [INFO   ] place card step 0 
+[16:03:20.634] [INFO   ] place card step 1 
+[16:03:20.634] [INFO   ] place card step 2 
+[16:03:20.634] [INFO   ] place card step 3 
+[16:03:20.634] [INFO   ] place card step 5 
+[16:03:20.634] [INFO   ] place card step 6 
+[16:03:20.634] [INFO   ] place card step 7 
+[16:03:20.634] [INFO   ] place card step 8 
+[16:03:20.634] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:20.699] [SEVERE ] key 87 was pressed by player 1
+[16:03:20.700] [SEVERE ] removing player 1 token from slot 1
+[16:03:21.649] [SEVERE ] updating countdown to 55559
+[16:03:22.087] [INFO   ] place card step 0 
+[16:03:22.087] [INFO   ] place card step 1 
+[16:03:22.087] [INFO   ] place card step 2 
+[16:03:22.087] [INFO   ] place card step 3 
+[16:03:22.087] [INFO   ] place card step 5 
+[16:03:22.087] [INFO   ] place card step 6 
+[16:03:22.087] [INFO   ] place card step 7 
+[16:03:22.087] [INFO   ] place card step 8 
+[16:03:22.087] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:23.088] [SEVERE ] updating countdown to 54120
+[16:03:23.526] [INFO   ] place card step 0 
+[16:03:23.526] [INFO   ] place card step 1 
+[16:03:23.526] [INFO   ] place card step 2 
+[16:03:23.526] [INFO   ] place card step 3 
+[16:03:23.526] [INFO   ] place card step 5 
+[16:03:23.526] [INFO   ] place card step 6 
+[16:03:23.526] [INFO   ] place card step 7 
+[16:03:23.526] [INFO   ] place card step 8 
+[16:03:23.526] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:23.542] [SEVERE ] key 87 was pressed by player 1
+[16:03:23.542] [SEVERE ] player 1 placing token on slot 1
+[16:03:24.528] [SEVERE ] updating countdown to 52680
+[16:03:24.965] [INFO   ] place card step 0 
+[16:03:24.965] [INFO   ] place card step 1 
+[16:03:24.965] [INFO   ] place card step 2 
+[16:03:24.965] [INFO   ] place card step 3 
+[16:03:24.965] [INFO   ] place card step 5 
+[16:03:24.965] [INFO   ] place card step 6 
+[16:03:24.965] [INFO   ] place card step 7 
+[16:03:24.965] [INFO   ] place card step 8 
+[16:03:24.965] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:25.410] [SEVERE ] key 68 was pressed by player 1
+[16:03:25.410] [SEVERE ] player 1 placing token on slot 6
+[16:03:25.410] [SEVERE ] updating countdown to 51798
+[16:03:25.626] [INFO   ] remove  in the table step 1
+[16:03:25.626] [INFO   ] remove  in the table step 2
+[16:03:25.626] [INFO   ] point step 1!!!!
+[16:03:25.626] [SEVERE ] setting player 1 score to 3
+[16:03:25.626] [INFO   ] point step 2
+[16:03:25.626] [SEVERE ] setting player 1 freeze to 1000
+[16:03:25.626] [INFO   ] point step 3
+[16:03:25.626] [INFO   ] point step while!!!!!! poimt freeze1000
+[16:03:26.628] [SEVERE ] setting player 1 freeze to 0
+[16:03:26.628] [SEVERE ] removing player 1 token from slot 0
+[16:03:26.738] [SEVERE ] removing card from slot 0
+[16:03:26.738] [SEVERE ] removing player 1 token from slot 1
+[16:03:26.848] [SEVERE ] removing card from slot 1
+[16:03:26.848] [SEVERE ] removing player 1 token from slot 6
+[16:03:26.958] [SEVERE ] removing card from slot 6
+[16:03:26.958] [SEVERE ] updating countdown to 60000
+[16:03:27.178] [INFO   ] place card step 0 
+[16:03:27.178] [INFO   ] place card step 1 
+[16:03:27.287] [SEVERE ] placing card 17 in slot 0
+[16:03:27.395] [SEVERE ] placing card 25 in slot 1
+[16:03:27.505] [SEVERE ] placing card 74 in slot 6
+[16:03:27.505] [INFO   ] place card step 2 
+[16:03:27.505] [INFO   ] place card step 3 
+[16:03:27.505] [INFO   ] place card step 5 
+[16:03:27.505] [INFO   ] place card step 6 
+[16:03:27.505] [INFO   ] place card step 7 
+[16:03:27.505] [INFO   ] place card step 8 
+[16:03:27.505] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:28.507] [SEVERE ] updating countdown to 58451
+[16:03:28.946] [INFO   ] place card step 0 
+[16:03:28.946] [INFO   ] place card step 1 
+[16:03:28.946] [INFO   ] place card step 2 
+[16:03:28.946] [INFO   ] place card step 3 
+[16:03:28.946] [INFO   ] place card step 5 
+[16:03:28.946] [INFO   ] place card step 6 
+[16:03:28.946] [INFO   ] place card step 7 
+[16:03:28.946] [INFO   ] place card step 8 
+[16:03:28.946] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:29.946] [SEVERE ] updating countdown to 57012
+[16:03:30.385] [INFO   ] place card step 0 
+[16:03:30.385] [INFO   ] place card step 1 
+[16:03:30.385] [INFO   ] place card step 2 
+[16:03:30.385] [INFO   ] place card step 3 
+[16:03:30.385] [INFO   ] place card step 5 
+[16:03:30.385] [INFO   ] place card step 6 
+[16:03:30.385] [INFO   ] place card step 7 
+[16:03:30.385] [INFO   ] place card step 8 
+[16:03:30.385] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:31.390] [SEVERE ] updating countdown to 55568
+[16:03:31.827] [INFO   ] place card step 0 
+[16:03:31.827] [INFO   ] place card step 1 
+[16:03:31.827] [INFO   ] place card step 2 
+[16:03:31.827] [INFO   ] place card step 3 
+[16:03:31.827] [INFO   ] place card step 5 
+[16:03:31.827] [INFO   ] place card step 6 
+[16:03:31.827] [INFO   ] place card step 7 
+[16:03:31.827] [INFO   ] place card step 8 
+[16:03:31.827] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:32.830] [SEVERE ] updating countdown to 54128
+[16:03:33.269] [INFO   ] place card step 0 
+[16:03:33.269] [INFO   ] place card step 1 
+[16:03:33.269] [INFO   ] place card step 2 
+[16:03:33.269] [INFO   ] place card step 3 
+[16:03:33.269] [INFO   ] place card step 5 
+[16:03:33.269] [INFO   ] place card step 6 
+[16:03:33.269] [INFO   ] place card step 7 
+[16:03:33.269] [INFO   ] place card step 8 
+[16:03:33.269] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:34.272] [SEVERE ] updating countdown to 52686
+[16:03:34.709] [INFO   ] place card step 0 
+[16:03:34.709] [INFO   ] place card step 1 
+[16:03:34.709] [INFO   ] place card step 2 
+[16:03:34.709] [INFO   ] place card step 3 
+[16:03:34.709] [INFO   ] place card step 5 
+[16:03:34.709] [INFO   ] place card step 6 
+[16:03:34.709] [INFO   ] place card step 7 
+[16:03:34.709] [INFO   ] place card step 8 
+[16:03:34.709] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:35.711] [SEVERE ] updating countdown to 51247
+[16:03:36.148] [INFO   ] place card step 0 
+[16:03:36.148] [INFO   ] place card step 1 
+[16:03:36.148] [INFO   ] place card step 2 
+[16:03:36.148] [INFO   ] place card step 3 
+[16:03:36.149] [INFO   ] place card step 5 
+[16:03:36.149] [INFO   ] place card step 6 
+[16:03:36.149] [INFO   ] place card step 7 
+[16:03:36.149] [INFO   ] place card step 8 
+[16:03:36.149] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:37.164] [SEVERE ] updating countdown to 49794
+[16:03:37.602] [INFO   ] place card step 0 
+[16:03:37.602] [INFO   ] place card step 1 
+[16:03:37.602] [INFO   ] place card step 2 
+[16:03:37.602] [INFO   ] place card step 3 
+[16:03:37.602] [INFO   ] place card step 5 
+[16:03:37.602] [INFO   ] place card step 6 
+[16:03:37.602] [INFO   ] place card step 7 
+[16:03:37.602] [INFO   ] place card step 8 
+[16:03:37.602] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:37.743] [SEVERE ] key 65 was pressed by player 1
+[16:03:37.743] [SEVERE ] player 1 placing token on slot 4
+[16:03:37.899] [SEVERE ] key 59 was pressed by player 2
+[16:03:37.899] [SEVERE ] player 2 placing token on slot 7
+[16:03:38.212] [SEVERE ] key 87 was pressed by player 1
+[16:03:38.212] [SEVERE ] player 1 placing token on slot 1
+[16:03:38.602] [SEVERE ] updating countdown to 48356
+[16:03:38.962] [SEVERE ] key 46 was pressed by player 2
+[16:03:38.962] [SEVERE ] player 2 placing token on slot 10
+[16:03:39.040] [INFO   ] place card step 0 
+[16:03:39.040] [INFO   ] place card step 1 
+[16:03:39.040] [INFO   ] place card step 2 
+[16:03:39.040] [INFO   ] place card step 3 
+[16:03:39.040] [INFO   ] place card step 5 
+[16:03:39.040] [INFO   ] place card step 6 
+[16:03:39.040] [INFO   ] place card step 7 
+[16:03:39.040] [INFO   ] place card step 8 
+[16:03:39.040] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:39.697] [SEVERE ] key 67 was pressed by player 1
+[16:03:39.697] [SEVERE ] player 1 placing token on slot 10
+[16:03:39.697] [SEVERE ] updating countdown to 47261
+[16:03:39.916] [INFO   ] remove  in the table step 1
+[16:03:39.916] [INFO   ] remove  in the table step 2
+[16:03:39.916] [INFO   ] point step 1!!!!
+[16:03:39.916] [SEVERE ] setting player 1 score to 4
+[16:03:39.916] [INFO   ] point step 2
+[16:03:39.916] [SEVERE ] setting player 1 freeze to 1000
+[16:03:39.916] [INFO   ] point step 3
+[16:03:39.916] [INFO   ] point step while!!!!!! poimt freeze1000
+[16:03:39.963] [SEVERE ] key 75 was pressed by player 2
+[16:03:40.919] [SEVERE ] setting player 1 freeze to 0
+[16:03:40.919] [SEVERE ] removing player 1 token from slot 4
+[16:03:41.028] [SEVERE ] removing card from slot 4
+[16:03:41.028] [SEVERE ] removing player 1 token from slot 1
+[16:03:41.138] [SEVERE ] removing card from slot 1
+[16:03:41.138] [SEVERE ] removing player 1 token from slot 10
+[16:03:41.247] [SEVERE ] removing card from slot 10
+[16:03:41.247] [SEVERE ] removing player 2 token from slot 10
+[16:03:41.247] [INFO   ] remove  in the table step 1
+[16:03:41.247] [INFO   ] remove  in the table step 2
+[16:03:41.247] [SEVERE ] updating countdown to 60000
+[16:03:41.466] [INFO   ] place card step 0 
+[16:03:41.466] [INFO   ] place card step 1 
+[16:03:41.575] [SEVERE ] placing card 23 in slot 1
+[16:03:41.685] [SEVERE ] placing card 29 in slot 4
+[16:03:41.794] [SEVERE ] placing card 36 in slot 10
+[16:03:41.794] [INFO   ] place card step 2 
+[16:03:41.794] [INFO   ] place card step 3 
+[16:03:41.794] [INFO   ] place card step 5 
+[16:03:41.794] [INFO   ] place card step 6 
+[16:03:41.794] [INFO   ] place card step 7 
+[16:03:41.794] [INFO   ] place card step 8 
+[16:03:41.794] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:42.795] [SEVERE ] updating countdown to 58452
+[16:03:43.232] [INFO   ] place card step 0 
+[16:03:43.232] [INFO   ] place card step 1 
+[16:03:43.232] [INFO   ] place card step 2 
+[16:03:43.232] [INFO   ] place card step 3 
+[16:03:43.232] [INFO   ] place card step 5 
+[16:03:43.232] [INFO   ] place card step 6 
+[16:03:43.232] [INFO   ] place card step 7 
+[16:03:43.232] [INFO   ] place card step 8 
+[16:03:43.232] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:44.234] [SEVERE ] updating countdown to 57013
+[16:03:44.672] [INFO   ] place card step 0 
+[16:03:44.672] [INFO   ] place card step 1 
+[16:03:44.672] [INFO   ] place card step 2 
+[16:03:44.672] [INFO   ] place card step 3 
+[16:03:44.672] [INFO   ] place card step 5 
+[16:03:44.672] [INFO   ] place card step 6 
+[16:03:44.672] [INFO   ] place card step 7 
+[16:03:44.672] [INFO   ] place card step 8 
+[16:03:44.672] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:45.673] [SEVERE ] updating countdown to 55574
+[16:03:46.112] [INFO   ] place card step 0 
+[16:03:46.112] [INFO   ] place card step 1 
+[16:03:46.112] [INFO   ] place card step 2 
+[16:03:46.112] [INFO   ] place card step 3 
+[16:03:46.112] [INFO   ] place card step 5 
+[16:03:46.112] [INFO   ] place card step 6 
+[16:03:46.112] [INFO   ] place card step 7 
+[16:03:46.112] [INFO   ] place card step 8 
+[16:03:46.112] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:47.114] [SEVERE ] updating countdown to 54133
+[16:03:47.554] [INFO   ] place card step 0 
+[16:03:47.554] [INFO   ] place card step 1 
+[16:03:47.554] [INFO   ] place card step 2 
+[16:03:47.554] [INFO   ] place card step 3 
+[16:03:47.554] [INFO   ] place card step 5 
+[16:03:47.554] [INFO   ] place card step 6 
+[16:03:47.554] [INFO   ] place card step 7 
+[16:03:47.554] [INFO   ] place card step 8 
+[16:03:47.554] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:48.556] [SEVERE ] updating countdown to 52691
+[16:03:48.995] [INFO   ] place card step 0 
+[16:03:48.995] [INFO   ] place card step 1 
+[16:03:48.995] [INFO   ] place card step 2 
+[16:03:48.995] [INFO   ] place card step 3 
+[16:03:48.995] [INFO   ] place card step 5 
+[16:03:48.995] [INFO   ] place card step 6 
+[16:03:48.995] [INFO   ] place card step 7 
+[16:03:48.995] [INFO   ] place card step 8 
+[16:03:48.995] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:49.998] [SEVERE ] updating countdown to 51249
+[16:03:50.438] [INFO   ] place card step 0 
+[16:03:50.438] [INFO   ] place card step 1 
+[16:03:50.438] [INFO   ] place card step 2 
+[16:03:50.438] [INFO   ] place card step 3 
+[16:03:50.438] [INFO   ] place card step 5 
+[16:03:50.438] [INFO   ] place card step 6 
+[16:03:50.438] [INFO   ] place card step 7 
+[16:03:50.438] [INFO   ] place card step 8 
+[16:03:50.438] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:51.441] [SEVERE ] updating countdown to 49806
+[16:03:51.877] [INFO   ] place card step 0 
+[16:03:51.877] [INFO   ] place card step 1 
+[16:03:51.877] [INFO   ] place card step 2 
+[16:03:51.877] [INFO   ] place card step 3 
+[16:03:51.877] [INFO   ] place card step 5 
+[16:03:51.877] [INFO   ] place card step 6 
+[16:03:51.877] [INFO   ] place card step 7 
+[16:03:51.877] [INFO   ] place card step 8 
+[16:03:51.877] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:52.879] [SEVERE ] updating countdown to 48368
+[16:03:53.317] [INFO   ] place card step 0 
+[16:03:53.317] [INFO   ] place card step 1 
+[16:03:53.317] [INFO   ] place card step 2 
+[16:03:53.317] [INFO   ] place card step 3 
+[16:03:53.317] [INFO   ] place card step 5 
+[16:03:53.317] [INFO   ] place card step 6 
+[16:03:53.317] [INFO   ] place card step 7 
+[16:03:53.317] [INFO   ] place card step 8 
+[16:03:53.317] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:54.319] [SEVERE ] updating countdown to 46928
+[16:03:54.758] [INFO   ] place card step 0 
+[16:03:54.758] [INFO   ] place card step 1 
+[16:03:54.758] [INFO   ] place card step 2 
+[16:03:54.758] [INFO   ] place card step 3 
+[16:03:54.758] [INFO   ] place card step 5 
+[16:03:54.758] [INFO   ] place card step 6 
+[16:03:54.758] [INFO   ] place card step 7 
+[16:03:54.758] [INFO   ] place card step 8 
+[16:03:54.758] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:55.760] [SEVERE ] updating countdown to 45487
+[16:03:56.198] [INFO   ] place card step 0 
+[16:03:56.198] [INFO   ] place card step 1 
+[16:03:56.198] [INFO   ] place card step 2 
+[16:03:56.198] [INFO   ] place card step 3 
+[16:03:56.198] [INFO   ] place card step 5 
+[16:03:56.198] [INFO   ] place card step 6 
+[16:03:56.198] [INFO   ] place card step 7 
+[16:03:56.198] [INFO   ] place card step 8 
+[16:03:56.198] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:57.200] [SEVERE ] updating countdown to 44047
+[16:03:57.637] [INFO   ] place card step 0 
+[16:03:57.637] [INFO   ] place card step 1 
+[16:03:57.637] [INFO   ] place card step 2 
+[16:03:57.637] [INFO   ] place card step 3 
+[16:03:57.637] [INFO   ] place card step 5 
+[16:03:57.637] [INFO   ] place card step 6 
+[16:03:57.637] [INFO   ] place card step 7 
+[16:03:57.637] [INFO   ] place card step 8 
+[16:03:57.637] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:58.640] [SEVERE ] updating countdown to 42607
+[16:03:59.078] [INFO   ] place card step 0 
+[16:03:59.078] [INFO   ] place card step 1 
+[16:03:59.078] [INFO   ] place card step 2 
+[16:03:59.078] [INFO   ] place card step 3 
+[16:03:59.078] [INFO   ] place card step 5 
+[16:03:59.078] [INFO   ] place card step 6 
+[16:03:59.078] [INFO   ] place card step 7 
+[16:03:59.078] [INFO   ] place card step 8 
+[16:03:59.078] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:03:59.501] [SEVERE ] key 73 was pressed by player 2
+[16:03:59.501] [SEVERE ] player 2 placing token on slot 1
+[16:03:59.501] [SEVERE ] updating countdown to 41746
+[16:03:59.720] [INFO   ] remove  in the table step 1
+[16:03:59.720] [INFO   ] remove  in the table step 2
+[16:03:59.720] [INFO   ] penalty step 1!!!!
+[16:03:59.720] [SEVERE ] setting player 2 freeze to 3000
+[16:03:59.720] [INFO   ] penalty step 1!!!!
+[16:03:59.720] [INFO   ] penalty while step 1!!!!
+[16:04:00.006] [SEVERE ] key 85 was pressed by player 2
+[16:04:00.722] [INFO   ] penalty while step 2!!!!
+[16:04:00.722] [SEVERE ] setting player 2 freeze to 2000
+[16:04:00.722] [INFO   ] penalty while step 1!!!!
+[16:04:01.724] [INFO   ] penalty while step 2!!!!
+[16:04:01.724] [SEVERE ] setting player 2 freeze to 1000
+[16:04:01.724] [INFO   ] penalty while step 1!!!!
+[16:04:02.728] [INFO   ] penalty while step 2!!!!
+[16:04:02.728] [SEVERE ] setting player 2 freeze to 0
+[16:04:02.728] [SEVERE ] removing player 2 token from slot 7
+[16:04:02.728] [SEVERE ] removing player 2 token from slot 5
+[16:04:02.728] [SEVERE ] removing player 2 token from slot 1
+[16:04:02.728] [SEVERE ] removing player 2 token from slot 0
+[16:04:02.947] [INFO   ] place card step 0 
+[16:04:02.947] [INFO   ] place card step 1 
+[16:04:02.947] [INFO   ] place card step 2 
+[16:04:02.947] [INFO   ] place card step 3 
+[16:04:02.947] [INFO   ] place card step 5 
+[16:04:02.947] [INFO   ] place card step 6 
+[16:04:02.947] [INFO   ] place card step 7 
+[16:04:02.947] [INFO   ] place card step 8 
+[16:04:02.947] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:03.810] [SEVERE ] key 73 was pressed by player 2
+[16:04:03.810] [SEVERE ] player 2 placing token on slot 1
+[16:04:03.950] [SEVERE ] updating countdown to 37297
+[16:04:04.231] [SEVERE ] key 85 was pressed by player 2
+[16:04:04.231] [SEVERE ] player 2 placing token on slot 0
+[16:04:04.388] [INFO   ] place card step 0 
+[16:04:04.388] [INFO   ] place card step 1 
+[16:04:04.388] [INFO   ] place card step 2 
+[16:04:04.388] [INFO   ] place card step 3 
+[16:04:04.389] [INFO   ] place card step 5 
+[16:04:04.389] [INFO   ] place card step 6 
+[16:04:04.389] [INFO   ] place card step 7 
+[16:04:04.389] [INFO   ] place card step 8 
+[16:04:04.389] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:05.389] [SEVERE ] updating countdown to 35858
+[16:04:05.828] [INFO   ] place card step 0 
+[16:04:05.828] [INFO   ] place card step 1 
+[16:04:05.828] [INFO   ] place card step 2 
+[16:04:05.828] [INFO   ] place card step 3 
+[16:04:05.828] [INFO   ] place card step 5 
+[16:04:05.828] [INFO   ] place card step 6 
+[16:04:05.828] [INFO   ] place card step 7 
+[16:04:05.828] [INFO   ] place card step 8 
+[16:04:05.828] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:06.062] [SEVERE ] key 77 was pressed by player 2
+[16:04:06.062] [SEVERE ] player 2 placing token on slot 8
+[16:04:06.062] [SEVERE ] updating countdown to 35185
+[16:04:06.281] [INFO   ] remove  in the table step 1
+[16:04:06.281] [INFO   ] remove  in the table step 2
+[16:04:06.281] [INFO   ] point step 1!!!!
+[16:04:06.281] [SEVERE ] setting player 2 score to 5
+[16:04:06.281] [INFO   ] point step 2
+[16:04:06.281] [SEVERE ] setting player 2 freeze to 1000
+[16:04:06.281] [INFO   ] point step 3
+[16:04:06.281] [INFO   ] point step while!!!!!! poimt freeze1000
+[16:04:07.282] [SEVERE ] setting player 2 freeze to 0
+[16:04:07.282] [SEVERE ] removing player 2 token from slot 1
+[16:04:07.392] [SEVERE ] removing card from slot 1
+[16:04:07.392] [SEVERE ] removing player 2 token from slot 0
+[16:04:07.502] [SEVERE ] removing card from slot 0
+[16:04:07.502] [SEVERE ] removing player 2 token from slot 8
+[16:04:07.611] [SEVERE ] removing card from slot 8
+[16:04:07.611] [SEVERE ] updating countdown to 60000
+[16:04:07.831] [INFO   ] place card step 0 
+[16:04:07.831] [INFO   ] place card step 1 
+[16:04:07.940] [SEVERE ] placing card 37 in slot 0
+[16:04:08.049] [SEVERE ] placing card 46 in slot 1
+[16:04:08.159] [SEVERE ] placing card 76 in slot 8
+[16:04:08.159] [INFO   ] place card step 2 
+[16:04:08.159] [INFO   ] place card step 3 
+[16:04:08.159] [INFO   ] place card step 5 
+[16:04:08.159] [INFO   ] place card step 6 
+[16:04:08.159] [INFO   ] place card step 7 
+[16:04:08.159] [INFO   ] place card step 8 
+[16:04:08.159] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:09.162] [SEVERE ] updating countdown to 58449
+[16:04:09.600] [INFO   ] place card step 0 
+[16:04:09.600] [INFO   ] place card step 1 
+[16:04:09.600] [INFO   ] place card step 2 
+[16:04:09.600] [INFO   ] place card step 3 
+[16:04:09.600] [INFO   ] place card step 5 
+[16:04:09.600] [INFO   ] place card step 6 
+[16:04:09.600] [INFO   ] place card step 7 
+[16:04:09.600] [INFO   ] place card step 8 
+[16:04:09.600] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:10.601] [SEVERE ] updating countdown to 57010
+[16:04:11.040] [INFO   ] place card step 0 
+[16:04:11.040] [INFO   ] place card step 1 
+[16:04:11.040] [INFO   ] place card step 2 
+[16:04:11.040] [INFO   ] place card step 3 
+[16:04:11.040] [INFO   ] place card step 5 
+[16:04:11.040] [INFO   ] place card step 6 
+[16:04:11.040] [INFO   ] place card step 7 
+[16:04:11.040] [INFO   ] place card step 8 
+[16:04:11.040] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:12.041] [SEVERE ] updating countdown to 55570
+[16:04:12.479] [INFO   ] place card step 0 
+[16:04:12.479] [INFO   ] place card step 1 
+[16:04:12.479] [INFO   ] place card step 2 
+[16:04:12.479] [INFO   ] place card step 3 
+[16:04:12.479] [INFO   ] place card step 5 
+[16:04:12.479] [INFO   ] place card step 6 
+[16:04:12.479] [INFO   ] place card step 7 
+[16:04:12.479] [INFO   ] place card step 8 
+[16:04:12.479] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:13.074] [SEVERE ] key 81 was pressed by player 1
+[16:04:13.074] [SEVERE ] player 1 placing token on slot 0
+[16:04:13.481] [SEVERE ] updating countdown to 54130
+[16:04:13.872] [SEVERE ] key 65 was pressed by player 1
+[16:04:13.872] [SEVERE ] player 1 placing token on slot 4
+[16:04:13.919] [INFO   ] place card step 0 
+[16:04:13.919] [INFO   ] place card step 1 
+[16:04:13.919] [INFO   ] place card step 2 
+[16:04:13.919] [INFO   ] place card step 3 
+[16:04:13.919] [INFO   ] place card step 5 
+[16:04:13.919] [INFO   ] place card step 6 
+[16:04:13.919] [INFO   ] place card step 7 
+[16:04:13.919] [INFO   ] place card step 8 
+[16:04:13.919] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:14.591] [SEVERE ] key 73 was pressed by player 2
+[16:04:14.591] [SEVERE ] player 2 placing token on slot 1
+[16:04:14.919] [SEVERE ] updating countdown to 52692
+[16:04:15.357] [INFO   ] place card step 0 
+[16:04:15.357] [INFO   ] place card step 1 
+[16:04:15.357] [INFO   ] place card step 2 
+[16:04:15.357] [INFO   ] place card step 3 
+[16:04:15.357] [INFO   ] place card step 5 
+[16:04:15.357] [INFO   ] place card step 6 
+[16:04:15.357] [INFO   ] place card step 7 
+[16:04:15.357] [INFO   ] place card step 8 
+[16:04:15.357] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:15.662] [SEVERE ] key 74 was pressed by player 2
+[16:04:15.662] [SEVERE ] player 2 placing token on slot 4
+[16:04:16.357] [SEVERE ] key 81 was pressed by player 1
+[16:04:16.357] [SEVERE ] removing player 1 token from slot 0
+[16:04:16.372] [SEVERE ] updating countdown to 51239
+[16:04:16.810] [INFO   ] place card step 0 
+[16:04:16.810] [INFO   ] place card step 1 
+[16:04:16.810] [INFO   ] place card step 2 
+[16:04:16.810] [INFO   ] place card step 3 
+[16:04:16.810] [INFO   ] place card step 5 
+[16:04:16.810] [INFO   ] place card step 6 
+[16:04:16.810] [INFO   ] place card step 7 
+[16:04:16.810] [INFO   ] place card step 8 
+[16:04:16.810] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:16.810] [SEVERE ] key 46 was pressed by player 2
+[16:04:16.810] [SEVERE ] player 2 placing token on slot 10
+[16:04:16.810] [SEVERE ] updating countdown to 50801
+[16:04:16.873] [SEVERE ] key 87 was pressed by player 1
+[16:04:16.873] [SEVERE ] player 1 placing token on slot 1
+[16:04:17.031] [INFO   ] remove  in the table step 1
+[16:04:17.031] [INFO   ] remove  in the table step 2
+[16:04:17.031] [INFO   ] point step 1!!!!
+[16:04:17.031] [SEVERE ] setting player 2 score to 6
+[16:04:17.031] [INFO   ] point step 2
+[16:04:17.031] [SEVERE ] setting player 2 freeze to 1000
+[16:04:17.031] [INFO   ] point step 3
+[16:04:17.031] [INFO   ] point step while!!!!!! poimt freeze1000
+[16:04:18.046] [SEVERE ] setting player 2 freeze to 0
+[16:04:18.046] [SEVERE ] removing player 2 token from slot 1
+[16:04:18.155] [SEVERE ] removing card from slot 1
+[16:04:18.155] [SEVERE ] removing player 1 token from slot 1
+[16:04:18.155] [SEVERE ] removing player 2 token from slot 4
+[16:04:18.265] [SEVERE ] removing card from slot 4
+[16:04:18.265] [SEVERE ] removing player 1 token from slot 4
+[16:04:18.265] [SEVERE ] removing player 2 token from slot 10
+[16:04:18.374] [SEVERE ] removing card from slot 10
+[16:04:18.374] [SEVERE ] updating countdown to 60000
+[16:04:18.593] [INFO   ] place card step 0 
+[16:04:18.593] [INFO   ] place card step 1 
+[16:04:18.703] [SEVERE ] placing card 1 in slot 1
+[16:04:18.813] [SEVERE ] placing card 47 in slot 4
+[16:04:18.923] [SEVERE ] placing card 31 in slot 10
+[16:04:18.923] [INFO   ] place card step 2 
+[16:04:18.923] [INFO   ] place card step 3 
+[16:04:18.923] [INFO   ] place card step 5 
+[16:04:18.923] [INFO   ] place card step 6 
+[16:04:18.923] [INFO   ] place card step 7 
+[16:04:18.923] [INFO   ] place card step 8 
+[16:04:18.923] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:19.924] [SEVERE ] updating countdown to 58450
+[16:04:20.361] [INFO   ] place card step 0 
+[16:04:20.361] [INFO   ] place card step 1 
+[16:04:20.361] [INFO   ] place card step 2 
+[16:04:20.361] [INFO   ] place card step 3 
+[16:04:20.361] [INFO   ] place card step 5 
+[16:04:20.361] [INFO   ] place card step 6 
+[16:04:20.361] [INFO   ] place card step 7 
+[16:04:20.361] [INFO   ] place card step 8 
+[16:04:20.361] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:21.364] [SEVERE ] updating countdown to 57010
+[16:04:21.804] [INFO   ] place card step 0 
+[16:04:21.804] [INFO   ] place card step 1 
+[16:04:21.804] [INFO   ] place card step 2 
+[16:04:21.804] [INFO   ] place card step 3 
+[16:04:21.804] [INFO   ] place card step 5 
+[16:04:21.804] [INFO   ] place card step 6 
+[16:04:21.804] [INFO   ] place card step 7 
+[16:04:21.804] [INFO   ] place card step 8 
+[16:04:21.804] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:22.807] [SEVERE ] updating countdown to 55567
+[16:04:23.244] [INFO   ] place card step 0 
+[16:04:23.244] [INFO   ] place card step 1 
+[16:04:23.244] [INFO   ] place card step 2 
+[16:04:23.244] [INFO   ] place card step 3 
+[16:04:23.244] [INFO   ] place card step 5 
+[16:04:23.244] [INFO   ] place card step 6 
+[16:04:23.244] [INFO   ] place card step 7 
+[16:04:23.244] [INFO   ] place card step 8 
+[16:04:23.244] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:24.246] [SEVERE ] updating countdown to 54128
+[16:04:24.683] [INFO   ] place card step 0 
+[16:04:24.683] [INFO   ] place card step 1 
+[16:04:24.683] [INFO   ] place card step 2 
+[16:04:24.683] [INFO   ] place card step 3 
+[16:04:24.683] [INFO   ] place card step 5 
+[16:04:24.683] [INFO   ] place card step 6 
+[16:04:24.683] [INFO   ] place card step 7 
+[16:04:24.683] [INFO   ] place card step 8 
+[16:04:24.683] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:25.684] [SEVERE ] updating countdown to 52690
+[16:04:26.123] [INFO   ] place card step 0 
+[16:04:26.123] [INFO   ] place card step 1 
+[16:04:26.123] [INFO   ] place card step 2 
+[16:04:26.123] [INFO   ] place card step 3 
+[16:04:26.123] [INFO   ] place card step 5 
+[16:04:26.123] [INFO   ] place card step 6 
+[16:04:26.123] [INFO   ] place card step 7 
+[16:04:26.123] [INFO   ] place card step 8 
+[16:04:26.123] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:27.123] [SEVERE ] updating countdown to 51251
+[16:04:27.358] [SEVERE ] key 90 was pressed by player 1
+[16:04:27.358] [SEVERE ] player 1 placing token on slot 8
+[16:04:27.561] [INFO   ] place card step 0 
+[16:04:27.561] [INFO   ] place card step 1 
+[16:04:27.561] [INFO   ] place card step 2 
+[16:04:27.561] [INFO   ] place card step 3 
+[16:04:27.561] [INFO   ] place card step 5 
+[16:04:27.561] [INFO   ] place card step 6 
+[16:04:27.561] [INFO   ] place card step 7 
+[16:04:27.561] [INFO   ] place card step 8 
+[16:04:27.561] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:28.516] [SEVERE ] key 67 was pressed by player 1
+[16:04:28.516] [SEVERE ] player 1 placing token on slot 10
+[16:04:28.563] [SEVERE ] updating countdown to 49811
+[16:04:29.000] [INFO   ] place card step 0 
+[16:04:29.000] [INFO   ] place card step 1 
+[16:04:29.000] [INFO   ] place card step 2 
+[16:04:29.000] [INFO   ] place card step 3 
+[16:04:29.000] [INFO   ] place card step 5 
+[16:04:29.000] [INFO   ] place card step 6 
+[16:04:29.000] [INFO   ] place card step 7 
+[16:04:29.000] [INFO   ] place card step 8 
+[16:04:29.000] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:30.003] [SEVERE ] updating countdown to 48371
+[16:04:30.442] [INFO   ] place card step 0 
+[16:04:30.442] [INFO   ] place card step 1 
+[16:04:30.442] [INFO   ] place card step 2 
+[16:04:30.442] [INFO   ] place card step 3 
+[16:04:30.442] [INFO   ] place card step 5 
+[16:04:30.442] [INFO   ] place card step 6 
+[16:04:30.442] [INFO   ] place card step 7 
+[16:04:30.442] [INFO   ] place card step 8 
+[16:04:30.442] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:31.442] [SEVERE ] updating countdown to 46932
+[16:04:31.741] [SEVERE ] key 76 was pressed by player 2
+[16:04:31.741] [SEVERE ] player 2 placing token on slot 6
+[16:04:31.881] [INFO   ] place card step 0 
+[16:04:31.881] [INFO   ] place card step 1 
+[16:04:31.881] [INFO   ] place card step 2 
+[16:04:31.881] [INFO   ] place card step 3 
+[16:04:31.881] [INFO   ] place card step 5 
+[16:04:31.881] [INFO   ] place card step 6 
+[16:04:31.881] [INFO   ] place card step 7 
+[16:04:31.881] [INFO   ] place card step 8 
+[16:04:31.881] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:31.959] [SEVERE ] key 75 was pressed by player 2
+[16:04:31.959] [SEVERE ] player 2 placing token on slot 5
+[16:04:31.975] [SEVERE ] key 82 was pressed by player 1
+[16:04:31.975] [SEVERE ] player 1 placing token on slot 3
+[16:04:31.975] [SEVERE ] updating countdown to 46399
+[16:04:32.209] [INFO   ] remove  in the table step 1
+[16:04:32.209] [INFO   ] remove  in the table step 2
+[16:04:32.209] [INFO   ] point step 1!!!!
+[16:04:32.209] [SEVERE ] setting player 1 score to 5
+[16:04:32.209] [INFO   ] point step 2
+[16:04:32.209] [SEVERE ] setting player 1 freeze to 1000
+[16:04:32.209] [INFO   ] point step 3
+[16:04:32.209] [INFO   ] point step while!!!!!! poimt freeze1000
+[16:04:32.225] [SEVERE ] key 44 was pressed by player 2
+[16:04:32.929] [SEVERE ] key 44 was pressed by player 2
+[16:04:32.929] [SEVERE ] removing player 2 token from slot 9
+[16:04:33.211] [SEVERE ] setting player 1 freeze to 0
+[16:04:33.211] [SEVERE ] removing player 1 token from slot 8
+[16:04:33.320] [SEVERE ] removing card from slot 8
+[16:04:33.320] [SEVERE ] removing player 1 token from slot 10
+[16:04:33.429] [SEVERE ] removing card from slot 10
+[16:04:33.429] [SEVERE ] removing player 1 token from slot 3
+[16:04:33.492] [SEVERE ] key 82 was pressed by player 1
+[16:04:33.545] [SEVERE ] removing card from slot 3
+[16:04:33.545] [SEVERE ] updating countdown to 60000
+[16:04:33.770] [INFO   ] place card step 0 
+[16:04:33.770] [INFO   ] place card step 1 
+[16:04:33.880] [SEVERE ] placing card 65 in slot 3
+[16:04:33.991] [SEVERE ] placing card 9 in slot 8
+[16:04:34.101] [SEVERE ] placing card 11 in slot 10
+[16:04:34.101] [INFO   ] place card step 2 
+[16:04:34.101] [INFO   ] place card step 3 
+[16:04:34.101] [INFO   ] place card step 5 
+[16:04:34.101] [INFO   ] place card step 6 
+[16:04:34.101] [INFO   ] place card step 7 
+[16:04:34.101] [INFO   ] place card step 8 
+[16:04:34.101] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:34.101] [SEVERE ] updating countdown to 59444
+[16:04:34.320] [INFO   ] remove  in the table step 1
+[16:04:34.320] [INFO   ] remove  in the table step 2
+[16:04:34.320] [INFO   ] point step 1!!!!
+[16:04:34.320] [SEVERE ] setting player 2 score to 7
+[16:04:34.320] [INFO   ] point step 2
+[16:04:34.320] [SEVERE ] setting player 2 freeze to 1000
+[16:04:34.320] [INFO   ] point step 3
+[16:04:34.320] [INFO   ] point step while!!!!!! poimt freeze1000
+[16:04:35.322] [SEVERE ] setting player 2 freeze to 0
+[16:04:35.322] [SEVERE ] removing player 2 token from slot 6
+[16:04:35.431] [SEVERE ] removing card from slot 6
+[16:04:35.431] [SEVERE ] removing player 2 token from slot 5
+[16:04:35.542] [SEVERE ] removing card from slot 5
+[16:04:35.542] [SEVERE ] updating countdown to 60000
+[16:04:35.760] [INFO   ] place card step 0 
+[16:04:35.760] [INFO   ] place card step 1 
+[16:04:35.870] [SEVERE ] placing card 70 in slot 5
+[16:04:35.980] [SEVERE ] placing card 45 in slot 6
+[16:04:35.980] [INFO   ] place card step 2 
+[16:04:35.980] [INFO   ] place card step 3 
+[16:04:35.980] [INFO   ] place card step 5 
+[16:04:35.980] [INFO   ] place card step 6 
+[16:04:35.980] [INFO   ] place card step 7 
+[16:04:35.980] [INFO   ] place card step 8 
+[16:04:35.980] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:36.980] [SEVERE ] updating countdown to 58562
+[16:04:37.417] [INFO   ] place card step 0 
+[16:04:37.417] [INFO   ] place card step 1 
+[16:04:37.417] [INFO   ] place card step 2 
+[16:04:37.417] [INFO   ] place card step 3 
+[16:04:37.417] [INFO   ] place card step 5 
+[16:04:37.417] [INFO   ] place card step 6 
+[16:04:37.417] [INFO   ] place card step 7 
+[16:04:37.417] [INFO   ] place card step 8 
+[16:04:37.417] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:38.433] [SEVERE ] updating countdown to 57109
+[16:04:38.870] [INFO   ] place card step 0 
+[16:04:38.870] [INFO   ] place card step 1 
+[16:04:38.870] [INFO   ] place card step 2 
+[16:04:38.870] [INFO   ] place card step 3 
+[16:04:38.870] [INFO   ] place card step 5 
+[16:04:38.870] [INFO   ] place card step 6 
+[16:04:38.870] [INFO   ] place card step 7 
+[16:04:38.870] [INFO   ] place card step 8 
+[16:04:38.870] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:39.873] [SEVERE ] updating countdown to 55669
+[16:04:40.311] [INFO   ] place card step 0 
+[16:04:40.311] [INFO   ] place card step 1 
+[16:04:40.311] [INFO   ] place card step 2 
+[16:04:40.311] [INFO   ] place card step 3 
+[16:04:40.311] [INFO   ] place card step 5 
+[16:04:40.311] [INFO   ] place card step 6 
+[16:04:40.311] [INFO   ] place card step 7 
+[16:04:40.311] [INFO   ] place card step 8 
+[16:04:40.311] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:41.314] [SEVERE ] updating countdown to 54228
+[16:04:41.751] [INFO   ] place card step 0 
+[16:04:41.751] [INFO   ] place card step 1 
+[16:04:41.751] [INFO   ] place card step 2 
+[16:04:41.751] [INFO   ] place card step 3 
+[16:04:41.751] [INFO   ] place card step 5 
+[16:04:41.751] [INFO   ] place card step 6 
+[16:04:41.751] [INFO   ] place card step 7 
+[16:04:41.751] [INFO   ] place card step 8 
+[16:04:41.751] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:42.752] [SEVERE ] updating countdown to 52790
+[16:04:43.190] [INFO   ] place card step 0 
+[16:04:43.190] [INFO   ] place card step 1 
+[16:04:43.190] [INFO   ] place card step 2 
+[16:04:43.190] [INFO   ] place card step 3 
+[16:04:43.190] [INFO   ] place card step 5 
+[16:04:43.190] [INFO   ] place card step 6 
+[16:04:43.190] [INFO   ] place card step 7 
+[16:04:43.190] [INFO   ] place card step 8 
+[16:04:43.190] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:44.004] [SEVERE ] key 80 was pressed by player 2
+[16:04:44.004] [SEVERE ] player 2 placing token on slot 3
+[16:04:44.192] [SEVERE ] updating countdown to 51350
+[16:04:44.270] [SEVERE ] key 59 was pressed by player 2
+[16:04:44.270] [SEVERE ] player 2 placing token on slot 7
+[16:04:44.630] [INFO   ] place card step 0 
+[16:04:44.630] [INFO   ] place card step 1 
+[16:04:44.630] [INFO   ] place card step 2 
+[16:04:44.630] [INFO   ] place card step 3 
+[16:04:44.630] [INFO   ] place card step 5 
+[16:04:44.630] [INFO   ] place card step 6 
+[16:04:44.630] [INFO   ] place card step 7 
+[16:04:44.630] [INFO   ] place card step 8 
+[16:04:44.630] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:44.630] [SEVERE ] key 81 was pressed by player 1
+[16:04:44.630] [SEVERE ] player 1 placing token on slot 0
+[16:04:45.630] [SEVERE ] updating countdown to 49912
+[16:04:46.070] [INFO   ] place card step 0 
+[16:04:46.070] [INFO   ] place card step 1 
+[16:04:46.070] [INFO   ] place card step 2 
+[16:04:46.070] [INFO   ] place card step 3 
+[16:04:46.070] [INFO   ] place card step 5 
+[16:04:46.070] [INFO   ] place card step 6 
+[16:04:46.070] [INFO   ] place card step 7 
+[16:04:46.070] [INFO   ] place card step 8 
+[16:04:46.070] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:47.072] [SEVERE ] updating countdown to 48470
+[16:04:47.511] [INFO   ] place card step 0 
+[16:04:47.511] [INFO   ] place card step 1 
+[16:04:47.511] [INFO   ] place card step 2 
+[16:04:47.511] [INFO   ] place card step 3 
+[16:04:47.511] [INFO   ] place card step 5 
+[16:04:47.511] [INFO   ] place card step 6 
+[16:04:47.511] [INFO   ] place card step 7 
+[16:04:47.511] [INFO   ] place card step 8 
+[16:04:47.511] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:48.515] [SEVERE ] updating countdown to 47027
+[16:04:48.954] [INFO   ] place card step 0 
+[16:04:48.954] [INFO   ] place card step 1 
+[16:04:48.954] [INFO   ] place card step 2 
+[16:04:48.954] [INFO   ] place card step 3 
+[16:04:48.954] [INFO   ] place card step 5 
+[16:04:48.954] [INFO   ] place card step 6 
+[16:04:48.954] [INFO   ] place card step 7 
+[16:04:48.954] [INFO   ] place card step 8 
+[16:04:48.954] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:49.173] [SEVERE ] key 87 was pressed by player 1
+[16:04:49.173] [SEVERE ] player 1 placing token on slot 1
+[16:04:49.299] [SEVERE ] key 69 was pressed by player 1
+[16:04:49.299] [SEVERE ] player 1 placing token on slot 2
+[16:04:49.299] [SEVERE ] updating countdown to 46243
+[16:04:49.521] [INFO   ] remove  in the table step 1
+[16:04:49.521] [INFO   ] remove  in the table step 2
+[16:04:49.521] [INFO   ] penalty step 1!!!!
+[16:04:49.521] [SEVERE ] setting player 1 freeze to 3000
+[16:04:49.521] [INFO   ] penalty step 1!!!!
+[16:04:49.521] [INFO   ] penalty while step 1!!!!
+[16:04:49.819] [SEVERE ] key 47 was pressed by player 2
+[16:04:50.525] [INFO   ] penalty while step 2!!!!
+[16:04:50.525] [SEVERE ] setting player 1 freeze to 2000
+[16:04:50.525] [INFO   ] penalty while step 1!!!!
+[16:04:51.527] [INFO   ] penalty while step 2!!!!
+[16:04:51.527] [SEVERE ] setting player 1 freeze to 1000
+[16:04:51.527] [INFO   ] penalty while step 1!!!!
+[16:04:52.531] [INFO   ] penalty while step 2!!!!
+[16:04:52.531] [SEVERE ] setting player 1 freeze to 0
+[16:04:52.531] [SEVERE ] removing player 1 token from slot 0
+[16:04:52.531] [SEVERE ] removing player 1 token from slot 1
+[16:04:52.531] [SEVERE ] removing player 1 token from slot 2
+[16:04:52.751] [INFO   ] place card step 0 
+[16:04:52.751] [INFO   ] place card step 1 
+[16:04:52.751] [INFO   ] place card step 2 
+[16:04:52.751] [INFO   ] place card step 3 
+[16:04:52.751] [INFO   ] place card step 5 
+[16:04:52.751] [INFO   ] place card step 6 
+[16:04:52.751] [INFO   ] place card step 7 
+[16:04:52.751] [INFO   ] place card step 8 
+[16:04:52.751] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:52.751] [SEVERE ] updating countdown to 42791
+[16:04:52.970] [INFO   ] remove  in the table step 1
+[16:04:52.970] [INFO   ] remove  in the table step 2
+[16:04:52.970] [INFO   ] penalty step 1!!!!
+[16:04:52.970] [SEVERE ] setting player 2 freeze to 3000
+[16:04:52.970] [INFO   ] penalty step 1!!!!
+[16:04:52.970] [INFO   ] penalty while step 1!!!!
+[16:04:53.972] [INFO   ] penalty while step 2!!!!
+[16:04:53.972] [SEVERE ] setting player 2 freeze to 2000
+[16:04:53.972] [INFO   ] penalty while step 1!!!!
+[16:04:54.973] [INFO   ] penalty while step 2!!!!
+[16:04:54.973] [SEVERE ] setting player 2 freeze to 1000
+[16:04:54.973] [INFO   ] penalty while step 1!!!!
+[16:04:55.977] [INFO   ] penalty while step 2!!!!
+[16:04:55.977] [SEVERE ] setting player 2 freeze to 0
+[16:04:55.977] [SEVERE ] removing player 2 token from slot 3
+[16:04:55.977] [SEVERE ] removing player 2 token from slot 7
+[16:04:55.977] [SEVERE ] removing player 2 token from slot 11
+[16:04:56.196] [INFO   ] place card step 0 
+[16:04:56.196] [INFO   ] place card step 1 
+[16:04:56.196] [INFO   ] place card step 2 
+[16:04:56.196] [INFO   ] place card step 3 
+[16:04:56.196] [INFO   ] place card step 5 
+[16:04:56.196] [INFO   ] place card step 6 
+[16:04:56.196] [INFO   ] place card step 7 
+[16:04:56.196] [INFO   ] place card step 8 
+[16:04:56.196] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:57.198] [SEVERE ] updating countdown to 38344
+[16:04:57.636] [INFO   ] place card step 0 
+[16:04:57.636] [INFO   ] place card step 1 
+[16:04:57.636] [INFO   ] place card step 2 
+[16:04:57.636] [INFO   ] place card step 3 
+[16:04:57.636] [INFO   ] place card step 5 
+[16:04:57.636] [INFO   ] place card step 6 
+[16:04:57.636] [INFO   ] place card step 7 
+[16:04:57.636] [INFO   ] place card step 8 
+[16:04:57.636] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:58.638] [SEVERE ] updating countdown to 36904
+[16:04:58.763] [SEVERE ] key 80 was pressed by player 2
+[16:04:58.763] [SEVERE ] player 2 placing token on slot 3
+[16:04:58.951] [SEVERE ] key 59 was pressed by player 2
+[16:04:58.951] [SEVERE ] player 2 placing token on slot 7
+[16:04:58.966] [SEVERE ] key 81 was pressed by player 1
+[16:04:58.982] [SEVERE ] player 1 placing token on slot 0
+[16:04:59.076] [INFO   ] place card step 0 
+[16:04:59.076] [INFO   ] place card step 1 
+[16:04:59.076] [INFO   ] place card step 2 
+[16:04:59.076] [INFO   ] place card step 3 
+[16:04:59.076] [INFO   ] place card step 5 
+[16:04:59.076] [INFO   ] place card step 6 
+[16:04:59.076] [INFO   ] place card step 7 
+[16:04:59.076] [INFO   ] place card step 8 
+[16:04:59.076] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:04:59.107] [SEVERE ] key 87 was pressed by player 1
+[16:04:59.107] [SEVERE ] player 1 placing token on slot 1
+[16:04:59.123] [SEVERE ] key 46 was pressed by player 2
+[16:04:59.123] [SEVERE ] player 2 placing token on slot 10
+[16:04:59.123] [SEVERE ] updating countdown to 36419
+[16:04:59.216] [SEVERE ] key 69 was pressed by player 1
+[16:04:59.216] [SEVERE ] player 1 placing token on slot 2
+[16:04:59.344] [INFO   ] remove  in the table step 1
+[16:04:59.344] [INFO   ] remove  in the table step 2
+[16:04:59.344] [INFO   ] penalty step 1!!!!
+[16:04:59.344] [SEVERE ] setting player 2 freeze to 3000
+[16:04:59.344] [INFO   ] penalty step 1!!!!
+[16:04:59.344] [INFO   ] penalty while step 1!!!!
+[16:05:00.346] [INFO   ] penalty while step 2!!!!
+[16:05:00.346] [SEVERE ] setting player 2 freeze to 2000
+[16:05:00.346] [INFO   ] penalty while step 1!!!!
+[16:05:01.349] [INFO   ] penalty while step 2!!!!
+[16:05:01.349] [SEVERE ] setting player 2 freeze to 1000
+[16:05:01.349] [INFO   ] penalty while step 1!!!!
+[16:05:02.351] [INFO   ] penalty while step 2!!!!
+[16:05:02.351] [SEVERE ] setting player 2 freeze to 0
+[16:05:02.351] [SEVERE ] removing player 2 token from slot 3
+[16:05:02.351] [SEVERE ] removing player 2 token from slot 7
+[16:05:02.351] [SEVERE ] removing player 2 token from slot 10
+[16:05:02.351] [INFO   ] remove  in the table step 1
+[16:05:02.351] [INFO   ] remove  in the table step 2
+[16:05:02.351] [INFO   ] penalty step 1!!!!
+[16:05:02.351] [SEVERE ] setting player 1 freeze to 3000
+[16:05:02.351] [INFO   ] penalty step 1!!!!
+[16:05:02.351] [INFO   ] penalty while step 1!!!!
+[16:05:03.351] [INFO   ] penalty while step 2!!!!
+[16:05:03.351] [SEVERE ] setting player 1 freeze to 2000
+[16:05:03.351] [INFO   ] penalty while step 1!!!!
+[16:05:04.353] [INFO   ] penalty while step 2!!!!
+[16:05:04.353] [SEVERE ] setting player 1 freeze to 1000
+[16:05:04.353] [INFO   ] penalty while step 1!!!!
+[16:05:05.357] [INFO   ] penalty while step 2!!!!
+[16:05:05.357] [SEVERE ] setting player 1 freeze to 0
+[16:05:05.357] [SEVERE ] removing player 1 token from slot 0
+[16:05:05.357] [SEVERE ] removing player 1 token from slot 1
+[16:05:05.357] [SEVERE ] removing player 1 token from slot 2
+[16:05:05.577] [INFO   ] place card step 0 
+[16:05:05.577] [INFO   ] place card step 1 
+[16:05:05.577] [INFO   ] place card step 2 
+[16:05:05.577] [INFO   ] place card step 3 
+[16:05:05.577] [INFO   ] place card step 5 
+[16:05:05.577] [INFO   ] place card step 6 
+[16:05:05.577] [INFO   ] place card step 7 
+[16:05:05.577] [INFO   ] place card step 8 
+[16:05:05.577] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:06.580] [SEVERE ] updating countdown to 28962
+[16:05:07.018] [INFO   ] place card step 0 
+[16:05:07.018] [INFO   ] place card step 1 
+[16:05:07.018] [INFO   ] place card step 2 
+[16:05:07.018] [INFO   ] place card step 3 
+[16:05:07.018] [INFO   ] place card step 5 
+[16:05:07.018] [INFO   ] place card step 6 
+[16:05:07.018] [INFO   ] place card step 7 
+[16:05:07.018] [INFO   ] place card step 8 
+[16:05:07.018] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:08.022] [SEVERE ] updating countdown to 27520
+[16:05:08.460] [INFO   ] place card step 0 
+[16:05:08.460] [INFO   ] place card step 1 
+[16:05:08.460] [INFO   ] place card step 2 
+[16:05:08.460] [INFO   ] place card step 3 
+[16:05:08.460] [INFO   ] place card step 5 
+[16:05:08.460] [INFO   ] place card step 6 
+[16:05:08.460] [INFO   ] place card step 7 
+[16:05:08.460] [INFO   ] place card step 8 
+[16:05:08.460] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:09.464] [SEVERE ] updating countdown to 26078
+[16:05:09.902] [INFO   ] place card step 0 
+[16:05:09.902] [INFO   ] place card step 1 
+[16:05:09.902] [INFO   ] place card step 2 
+[16:05:09.902] [INFO   ] place card step 3 
+[16:05:09.902] [INFO   ] place card step 5 
+[16:05:09.902] [INFO   ] place card step 6 
+[16:05:09.902] [INFO   ] place card step 7 
+[16:05:09.902] [INFO   ] place card step 8 
+[16:05:09.902] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:10.905] [SEVERE ] updating countdown to 24637
+[16:05:11.344] [INFO   ] place card step 0 
+[16:05:11.344] [INFO   ] place card step 1 
+[16:05:11.344] [INFO   ] place card step 2 
+[16:05:11.344] [INFO   ] place card step 3 
+[16:05:11.344] [INFO   ] place card step 5 
+[16:05:11.344] [INFO   ] place card step 6 
+[16:05:11.344] [INFO   ] place card step 7 
+[16:05:11.344] [INFO   ] place card step 8 
+[16:05:11.344] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:12.346] [SEVERE ] updating countdown to 23196
+[16:05:12.787] [INFO   ] place card step 0 
+[16:05:12.787] [INFO   ] place card step 1 
+[16:05:12.787] [INFO   ] place card step 2 
+[16:05:12.787] [INFO   ] place card step 3 
+[16:05:12.787] [INFO   ] place card step 5 
+[16:05:12.787] [INFO   ] place card step 6 
+[16:05:12.787] [INFO   ] place card step 7 
+[16:05:12.787] [INFO   ] place card step 8 
+[16:05:12.787] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:12.835] [SEVERE ] key 77 was pressed by player 2
+[16:05:12.835] [SEVERE ] player 2 placing token on slot 8
+[16:05:13.084] [SEVERE ] key 81 was pressed by player 1
+[16:05:13.084] [SEVERE ] player 1 placing token on slot 0
+[16:05:13.338] [SEVERE ] key 87 was pressed by player 1
+[16:05:13.338] [SEVERE ] player 1 placing token on slot 1
+[16:05:13.554] [SEVERE ] key 69 was pressed by player 1
+[16:05:13.554] [SEVERE ] player 1 placing token on slot 2
+[16:05:13.554] [SEVERE ] updating countdown to 21988
+[16:05:13.775] [INFO   ] remove  in the table step 1
+[16:05:13.775] [INFO   ] remove  in the table step 2
+[16:05:13.775] [INFO   ] penalty step 1!!!!
+[16:05:13.775] [SEVERE ] setting player 1 freeze to 3000
+[16:05:13.775] [INFO   ] penalty step 1!!!!
+[16:05:13.775] [INFO   ] penalty while step 1!!!!
+[16:05:14.041] [SEVERE ] key 74 was pressed by player 2
+[16:05:14.401] [SEVERE ] key 46 was pressed by player 2
+[16:05:14.777] [INFO   ] penalty while step 2!!!!
+[16:05:14.777] [SEVERE ] setting player 1 freeze to 2000
+[16:05:14.777] [INFO   ] penalty while step 1!!!!
+[16:05:15.781] [INFO   ] penalty while step 2!!!!
+[16:05:15.781] [SEVERE ] setting player 1 freeze to 1000
+[16:05:15.781] [INFO   ] penalty while step 1!!!!
+[16:05:16.784] [INFO   ] penalty while step 2!!!!
+[16:05:16.784] [SEVERE ] setting player 1 freeze to 0
+[16:05:16.784] [SEVERE ] removing player 1 token from slot 0
+[16:05:16.784] [SEVERE ] removing player 1 token from slot 1
+[16:05:16.784] [SEVERE ] removing player 1 token from slot 2
+[16:05:17.003] [INFO   ] place card step 0 
+[16:05:17.003] [INFO   ] place card step 1 
+[16:05:17.003] [INFO   ] place card step 2 
+[16:05:17.003] [INFO   ] place card step 3 
+[16:05:17.003] [INFO   ] place card step 5 
+[16:05:17.003] [INFO   ] place card step 6 
+[16:05:17.003] [INFO   ] place card step 7 
+[16:05:17.003] [INFO   ] place card step 8 
+[16:05:17.003] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:17.003] [SEVERE ] updating countdown to 18539
+[16:05:17.222] [INFO   ] remove  in the table step 1
+[16:05:17.222] [INFO   ] remove  in the table step 2
+[16:05:17.222] [INFO   ] penalty step 1!!!!
+[16:05:17.222] [SEVERE ] setting player 2 freeze to 3000
+[16:05:17.222] [INFO   ] penalty step 1!!!!
+[16:05:17.222] [INFO   ] penalty while step 1!!!!
+[16:05:18.223] [INFO   ] penalty while step 2!!!!
+[16:05:18.223] [SEVERE ] setting player 2 freeze to 2000
+[16:05:18.223] [INFO   ] penalty while step 1!!!!
+[16:05:19.224] [INFO   ] penalty while step 2!!!!
+[16:05:19.224] [SEVERE ] setting player 2 freeze to 1000
+[16:05:19.224] [INFO   ] penalty while step 1!!!!
+[16:05:20.041] [SEVERE ] key 81 was pressed by player 1
+[16:05:20.230] [INFO   ] penalty while step 2!!!!
+[16:05:20.230] [SEVERE ] setting player 2 freeze to 0
+[16:05:20.230] [SEVERE ] removing player 2 token from slot 8
+[16:05:20.230] [SEVERE ] removing player 2 token from slot 4
+[16:05:20.230] [SEVERE ] removing player 2 token from slot 10
+[16:05:20.450] [INFO   ] place card step 0 
+[16:05:20.450] [INFO   ] place card step 1 
+[16:05:20.450] [INFO   ] place card step 2 
+[16:05:20.450] [INFO   ] place card step 3 
+[16:05:20.450] [INFO   ] place card step 5 
+[16:05:20.450] [INFO   ] place card step 6 
+[16:05:20.450] [INFO   ] place card step 7 
+[16:05:20.450] [INFO   ] place card step 8 
+[16:05:20.450] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:20.498] [SEVERE ] key 77 was pressed by player 2
+[16:05:20.498] [SEVERE ] player 2 placing token on slot 8
+[16:05:20.887] [SEVERE ] key 77 was pressed by player 2
+[16:05:20.887] [SEVERE ] removing player 2 token from slot 8
+[16:05:21.379] [SEVERE ] key 81 was pressed by player 1
+[16:05:21.379] [SEVERE ] removing player 1 token from slot 0
+[16:05:21.459] [SEVERE ] updating countdown to 14083
+[16:05:21.731] [SEVERE ] key 44 was pressed by player 2
+[16:05:21.731] [SEVERE ] player 2 placing token on slot 9
+[16:05:21.899] [INFO   ] place card step 0 
+[16:05:21.899] [INFO   ] place card step 1 
+[16:05:21.899] [INFO   ] place card step 2 
+[16:05:21.899] [INFO   ] place card step 3 
+[16:05:21.899] [INFO   ] place card step 5 
+[16:05:21.899] [INFO   ] place card step 6 
+[16:05:21.899] [INFO   ] place card step 7 
+[16:05:21.899] [INFO   ] place card step 8 
+[16:05:21.899] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:22.275] [SEVERE ] key 81 was pressed by player 1
+[16:05:22.275] [SEVERE ] player 1 placing token on slot 0
+[16:05:22.322] [SEVERE ] key 74 was pressed by player 2
+[16:05:22.322] [SEVERE ] player 2 placing token on slot 4
+[16:05:22.902] [SEVERE ] updating countdown to 12640
+[16:05:22.934] [SEVERE ] key 81 was pressed by player 1
+[16:05:22.934] [SEVERE ] removing player 1 token from slot 0
+[16:05:23.309] [SEVERE ] key 81 was pressed by player 1
+[16:05:23.309] [SEVERE ] player 1 placing token on slot 0
+[16:05:23.340] [INFO   ] place card step 0 
+[16:05:23.340] [INFO   ] place card step 1 
+[16:05:23.340] [INFO   ] place card step 2 
+[16:05:23.340] [INFO   ] place card step 3 
+[16:05:23.340] [INFO   ] place card step 5 
+[16:05:23.340] [INFO   ] place card step 6 
+[16:05:23.340] [INFO   ] place card step 7 
+[16:05:23.340] [INFO   ] place card step 8 
+[16:05:23.340] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:23.701] [SEVERE ] key 47 was pressed by player 2
+[16:05:23.701] [SEVERE ] player 2 placing token on slot 11
+[16:05:23.717] [SEVERE ] updating countdown to 11841
+[16:05:23.936] [INFO   ] remove  in the table step 1
+[16:05:23.936] [INFO   ] remove  in the table step 2
+[16:05:23.936] [INFO   ] point step 1!!!!
+[16:05:23.936] [SEVERE ] setting player 2 score to 8
+[16:05:23.936] [INFO   ] point step 2
+[16:05:23.936] [SEVERE ] setting player 2 freeze to 1000
+[16:05:23.936] [INFO   ] point step 3
+[16:05:23.936] [INFO   ] point step while!!!!!! poimt freeze1000
+[16:05:23.999] [SEVERE ] key 87 was pressed by player 1
+[16:05:24.656] [SEVERE ] key 87 was pressed by player 1
+[16:05:24.656] [SEVERE ] removing player 1 token from slot 1
+[16:05:24.938] [SEVERE ] setting player 2 freeze to 0
+[16:05:24.938] [SEVERE ] removing player 2 token from slot 9
+[16:05:25.047] [SEVERE ] removing card from slot 9
+[16:05:25.047] [SEVERE ] removing player 2 token from slot 4
+[16:05:25.156] [SEVERE ] removing card from slot 4
+[16:05:25.156] [SEVERE ] removing player 2 token from slot 11
+[16:05:25.266] [SEVERE ] removing card from slot 11
+[16:05:25.266] [SEVERE ] updating countdown to 60000
+[16:05:25.485] [INFO   ] place card step 0 
+[16:05:25.485] [INFO   ] place card step 1 
+[16:05:25.594] [SEVERE ] placing card 63 in slot 4
+[16:05:25.704] [SEVERE ] placing card 41 in slot 9
+[16:05:25.784] [SEVERE ] key 87 was pressed by player 1
+[16:05:25.815] [SEVERE ] placing card 44 in slot 11
+[16:05:25.815] [INFO   ] place card step 2 
+[16:05:25.815] [INFO   ] place card step 3 
+[16:05:25.815] [INFO   ] place card step 5 
+[16:05:25.815] [INFO   ] place card step 6 
+[16:05:25.815] [INFO   ] place card step 7 
+[16:05:25.815] [INFO   ] place card step 8 
+[16:05:25.815] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:26.822] [SEVERE ] updating countdown to 58444
+[16:05:27.263] [INFO   ] place card step 0 
+[16:05:27.263] [INFO   ] place card step 1 
+[16:05:27.263] [INFO   ] place card step 2 
+[16:05:27.263] [INFO   ] place card step 3 
+[16:05:27.263] [INFO   ] place card step 5 
+[16:05:27.263] [INFO   ] place card step 6 
+[16:05:27.263] [INFO   ] place card step 7 
+[16:05:27.263] [INFO   ] place card step 8 
+[16:05:27.263] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:28.108] [SEVERE ] key 87 was pressed by player 1
+[16:05:28.108] [SEVERE ] removing player 1 token from slot 1
+[16:05:28.265] [SEVERE ] updating countdown to 57001
+[16:05:28.578] [SEVERE ] key 87 was pressed by player 1
+[16:05:28.578] [SEVERE ] player 1 placing token on slot 1
+[16:05:28.704] [INFO   ] place card step 0 
+[16:05:28.704] [INFO   ] place card step 1 
+[16:05:28.704] [INFO   ] place card step 2 
+[16:05:28.704] [INFO   ] place card step 3 
+[16:05:28.704] [INFO   ] place card step 5 
+[16:05:28.704] [INFO   ] place card step 6 
+[16:05:28.704] [INFO   ] place card step 7 
+[16:05:28.704] [INFO   ] place card step 8 
+[16:05:28.704] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:29.300] [SEVERE ] key 69 was pressed by player 1
+[16:05:29.300] [SEVERE ] player 1 placing token on slot 2
+[16:05:29.300] [SEVERE ] updating countdown to 55966
+[16:05:29.524] [INFO   ] remove  in the table step 1
+[16:05:29.524] [INFO   ] remove  in the table step 2
+[16:05:29.524] [INFO   ] penalty step 1!!!!
+[16:05:29.524] [SEVERE ] setting player 1 freeze to 3000
+[16:05:29.524] [INFO   ] penalty step 1!!!!
+[16:05:29.524] [INFO   ] penalty while step 1!!!!
+[16:05:30.529] [INFO   ] penalty while step 2!!!!
+[16:05:30.529] [SEVERE ] setting player 1 freeze to 2000
+[16:05:30.529] [INFO   ] penalty while step 1!!!!
+[16:05:31.538] [INFO   ] penalty while step 2!!!!
+[16:05:31.538] [SEVERE ] setting player 1 freeze to 1000
+[16:05:31.538] [INFO   ] penalty while step 1!!!!
+[16:05:32.542] [INFO   ] penalty while step 2!!!!
+[16:05:32.542] [SEVERE ] setting player 1 freeze to 0
+[16:05:32.542] [SEVERE ] removing player 1 token from slot 0
+[16:05:32.542] [SEVERE ] removing player 1 token from slot 1
+[16:05:32.542] [SEVERE ] removing player 1 token from slot 2
+[16:05:32.761] [INFO   ] place card step 0 
+[16:05:32.761] [INFO   ] place card step 1 
+[16:05:32.761] [INFO   ] place card step 2 
+[16:05:32.761] [INFO   ] place card step 3 
+[16:05:32.761] [INFO   ] place card step 5 
+[16:05:32.761] [INFO   ] place card step 6 
+[16:05:32.761] [INFO   ] place card step 7 
+[16:05:32.761] [INFO   ] place card step 8 
+[16:05:32.761] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:33.764] [SEVERE ] updating countdown to 51502
+[16:05:34.202] [INFO   ] place card step 0 
+[16:05:34.202] [INFO   ] place card step 1 
+[16:05:34.202] [INFO   ] place card step 2 
+[16:05:34.202] [INFO   ] place card step 3 
+[16:05:34.202] [INFO   ] place card step 5 
+[16:05:34.202] [INFO   ] place card step 6 
+[16:05:34.202] [INFO   ] place card step 7 
+[16:05:34.202] [INFO   ] place card step 8 
+[16:05:34.202] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:35.204] [SEVERE ] updating countdown to 50062
+[16:05:35.641] [INFO   ] place card step 0 
+[16:05:35.641] [INFO   ] place card step 1 
+[16:05:35.641] [INFO   ] place card step 2 
+[16:05:35.641] [INFO   ] place card step 3 
+[16:05:35.641] [INFO   ] place card step 5 
+[16:05:35.641] [INFO   ] place card step 6 
+[16:05:35.641] [INFO   ] place card step 7 
+[16:05:35.641] [INFO   ] place card step 8 
+[16:05:35.641] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:36.646] [SEVERE ] updating countdown to 48620
+[16:05:37.084] [INFO   ] place card step 0 
+[16:05:37.084] [INFO   ] place card step 1 
+[16:05:37.084] [INFO   ] place card step 2 
+[16:05:37.084] [INFO   ] place card step 3 
+[16:05:37.084] [INFO   ] place card step 5 
+[16:05:37.084] [INFO   ] place card step 6 
+[16:05:37.084] [INFO   ] place card step 7 
+[16:05:37.084] [INFO   ] place card step 8 
+[16:05:37.084] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:38.087] [SEVERE ] updating countdown to 47179
+[16:05:38.525] [INFO   ] place card step 0 
+[16:05:38.525] [INFO   ] place card step 1 
+[16:05:38.525] [INFO   ] place card step 2 
+[16:05:38.525] [INFO   ] place card step 3 
+[16:05:38.525] [INFO   ] place card step 5 
+[16:05:38.525] [INFO   ] place card step 6 
+[16:05:38.525] [INFO   ] place card step 7 
+[16:05:38.525] [INFO   ] place card step 8 
+[16:05:38.525] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:39.526] [SEVERE ] updating countdown to 45740
+[16:05:39.964] [INFO   ] place card step 0 
+[16:05:39.964] [INFO   ] place card step 1 
+[16:05:39.964] [INFO   ] place card step 2 
+[16:05:39.964] [INFO   ] place card step 3 
+[16:05:39.964] [INFO   ] place card step 5 
+[16:05:39.964] [INFO   ] place card step 6 
+[16:05:39.964] [INFO   ] place card step 7 
+[16:05:39.964] [INFO   ] place card step 8 
+[16:05:39.964] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:40.965] [SEVERE ] updating countdown to 44301
+[16:05:41.403] [INFO   ] place card step 0 
+[16:05:41.403] [INFO   ] place card step 1 
+[16:05:41.403] [INFO   ] place card step 2 
+[16:05:41.403] [INFO   ] place card step 3 
+[16:05:41.403] [INFO   ] place card step 5 
+[16:05:41.403] [INFO   ] place card step 6 
+[16:05:41.403] [INFO   ] place card step 7 
+[16:05:41.403] [INFO   ] place card step 8 
+[16:05:41.403] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:42.419] [SEVERE ] updating countdown to 42847
+[16:05:42.857] [INFO   ] place card step 0 
+[16:05:42.857] [INFO   ] place card step 1 
+[16:05:42.857] [INFO   ] place card step 2 
+[16:05:42.857] [INFO   ] place card step 3 
+[16:05:42.857] [INFO   ] place card step 5 
+[16:05:42.857] [INFO   ] place card step 6 
+[16:05:42.857] [INFO   ] place card step 7 
+[16:05:42.857] [INFO   ] place card step 8 
+[16:05:42.857] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:43.388] [SEVERE ] key 81 was pressed by player 1
+[16:05:43.388] [SEVERE ] player 1 placing token on slot 0
+[16:05:43.497] [SEVERE ] key 87 was pressed by player 1
+[16:05:43.497] [SEVERE ] player 1 placing token on slot 1
+[16:05:43.513] [SEVERE ] key 59 was pressed by player 2
+[16:05:43.513] [SEVERE ] player 2 placing token on slot 7
+[16:05:43.635] [SEVERE ] key 69 was pressed by player 1
+[16:05:43.636] [SEVERE ] player 1 placing token on slot 2
+[16:05:43.636] [SEVERE ] updating countdown to 41630
+[16:05:43.747] [SEVERE ] key 76 was pressed by player 2
+[16:05:43.747] [SEVERE ] player 2 placing token on slot 6
+[16:05:43.857] [INFO   ] remove  in the table step 1
+[16:05:43.857] [INFO   ] remove  in the table step 2
+[16:05:43.857] [INFO   ] penalty step 1!!!!
+[16:05:43.857] [SEVERE ] setting player 1 freeze to 3000
+[16:05:43.857] [INFO   ] penalty step 1!!!!
+[16:05:43.857] [INFO   ] penalty while step 1!!!!
+[16:05:43.966] [SEVERE ] key 75 was pressed by player 2
+[16:05:44.859] [INFO   ] penalty while step 2!!!!
+[16:05:44.859] [SEVERE ] setting player 1 freeze to 2000
+[16:05:44.859] [INFO   ] penalty while step 1!!!!
+[16:05:45.860] [INFO   ] penalty while step 2!!!!
+[16:05:45.860] [SEVERE ] setting player 1 freeze to 1000
+[16:05:45.860] [INFO   ] penalty while step 1!!!!
+[16:05:46.864] [INFO   ] penalty while step 2!!!!
+[16:05:46.864] [SEVERE ] setting player 1 freeze to 0
+[16:05:46.864] [SEVERE ] removing player 1 token from slot 0
+[16:05:46.864] [SEVERE ] removing player 1 token from slot 1
+[16:05:46.864] [SEVERE ] removing player 1 token from slot 2
+[16:05:47.083] [INFO   ] place card step 0 
+[16:05:47.083] [INFO   ] place card step 1 
+[16:05:47.083] [INFO   ] place card step 2 
+[16:05:47.083] [INFO   ] place card step 3 
+[16:05:47.083] [INFO   ] place card step 5 
+[16:05:47.083] [INFO   ] place card step 6 
+[16:05:47.083] [INFO   ] place card step 7 
+[16:05:47.083] [INFO   ] place card step 8 
+[16:05:47.083] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:47.083] [SEVERE ] updating countdown to 38183
+[16:05:47.302] [INFO   ] remove  in the table step 1
+[16:05:47.302] [INFO   ] remove  in the table step 2
+[16:05:47.302] [INFO   ] penalty step 1!!!!
+[16:05:47.302] [SEVERE ] setting player 2 freeze to 3000
+[16:05:47.302] [INFO   ] penalty step 1!!!!
+[16:05:47.302] [INFO   ] penalty while step 1!!!!
+[16:05:47.522] [SEVERE ] key 75 was pressed by player 2
+[16:05:47.522] [SEVERE ] removing player 2 token from slot 5
+[16:05:48.309] [INFO   ] penalty while step 2!!!!
+[16:05:48.309] [SEVERE ] setting player 2 freeze to 2000
+[16:05:48.309] [INFO   ] penalty while step 1!!!!
+[16:05:49.314] [INFO   ] penalty while step 2!!!!
+[16:05:49.314] [SEVERE ] setting player 2 freeze to 1000
+[16:05:49.314] [INFO   ] penalty while step 1!!!!
+[16:05:50.316] [INFO   ] penalty while step 2!!!!
+[16:05:50.316] [SEVERE ] setting player 2 freeze to 0
+[16:05:50.316] [SEVERE ] removing player 2 token from slot 7
+[16:05:50.316] [SEVERE ] removing player 2 token from slot 6
+[16:05:50.535] [INFO   ] place card step 0 
+[16:05:50.535] [INFO   ] place card step 1 
+[16:05:50.535] [INFO   ] place card step 2 
+[16:05:50.535] [INFO   ] place card step 3 
+[16:05:50.535] [INFO   ] place card step 5 
+[16:05:50.535] [INFO   ] place card step 6 
+[16:05:50.535] [INFO   ] place card step 7 
+[16:05:50.535] [INFO   ] place card step 8 
+[16:05:50.535] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:51.538] [SEVERE ] updating countdown to 33728
+[16:05:51.977] [INFO   ] place card step 0 
+[16:05:51.977] [INFO   ] place card step 1 
+[16:05:51.977] [INFO   ] place card step 2 
+[16:05:51.977] [INFO   ] place card step 3 
+[16:05:51.977] [INFO   ] place card step 5 
+[16:05:51.977] [INFO   ] place card step 6 
+[16:05:51.977] [INFO   ] place card step 7 
+[16:05:51.977] [INFO   ] place card step 8 
+[16:05:51.977] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:52.978] [SEVERE ] updating countdown to 32288
+[16:05:53.417] [INFO   ] place card step 0 
+[16:05:53.417] [INFO   ] place card step 1 
+[16:05:53.417] [INFO   ] place card step 2 
+[16:05:53.417] [INFO   ] place card step 3 
+[16:05:53.417] [INFO   ] place card step 5 
+[16:05:53.417] [INFO   ] place card step 6 
+[16:05:53.417] [INFO   ] place card step 7 
+[16:05:53.417] [INFO   ] place card step 8 
+[16:05:53.417] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:54.419] [SEVERE ] updating countdown to 30847
+[16:05:54.859] [INFO   ] place card step 0 
+[16:05:54.859] [INFO   ] place card step 1 
+[16:05:54.859] [INFO   ] place card step 2 
+[16:05:54.859] [INFO   ] place card step 3 
+[16:05:54.859] [INFO   ] place card step 5 
+[16:05:54.859] [INFO   ] place card step 6 
+[16:05:54.859] [INFO   ] place card step 7 
+[16:05:54.859] [INFO   ] place card step 8 
+[16:05:54.859] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:55.860] [SEVERE ] updating countdown to 29406
+[16:05:56.299] [INFO   ] place card step 0 
+[16:05:56.299] [INFO   ] place card step 1 
+[16:05:56.299] [INFO   ] place card step 2 
+[16:05:56.299] [INFO   ] place card step 3 
+[16:05:56.299] [INFO   ] place card step 5 
+[16:05:56.299] [INFO   ] place card step 6 
+[16:05:56.299] [INFO   ] place card step 7 
+[16:05:56.299] [INFO   ] place card step 8 
+[16:05:56.299] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:57.300] [SEVERE ] updating countdown to 27966
+[16:05:57.737] [INFO   ] place card step 0 
+[16:05:57.737] [INFO   ] place card step 1 
+[16:05:57.737] [INFO   ] place card step 2 
+[16:05:57.737] [INFO   ] place card step 3 
+[16:05:57.737] [INFO   ] place card step 5 
+[16:05:57.737] [INFO   ] place card step 6 
+[16:05:57.737] [INFO   ] place card step 7 
+[16:05:57.737] [INFO   ] place card step 8 
+[16:05:57.737] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:05:58.739] [SEVERE ] updating countdown to 26527
+[16:05:59.176] [INFO   ] place card step 0 
+[16:05:59.176] [INFO   ] place card step 1 
+[16:05:59.176] [INFO   ] place card step 2 
+[16:05:59.176] [INFO   ] place card step 3 
+[16:05:59.176] [INFO   ] place card step 5 
+[16:05:59.176] [INFO   ] place card step 6 
+[16:05:59.176] [INFO   ] place card step 7 
+[16:05:59.176] [INFO   ] place card step 8 
+[16:05:59.176] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:00.179] [SEVERE ] updating countdown to 25087
+[16:06:00.618] [INFO   ] place card step 0 
+[16:06:00.618] [INFO   ] place card step 1 
+[16:06:00.618] [INFO   ] place card step 2 
+[16:06:00.618] [INFO   ] place card step 3 
+[16:06:00.618] [INFO   ] place card step 5 
+[16:06:00.618] [INFO   ] place card step 6 
+[16:06:00.618] [INFO   ] place card step 7 
+[16:06:00.618] [INFO   ] place card step 8 
+[16:06:00.618] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:01.620] [SEVERE ] updating countdown to 23646
+[16:06:02.060] [INFO   ] place card step 0 
+[16:06:02.060] [INFO   ] place card step 1 
+[16:06:02.060] [INFO   ] place card step 2 
+[16:06:02.060] [INFO   ] place card step 3 
+[16:06:02.060] [INFO   ] place card step 5 
+[16:06:02.060] [INFO   ] place card step 6 
+[16:06:02.060] [INFO   ] place card step 7 
+[16:06:02.060] [INFO   ] place card step 8 
+[16:06:02.060] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:03.063] [SEVERE ] updating countdown to 22203
+[16:06:03.500] [INFO   ] place card step 0 
+[16:06:03.500] [INFO   ] place card step 1 
+[16:06:03.500] [INFO   ] place card step 2 
+[16:06:03.500] [INFO   ] place card step 3 
+[16:06:03.500] [INFO   ] place card step 5 
+[16:06:03.500] [INFO   ] place card step 6 
+[16:06:03.500] [INFO   ] place card step 7 
+[16:06:03.500] [INFO   ] place card step 8 
+[16:06:03.500] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:04.503] [SEVERE ] updating countdown to 20763
+[16:06:04.941] [INFO   ] place card step 0 
+[16:06:04.941] [INFO   ] place card step 1 
+[16:06:04.941] [INFO   ] place card step 2 
+[16:06:04.941] [INFO   ] place card step 3 
+[16:06:04.941] [INFO   ] place card step 5 
+[16:06:04.941] [INFO   ] place card step 6 
+[16:06:04.941] [INFO   ] place card step 7 
+[16:06:04.941] [INFO   ] place card step 8 
+[16:06:04.941] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:05.942] [SEVERE ] updating countdown to 19324
+[16:06:06.381] [INFO   ] place card step 0 
+[16:06:06.381] [INFO   ] place card step 1 
+[16:06:06.381] [INFO   ] place card step 2 
+[16:06:06.381] [INFO   ] place card step 3 
+[16:06:06.381] [INFO   ] place card step 5 
+[16:06:06.381] [INFO   ] place card step 6 
+[16:06:06.381] [INFO   ] place card step 7 
+[16:06:06.381] [INFO   ] place card step 8 
+[16:06:06.381] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:07.383] [SEVERE ] updating countdown to 17883
+[16:06:07.524] [SEVERE ] key 59 was pressed by player 2
+[16:06:07.524] [SEVERE ] player 2 placing token on slot 7
+[16:06:07.649] [SEVERE ] key 81 was pressed by player 1
+[16:06:07.649] [SEVERE ] player 1 placing token on slot 0
+[16:06:07.758] [SEVERE ] key 87 was pressed by player 1
+[16:06:07.758] [SEVERE ] player 1 placing token on slot 1
+[16:06:07.806] [SEVERE ] key 76 was pressed by player 2
+[16:06:07.806] [SEVERE ] player 2 placing token on slot 6
+[16:06:07.821] [INFO   ] place card step 0 
+[16:06:07.821] [INFO   ] place card step 1 
+[16:06:07.821] [INFO   ] place card step 2 
+[16:06:07.821] [INFO   ] place card step 3 
+[16:06:07.821] [INFO   ] place card step 5 
+[16:06:07.821] [INFO   ] place card step 6 
+[16:06:07.821] [INFO   ] place card step 7 
+[16:06:07.821] [INFO   ] place card step 8 
+[16:06:07.821] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:07.883] [SEVERE ] key 69 was pressed by player 1
+[16:06:07.883] [SEVERE ] player 1 placing token on slot 2
+[16:06:07.883] [SEVERE ] updating countdown to 17383
+[16:06:08.023] [SEVERE ] key 75 was pressed by player 2
+[16:06:08.023] [SEVERE ] player 2 placing token on slot 5
+[16:06:08.102] [INFO   ] remove  in the table step 1
+[16:06:08.102] [INFO   ] remove  in the table step 2
+[16:06:08.102] [INFO   ] penalty step 1!!!!
+[16:06:08.102] [SEVERE ] setting player 1 freeze to 3000
+[16:06:08.102] [INFO   ] penalty step 1!!!!
+[16:06:08.102] [INFO   ] penalty while step 1!!!!
+[16:06:09.105] [INFO   ] penalty while step 2!!!!
+[16:06:09.105] [SEVERE ] setting player 1 freeze to 2000
+[16:06:09.105] [INFO   ] penalty while step 1!!!!
+[16:06:10.107] [INFO   ] penalty while step 2!!!!
+[16:06:10.107] [SEVERE ] setting player 1 freeze to 1000
+[16:06:10.107] [INFO   ] penalty while step 1!!!!
+[16:06:11.110] [INFO   ] penalty while step 2!!!!
+[16:06:11.110] [SEVERE ] setting player 1 freeze to 0
+[16:06:11.110] [SEVERE ] removing player 1 token from slot 0
+[16:06:11.110] [SEVERE ] removing player 1 token from slot 1
+[16:06:11.110] [SEVERE ] removing player 1 token from slot 2
+[16:06:11.110] [INFO   ] remove  in the table step 1
+[16:06:11.110] [INFO   ] remove  in the table step 2
+[16:06:11.110] [INFO   ] penalty step 1!!!!
+[16:06:11.110] [SEVERE ] setting player 2 freeze to 3000
+[16:06:11.110] [INFO   ] penalty step 1!!!!
+[16:06:11.110] [INFO   ] penalty while step 1!!!!
+[16:06:12.113] [INFO   ] penalty while step 2!!!!
+[16:06:12.113] [SEVERE ] setting player 2 freeze to 2000
+[16:06:12.113] [INFO   ] penalty while step 1!!!!
+[16:06:13.114] [INFO   ] penalty while step 2!!!!
+[16:06:13.114] [SEVERE ] setting player 2 freeze to 1000
+[16:06:13.114] [INFO   ] penalty while step 1!!!!
+[16:06:14.116] [INFO   ] penalty while step 2!!!!
+[16:06:14.116] [SEVERE ] setting player 2 freeze to 0
+[16:06:14.116] [SEVERE ] removing player 2 token from slot 7
+[16:06:14.116] [SEVERE ] removing player 2 token from slot 6
+[16:06:14.116] [SEVERE ] removing player 2 token from slot 5
+[16:06:14.334] [INFO   ] place card step 0 
+[16:06:14.334] [INFO   ] place card step 1 
+[16:06:14.334] [INFO   ] place card step 2 
+[16:06:14.334] [INFO   ] place card step 3 
+[16:06:14.334] [INFO   ] place card step 5 
+[16:06:14.334] [INFO   ] place card step 6 
+[16:06:14.334] [INFO   ] place card step 7 
+[16:06:14.334] [INFO   ] place card step 8 
+[16:06:14.334] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:15.350] [SEVERE ] updating countdown to 9916
+[16:06:15.788] [INFO   ] place card step 0 
+[16:06:15.788] [INFO   ] place card step 1 
+[16:06:15.788] [INFO   ] place card step 2 
+[16:06:15.788] [INFO   ] place card step 3 
+[16:06:15.788] [INFO   ] place card step 5 
+[16:06:15.788] [INFO   ] place card step 6 
+[16:06:15.788] [INFO   ] place card step 7 
+[16:06:15.788] [INFO   ] place card step 8 
+[16:06:15.788] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:16.789] [SEVERE ] updating countdown to 8477
+[16:06:17.227] [INFO   ] place card step 0 
+[16:06:17.227] [INFO   ] place card step 1 
+[16:06:17.227] [INFO   ] place card step 2 
+[16:06:17.227] [INFO   ] place card step 3 
+[16:06:17.227] [INFO   ] place card step 5 
+[16:06:17.227] [INFO   ] place card step 6 
+[16:06:17.227] [INFO   ] place card step 7 
+[16:06:17.227] [INFO   ] place card step 8 
+[16:06:17.227] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:18.228] [SEVERE ] updating countdown to 7038
+[16:06:18.666] [INFO   ] place card step 0 
+[16:06:18.666] [INFO   ] place card step 1 
+[16:06:18.666] [INFO   ] place card step 2 
+[16:06:18.666] [INFO   ] place card step 3 
+[16:06:18.666] [INFO   ] place card step 5 
+[16:06:18.666] [INFO   ] place card step 6 
+[16:06:18.666] [INFO   ] place card step 7 
+[16:06:18.666] [INFO   ] place card step 8 
+[16:06:18.666] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:19.668] [SEVERE ] updating countdown to 5598
+[16:06:20.106] [INFO   ] place card step 0 
+[16:06:20.106] [INFO   ] place card step 1 
+[16:06:20.106] [INFO   ] place card step 2 
+[16:06:20.106] [INFO   ] place card step 3 
+[16:06:20.106] [INFO   ] place card step 5 
+[16:06:20.106] [INFO   ] place card step 6 
+[16:06:20.106] [INFO   ] place card step 7 
+[16:06:20.106] [INFO   ] place card step 8 
+[16:06:20.106] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:21.546] [INFO   ] place card step 0 
+[16:06:21.546] [INFO   ] place card step 1 
+[16:06:21.546] [INFO   ] place card step 2 
+[16:06:21.546] [INFO   ] place card step 3 
+[16:06:21.546] [INFO   ] place card step 5 
+[16:06:21.546] [INFO   ] place card step 6 
+[16:06:21.546] [INFO   ] place card step 7 
+[16:06:21.546] [INFO   ] place card step 8 
+[16:06:21.546] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:21.999] [INFO   ] place card step 0 
+[16:06:21.999] [INFO   ] place card step 1 
+[16:06:21.999] [INFO   ] place card step 2 
+[16:06:21.999] [INFO   ] place card step 3 
+[16:06:21.999] [INFO   ] place card step 5 
+[16:06:21.999] [INFO   ] place card step 6 
+[16:06:21.999] [INFO   ] place card step 7 
+[16:06:21.999] [INFO   ] place card step 8 
+[16:06:21.999] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:22.453] [INFO   ] place card step 0 
+[16:06:22.453] [INFO   ] place card step 1 
+[16:06:22.453] [INFO   ] place card step 2 
+[16:06:22.453] [INFO   ] place card step 3 
+[16:06:22.453] [INFO   ] place card step 5 
+[16:06:22.453] [INFO   ] place card step 6 
+[16:06:22.453] [INFO   ] place card step 7 
+[16:06:22.453] [INFO   ] place card step 8 
+[16:06:22.453] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:22.908] [INFO   ] place card step 0 
+[16:06:22.908] [INFO   ] place card step 1 
+[16:06:22.908] [INFO   ] place card step 2 
+[16:06:22.908] [INFO   ] place card step 3 
+[16:06:22.908] [INFO   ] place card step 5 
+[16:06:22.908] [INFO   ] place card step 6 
+[16:06:22.908] [INFO   ] place card step 7 
+[16:06:22.908] [INFO   ] place card step 8 
+[16:06:22.908] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:23.360] [INFO   ] place card step 0 
+[16:06:23.360] [INFO   ] place card step 1 
+[16:06:23.360] [INFO   ] place card step 2 
+[16:06:23.360] [INFO   ] place card step 3 
+[16:06:23.360] [INFO   ] place card step 5 
+[16:06:23.360] [INFO   ] place card step 6 
+[16:06:23.360] [INFO   ] place card step 7 
+[16:06:23.361] [INFO   ] place card step 8 
+[16:06:23.361] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:23.815] [INFO   ] place card step 0 
+[16:06:23.815] [INFO   ] place card step 1 
+[16:06:23.815] [INFO   ] place card step 2 
+[16:06:23.815] [INFO   ] place card step 3 
+[16:06:23.815] [INFO   ] place card step 5 
+[16:06:23.815] [INFO   ] place card step 6 
+[16:06:23.815] [INFO   ] place card step 7 
+[16:06:23.815] [INFO   ] place card step 8 
+[16:06:23.815] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:24.268] [INFO   ] place card step 0 
+[16:06:24.268] [INFO   ] place card step 1 
+[16:06:24.268] [INFO   ] place card step 2 
+[16:06:24.268] [INFO   ] place card step 3 
+[16:06:24.268] [INFO   ] place card step 5 
+[16:06:24.268] [INFO   ] place card step 6 
+[16:06:24.268] [INFO   ] place card step 7 
+[16:06:24.268] [INFO   ] place card step 8 
+[16:06:24.268] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:24.722] [INFO   ] place card step 0 
+[16:06:24.722] [INFO   ] place card step 1 
+[16:06:24.722] [INFO   ] place card step 2 
+[16:06:24.722] [INFO   ] place card step 3 
+[16:06:24.722] [INFO   ] place card step 5 
+[16:06:24.722] [INFO   ] place card step 6 
+[16:06:24.722] [INFO   ] place card step 7 
+[16:06:24.722] [INFO   ] place card step 8 
+[16:06:24.722] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:25.176] [INFO   ] place card step 0 
+[16:06:25.176] [INFO   ] place card step 1 
+[16:06:25.176] [INFO   ] place card step 2 
+[16:06:25.176] [INFO   ] place card step 3 
+[16:06:25.176] [INFO   ] place card step 5 
+[16:06:25.176] [INFO   ] place card step 6 
+[16:06:25.176] [INFO   ] place card step 7 
+[16:06:25.176] [INFO   ] place card step 8 
+[16:06:25.176] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:25.629] [INFO   ] place card step 0 
+[16:06:25.629] [INFO   ] place card step 1 
+[16:06:25.629] [INFO   ] place card step 2 
+[16:06:25.629] [INFO   ] place card step 3 
+[16:06:25.629] [INFO   ] place card step 5 
+[16:06:25.629] [INFO   ] place card step 6 
+[16:06:25.629] [INFO   ] place card step 7 
+[16:06:25.629] [INFO   ] place card step 8 
+[16:06:25.629] [SEVERE ] updating countdown to 60000
+[16:06:25.957] [SEVERE ] removing card from slot 0
+[16:06:26.068] [SEVERE ] removing card from slot 1
+[16:06:26.177] [SEVERE ] removing card from slot 2
+[16:06:26.287] [SEVERE ] removing card from slot 3
+[16:06:26.396] [SEVERE ] removing card from slot 4
+[16:06:26.506] [SEVERE ] removing card from slot 5
+[16:06:26.615] [SEVERE ] removing card from slot 6
+[16:06:26.724] [SEVERE ] removing card from slot 7
+[16:06:26.834] [SEVERE ] removing card from slot 8
+[16:06:26.943] [SEVERE ] removing card from slot 9
+[16:06:27.053] [SEVERE ] removing card from slot 10
+[16:06:27.163] [SEVERE ] removing card from slot 11
+[16:06:27.382] [INFO   ] place card step 0 
+[16:06:27.382] [INFO   ] place card step 1 
+[16:06:27.492] [SEVERE ] placing card 19 in slot 0
+[16:06:27.601] [SEVERE ] placing card 14 in slot 1
+[16:06:27.710] [SEVERE ] placing card 61 in slot 2
+[16:06:27.818] [SEVERE ] placing card 6 in slot 3
+[16:06:27.928] [SEVERE ] placing card 20 in slot 4
+[16:06:28.038] [SEVERE ] placing card 57 in slot 5
+[16:06:28.147] [SEVERE ] placing card 33 in slot 6
+[16:06:28.257] [SEVERE ] placing card 35 in slot 7
+[16:06:28.367] [SEVERE ] placing card 58 in slot 8
+[16:06:28.477] [SEVERE ] placing card 4 in slot 9
+[16:06:28.587] [SEVERE ] placing card 21 in slot 10
+[16:06:28.696] [SEVERE ] placing card 68 in slot 11
+[16:06:28.696] [INFO   ] place card step 2 
+[16:06:28.696] [INFO   ] place card step 3 
+[16:06:28.696] [INFO   ] place card step 5 
+[16:06:28.696] [INFO   ] place card step 6 
+[16:06:28.696] [INFO   ] place card step 7 
+[16:06:28.696] [INFO   ] place card step 8 
+[16:06:28.696] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:29.698] [SEVERE ] updating countdown to 55931
+[16:06:30.136] [INFO   ] place card step 0 
+[16:06:30.136] [INFO   ] place card step 1 
+[16:06:30.136] [INFO   ] place card step 2 
+[16:06:30.136] [INFO   ] place card step 3 
+[16:06:30.136] [INFO   ] place card step 5 
+[16:06:30.136] [INFO   ] place card step 6 
+[16:06:30.136] [INFO   ] place card step 7 
+[16:06:30.136] [INFO   ] place card step 8 
+[16:06:30.136] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:31.139] [SEVERE ] updating countdown to 54490
+[16:06:31.577] [INFO   ] place card step 0 
+[16:06:31.577] [INFO   ] place card step 1 
+[16:06:31.577] [INFO   ] place card step 2 
+[16:06:31.577] [INFO   ] place card step 3 
+[16:06:31.577] [INFO   ] place card step 5 
+[16:06:31.577] [INFO   ] place card step 6 
+[16:06:31.577] [INFO   ] place card step 7 
+[16:06:31.577] [INFO   ] place card step 8 
+[16:06:31.577] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:32.579] [SEVERE ] updating countdown to 53050
+[16:06:33.018] [INFO   ] place card step 0 
+[16:06:33.018] [INFO   ] place card step 1 
+[16:06:33.018] [INFO   ] place card step 2 
+[16:06:33.018] [INFO   ] place card step 3 
+[16:06:33.018] [INFO   ] place card step 5 
+[16:06:33.018] [INFO   ] place card step 6 
+[16:06:33.018] [INFO   ] place card step 7 
+[16:06:33.018] [INFO   ] place card step 8 
+[16:06:33.018] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:34.021] [SEVERE ] updating countdown to 51608
+[16:06:34.458] [INFO   ] place card step 0 
+[16:06:34.458] [INFO   ] place card step 1 
+[16:06:34.458] [INFO   ] place card step 2 
+[16:06:34.458] [INFO   ] place card step 3 
+[16:06:34.458] [INFO   ] place card step 5 
+[16:06:34.458] [INFO   ] place card step 6 
+[16:06:34.458] [INFO   ] place card step 7 
+[16:06:34.458] [INFO   ] place card step 8 
+[16:06:34.458] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:35.459] [SEVERE ] updating countdown to 50170
+[16:06:35.897] [INFO   ] place card step 0 
+[16:06:35.897] [INFO   ] place card step 1 
+[16:06:35.897] [INFO   ] place card step 2 
+[16:06:35.897] [INFO   ] place card step 3 
+[16:06:35.897] [INFO   ] place card step 5 
+[16:06:35.897] [INFO   ] place card step 6 
+[16:06:35.897] [INFO   ] place card step 7 
+[16:06:35.897] [INFO   ] place card step 8 
+[16:06:35.897] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:36.900] [SEVERE ] updating countdown to 48729
+[16:06:37.338] [INFO   ] place card step 0 
+[16:06:37.338] [INFO   ] place card step 1 
+[16:06:37.338] [INFO   ] place card step 2 
+[16:06:37.338] [INFO   ] place card step 3 
+[16:06:37.338] [INFO   ] place card step 5 
+[16:06:37.338] [INFO   ] place card step 6 
+[16:06:37.338] [INFO   ] place card step 7 
+[16:06:37.338] [INFO   ] place card step 8 
+[16:06:37.338] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:38.342] [SEVERE ] updating countdown to 47287
+[16:06:38.780] [INFO   ] place card step 0 
+[16:06:38.780] [INFO   ] place card step 1 
+[16:06:38.780] [INFO   ] place card step 2 
+[16:06:38.780] [INFO   ] place card step 3 
+[16:06:38.780] [INFO   ] place card step 5 
+[16:06:38.780] [INFO   ] place card step 6 
+[16:06:38.780] [INFO   ] place card step 7 
+[16:06:38.780] [INFO   ] place card step 8 
+[16:06:38.780] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:39.785] [SEVERE ] updating countdown to 45844
+[16:06:40.223] [INFO   ] place card step 0 
+[16:06:40.223] [INFO   ] place card step 1 
+[16:06:40.223] [INFO   ] place card step 2 
+[16:06:40.223] [INFO   ] place card step 3 
+[16:06:40.223] [INFO   ] place card step 5 
+[16:06:40.223] [INFO   ] place card step 6 
+[16:06:40.223] [INFO   ] place card step 7 
+[16:06:40.223] [INFO   ] place card step 8 
+[16:06:40.223] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:41.226] [SEVERE ] updating countdown to 44403
+[16:06:41.664] [INFO   ] place card step 0 
+[16:06:41.664] [INFO   ] place card step 1 
+[16:06:41.664] [INFO   ] place card step 2 
+[16:06:41.664] [INFO   ] place card step 3 
+[16:06:41.664] [INFO   ] place card step 5 
+[16:06:41.664] [INFO   ] place card step 6 
+[16:06:41.664] [INFO   ] place card step 7 
+[16:06:41.664] [INFO   ] place card step 8 
+[16:06:41.664] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:42.665] [SEVERE ] updating countdown to 42964
+[16:06:43.103] [INFO   ] place card step 0 
+[16:06:43.103] [INFO   ] place card step 1 
+[16:06:43.103] [INFO   ] place card step 2 
+[16:06:43.103] [INFO   ] place card step 3 
+[16:06:43.103] [INFO   ] place card step 5 
+[16:06:43.103] [INFO   ] place card step 6 
+[16:06:43.103] [INFO   ] place card step 7 
+[16:06:43.103] [INFO   ] place card step 8 
+[16:06:43.103] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:44.104] [SEVERE ] updating countdown to 41525
+[16:06:44.542] [INFO   ] place card step 0 
+[16:06:44.542] [INFO   ] place card step 1 
+[16:06:44.542] [INFO   ] place card step 2 
+[16:06:44.542] [INFO   ] place card step 3 
+[16:06:44.542] [INFO   ] place card step 5 
+[16:06:44.542] [INFO   ] place card step 6 
+[16:06:44.542] [INFO   ] place card step 7 
+[16:06:44.542] [INFO   ] place card step 8 
+[16:06:44.542] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:45.542] [SEVERE ] updating countdown to 40087
+[16:06:45.980] [INFO   ] place card step 0 
+[16:06:45.980] [INFO   ] place card step 1 
+[16:06:45.980] [INFO   ] place card step 2 
+[16:06:45.980] [INFO   ] place card step 3 
+[16:06:45.980] [INFO   ] place card step 5 
+[16:06:45.980] [INFO   ] place card step 6 
+[16:06:45.980] [INFO   ] place card step 7 
+[16:06:45.980] [INFO   ] place card step 8 
+[16:06:45.980] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:46.982] [SEVERE ] updating countdown to 38647
+[16:06:47.418] [INFO   ] place card step 0 
+[16:06:47.418] [INFO   ] place card step 1 
+[16:06:47.418] [INFO   ] place card step 2 
+[16:06:47.418] [INFO   ] place card step 3 
+[16:06:47.418] [INFO   ] place card step 5 
+[16:06:47.418] [INFO   ] place card step 6 
+[16:06:47.418] [INFO   ] place card step 7 
+[16:06:47.418] [INFO   ] place card step 8 
+[16:06:47.418] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:48.420] [SEVERE ] updating countdown to 37209
+[16:06:48.858] [INFO   ] place card step 0 
+[16:06:48.858] [INFO   ] place card step 1 
+[16:06:48.858] [INFO   ] place card step 2 
+[16:06:48.858] [INFO   ] place card step 3 
+[16:06:48.858] [INFO   ] place card step 5 
+[16:06:48.858] [INFO   ] place card step 6 
+[16:06:48.858] [INFO   ] place card step 7 
+[16:06:48.858] [INFO   ] place card step 8 
+[16:06:48.858] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:49.859] [SEVERE ] updating countdown to 35770
+[16:06:50.298] [INFO   ] place card step 0 
+[16:06:50.298] [INFO   ] place card step 1 
+[16:06:50.298] [INFO   ] place card step 2 
+[16:06:50.298] [INFO   ] place card step 3 
+[16:06:50.298] [INFO   ] place card step 5 
+[16:06:50.298] [INFO   ] place card step 6 
+[16:06:50.298] [INFO   ] place card step 7 
+[16:06:50.298] [INFO   ] place card step 8 
+[16:06:50.298] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:51.302] [SEVERE ] updating countdown to 34327
+[16:06:51.741] [INFO   ] place card step 0 
+[16:06:51.741] [INFO   ] place card step 1 
+[16:06:51.741] [INFO   ] place card step 2 
+[16:06:51.741] [INFO   ] place card step 3 
+[16:06:51.741] [INFO   ] place card step 5 
+[16:06:51.741] [INFO   ] place card step 6 
+[16:06:51.741] [INFO   ] place card step 7 
+[16:06:51.741] [INFO   ] place card step 8 
+[16:06:51.741] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:52.741] [SEVERE ] updating countdown to 32888
+[16:06:53.180] [INFO   ] place card step 0 
+[16:06:53.180] [INFO   ] place card step 1 
+[16:06:53.180] [INFO   ] place card step 2 
+[16:06:53.180] [INFO   ] place card step 3 
+[16:06:53.180] [INFO   ] place card step 5 
+[16:06:53.180] [INFO   ] place card step 6 
+[16:06:53.180] [INFO   ] place card step 7 
+[16:06:53.180] [INFO   ] place card step 8 
+[16:06:53.180] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:54.195] [SEVERE ] updating countdown to 31434
+[16:06:54.628] [INFO   ] place card step 0 
+[16:06:54.628] [INFO   ] place card step 1 
+[16:06:54.628] [INFO   ] place card step 2 
+[16:06:54.628] [INFO   ] place card step 3 
+[16:06:54.628] [INFO   ] place card step 5 
+[16:06:54.628] [INFO   ] place card step 6 
+[16:06:54.628] [INFO   ] place card step 7 
+[16:06:54.628] [INFO   ] place card step 8 
+[16:06:54.628] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:55.107] [SEVERE ] exit button pressed
+[16:06:55.640] [SEVERE ] updating countdown to 29989
+[16:06:56.079] [INFO   ] place card step 0 
+[16:06:56.079] [INFO   ] place card step 1 
+[16:06:56.079] [INFO   ] place card step 2 
+[16:06:56.079] [INFO   ] place card step 3 
+[16:06:56.079] [INFO   ] place card step 5 
+[16:06:56.079] [INFO   ] place card step 6 
+[16:06:56.079] [INFO   ] place card step 7 
+[16:06:56.079] [INFO   ] place card step 8 
+[16:06:56.079] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:57.080] [SEVERE ] updating countdown to 28549
+[16:06:57.517] [INFO   ] place card step 0 
+[16:06:57.517] [INFO   ] place card step 1 
+[16:06:57.517] [INFO   ] place card step 2 
+[16:06:57.517] [INFO   ] place card step 3 
+[16:06:57.517] [INFO   ] place card step 5 
+[16:06:57.517] [INFO   ] place card step 6 
+[16:06:57.517] [INFO   ] place card step 7 
+[16:06:57.517] [INFO   ] place card step 8 
+[16:06:57.517] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:58.533] [SEVERE ] updating countdown to 27096
+[16:06:58.971] [INFO   ] place card step 0 
+[16:06:58.971] [INFO   ] place card step 1 
+[16:06:58.971] [INFO   ] place card step 2 
+[16:06:58.971] [INFO   ] place card step 3 
+[16:06:58.971] [INFO   ] place card step 5 
+[16:06:58.971] [INFO   ] place card step 6 
+[16:06:58.971] [INFO   ] place card step 7 
+[16:06:58.971] [INFO   ] place card step 8 
+[16:06:58.971] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:06:59.973] [SEVERE ] updating countdown to 25656
+[16:07:00.411] [INFO   ] place card step 0 
+[16:07:00.411] [INFO   ] place card step 1 
+[16:07:00.411] [INFO   ] place card step 2 
+[16:07:00.411] [INFO   ] place card step 3 
+[16:07:00.411] [INFO   ] place card step 5 
+[16:07:00.411] [INFO   ] place card step 6 
+[16:07:00.411] [INFO   ] place card step 7 
+[16:07:00.411] [INFO   ] place card step 8 
+[16:07:00.411] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:07:01.413] [SEVERE ] updating countdown to 24216
+[16:07:01.851] [INFO   ] place card step 0 
+[16:07:01.851] [INFO   ] place card step 1 
+[16:07:01.851] [INFO   ] place card step 2 
+[16:07:01.851] [INFO   ] place card step 3 
+[16:07:01.851] [INFO   ] place card step 5 
+[16:07:01.851] [INFO   ] place card step 6 
+[16:07:01.851] [INFO   ] place card step 7 
+[16:07:01.851] [INFO   ] place card step 8 
+[16:07:01.851] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:07:02.866] [SEVERE ] updating countdown to 22763
+[16:07:03.304] [INFO   ] place card step 0 
+[16:07:03.304] [INFO   ] place card step 1 
+[16:07:03.304] [INFO   ] place card step 2 
+[16:07:03.304] [INFO   ] place card step 3 
+[16:07:03.304] [INFO   ] place card step 5 
+[16:07:03.304] [INFO   ] place card step 6 
+[16:07:03.304] [INFO   ] place card step 7 
+[16:07:03.304] [INFO   ] place card step 8 
+[16:07:03.304] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:07:04.306] [SEVERE ] updating countdown to 21323
+[16:07:04.744] [INFO   ] place card step 0 
+[16:07:04.744] [INFO   ] place card step 1 
+[16:07:04.744] [INFO   ] place card step 2 
+[16:07:04.744] [INFO   ] place card step 3 
+[16:07:04.744] [INFO   ] place card step 5 
+[16:07:04.744] [INFO   ] place card step 6 
+[16:07:04.744] [INFO   ] place card step 7 
+[16:07:04.744] [INFO   ] place card step 8 
+[16:07:04.744] [INFO   ] before sleepUntilWokenOrTimeout 
+[16:07:05.119] [INFO   ] thread Thread-0 terminated.
+[16:07:05.119] [SEVERE ] updating countdown to 20510
+[16:07:05.119] [INFO   ] thread Thread-1 terminated.
+[16:07:05.339] [INFO   ] remove  in the table step 1
+[16:07:05.339] [INFO   ] remove  in the table step 2
+[16:07:05.339] [INFO   ] penalty step 1!!!!
+[16:07:05.339] [SEVERE ] setting player 1 freeze to 3000
+[16:07:05.339] [INFO   ] penalty step 1!!!!
+[16:07:05.339] [INFO   ] penalty while step 1!!!!
+[16:07:06.342] [INFO   ] penalty while step 2!!!!
+[16:07:06.342] [SEVERE ] setting player 1 freeze to 2000
+[16:07:06.342] [INFO   ] penalty while step 1!!!!
+[16:07:07.357] [INFO   ] penalty while step 2!!!!
+[16:07:07.357] [SEVERE ] setting player 1 freeze to 1000
+[16:07:07.357] [INFO   ] penalty while step 1!!!!
+[16:07:08.358] [INFO   ] penalty while step 2!!!!
+[16:07:08.358] [SEVERE ] setting player 1 freeze to 0
+[16:07:08.358] [INFO   ] remove  in the table step 1
+[16:07:08.358] [INFO   ] remove  in the table step 2
+[16:07:08.358] [INFO   ] penalty step 1!!!!
+[16:07:08.358] [SEVERE ] setting player 2 freeze to 3000
+[16:07:08.358] [INFO   ] penalty step 1!!!!
+[16:07:08.358] [INFO   ] penalty while step 1!!!!
+[16:07:09.362] [INFO   ] penalty while step 2!!!!
+[16:07:09.362] [SEVERE ] setting player 2 freeze to 2000
+[16:07:09.362] [INFO   ] penalty while step 1!!!!
+[16:07:10.363] [INFO   ] penalty while step 2!!!!
+[16:07:10.363] [SEVERE ] setting player 2 freeze to 1000
+[16:07:10.363] [INFO   ] penalty while step 1!!!!
+[16:07:11.367] [INFO   ] penalty while step 2!!!!
+[16:07:11.367] [SEVERE ] setting player 2 freeze to 0
+[16:07:11.587] [INFO   ] place card step 0 
+[16:07:11.587] [INFO   ] place card step 1 
+[16:07:11.587] [INFO   ] place card step 2 
+[16:07:11.587] [INFO   ] place card step 3 
+[16:07:11.587] [INFO   ] place card step 5 
+[16:07:11.587] [INFO   ] place card step 6 
+[16:07:11.587] [INFO   ] place card step 7 
+[16:07:11.587] [INFO   ] place card step 8 
+[16:07:11.587] [SEVERE ] updating countdown to 60000
+[16:07:11.914] [SEVERE ] removing card from slot 0
+[16:07:12.024] [SEVERE ] removing card from slot 1
+[16:07:12.134] [SEVERE ] removing card from slot 2
+[16:07:12.243] [SEVERE ] removing card from slot 3
+[16:07:12.354] [SEVERE ] removing card from slot 4
+[16:07:12.463] [SEVERE ] removing card from slot 5
+[16:07:12.573] [SEVERE ] removing card from slot 6
+[16:07:12.683] [SEVERE ] removing card from slot 7
+[16:07:12.793] [SEVERE ] removing card from slot 8
+[16:07:12.903] [SEVERE ] removing card from slot 9
+[16:07:13.012] [SEVERE ] removing card from slot 10
+[16:07:13.122] [SEVERE ] removing card from slot 11
+[16:07:13.122] [SEVERE ] announcing winner(s): player 2, player 1
+[16:07:13.122] [INFO   ] thread dealer terminated.
+[16:07:13.122] [INFO   ] thread dealer terminated.
+[16:07:13.122] [SEVERE ] thanks for playing... it was fun!
+[16:07:13.122] [INFO   ] thread main terminated.

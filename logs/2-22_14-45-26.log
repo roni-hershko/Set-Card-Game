@@ -1,0 +1,43 @@
+[14:45:26.439] [INFO   ] thread main starting.
+[14:45:26.455] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[14:45:26.455] [SEVERE ] configuration file was loaded from resources directory.
+[14:45:27.166] [INFO   ] thread dealer starting.
+[14:45:27.175] [INFO   ] thread dealer starting.
+[14:45:27.175] [SEVERE ] updating countdown to 60000
+[14:45:27.175] [INFO   ] thread Thread-0 starting.
+[14:45:27.175] [INFO   ] thread Thread-1 starting.
+[14:45:27.398] [INFO   ] place card step 0 
+[14:45:27.400] [INFO   ] place card step 1 
+[14:45:27.515] [SEVERE ] placing card 77 in slot 0
+[14:45:27.624] [SEVERE ] placing card 26 in slot 1
+[14:45:27.731] [SEVERE ] placing card 58 in slot 2
+[14:45:27.848] [SEVERE ] placing card 14 in slot 3
+[14:45:27.948] [SEVERE ] placing card 37 in slot 4
+[14:45:28.050] [SEVERE ] placing card 71 in slot 5
+[14:45:28.165] [SEVERE ] placing card 73 in slot 6
+[14:45:28.282] [SEVERE ] placing card 53 in slot 7
+[14:45:28.384] [SEVERE ] placing card 34 in slot 8
+[14:45:28.497] [SEVERE ] placing card 65 in slot 9
+[14:45:28.607] [SEVERE ] placing card 10 in slot 10
+[14:45:28.717] [SEVERE ] placing card 45 in slot 11
+[14:45:28.717] [INFO   ] place card step 2 
+[14:45:28.717] [INFO   ] place card step 3 
+[14:45:28.717] [INFO   ] place card step 4 if no set!!!!! 
+[14:45:28.826] [SEVERE ] removing card from slot 0
+[14:45:28.936] [SEVERE ] removing card from slot 1
+[14:45:29.046] [SEVERE ] removing card from slot 2
+[14:45:29.156] [SEVERE ] removing card from slot 3
+[14:45:29.266] [SEVERE ] removing card from slot 4
+[14:45:29.375] [SEVERE ] removing card from slot 5
+[14:45:29.485] [SEVERE ] removing card from slot 6
+[14:45:29.595] [SEVERE ] removing card from slot 7
+[14:45:29.704] [SEVERE ] removing card from slot 8
+[14:45:29.813] [SEVERE ] removing card from slot 9
+[14:45:29.924] [SEVERE ] removing card from slot 10
+[14:45:30.033] [SEVERE ] removing card from slot 11
+[14:45:30.033] [INFO   ] thread dealer terminated.
+[14:45:34.927] [SEVERE ] exit button pressed
+[14:45:34.927] [INFO   ] thread Thread-0 terminated.
+[14:45:34.927] [INFO   ] thread Thread-1 terminated.
+[14:45:35.039] [SEVERE ] thanks for playing... it was fun!
+[14:45:35.039] [INFO   ] thread main terminated.

@@ -48,6 +48,10 @@ public class Dealer implements Runnable {
     int second = 1000;
     long dealerSleepTime=1000;
     int miliSec10 = 10;
+	private volatile boolean setFound;
+	private volatile boolean changeTime;
+
+
 	
 
 	public Dealer(Env env, Table table, Player[] players) {
@@ -56,8 +60,12 @@ public class Dealer implements Runnable {
 	this.players = players;
 	deck = IntStream.range(0, env.config.deckSize).boxed().collect(Collectors.toList());
 	terminate = false;
-    reshuffleTime = System.currentTimeMillis() + env.config.turnTimeoutMillis;
-    lastUpdateForElapsed = System.currentTimeMillis();
+	this.setFound = false;
+	this.changeTime = false;
+	if (env.config.turnTimeoutMillis > 0)
+            reshuffleTime = env.config.turnTimeoutMillis + System.currentTimeMillis(); //minute
+	else
+		lastUpdateForElapsed = System.currentTimeMillis();
 }
 
     /**
@@ -81,13 +89,9 @@ public class Dealer implements Runnable {
         while (!shouldFinish()) {
 
             placeCardsOnTable();
-
             timerLoop();
-
             updateTimerDisplay(true);
-
             removeAllCardsFromTable();
-
         }
         announceWinners();
         env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
@@ -99,12 +103,9 @@ public class Dealer implements Runnable {
 	private void timerLoop() {
 
         while (!terminate && System.currentTimeMillis() < reshuffleTime) {
-            
 			sleepUntilWokenOrTimeout();
             updateTimerDisplay(false);
             removeCardsFromTable();
-			env.logger.info("should place cards after set ");
-
             placeCardsOnTable();
         }
     }
@@ -113,7 +114,7 @@ public class Dealer implements Runnable {
      * Called when the game should be terminated.
      */
     public void terminate() {
-        //freezeAllPlayers(env.config.endGamePauseMillies); 
+        freezeAllPlayers(env.config.endGamePauseMillies); 
 		if(!terminate){
 			for (Player player : players) {
                 player.terminate();
@@ -142,54 +143,60 @@ public class Dealer implements Runnable {
         freezeAllPlayers(env.config.tableDelayMillis);
 
         table.canPlaceTokens=false;
-		boolean setFound = false;
 		
 		//check if there is a valid set and remove the cards
 		for (Player player : table.playersQueue) {
             synchronized(player) {
-				env.logger.info("removed slot " +player.slotQueue.peek() );
-
+				table.removeQueuePlayers(player);  
 				//check the set
                 if(checkSet(player.slotQueue)){ 
-                    player.point();
 					setFound = true;
+                    player.point();  
 				}
-				else player.penalty();
+				if(!setFound){
+					player.penalty();
+				}
 					
 				//remove the set cards from the player data
 				for (int j = 0; j < player.queueCounter; j++){
 					int slot = player.slotQueue.poll();
-					env.logger.info("removed slot " +slot );
 					table.removeToken(player.id, slot); 
 
 					if(setFound){
 						table.removeCard(slot);
 						//remove the tokens of the cards that were removed from the table from the other players
 						for (Player playerSlot : players) {
-							if(playerSlot.slotQueue.contains(slot)){
-								table.removeToken(playerSlot.id, slot);
-								//check if the player. is in the queue of players
-								if(table.playersQueue.contains(playerSlot))
-									table.removeQueuePlayers(playerSlot);
-								playerSlot.slotQueue.remove(slot);
-								playerSlot.queueCounter--;
-							}
+							
+								if(player.id != playerSlot.id && playerSlot.slotQueue.contains(slot)){
+									table.removeToken(playerSlot.id, slot);
+									//check if the player. is in the queue of players
+									if(table.playersQueue.contains(playerSlot))
+										table.removeQueuePlayers(playerSlot);
+									playerSlot.slotQueue.remove(slot); 
+									playerSlot.queueCounter--;
+								}
+							
 						}
 					}
-					updateTimerDisplay(true);
 				}
+
+				player.notifyAll();
+				player.queueCounter = 0;
 			}
-			table.removeQueuePlayers(player);
-			player.queueCounter = 0;
 			//player.isChecked = true;
-			player.notifyAll();
+			if(setFound){
+        		changeTime = true;
+				setFound=false;
+			}
         }
-        
+
+		if(changeTime)
+			updateTimerDisplay(true);
+		changeTime = false;
 		table.canPlaceTokens = true;
 		synchronized(table.lock){
 			table.lock.notifyAll();
-		}
-        
+		}   
     }
 
     /**
@@ -198,20 +205,21 @@ public class Dealer implements Runnable {
     private void placeCardsOnTable() {
         freezeAllPlayers(env.config.tableDelayMillis); 
 		table.canPlaceTokens=false;
+		env.logger.info("place card step 0 ");
 
 		Collections.shuffle(deck);
+		env.logger.info("place card step 1 ");
 
         //place cards on null slots- removed cards 
 		for (int i = 0; i < env.config.tableSize; i++){
             if (table.slotToCard[i] == null){
                 if (env.config.deckSize > 0){
                     int card = deck.remove(0);
-					env.logger.info("card " + card );
                     table.placeCard(card, i);
-					env.logger.info("the card " + card +"was placed in slot " + i);
                 }
             }
         }
+		env.logger.info("place card step 2 ");
 
         //create lists for searching sets on table
         List<Integer>cardListTable=new LinkedList<Integer>();
@@ -221,21 +229,26 @@ public class Dealer implements Runnable {
              }
          }
 
+		 env.logger.info("place card step 3 ");
+
 		//check if there is a valid set on the table
         List<int[]> findSetsTable = env.util.findSets(cardListTable, env.config.featureSize);
         if(findSetsTable.size()==0){ // no set on table
+			env.logger.info("place card step 4 if no set!!!!! ");
+
             if(deck.size() == 0){ //and no cards in deck
                 terminate();
             }
 
 			//new cards on table
             removeAllCardsFromTable();
-
+			env.logger.info("place card step 5 if no set!!!!! ");
             //create lists for searching sets on deck + table
             List<Integer> deck = new LinkedList<Integer>();
             for(int i=0; i<env.config.deckSize; i++){
                    deck.add(deck.get(i));
             }
+			env.logger.info("place card step 6 if no set!!!!! ");
 
 			//check if there are sets on deck + table
             List<int[]> findSetsDeck = env.util.findSets(deck, env.config.featureSize);
@@ -244,11 +257,15 @@ public class Dealer implements Runnable {
             }
             placeCardsOnTable();
         }
-
+		env.logger.info("place card step 5 ");
         table.canPlaceTokens = true;
+		env.logger.info("place card step 6 ");
         synchronized(table.lock){
+			env.logger.info("place card step 7 ");
             table.lock.notifyAll();
         }
+		env.logger.info("place card step 8 ");
+
             // List<Integer> deckAndTable=new LinkedList<Integer>();
             // for(int i=0; i<table.slotToCard.length; i++){
             //     if(table.slotToCard[i] != null){
@@ -326,8 +343,9 @@ public class Dealer implements Runnable {
      * Returns all the cards from the table to the deck.
      */
     private void removeAllCardsFromTable() {
-        //freezeAllPlayers(env.config.tableDelayMillis); 
+        freezeAllPlayers(env.config.tableDelayMillis); 
         table.canPlaceTokens=false;
+		env.logger.info("REMOVE ALL 1 ");
 
         //empty the queue of players in the table
         for(int i = 0; i < players.length; i++){ 
@@ -338,6 +356,8 @@ public class Dealer implements Runnable {
                 }
             }
         }
+		env.logger.info("REMOVE ALL 2 ");
+
 
         //remove all the tokens from the table
         for(int i = 0; i < players.length; i++){
@@ -346,6 +366,8 @@ public class Dealer implements Runnable {
                 table.removeToken(players[i].id, slot);
             }
         }
+		env.logger.info("REMOVE ALL 3 ");
+
         
         //remove all the cards from the table
         for (int i = 0; i < env.config.tableSize; i++){
@@ -354,11 +376,15 @@ public class Dealer implements Runnable {
 				deck.add(i); //add cards from table to deck
 			}
         }
+		env.logger.info("REMOVE ALL 4 ");
+
         
         table.canPlaceTokens = true;
         synchronized(table.lock){
             table.lock.notifyAll();
         }
+		env.logger.info("REMOVE ALL 5 ");
+
     }
 
     /**
@@ -407,7 +433,6 @@ public class Dealer implements Runnable {
 
     public void freezeAllPlayers(long time) { //problem with static
         for (Player player : players) {
-            env.ui.setFreeze(player.id(), time);
             try {
                 player.getPlayerThread().sleep(time);
             } catch (InterruptedException e) {}

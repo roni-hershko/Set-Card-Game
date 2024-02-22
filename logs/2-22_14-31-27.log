@@ -1,0 +1,671 @@
+[14:31:27.637] [INFO   ] thread main starting.
+[14:31:27.646] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[14:31:27.646] [SEVERE ] configuration file was loaded from resources directory.
+[14:31:28.438] [INFO   ] thread dealer starting.
+[14:31:28.439] [INFO   ] thread dealer starting.
+[14:31:28.439] [SEVERE ] updating countdown to 60000
+[14:31:28.440] [INFO   ] thread Thread-1 starting.
+[14:31:28.440] [INFO   ] thread Thread-0 starting.
+[14:31:28.662] [INFO   ] place card step 0 
+[14:31:28.664] [INFO   ] place card step 1 
+[14:31:28.779] [SEVERE ] placing card 46 in slot 0
+[14:31:28.894] [SEVERE ] placing card 74 in slot 1
+[14:31:28.996] [SEVERE ] placing card 13 in slot 2
+[14:31:29.097] [SEVERE ] placing card 48 in slot 3
+[14:31:29.199] [SEVERE ] placing card 29 in slot 4
+[14:31:29.313] [SEVERE ] placing card 63 in slot 5
+[14:31:29.415] [SEVERE ] placing card 21 in slot 6
+[14:31:29.530] [SEVERE ] placing card 71 in slot 7
+[14:31:29.636] [SEVERE ] placing card 18 in slot 8
+[14:31:29.740] [SEVERE ] placing card 4 in slot 9
+[14:31:29.849] [SEVERE ] placing card 62 in slot 10
+[14:31:29.959] [SEVERE ] placing card 59 in slot 11
+[14:31:29.959] [INFO   ] place card step 2 
+[14:31:29.959] [INFO   ] place card step 3 
+[14:31:29.959] [INFO   ] place card step 4 
+[14:31:30.963] [SEVERE ] updating countdown to 57478
+[14:31:31.181] [INFO   ] before place card 
+[14:31:31.401] [INFO   ] place card step 0 
+[14:31:31.401] [INFO   ] place card step 1 
+[14:31:31.401] [INFO   ] place card step 2 
+[14:31:31.401] [INFO   ] place card step 3 
+[14:31:31.401] [INFO   ] place card step 4 
+[14:31:32.405] [SEVERE ] updating countdown to 56036
+[14:31:32.625] [INFO   ] before place card 
+[14:31:32.844] [INFO   ] place card step 0 
+[14:31:32.844] [INFO   ] place card step 1 
+[14:31:32.844] [INFO   ] place card step 2 
+[14:31:32.844] [INFO   ] place card step 3 
+[14:31:32.844] [INFO   ] place card step 4 
+[14:31:33.845] [SEVERE ] updating countdown to 54596
+[14:31:34.064] [INFO   ] before place card 
+[14:31:34.283] [INFO   ] place card step 0 
+[14:31:34.283] [INFO   ] place card step 1 
+[14:31:34.283] [INFO   ] place card step 2 
+[14:31:34.283] [INFO   ] place card step 3 
+[14:31:34.283] [INFO   ] place card step 4 
+[14:31:35.285] [SEVERE ] updating countdown to 53156
+[14:31:35.503] [INFO   ] before place card 
+[14:31:35.722] [INFO   ] place card step 0 
+[14:31:35.722] [INFO   ] place card step 1 
+[14:31:35.722] [INFO   ] place card step 2 
+[14:31:35.722] [INFO   ] place card step 3 
+[14:31:35.722] [INFO   ] place card step 4 
+[14:31:36.582] [SEVERE ] key 73 was pressed by player 2
+[14:31:36.582] [SEVERE ] player 2 placing token on slot 1
+[14:31:36.723] [SEVERE ] updating countdown to 51718
+[14:31:36.942] [INFO   ] before place card 
+[14:31:37.115] [SEVERE ] key 85 was pressed by player 2
+[14:31:37.115] [SEVERE ] player 2 placing token on slot 0
+[14:31:37.162] [INFO   ] place card step 0 
+[14:31:37.162] [INFO   ] place card step 1 
+[14:31:37.162] [INFO   ] place card step 2 
+[14:31:37.162] [INFO   ] place card step 3 
+[14:31:37.162] [INFO   ] place card step 4 
+[14:31:38.165] [SEVERE ] updating countdown to 50276
+[14:31:38.384] [INFO   ] before place card 
+[14:31:38.603] [INFO   ] place card step 0 
+[14:31:38.603] [INFO   ] place card step 1 
+[14:31:38.603] [INFO   ] place card step 2 
+[14:31:38.603] [INFO   ] place card step 3 
+[14:31:38.603] [INFO   ] place card step 4 
+[14:31:39.057] [SEVERE ] key 77 was pressed by player 2
+[14:31:39.057] [SEVERE ] player 2 placing token on slot 8
+[14:31:39.057] [SEVERE ] updating countdown to 49384
+[14:31:39.292] [INFO   ] removecard there is set
+[14:31:39.292] [INFO   ] point step 1
+[14:31:39.292] [SEVERE ] setting player 2 score to 1
+[14:31:39.292] [SEVERE ] setting player 2 freeze to 1000
+[14:31:39.292] [INFO   ] point step 2
+[14:31:40.295] [SEVERE ] setting player 2 freeze to 0
+[14:31:40.295] [SEVERE ] removing player 2 token from slot 1
+[14:31:40.404] [SEVERE ] removing card from slot 1
+[14:31:40.404] [SEVERE ] removing player 2 token from slot 0
+[14:31:40.513] [SEVERE ] removing card from slot 0
+[14:31:40.513] [SEVERE ] removing player 2 token from slot 8
+[14:31:40.623] [SEVERE ] removing card from slot 8
+[14:31:40.623] [INFO   ] remove  in the table step 1
+[14:31:40.623] [INFO   ] remove  in the table step 2
+[14:31:40.623] [SEVERE ] updating countdown to 60000
+[14:31:40.623] [INFO   ] before place card 
+[14:31:40.842] [INFO   ] place card step 0 
+[14:31:40.842] [INFO   ] place card step 1 
+[14:31:40.951] [SEVERE ] placing card 35 in slot 0
+[14:31:41.061] [SEVERE ] placing card 33 in slot 1
+[14:31:41.170] [SEVERE ] placing card 5 in slot 8
+[14:31:41.170] [INFO   ] place card step 2 
+[14:31:41.170] [INFO   ] place card step 3 
+[14:31:41.170] [INFO   ] place card step 4 
+[14:31:41.170] [SEVERE ] updating countdown to 59453
+[14:31:41.389] [INFO   ] removecardthere is no!!!! set
+[14:31:41.389] [SEVERE ] setting player 2 freeze to 3000
+[14:31:42.405] [SEVERE ] setting player 2 freeze to 2000
+[14:31:43.407] [SEVERE ] setting player 2 freeze to 1000
+[14:31:44.423] [SEVERE ] setting player 2 freeze to 0
+[14:31:44.423] [INFO   ] remove  in the table step 1
+[14:31:44.423] [INFO   ] remove  in the table step 2
+[14:31:44.423] [INFO   ] before place card 
+[14:31:44.642] [INFO   ] place card step 0 
+[14:31:44.642] [INFO   ] place card step 1 
+[14:31:44.642] [INFO   ] place card step 2 
+[14:31:44.642] [INFO   ] place card step 3 
+[14:31:44.642] [INFO   ] place card step 4 
+[14:31:45.644] [SEVERE ] updating countdown to 54979
+[14:31:45.863] [INFO   ] before place card 
+[14:31:46.083] [INFO   ] place card step 0 
+[14:31:46.083] [INFO   ] place card step 1 
+[14:31:46.083] [INFO   ] place card step 2 
+[14:31:46.083] [INFO   ] place card step 3 
+[14:31:46.083] [INFO   ] place card step 4 
+[14:31:47.085] [SEVERE ] updating countdown to 53538
+[14:31:47.304] [INFO   ] before place card 
+[14:31:47.525] [INFO   ] place card step 0 
+[14:31:47.525] [INFO   ] place card step 1 
+[14:31:47.525] [INFO   ] place card step 2 
+[14:31:47.525] [INFO   ] place card step 3 
+[14:31:47.525] [INFO   ] place card step 4 
+[14:31:48.526] [SEVERE ] updating countdown to 52097
+[14:31:48.745] [INFO   ] before place card 
+[14:31:48.964] [INFO   ] place card step 0 
+[14:31:48.964] [INFO   ] place card step 1 
+[14:31:48.964] [INFO   ] place card step 2 
+[14:31:48.964] [INFO   ] place card step 3 
+[14:31:48.964] [INFO   ] place card step 4 
+[14:31:49.967] [SEVERE ] updating countdown to 50656
+[14:31:50.185] [INFO   ] before place card 
+[14:31:50.404] [INFO   ] place card step 0 
+[14:31:50.404] [INFO   ] place card step 1 
+[14:31:50.404] [INFO   ] place card step 2 
+[14:31:50.404] [INFO   ] place card step 3 
+[14:31:50.404] [INFO   ] place card step 4 
+[14:31:51.405] [SEVERE ] updating countdown to 49218
+[14:31:51.624] [INFO   ] before place card 
+[14:31:51.844] [INFO   ] place card step 0 
+[14:31:51.844] [INFO   ] place card step 1 
+[14:31:51.844] [INFO   ] place card step 2 
+[14:31:51.844] [INFO   ] place card step 3 
+[14:31:51.844] [INFO   ] place card step 4 
+[14:31:52.848] [SEVERE ] updating countdown to 47775
+[14:31:53.067] [INFO   ] before place card 
+[14:31:53.286] [INFO   ] place card step 0 
+[14:31:53.286] [INFO   ] place card step 1 
+[14:31:53.286] [INFO   ] place card step 2 
+[14:31:53.286] [INFO   ] place card step 3 
+[14:31:53.286] [INFO   ] place card step 4 
+[14:31:54.289] [SEVERE ] updating countdown to 46334
+[14:31:54.304] [SEVERE ] key 46 was pressed by player 2
+[14:31:54.304] [SEVERE ] player 2 placing token on slot 10
+[14:31:54.508] [INFO   ] before place card 
+[14:31:54.727] [INFO   ] place card step 0 
+[14:31:54.727] [INFO   ] place card step 1 
+[14:31:54.727] [INFO   ] place card step 2 
+[14:31:54.727] [INFO   ] place card step 3 
+[14:31:54.727] [INFO   ] place card step 4 
+[14:31:55.728] [SEVERE ] updating countdown to 44895
+[14:31:55.948] [INFO   ] before place card 
+[14:31:56.168] [INFO   ] place card step 0 
+[14:31:56.168] [INFO   ] place card step 1 
+[14:31:56.168] [INFO   ] place card step 2 
+[14:31:56.168] [INFO   ] place card step 3 
+[14:31:56.168] [INFO   ] place card step 4 
+[14:31:57.183] [SEVERE ] updating countdown to 43440
+[14:31:57.403] [INFO   ] before place card 
+[14:31:57.438] [SEVERE ] key 77 was pressed by player 2
+[14:31:57.438] [SEVERE ] player 2 placing token on slot 8
+[14:31:57.623] [INFO   ] place card step 0 
+[14:31:57.623] [INFO   ] place card step 1 
+[14:31:57.623] [INFO   ] place card step 2 
+[14:31:57.623] [INFO   ] place card step 3 
+[14:31:57.623] [INFO   ] place card step 4 
+[14:31:58.460] [SEVERE ] key 74 was pressed by player 2
+[14:31:58.460] [SEVERE ] player 2 placing token on slot 4
+[14:31:58.460] [SEVERE ] updating countdown to 42163
+[14:31:58.672] [INFO   ] removecard there is set
+[14:31:58.672] [INFO   ] point step 1
+[14:31:58.672] [SEVERE ] setting player 2 score to 2
+[14:31:58.672] [SEVERE ] setting player 2 freeze to 1000
+[14:31:58.672] [INFO   ] point step 2
+[14:31:59.675] [SEVERE ] setting player 2 freeze to 0
+[14:31:59.675] [SEVERE ] removing player 2 token from slot 10
+[14:31:59.784] [SEVERE ] removing card from slot 10
+[14:31:59.784] [SEVERE ] removing player 2 token from slot 8
+[14:31:59.893] [SEVERE ] removing card from slot 8
+[14:31:59.893] [SEVERE ] removing player 2 token from slot 4
+[14:32:00.002] [SEVERE ] removing card from slot 4
+[14:32:00.002] [INFO   ] remove  in the table step 1
+[14:32:00.002] [INFO   ] remove  in the table step 2
+[14:32:00.002] [SEVERE ] updating countdown to 60000
+[14:32:00.002] [INFO   ] before place card 
+[14:32:00.221] [INFO   ] place card step 0 
+[14:32:00.221] [INFO   ] place card step 1 
+[14:32:00.331] [SEVERE ] placing card 54 in slot 4
+[14:32:00.440] [SEVERE ] placing card 50 in slot 8
+[14:32:00.550] [SEVERE ] placing card 45 in slot 10
+[14:32:00.550] [INFO   ] place card step 2 
+[14:32:00.550] [INFO   ] place card step 3 
+[14:32:00.550] [INFO   ] place card step 4 
+[14:32:00.550] [SEVERE ] updating countdown to 59452
+[14:32:00.768] [INFO   ] removecardthere is no!!!! set
+[14:32:00.768] [SEVERE ] setting player 2 freeze to 3000
+[14:32:01.770] [SEVERE ] setting player 2 freeze to 2000
+[14:32:02.774] [SEVERE ] setting player 2 freeze to 1000
+[14:32:03.776] [SEVERE ] setting player 2 freeze to 0
+[14:32:03.776] [INFO   ] remove  in the table step 1
+[14:32:03.776] [INFO   ] remove  in the table step 2
+[14:32:03.776] [INFO   ] before place card 
+[14:32:03.994] [INFO   ] place card step 0 
+[14:32:03.994] [INFO   ] place card step 1 
+[14:32:03.994] [INFO   ] place card step 2 
+[14:32:03.994] [INFO   ] place card step 3 
+[14:32:03.994] [INFO   ] place card step 4 
+[14:32:04.995] [SEVERE ] updating countdown to 55007
+[14:32:05.214] [INFO   ] before place card 
+[14:32:05.433] [INFO   ] place card step 0 
+[14:32:05.433] [INFO   ] place card step 1 
+[14:32:05.433] [INFO   ] place card step 2 
+[14:32:05.433] [INFO   ] place card step 3 
+[14:32:05.433] [INFO   ] place card step 4 
+[14:32:06.434] [SEVERE ] updating countdown to 53568
+[14:32:06.653] [INFO   ] before place card 
+[14:32:06.872] [INFO   ] place card step 0 
+[14:32:06.872] [INFO   ] place card step 1 
+[14:32:06.872] [INFO   ] place card step 2 
+[14:32:06.872] [INFO   ] place card step 3 
+[14:32:06.872] [INFO   ] place card step 4 
+[14:32:07.876] [SEVERE ] updating countdown to 52126
+[14:32:08.097] [INFO   ] before place card 
+[14:32:08.318] [INFO   ] place card step 0 
+[14:32:08.318] [INFO   ] place card step 1 
+[14:32:08.318] [INFO   ] place card step 2 
+[14:32:08.318] [INFO   ] place card step 3 
+[14:32:08.318] [INFO   ] place card step 4 
+[14:32:09.319] [SEVERE ] updating countdown to 50683
+[14:32:09.538] [INFO   ] before place card 
+[14:32:09.759] [INFO   ] place card step 0 
+[14:32:09.759] [INFO   ] place card step 1 
+[14:32:09.759] [INFO   ] place card step 2 
+[14:32:09.759] [INFO   ] place card step 3 
+[14:32:09.759] [INFO   ] place card step 4 
+[14:32:10.759] [SEVERE ] updating countdown to 49243
+[14:32:10.979] [INFO   ] before place card 
+[14:32:11.198] [INFO   ] place card step 0 
+[14:32:11.198] [INFO   ] place card step 1 
+[14:32:11.198] [INFO   ] place card step 2 
+[14:32:11.198] [INFO   ] place card step 3 
+[14:32:11.198] [INFO   ] place card step 4 
+[14:32:11.496] [SEVERE ] key 83 was pressed by player 1
+[14:32:11.496] [SEVERE ] player 1 placing token on slot 5
+[14:32:12.198] [SEVERE ] updating countdown to 47804
+[14:32:12.418] [INFO   ] before place card 
+[14:32:12.638] [INFO   ] place card step 0 
+[14:32:12.638] [INFO   ] place card step 1 
+[14:32:12.638] [INFO   ] place card step 2 
+[14:32:12.638] [INFO   ] place card step 3 
+[14:32:12.638] [INFO   ] place card step 4 
+[14:32:12.685] [SEVERE ] key 87 was pressed by player 1
+[14:32:12.685] [SEVERE ] player 1 placing token on slot 1
+[14:32:13.639] [SEVERE ] updating countdown to 46363
+[14:32:13.858] [INFO   ] before place card 
+[14:32:14.077] [INFO   ] place card step 0 
+[14:32:14.077] [INFO   ] place card step 1 
+[14:32:14.077] [INFO   ] place card step 2 
+[14:32:14.077] [INFO   ] place card step 3 
+[14:32:14.077] [INFO   ] place card step 4 
+[14:32:15.079] [SEVERE ] updating countdown to 44923
+[14:32:15.298] [INFO   ] before place card 
+[14:32:15.517] [INFO   ] place card step 0 
+[14:32:15.517] [INFO   ] place card step 1 
+[14:32:15.517] [INFO   ] place card step 2 
+[14:32:15.517] [INFO   ] place card step 3 
+[14:32:15.517] [INFO   ] place card step 4 
+[14:32:16.517] [SEVERE ] updating countdown to 43485
+[14:32:16.736] [INFO   ] before place card 
+[14:32:16.799] [SEVERE ] key 68 was pressed by player 1
+[14:32:16.799] [SEVERE ] player 1 placing token on slot 6
+[14:32:16.956] [INFO   ] place card step 0 
+[14:32:16.956] [INFO   ] place card step 1 
+[14:32:16.956] [INFO   ] place card step 2 
+[14:32:16.956] [INFO   ] place card step 3 
+[14:32:16.956] [INFO   ] place card step 4 
+[14:32:16.956] [SEVERE ] updating countdown to 43046
+[14:32:17.175] [INFO   ] removecard there is set
+[14:32:17.175] [INFO   ] point step 1
+[14:32:17.175] [SEVERE ] setting player 1 score to 1
+[14:32:17.175] [SEVERE ] setting player 1 freeze to 1000
+[14:32:17.175] [INFO   ] point step 2
+[14:32:18.177] [SEVERE ] setting player 1 freeze to 0
+[14:32:18.177] [SEVERE ] removing player 1 token from slot 5
+[14:32:18.287] [SEVERE ] removing card from slot 5
+[14:32:18.287] [SEVERE ] removing player 1 token from slot 1
+[14:32:18.396] [SEVERE ] removing card from slot 1
+[14:32:18.396] [SEVERE ] removing player 1 token from slot 6
+[14:32:18.506] [SEVERE ] removing card from slot 6
+[14:32:18.506] [INFO   ] remove  in the table step 1
+[14:32:18.506] [INFO   ] remove  in the table step 2
+[14:32:18.506] [SEVERE ] updating countdown to 60000
+[14:32:18.506] [INFO   ] before place card 
+[14:32:18.727] [INFO   ] place card step 0 
+[14:32:18.727] [INFO   ] place card step 1 
+[14:32:18.836] [SEVERE ] placing card 70 in slot 1
+[14:32:18.945] [SEVERE ] placing card 40 in slot 5
+[14:32:19.055] [SEVERE ] placing card 17 in slot 6
+[14:32:19.055] [INFO   ] place card step 2 
+[14:32:19.055] [INFO   ] place card step 3 
+[14:32:19.055] [INFO   ] place card step 4 
+[14:32:19.055] [SEVERE ] updating countdown to 59451
+[14:32:19.274] [INFO   ] removecardthere is no!!!! set
+[14:32:19.274] [SEVERE ] setting player 1 freeze to 3000
+[14:32:20.276] [SEVERE ] setting player 1 freeze to 2000
+[14:32:21.278] [SEVERE ] setting player 1 freeze to 1000
+[14:32:22.279] [SEVERE ] setting player 1 freeze to 0
+[14:32:22.279] [INFO   ] remove  in the table step 1
+[14:32:22.279] [INFO   ] remove  in the table step 2
+[14:32:22.279] [INFO   ] before place card 
+[14:32:22.498] [INFO   ] place card step 0 
+[14:32:22.498] [INFO   ] place card step 1 
+[14:32:22.498] [INFO   ] place card step 2 
+[14:32:22.498] [INFO   ] place card step 3 
+[14:32:22.498] [INFO   ] place card step 4 
+[14:32:23.502] [SEVERE ] updating countdown to 55004
+[14:32:23.721] [INFO   ] before place card 
+[14:32:23.940] [INFO   ] place card step 0 
+[14:32:23.940] [INFO   ] place card step 1 
+[14:32:23.940] [INFO   ] place card step 2 
+[14:32:23.940] [INFO   ] place card step 3 
+[14:32:23.940] [INFO   ] place card step 4 
+[14:32:24.440] [SEVERE ] key 81 was pressed by player 1
+[14:32:24.440] [SEVERE ] player 1 placing token on slot 0
+[14:32:24.769] [SEVERE ] key 87 was pressed by player 1
+[14:32:24.769] [SEVERE ] player 1 placing token on slot 1
+[14:32:24.941] [SEVERE ] updating countdown to 53565
+[14:32:25.159] [INFO   ] before place card 
+[14:32:25.378] [INFO   ] place card step 0 
+[14:32:25.378] [INFO   ] place card step 1 
+[14:32:25.378] [INFO   ] place card step 2 
+[14:32:25.378] [INFO   ] place card step 3 
+[14:32:25.378] [INFO   ] place card step 4 
+[14:32:26.132] [SEVERE ] key 87 was pressed by player 1
+[14:32:26.132] [SEVERE ] removing player 1 token from slot 1
+[14:32:26.380] [SEVERE ] updating countdown to 52126
+[14:32:26.600] [INFO   ] before place card 
+[14:32:26.820] [INFO   ] place card step 0 
+[14:32:26.820] [INFO   ] place card step 1 
+[14:32:26.820] [INFO   ] place card step 2 
+[14:32:26.820] [INFO   ] place card step 3 
+[14:32:26.820] [INFO   ] place card step 4 
+[14:32:27.826] [SEVERE ] updating countdown to 50680
+[14:32:28.045] [INFO   ] before place card 
+[14:32:28.264] [INFO   ] place card step 0 
+[14:32:28.264] [INFO   ] place card step 1 
+[14:32:28.264] [INFO   ] place card step 2 
+[14:32:28.264] [INFO   ] place card step 3 
+[14:32:28.264] [INFO   ] place card step 4 
+[14:32:29.267] [SEVERE ] updating countdown to 49239
+[14:32:29.486] [INFO   ] before place card 
+[14:32:29.707] [INFO   ] place card step 0 
+[14:32:29.707] [INFO   ] place card step 1 
+[14:32:29.707] [INFO   ] place card step 2 
+[14:32:29.707] [INFO   ] place card step 3 
+[14:32:29.707] [INFO   ] place card step 4 
+[14:32:30.444] [SEVERE ] key 83 was pressed by player 1
+[14:32:30.444] [SEVERE ] player 1 placing token on slot 5
+[14:32:30.709] [SEVERE ] updating countdown to 47797
+[14:32:30.929] [INFO   ] before place card 
+[14:32:31.148] [INFO   ] place card step 0 
+[14:32:31.148] [INFO   ] place card step 1 
+[14:32:31.148] [INFO   ] place card step 2 
+[14:32:31.148] [INFO   ] place card step 3 
+[14:32:31.148] [INFO   ] place card step 4 
+[14:32:32.133] [SEVERE ] key 46 was pressed by player 2
+[14:32:32.133] [SEVERE ] player 2 placing token on slot 10
+[14:32:32.149] [SEVERE ] updating countdown to 46357
+[14:32:32.368] [INFO   ] before place card 
+[14:32:32.588] [INFO   ] place card step 0 
+[14:32:32.588] [INFO   ] place card step 1 
+[14:32:32.588] [INFO   ] place card step 2 
+[14:32:32.588] [INFO   ] place card step 3 
+[14:32:32.588] [INFO   ] place card step 4 
+[14:32:32.715] [SEVERE ] key 67 was pressed by player 1
+[14:32:32.715] [SEVERE ] player 1 placing token on slot 10
+[14:32:32.716] [SEVERE ] updating countdown to 45790
+[14:32:32.931] [INFO   ] removecard there is set
+[14:32:32.931] [INFO   ] point step 1
+[14:32:32.931] [SEVERE ] setting player 1 score to 2
+[14:32:32.931] [SEVERE ] setting player 1 freeze to 1000
+[14:32:32.931] [INFO   ] point step 2
+[14:32:32.978] [SEVERE ] key 44 was pressed by player 2
+[14:32:33.134] [SEVERE ] key 77 was pressed by player 2
+[14:32:33.934] [SEVERE ] setting player 1 freeze to 0
+[14:32:33.934] [SEVERE ] removing player 1 token from slot 0
+[14:32:34.043] [SEVERE ] removing card from slot 0
+[14:32:34.043] [SEVERE ] removing player 1 token from slot 5
+[14:32:34.153] [SEVERE ] removing card from slot 5
+[14:32:34.153] [SEVERE ] removing player 1 token from slot 10
+[14:32:34.262] [SEVERE ] removing card from slot 10
+[14:32:34.262] [SEVERE ] removing player 2 token from slot 10
+[14:32:34.262] [INFO   ] remove  in the table step 1
+[14:32:34.262] [INFO   ] remove  in the table step 2
+[14:32:34.262] [INFO   ] remove  in the table step 1
+[14:32:34.262] [INFO   ] remove  in the table step 2
+[14:32:34.262] [SEVERE ] updating countdown to 60000
+[14:32:34.262] [INFO   ] before place card 
+[14:32:34.481] [INFO   ] place card step 0 
+[14:32:34.481] [INFO   ] place card step 1 
+[14:32:34.590] [SEVERE ] placing card 8 in slot 0
+[14:32:34.700] [SEVERE ] placing card 68 in slot 5
+[14:32:34.810] [SEVERE ] placing card 6 in slot 10
+[14:32:34.810] [INFO   ] place card step 2 
+[14:32:34.810] [INFO   ] place card step 3 
+[14:32:34.810] [INFO   ] place card step 4 
+[14:32:34.810] [SEVERE ] updating countdown to 59452
+[14:32:35.027] [INFO   ] removecardthere is no!!!! set
+[14:32:35.027] [SEVERE ] setting player 1 freeze to 3000
+[14:32:36.029] [SEVERE ] setting player 1 freeze to 2000
+[14:32:37.030] [SEVERE ] setting player 1 freeze to 1000
+[14:32:38.032] [SEVERE ] setting player 1 freeze to 0
+[14:32:38.032] [INFO   ] remove  in the table step 1
+[14:32:38.032] [INFO   ] remove  in the table step 2
+[14:32:38.032] [INFO   ] before place card 
+[14:32:38.251] [INFO   ] place card step 0 
+[14:32:38.251] [INFO   ] place card step 1 
+[14:32:38.251] [INFO   ] place card step 2 
+[14:32:38.251] [INFO   ] place card step 3 
+[14:32:38.251] [INFO   ] place card step 4 
+[14:32:39.254] [SEVERE ] updating countdown to 55008
+[14:32:39.473] [INFO   ] before place card 
+[14:32:39.692] [INFO   ] place card step 0 
+[14:32:39.692] [INFO   ] place card step 1 
+[14:32:39.692] [INFO   ] place card step 2 
+[14:32:39.692] [INFO   ] place card step 3 
+[14:32:39.692] [INFO   ] place card step 4 
+[14:32:40.693] [SEVERE ] updating countdown to 53569
+[14:32:40.912] [INFO   ] before place card 
+[14:32:41.132] [INFO   ] place card step 0 
+[14:32:41.132] [INFO   ] place card step 1 
+[14:32:41.132] [INFO   ] place card step 2 
+[14:32:41.132] [INFO   ] place card step 3 
+[14:32:41.132] [INFO   ] place card step 4 
+[14:32:42.133] [SEVERE ] updating countdown to 52129
+[14:32:42.353] [INFO   ] before place card 
+[14:32:42.573] [INFO   ] place card step 0 
+[14:32:42.573] [INFO   ] place card step 1 
+[14:32:42.573] [INFO   ] place card step 2 
+[14:32:42.573] [INFO   ] place card step 3 
+[14:32:42.573] [INFO   ] place card step 4 
+[14:32:43.577] [SEVERE ] updating countdown to 50685
+[14:32:43.795] [INFO   ] before place card 
+[14:32:44.015] [INFO   ] place card step 0 
+[14:32:44.015] [INFO   ] place card step 1 
+[14:32:44.015] [INFO   ] place card step 2 
+[14:32:44.015] [INFO   ] place card step 3 
+[14:32:44.015] [INFO   ] place card step 4 
+[14:32:45.017] [SEVERE ] updating countdown to 49245
+[14:32:45.235] [INFO   ] before place card 
+[14:32:45.454] [INFO   ] place card step 0 
+[14:32:45.454] [INFO   ] place card step 1 
+[14:32:45.454] [INFO   ] place card step 2 
+[14:32:45.454] [INFO   ] place card step 3 
+[14:32:45.455] [INFO   ] place card step 4 
+[14:32:46.457] [SEVERE ] updating countdown to 47805
+[14:32:46.677] [INFO   ] before place card 
+[14:32:46.897] [INFO   ] place card step 0 
+[14:32:46.897] [INFO   ] place card step 1 
+[14:32:46.897] [INFO   ] place card step 2 
+[14:32:46.897] [INFO   ] place card step 3 
+[14:32:46.897] [INFO   ] place card step 4 
+[14:32:47.902] [SEVERE ] updating countdown to 46360
+[14:32:48.121] [INFO   ] before place card 
+[14:32:48.339] [INFO   ] place card step 0 
+[14:32:48.339] [INFO   ] place card step 1 
+[14:32:48.339] [INFO   ] place card step 2 
+[14:32:48.339] [INFO   ] place card step 3 
+[14:32:48.339] [INFO   ] place card step 4 
+[14:32:49.341] [SEVERE ] updating countdown to 44921
+[14:32:49.562] [INFO   ] before place card 
+[14:32:49.781] [INFO   ] place card step 0 
+[14:32:49.781] [INFO   ] place card step 1 
+[14:32:49.781] [INFO   ] place card step 2 
+[14:32:49.781] [INFO   ] place card step 3 
+[14:32:49.781] [INFO   ] place card step 4 
+[14:32:50.785] [SEVERE ] updating countdown to 43477
+[14:32:51.004] [INFO   ] before place card 
+[14:32:51.223] [INFO   ] place card step 0 
+[14:32:51.223] [INFO   ] place card step 1 
+[14:32:51.223] [INFO   ] place card step 2 
+[14:32:51.223] [INFO   ] place card step 3 
+[14:32:51.223] [INFO   ] place card step 4 
+[14:32:52.224] [SEVERE ] updating countdown to 42038
+[14:32:52.444] [INFO   ] before place card 
+[14:32:52.662] [INFO   ] place card step 0 
+[14:32:52.662] [INFO   ] place card step 1 
+[14:32:52.662] [INFO   ] place card step 2 
+[14:32:52.662] [INFO   ] place card step 3 
+[14:32:52.662] [INFO   ] place card step 4 
+[14:32:53.652] [SEVERE ] key 67 was pressed by player 1
+[14:32:53.652] [SEVERE ] player 1 placing token on slot 10
+[14:32:53.663] [SEVERE ] updating countdown to 40599
+[14:32:53.882] [INFO   ] before place card 
+[14:32:54.101] [INFO   ] place card step 0 
+[14:32:54.101] [INFO   ] place card step 1 
+[14:32:54.101] [INFO   ] place card step 2 
+[14:32:54.101] [INFO   ] place card step 3 
+[14:32:54.101] [INFO   ] place card step 4 
+[14:32:54.273] [SEVERE ] key 67 was pressed by player 1
+[14:32:54.273] [SEVERE ] removing player 1 token from slot 10
+[14:32:54.759] [SEVERE ] key 86 was pressed by player 1
+[14:32:54.759] [SEVERE ] player 1 placing token on slot 11
+[14:32:54.885] [SEVERE ] key 75 was pressed by player 2
+[14:32:54.900] [SEVERE ] player 2 placing token on slot 5
+[14:32:54.901] [SEVERE ] updating countdown to 39361
+[14:32:55.121] [INFO   ] removecardthere is no!!!! set
+[14:32:55.121] [SEVERE ] setting player 2 freeze to 3000
+[14:32:55.199] [SEVERE ] key 74 was pressed by player 2
+[14:32:56.122] [SEVERE ] setting player 2 freeze to 2000
+[14:32:57.136] [SEVERE ] setting player 2 freeze to 1000
+[14:32:58.137] [SEVERE ] setting player 2 freeze to 0
+[14:32:58.137] [SEVERE ] removing player 2 token from slot 9
+[14:32:58.137] [SEVERE ] removing player 2 token from slot 8
+[14:32:58.137] [SEVERE ] removing player 2 token from slot 5
+[14:32:58.137] [SEVERE ] removing player 2 token from slot 4
+[14:32:58.137] [INFO   ] remove  in the table step 1
+[14:32:58.137] [INFO   ] remove  in the table step 2
+[14:32:58.137] [INFO   ] before place card 
+[14:32:58.137] [SEVERE ] key 76 was pressed by player 2
+[14:32:58.137] [SEVERE ] player 2 placing token on slot 6
+[14:32:58.137] [SEVERE ] key 70 was pressed by player 1
+[14:32:58.137] [SEVERE ] player 1 placing token on slot 7
+[14:32:58.137] [SEVERE ] key 77 was pressed by player 2
+[14:32:58.137] [SEVERE ] player 2 placing token on slot 8
+[14:32:58.357] [INFO   ] place card step 0 
+[14:32:58.357] [INFO   ] place card step 1 
+[14:32:58.357] [INFO   ] place card step 2 
+[14:32:58.357] [INFO   ] place card step 3 
+[14:32:58.357] [INFO   ] place card step 4 
+[14:32:59.372] [SEVERE ] updating countdown to 34890
+[14:32:59.591] [INFO   ] before place card 
+[14:32:59.812] [INFO   ] place card step 0 
+[14:32:59.812] [INFO   ] place card step 1 
+[14:32:59.812] [INFO   ] place card step 2 
+[14:32:59.812] [INFO   ] place card step 3 
+[14:32:59.812] [INFO   ] place card step 4 
+[14:33:00.813] [SEVERE ] updating countdown to 33449
+[14:33:01.033] [INFO   ] before place card 
+[14:33:01.064] [SEVERE ] key 70 was pressed by player 1
+[14:33:01.064] [SEVERE ] removing player 1 token from slot 7
+[14:33:01.252] [INFO   ] place card step 0 
+[14:33:01.252] [INFO   ] place card step 1 
+[14:33:01.252] [INFO   ] place card step 2 
+[14:33:01.252] [INFO   ] place card step 3 
+[14:33:01.252] [INFO   ] place card step 4 
+[14:33:02.253] [SEVERE ] updating countdown to 32009
+[14:33:02.472] [INFO   ] before place card 
+[14:33:02.488] [SEVERE ] key 77 was pressed by player 2
+[14:33:02.488] [SEVERE ] removing player 2 token from slot 8
+[14:33:02.692] [INFO   ] place card step 0 
+[14:33:02.692] [INFO   ] place card step 1 
+[14:33:02.692] [INFO   ] place card step 2 
+[14:33:02.692] [INFO   ] place card step 3 
+[14:33:02.692] [INFO   ] place card step 4 
+[14:33:02.755] [SEVERE ] key 82 was pressed by player 1
+[14:33:02.755] [SEVERE ] player 1 placing token on slot 3
+[14:33:03.178] [SEVERE ] key 77 was pressed by player 2
+[14:33:03.178] [SEVERE ] player 2 placing token on slot 8
+[14:33:03.694] [SEVERE ] updating countdown to 30568
+[14:33:03.913] [INFO   ] before place card 
+[14:33:03.913] [SEVERE ] key 69 was pressed by player 1
+[14:33:03.913] [SEVERE ] player 1 placing token on slot 2
+[14:33:04.132] [INFO   ] place card step 0 
+[14:33:04.132] [INFO   ] place card step 1 
+[14:33:04.132] [INFO   ] place card step 2 
+[14:33:04.132] [INFO   ] place card step 3 
+[14:33:04.132] [INFO   ] place card step 4 
+[14:33:04.132] [SEVERE ] updating countdown to 30130
+[14:33:04.241] [SEVERE ] key 73 was pressed by player 2
+[14:33:04.241] [SEVERE ] player 2 placing token on slot 1
+[14:33:04.351] [INFO   ] removecard there is set
+[14:33:04.351] [INFO   ] point step 1
+[14:33:04.351] [SEVERE ] setting player 1 score to 3
+[14:33:04.351] [SEVERE ] setting player 1 freeze to 1000
+[14:33:04.351] [INFO   ] point step 2
+[14:33:05.353] [SEVERE ] setting player 1 freeze to 0
+[14:33:05.353] [SEVERE ] removing player 1 token from slot 11
+[14:33:05.462] [SEVERE ] removing card from slot 11
+[14:33:05.462] [SEVERE ] removing player 1 token from slot 3
+[14:33:05.572] [SEVERE ] removing card from slot 3
+[14:33:05.572] [SEVERE ] removing player 1 token from slot 2
+[14:33:05.682] [SEVERE ] removing card from slot 2
+[14:33:05.682] [INFO   ] remove  in the table step 1
+[14:33:05.682] [INFO   ] remove  in the table step 2
+[14:33:05.682] [INFO   ] removecardthere is no!!!! set
+[14:33:05.682] [SEVERE ] setting player 2 freeze to 3000
+[14:33:06.684] [SEVERE ] setting player 2 freeze to 2000
+[14:33:07.686] [SEVERE ] setting player 2 freeze to 1000
+[14:33:08.687] [SEVERE ] setting player 2 freeze to 0
+[14:33:08.687] [SEVERE ] removing player 2 token from slot 6
+[14:33:08.687] [SEVERE ] removing player 2 token from slot 8
+[14:33:08.687] [SEVERE ] removing player 2 token from slot 1
+[14:33:08.687] [INFO   ] remove  in the table step 1
+[14:33:08.687] [INFO   ] remove  in the table step 2
+[14:33:08.687] [INFO   ] removecardthere is no!!!! set
+[14:33:08.687] [SEVERE ] setting player 1 freeze to 3000
+[14:33:09.690] [SEVERE ] setting player 1 freeze to 2000
+[14:33:10.695] [SEVERE ] setting player 1 freeze to 1000
+[14:33:11.697] [SEVERE ] setting player 1 freeze to 0
+[14:33:11.697] [INFO   ] remove  in the table step 1
+[14:33:11.697] [INFO   ] remove  in the table step 2
+[14:33:11.697] [INFO   ] removecardthere is no!!!! set
+[14:33:11.697] [SEVERE ] setting player 2 freeze to 3000
+[14:33:12.703] [SEVERE ] setting player 2 freeze to 2000
+[14:33:13.711] [SEVERE ] setting player 2 freeze to 1000
+[14:33:14.726] [SEVERE ] setting player 2 freeze to 0
+[14:33:14.726] [INFO   ] remove  in the table step 1
+[14:33:14.726] [INFO   ] remove  in the table step 2
+[14:33:14.726] [SEVERE ] updating countdown to 60000
+[14:33:14.726] [INFO   ] before place card 
+[14:33:14.945] [INFO   ] place card step 0 
+[14:33:14.945] [INFO   ] place card step 1 
+[14:33:15.055] [SEVERE ] placing card 41 in slot 2
+[14:33:15.165] [SEVERE ] placing card 0 in slot 3
+[14:33:15.274] [SEVERE ] placing card 80 in slot 11
+[14:33:15.274] [INFO   ] place card step 2 
+[14:33:15.274] [INFO   ] place card step 3 
+[14:33:15.274] [INFO   ] place card step 4 
+[14:33:16.275] [SEVERE ] updating countdown to 58451
+[14:33:16.495] [INFO   ] before place card 
+[14:33:16.714] [INFO   ] place card step 0 
+[14:33:16.714] [INFO   ] place card step 1 
+[14:33:16.714] [INFO   ] place card step 2 
+[14:33:16.714] [INFO   ] place card step 3 
+[14:33:16.714] [INFO   ] place card step 4 
+[14:33:17.718] [SEVERE ] updating countdown to 57008
+[14:33:17.937] [INFO   ] before place card 
+[14:33:17.999] [SEVERE ] exit button pressed
+[14:33:17.999] [INFO   ] thread Thread-0 terminated.
+[14:33:17.999] [INFO   ] thread Thread-1 terminated.
+[14:33:18.156] [INFO   ] place card step 0 
+[14:33:18.156] [INFO   ] place card step 1 
+[14:33:18.156] [INFO   ] place card step 2 
+[14:33:18.156] [INFO   ] place card step 3 
+[14:33:18.156] [INFO   ] place card step 4 
+[14:33:18.156] [SEVERE ] updating countdown to 60000
+[14:33:18.156] [INFO   ] remove  in the table step 1
+[14:33:18.156] [INFO   ] remove  in the table step 2
+[14:33:18.156] [INFO   ] remove  in the table step 1
+[14:33:18.156] [INFO   ] remove  in the table step 2
+[14:33:18.266] [SEVERE ] removing card from slot 0
+[14:33:18.375] [SEVERE ] removing card from slot 1
+[14:33:18.485] [SEVERE ] removing card from slot 2
+[14:33:18.594] [SEVERE ] removing card from slot 3
+[14:33:18.704] [SEVERE ] removing card from slot 4
+[14:33:18.813] [SEVERE ] removing card from slot 5
+[14:33:18.923] [SEVERE ] removing card from slot 6
+[14:33:19.032] [SEVERE ] removing card from slot 7
+[14:33:19.141] [SEVERE ] removing card from slot 8
+[14:33:19.250] [SEVERE ] removing card from slot 9
+[14:33:19.360] [SEVERE ] removing card from slot 10
+[14:33:19.469] [SEVERE ] removing card from slot 11
+[14:33:19.469] [SEVERE ] announcing winner(s): player 1, player 1
+[14:33:19.469] [INFO   ] thread dealer terminated.
+[14:33:19.469] [INFO   ] thread dealer terminated.
+[14:33:19.469] [SEVERE ] thanks for playing... it was fun!
+[14:33:19.469] [INFO   ] thread main terminated.

@@ -1,0 +1,243 @@
+[13:11:38.975] [INFO   ] thread main starting.
+[13:11:38.992] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[13:11:38.992] [SEVERE ] configuration file was loaded from resources directory.
+[13:11:39.647] [INFO   ] thread dealer starting.
+[13:11:39.647] [INFO   ] thread dealer starting.
+[13:11:39.648] [SEVERE ] updating countdown to 60000
+[13:11:39.648] [INFO   ] thread Thread-1 starting.
+[13:11:39.648] [INFO   ] thread Thread-0 starting.
+[13:11:39.649] [SEVERE ] setting player 1 freeze to 100
+[13:11:39.761] [SEVERE ] setting player 2 freeze to 100
+[13:11:39.870] [INFO   ] place card step 0 
+[13:11:39.871] [INFO   ] place card step 1 
+[13:11:39.980] [SEVERE ] placing card 12 in slot 0
+[13:11:40.089] [SEVERE ] placing card 77 in slot 1
+[13:11:40.192] [SEVERE ] placing card 6 in slot 2
+[13:11:40.306] [SEVERE ] placing card 75 in slot 3
+[13:11:40.408] [SEVERE ] placing card 61 in slot 4
+[13:11:40.524] [SEVERE ] placing card 79 in slot 5
+[13:11:40.641] [SEVERE ] placing card 37 in slot 6
+[13:11:40.758] [SEVERE ] placing card 15 in slot 7
+[13:11:40.874] [SEVERE ] placing card 22 in slot 8
+[13:11:40.990] [SEVERE ] placing card 20 in slot 9
+[13:11:41.099] [SEVERE ] placing card 30 in slot 10
+[13:11:41.209] [SEVERE ] placing card 43 in slot 11
+[13:11:41.209] [INFO   ] place card step 2 
+[13:11:41.209] [INFO   ] place card step 3 
+[13:11:41.209] [INFO   ] place card step 4 
+[13:11:42.211] [SEVERE ] updating countdown to 57438
+[13:11:42.212] [SEVERE ] setting player 1 freeze to 100
+[13:11:42.321] [SEVERE ] setting player 2 freeze to 100
+[13:11:42.430] [INFO   ] before place card 
+[13:11:42.430] [SEVERE ] setting player 1 freeze to 100
+[13:11:42.539] [SEVERE ] setting player 2 freeze to 100
+[13:11:42.649] [INFO   ] place card step 0 
+[13:11:42.649] [INFO   ] place card step 1 
+[13:11:42.649] [INFO   ] place card step 2 
+[13:11:42.649] [INFO   ] place card step 3 
+[13:11:42.649] [INFO   ] place card step 4 
+[13:11:43.650] [SEVERE ] updating countdown to 55999
+[13:11:43.650] [SEVERE ] setting player 1 freeze to 100
+[13:11:43.760] [SEVERE ] setting player 2 freeze to 100
+[13:11:43.870] [INFO   ] before place card 
+[13:11:43.870] [SEVERE ] setting player 1 freeze to 100
+[13:11:43.980] [SEVERE ] setting player 2 freeze to 100
+[13:11:44.090] [INFO   ] place card step 0 
+[13:11:44.090] [INFO   ] place card step 1 
+[13:11:44.090] [INFO   ] place card step 2 
+[13:11:44.090] [INFO   ] place card step 3 
+[13:11:44.090] [INFO   ] place card step 4 
+[13:11:45.092] [SEVERE ] updating countdown to 54557
+[13:11:45.092] [SEVERE ] setting player 1 freeze to 100
+[13:11:45.201] [SEVERE ] setting player 2 freeze to 100
+[13:11:45.311] [INFO   ] before place card 
+[13:11:45.311] [SEVERE ] setting player 1 freeze to 100
+[13:11:45.420] [SEVERE ] setting player 2 freeze to 100
+[13:11:45.530] [INFO   ] place card step 0 
+[13:11:45.530] [INFO   ] place card step 1 
+[13:11:45.530] [INFO   ] place card step 2 
+[13:11:45.530] [INFO   ] place card step 3 
+[13:11:45.530] [INFO   ] place card step 4 
+[13:11:46.532] [SEVERE ] updating countdown to 53117
+[13:11:46.532] [SEVERE ] setting player 1 freeze to 100
+[13:11:46.642] [SEVERE ] setting player 2 freeze to 100
+[13:11:46.751] [INFO   ] before place card 
+[13:11:46.751] [SEVERE ] setting player 1 freeze to 100
+[13:11:46.862] [SEVERE ] setting player 2 freeze to 100
+[13:11:46.972] [INFO   ] place card step 0 
+[13:11:46.972] [INFO   ] place card step 1 
+[13:11:46.972] [INFO   ] place card step 2 
+[13:11:46.973] [INFO   ] place card step 3 
+[13:11:46.973] [INFO   ] place card step 4 
+[13:11:47.504] [SEVERE ] key 65 was pressed by player 1
+[13:11:47.504] [SEVERE ] player 1 placing token on slot 4
+[13:11:47.973] [SEVERE ] updating countdown to 51676
+[13:11:47.973] [SEVERE ] setting player 1 freeze to 100
+[13:11:48.083] [SEVERE ] setting player 2 freeze to 100
+[13:11:48.192] [INFO   ] before place card 
+[13:11:48.192] [SEVERE ] setting player 1 freeze to 100
+[13:11:48.303] [SEVERE ] setting player 2 freeze to 100
+[13:11:48.399] [SEVERE ] key 68 was pressed by player 1
+[13:11:48.399] [SEVERE ] player 1 placing token on slot 6
+[13:11:48.415] [INFO   ] place card step 0 
+[13:11:48.415] [INFO   ] place card step 1 
+[13:11:48.415] [INFO   ] place card step 2 
+[13:11:48.415] [INFO   ] place card step 3 
+[13:11:48.415] [INFO   ] place card step 4 
+[13:11:49.043] [SEVERE ] key 90 was pressed by player 1
+[13:11:49.043] [SEVERE ] player 1 placing token on slot 8
+[13:11:49.043] [SEVERE ] updating countdown to 50606
+[13:11:49.043] [SEVERE ] setting player 1 freeze to 100
+[13:11:49.151] [SEVERE ] setting player 2 freeze to 100
+[13:11:49.261] [INFO   ] point step 1
+[13:11:49.261] [SEVERE ] setting player 1 score to 1
+[13:11:49.261] [SEVERE ] setting player 1 freeze to 1000
+[13:11:49.261] [INFO   ] point step 2
+[13:11:50.267] [SEVERE ] setting player 1 freeze to 0
+[13:11:50.267] [SEVERE ] removing player 1 token from slot 4
+[13:11:50.376] [SEVERE ] removing card from slot 4
+[13:11:50.376] [SEVERE ] removing player 1 token from slot 6
+[13:11:50.486] [SEVERE ] removing card from slot 6
+[13:11:50.486] [SEVERE ] removing player 1 token from slot 8
+[13:11:50.595] [SEVERE ] removing card from slot 8
+[13:11:50.595] [INFO   ] remove  in the table step 1
+[13:11:50.595] [INFO   ] remove  in the table step 2
+[13:11:50.595] [SEVERE ] updating countdown to 60000
+[13:11:50.595] [INFO   ] before place card 
+[13:11:50.595] [SEVERE ] setting player 1 freeze to 100
+[13:11:50.705] [SEVERE ] setting player 2 freeze to 100
+[13:11:50.814] [INFO   ] place card step 0 
+[13:11:50.814] [INFO   ] place card step 1 
+[13:11:50.924] [SEVERE ] placing card 28 in slot 4
+[13:11:51.033] [SEVERE ] placing card 1 in slot 6
+[13:11:51.142] [SEVERE ] placing card 52 in slot 8
+[13:11:51.142] [INFO   ] place card step 2 
+[13:11:51.142] [INFO   ] place card step 3 
+[13:11:51.142] [INFO   ] place card step 4 
+[13:11:51.142] [SEVERE ] updating countdown to 59453
+[13:11:51.142] [SEVERE ] setting player 1 freeze to 100
+[13:11:51.252] [SEVERE ] setting player 2 freeze to 100
+[13:11:51.360] [SEVERE ] setting player 1 freeze to 3000
+[13:11:52.376] [SEVERE ] setting player 1 freeze to 2000
+[13:11:53.379] [SEVERE ] setting player 1 freeze to 1000
+[13:11:54.381] [SEVERE ] setting player 1 freeze to 0
+[13:11:54.381] [INFO   ] remove  in the table step 1
+[13:11:54.381] [INFO   ] remove  in the table step 2
+[13:11:54.381] [INFO   ] before place card 
+[13:11:54.381] [SEVERE ] setting player 1 freeze to 100
+[13:11:54.490] [SEVERE ] setting player 2 freeze to 100
+[13:11:54.600] [INFO   ] place card step 0 
+[13:11:54.600] [INFO   ] place card step 1 
+[13:11:54.600] [INFO   ] place card step 2 
+[13:11:54.600] [INFO   ] place card step 3 
+[13:11:54.600] [INFO   ] place card step 4 
+[13:11:55.604] [SEVERE ] updating countdown to 54991
+[13:11:55.605] [SEVERE ] setting player 1 freeze to 100
+[13:11:55.712] [SEVERE ] setting player 2 freeze to 100
+[13:11:55.822] [INFO   ] before place card 
+[13:11:55.822] [SEVERE ] setting player 1 freeze to 100
+[13:11:55.931] [SEVERE ] setting player 2 freeze to 100
+[13:11:56.041] [INFO   ] place card step 0 
+[13:11:56.041] [INFO   ] place card step 1 
+[13:11:56.041] [INFO   ] place card step 2 
+[13:11:56.041] [INFO   ] place card step 3 
+[13:11:56.041] [INFO   ] place card step 4 
+[13:11:57.042] [SEVERE ] updating countdown to 53553
+[13:11:57.042] [SEVERE ] setting player 1 freeze to 100
+[13:11:57.151] [SEVERE ] setting player 2 freeze to 100
+[13:11:57.261] [INFO   ] before place card 
+[13:11:57.261] [SEVERE ] setting player 1 freeze to 100
+[13:11:57.370] [SEVERE ] setting player 2 freeze to 100
+[13:11:57.480] [INFO   ] place card step 0 
+[13:11:57.480] [INFO   ] place card step 1 
+[13:11:57.480] [INFO   ] place card step 2 
+[13:11:57.480] [INFO   ] place card step 3 
+[13:11:57.480] [INFO   ] place card step 4 
+[13:11:58.495] [SEVERE ] updating countdown to 52100
+[13:11:58.495] [SEVERE ] setting player 1 freeze to 100
+[13:11:58.605] [SEVERE ] setting player 2 freeze to 100
+[13:11:58.714] [INFO   ] before place card 
+[13:11:58.714] [SEVERE ] setting player 1 freeze to 100
+[13:11:58.823] [SEVERE ] setting player 2 freeze to 100
+[13:11:58.933] [INFO   ] place card step 0 
+[13:11:58.933] [INFO   ] place card step 1 
+[13:11:58.933] [INFO   ] place card step 2 
+[13:11:58.933] [INFO   ] place card step 3 
+[13:11:58.933] [INFO   ] place card step 4 
+[13:11:59.934] [SEVERE ] updating countdown to 50661
+[13:11:59.934] [SEVERE ] setting player 1 freeze to 100
+[13:12:00.044] [SEVERE ] setting player 2 freeze to 100
+[13:12:00.154] [INFO   ] before place card 
+[13:12:00.154] [SEVERE ] setting player 1 freeze to 100
+[13:12:00.264] [SEVERE ] setting player 2 freeze to 100
+[13:12:00.374] [INFO   ] place card step 0 
+[13:12:00.374] [INFO   ] place card step 1 
+[13:12:00.374] [INFO   ] place card step 2 
+[13:12:00.374] [INFO   ] place card step 3 
+[13:12:00.374] [INFO   ] place card step 4 
+[13:12:01.376] [SEVERE ] updating countdown to 49219
+[13:12:01.376] [SEVERE ] setting player 1 freeze to 100
+[13:12:01.485] [SEVERE ] setting player 2 freeze to 100
+[13:12:01.595] [INFO   ] before place card 
+[13:12:01.595] [SEVERE ] setting player 1 freeze to 100
+[13:12:01.705] [SEVERE ] setting player 2 freeze to 100
+[13:12:01.814] [INFO   ] place card step 0 
+[13:12:01.814] [INFO   ] place card step 1 
+[13:12:01.814] [INFO   ] place card step 2 
+[13:12:01.814] [INFO   ] place card step 3 
+[13:12:01.814] [INFO   ] place card step 4 
+[13:12:02.825] [SEVERE ] updating countdown to 47770
+[13:12:02.825] [SEVERE ] setting player 1 freeze to 100
+[13:12:02.934] [SEVERE ] setting player 2 freeze to 100
+[13:12:03.044] [INFO   ] before place card 
+[13:12:03.044] [SEVERE ] setting player 1 freeze to 100
+[13:12:03.153] [SEVERE ] setting player 2 freeze to 100
+[13:12:03.262] [INFO   ] place card step 0 
+[13:12:03.262] [INFO   ] place card step 1 
+[13:12:03.262] [INFO   ] place card step 2 
+[13:12:03.262] [INFO   ] place card step 3 
+[13:12:03.262] [INFO   ] place card step 4 
+[13:12:04.264] [SEVERE ] updating countdown to 46331
+[13:12:04.264] [SEVERE ] setting player 1 freeze to 100
+[13:12:04.280] [SEVERE ] exit button pressed
+[13:12:04.280] [INFO   ] thread Thread-0 terminated.
+[13:12:04.280] [INFO   ] thread Thread-1 terminated.
+[13:12:04.373] [SEVERE ] setting player 2 freeze to 100
+[13:12:04.483] [SEVERE ] setting player 1 freeze to 3000
+[13:12:05.486] [SEVERE ] setting player 1 freeze to 2000
+[13:12:06.489] [SEVERE ] setting player 1 freeze to 1000
+[13:12:07.490] [SEVERE ] setting player 1 freeze to 0
+[13:12:07.490] [INFO   ] remove  in the table step 1
+[13:12:07.490] [INFO   ] remove  in the table step 2
+[13:12:07.490] [SEVERE ] setting player 2 freeze to 3000
+[13:12:08.494] [SEVERE ] setting player 2 freeze to 2000
+[13:12:09.497] [SEVERE ] setting player 2 freeze to 1000
+[13:12:10.499] [SEVERE ] setting player 2 freeze to 0
+[13:12:10.499] [INFO   ] remove  in the table step 1
+[13:12:10.499] [INFO   ] remove  in the table step 2
+[13:12:10.499] [INFO   ] before place card 
+[13:12:10.499] [SEVERE ] setting player 1 freeze to 100
+[13:12:10.609] [SEVERE ] setting player 2 freeze to 100
+[13:12:10.719] [INFO   ] place card step 0 
+[13:12:10.719] [INFO   ] place card step 1 
+[13:12:10.719] [INFO   ] place card step 2 
+[13:12:10.719] [INFO   ] place card step 3 
+[13:12:10.719] [INFO   ] place card step 4 
+[13:12:10.719] [SEVERE ] updating countdown to 60000
+[13:12:10.828] [SEVERE ] removing card from slot 0
+[13:12:10.938] [SEVERE ] removing card from slot 1
+[13:12:11.047] [SEVERE ] removing card from slot 2
+[13:12:11.157] [SEVERE ] removing card from slot 3
+[13:12:11.266] [SEVERE ] removing card from slot 4
+[13:12:11.376] [SEVERE ] removing card from slot 5
+[13:12:11.485] [SEVERE ] removing card from slot 6
+[13:12:11.596] [SEVERE ] removing card from slot 7
+[13:12:11.706] [SEVERE ] removing card from slot 8
+[13:12:11.817] [SEVERE ] removing card from slot 9
+[13:12:11.927] [SEVERE ] removing card from slot 10
+[13:12:12.036] [SEVERE ] removing card from slot 11
+[13:12:12.036] [SEVERE ] announcing winner(s): player 1, player 1
+[13:12:12.036] [INFO   ] thread dealer terminated.
+[13:12:12.036] [INFO   ] thread dealer terminated.
+[13:12:12.036] [SEVERE ] thanks for playing... it was fun!
+[13:12:12.036] [INFO   ] thread main terminated.

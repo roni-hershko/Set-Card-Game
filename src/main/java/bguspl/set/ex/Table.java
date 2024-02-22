@@ -151,6 +151,10 @@ public class Table {
     }
 
     public void removeQueuePlayers(Player player) { 
-        playersQueue.remove(player);
+		env.logger.info("remove  in the table step 1" );
+		if (playersQueue.contains(player))
+        	playersQueue.remove(player);
+		env.logger.info("remove  in the table step 2" );
+
     }
 }
