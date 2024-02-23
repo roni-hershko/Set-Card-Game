@@ -1,0 +1,3829 @@
+[12:30:29.707] [INFO   ] thread main starting.
+[12:30:29.716] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[12:30:29.719] [SEVERE ] configuration file was loaded from resources directory.
+[12:30:30.387] [INFO   ] thread dealer starting.
+[12:30:30.388] [INFO   ] thread dealer starting.
+[12:30:30.389] [INFO   ] thread Thread-0 starting.
+[12:30:30.390] [INFO   ] creat AI step 1 
+[12:30:30.390] [INFO   ] thread computer-0 starting.
+[12:30:30.390] [INFO   ] creat AI step 2 
+[12:30:30.391] [INFO   ] creat AI step 3 
+[12:30:30.391] [INFO   ] thread Thread-0wip1
+[12:30:30.392] [INFO   ] thread Thread-1 starting.
+[12:30:30.391] [INFO   ] creat AI step 7 
+[12:30:30.393] [INFO   ] thread Thread-0wip2
+[12:30:30.394] [INFO   ] creat AI step 1 
+[12:30:30.394] [INFO   ] AI key pressed step 1 
+[12:30:30.394] [INFO   ] thread computer-1 starting.
+[12:30:30.394] [INFO   ] thread Thread-0wip3
+[12:30:30.394] [INFO   ] creat AI step 2 
+[12:30:30.395] [INFO   ] AI key pressed step 2 
+[12:30:30.394] [INFO   ] thread Thread-0wip4
+[12:30:30.395] [INFO   ] KP step 1computer-0
+[12:30:30.395] [INFO   ] thread Thread-1wip1
+[12:30:30.395] [SEVERE ] updating countdown to 60000
+[12:30:30.395] [INFO   ] creat AI step 3 
+[12:30:30.395] [INFO   ] thread Thread-1wip2
+[12:30:30.395] [INFO   ] KP step 10computer-0
+[12:30:30.396] [INFO   ] thread Thread-1wip3
+[12:30:30.396] [INFO   ] AI key pressed step 3, random slot: 0
+[12:30:30.396] [INFO   ] thread Thread-1wip4
+[12:30:30.396] [INFO   ] creat AI step 8 
+[12:30:30.397] [INFO   ] creat AI step 7 
+[12:30:30.397] [INFO   ] AI key pressed step 1 
+[12:30:30.397] [INFO   ] creat AI step 9 
+[12:30:30.397] [INFO   ] AI key pressed step 2 
+[12:30:30.398] [INFO   ] thread Thread-0wip5
+[12:30:30.398] [INFO   ] KP step 1computer-1
+[12:30:30.398] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.399] [INFO   ] KP step 10computer-1
+[12:30:30.399] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.399] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.400] [INFO   ] creat AI step 8 
+[12:30:30.400] [INFO   ] creat AI step 9 
+[12:30:30.399] [INFO   ] thread Thread-0wip3
+[12:30:30.400] [INFO   ] thread Thread-0wip4
+[12:30:30.401] [INFO   ] creat AI step 10 
+[12:30:30.401] [INFO   ] creat AI step 11 
+[12:30:30.401] [INFO   ] creat AI step 3 
+[12:30:30.401] [INFO   ] creat AI step 7 
+[12:30:30.400] [INFO   ] thread Thread-1wip5
+[12:30:30.401] [INFO   ] AI key pressed step 1 
+[12:30:30.402] [INFO   ] AI key pressed step 2 
+[12:30:30.402] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.402] [INFO   ] KP step 1computer-0
+[12:30:30.403] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.403] [INFO   ] KP step 10computer-0
+[12:30:30.403] [INFO   ] thread Thread-1wip3
+[12:30:30.404] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.404] [INFO   ] creat AI step 8 
+[12:30:30.404] [INFO   ] creat AI step 9 
+[12:30:30.404] [INFO   ] thread Thread-0wip5
+[12:30:30.404] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.404] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.404] [INFO   ] thread Thread-0wip3
+[12:30:30.406] [INFO   ] thread Thread-0wip4
+[12:30:30.406] [INFO   ] creat AI step 10 
+[12:30:30.404] [INFO   ] thread Thread-1wip4
+[12:30:30.406] [INFO   ] creat AI step 11 
+[12:30:30.407] [INFO   ] creat AI step 3 
+[12:30:30.407] [INFO   ] creat AI step 7 
+[12:30:30.407] [INFO   ] AI key pressed step 1 
+[12:30:30.407] [INFO   ] AI key pressed step 2 
+[12:30:30.407] [INFO   ] KP step 1computer-0
+[12:30:30.407] [INFO   ] KP step 10computer-0
+[12:30:30.407] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.407] [INFO   ] creat AI step 8 
+[12:30:30.408] [INFO   ] creat AI step 9 
+[12:30:30.408] [INFO   ] thread Thread-0wip5
+[12:30:30.408] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.408] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.406] [INFO   ] creat AI step 10 
+[12:30:30.408] [INFO   ] thread Thread-0wip3
+[12:30:30.409] [INFO   ] thread Thread-0wip4
+[12:30:30.409] [INFO   ] creat AI step 10 
+[12:30:30.409] [INFO   ] creat AI step 11 
+[12:30:30.409] [INFO   ] creat AI step 11 
+[12:30:30.409] [INFO   ] creat AI step 3 
+[12:30:30.410] [INFO   ] creat AI step 7 
+[12:30:30.410] [INFO   ] AI key pressed step 1 
+[12:30:30.410] [INFO   ] creat AI step 3 
+[12:30:30.410] [INFO   ] AI key pressed step 2 
+[12:30:30.410] [INFO   ] KP step 1computer-0
+[12:30:30.410] [INFO   ] creat AI step 7 
+[12:30:30.410] [INFO   ] KP step 10computer-0
+[12:30:30.411] [INFO   ] AI key pressed step 1 
+[12:30:30.411] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.411] [INFO   ] creat AI step 8 
+[12:30:30.411] [INFO   ] creat AI step 9 
+[12:30:30.411] [INFO   ] AI key pressed step 2 
+[12:30:30.412] [INFO   ] thread Thread-0wip5
+[12:30:30.412] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.412] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.412] [INFO   ] thread Thread-0wip3
+[12:30:30.412] [INFO   ] thread Thread-0wip4
+[12:30:30.412] [INFO   ] creat AI step 10 
+[12:30:30.412] [INFO   ] creat AI step 11 
+[12:30:30.412] [INFO   ] creat AI step 3 
+[12:30:30.413] [INFO   ] creat AI step 7 
+[12:30:30.413] [INFO   ] AI key pressed step 1 
+[12:30:30.413] [INFO   ] AI key pressed step 2 
+[12:30:30.413] [INFO   ] KP step 1computer-0
+[12:30:30.413] [INFO   ] KP step 10computer-0
+[12:30:30.414] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.414] [INFO   ] creat AI step 8 
+[12:30:30.414] [INFO   ] creat AI step 9 
+[12:30:30.412] [INFO   ] KP step 1computer-1
+[12:30:30.414] [INFO   ] thread Thread-0wip5
+[12:30:30.414] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.415] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.415] [INFO   ] thread Thread-0wip3
+[12:30:30.415] [INFO   ] thread Thread-0wip4
+[12:30:30.414] [INFO   ] KP step 10computer-1
+[12:30:30.415] [INFO   ] creat AI step 10 
+[12:30:30.415] [INFO   ] creat AI step 11 
+[12:30:30.415] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.416] [INFO   ] creat AI step 8 
+[12:30:30.415] [INFO   ] creat AI step 3 
+[12:30:30.416] [INFO   ] creat AI step 9 
+[12:30:30.416] [INFO   ] creat AI step 7 
+[12:30:30.417] [INFO   ] AI key pressed step 1 
+[12:30:30.417] [INFO   ] AI key pressed step 2 
+[12:30:30.417] [INFO   ] KP step 1computer-0
+[12:30:30.417] [INFO   ] KP step 10computer-0
+[12:30:30.418] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.418] [INFO   ] creat AI step 8 
+[12:30:30.418] [INFO   ] creat AI step 9 
+[12:30:30.418] [INFO   ] thread Thread-0wip5
+[12:30:30.418] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.418] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.418] [INFO   ] thread Thread-1wip5
+[12:30:30.418] [INFO   ] thread Thread-0wip3
+[12:30:30.419] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.419] [INFO   ] thread Thread-0wip4
+[12:30:30.419] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.419] [INFO   ] creat AI step 10 
+[12:30:30.419] [INFO   ] creat AI step 11 
+[12:30:30.420] [INFO   ] creat AI step 3 
+[12:30:30.419] [INFO   ] thread Thread-1wip3
+[12:30:30.420] [INFO   ] creat AI step 7 
+[12:30:30.420] [INFO   ] AI key pressed step 1 
+[12:30:30.420] [INFO   ] AI key pressed step 2 
+[12:30:30.420] [INFO   ] thread Thread-1wip4
+[12:30:30.420] [INFO   ] KP step 1computer-0
+[12:30:30.421] [INFO   ] KP step 10computer-0
+[12:30:30.421] [INFO   ] creat AI step 10 
+[12:30:30.421] [INFO   ] AI key pressed step 3, random slot: 0
+[12:30:30.421] [INFO   ] creat AI step 11 
+[12:30:30.421] [INFO   ] creat AI step 8 
+[12:30:30.421] [INFO   ] creat AI step 9 
+[12:30:30.421] [INFO   ] creat AI step 3 
+[12:30:30.421] [INFO   ] thread Thread-0wip5
+[12:30:30.422] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.422] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.422] [INFO   ] thread Thread-0wip3
+[12:30:30.422] [INFO   ] creat AI step 7 
+[12:30:30.422] [INFO   ] thread Thread-0wip4
+[12:30:30.422] [INFO   ] AI key pressed step 1 
+[12:30:30.423] [INFO   ] creat AI step 10 
+[12:30:30.423] [INFO   ] creat AI step 11 
+[12:30:30.423] [INFO   ] creat AI step 3 
+[12:30:30.423] [INFO   ] creat AI step 7 
+[12:30:30.423] [INFO   ] AI key pressed step 1 
+[12:30:30.423] [INFO   ] AI key pressed step 2 
+[12:30:30.423] [INFO   ] KP step 1computer-0
+[12:30:30.423] [INFO   ] KP step 10computer-0
+[12:30:30.423] [INFO   ] AI key pressed step 2 
+[12:30:30.424] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.424] [INFO   ] creat AI step 8 
+[12:30:30.424] [INFO   ] creat AI step 9 
+[12:30:30.424] [INFO   ] thread Thread-0wip5
+[12:30:30.424] [INFO   ] KP step 1computer-1
+[12:30:30.424] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.426] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.426] [INFO   ] thread Thread-0wip3
+[12:30:30.426] [INFO   ] thread Thread-0wip4
+[12:30:30.426] [INFO   ] creat AI step 10 
+[12:30:30.426] [INFO   ] creat AI step 11 
+[12:30:30.426] [INFO   ] creat AI step 3 
+[12:30:30.426] [INFO   ] creat AI step 7 
+[12:30:30.426] [INFO   ] AI key pressed step 1 
+[12:30:30.427] [INFO   ] AI key pressed step 2 
+[12:30:30.427] [INFO   ] KP step 1computer-0
+[12:30:30.427] [INFO   ] KP step 10computer-0
+[12:30:30.427] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.427] [INFO   ] creat AI step 8 
+[12:30:30.427] [INFO   ] creat AI step 9 
+[12:30:30.427] [INFO   ] thread Thread-0wip5
+[12:30:30.427] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.428] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.428] [INFO   ] thread Thread-0wip3
+[12:30:30.428] [INFO   ] thread Thread-0wip4
+[12:30:30.428] [INFO   ] creat AI step 10 
+[12:30:30.428] [INFO   ] creat AI step 11 
+[12:30:30.428] [INFO   ] creat AI step 3 
+[12:30:30.428] [INFO   ] creat AI step 7 
+[12:30:30.428] [INFO   ] AI key pressed step 1 
+[12:30:30.428] [INFO   ] AI key pressed step 2 
+[12:30:30.428] [INFO   ] KP step 1computer-0
+[12:30:30.428] [INFO   ] KP step 10computer-0
+[12:30:30.428] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.428] [INFO   ] creat AI step 8 
+[12:30:30.429] [INFO   ] creat AI step 9 
+[12:30:30.429] [INFO   ] thread Thread-0wip5
+[12:30:30.429] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.429] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.430] [INFO   ] thread Thread-0wip3
+[12:30:30.430] [INFO   ] thread Thread-0wip4
+[12:30:30.430] [INFO   ] creat AI step 10 
+[12:30:30.430] [INFO   ] creat AI step 11 
+[12:30:30.430] [INFO   ] creat AI step 3 
+[12:30:30.430] [INFO   ] creat AI step 7 
+[12:30:30.430] [INFO   ] AI key pressed step 1 
+[12:30:30.430] [INFO   ] AI key pressed step 2 
+[12:30:30.430] [INFO   ] KP step 1computer-0
+[12:30:30.430] [INFO   ] KP step 10computer-0
+[12:30:30.430] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.430] [INFO   ] creat AI step 8 
+[12:30:30.430] [INFO   ] creat AI step 9 
+[12:30:30.431] [INFO   ] thread Thread-0wip5
+[12:30:30.431] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.431] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.431] [INFO   ] thread Thread-0wip3
+[12:30:30.431] [INFO   ] thread Thread-0wip4
+[12:30:30.431] [INFO   ] creat AI step 10 
+[12:30:30.431] [INFO   ] creat AI step 11 
+[12:30:30.432] [INFO   ] creat AI step 3 
+[12:30:30.432] [INFO   ] creat AI step 7 
+[12:30:30.432] [INFO   ] AI key pressed step 1 
+[12:30:30.432] [INFO   ] AI key pressed step 2 
+[12:30:30.432] [INFO   ] KP step 1computer-0
+[12:30:30.432] [INFO   ] KP step 10computer-0
+[12:30:30.432] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.432] [INFO   ] creat AI step 8 
+[12:30:30.432] [INFO   ] creat AI step 9 
+[12:30:30.432] [INFO   ] thread Thread-0wip5
+[12:30:30.432] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.432] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.432] [INFO   ] thread Thread-0wip3
+[12:30:30.433] [INFO   ] thread Thread-0wip4
+[12:30:30.426] [INFO   ] KP step 10computer-1
+[12:30:30.434] [INFO   ] creat AI step 10 
+[12:30:30.434] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.434] [INFO   ] creat AI step 11 
+[12:30:30.435] [INFO   ] creat AI step 8 
+[12:30:30.435] [INFO   ] creat AI step 3 
+[12:30:30.435] [INFO   ] creat AI step 9 
+[12:30:30.435] [INFO   ] creat AI step 7 
+[12:30:30.435] [INFO   ] thread Thread-1wip5
+[12:30:30.436] [INFO   ] AI key pressed step 1 
+[12:30:30.436] [INFO   ] AI key pressed step 2 
+[12:30:30.436] [INFO   ] KP step 1computer-0
+[12:30:30.436] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.436] [INFO   ] KP step 10computer-0
+[12:30:30.436] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.437] [INFO   ] AI key pressed step 3, random slot: 0
+[12:30:30.437] [INFO   ] creat AI step 8 
+[12:30:30.437] [INFO   ] thread Thread-1wip3
+[12:30:30.437] [INFO   ] creat AI step 9 
+[12:30:30.437] [INFO   ] thread Thread-1wip4
+[12:30:30.437] [INFO   ] thread Thread-0wip5
+[12:30:30.437] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.437] [INFO   ] creat AI step 10 
+[12:30:30.438] [INFO   ] creat AI step 11 
+[12:30:30.438] [INFO   ] creat AI step 3 
+[12:30:30.437] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.438] [INFO   ] creat AI step 7 
+[12:30:30.439] [INFO   ] AI key pressed step 1 
+[12:30:30.438] [INFO   ] thread Thread-0wip3
+[12:30:30.439] [INFO   ] AI key pressed step 2 
+[12:30:30.439] [INFO   ] thread Thread-0wip4
+[12:30:30.439] [INFO   ] KP step 1computer-1
+[12:30:30.439] [INFO   ] creat AI step 10 
+[12:30:30.439] [INFO   ] KP step 10computer-1
+[12:30:30.439] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.439] [INFO   ] creat AI step 11 
+[12:30:30.440] [INFO   ] creat AI step 3 
+[12:30:30.440] [INFO   ] creat AI step 7 
+[12:30:30.440] [INFO   ] AI key pressed step 1 
+[12:30:30.440] [INFO   ] AI key pressed step 2 
+[12:30:30.441] [INFO   ] KP step 1computer-0
+[12:30:30.441] [INFO   ] KP step 10computer-0
+[12:30:30.441] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.440] [INFO   ] creat AI step 8 
+[12:30:30.441] [INFO   ] creat AI step 8 
+[12:30:30.441] [INFO   ] creat AI step 9 
+[12:30:30.441] [INFO   ] creat AI step 9 
+[12:30:30.441] [INFO   ] thread Thread-1wip5
+[12:30:30.441] [INFO   ] thread Thread-0wip5
+[12:30:30.442] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.442] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.442] [INFO   ] thread Thread-1wip3
+[12:30:30.442] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.443] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.443] [INFO   ] thread Thread-0wip3
+[12:30:30.443] [INFO   ] thread Thread-0wip4
+[12:30:30.443] [INFO   ] creat AI step 10 
+[12:30:30.443] [INFO   ] creat AI step 11 
+[12:30:30.443] [INFO   ] creat AI step 3 
+[12:30:30.443] [INFO   ] creat AI step 7 
+[12:30:30.443] [INFO   ] AI key pressed step 1 
+[12:30:30.443] [INFO   ] AI key pressed step 2 
+[12:30:30.443] [INFO   ] KP step 1computer-0
+[12:30:30.443] [INFO   ] KP step 10computer-0
+[12:30:30.444] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.444] [INFO   ] creat AI step 8 
+[12:30:30.444] [INFO   ] creat AI step 9 
+[12:30:30.442] [INFO   ] thread Thread-1wip4
+[12:30:30.444] [INFO   ] thread Thread-0wip5
+[12:30:30.444] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.444] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.444] [INFO   ] thread Thread-0wip3
+[12:30:30.444] [INFO   ] thread Thread-0wip4
+[12:30:30.444] [INFO   ] creat AI step 10 
+[12:30:30.444] [INFO   ] creat AI step 11 
+[12:30:30.444] [INFO   ] creat AI step 3 
+[12:30:30.444] [INFO   ] creat AI step 7 
+[12:30:30.445] [INFO   ] AI key pressed step 1 
+[12:30:30.445] [INFO   ] AI key pressed step 2 
+[12:30:30.445] [INFO   ] KP step 1computer-0
+[12:30:30.445] [INFO   ] KP step 10computer-0
+[12:30:30.445] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.445] [INFO   ] creat AI step 8 
+[12:30:30.445] [INFO   ] creat AI step 9 
+[12:30:30.444] [INFO   ] creat AI step 10 
+[12:30:30.446] [INFO   ] thread Thread-0wip5
+[12:30:30.446] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.446] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.446] [INFO   ] thread Thread-0wip3
+[12:30:30.446] [INFO   ] thread Thread-0wip4
+[12:30:30.446] [INFO   ] creat AI step 10 
+[12:30:30.446] [INFO   ] creat AI step 11 
+[12:30:30.446] [INFO   ] creat AI step 3 
+[12:30:30.446] [INFO   ] creat AI step 7 
+[12:30:30.447] [INFO   ] AI key pressed step 1 
+[12:30:30.447] [INFO   ] AI key pressed step 2 
+[12:30:30.447] [INFO   ] KP step 1computer-0
+[12:30:30.447] [INFO   ] KP step 10computer-0
+[12:30:30.447] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.447] [INFO   ] creat AI step 8 
+[12:30:30.447] [INFO   ] creat AI step 9 
+[12:30:30.448] [INFO   ] thread Thread-0wip5
+[12:30:30.448] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.448] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.446] [INFO   ] creat AI step 11 
+[12:30:30.448] [INFO   ] creat AI step 3 
+[12:30:30.448] [INFO   ] thread Thread-0wip3
+[12:30:30.449] [INFO   ] creat AI step 7 
+[12:30:30.449] [INFO   ] thread Thread-0wip4
+[12:30:30.449] [INFO   ] AI key pressed step 1 
+[12:30:30.449] [INFO   ] creat AI step 10 
+[12:30:30.449] [INFO   ] creat AI step 11 
+[12:30:30.449] [INFO   ] AI key pressed step 2 
+[12:30:30.449] [INFO   ] creat AI step 3 
+[12:30:30.449] [INFO   ] KP step 1computer-1
+[12:30:30.449] [INFO   ] creat AI step 7 
+[12:30:30.449] [INFO   ] KP step 10computer-1
+[12:30:30.450] [INFO   ] AI key pressed step 1 
+[12:30:30.450] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.450] [INFO   ] AI key pressed step 2 
+[12:30:30.450] [INFO   ] creat AI step 8 
+[12:30:30.450] [INFO   ] KP step 1computer-0
+[12:30:30.450] [INFO   ] KP step 10computer-0
+[12:30:30.450] [INFO   ] creat AI step 9 
+[12:30:30.450] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.450] [INFO   ] thread Thread-1wip5
+[12:30:30.450] [INFO   ] creat AI step 8 
+[12:30:30.451] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.451] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.451] [INFO   ] thread Thread-1wip3
+[12:30:30.451] [INFO   ] creat AI step 9 
+[12:30:30.451] [INFO   ] thread Thread-1wip4
+[12:30:30.451] [INFO   ] thread Thread-0wip5
+[12:30:30.451] [INFO   ] creat AI step 10 
+[12:30:30.451] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.452] [INFO   ] creat AI step 11 
+[12:30:30.452] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.452] [INFO   ] thread Thread-0wip3
+[12:30:30.452] [INFO   ] thread Thread-0wip4
+[12:30:30.452] [INFO   ] creat AI step 3 
+[12:30:30.452] [INFO   ] creat AI step 10 
+[12:30:30.452] [INFO   ] creat AI step 7 
+[12:30:30.452] [INFO   ] creat AI step 11 
+[12:30:30.452] [INFO   ] AI key pressed step 1 
+[12:30:30.452] [INFO   ] creat AI step 3 
+[12:30:30.452] [INFO   ] AI key pressed step 2 
+[12:30:30.452] [INFO   ] creat AI step 7 
+[12:30:30.453] [INFO   ] KP step 1computer-1
+[12:30:30.453] [INFO   ] AI key pressed step 1 
+[12:30:30.453] [INFO   ] KP step 10computer-1
+[12:30:30.453] [INFO   ] AI key pressed step 2 
+[12:30:30.453] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.453] [INFO   ] KP step 1computer-0
+[12:30:30.453] [INFO   ] creat AI step 8 
+[12:30:30.453] [INFO   ] KP step 10computer-0
+[12:30:30.453] [INFO   ] creat AI step 9 
+[12:30:30.453] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.453] [INFO   ] thread Thread-1wip5
+[12:30:30.454] [INFO   ] creat AI step 8 
+[12:30:30.454] [INFO   ] creat AI step 9 
+[12:30:30.454] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.454] [INFO   ] thread Thread-0wip5
+[12:30:30.454] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.454] [INFO   ] thread Thread-1wip3
+[12:30:30.454] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.454] [INFO   ] thread Thread-1wip4
+[12:30:30.454] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.454] [INFO   ] creat AI step 10 
+[12:30:30.454] [INFO   ] thread Thread-0wip3
+[12:30:30.454] [INFO   ] creat AI step 11 
+[12:30:30.454] [INFO   ] thread Thread-0wip4
+[12:30:30.454] [INFO   ] creat AI step 3 
+[12:30:30.455] [INFO   ] creat AI step 7 
+[12:30:30.454] [INFO   ] creat AI step 10 
+[12:30:30.455] [INFO   ] creat AI step 11 
+[12:30:30.455] [INFO   ] AI key pressed step 1 
+[12:30:30.455] [INFO   ] AI key pressed step 2 
+[12:30:30.455] [INFO   ] KP step 1computer-1
+[12:30:30.455] [INFO   ] KP step 10computer-1
+[12:30:30.455] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.455] [INFO   ] creat AI step 3 
+[12:30:30.455] [INFO   ] creat AI step 8 
+[12:30:30.455] [INFO   ] creat AI step 7 
+[12:30:30.455] [INFO   ] creat AI step 9 
+[12:30:30.455] [INFO   ] AI key pressed step 1 
+[12:30:30.455] [INFO   ] thread Thread-1wip5
+[12:30:30.455] [INFO   ] AI key pressed step 2 
+[12:30:30.456] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.456] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.456] [INFO   ] thread Thread-1wip3
+[12:30:30.456] [INFO   ] thread Thread-1wip4
+[12:30:30.456] [INFO   ] KP step 1computer-0
+[12:30:30.456] [INFO   ] KP step 10computer-0
+[12:30:30.457] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.457] [INFO   ] creat AI step 8 
+[12:30:30.457] [INFO   ] creat AI step 9 
+[12:30:30.457] [INFO   ] thread Thread-0wip5
+[12:30:30.457] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.457] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.457] [INFO   ] thread Thread-0wip3
+[12:30:30.457] [INFO   ] thread Thread-0wip4
+[12:30:30.457] [INFO   ] creat AI step 10 
+[12:30:30.457] [INFO   ] creat AI step 11 
+[12:30:30.457] [INFO   ] creat AI step 3 
+[12:30:30.457] [INFO   ] creat AI step 7 
+[12:30:30.457] [INFO   ] AI key pressed step 1 
+[12:30:30.457] [INFO   ] AI key pressed step 2 
+[12:30:30.458] [INFO   ] KP step 1computer-0
+[12:30:30.458] [INFO   ] creat AI step 10 
+[12:30:30.458] [INFO   ] creat AI step 11 
+[12:30:30.458] [INFO   ] creat AI step 3 
+[12:30:30.458] [INFO   ] creat AI step 7 
+[12:30:30.458] [INFO   ] KP step 10computer-0
+[12:30:30.458] [INFO   ] AI key pressed step 1 
+[12:30:30.459] [INFO   ] AI key pressed step 2 
+[12:30:30.459] [INFO   ] KP step 1computer-1
+[12:30:30.459] [INFO   ] KP step 10computer-1
+[12:30:30.459] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.459] [INFO   ] creat AI step 8 
+[12:30:30.458] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.459] [INFO   ] creat AI step 8 
+[12:30:30.459] [INFO   ] creat AI step 9 
+[12:30:30.459] [INFO   ] creat AI step 9 
+[12:30:30.459] [INFO   ] thread Thread-1wip5
+[12:30:30.461] [INFO   ] thread Thread-0wip5
+[12:30:30.461] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.461] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.461] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.461] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.461] [INFO   ] thread Thread-0wip3
+[12:30:30.461] [INFO   ] thread Thread-0wip4
+[12:30:30.461] [INFO   ] creat AI step 10 
+[12:30:30.461] [INFO   ] creat AI step 11 
+[12:30:30.461] [INFO   ] creat AI step 3 
+[12:30:30.461] [INFO   ] creat AI step 7 
+[12:30:30.461] [INFO   ] AI key pressed step 1 
+[12:30:30.461] [INFO   ] AI key pressed step 2 
+[12:30:30.461] [INFO   ] KP step 1computer-0
+[12:30:30.461] [INFO   ] KP step 10computer-0
+[12:30:30.461] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.461] [INFO   ] thread Thread-1wip3
+[12:30:30.462] [INFO   ] creat AI step 8 
+[12:30:30.462] [INFO   ] thread Thread-1wip4
+[12:30:30.462] [INFO   ] creat AI step 9 
+[12:30:30.462] [INFO   ] creat AI step 10 
+[12:30:30.462] [INFO   ] thread Thread-0wip5
+[12:30:30.462] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.462] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.462] [INFO   ] thread Thread-0wip3
+[12:30:30.462] [INFO   ] thread Thread-0wip4
+[12:30:30.462] [INFO   ] creat AI step 10 
+[12:30:30.462] [INFO   ] creat AI step 11 
+[12:30:30.463] [INFO   ] creat AI step 11 
+[12:30:30.463] [INFO   ] creat AI step 3 
+[12:30:30.463] [INFO   ] creat AI step 3 
+[12:30:30.463] [INFO   ] creat AI step 7 
+[12:30:30.463] [INFO   ] creat AI step 7 
+[12:30:30.463] [INFO   ] AI key pressed step 1 
+[12:30:30.463] [INFO   ] AI key pressed step 1 
+[12:30:30.463] [INFO   ] AI key pressed step 2 
+[12:30:30.463] [INFO   ] AI key pressed step 2 
+[12:30:30.463] [INFO   ] KP step 1computer-1
+[12:30:30.464] [INFO   ] KP step 10computer-1
+[12:30:30.464] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.464] [INFO   ] KP step 1computer-0
+[12:30:30.464] [INFO   ] KP step 10computer-0
+[12:30:30.464] [INFO   ] AI key pressed step 3, random slot: 0
+[12:30:30.464] [INFO   ] creat AI step 8 
+[12:30:30.464] [INFO   ] creat AI step 9 
+[12:30:30.464] [INFO   ] thread Thread-0wip5
+[12:30:30.464] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.464] [INFO   ] creat AI step 8 
+[12:30:30.465] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.465] [INFO   ] creat AI step 9 
+[12:30:30.465] [INFO   ] thread Thread-0wip3
+[12:30:30.466] [INFO   ] thread Thread-1wip5
+[12:30:30.466] [INFO   ] thread Thread-0wip4
+[12:30:30.466] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.466] [INFO   ] creat AI step 10 
+[12:30:30.466] [INFO   ] creat AI step 11 
+[12:30:30.466] [INFO   ] creat AI step 3 
+[12:30:30.466] [INFO   ] creat AI step 7 
+[12:30:30.466] [INFO   ] AI key pressed step 1 
+[12:30:30.466] [INFO   ] AI key pressed step 2 
+[12:30:30.466] [INFO   ] KP step 1computer-0
+[12:30:30.466] [INFO   ] KP step 10computer-0
+[12:30:30.466] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.467] [INFO   ] creat AI step 8 
+[12:30:30.467] [INFO   ] creat AI step 9 
+[12:30:30.467] [INFO   ] thread Thread-0wip5
+[12:30:30.466] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.469] [INFO   ] thread Thread-1wip3
+[12:30:30.469] [INFO   ] thread Thread-1wip4
+[12:30:30.469] [INFO   ] creat AI step 10 
+[12:30:30.469] [INFO   ] creat AI step 11 
+[12:30:30.469] [INFO   ] creat AI step 3 
+[12:30:30.469] [INFO   ] creat AI step 7 
+[12:30:30.469] [INFO   ] AI key pressed step 1 
+[12:30:30.470] [INFO   ] AI key pressed step 2 
+[12:30:30.470] [INFO   ] KP step 1computer-1
+[12:30:30.470] [INFO   ] KP step 10computer-1
+[12:30:30.470] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.470] [INFO   ] creat AI step 8 
+[12:30:30.470] [INFO   ] creat AI step 9 
+[12:30:30.470] [INFO   ] thread Thread-1wip5
+[12:30:30.470] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.470] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.470] [INFO   ] thread Thread-1wip3
+[12:30:30.470] [INFO   ] thread Thread-1wip4
+[12:30:30.470] [INFO   ] creat AI step 10 
+[12:30:30.470] [INFO   ] creat AI step 11 
+[12:30:30.470] [INFO   ] creat AI step 3 
+[12:30:30.470] [INFO   ] creat AI step 7 
+[12:30:30.470] [INFO   ] AI key pressed step 1 
+[12:30:30.470] [INFO   ] AI key pressed step 2 
+[12:30:30.470] [INFO   ] KP step 1computer-1
+[12:30:30.470] [INFO   ] KP step 10computer-1
+[12:30:30.470] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.470] [INFO   ] creat AI step 8 
+[12:30:30.470] [INFO   ] creat AI step 9 
+[12:30:30.470] [INFO   ] thread Thread-1wip5
+[12:30:30.470] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.470] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.470] [INFO   ] thread Thread-1wip3
+[12:30:30.470] [INFO   ] thread Thread-1wip4
+[12:30:30.470] [INFO   ] creat AI step 10 
+[12:30:30.470] [INFO   ] creat AI step 11 
+[12:30:30.470] [INFO   ] creat AI step 3 
+[12:30:30.470] [INFO   ] creat AI step 7 
+[12:30:30.470] [INFO   ] AI key pressed step 1 
+[12:30:30.470] [INFO   ] AI key pressed step 2 
+[12:30:30.470] [INFO   ] KP step 1computer-1
+[12:30:30.471] [INFO   ] KP step 10computer-1
+[12:30:30.471] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.471] [INFO   ] creat AI step 8 
+[12:30:30.471] [INFO   ] creat AI step 9 
+[12:30:30.471] [INFO   ] thread Thread-1wip5
+[12:30:30.471] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.471] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.471] [INFO   ] thread Thread-1wip3
+[12:30:30.471] [INFO   ] thread Thread-1wip4
+[12:30:30.471] [INFO   ] creat AI step 10 
+[12:30:30.471] [INFO   ] creat AI step 11 
+[12:30:30.471] [INFO   ] creat AI step 3 
+[12:30:30.471] [INFO   ] creat AI step 7 
+[12:30:30.471] [INFO   ] AI key pressed step 1 
+[12:30:30.472] [INFO   ] AI key pressed step 2 
+[12:30:30.472] [INFO   ] KP step 1computer-1
+[12:30:30.472] [INFO   ] KP step 10computer-1
+[12:30:30.472] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.472] [INFO   ] creat AI step 8 
+[12:30:30.472] [INFO   ] creat AI step 9 
+[12:30:30.472] [INFO   ] thread Thread-1wip5
+[12:30:30.472] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.472] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.472] [INFO   ] thread Thread-1wip3
+[12:30:30.472] [INFO   ] thread Thread-1wip4
+[12:30:30.472] [INFO   ] creat AI step 10 
+[12:30:30.472] [INFO   ] creat AI step 11 
+[12:30:30.472] [INFO   ] creat AI step 3 
+[12:30:30.472] [INFO   ] creat AI step 7 
+[12:30:30.472] [INFO   ] AI key pressed step 1 
+[12:30:30.472] [INFO   ] AI key pressed step 2 
+[12:30:30.472] [INFO   ] KP step 1computer-1
+[12:30:30.472] [INFO   ] KP step 10computer-1
+[12:30:30.472] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.472] [INFO   ] creat AI step 8 
+[12:30:30.472] [INFO   ] creat AI step 9 
+[12:30:30.472] [INFO   ] thread Thread-1wip5
+[12:30:30.473] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.473] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.473] [INFO   ] thread Thread-1wip3
+[12:30:30.473] [INFO   ] thread Thread-1wip4
+[12:30:30.473] [INFO   ] creat AI step 10 
+[12:30:30.473] [INFO   ] creat AI step 11 
+[12:30:30.473] [INFO   ] creat AI step 3 
+[12:30:30.473] [INFO   ] creat AI step 7 
+[12:30:30.473] [INFO   ] AI key pressed step 1 
+[12:30:30.473] [INFO   ] AI key pressed step 2 
+[12:30:30.473] [INFO   ] KP step 1computer-1
+[12:30:30.473] [INFO   ] KP step 10computer-1
+[12:30:30.473] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.473] [INFO   ] creat AI step 8 
+[12:30:30.473] [INFO   ] creat AI step 9 
+[12:30:30.473] [INFO   ] thread Thread-1wip5
+[12:30:30.473] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.473] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.473] [INFO   ] thread Thread-1wip3
+[12:30:30.473] [INFO   ] thread Thread-1wip4
+[12:30:30.473] [INFO   ] creat AI step 10 
+[12:30:30.474] [INFO   ] creat AI step 11 
+[12:30:30.474] [INFO   ] creat AI step 3 
+[12:30:30.474] [INFO   ] creat AI step 7 
+[12:30:30.474] [INFO   ] AI key pressed step 1 
+[12:30:30.474] [INFO   ] AI key pressed step 2 
+[12:30:30.474] [INFO   ] KP step 1computer-1
+[12:30:30.474] [INFO   ] KP step 10computer-1
+[12:30:30.474] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.475] [INFO   ] creat AI step 8 
+[12:30:30.475] [INFO   ] creat AI step 9 
+[12:30:30.475] [INFO   ] thread Thread-1wip5
+[12:30:30.475] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.475] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.475] [INFO   ] thread Thread-1wip3
+[12:30:30.475] [INFO   ] thread Thread-1wip4
+[12:30:30.475] [INFO   ] creat AI step 10 
+[12:30:30.475] [INFO   ] creat AI step 11 
+[12:30:30.475] [INFO   ] creat AI step 3 
+[12:30:30.475] [INFO   ] creat AI step 7 
+[12:30:30.475] [INFO   ] AI key pressed step 1 
+[12:30:30.475] [INFO   ] AI key pressed step 2 
+[12:30:30.475] [INFO   ] KP step 1computer-1
+[12:30:30.476] [INFO   ] KP step 10computer-1
+[12:30:30.476] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.476] [INFO   ] creat AI step 8 
+[12:30:30.476] [INFO   ] creat AI step 9 
+[12:30:30.476] [INFO   ] thread Thread-1wip5
+[12:30:30.476] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.476] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.476] [INFO   ] thread Thread-1wip3
+[12:30:30.476] [INFO   ] thread Thread-1wip4
+[12:30:30.476] [INFO   ] creat AI step 10 
+[12:30:30.477] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.477] [INFO   ] creat AI step 11 
+[12:30:30.478] [INFO   ] creat AI step 3 
+[12:30:30.478] [INFO   ] creat AI step 7 
+[12:30:30.478] [INFO   ] AI key pressed step 1 
+[12:30:30.477] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.478] [INFO   ] thread Thread-0wip3
+[12:30:30.478] [INFO   ] thread Thread-0wip4
+[12:30:30.478] [INFO   ] creat AI step 10 
+[12:30:30.478] [INFO   ] AI key pressed step 2 
+[12:30:30.478] [INFO   ] creat AI step 11 
+[12:30:30.478] [INFO   ] creat AI step 3 
+[12:30:30.478] [INFO   ] creat AI step 7 
+[12:30:30.478] [INFO   ] AI key pressed step 1 
+[12:30:30.478] [INFO   ] KP step 1computer-1
+[12:30:30.478] [INFO   ] AI key pressed step 2 
+[12:30:30.478] [INFO   ] KP step 1computer-0
+[12:30:30.478] [INFO   ] KP step 10computer-0
+[12:30:30.478] [INFO   ] KP step 10computer-1
+[12:30:30.478] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.478] [INFO   ] creat AI step 8 
+[12:30:30.478] [INFO   ] creat AI step 9 
+[12:30:30.478] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.478] [INFO   ] thread Thread-0wip5
+[12:30:30.478] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.478] [INFO   ] creat AI step 8 
+[12:30:30.479] [INFO   ] creat AI step 9 
+[12:30:30.479] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.479] [INFO   ] thread Thread-1wip5
+[12:30:30.479] [INFO   ] thread Thread-0wip3
+[12:30:30.479] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.479] [INFO   ] thread Thread-0wip4
+[12:30:30.479] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.479] [INFO   ] creat AI step 10 
+[12:30:30.479] [INFO   ] creat AI step 11 
+[12:30:30.479] [INFO   ] creat AI step 3 
+[12:30:30.479] [INFO   ] creat AI step 7 
+[12:30:30.479] [INFO   ] thread Thread-1wip3
+[12:30:30.479] [INFO   ] thread Thread-1wip4
+[12:30:30.479] [INFO   ] AI key pressed step 1 
+[12:30:30.479] [INFO   ] creat AI step 10 
+[12:30:30.479] [INFO   ] creat AI step 11 
+[12:30:30.479] [INFO   ] AI key pressed step 2 
+[12:30:30.480] [INFO   ] creat AI step 3 
+[12:30:30.480] [INFO   ] KP step 1computer-0
+[12:30:30.480] [INFO   ] KP step 10computer-0
+[12:30:30.480] [INFO   ] creat AI step 7 
+[12:30:30.480] [INFO   ] AI key pressed step 1 
+[12:30:30.480] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.480] [INFO   ] creat AI step 8 
+[12:30:30.480] [INFO   ] creat AI step 9 
+[12:30:30.480] [INFO   ] AI key pressed step 2 
+[12:30:30.480] [INFO   ] thread Thread-0wip5
+[12:30:30.480] [INFO   ] KP step 1computer-1
+[12:30:30.480] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.480] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.480] [INFO   ] KP step 10computer-1
+[12:30:30.480] [INFO   ] thread Thread-0wip3
+[12:30:30.481] [INFO   ] thread Thread-0wip4
+[12:30:30.481] [INFO   ] creat AI step 10 
+[12:30:30.480] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.481] [INFO   ] creat AI step 11 
+[12:30:30.481] [INFO   ] creat AI step 3 
+[12:30:30.481] [INFO   ] creat AI step 8 
+[12:30:30.482] [INFO   ] creat AI step 9 
+[12:30:30.481] [INFO   ] creat AI step 7 
+[12:30:30.482] [INFO   ] AI key pressed step 1 
+[12:30:30.482] [INFO   ] thread Thread-1wip5
+[12:30:30.482] [INFO   ] AI key pressed step 2 
+[12:30:30.482] [INFO   ] KP step 1computer-0
+[12:30:30.482] [INFO   ] KP step 10computer-0
+[12:30:30.482] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.482] [INFO   ] creat AI step 8 
+[12:30:30.482] [INFO   ] creat AI step 9 
+[12:30:30.482] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.482] [INFO   ] thread Thread-0wip5
+[12:30:30.482] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.482] [INFO   ] thread Thread-1wip3
+[12:30:30.482] [INFO   ] thread Thread-1wip4
+[12:30:30.482] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.483] [INFO   ] creat AI step 10 
+[12:30:30.483] [INFO   ] creat AI step 11 
+[12:30:30.483] [INFO   ] creat AI step 3 
+[12:30:30.483] [INFO   ] creat AI step 7 
+[12:30:30.483] [INFO   ] AI key pressed step 1 
+[12:30:30.483] [INFO   ] AI key pressed step 2 
+[12:30:30.483] [INFO   ] KP step 1computer-1
+[12:30:30.483] [INFO   ] KP step 10computer-1
+[12:30:30.484] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.484] [INFO   ] creat AI step 8 
+[12:30:30.483] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.484] [INFO   ] creat AI step 9 
+[12:30:30.484] [INFO   ] thread Thread-0wip3
+[12:30:30.484] [INFO   ] thread Thread-1wip5
+[12:30:30.484] [INFO   ] thread Thread-0wip4
+[12:30:30.484] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.484] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.484] [INFO   ] creat AI step 10 
+[12:30:30.484] [INFO   ] creat AI step 11 
+[12:30:30.484] [INFO   ] thread Thread-1wip3
+[12:30:30.484] [INFO   ] thread Thread-1wip4
+[12:30:30.484] [INFO   ] creat AI step 10 
+[12:30:30.484] [INFO   ] creat AI step 3 
+[12:30:30.484] [INFO   ] creat AI step 11 
+[12:30:30.484] [INFO   ] creat AI step 3 
+[12:30:30.484] [INFO   ] creat AI step 7 
+[12:30:30.486] [INFO   ] AI key pressed step 1 
+[12:30:30.486] [INFO   ] AI key pressed step 2 
+[12:30:30.484] [INFO   ] creat AI step 7 
+[12:30:30.486] [INFO   ] KP step 1computer-1
+[12:30:30.486] [INFO   ] KP step 10computer-1
+[12:30:30.486] [INFO   ] AI key pressed step 1 
+[12:30:30.486] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.486] [INFO   ] AI key pressed step 2 
+[12:30:30.486] [INFO   ] creat AI step 8 
+[12:30:30.486] [INFO   ] KP step 1computer-0
+[12:30:30.486] [INFO   ] KP step 10computer-0
+[12:30:30.486] [INFO   ] creat AI step 9 
+[12:30:30.486] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.487] [INFO   ] creat AI step 8 
+[12:30:30.486] [INFO   ] thread Thread-1wip5
+[12:30:30.487] [INFO   ] creat AI step 9 
+[12:30:30.487] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.487] [INFO   ] thread Thread-0wip5
+[12:30:30.487] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.487] [INFO   ] thread Thread-1wip3
+[12:30:30.487] [INFO   ] thread Thread-1wip4
+[12:30:30.487] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.487] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.487] [INFO   ] creat AI step 10 
+[12:30:30.487] [INFO   ] thread Thread-0wip3
+[12:30:30.487] [INFO   ] thread Thread-0wip4
+[12:30:30.487] [INFO   ] creat AI step 11 
+[12:30:30.487] [INFO   ] creat AI step 10 
+[12:30:30.487] [INFO   ] creat AI step 11 
+[12:30:30.487] [INFO   ] creat AI step 3 
+[12:30:30.487] [INFO   ] creat AI step 7 
+[12:30:30.487] [INFO   ] AI key pressed step 1 
+[12:30:30.487] [INFO   ] creat AI step 3 
+[12:30:30.487] [INFO   ] AI key pressed step 2 
+[12:30:30.488] [INFO   ] KP step 1computer-0
+[12:30:30.488] [INFO   ] creat AI step 7 
+[12:30:30.488] [INFO   ] KP step 10computer-0
+[12:30:30.488] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.488] [INFO   ] creat AI step 8 
+[12:30:30.488] [INFO   ] creat AI step 9 
+[12:30:30.488] [INFO   ] AI key pressed step 1 
+[12:30:30.488] [INFO   ] thread Thread-0wip5
+[12:30:30.488] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.488] [INFO   ] AI key pressed step 2 
+[12:30:30.488] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.488] [INFO   ] KP step 1computer-1
+[12:30:30.488] [INFO   ] thread Thread-0wip3
+[12:30:30.488] [INFO   ] thread Thread-0wip4
+[12:30:30.488] [INFO   ] KP step 10computer-1
+[12:30:30.488] [INFO   ] creat AI step 10 
+[12:30:30.488] [INFO   ] creat AI step 11 
+[12:30:30.488] [INFO   ] creat AI step 3 
+[12:30:30.488] [INFO   ] creat AI step 7 
+[12:30:30.488] [INFO   ] AI key pressed step 1 
+[12:30:30.488] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.488] [INFO   ] AI key pressed step 2 
+[12:30:30.488] [INFO   ] KP step 1computer-0
+[12:30:30.488] [INFO   ] creat AI step 8 
+[12:30:30.488] [INFO   ] KP step 10computer-0
+[12:30:30.489] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.489] [INFO   ] creat AI step 8 
+[12:30:30.489] [INFO   ] creat AI step 9 
+[12:30:30.488] [INFO   ] creat AI step 9 
+[12:30:30.489] [INFO   ] thread Thread-0wip5
+[12:30:30.489] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.489] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.489] [INFO   ] thread Thread-0wip3
+[12:30:30.489] [INFO   ] thread Thread-0wip4
+[12:30:30.489] [INFO   ] thread Thread-1wip5
+[12:30:30.489] [INFO   ] creat AI step 10 
+[12:30:30.489] [INFO   ] creat AI step 11 
+[12:30:30.489] [INFO   ] creat AI step 3 
+[12:30:30.489] [INFO   ] creat AI step 7 
+[12:30:30.489] [INFO   ] AI key pressed step 1 
+[12:30:30.489] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.489] [INFO   ] AI key pressed step 2 
+[12:30:30.489] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.489] [INFO   ] KP step 1computer-0
+[12:30:30.489] [INFO   ] thread Thread-1wip3
+[12:30:30.489] [INFO   ] thread Thread-1wip4
+[12:30:30.489] [INFO   ] KP step 10computer-0
+[12:30:30.489] [INFO   ] creat AI step 10 
+[12:30:30.489] [INFO   ] creat AI step 11 
+[12:30:30.489] [INFO   ] creat AI step 3 
+[12:30:30.489] [INFO   ] creat AI step 7 
+[12:30:30.490] [INFO   ] AI key pressed step 1 
+[12:30:30.489] [INFO   ] AI key pressed step 3, random slot: 0
+[12:30:30.490] [INFO   ] AI key pressed step 2 
+[12:30:30.490] [INFO   ] KP step 1computer-1
+[12:30:30.490] [INFO   ] creat AI step 8 
+[12:30:30.490] [INFO   ] KP step 10computer-1
+[12:30:30.490] [INFO   ] creat AI step 9 
+[12:30:30.490] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.490] [INFO   ] creat AI step 8 
+[12:30:30.490] [INFO   ] creat AI step 9 
+[12:30:30.490] [INFO   ] thread Thread-0wip5
+[12:30:30.490] [INFO   ] thread Thread-1wip5
+[12:30:30.490] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.490] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.490] [INFO   ] thread Thread-0wip3
+[12:30:30.490] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.490] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.490] [INFO   ] thread Thread-1wip3
+[12:30:30.490] [INFO   ] thread Thread-1wip4
+[12:30:30.490] [INFO   ] thread Thread-0wip4
+[12:30:30.490] [INFO   ] creat AI step 10 
+[12:30:30.490] [INFO   ] creat AI step 10 
+[12:30:30.490] [INFO   ] creat AI step 11 
+[12:30:30.490] [INFO   ] creat AI step 3 
+[12:30:30.490] [INFO   ] creat AI step 11 
+[12:30:30.490] [INFO   ] creat AI step 3 
+[12:30:30.490] [INFO   ] creat AI step 7 
+[12:30:30.490] [INFO   ] AI key pressed step 1 
+[12:30:30.490] [INFO   ] creat AI step 7 
+[12:30:30.490] [INFO   ] AI key pressed step 1 
+[12:30:30.490] [INFO   ] AI key pressed step 2 
+[12:30:30.490] [INFO   ] AI key pressed step 2 
+[12:30:30.491] [INFO   ] KP step 1computer-1
+[12:30:30.490] [INFO   ] KP step 1computer-0
+[12:30:30.491] [INFO   ] KP step 10computer-0
+[12:30:30.491] [INFO   ] KP step 10computer-1
+[12:30:30.491] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.491] [INFO   ] AI key pressed step 3, random slot: 0
+[12:30:30.491] [INFO   ] creat AI step 8 
+[12:30:30.491] [INFO   ] creat AI step 9 
+[12:30:30.491] [INFO   ] creat AI step 8 
+[12:30:30.491] [INFO   ] creat AI step 9 
+[12:30:30.491] [INFO   ] thread Thread-1wip5
+[12:30:30.491] [INFO   ] thread Thread-0wip5
+[12:30:30.491] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.491] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.491] [INFO   ] thread Thread-1wip3
+[12:30:30.491] [INFO   ] thread Thread-1wip4
+[12:30:30.491] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.491] [INFO   ] creat AI step 10 
+[12:30:30.491] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.491] [INFO   ] creat AI step 11 
+[12:30:30.491] [INFO   ] thread Thread-0wip3
+[12:30:30.491] [INFO   ] creat AI step 3 
+[12:30:30.491] [INFO   ] thread Thread-0wip4
+[12:30:30.491] [INFO   ] creat AI step 7 
+[12:30:30.491] [INFO   ] AI key pressed step 1 
+[12:30:30.491] [INFO   ] creat AI step 10 
+[12:30:30.492] [INFO   ] creat AI step 11 
+[12:30:30.492] [INFO   ] creat AI step 3 
+[12:30:30.492] [INFO   ] creat AI step 7 
+[12:30:30.492] [INFO   ] AI key pressed step 1 
+[12:30:30.491] [INFO   ] AI key pressed step 2 
+[12:30:30.492] [INFO   ] AI key pressed step 2 
+[12:30:30.492] [INFO   ] KP step 1computer-1
+[12:30:30.492] [INFO   ] KP step 1computer-0
+[12:30:30.492] [INFO   ] KP step 10computer-0
+[12:30:30.492] [INFO   ] KP step 10computer-1
+[12:30:30.492] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.492] [INFO   ] creat AI step 8 
+[12:30:30.492] [INFO   ] creat AI step 9 
+[12:30:30.492] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.492] [INFO   ] creat AI step 8 
+[12:30:30.492] [INFO   ] thread Thread-0wip5
+[12:30:30.492] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.492] [INFO   ] creat AI step 9 
+[12:30:30.492] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.492] [INFO   ] thread Thread-1wip5
+[12:30:30.492] [INFO   ] thread Thread-0wip3
+[12:30:30.492] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.492] [INFO   ] thread Thread-0wip4
+[12:30:30.492] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.493] [INFO   ] creat AI step 10 
+[12:30:30.493] [INFO   ] thread Thread-1wip3
+[12:30:30.493] [INFO   ] creat AI step 11 
+[12:30:30.493] [INFO   ] creat AI step 3 
+[12:30:30.493] [INFO   ] creat AI step 7 
+[12:30:30.493] [INFO   ] AI key pressed step 1 
+[12:30:30.493] [INFO   ] thread Thread-1wip4
+[12:30:30.493] [INFO   ] AI key pressed step 2 
+[12:30:30.493] [INFO   ] creat AI step 10 
+[12:30:30.493] [INFO   ] KP step 1computer-0
+[12:30:30.493] [INFO   ] creat AI step 11 
+[12:30:30.493] [INFO   ] creat AI step 3 
+[12:30:30.493] [INFO   ] creat AI step 7 
+[12:30:30.493] [INFO   ] KP step 10computer-0
+[12:30:30.493] [INFO   ] AI key pressed step 1 
+[12:30:30.493] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.493] [INFO   ] creat AI step 8 
+[12:30:30.493] [INFO   ] creat AI step 9 
+[12:30:30.493] [INFO   ] AI key pressed step 2 
+[12:30:30.493] [INFO   ] KP step 1computer-1
+[12:30:30.493] [INFO   ] KP step 10computer-1
+[12:30:30.494] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.494] [INFO   ] creat AI step 8 
+[12:30:30.494] [INFO   ] creat AI step 9 
+[12:30:30.493] [INFO   ] thread Thread-0wip5
+[12:30:30.494] [INFO   ] thread Thread-1wip5
+[12:30:30.494] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.494] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.494] [INFO   ] thread Thread-0wip3
+[12:30:30.494] [INFO   ] thread Thread-0wip4
+[12:30:30.494] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.494] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.494] [INFO   ] thread Thread-1wip3
+[12:30:30.494] [INFO   ] thread Thread-1wip4
+[12:30:30.494] [INFO   ] creat AI step 10 
+[12:30:30.494] [INFO   ] creat AI step 10 
+[12:30:30.494] [INFO   ] creat AI step 11 
+[12:30:30.494] [INFO   ] creat AI step 3 
+[12:30:30.494] [INFO   ] creat AI step 11 
+[12:30:30.494] [INFO   ] creat AI step 7 
+[12:30:30.494] [INFO   ] AI key pressed step 1 
+[12:30:30.494] [INFO   ] creat AI step 3 
+[12:30:30.494] [INFO   ] AI key pressed step 2 
+[12:30:30.494] [INFO   ] creat AI step 7 
+[12:30:30.494] [INFO   ] AI key pressed step 1 
+[12:30:30.494] [INFO   ] KP step 1computer-1
+[12:30:30.494] [INFO   ] AI key pressed step 2 
+[12:30:30.494] [INFO   ] KP step 1computer-0
+[12:30:30.494] [INFO   ] KP step 10computer-1
+[12:30:30.494] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.494] [INFO   ] creat AI step 8 
+[12:30:30.494] [INFO   ] KP step 10computer-0
+[12:30:30.494] [INFO   ] creat AI step 9 
+[12:30:30.494] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.494] [INFO   ] thread Thread-1wip5
+[12:30:30.494] [INFO   ] creat AI step 8 
+[12:30:30.494] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.496] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.496] [INFO   ] creat AI step 9 
+[12:30:30.496] [INFO   ] thread Thread-1wip3
+[12:30:30.496] [INFO   ] thread Thread-1wip4
+[12:30:30.496] [INFO   ] thread Thread-0wip5
+[12:30:30.496] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.496] [INFO   ] creat AI step 10 
+[12:30:30.496] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.496] [INFO   ] thread Thread-0wip3
+[12:30:30.496] [INFO   ] thread Thread-0wip4
+[12:30:30.496] [INFO   ] creat AI step 11 
+[12:30:30.496] [INFO   ] creat AI step 3 
+[12:30:30.496] [INFO   ] creat AI step 10 
+[12:30:30.496] [INFO   ] creat AI step 7 
+[12:30:30.496] [INFO   ] AI key pressed step 1 
+[12:30:30.496] [INFO   ] AI key pressed step 2 
+[12:30:30.496] [INFO   ] KP step 1computer-1
+[12:30:30.496] [INFO   ] KP step 10computer-1
+[12:30:30.496] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.496] [INFO   ] creat AI step 8 
+[12:30:30.496] [INFO   ] creat AI step 9 
+[12:30:30.496] [INFO   ] creat AI step 11 
+[12:30:30.497] [INFO   ] creat AI step 3 
+[12:30:30.497] [INFO   ] thread Thread-1wip5
+[12:30:30.497] [INFO   ] creat AI step 7 
+[12:30:30.497] [INFO   ] AI key pressed step 1 
+[12:30:30.497] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.497] [INFO   ] AI key pressed step 2 
+[12:30:30.497] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.497] [INFO   ] thread Thread-1wip3
+[12:30:30.497] [INFO   ] KP step 1computer-0
+[12:30:30.497] [INFO   ] KP step 10computer-0
+[12:30:30.497] [INFO   ] thread Thread-1wip4
+[12:30:30.497] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.497] [INFO   ] creat AI step 8 
+[12:30:30.497] [INFO   ] creat AI step 9 
+[12:30:30.497] [INFO   ] creat AI step 10 
+[12:30:30.497] [INFO   ] creat AI step 11 
+[12:30:30.497] [INFO   ] creat AI step 3 
+[12:30:30.497] [INFO   ] creat AI step 7 
+[12:30:30.497] [INFO   ] AI key pressed step 1 
+[12:30:30.497] [INFO   ] thread Thread-0wip5
+[12:30:30.497] [INFO   ] AI key pressed step 2 
+[12:30:30.498] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.498] [INFO   ] KP step 1computer-1
+[12:30:30.498] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.498] [INFO   ] thread Thread-0wip3
+[12:30:30.498] [INFO   ] thread Thread-0wip4
+[12:30:30.498] [INFO   ] KP step 10computer-1
+[12:30:30.498] [INFO   ] creat AI step 10 
+[12:30:30.498] [INFO   ] creat AI step 11 
+[12:30:30.498] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.498] [INFO   ] creat AI step 8 
+[12:30:30.498] [INFO   ] creat AI step 3 
+[12:30:30.498] [INFO   ] creat AI step 9 
+[12:30:30.498] [INFO   ] creat AI step 7 
+[12:30:30.498] [INFO   ] thread Thread-1wip5
+[12:30:30.499] [INFO   ] AI key pressed step 1 
+[12:30:30.499] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.499] [INFO   ] AI key pressed step 2 
+[12:30:30.499] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.499] [INFO   ] thread Thread-1wip3
+[12:30:30.499] [INFO   ] KP step 1computer-0
+[12:30:30.499] [INFO   ] thread Thread-1wip4
+[12:30:30.499] [INFO   ] KP step 10computer-0
+[12:30:30.499] [INFO   ] creat AI step 10 
+[12:30:30.499] [INFO   ] creat AI step 11 
+[12:30:30.499] [INFO   ] creat AI step 3 
+[12:30:30.499] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.499] [INFO   ] creat AI step 8 
+[12:30:30.499] [INFO   ] creat AI step 9 
+[12:30:30.499] [INFO   ] creat AI step 7 
+[12:30:30.499] [INFO   ] AI key pressed step 1 
+[12:30:30.499] [INFO   ] thread Thread-0wip5
+[12:30:30.500] [INFO   ] AI key pressed step 2 
+[12:30:30.501] [INFO   ] KP step 1computer-1
+[12:30:30.501] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.501] [INFO   ] KP step 10computer-1
+[12:30:30.502] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.502] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.502] [INFO   ] creat AI step 8 
+[12:30:30.502] [INFO   ] creat AI step 9 
+[12:30:30.502] [INFO   ] thread Thread-1wip5
+[12:30:30.502] [INFO   ] thread Thread-0wip3
+[12:30:30.502] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.502] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.502] [INFO   ] thread Thread-0wip4
+[12:30:30.502] [INFO   ] thread Thread-1wip3
+[12:30:30.502] [INFO   ] thread Thread-1wip4
+[12:30:30.502] [INFO   ] creat AI step 10 
+[12:30:30.502] [INFO   ] creat AI step 10 
+[12:30:30.502] [INFO   ] creat AI step 11 
+[12:30:30.502] [INFO   ] creat AI step 11 
+[12:30:30.502] [INFO   ] creat AI step 3 
+[12:30:30.502] [INFO   ] creat AI step 3 
+[12:30:30.502] [INFO   ] creat AI step 7 
+[12:30:30.502] [INFO   ] creat AI step 7 
+[12:30:30.503] [INFO   ] AI key pressed step 1 
+[12:30:30.502] [INFO   ] AI key pressed step 1 
+[12:30:30.503] [INFO   ] AI key pressed step 2 
+[12:30:30.503] [INFO   ] AI key pressed step 2 
+[12:30:30.503] [INFO   ] KP step 1computer-0
+[12:30:30.503] [INFO   ] KP step 1computer-1
+[12:30:30.503] [INFO   ] KP step 10computer-0
+[12:30:30.503] [INFO   ] KP step 10computer-1
+[12:30:30.503] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.503] [INFO   ] creat AI step 8 
+[12:30:30.503] [INFO   ] creat AI step 9 
+[12:30:30.503] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.503] [INFO   ] creat AI step 8 
+[12:30:30.503] [INFO   ] thread Thread-1wip5
+[12:30:30.503] [INFO   ] creat AI step 9 
+[12:30:30.503] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.503] [INFO   ] thread Thread-0wip5
+[12:30:30.503] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.503] [INFO   ] thread Thread-1wip3
+[12:30:30.503] [INFO   ] thread Thread-1wip4
+[12:30:30.503] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.503] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.503] [INFO   ] creat AI step 10 
+[12:30:30.503] [INFO   ] creat AI step 11 
+[12:30:30.503] [INFO   ] creat AI step 3 
+[12:30:30.503] [INFO   ] creat AI step 7 
+[12:30:30.503] [INFO   ] AI key pressed step 1 
+[12:30:30.503] [INFO   ] thread Thread-0wip3
+[12:30:30.503] [INFO   ] thread Thread-0wip4
+[12:30:30.503] [INFO   ] AI key pressed step 2 
+[12:30:30.503] [INFO   ] KP step 1computer-1
+[12:30:30.503] [INFO   ] creat AI step 10 
+[12:30:30.504] [INFO   ] creat AI step 11 
+[12:30:30.504] [INFO   ] creat AI step 3 
+[12:30:30.504] [INFO   ] KP step 10computer-1
+[12:30:30.504] [INFO   ] creat AI step 7 
+[12:30:30.504] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.504] [INFO   ] AI key pressed step 1 
+[12:30:30.504] [INFO   ] creat AI step 8 
+[12:30:30.504] [INFO   ] creat AI step 9 
+[12:30:30.504] [INFO   ] AI key pressed step 2 
+[12:30:30.504] [INFO   ] thread Thread-1wip5
+[12:30:30.504] [INFO   ] KP step 1computer-0
+[12:30:30.504] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.504] [INFO   ] KP step 10computer-0
+[12:30:30.504] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.504] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.504] [INFO   ] thread Thread-1wip3
+[12:30:30.504] [INFO   ] creat AI step 8 
+[12:30:30.504] [INFO   ] thread Thread-1wip4
+[12:30:30.504] [INFO   ] creat AI step 9 
+[12:30:30.504] [INFO   ] creat AI step 10 
+[12:30:30.504] [INFO   ] creat AI step 11 
+[12:30:30.504] [INFO   ] creat AI step 3 
+[12:30:30.504] [INFO   ] creat AI step 7 
+[12:30:30.504] [INFO   ] AI key pressed step 1 
+[12:30:30.504] [INFO   ] thread Thread-0wip5
+[12:30:30.504] [INFO   ] AI key pressed step 2 
+[12:30:30.504] [INFO   ] KP step 1computer-1
+[12:30:30.504] [INFO   ] KP step 10computer-1
+[12:30:30.504] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.506] [INFO   ] creat AI step 8 
+[12:30:30.506] [INFO   ] creat AI step 9 
+[12:30:30.504] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.506] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.506] [INFO   ] thread Thread-0wip3
+[12:30:30.506] [INFO   ] thread Thread-0wip4
+[12:30:30.506] [INFO   ] thread Thread-1wip5
+[12:30:30.506] [INFO   ] creat AI step 10 
+[12:30:30.506] [INFO   ] creat AI step 11 
+[12:30:30.506] [INFO   ] creat AI step 3 
+[12:30:30.506] [INFO   ] creat AI step 7 
+[12:30:30.506] [INFO   ] AI key pressed step 1 
+[12:30:30.506] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.506] [INFO   ] AI key pressed step 2 
+[12:30:30.506] [INFO   ] KP step 1computer-0
+[12:30:30.506] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.506] [INFO   ] KP step 10computer-0
+[12:30:30.506] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.506] [INFO   ] creat AI step 8 
+[12:30:30.506] [INFO   ] creat AI step 9 
+[12:30:30.506] [INFO   ] thread Thread-1wip3
+[12:30:30.506] [INFO   ] thread Thread-0wip5
+[12:30:30.507] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.506] [INFO   ] thread Thread-1wip4
+[12:30:30.507] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.507] [INFO   ] thread Thread-0wip3
+[12:30:30.507] [INFO   ] thread Thread-0wip4
+[12:30:30.507] [INFO   ] creat AI step 10 
+[12:30:30.507] [INFO   ] creat AI step 11 
+[12:30:30.507] [INFO   ] creat AI step 3 
+[12:30:30.507] [INFO   ] creat AI step 7 
+[12:30:30.507] [INFO   ] AI key pressed step 1 
+[12:30:30.507] [INFO   ] AI key pressed step 2 
+[12:30:30.507] [INFO   ] KP step 1computer-0
+[12:30:30.507] [INFO   ] KP step 10computer-0
+[12:30:30.507] [INFO   ] AI key pressed step 3, random slot: 0
+[12:30:30.508] [INFO   ] creat AI step 8 
+[12:30:30.508] [INFO   ] creat AI step 9 
+[12:30:30.508] [INFO   ] thread Thread-0wip5
+[12:30:30.508] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.508] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.508] [INFO   ] thread Thread-0wip3
+[12:30:30.508] [INFO   ] thread Thread-0wip4
+[12:30:30.508] [INFO   ] creat AI step 10 
+[12:30:30.509] [INFO   ] creat AI step 11 
+[12:30:30.509] [INFO   ] creat AI step 3 
+[12:30:30.509] [INFO   ] creat AI step 7 
+[12:30:30.509] [INFO   ] AI key pressed step 1 
+[12:30:30.507] [INFO   ] creat AI step 10 
+[12:30:30.509] [INFO   ] creat AI step 11 
+[12:30:30.509] [INFO   ] creat AI step 3 
+[12:30:30.509] [INFO   ] creat AI step 7 
+[12:30:30.509] [INFO   ] AI key pressed step 2 
+[12:30:30.509] [INFO   ] AI key pressed step 1 
+[12:30:30.509] [INFO   ] KP step 1computer-0
+[12:30:30.509] [INFO   ] AI key pressed step 2 
+[12:30:30.510] [INFO   ] KP step 1computer-1
+[12:30:30.510] [INFO   ] KP step 10computer-1
+[12:30:30.509] [INFO   ] KP step 10computer-0
+[12:30:30.510] [INFO   ] AI key pressed step 3, random slot: 0
+[12:30:30.510] [INFO   ] creat AI step 8 
+[12:30:30.510] [INFO   ] creat AI step 9 
+[12:30:30.510] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.510] [INFO   ] creat AI step 8 
+[12:30:30.510] [INFO   ] thread Thread-0wip5
+[12:30:30.510] [INFO   ] creat AI step 9 
+[12:30:30.510] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.510] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.510] [INFO   ] thread Thread-1wip5
+[12:30:30.510] [INFO   ] thread Thread-0wip3
+[12:30:30.510] [INFO   ] thread Thread-0wip4
+[12:30:30.510] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.510] [INFO   ] creat AI step 10 
+[12:30:30.510] [INFO   ] creat AI step 11 
+[12:30:30.510] [INFO   ] creat AI step 3 
+[12:30:30.510] [INFO   ] creat AI step 7 
+[12:30:30.510] [INFO   ] AI key pressed step 1 
+[12:30:30.510] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.510] [INFO   ] thread Thread-1wip3
+[12:30:30.511] [INFO   ] thread Thread-1wip4
+[12:30:30.510] [INFO   ] AI key pressed step 2 
+[12:30:30.511] [INFO   ] creat AI step 10 
+[12:30:30.511] [INFO   ] creat AI step 11 
+[12:30:30.511] [INFO   ] creat AI step 3 
+[12:30:30.511] [INFO   ] creat AI step 7 
+[12:30:30.511] [INFO   ] AI key pressed step 1 
+[12:30:30.511] [INFO   ] AI key pressed step 2 
+[12:30:30.511] [INFO   ] KP step 1computer-0
+[12:30:30.511] [INFO   ] KP step 1computer-1
+[12:30:30.511] [INFO   ] KP step 10computer-0
+[12:30:30.511] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.511] [INFO   ] creat AI step 8 
+[12:30:30.511] [INFO   ] creat AI step 9 
+[12:30:30.511] [INFO   ] KP step 10computer-1
+[12:30:30.511] [INFO   ] thread Thread-0wip5
+[12:30:30.511] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.511] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.511] [INFO   ] creat AI step 8 
+[12:30:30.511] [INFO   ] creat AI step 9 
+[12:30:30.511] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.511] [INFO   ] thread Thread-1wip5
+[12:30:30.511] [INFO   ] thread Thread-0wip3
+[12:30:30.511] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.512] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.512] [INFO   ] thread Thread-0wip4
+[12:30:30.512] [INFO   ] thread Thread-1wip3
+[12:30:30.512] [INFO   ] thread Thread-1wip4
+[12:30:30.512] [INFO   ] creat AI step 10 
+[12:30:30.512] [INFO   ] creat AI step 11 
+[12:30:30.512] [INFO   ] creat AI step 3 
+[12:30:30.512] [INFO   ] creat AI step 7 
+[12:30:30.512] [INFO   ] creat AI step 10 
+[12:30:30.512] [INFO   ] creat AI step 11 
+[12:30:30.512] [INFO   ] creat AI step 3 
+[12:30:30.512] [INFO   ] creat AI step 7 
+[12:30:30.512] [INFO   ] AI key pressed step 1 
+[12:30:30.512] [INFO   ] AI key pressed step 1 
+[12:30:30.512] [INFO   ] AI key pressed step 2 
+[12:30:30.512] [INFO   ] AI key pressed step 2 
+[12:30:30.512] [INFO   ] KP step 1computer-0
+[12:30:30.512] [INFO   ] KP step 1computer-1
+[12:30:30.512] [INFO   ] KP step 10computer-0
+[12:30:30.512] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.512] [INFO   ] creat AI step 8 
+[12:30:30.512] [INFO   ] creat AI step 9 
+[12:30:30.512] [INFO   ] KP step 10computer-1
+[12:30:30.512] [INFO   ] thread Thread-0wip5
+[12:30:30.512] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.513] [INFO   ] creat AI step 8 
+[12:30:30.513] [INFO   ] creat AI step 9 
+[12:30:30.513] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.513] [INFO   ] thread Thread-1wip5
+[12:30:30.513] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.513] [INFO   ] thread Thread-0wip3
+[12:30:30.513] [INFO   ] thread Thread-0wip4
+[12:30:30.513] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.513] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.513] [INFO   ] creat AI step 10 
+[12:30:30.513] [INFO   ] creat AI step 11 
+[12:30:30.513] [INFO   ] creat AI step 3 
+[12:30:30.513] [INFO   ] creat AI step 7 
+[12:30:30.513] [INFO   ] AI key pressed step 1 
+[12:30:30.513] [INFO   ] thread Thread-1wip3
+[12:30:30.513] [INFO   ] thread Thread-1wip4
+[12:30:30.513] [INFO   ] AI key pressed step 2 
+[12:30:30.513] [INFO   ] creat AI step 10 
+[12:30:30.513] [INFO   ] creat AI step 11 
+[12:30:30.513] [INFO   ] KP step 1computer-0
+[12:30:30.513] [INFO   ] creat AI step 3 
+[12:30:30.513] [INFO   ] KP step 10computer-0
+[12:30:30.514] [INFO   ] creat AI step 7 
+[12:30:30.514] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.514] [INFO   ] creat AI step 8 
+[12:30:30.514] [INFO   ] AI key pressed step 1 
+[12:30:30.514] [INFO   ] creat AI step 9 
+[12:30:30.514] [INFO   ] AI key pressed step 2 
+[12:30:30.514] [INFO   ] thread Thread-0wip5
+[12:30:30.514] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.514] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.514] [INFO   ] KP step 1computer-1
+[12:30:30.514] [INFO   ] thread Thread-0wip3
+[12:30:30.514] [INFO   ] KP step 10computer-1
+[12:30:30.514] [INFO   ] thread Thread-0wip4
+[12:30:30.514] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.514] [INFO   ] creat AI step 8 
+[12:30:30.514] [INFO   ] creat AI step 9 
+[12:30:30.514] [INFO   ] creat AI step 10 
+[12:30:30.514] [INFO   ] creat AI step 11 
+[12:30:30.514] [INFO   ] creat AI step 3 
+[12:30:30.514] [INFO   ] creat AI step 7 
+[12:30:30.514] [INFO   ] AI key pressed step 1 
+[12:30:30.514] [INFO   ] thread Thread-1wip5
+[12:30:30.515] [INFO   ] AI key pressed step 2 
+[12:30:30.515] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.515] [INFO   ] KP step 1computer-0
+[12:30:30.515] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.515] [INFO   ] KP step 10computer-0
+[12:30:30.515] [INFO   ] thread Thread-1wip3
+[12:30:30.515] [INFO   ] thread Thread-1wip4
+[12:30:30.515] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.515] [INFO   ] creat AI step 8 
+[12:30:30.515] [INFO   ] creat AI step 10 
+[12:30:30.515] [INFO   ] creat AI step 11 
+[12:30:30.515] [INFO   ] creat AI step 9 
+[12:30:30.515] [INFO   ] creat AI step 3 
+[12:30:30.515] [INFO   ] creat AI step 7 
+[12:30:30.515] [INFO   ] AI key pressed step 1 
+[12:30:30.515] [INFO   ] thread Thread-0wip5
+[12:30:30.515] [INFO   ] AI key pressed step 2 
+[12:30:30.515] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.515] [INFO   ] KP step 1computer-1
+[12:30:30.515] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.516] [INFO   ] KP step 10computer-1
+[12:30:30.516] [INFO   ] thread Thread-0wip3
+[12:30:30.516] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.516] [INFO   ] thread Thread-0wip4
+[12:30:30.516] [INFO   ] creat AI step 8 
+[12:30:30.516] [INFO   ] creat AI step 9 
+[12:30:30.516] [INFO   ] creat AI step 10 
+[12:30:30.516] [INFO   ] thread Thread-1wip5
+[12:30:30.516] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.516] [INFO   ] creat AI step 11 
+[12:30:30.516] [INFO   ] creat AI step 3 
+[12:30:30.516] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.516] [INFO   ] creat AI step 7 
+[12:30:30.516] [INFO   ] AI key pressed step 1 
+[12:30:30.516] [INFO   ] thread Thread-1wip3
+[12:30:30.516] [INFO   ] thread Thread-1wip4
+[12:30:30.516] [INFO   ] AI key pressed step 2 
+[12:30:30.516] [INFO   ] creat AI step 10 
+[12:30:30.516] [INFO   ] KP step 1computer-0
+[12:30:30.516] [INFO   ] creat AI step 11 
+[12:30:30.516] [INFO   ] creat AI step 3 
+[12:30:30.516] [INFO   ] KP step 10computer-0
+[12:30:30.516] [INFO   ] creat AI step 7 
+[12:30:30.516] [INFO   ] AI key pressed step 1 
+[12:30:30.516] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.517] [INFO   ] creat AI step 8 
+[12:30:30.517] [INFO   ] creat AI step 9 
+[12:30:30.516] [INFO   ] AI key pressed step 2 
+[12:30:30.517] [INFO   ] thread Thread-0wip5
+[12:30:30.517] [INFO   ] KP step 1computer-1
+[12:30:30.517] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.517] [INFO   ] KP step 10computer-1
+[12:30:30.517] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.517] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.517] [INFO   ] thread Thread-0wip3
+[12:30:30.517] [INFO   ] thread Thread-0wip4
+[12:30:30.517] [INFO   ] creat AI step 8 
+[12:30:30.517] [INFO   ] creat AI step 9 
+[12:30:30.517] [INFO   ] creat AI step 10 
+[12:30:30.517] [INFO   ] creat AI step 11 
+[12:30:30.517] [INFO   ] creat AI step 3 
+[12:30:30.517] [INFO   ] creat AI step 7 
+[12:30:30.517] [INFO   ] AI key pressed step 1 
+[12:30:30.517] [INFO   ] thread Thread-1wip5
+[12:30:30.517] [INFO   ] AI key pressed step 2 
+[12:30:30.517] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.517] [INFO   ] KP step 1computer-0
+[12:30:30.518] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.518] [INFO   ] KP step 10computer-0
+[12:30:30.518] [INFO   ] thread Thread-1wip3
+[12:30:30.518] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.518] [INFO   ] creat AI step 8 
+[12:30:30.518] [INFO   ] thread Thread-1wip4
+[12:30:30.518] [INFO   ] creat AI step 9 
+[12:30:30.518] [INFO   ] creat AI step 10 
+[12:30:30.518] [INFO   ] creat AI step 11 
+[12:30:30.518] [INFO   ] thread Thread-0wip5
+[12:30:30.518] [INFO   ] creat AI step 3 
+[12:30:30.518] [INFO   ] creat AI step 7 
+[12:30:30.518] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.518] [INFO   ] AI key pressed step 1 
+[12:30:30.518] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.518] [INFO   ] AI key pressed step 2 
+[12:30:30.518] [INFO   ] KP step 1computer-1
+[12:30:30.518] [INFO   ] thread Thread-0wip3
+[12:30:30.519] [INFO   ] thread Thread-0wip4
+[12:30:30.518] [INFO   ] KP step 10computer-1
+[12:30:30.519] [INFO   ] creat AI step 10 
+[12:30:30.519] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.519] [INFO   ] creat AI step 11 
+[12:30:30.519] [INFO   ] creat AI step 8 
+[12:30:30.519] [INFO   ] creat AI step 3 
+[12:30:30.519] [INFO   ] creat AI step 9 
+[12:30:30.519] [INFO   ] creat AI step 7 
+[12:30:30.519] [INFO   ] AI key pressed step 1 
+[12:30:30.519] [INFO   ] thread Thread-1wip5
+[12:30:30.519] [INFO   ] AI key pressed step 2 
+[12:30:30.519] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.519] [INFO   ] KP step 1computer-0
+[12:30:30.519] [INFO   ] KP step 10computer-0
+[12:30:30.519] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.519] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.520] [INFO   ] creat AI step 8 
+[12:30:30.520] [INFO   ] creat AI step 9 
+[12:30:30.519] [INFO   ] thread Thread-1wip3
+[12:30:30.520] [INFO   ] thread Thread-0wip5
+[12:30:30.520] [INFO   ] thread Thread-1wip4
+[12:30:30.520] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.520] [INFO   ] creat AI step 10 
+[12:30:30.520] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.520] [INFO   ] thread Thread-0wip3
+[12:30:30.521] [INFO   ] thread Thread-0wip4
+[12:30:30.520] [INFO   ] creat AI step 11 
+[12:30:30.521] [INFO   ] creat AI step 10 
+[12:30:30.521] [INFO   ] creat AI step 11 
+[12:30:30.521] [INFO   ] creat AI step 3 
+[12:30:30.521] [INFO   ] creat AI step 3 
+[12:30:30.521] [INFO   ] creat AI step 7 
+[12:30:30.521] [INFO   ] AI key pressed step 1 
+[12:30:30.521] [INFO   ] creat AI step 7 
+[12:30:30.521] [INFO   ] AI key pressed step 1 
+[12:30:30.521] [INFO   ] AI key pressed step 2 
+[12:30:30.521] [INFO   ] AI key pressed step 2 
+[12:30:30.521] [INFO   ] KP step 1computer-0
+[12:30:30.521] [INFO   ] KP step 1computer-1
+[12:30:30.522] [INFO   ] KP step 10computer-0
+[12:30:30.522] [INFO   ] KP step 10computer-1
+[12:30:30.522] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.522] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.522] [INFO   ] creat AI step 8 
+[12:30:30.522] [INFO   ] creat AI step 8 
+[12:30:30.522] [INFO   ] creat AI step 9 
+[12:30:30.522] [INFO   ] creat AI step 9 
+[12:30:30.522] [INFO   ] thread Thread-0wip5
+[12:30:30.523] [INFO   ] thread Thread-1wip5
+[12:30:30.523] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.523] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.523] [INFO   ] thread Thread-0wip3
+[12:30:30.523] [INFO   ] thread Thread-0wip4
+[12:30:30.523] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.523] [INFO   ] creat AI step 10 
+[12:30:30.523] [INFO   ] creat AI step 11 
+[12:30:30.523] [INFO   ] creat AI step 3 
+[12:30:30.523] [INFO   ] creat AI step 7 
+[12:30:30.523] [INFO   ] AI key pressed step 1 
+[12:30:30.523] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.523] [INFO   ] AI key pressed step 2 
+[12:30:30.524] [INFO   ] KP step 1computer-0
+[12:30:30.524] [INFO   ] KP step 10computer-0
+[12:30:30.524] [INFO   ] thread Thread-1wip3
+[12:30:30.524] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.524] [INFO   ] creat AI step 8 
+[12:30:30.524] [INFO   ] creat AI step 9 
+[12:30:30.524] [INFO   ] thread Thread-1wip4
+[12:30:30.524] [INFO   ] thread Thread-0wip5
+[12:30:30.524] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.524] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.524] [INFO   ] thread Thread-0wip3
+[12:30:30.524] [INFO   ] thread Thread-0wip4
+[12:30:30.524] [INFO   ] creat AI step 10 
+[12:30:30.524] [INFO   ] creat AI step 10 
+[12:30:30.524] [INFO   ] creat AI step 11 
+[12:30:30.524] [INFO   ] creat AI step 3 
+[12:30:30.524] [INFO   ] creat AI step 7 
+[12:30:30.524] [INFO   ] AI key pressed step 1 
+[12:30:30.524] [INFO   ] creat AI step 11 
+[12:30:30.524] [INFO   ] creat AI step 3 
+[12:30:30.524] [INFO   ] AI key pressed step 2 
+[12:30:30.524] [INFO   ] KP step 1computer-0
+[12:30:30.524] [INFO   ] creat AI step 7 
+[12:30:30.524] [INFO   ] AI key pressed step 1 
+[12:30:30.524] [INFO   ] KP step 10computer-0
+[12:30:30.524] [INFO   ] AI key pressed step 2 
+[12:30:30.524] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.524] [INFO   ] KP step 1computer-1
+[12:30:30.524] [INFO   ] creat AI step 8 
+[12:30:30.524] [INFO   ] KP step 10computer-1
+[12:30:30.526] [INFO   ] creat AI step 9 
+[12:30:30.526] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.526] [INFO   ] thread Thread-0wip5
+[12:30:30.526] [INFO   ] creat AI step 8 
+[12:30:30.526] [INFO   ] creat AI step 9 
+[12:30:30.526] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.526] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.526] [INFO   ] thread Thread-1wip5
+[12:30:30.526] [INFO   ] thread Thread-0wip3
+[12:30:30.526] [INFO   ] thread Thread-0wip4
+[12:30:30.526] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.526] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.526] [INFO   ] creat AI step 10 
+[12:30:30.526] [INFO   ] creat AI step 11 
+[12:30:30.526] [INFO   ] creat AI step 3 
+[12:30:30.526] [INFO   ] thread Thread-1wip3
+[12:30:30.527] [INFO   ] creat AI step 7 
+[12:30:30.527] [INFO   ] AI key pressed step 1 
+[12:30:30.527] [INFO   ] thread Thread-1wip4
+[12:30:30.527] [INFO   ] AI key pressed step 2 
+[12:30:30.527] [INFO   ] creat AI step 10 
+[12:30:30.527] [INFO   ] KP step 1computer-0
+[12:30:30.527] [INFO   ] KP step 10computer-0
+[12:30:30.527] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.527] [INFO   ] creat AI step 8 
+[12:30:30.527] [INFO   ] creat AI step 9 
+[12:30:30.527] [INFO   ] creat AI step 11 
+[12:30:30.527] [INFO   ] creat AI step 3 
+[12:30:30.527] [INFO   ] creat AI step 7 
+[12:30:30.527] [INFO   ] thread Thread-0wip5
+[12:30:30.527] [INFO   ] AI key pressed step 1 
+[12:30:30.527] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.527] [INFO   ] AI key pressed step 2 
+[12:30:30.527] [INFO   ] KP step 1computer-1
+[12:30:30.527] [INFO   ] KP step 10computer-1
+[12:30:30.527] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.527] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.528] [INFO   ] creat AI step 8 
+[12:30:30.528] [INFO   ] creat AI step 9 
+[12:30:30.527] [INFO   ] thread Thread-0wip3
+[12:30:30.528] [INFO   ] thread Thread-1wip5
+[12:30:30.528] [INFO   ] thread Thread-0wip4
+[12:30:30.528] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.528] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.528] [INFO   ] thread Thread-1wip3
+[12:30:30.528] [INFO   ] thread Thread-1wip4
+[12:30:30.528] [INFO   ] creat AI step 10 
+[12:30:30.528] [INFO   ] creat AI step 10 
+[12:30:30.528] [INFO   ] creat AI step 11 
+[12:30:30.528] [INFO   ] creat AI step 3 
+[12:30:30.528] [INFO   ] creat AI step 7 
+[12:30:30.528] [INFO   ] AI key pressed step 1 
+[12:30:30.528] [INFO   ] creat AI step 11 
+[12:30:30.528] [INFO   ] creat AI step 3 
+[12:30:30.528] [INFO   ] creat AI step 7 
+[12:30:30.528] [INFO   ] AI key pressed step 1 
+[12:30:30.528] [INFO   ] AI key pressed step 2 
+[12:30:30.528] [INFO   ] AI key pressed step 2 
+[12:30:30.528] [INFO   ] KP step 1computer-0
+[12:30:30.528] [INFO   ] KP step 10computer-0
+[12:30:30.528] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.529] [INFO   ] creat AI step 8 
+[12:30:30.529] [INFO   ] creat AI step 9 
+[12:30:30.528] [INFO   ] KP step 1computer-1
+[12:30:30.529] [INFO   ] thread Thread-0wip5
+[12:30:30.529] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.529] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.529] [INFO   ] thread Thread-0wip3
+[12:30:30.529] [INFO   ] thread Thread-0wip4
+[12:30:30.529] [INFO   ] KP step 10computer-1
+[12:30:30.529] [INFO   ] creat AI step 10 
+[12:30:30.529] [INFO   ] creat AI step 11 
+[12:30:30.529] [INFO   ] creat AI step 3 
+[12:30:30.529] [INFO   ] creat AI step 7 
+[12:30:30.529] [INFO   ] AI key pressed step 1 
+[12:30:30.529] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.529] [INFO   ] AI key pressed step 2 
+[12:30:30.529] [INFO   ] creat AI step 8 
+[12:30:30.529] [INFO   ] KP step 1computer-0
+[12:30:30.529] [INFO   ] KP step 10computer-0
+[12:30:30.529] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.529] [INFO   ] creat AI step 8 
+[12:30:30.529] [INFO   ] creat AI step 9 
+[12:30:30.529] [INFO   ] creat AI step 9 
+[12:30:30.529] [INFO   ] thread Thread-0wip5
+[12:30:30.530] [INFO   ] thread Thread-1wip5
+[12:30:30.530] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.530] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.530] [INFO   ] thread Thread-0wip3
+[12:30:30.530] [INFO   ] thread Thread-0wip4
+[12:30:30.530] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.530] [INFO   ] creat AI step 10 
+[12:30:30.530] [INFO   ] creat AI step 11 
+[12:30:30.530] [INFO   ] creat AI step 3 
+[12:30:30.530] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.530] [INFO   ] creat AI step 7 
+[12:30:30.530] [INFO   ] AI key pressed step 1 
+[12:30:30.530] [INFO   ] AI key pressed step 2 
+[12:30:30.530] [INFO   ] thread Thread-1wip3
+[12:30:30.530] [INFO   ] KP step 1computer-0
+[12:30:30.531] [INFO   ] KP step 10computer-0
+[12:30:30.531] [INFO   ] thread Thread-1wip4
+[12:30:30.531] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.531] [INFO   ] creat AI step 8 
+[12:30:30.531] [INFO   ] creat AI step 9 
+[12:30:30.531] [INFO   ] creat AI step 10 
+[12:30:30.531] [INFO   ] creat AI step 11 
+[12:30:30.531] [INFO   ] creat AI step 3 
+[12:30:30.531] [INFO   ] creat AI step 7 
+[12:30:30.531] [INFO   ] AI key pressed step 1 
+[12:30:30.531] [INFO   ] thread Thread-0wip5
+[12:30:30.531] [INFO   ] AI key pressed step 2 
+[12:30:30.531] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.531] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.531] [INFO   ] KP step 1computer-1
+[12:30:30.531] [INFO   ] KP step 10computer-1
+[12:30:30.531] [INFO   ] thread Thread-0wip3
+[12:30:30.531] [INFO   ] thread Thread-0wip4
+[12:30:30.531] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.532] [INFO   ] creat AI step 8 
+[12:30:30.532] [INFO   ] creat AI step 9 
+[12:30:30.532] [INFO   ] creat AI step 10 
+[12:30:30.532] [INFO   ] creat AI step 11 
+[12:30:30.532] [INFO   ] creat AI step 3 
+[12:30:30.532] [INFO   ] creat AI step 7 
+[12:30:30.532] [INFO   ] AI key pressed step 1 
+[12:30:30.532] [INFO   ] thread Thread-1wip5
+[12:30:30.532] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.532] [INFO   ] AI key pressed step 2 
+[12:30:30.532] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.532] [INFO   ] thread Thread-1wip3
+[12:30:30.532] [INFO   ] KP step 1computer-0
+[12:30:30.532] [INFO   ] thread Thread-1wip4
+[12:30:30.532] [INFO   ] KP step 10computer-0
+[12:30:30.532] [INFO   ] creat AI step 10 
+[12:30:30.532] [INFO   ] creat AI step 11 
+[12:30:30.532] [INFO   ] creat AI step 3 
+[12:30:30.532] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.532] [INFO   ] creat AI step 8 
+[12:30:30.532] [INFO   ] creat AI step 9 
+[12:30:30.532] [INFO   ] creat AI step 7 
+[12:30:30.533] [INFO   ] AI key pressed step 1 
+[12:30:30.533] [INFO   ] AI key pressed step 2 
+[12:30:30.533] [INFO   ] KP step 1computer-1
+[12:30:30.533] [INFO   ] KP step 10computer-1
+[12:30:30.532] [INFO   ] thread Thread-0wip5
+[12:30:30.533] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.533] [INFO   ] creat AI step 8 
+[12:30:30.533] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.533] [INFO   ] creat AI step 9 
+[12:30:30.533] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.533] [INFO   ] thread Thread-1wip5
+[12:30:30.533] [INFO   ] thread Thread-0wip3
+[12:30:30.533] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.533] [INFO   ] thread Thread-0wip4
+[12:30:30.533] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.533] [INFO   ] creat AI step 10 
+[12:30:30.533] [INFO   ] thread Thread-1wip3
+[12:30:30.533] [INFO   ] creat AI step 11 
+[12:30:30.533] [INFO   ] creat AI step 3 
+[12:30:30.533] [INFO   ] creat AI step 7 
+[12:30:30.533] [INFO   ] AI key pressed step 1 
+[12:30:30.533] [INFO   ] thread Thread-1wip4
+[12:30:30.533] [INFO   ] AI key pressed step 2 
+[12:30:30.533] [INFO   ] creat AI step 10 
+[12:30:30.534] [INFO   ] creat AI step 11 
+[12:30:30.534] [INFO   ] creat AI step 3 
+[12:30:30.534] [INFO   ] KP step 1computer-0
+[12:30:30.534] [INFO   ] creat AI step 7 
+[12:30:30.534] [INFO   ] AI key pressed step 1 
+[12:30:30.534] [INFO   ] KP step 10computer-0
+[12:30:30.534] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.534] [INFO   ] creat AI step 8 
+[12:30:30.534] [INFO   ] creat AI step 9 
+[12:30:30.534] [INFO   ] AI key pressed step 2 
+[12:30:30.534] [INFO   ] KP step 1computer-1
+[12:30:30.534] [INFO   ] thread Thread-0wip5
+[12:30:30.534] [INFO   ] KP step 10computer-1
+[12:30:30.534] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.534] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.534] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.534] [INFO   ] creat AI step 8 
+[12:30:30.534] [INFO   ] creat AI step 9 
+[12:30:30.534] [INFO   ] thread Thread-0wip3
+[12:30:30.534] [INFO   ] thread Thread-1wip5
+[12:30:30.534] [INFO   ] thread Thread-0wip4
+[12:30:30.535] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.535] [INFO   ] creat AI step 10 
+[12:30:30.535] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.535] [INFO   ] creat AI step 11 
+[12:30:30.535] [INFO   ] creat AI step 3 
+[12:30:30.535] [INFO   ] creat AI step 7 
+[12:30:30.535] [INFO   ] AI key pressed step 1 
+[12:30:30.535] [INFO   ] thread Thread-1wip3
+[12:30:30.535] [INFO   ] thread Thread-1wip4
+[12:30:30.535] [INFO   ] AI key pressed step 2 
+[12:30:30.535] [INFO   ] creat AI step 10 
+[12:30:30.535] [INFO   ] KP step 1computer-0
+[12:30:30.535] [INFO   ] KP step 10computer-0
+[12:30:30.535] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.535] [INFO   ] creat AI step 8 
+[12:30:30.535] [INFO   ] creat AI step 9 
+[12:30:30.535] [INFO   ] thread Thread-0wip5
+[12:30:30.535] [INFO   ] creat AI step 11 
+[12:30:30.535] [INFO   ] creat AI step 3 
+[12:30:30.535] [INFO   ] creat AI step 7 
+[12:30:30.535] [INFO   ] AI key pressed step 1 
+[12:30:30.535] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.536] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.536] [INFO   ] thread Thread-0wip3
+[12:30:30.536] [INFO   ] thread Thread-0wip4
+[12:30:30.535] [INFO   ] AI key pressed step 2 
+[12:30:30.536] [INFO   ] KP step 1computer-1
+[12:30:30.536] [INFO   ] KP step 10computer-1
+[12:30:30.536] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.536] [INFO   ] creat AI step 8 
+[12:30:30.536] [INFO   ] creat AI step 9 
+[12:30:30.536] [INFO   ] creat AI step 10 
+[12:30:30.536] [INFO   ] creat AI step 11 
+[12:30:30.536] [INFO   ] creat AI step 3 
+[12:30:30.536] [INFO   ] creat AI step 7 
+[12:30:30.536] [INFO   ] AI key pressed step 1 
+[12:30:30.536] [INFO   ] thread Thread-1wip5
+[12:30:30.536] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.536] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.536] [INFO   ] AI key pressed step 2 
+[12:30:30.536] [INFO   ] KP step 1computer-0
+[12:30:30.536] [INFO   ] thread Thread-1wip3
+[12:30:30.536] [INFO   ] KP step 10computer-0
+[12:30:30.536] [INFO   ] AI key pressed step 3, random slot: 8
+[12:30:30.536] [INFO   ] creat AI step 8 
+[12:30:30.536] [INFO   ] creat AI step 9 
+[12:30:30.536] [INFO   ] thread Thread-1wip4
+[12:30:30.536] [INFO   ] thread Thread-0wip5
+[12:30:30.536] [INFO   ] creat AI step 10 
+[12:30:30.536] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.536] [INFO   ] creat AI step 11 
+[12:30:30.536] [INFO   ] creat AI step 3 
+[12:30:30.536] [INFO   ] creat AI step 7 
+[12:30:30.536] [INFO   ] AI key pressed step 1 
+[12:30:30.536] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.536] [INFO   ] AI key pressed step 2 
+[12:30:30.536] [INFO   ] KP step 1computer-1
+[12:30:30.536] [INFO   ] thread Thread-0wip3
+[12:30:30.536] [INFO   ] KP step 10computer-1
+[12:30:30.537] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.537] [INFO   ] creat AI step 8 
+[12:30:30.537] [INFO   ] creat AI step 9 
+[12:30:30.537] [INFO   ] thread Thread-1wip5
+[12:30:30.537] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.537] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.537] [INFO   ] thread Thread-1wip3
+[12:30:30.537] [INFO   ] thread Thread-1wip4
+[12:30:30.537] [INFO   ] creat AI step 10 
+[12:30:30.537] [INFO   ] creat AI step 11 
+[12:30:30.537] [INFO   ] creat AI step 3 
+[12:30:30.537] [INFO   ] creat AI step 7 
+[12:30:30.537] [INFO   ] AI key pressed step 1 
+[12:30:30.537] [INFO   ] thread Thread-0wip4
+[12:30:30.537] [INFO   ] AI key pressed step 2 
+[12:30:30.537] [INFO   ] creat AI step 10 
+[12:30:30.537] [INFO   ] creat AI step 11 
+[12:30:30.537] [INFO   ] creat AI step 3 
+[12:30:30.537] [INFO   ] creat AI step 7 
+[12:30:30.537] [INFO   ] AI key pressed step 1 
+[12:30:30.537] [INFO   ] KP step 1computer-1
+[12:30:30.537] [INFO   ] KP step 10computer-1
+[12:30:30.537] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.537] [INFO   ] creat AI step 8 
+[12:30:30.537] [INFO   ] creat AI step 9 
+[12:30:30.537] [INFO   ] AI key pressed step 2 
+[12:30:30.537] [INFO   ] KP step 1computer-0
+[12:30:30.537] [INFO   ] KP step 10computer-0
+[12:30:30.537] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.537] [INFO   ] creat AI step 8 
+[12:30:30.538] [INFO   ] creat AI step 9 
+[12:30:30.537] [INFO   ] thread Thread-1wip5
+[12:30:30.538] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.538] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.538] [INFO   ] thread Thread-1wip3
+[12:30:30.538] [INFO   ] thread Thread-1wip4
+[12:30:30.538] [INFO   ] thread Thread-0wip5
+[12:30:30.538] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.538] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.538] [INFO   ] thread Thread-0wip3
+[12:30:30.538] [INFO   ] thread Thread-0wip4
+[12:30:30.538] [INFO   ] creat AI step 10 
+[12:30:30.538] [INFO   ] creat AI step 11 
+[12:30:30.538] [INFO   ] creat AI step 3 
+[12:30:30.538] [INFO   ] creat AI step 7 
+[12:30:30.538] [INFO   ] AI key pressed step 1 
+[12:30:30.538] [INFO   ] creat AI step 10 
+[12:30:30.538] [INFO   ] creat AI step 11 
+[12:30:30.538] [INFO   ] creat AI step 3 
+[12:30:30.538] [INFO   ] creat AI step 7 
+[12:30:30.538] [INFO   ] AI key pressed step 1 
+[12:30:30.538] [INFO   ] AI key pressed step 2 
+[12:30:30.538] [INFO   ] KP step 1computer-0
+[12:30:30.538] [INFO   ] KP step 10computer-0
+[12:30:30.538] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.538] [INFO   ] creat AI step 8 
+[12:30:30.538] [INFO   ] creat AI step 9 
+[12:30:30.538] [INFO   ] AI key pressed step 2 
+[12:30:30.538] [INFO   ] KP step 1computer-1
+[12:30:30.538] [INFO   ] KP step 10computer-1
+[12:30:30.538] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.538] [INFO   ] creat AI step 8 
+[12:30:30.538] [INFO   ] creat AI step 9 
+[12:30:30.538] [INFO   ] thread Thread-0wip5
+[12:30:30.538] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.538] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.538] [INFO   ] thread Thread-0wip3
+[12:30:30.539] [INFO   ] thread Thread-0wip4
+[12:30:30.538] [INFO   ] thread Thread-1wip5
+[12:30:30.539] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.539] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.539] [INFO   ] thread Thread-1wip3
+[12:30:30.539] [INFO   ] thread Thread-1wip4
+[12:30:30.539] [INFO   ] creat AI step 10 
+[12:30:30.539] [INFO   ] creat AI step 11 
+[12:30:30.539] [INFO   ] creat AI step 3 
+[12:30:30.539] [INFO   ] creat AI step 7 
+[12:30:30.539] [INFO   ] AI key pressed step 1 
+[12:30:30.539] [INFO   ] creat AI step 10 
+[12:30:30.539] [INFO   ] creat AI step 11 
+[12:30:30.539] [INFO   ] creat AI step 3 
+[12:30:30.539] [INFO   ] creat AI step 7 
+[12:30:30.539] [INFO   ] AI key pressed step 1 
+[12:30:30.539] [INFO   ] AI key pressed step 2 
+[12:30:30.539] [INFO   ] KP step 1computer-0
+[12:30:30.539] [INFO   ] KP step 10computer-0
+[12:30:30.539] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.539] [INFO   ] creat AI step 8 
+[12:30:30.539] [INFO   ] creat AI step 9 
+[12:30:30.539] [INFO   ] AI key pressed step 2 
+[12:30:30.539] [INFO   ] KP step 1computer-1
+[12:30:30.539] [INFO   ] KP step 10computer-1
+[12:30:30.539] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.539] [INFO   ] creat AI step 8 
+[12:30:30.539] [INFO   ] creat AI step 9 
+[12:30:30.539] [INFO   ] thread Thread-0wip5
+[12:30:30.539] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.539] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.539] [INFO   ] thread Thread-0wip3
+[12:30:30.539] [INFO   ] thread Thread-0wip4
+[12:30:30.539] [INFO   ] thread Thread-1wip5
+[12:30:30.539] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.539] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.539] [INFO   ] thread Thread-1wip3
+[12:30:30.539] [INFO   ] thread Thread-1wip4
+[12:30:30.539] [INFO   ] creat AI step 10 
+[12:30:30.539] [INFO   ] creat AI step 11 
+[12:30:30.539] [INFO   ] creat AI step 3 
+[12:30:30.539] [INFO   ] creat AI step 7 
+[12:30:30.539] [INFO   ] AI key pressed step 1 
+[12:30:30.540] [INFO   ] AI key pressed step 2 
+[12:30:30.540] [INFO   ] KP step 1computer-0
+[12:30:30.540] [INFO   ] KP step 10computer-0
+[12:30:30.540] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.540] [INFO   ] creat AI step 8 
+[12:30:30.540] [INFO   ] creat AI step 9 
+[12:30:30.539] [INFO   ] creat AI step 10 
+[12:30:30.540] [INFO   ] thread Thread-0wip5
+[12:30:30.540] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.540] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.540] [INFO   ] thread Thread-0wip3
+[12:30:30.540] [INFO   ] thread Thread-0wip4
+[12:30:30.540] [INFO   ] creat AI step 11 
+[12:30:30.540] [INFO   ] creat AI step 3 
+[12:30:30.540] [INFO   ] creat AI step 10 
+[12:30:30.540] [INFO   ] creat AI step 11 
+[12:30:30.540] [INFO   ] creat AI step 3 
+[12:30:30.540] [INFO   ] creat AI step 7 
+[12:30:30.540] [INFO   ] AI key pressed step 1 
+[12:30:30.540] [INFO   ] creat AI step 7 
+[12:30:30.540] [INFO   ] AI key pressed step 1 
+[12:30:30.540] [INFO   ] AI key pressed step 2 
+[12:30:30.540] [INFO   ] KP step 1computer-1
+[12:30:30.540] [INFO   ] KP step 10computer-1
+[12:30:30.540] [INFO   ] AI key pressed step 3, random slot: 0
+[12:30:30.540] [INFO   ] creat AI step 8 
+[12:30:30.540] [INFO   ] creat AI step 9 
+[12:30:30.540] [INFO   ] AI key pressed step 2 
+[12:30:30.540] [INFO   ] KP step 1computer-0
+[12:30:30.541] [INFO   ] KP step 10computer-0
+[12:30:30.541] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.541] [INFO   ] creat AI step 8 
+[12:30:30.541] [INFO   ] creat AI step 9 
+[12:30:30.540] [INFO   ] thread Thread-1wip5
+[12:30:30.541] [INFO   ] thread Thread-0wip5
+[12:30:30.541] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.541] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.541] [INFO   ] thread Thread-1wip3
+[12:30:30.541] [INFO   ] thread Thread-1wip4
+[12:30:30.541] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.541] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.541] [INFO   ] thread Thread-0wip3
+[12:30:30.541] [INFO   ] thread Thread-0wip4
+[12:30:30.541] [INFO   ] creat AI step 10 
+[12:30:30.541] [INFO   ] creat AI step 11 
+[12:30:30.541] [INFO   ] creat AI step 3 
+[12:30:30.541] [INFO   ] creat AI step 7 
+[12:30:30.541] [INFO   ] AI key pressed step 1 
+[12:30:30.541] [INFO   ] creat AI step 10 
+[12:30:30.541] [INFO   ] creat AI step 11 
+[12:30:30.541] [INFO   ] creat AI step 3 
+[12:30:30.541] [INFO   ] creat AI step 7 
+[12:30:30.541] [INFO   ] AI key pressed step 1 
+[12:30:30.541] [INFO   ] AI key pressed step 2 
+[12:30:30.541] [INFO   ] KP step 1computer-0
+[12:30:30.541] [INFO   ] KP step 10computer-0
+[12:30:30.541] [INFO   ] AI key pressed step 2 
+[12:30:30.542] [INFO   ] KP step 1computer-1
+[12:30:30.542] [INFO   ] KP step 10computer-1
+[12:30:30.542] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.542] [INFO   ] creat AI step 8 
+[12:30:30.542] [INFO   ] creat AI step 9 
+[12:30:30.541] [INFO   ] AI key pressed step 3, random slot: 8
+[12:30:30.542] [INFO   ] creat AI step 8 
+[12:30:30.542] [INFO   ] creat AI step 9 
+[12:30:30.542] [INFO   ] thread Thread-1wip5
+[12:30:30.542] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.542] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.542] [INFO   ] thread Thread-1wip3
+[12:30:30.542] [INFO   ] thread Thread-1wip4
+[12:30:30.542] [INFO   ] thread Thread-0wip5
+[12:30:30.542] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.542] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.542] [INFO   ] thread Thread-0wip3
+[12:30:30.542] [INFO   ] thread Thread-0wip4
+[12:30:30.542] [INFO   ] creat AI step 10 
+[12:30:30.542] [INFO   ] creat AI step 11 
+[12:30:30.542] [INFO   ] creat AI step 3 
+[12:30:30.542] [INFO   ] creat AI step 7 
+[12:30:30.542] [INFO   ] AI key pressed step 1 
+[12:30:30.542] [INFO   ] creat AI step 10 
+[12:30:30.542] [INFO   ] creat AI step 11 
+[12:30:30.542] [INFO   ] creat AI step 3 
+[12:30:30.542] [INFO   ] creat AI step 7 
+[12:30:30.542] [INFO   ] AI key pressed step 1 
+[12:30:30.542] [INFO   ] AI key pressed step 2 
+[12:30:30.542] [INFO   ] KP step 1computer-1
+[12:30:30.542] [INFO   ] KP step 10computer-1
+[12:30:30.542] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.542] [INFO   ] creat AI step 8 
+[12:30:30.542] [INFO   ] creat AI step 9 
+[12:30:30.542] [INFO   ] AI key pressed step 2 
+[12:30:30.542] [INFO   ] KP step 1computer-0
+[12:30:30.542] [INFO   ] KP step 10computer-0
+[12:30:30.542] [INFO   ] thread Thread-1wip5
+[12:30:30.542] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.543] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.543] [INFO   ] thread Thread-1wip3
+[12:30:30.543] [INFO   ] thread Thread-1wip4
+[12:30:30.542] [INFO   ] AI key pressed step 3, random slot: 0
+[12:30:30.543] [INFO   ] creat AI step 8 
+[12:30:30.543] [INFO   ] creat AI step 9 
+[12:30:30.543] [INFO   ] creat AI step 10 
+[12:30:30.543] [INFO   ] creat AI step 11 
+[12:30:30.543] [INFO   ] creat AI step 3 
+[12:30:30.543] [INFO   ] creat AI step 7 
+[12:30:30.543] [INFO   ] AI key pressed step 1 
+[12:30:30.543] [INFO   ] AI key pressed step 2 
+[12:30:30.543] [INFO   ] KP step 1computer-1
+[12:30:30.543] [INFO   ] KP step 10computer-1
+[12:30:30.543] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.543] [INFO   ] creat AI step 8 
+[12:30:30.543] [INFO   ] creat AI step 9 
+[12:30:30.543] [INFO   ] thread Thread-0wip5
+[12:30:30.543] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.543] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.543] [INFO   ] thread Thread-0wip3
+[12:30:30.543] [INFO   ] thread Thread-0wip4
+[12:30:30.543] [INFO   ] thread Thread-1wip5
+[12:30:30.543] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.543] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.543] [INFO   ] thread Thread-1wip3
+[12:30:30.543] [INFO   ] thread Thread-1wip4
+[12:30:30.543] [INFO   ] creat AI step 10 
+[12:30:30.543] [INFO   ] creat AI step 11 
+[12:30:30.543] [INFO   ] creat AI step 3 
+[12:30:30.543] [INFO   ] creat AI step 7 
+[12:30:30.543] [INFO   ] AI key pressed step 1 
+[12:30:30.543] [INFO   ] creat AI step 10 
+[12:30:30.543] [INFO   ] creat AI step 11 
+[12:30:30.543] [INFO   ] creat AI step 3 
+[12:30:30.543] [INFO   ] AI key pressed step 2 
+[12:30:30.543] [INFO   ] KP step 1computer-0
+[12:30:30.544] [INFO   ] KP step 10computer-0
+[12:30:30.544] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.544] [INFO   ] creat AI step 8 
+[12:30:30.544] [INFO   ] creat AI step 9 
+[12:30:30.543] [INFO   ] creat AI step 7 
+[12:30:30.544] [INFO   ] AI key pressed step 1 
+[12:30:30.544] [INFO   ] thread Thread-0wip5
+[12:30:30.544] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.544] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.544] [INFO   ] thread Thread-0wip3
+[12:30:30.544] [INFO   ] thread Thread-0wip4
+[12:30:30.544] [INFO   ] creat AI step 10 
+[12:30:30.544] [INFO   ] creat AI step 11 
+[12:30:30.544] [INFO   ] creat AI step 3 
+[12:30:30.544] [INFO   ] creat AI step 7 
+[12:30:30.544] [INFO   ] AI key pressed step 1 
+[12:30:30.544] [INFO   ] AI key pressed step 2 
+[12:30:30.544] [INFO   ] KP step 1computer-1
+[12:30:30.544] [INFO   ] KP step 10computer-1
+[12:30:30.544] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.544] [INFO   ] creat AI step 8 
+[12:30:30.544] [INFO   ] creat AI step 9 
+[12:30:30.544] [INFO   ] AI key pressed step 2 
+[12:30:30.544] [INFO   ] KP step 1computer-0
+[12:30:30.544] [INFO   ] KP step 10computer-0
+[12:30:30.544] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.544] [INFO   ] creat AI step 8 
+[12:30:30.544] [INFO   ] creat AI step 9 
+[12:30:30.544] [INFO   ] thread Thread-1wip5
+[12:30:30.544] [INFO   ] thread Thread-0wip5
+[12:30:30.544] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.544] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.544] [INFO   ] thread Thread-1wip3
+[12:30:30.544] [INFO   ] thread Thread-1wip4
+[12:30:30.544] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.544] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.544] [INFO   ] thread Thread-0wip3
+[12:30:30.544] [INFO   ] thread Thread-0wip4
+[12:30:30.544] [INFO   ] creat AI step 10 
+[12:30:30.544] [INFO   ] creat AI step 11 
+[12:30:30.544] [INFO   ] creat AI step 3 
+[12:30:30.544] [INFO   ] creat AI step 7 
+[12:30:30.544] [INFO   ] AI key pressed step 1 
+[12:30:30.544] [INFO   ] creat AI step 10 
+[12:30:30.544] [INFO   ] creat AI step 11 
+[12:30:30.544] [INFO   ] creat AI step 3 
+[12:30:30.546] [INFO   ] creat AI step 7 
+[12:30:30.546] [INFO   ] AI key pressed step 1 
+[12:30:30.544] [INFO   ] AI key pressed step 2 
+[12:30:30.546] [INFO   ] AI key pressed step 2 
+[12:30:30.546] [INFO   ] KP step 1computer-0
+[12:30:30.546] [INFO   ] KP step 10computer-0
+[12:30:30.546] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.546] [INFO   ] creat AI step 8 
+[12:30:30.546] [INFO   ] creat AI step 9 
+[12:30:30.546] [INFO   ] KP step 1computer-1
+[12:30:30.546] [INFO   ] KP step 10computer-1
+[12:30:30.546] [INFO   ] AI key pressed step 3, random slot: 0
+[12:30:30.546] [INFO   ] creat AI step 8 
+[12:30:30.546] [INFO   ] creat AI step 9 
+[12:30:30.546] [INFO   ] thread Thread-0wip5
+[12:30:30.546] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.546] [INFO   ] thread Thread-1wip5
+[12:30:30.546] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.546] [INFO   ] thread Thread-0wip3
+[12:30:30.547] [INFO   ] thread Thread-0wip4
+[12:30:30.547] [INFO   ] creat AI step 10 
+[12:30:30.547] [INFO   ] creat AI step 11 
+[12:30:30.547] [INFO   ] creat AI step 3 
+[12:30:30.547] [INFO   ] creat AI step 7 
+[12:30:30.547] [INFO   ] AI key pressed step 1 
+[12:30:30.547] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.547] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.547] [INFO   ] thread Thread-1wip3
+[12:30:30.547] [INFO   ] thread Thread-1wip4
+[12:30:30.547] [INFO   ] AI key pressed step 2 
+[12:30:30.547] [INFO   ] creat AI step 10 
+[12:30:30.547] [INFO   ] creat AI step 11 
+[12:30:30.547] [INFO   ] creat AI step 3 
+[12:30:30.547] [INFO   ] creat AI step 7 
+[12:30:30.547] [INFO   ] AI key pressed step 1 
+[12:30:30.547] [INFO   ] AI key pressed step 2 
+[12:30:30.547] [INFO   ] KP step 1computer-1
+[12:30:30.547] [INFO   ] KP step 1computer-0
+[12:30:30.547] [INFO   ] KP step 10computer-0
+[12:30:30.547] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.547] [INFO   ] creat AI step 8 
+[12:30:30.547] [INFO   ] creat AI step 9 
+[12:30:30.547] [INFO   ] KP step 10computer-1
+[12:30:30.547] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.547] [INFO   ] creat AI step 8 
+[12:30:30.547] [INFO   ] creat AI step 9 
+[12:30:30.547] [INFO   ] thread Thread-0wip5
+[12:30:30.548] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.548] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.548] [INFO   ] thread Thread-0wip3
+[12:30:30.548] [INFO   ] thread Thread-1wip5
+[12:30:30.548] [INFO   ] thread Thread-0wip4
+[12:30:30.548] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.548] [INFO   ] creat AI step 10 
+[12:30:30.548] [INFO   ] creat AI step 11 
+[12:30:30.548] [INFO   ] creat AI step 3 
+[12:30:30.548] [INFO   ] creat AI step 7 
+[12:30:30.548] [INFO   ] AI key pressed step 1 
+[12:30:30.548] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.548] [INFO   ] thread Thread-1wip3
+[12:30:30.548] [INFO   ] thread Thread-1wip4
+[12:30:30.548] [INFO   ] AI key pressed step 2 
+[12:30:30.548] [INFO   ] KP step 1computer-0
+[12:30:30.549] [INFO   ] KP step 10computer-0
+[12:30:30.549] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.549] [INFO   ] creat AI step 8 
+[12:30:30.549] [INFO   ] creat AI step 9 
+[12:30:30.548] [INFO   ] creat AI step 10 
+[12:30:30.549] [INFO   ] creat AI step 11 
+[12:30:30.549] [INFO   ] creat AI step 3 
+[12:30:30.549] [INFO   ] creat AI step 7 
+[12:30:30.549] [INFO   ] AI key pressed step 1 
+[12:30:30.549] [INFO   ] thread Thread-0wip5
+[12:30:30.549] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.549] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.549] [INFO   ] thread Thread-0wip3
+[12:30:30.549] [INFO   ] thread Thread-0wip4
+[12:30:30.549] [INFO   ] AI key pressed step 2 
+[12:30:30.549] [INFO   ] KP step 1computer-1
+[12:30:30.549] [INFO   ] KP step 10computer-1
+[12:30:30.549] [INFO   ] creat AI step 10 
+[12:30:30.549] [INFO   ] creat AI step 11 
+[12:30:30.549] [INFO   ] creat AI step 3 
+[12:30:30.549] [INFO   ] creat AI step 7 
+[12:30:30.549] [INFO   ] AI key pressed step 1 
+[12:30:30.549] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.549] [INFO   ] AI key pressed step 2 
+[12:30:30.550] [INFO   ] creat AI step 8 
+[12:30:30.550] [INFO   ] creat AI step 9 
+[12:30:30.550] [INFO   ] KP step 1computer-0
+[12:30:30.550] [INFO   ] thread Thread-1wip5
+[12:30:30.550] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.550] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.550] [INFO   ] thread Thread-1wip3
+[12:30:30.550] [INFO   ] thread Thread-1wip4
+[12:30:30.550] [INFO   ] KP step 10computer-0
+[12:30:30.550] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.550] [INFO   ] creat AI step 8 
+[12:30:30.550] [INFO   ] creat AI step 9 
+[12:30:30.550] [INFO   ] creat AI step 10 
+[12:30:30.550] [INFO   ] creat AI step 11 
+[12:30:30.550] [INFO   ] creat AI step 3 
+[12:30:30.550] [INFO   ] creat AI step 7 
+[12:30:30.550] [INFO   ] AI key pressed step 1 
+[12:30:30.550] [INFO   ] thread Thread-0wip5
+[12:30:30.550] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.550] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.550] [INFO   ] thread Thread-0wip3
+[12:30:30.550] [INFO   ] thread Thread-0wip4
+[12:30:30.550] [INFO   ] AI key pressed step 2 
+[12:30:30.551] [INFO   ] creat AI step 10 
+[12:30:30.551] [INFO   ] creat AI step 11 
+[12:30:30.551] [INFO   ] creat AI step 3 
+[12:30:30.551] [INFO   ] creat AI step 7 
+[12:30:30.551] [INFO   ] AI key pressed step 1 
+[12:30:30.551] [INFO   ] KP step 1computer-1
+[12:30:30.551] [INFO   ] AI key pressed step 2 
+[12:30:30.551] [INFO   ] KP step 1computer-0
+[12:30:30.551] [INFO   ] KP step 10computer-0
+[12:30:30.551] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.551] [INFO   ] creat AI step 8 
+[12:30:30.551] [INFO   ] creat AI step 9 
+[12:30:30.551] [INFO   ] KP step 10computer-1
+[12:30:30.551] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.551] [INFO   ] creat AI step 8 
+[12:30:30.551] [INFO   ] creat AI step 9 
+[12:30:30.551] [INFO   ] thread Thread-1wip5
+[12:30:30.551] [INFO   ] thread Thread-0wip5
+[12:30:30.551] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.551] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.551] [INFO   ] thread Thread-1wip3
+[12:30:30.551] [INFO   ] thread Thread-1wip4
+[12:30:30.551] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.551] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.551] [INFO   ] thread Thread-0wip3
+[12:30:30.551] [INFO   ] thread Thread-0wip4
+[12:30:30.551] [INFO   ] creat AI step 10 
+[12:30:30.551] [INFO   ] creat AI step 11 
+[12:30:30.551] [INFO   ] creat AI step 3 
+[12:30:30.551] [INFO   ] creat AI step 7 
+[12:30:30.551] [INFO   ] AI key pressed step 1 
+[12:30:30.551] [INFO   ] AI key pressed step 2 
+[12:30:30.551] [INFO   ] KP step 1computer-1
+[12:30:30.552] [INFO   ] KP step 10computer-1
+[12:30:30.552] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.551] [INFO   ] creat AI step 10 
+[12:30:30.552] [INFO   ] creat AI step 11 
+[12:30:30.552] [INFO   ] creat AI step 3 
+[12:30:30.552] [INFO   ] creat AI step 8 
+[12:30:30.552] [INFO   ] creat AI step 9 
+[12:30:30.552] [INFO   ] creat AI step 7 
+[12:30:30.552] [INFO   ] AI key pressed step 1 
+[12:30:30.552] [INFO   ] thread Thread-1wip5
+[12:30:30.552] [INFO   ] AI key pressed step 2 
+[12:30:30.552] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.552] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.552] [INFO   ] KP step 1computer-0
+[12:30:30.552] [INFO   ] KP step 10computer-0
+[12:30:30.552] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.552] [INFO   ] creat AI step 8 
+[12:30:30.552] [INFO   ] creat AI step 9 
+[12:30:30.552] [INFO   ] thread Thread-1wip3
+[12:30:30.552] [INFO   ] thread Thread-1wip4
+[12:30:30.552] [INFO   ] thread Thread-0wip5
+[12:30:30.552] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.552] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.552] [INFO   ] thread Thread-0wip3
+[12:30:30.552] [INFO   ] thread Thread-0wip4
+[12:30:30.552] [INFO   ] creat AI step 10 
+[12:30:30.553] [INFO   ] creat AI step 11 
+[12:30:30.553] [INFO   ] creat AI step 3 
+[12:30:30.553] [INFO   ] creat AI step 7 
+[12:30:30.553] [INFO   ] AI key pressed step 1 
+[12:30:30.553] [INFO   ] creat AI step 10 
+[12:30:30.553] [INFO   ] creat AI step 11 
+[12:30:30.553] [INFO   ] creat AI step 3 
+[12:30:30.553] [INFO   ] creat AI step 7 
+[12:30:30.553] [INFO   ] AI key pressed step 1 
+[12:30:30.553] [INFO   ] AI key pressed step 2 
+[12:30:30.553] [INFO   ] AI key pressed step 2 
+[12:30:30.553] [INFO   ] KP step 1computer-0
+[12:30:30.553] [INFO   ] KP step 1computer-1
+[12:30:30.553] [INFO   ] KP step 10computer-0
+[12:30:30.553] [INFO   ] KP step 10computer-1
+[12:30:30.553] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.553] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.553] [INFO   ] creat AI step 8 
+[12:30:30.553] [INFO   ] creat AI step 9 
+[12:30:30.553] [INFO   ] creat AI step 8 
+[12:30:30.553] [INFO   ] thread Thread-1wip5
+[12:30:30.554] [INFO   ] creat AI step 9 
+[12:30:30.554] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.554] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.554] [INFO   ] thread Thread-1wip3
+[12:30:30.554] [INFO   ] thread Thread-1wip4
+[12:30:30.554] [INFO   ] thread Thread-0wip5
+[12:30:30.554] [INFO   ] creat AI step 10 
+[12:30:30.554] [INFO   ] creat AI step 11 
+[12:30:30.554] [INFO   ] creat AI step 3 
+[12:30:30.554] [INFO   ] creat AI step 7 
+[12:30:30.554] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.554] [INFO   ] AI key pressed step 1 
+[12:30:30.554] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.554] [INFO   ] AI key pressed step 2 
+[12:30:30.554] [INFO   ] thread Thread-0wip3
+[12:30:30.554] [INFO   ] thread Thread-0wip4
+[12:30:30.554] [INFO   ] KP step 1computer-1
+[12:30:30.554] [INFO   ] creat AI step 10 
+[12:30:30.555] [INFO   ] creat AI step 11 
+[12:30:30.555] [INFO   ] creat AI step 3 
+[12:30:30.555] [INFO   ] creat AI step 7 
+[12:30:30.555] [INFO   ] AI key pressed step 1 
+[12:30:30.555] [INFO   ] KP step 10computer-1
+[12:30:30.555] [INFO   ] AI key pressed step 2 
+[12:30:30.555] [INFO   ] KP step 1computer-0
+[12:30:30.555] [INFO   ] KP step 10computer-0
+[12:30:30.555] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.555] [INFO   ] creat AI step 8 
+[12:30:30.555] [INFO   ] creat AI step 9 
+[12:30:30.555] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.555] [INFO   ] creat AI step 8 
+[12:30:30.555] [INFO   ] creat AI step 9 
+[12:30:30.555] [INFO   ] thread Thread-0wip5
+[12:30:30.555] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.555] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.555] [INFO   ] thread Thread-0wip3
+[12:30:30.555] [INFO   ] thread Thread-0wip4
+[12:30:30.555] [INFO   ] thread Thread-1wip5
+[12:30:30.555] [INFO   ] creat AI step 10 
+[12:30:30.555] [INFO   ] creat AI step 11 
+[12:30:30.555] [INFO   ] creat AI step 3 
+[12:30:30.555] [INFO   ] creat AI step 7 
+[12:30:30.555] [INFO   ] AI key pressed step 1 
+[12:30:30.555] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.555] [INFO   ] AI key pressed step 2 
+[12:30:30.555] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.555] [INFO   ] KP step 1computer-0
+[12:30:30.555] [INFO   ] thread Thread-1wip3
+[12:30:30.556] [INFO   ] thread Thread-1wip4
+[12:30:30.556] [INFO   ] KP step 10computer-0
+[12:30:30.556] [INFO   ] creat AI step 10 
+[12:30:30.556] [INFO   ] creat AI step 11 
+[12:30:30.556] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.556] [INFO   ] creat AI step 8 
+[12:30:30.556] [INFO   ] creat AI step 9 
+[12:30:30.556] [INFO   ] creat AI step 3 
+[12:30:30.556] [INFO   ] creat AI step 7 
+[12:30:30.556] [INFO   ] AI key pressed step 1 
+[12:30:30.556] [INFO   ] AI key pressed step 2 
+[12:30:30.556] [INFO   ] thread Thread-0wip5
+[12:30:30.556] [INFO   ] KP step 1computer-1
+[12:30:30.556] [INFO   ] KP step 10computer-1
+[12:30:30.556] [INFO   ] AI key pressed step 3, random slot: 8
+[12:30:30.556] [INFO   ] creat AI step 8 
+[12:30:30.556] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.556] [INFO   ] creat AI step 9 
+[12:30:30.556] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.557] [INFO   ] thread Thread-1wip5
+[12:30:30.557] [INFO   ] thread Thread-0wip3
+[12:30:30.557] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.557] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.557] [INFO   ] thread Thread-0wip4
+[12:30:30.557] [INFO   ] thread Thread-1wip3
+[12:30:30.557] [INFO   ] creat AI step 10 
+[12:30:30.557] [INFO   ] creat AI step 11 
+[12:30:30.557] [INFO   ] creat AI step 3 
+[12:30:30.557] [INFO   ] creat AI step 7 
+[12:30:30.557] [INFO   ] AI key pressed step 1 
+[12:30:30.557] [INFO   ] thread Thread-1wip4
+[12:30:30.557] [INFO   ] AI key pressed step 2 
+[12:30:30.557] [INFO   ] KP step 1computer-0
+[12:30:30.557] [INFO   ] KP step 10computer-0
+[12:30:30.557] [INFO   ] creat AI step 10 
+[12:30:30.557] [INFO   ] creat AI step 11 
+[12:30:30.557] [INFO   ] creat AI step 3 
+[12:30:30.557] [INFO   ] creat AI step 7 
+[12:30:30.557] [INFO   ] AI key pressed step 1 
+[12:30:30.557] [INFO   ] AI key pressed step 3, random slot: 8
+[12:30:30.557] [INFO   ] creat AI step 8 
+[12:30:30.557] [INFO   ] creat AI step 9 
+[12:30:30.557] [INFO   ] AI key pressed step 2 
+[12:30:30.558] [INFO   ] KP step 1computer-1
+[12:30:30.558] [INFO   ] KP step 10computer-1
+[12:30:30.558] [INFO   ] thread Thread-0wip5
+[12:30:30.558] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.558] [INFO   ] creat AI step 8 
+[12:30:30.558] [INFO   ] creat AI step 9 
+[12:30:30.558] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.558] [INFO   ] thread Thread-1wip5
+[12:30:30.558] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.558] [INFO   ] thread Thread-0wip3
+[12:30:30.558] [INFO   ] thread Thread-0wip4
+[12:30:30.558] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.558] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.558] [INFO   ] creat AI step 10 
+[12:30:30.558] [INFO   ] creat AI step 11 
+[12:30:30.558] [INFO   ] creat AI step 3 
+[12:30:30.558] [INFO   ] thread Thread-1wip3
+[12:30:30.558] [INFO   ] thread Thread-1wip4
+[12:30:30.558] [INFO   ] creat AI step 7 
+[12:30:30.558] [INFO   ] AI key pressed step 1 
+[12:30:30.558] [INFO   ] creat AI step 10 
+[12:30:30.558] [INFO   ] creat AI step 11 
+[12:30:30.559] [INFO   ] creat AI step 3 
+[12:30:30.559] [INFO   ] creat AI step 7 
+[12:30:30.559] [INFO   ] AI key pressed step 1 
+[12:30:30.558] [INFO   ] AI key pressed step 2 
+[12:30:30.559] [INFO   ] KP step 1computer-0
+[12:30:30.559] [INFO   ] KP step 10computer-0
+[12:30:30.559] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.559] [INFO   ] creat AI step 8 
+[12:30:30.559] [INFO   ] creat AI step 9 
+[12:30:30.559] [INFO   ] AI key pressed step 2 
+[12:30:30.559] [INFO   ] KP step 1computer-1
+[12:30:30.559] [INFO   ] KP step 10computer-1
+[12:30:30.559] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.559] [INFO   ] creat AI step 8 
+[12:30:30.559] [INFO   ] creat AI step 9 
+[12:30:30.559] [INFO   ] thread Thread-0wip5
+[12:30:30.559] [INFO   ] thread Thread-1wip5
+[12:30:30.559] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.559] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.559] [INFO   ] thread Thread-0wip3
+[12:30:30.559] [INFO   ] thread Thread-0wip4
+[12:30:30.559] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.559] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.559] [INFO   ] thread Thread-1wip3
+[12:30:30.559] [INFO   ] thread Thread-1wip4
+[12:30:30.559] [INFO   ] creat AI step 10 
+[12:30:30.559] [INFO   ] creat AI step 10 
+[12:30:30.559] [INFO   ] creat AI step 11 
+[12:30:30.559] [INFO   ] creat AI step 3 
+[12:30:30.559] [INFO   ] creat AI step 7 
+[12:30:30.559] [INFO   ] AI key pressed step 1 
+[12:30:30.559] [INFO   ] creat AI step 11 
+[12:30:30.559] [INFO   ] AI key pressed step 2 
+[12:30:30.559] [INFO   ] creat AI step 3 
+[12:30:30.559] [INFO   ] KP step 1computer-1
+[12:30:30.559] [INFO   ] creat AI step 7 
+[12:30:30.559] [INFO   ] AI key pressed step 1 
+[12:30:30.559] [INFO   ] KP step 10computer-1
+[12:30:30.559] [INFO   ] AI key pressed step 3, random slot: 0
+[12:30:30.559] [INFO   ] creat AI step 8 
+[12:30:30.559] [INFO   ] creat AI step 9 
+[12:30:30.559] [INFO   ] AI key pressed step 2 
+[12:30:30.559] [INFO   ] thread Thread-1wip5
+[12:30:30.561] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.561] [INFO   ] KP step 1computer-0
+[12:30:30.561] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.561] [INFO   ] KP step 10computer-0
+[12:30:30.561] [INFO   ] thread Thread-1wip3
+[12:30:30.561] [INFO   ] thread Thread-1wip4
+[12:30:30.561] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.561] [INFO   ] creat AI step 8 
+[12:30:30.561] [INFO   ] creat AI step 10 
+[12:30:30.561] [INFO   ] creat AI step 11 
+[12:30:30.561] [INFO   ] creat AI step 3 
+[12:30:30.561] [INFO   ] creat AI step 9 
+[12:30:30.561] [INFO   ] creat AI step 7 
+[12:30:30.561] [INFO   ] thread Thread-0wip5
+[12:30:30.561] [INFO   ] AI key pressed step 1 
+[12:30:30.561] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.561] [INFO   ] AI key pressed step 2 
+[12:30:30.561] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.561] [INFO   ] KP step 1computer-1
+[12:30:30.561] [INFO   ] thread Thread-0wip3
+[12:30:30.561] [INFO   ] KP step 10computer-1
+[12:30:30.562] [INFO   ] thread Thread-0wip4
+[12:30:30.562] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.562] [INFO   ] creat AI step 8 
+[12:30:30.562] [INFO   ] creat AI step 10 
+[12:30:30.562] [INFO   ] creat AI step 11 
+[12:30:30.562] [INFO   ] creat AI step 3 
+[12:30:30.562] [INFO   ] creat AI step 7 
+[12:30:30.562] [INFO   ] AI key pressed step 1 
+[12:30:30.562] [INFO   ] creat AI step 9 
+[12:30:30.562] [INFO   ] AI key pressed step 2 
+[12:30:30.562] [INFO   ] KP step 1computer-0
+[12:30:30.562] [INFO   ] thread Thread-1wip5
+[12:30:30.562] [INFO   ] KP step 10computer-0
+[12:30:30.562] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.562] [INFO   ] creat AI step 8 
+[12:30:30.562] [INFO   ] creat AI step 9 
+[12:30:30.562] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.562] [INFO   ] thread Thread-0wip5
+[12:30:30.562] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.562] [INFO   ] thread Thread-1wip3
+[12:30:30.562] [INFO   ] thread Thread-1wip4
+[12:30:30.562] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.563] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.562] [INFO   ] creat AI step 10 
+[12:30:30.563] [INFO   ] creat AI step 11 
+[12:30:30.563] [INFO   ] creat AI step 3 
+[12:30:30.563] [INFO   ] creat AI step 7 
+[12:30:30.563] [INFO   ] AI key pressed step 1 
+[12:30:30.563] [INFO   ] thread Thread-0wip3
+[12:30:30.563] [INFO   ] AI key pressed step 2 
+[12:30:30.563] [INFO   ] thread Thread-0wip4
+[12:30:30.563] [INFO   ] KP step 1computer-1
+[12:30:30.563] [INFO   ] KP step 10computer-1
+[12:30:30.563] [INFO   ] creat AI step 10 
+[12:30:30.563] [INFO   ] creat AI step 11 
+[12:30:30.563] [INFO   ] creat AI step 3 
+[12:30:30.563] [INFO   ] creat AI step 7 
+[12:30:30.563] [INFO   ] AI key pressed step 1 
+[12:30:30.563] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.563] [INFO   ] creat AI step 8 
+[12:30:30.563] [INFO   ] creat AI step 9 
+[12:30:30.563] [INFO   ] AI key pressed step 2 
+[12:30:30.563] [INFO   ] KP step 1computer-0
+[12:30:30.563] [INFO   ] thread Thread-1wip5
+[12:30:30.563] [INFO   ] KP step 10computer-0
+[12:30:30.563] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.563] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.563] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.564] [INFO   ] creat AI step 8 
+[12:30:30.564] [INFO   ] thread Thread-1wip3
+[12:30:30.564] [INFO   ] thread Thread-1wip4
+[12:30:30.564] [INFO   ] creat AI step 9 
+[12:30:30.564] [INFO   ] creat AI step 10 
+[12:30:30.564] [INFO   ] creat AI step 11 
+[12:30:30.564] [INFO   ] creat AI step 3 
+[12:30:30.564] [INFO   ] creat AI step 7 
+[12:30:30.564] [INFO   ] AI key pressed step 1 
+[12:30:30.564] [INFO   ] thread Thread-0wip5
+[12:30:30.564] [INFO   ] AI key pressed step 2 
+[12:30:30.564] [INFO   ] KP step 1computer-1
+[12:30:30.564] [INFO   ] KP step 10computer-1
+[12:30:30.564] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.564] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.564] [INFO   ] creat AI step 8 
+[12:30:30.564] [INFO   ] creat AI step 9 
+[12:30:30.564] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.564] [INFO   ] thread Thread-0wip3
+[12:30:30.564] [INFO   ] thread Thread-1wip5
+[12:30:30.564] [INFO   ] thread Thread-0wip4
+[12:30:30.564] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.564] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.564] [INFO   ] creat AI step 10 
+[12:30:30.564] [INFO   ] thread Thread-1wip3
+[12:30:30.564] [INFO   ] thread Thread-1wip4
+[12:30:30.564] [INFO   ] creat AI step 11 
+[12:30:30.564] [INFO   ] creat AI step 3 
+[12:30:30.564] [INFO   ] creat AI step 7 
+[12:30:30.564] [INFO   ] AI key pressed step 1 
+[12:30:30.564] [INFO   ] creat AI step 10 
+[12:30:30.564] [INFO   ] creat AI step 11 
+[12:30:30.564] [INFO   ] AI key pressed step 2 
+[12:30:30.564] [INFO   ] creat AI step 3 
+[12:30:30.565] [INFO   ] creat AI step 7 
+[12:30:30.565] [INFO   ] AI key pressed step 1 
+[12:30:30.565] [INFO   ] KP step 1computer-0
+[12:30:30.565] [INFO   ] AI key pressed step 2 
+[12:30:30.565] [INFO   ] KP step 10computer-0
+[12:30:30.565] [INFO   ] KP step 1computer-1
+[12:30:30.565] [INFO   ] KP step 10computer-1
+[12:30:30.565] [INFO   ] AI key pressed step 3, random slot: 0
+[12:30:30.565] [INFO   ] creat AI step 8 
+[12:30:30.565] [INFO   ] creat AI step 9 
+[12:30:30.565] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.565] [INFO   ] thread Thread-1wip5
+[12:30:30.565] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.565] [INFO   ] creat AI step 8 
+[12:30:30.565] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.565] [INFO   ] thread Thread-1wip3
+[12:30:30.565] [INFO   ] thread Thread-1wip4
+[12:30:30.565] [INFO   ] creat AI step 9 
+[12:30:30.565] [INFO   ] creat AI step 10 
+[12:30:30.565] [INFO   ] creat AI step 11 
+[12:30:30.565] [INFO   ] creat AI step 3 
+[12:30:30.565] [INFO   ] creat AI step 7 
+[12:30:30.565] [INFO   ] AI key pressed step 1 
+[12:30:30.565] [INFO   ] thread Thread-0wip5
+[12:30:30.565] [INFO   ] AI key pressed step 2 
+[12:30:30.565] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.566] [INFO   ] KP step 1computer-1
+[12:30:30.566] [INFO   ] KP step 10computer-1
+[12:30:30.566] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.566] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.566] [INFO   ] creat AI step 8 
+[12:30:30.566] [INFO   ] thread Thread-0wip3
+[12:30:30.566] [INFO   ] thread Thread-0wip4
+[12:30:30.566] [INFO   ] creat AI step 9 
+[12:30:30.566] [INFO   ] creat AI step 10 
+[12:30:30.567] [INFO   ] creat AI step 11 
+[12:30:30.567] [INFO   ] creat AI step 3 
+[12:30:30.567] [INFO   ] creat AI step 7 
+[12:30:30.567] [INFO   ] AI key pressed step 1 
+[12:30:30.566] [INFO   ] thread Thread-1wip5
+[12:30:30.567] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.567] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.567] [INFO   ] AI key pressed step 2 
+[12:30:30.567] [INFO   ] KP step 1computer-0
+[12:30:30.567] [INFO   ] thread Thread-1wip3
+[12:30:30.567] [INFO   ] thread Thread-1wip4
+[12:30:30.567] [INFO   ] KP step 10computer-0
+[12:30:30.567] [INFO   ] creat AI step 10 
+[12:30:30.567] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.567] [INFO   ] creat AI step 8 
+[12:30:30.567] [INFO   ] creat AI step 9 
+[12:30:30.567] [INFO   ] creat AI step 11 
+[12:30:30.567] [INFO   ] creat AI step 3 
+[12:30:30.567] [INFO   ] creat AI step 7 
+[12:30:30.567] [INFO   ] AI key pressed step 1 
+[12:30:30.567] [INFO   ] thread Thread-0wip5
+[12:30:30.567] [INFO   ] AI key pressed step 2 
+[12:30:30.567] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.567] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.567] [INFO   ] thread Thread-0wip3
+[12:30:30.567] [INFO   ] thread Thread-0wip4
+[12:30:30.567] [INFO   ] KP step 1computer-1
+[12:30:30.567] [INFO   ] creat AI step 10 
+[12:30:30.568] [INFO   ] creat AI step 11 
+[12:30:30.568] [INFO   ] KP step 10computer-1
+[12:30:30.568] [INFO   ] creat AI step 3 
+[12:30:30.568] [INFO   ] creat AI step 7 
+[12:30:30.568] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.569] [INFO   ] AI key pressed step 1 
+[12:30:30.569] [INFO   ] creat AI step 8 
+[12:30:30.569] [INFO   ] AI key pressed step 2 
+[12:30:30.569] [INFO   ] creat AI step 9 
+[12:30:30.569] [INFO   ] KP step 1computer-0
+[12:30:30.569] [INFO   ] KP step 10computer-0
+[12:30:30.569] [INFO   ] thread Thread-1wip5
+[12:30:30.569] [INFO   ] AI key pressed step 3, random slot: 8
+[12:30:30.569] [INFO   ] creat AI step 8 
+[12:30:30.569] [INFO   ] creat AI step 9 
+[12:30:30.569] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.569] [INFO   ] thread Thread-0wip5
+[12:30:30.569] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.569] [INFO   ] thread Thread-1wip3
+[12:30:30.569] [INFO   ] thread Thread-1wip4
+[12:30:30.569] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.569] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.569] [INFO   ] creat AI step 10 
+[12:30:30.570] [INFO   ] creat AI step 11 
+[12:30:30.570] [INFO   ] thread Thread-0wip3
+[12:30:30.570] [INFO   ] creat AI step 3 
+[12:30:30.570] [INFO   ] thread Thread-0wip4
+[12:30:30.570] [INFO   ] creat AI step 7 
+[12:30:30.570] [INFO   ] AI key pressed step 1 
+[12:30:30.570] [INFO   ] creat AI step 10 
+[12:30:30.571] [INFO   ] AI key pressed step 2 
+[12:30:30.571] [INFO   ] creat AI step 11 
+[12:30:30.571] [INFO   ] creat AI step 3 
+[12:30:30.571] [INFO   ] KP step 1computer-1
+[12:30:30.571] [INFO   ] KP step 10computer-1
+[12:30:30.571] [INFO   ] creat AI step 7 
+[12:30:30.571] [INFO   ] AI key pressed step 1 
+[12:30:30.571] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.571] [INFO   ] creat AI step 8 
+[12:30:30.571] [INFO   ] creat AI step 9 
+[12:30:30.571] [INFO   ] AI key pressed step 2 
+[12:30:30.571] [INFO   ] thread Thread-1wip5
+[12:30:30.571] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.571] [INFO   ] KP step 1computer-0
+[12:30:30.571] [INFO   ] KP step 10computer-0
+[12:30:30.572] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.572] [INFO   ] creat AI step 8 
+[12:30:30.571] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.572] [INFO   ] creat AI step 9 
+[12:30:30.572] [INFO   ] thread Thread-1wip3
+[12:30:30.572] [INFO   ] thread Thread-1wip4
+[12:30:30.572] [INFO   ] thread Thread-0wip5
+[12:30:30.572] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.572] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.572] [INFO   ] thread Thread-0wip3
+[12:30:30.572] [INFO   ] thread Thread-0wip4
+[12:30:30.572] [INFO   ] creat AI step 10 
+[12:30:30.572] [INFO   ] creat AI step 11 
+[12:30:30.572] [INFO   ] creat AI step 3 
+[12:30:30.572] [INFO   ] creat AI step 7 
+[12:30:30.572] [INFO   ] AI key pressed step 1 
+[12:30:30.572] [INFO   ] creat AI step 10 
+[12:30:30.572] [INFO   ] creat AI step 11 
+[12:30:30.572] [INFO   ] creat AI step 3 
+[12:30:30.572] [INFO   ] creat AI step 7 
+[12:30:30.572] [INFO   ] AI key pressed step 1 
+[12:30:30.572] [INFO   ] AI key pressed step 2 
+[12:30:30.572] [INFO   ] KP step 1computer-1
+[12:30:30.572] [INFO   ] KP step 10computer-1
+[12:30:30.572] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.573] [INFO   ] creat AI step 8 
+[12:30:30.573] [INFO   ] creat AI step 9 
+[12:30:30.572] [INFO   ] AI key pressed step 2 
+[12:30:30.573] [INFO   ] KP step 1computer-0
+[12:30:30.573] [INFO   ] KP step 10computer-0
+[12:30:30.573] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.573] [INFO   ] creat AI step 8 
+[12:30:30.573] [INFO   ] creat AI step 9 
+[12:30:30.573] [INFO   ] thread Thread-1wip5
+[12:30:30.573] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.573] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.573] [INFO   ] thread Thread-1wip3
+[12:30:30.573] [INFO   ] thread Thread-1wip4
+[12:30:30.573] [INFO   ] thread Thread-0wip5
+[12:30:30.573] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.573] [INFO   ] creat AI step 10 
+[12:30:30.573] [INFO   ] creat AI step 11 
+[12:30:30.573] [INFO   ] creat AI step 3 
+[12:30:30.573] [INFO   ] creat AI step 7 
+[12:30:30.573] [INFO   ] AI key pressed step 1 
+[12:30:30.573] [INFO   ] AI key pressed step 2 
+[12:30:30.573] [INFO   ] KP step 1computer-1
+[12:30:30.573] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.573] [INFO   ] KP step 10computer-1
+[12:30:30.573] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.573] [INFO   ] creat AI step 8 
+[12:30:30.573] [INFO   ] creat AI step 9 
+[12:30:30.573] [INFO   ] thread Thread-0wip3
+[12:30:30.573] [INFO   ] thread Thread-0wip4
+[12:30:30.573] [INFO   ] thread Thread-1wip5
+[12:30:30.573] [INFO   ] creat AI step 10 
+[12:30:30.574] [INFO   ] creat AI step 11 
+[12:30:30.574] [INFO   ] creat AI step 3 
+[12:30:30.574] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.574] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.574] [INFO   ] thread Thread-1wip3
+[12:30:30.574] [INFO   ] thread Thread-1wip4
+[12:30:30.574] [INFO   ] creat AI step 7 
+[12:30:30.574] [INFO   ] AI key pressed step 1 
+[12:30:30.574] [INFO   ] creat AI step 10 
+[12:30:30.574] [INFO   ] creat AI step 11 
+[12:30:30.574] [INFO   ] creat AI step 3 
+[12:30:30.574] [INFO   ] creat AI step 7 
+[12:30:30.574] [INFO   ] AI key pressed step 1 
+[12:30:30.574] [INFO   ] AI key pressed step 2 
+[12:30:30.574] [INFO   ] AI key pressed step 2 
+[12:30:30.574] [INFO   ] KP step 1computer-1
+[12:30:30.574] [INFO   ] KP step 10computer-1
+[12:30:30.574] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.574] [INFO   ] creat AI step 8 
+[12:30:30.574] [INFO   ] creat AI step 9 
+[12:30:30.574] [INFO   ] KP step 1computer-0
+[12:30:30.574] [INFO   ] KP step 10computer-0
+[12:30:30.574] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.574] [INFO   ] creat AI step 8 
+[12:30:30.575] [INFO   ] creat AI step 9 
+[12:30:30.574] [INFO   ] thread Thread-1wip5
+[12:30:30.575] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.575] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.575] [INFO   ] thread Thread-1wip3
+[12:30:30.575] [INFO   ] thread Thread-1wip4
+[12:30:30.575] [INFO   ] thread Thread-0wip5
+[12:30:30.575] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.575] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.575] [INFO   ] thread Thread-0wip3
+[12:30:30.575] [INFO   ] thread Thread-0wip4
+[12:30:30.575] [INFO   ] creat AI step 10 
+[12:30:30.575] [INFO   ] creat AI step 11 
+[12:30:30.575] [INFO   ] creat AI step 3 
+[12:30:30.575] [INFO   ] creat AI step 7 
+[12:30:30.575] [INFO   ] AI key pressed step 1 
+[12:30:30.575] [INFO   ] AI key pressed step 2 
+[12:30:30.575] [INFO   ] KP step 1computer-1
+[12:30:30.575] [INFO   ] KP step 10computer-1
+[12:30:30.575] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.575] [INFO   ] creat AI step 8 
+[12:30:30.575] [INFO   ] creat AI step 10 
+[12:30:30.575] [INFO   ] creat AI step 11 
+[12:30:30.575] [INFO   ] creat AI step 3 
+[12:30:30.575] [INFO   ] creat AI step 7 
+[12:30:30.575] [INFO   ] AI key pressed step 1 
+[12:30:30.575] [INFO   ] AI key pressed step 2 
+[12:30:30.575] [INFO   ] KP step 1computer-0
+[12:30:30.575] [INFO   ] KP step 10computer-0
+[12:30:30.575] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.575] [INFO   ] creat AI step 8 
+[12:30:30.575] [INFO   ] creat AI step 9 
+[12:30:30.575] [INFO   ] creat AI step 9 
+[12:30:30.575] [INFO   ] thread Thread-0wip5
+[12:30:30.575] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.575] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.575] [INFO   ] thread Thread-0wip3
+[12:30:30.576] [INFO   ] thread Thread-0wip4
+[12:30:30.575] [INFO   ] thread Thread-1wip5
+[12:30:30.576] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.576] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.577] [INFO   ] thread Thread-1wip3
+[12:30:30.577] [INFO   ] thread Thread-1wip4
+[12:30:30.576] [INFO   ] creat AI step 10 
+[12:30:30.577] [INFO   ] creat AI step 11 
+[12:30:30.577] [INFO   ] creat AI step 3 
+[12:30:30.577] [INFO   ] creat AI step 7 
+[12:30:30.577] [INFO   ] AI key pressed step 1 
+[12:30:30.577] [INFO   ] creat AI step 10 
+[12:30:30.577] [INFO   ] creat AI step 11 
+[12:30:30.577] [INFO   ] creat AI step 3 
+[12:30:30.577] [INFO   ] creat AI step 7 
+[12:30:30.577] [INFO   ] AI key pressed step 2 
+[12:30:30.577] [INFO   ] AI key pressed step 1 
+[12:30:30.577] [INFO   ] KP step 1computer-0
+[12:30:30.577] [INFO   ] KP step 10computer-0
+[12:30:30.577] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.577] [INFO   ] creat AI step 8 
+[12:30:30.577] [INFO   ] creat AI step 9 
+[12:30:30.577] [INFO   ] AI key pressed step 2 
+[12:30:30.577] [INFO   ] thread Thread-0wip5
+[12:30:30.577] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.577] [INFO   ] KP step 1computer-1
+[12:30:30.577] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.577] [INFO   ] thread Thread-0wip3
+[12:30:30.577] [INFO   ] thread Thread-0wip4
+[12:30:30.577] [INFO   ] KP step 10computer-1
+[12:30:30.578] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.578] [INFO   ] creat AI step 8 
+[12:30:30.577] [INFO   ] creat AI step 10 
+[12:30:30.578] [INFO   ] creat AI step 11 
+[12:30:30.578] [INFO   ] creat AI step 3 
+[12:30:30.578] [INFO   ] creat AI step 7 
+[12:30:30.578] [INFO   ] AI key pressed step 1 
+[12:30:30.578] [INFO   ] creat AI step 9 
+[12:30:30.578] [INFO   ] AI key pressed step 2 
+[12:30:30.578] [INFO   ] KP step 1computer-0
+[12:30:30.578] [INFO   ] KP step 10computer-0
+[12:30:30.578] [INFO   ] AI key pressed step 3, random slot: 8
+[12:30:30.578] [INFO   ] creat AI step 8 
+[12:30:30.578] [INFO   ] creat AI step 9 
+[12:30:30.578] [INFO   ] thread Thread-1wip5
+[12:30:30.578] [INFO   ] thread Thread-0wip5
+[12:30:30.578] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.578] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.578] [INFO   ] thread Thread-1wip3
+[12:30:30.578] [INFO   ] thread Thread-1wip4
+[12:30:30.578] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.578] [INFO   ] creat AI step 10 
+[12:30:30.578] [INFO   ] creat AI step 11 
+[12:30:30.578] [INFO   ] creat AI step 3 
+[12:30:30.578] [INFO   ] creat AI step 7 
+[12:30:30.578] [INFO   ] AI key pressed step 1 
+[12:30:30.578] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.578] [INFO   ] thread Thread-0wip3
+[12:30:30.578] [INFO   ] thread Thread-0wip4
+[12:30:30.578] [INFO   ] AI key pressed step 2 
+[12:30:30.579] [INFO   ] KP step 1computer-1
+[12:30:30.579] [INFO   ] KP step 10computer-1
+[12:30:30.579] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.579] [INFO   ] creat AI step 8 
+[12:30:30.579] [INFO   ] creat AI step 9 
+[12:30:30.578] [INFO   ] creat AI step 10 
+[12:30:30.579] [INFO   ] creat AI step 11 
+[12:30:30.579] [INFO   ] creat AI step 3 
+[12:30:30.579] [INFO   ] creat AI step 7 
+[12:30:30.579] [INFO   ] thread Thread-1wip5
+[12:30:30.579] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.579] [INFO   ] AI key pressed step 1 
+[12:30:30.579] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.579] [INFO   ] thread Thread-1wip3
+[12:30:30.579] [INFO   ] AI key pressed step 2 
+[12:30:30.579] [INFO   ] thread Thread-1wip4
+[12:30:30.579] [INFO   ] KP step 1computer-0
+[12:30:30.579] [INFO   ] creat AI step 10 
+[12:30:30.579] [INFO   ] creat AI step 11 
+[12:30:30.579] [INFO   ] KP step 10computer-0
+[12:30:30.580] [INFO   ] creat AI step 3 
+[12:30:30.580] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.580] [INFO   ] creat AI step 8 
+[12:30:30.580] [INFO   ] creat AI step 9 
+[12:30:30.580] [INFO   ] creat AI step 7 
+[12:30:30.580] [INFO   ] AI key pressed step 1 
+[12:30:30.580] [INFO   ] thread Thread-0wip5
+[12:30:30.580] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.580] [INFO   ] AI key pressed step 2 
+[12:30:30.580] [INFO   ] KP step 1computer-1
+[12:30:30.580] [INFO   ] KP step 10computer-1
+[12:30:30.580] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.581] [INFO   ] thread Thread-0wip3
+[12:30:30.581] [INFO   ] thread Thread-0wip4
+[12:30:30.580] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.581] [INFO   ] creat AI step 8 
+[12:30:30.581] [INFO   ] creat AI step 9 
+[12:30:30.581] [INFO   ] creat AI step 10 
+[12:30:30.581] [INFO   ] creat AI step 11 
+[12:30:30.581] [INFO   ] creat AI step 3 
+[12:30:30.581] [INFO   ] creat AI step 7 
+[12:30:30.581] [INFO   ] AI key pressed step 1 
+[12:30:30.581] [INFO   ] thread Thread-1wip5
+[12:30:30.581] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.581] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.581] [INFO   ] thread Thread-1wip3
+[12:30:30.581] [INFO   ] thread Thread-1wip4
+[12:30:30.581] [INFO   ] AI key pressed step 2 
+[12:30:30.581] [INFO   ] KP step 1computer-0
+[12:30:30.581] [INFO   ] KP step 10computer-0
+[12:30:30.581] [INFO   ] AI key pressed step 3, random slot: 7
+[12:30:30.581] [INFO   ] creat AI step 8 
+[12:30:30.581] [INFO   ] creat AI step 9 
+[12:30:30.581] [INFO   ] creat AI step 10 
+[12:30:30.581] [INFO   ] creat AI step 11 
+[12:30:30.581] [INFO   ] creat AI step 3 
+[12:30:30.581] [INFO   ] creat AI step 7 
+[12:30:30.581] [INFO   ] AI key pressed step 1 
+[12:30:30.581] [INFO   ] thread Thread-0wip5
+[12:30:30.581] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.581] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.581] [INFO   ] thread Thread-0wip3
+[12:30:30.581] [INFO   ] thread Thread-0wip4
+[12:30:30.581] [INFO   ] AI key pressed step 2 
+[12:30:30.581] [INFO   ] KP step 1computer-1
+[12:30:30.581] [INFO   ] KP step 10computer-1
+[12:30:30.581] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.582] [INFO   ] creat AI step 8 
+[12:30:30.582] [INFO   ] creat AI step 9 
+[12:30:30.581] [INFO   ] creat AI step 10 
+[12:30:30.582] [INFO   ] creat AI step 11 
+[12:30:30.582] [INFO   ] creat AI step 3 
+[12:30:30.582] [INFO   ] creat AI step 7 
+[12:30:30.582] [INFO   ] AI key pressed step 1 
+[12:30:30.582] [INFO   ] AI key pressed step 2 
+[12:30:30.582] [INFO   ] KP step 1computer-0
+[12:30:30.582] [INFO   ] KP step 10computer-0
+[12:30:30.582] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.582] [INFO   ] creat AI step 8 
+[12:30:30.582] [INFO   ] creat AI step 9 
+[12:30:30.582] [INFO   ] thread Thread-1wip5
+[12:30:30.582] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.582] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.582] [INFO   ] thread Thread-1wip3
+[12:30:30.582] [INFO   ] thread Thread-1wip4
+[12:30:30.582] [INFO   ] thread Thread-0wip5
+[12:30:30.582] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.582] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.582] [INFO   ] thread Thread-0wip3
+[12:30:30.582] [INFO   ] thread Thread-0wip4
+[12:30:30.582] [INFO   ] creat AI step 10 
+[12:30:30.582] [INFO   ] creat AI step 11 
+[12:30:30.582] [INFO   ] creat AI step 3 
+[12:30:30.582] [INFO   ] creat AI step 7 
+[12:30:30.582] [INFO   ] AI key pressed step 1 
+[12:30:30.582] [INFO   ] AI key pressed step 2 
+[12:30:30.582] [INFO   ] KP step 1computer-1
+[12:30:30.582] [INFO   ] creat AI step 10 
+[12:30:30.582] [INFO   ] creat AI step 11 
+[12:30:30.582] [INFO   ] creat AI step 3 
+[12:30:30.582] [INFO   ] creat AI step 7 
+[12:30:30.582] [INFO   ] AI key pressed step 1 
+[12:30:30.583] [INFO   ] AI key pressed step 2 
+[12:30:30.583] [INFO   ] KP step 1computer-0
+[12:30:30.583] [INFO   ] KP step 10computer-0
+[12:30:30.583] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.582] [INFO   ] KP step 10computer-1
+[12:30:30.583] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.583] [INFO   ] creat AI step 8 
+[12:30:30.583] [INFO   ] creat AI step 9 
+[12:30:30.583] [INFO   ] creat AI step 8 
+[12:30:30.583] [INFO   ] thread Thread-1wip5
+[12:30:30.583] [INFO   ] creat AI step 9 
+[12:30:30.583] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.583] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.583] [INFO   ] thread Thread-1wip3
+[12:30:30.583] [INFO   ] thread Thread-1wip4
+[12:30:30.583] [INFO   ] thread Thread-0wip5
+[12:30:30.583] [INFO   ] creat AI step 10 
+[12:30:30.583] [INFO   ] creat AI step 11 
+[12:30:30.583] [INFO   ] creat AI step 3 
+[12:30:30.583] [INFO   ] creat AI step 7 
+[12:30:30.583] [INFO   ] AI key pressed step 1 
+[12:30:30.583] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.583] [INFO   ] AI key pressed step 2 
+[12:30:30.583] [INFO   ] KP step 1computer-1
+[12:30:30.583] [INFO   ] KP step 10computer-1
+[12:30:30.583] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.583] [INFO   ] creat AI step 8 
+[12:30:30.583] [INFO   ] creat AI step 9 
+[12:30:30.583] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.583] [INFO   ] thread Thread-1wip5
+[12:30:30.584] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.584] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.584] [INFO   ] thread Thread-1wip3
+[12:30:30.584] [INFO   ] thread Thread-1wip4
+[12:30:30.584] [INFO   ] thread Thread-0wip3
+[12:30:30.584] [INFO   ] thread Thread-0wip4
+[12:30:30.584] [INFO   ] creat AI step 10 
+[12:30:30.584] [INFO   ] creat AI step 11 
+[12:30:30.584] [INFO   ] creat AI step 3 
+[12:30:30.584] [INFO   ] creat AI step 7 
+[12:30:30.584] [INFO   ] AI key pressed step 1 
+[12:30:30.584] [INFO   ] creat AI step 10 
+[12:30:30.584] [INFO   ] creat AI step 11 
+[12:30:30.584] [INFO   ] creat AI step 3 
+[12:30:30.584] [INFO   ] creat AI step 7 
+[12:30:30.584] [INFO   ] AI key pressed step 1 
+[12:30:30.584] [INFO   ] AI key pressed step 2 
+[12:30:30.584] [INFO   ] KP step 1computer-0
+[12:30:30.584] [INFO   ] KP step 10computer-0
+[12:30:30.584] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.584] [INFO   ] creat AI step 8 
+[12:30:30.584] [INFO   ] creat AI step 9 
+[12:30:30.584] [INFO   ] AI key pressed step 2 
+[12:30:30.584] [INFO   ] KP step 1computer-1
+[12:30:30.584] [INFO   ] KP step 10computer-1
+[12:30:30.584] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.584] [INFO   ] creat AI step 8 
+[12:30:30.584] [INFO   ] creat AI step 9 
+[12:30:30.584] [INFO   ] thread Thread-0wip5
+[12:30:30.584] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.584] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.584] [INFO   ] thread Thread-1wip5
+[12:30:30.584] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.584] [INFO   ] thread Thread-0wip3
+[12:30:30.584] [INFO   ] thread Thread-0wip4
+[12:30:30.584] [INFO   ] creat AI step 10 
+[12:30:30.584] [INFO   ] creat AI step 11 
+[12:30:30.584] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.584] [INFO   ] creat AI step 3 
+[12:30:30.584] [INFO   ] thread Thread-1wip3
+[12:30:30.585] [INFO   ] creat AI step 7 
+[12:30:30.585] [INFO   ] AI key pressed step 1 
+[12:30:30.585] [INFO   ] thread Thread-1wip4
+[12:30:30.585] [INFO   ] AI key pressed step 2 
+[12:30:30.585] [INFO   ] creat AI step 10 
+[12:30:30.585] [INFO   ] creat AI step 11 
+[12:30:30.585] [INFO   ] creat AI step 3 
+[12:30:30.585] [INFO   ] creat AI step 7 
+[12:30:30.585] [INFO   ] AI key pressed step 1 
+[12:30:30.585] [INFO   ] KP step 1computer-0
+[12:30:30.586] [INFO   ] KP step 10computer-0
+[12:30:30.585] [INFO   ] AI key pressed step 2 
+[12:30:30.586] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.586] [INFO   ] creat AI step 8 
+[12:30:30.586] [INFO   ] creat AI step 9 
+[12:30:30.586] [INFO   ] KP step 1computer-1
+[12:30:30.586] [INFO   ] thread Thread-0wip5
+[12:30:30.586] [INFO   ] KP step 10computer-1
+[12:30:30.586] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.586] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.586] [INFO   ] creat AI step 8 
+[12:30:30.586] [INFO   ] creat AI step 9 
+[12:30:30.586] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.586] [INFO   ] thread Thread-0wip3
+[12:30:30.586] [INFO   ] thread Thread-0wip4
+[12:30:30.586] [INFO   ] thread Thread-1wip5
+[12:30:30.586] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.586] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.586] [INFO   ] thread Thread-1wip3
+[12:30:30.586] [INFO   ] thread Thread-1wip4
+[12:30:30.586] [INFO   ] creat AI step 10 
+[12:30:30.586] [INFO   ] creat AI step 11 
+[12:30:30.586] [INFO   ] creat AI step 3 
+[12:30:30.586] [INFO   ] creat AI step 7 
+[12:30:30.586] [INFO   ] AI key pressed step 1 
+[12:30:30.586] [INFO   ] creat AI step 10 
+[12:30:30.587] [INFO   ] creat AI step 11 
+[12:30:30.587] [INFO   ] creat AI step 3 
+[12:30:30.587] [INFO   ] creat AI step 7 
+[12:30:30.587] [INFO   ] AI key pressed step 1 
+[12:30:30.586] [INFO   ] AI key pressed step 2 
+[12:30:30.587] [INFO   ] KP step 1computer-0
+[12:30:30.587] [INFO   ] KP step 10computer-0
+[12:30:30.587] [INFO   ] AI key pressed step 2 
+[12:30:30.587] [INFO   ] KP step 1computer-1
+[12:30:30.587] [INFO   ] KP step 10computer-1
+[12:30:30.587] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.587] [INFO   ] creat AI step 8 
+[12:30:30.587] [INFO   ] creat AI step 9 
+[12:30:30.587] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.587] [INFO   ] creat AI step 8 
+[12:30:30.587] [INFO   ] creat AI step 9 
+[12:30:30.587] [INFO   ] thread Thread-0wip5
+[12:30:30.587] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.587] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.587] [INFO   ] thread Thread-1wip5
+[12:30:30.587] [INFO   ] thread Thread-0wip3
+[12:30:30.587] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.587] [INFO   ] thread Thread-0wip4
+[12:30:30.587] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.587] [INFO   ] creat AI step 10 
+[12:30:30.587] [INFO   ] creat AI step 11 
+[12:30:30.588] [INFO   ] creat AI step 3 
+[12:30:30.588] [INFO   ] creat AI step 7 
+[12:30:30.588] [INFO   ] AI key pressed step 1 
+[12:30:30.587] [INFO   ] thread Thread-1wip3
+[12:30:30.588] [INFO   ] thread Thread-1wip4
+[12:30:30.588] [INFO   ] AI key pressed step 2 
+[12:30:30.588] [INFO   ] KP step 1computer-0
+[12:30:30.588] [INFO   ] KP step 10computer-0
+[12:30:30.588] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.588] [INFO   ] creat AI step 8 
+[12:30:30.588] [INFO   ] creat AI step 9 
+[12:30:30.588] [INFO   ] creat AI step 10 
+[12:30:30.588] [INFO   ] creat AI step 11 
+[12:30:30.588] [INFO   ] creat AI step 3 
+[12:30:30.588] [INFO   ] creat AI step 7 
+[12:30:30.588] [INFO   ] AI key pressed step 1 
+[12:30:30.588] [INFO   ] thread Thread-0wip5
+[12:30:30.588] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.588] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.588] [INFO   ] thread Thread-0wip3
+[12:30:30.588] [INFO   ] thread Thread-0wip4
+[12:30:30.588] [INFO   ] AI key pressed step 2 
+[12:30:30.588] [INFO   ] KP step 1computer-1
+[12:30:30.588] [INFO   ] KP step 10computer-1
+[12:30:30.588] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.588] [INFO   ] creat AI step 8 
+[12:30:30.588] [INFO   ] creat AI step 9 
+[12:30:30.588] [INFO   ] creat AI step 10 
+[12:30:30.588] [INFO   ] creat AI step 11 
+[12:30:30.589] [INFO   ] creat AI step 3 
+[12:30:30.589] [INFO   ] creat AI step 7 
+[12:30:30.589] [INFO   ] AI key pressed step 1 
+[12:30:30.588] [INFO   ] thread Thread-1wip5
+[12:30:30.589] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.589] [INFO   ] AI key pressed step 2 
+[12:30:30.589] [INFO   ] KP step 1computer-0
+[12:30:30.589] [INFO   ] KP step 10computer-0
+[12:30:30.589] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.589] [INFO   ] creat AI step 8 
+[12:30:30.589] [INFO   ] creat AI step 9 
+[12:30:30.589] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.589] [INFO   ] thread Thread-1wip3
+[12:30:30.589] [INFO   ] thread Thread-1wip4
+[12:30:30.589] [INFO   ] thread Thread-0wip5
+[12:30:30.589] [INFO   ] creat AI step 10 
+[12:30:30.589] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.589] [INFO   ] creat AI step 11 
+[12:30:30.589] [INFO   ] creat AI step 3 
+[12:30:30.589] [INFO   ] creat AI step 7 
+[12:30:30.589] [INFO   ] AI key pressed step 1 
+[12:30:30.589] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.589] [INFO   ] AI key pressed step 2 
+[12:30:30.589] [INFO   ] thread Thread-0wip3
+[12:30:30.589] [INFO   ] KP step 1computer-1
+[12:30:30.589] [INFO   ] thread Thread-0wip4
+[12:30:30.589] [INFO   ] KP step 10computer-1
+[12:30:30.589] [INFO   ] creat AI step 10 
+[12:30:30.589] [INFO   ] creat AI step 11 
+[12:30:30.589] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.590] [INFO   ] creat AI step 8 
+[12:30:30.590] [INFO   ] creat AI step 9 
+[12:30:30.590] [INFO   ] creat AI step 3 
+[12:30:30.590] [INFO   ] creat AI step 7 
+[12:30:30.590] [INFO   ] thread Thread-1wip5
+[12:30:30.590] [INFO   ] AI key pressed step 1 
+[12:30:30.590] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.590] [INFO   ] AI key pressed step 2 
+[12:30:30.590] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.590] [INFO   ] KP step 1computer-0
+[12:30:30.590] [INFO   ] thread Thread-1wip3
+[12:30:30.590] [INFO   ] KP step 10computer-0
+[12:30:30.590] [INFO   ] thread Thread-1wip4
+[12:30:30.590] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.590] [INFO   ] creat AI step 8 
+[12:30:30.590] [INFO   ] creat AI step 9 
+[12:30:30.590] [INFO   ] creat AI step 10 
+[12:30:30.590] [INFO   ] creat AI step 11 
+[12:30:30.590] [INFO   ] thread Thread-0wip5
+[12:30:30.591] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.590] [INFO   ] creat AI step 3 
+[12:30:30.591] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.591] [INFO   ] creat AI step 7 
+[12:30:30.591] [INFO   ] thread Thread-0wip3
+[12:30:30.591] [INFO   ] thread Thread-0wip4
+[12:30:30.591] [INFO   ] AI key pressed step 1 
+[12:30:30.591] [INFO   ] creat AI step 10 
+[12:30:30.591] [INFO   ] creat AI step 11 
+[12:30:30.591] [INFO   ] creat AI step 3 
+[12:30:30.591] [INFO   ] creat AI step 7 
+[12:30:30.591] [INFO   ] AI key pressed step 1 
+[12:30:30.591] [INFO   ] AI key pressed step 2 
+[12:30:30.591] [INFO   ] AI key pressed step 2 
+[12:30:30.591] [INFO   ] KP step 1computer-1
+[12:30:30.591] [INFO   ] KP step 1computer-0
+[12:30:30.591] [INFO   ] KP step 10computer-0
+[12:30:30.591] [INFO   ] AI key pressed step 3, random slot: 8
+[12:30:30.591] [INFO   ] creat AI step 8 
+[12:30:30.591] [INFO   ] creat AI step 9 
+[12:30:30.591] [INFO   ] KP step 10computer-1
+[12:30:30.591] [INFO   ] thread Thread-0wip5
+[12:30:30.591] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.591] [INFO   ] creat AI step 8 
+[12:30:30.591] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.592] [INFO   ] creat AI step 9 
+[12:30:30.592] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.592] [INFO   ] thread Thread-0wip3
+[12:30:30.592] [INFO   ] thread Thread-0wip4
+[12:30:30.592] [INFO   ] thread Thread-1wip5
+[12:30:30.592] [INFO   ] creat AI step 10 
+[12:30:30.592] [INFO   ] creat AI step 11 
+[12:30:30.592] [INFO   ] creat AI step 3 
+[12:30:30.592] [INFO   ] creat AI step 7 
+[12:30:30.592] [INFO   ] AI key pressed step 1 
+[12:30:30.592] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.592] [INFO   ] AI key pressed step 2 
+[12:30:30.592] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.592] [INFO   ] KP step 1computer-0
+[12:30:30.592] [INFO   ] thread Thread-1wip3
+[12:30:30.592] [INFO   ] thread Thread-1wip4
+[12:30:30.592] [INFO   ] KP step 10computer-0
+[12:30:30.592] [INFO   ] creat AI step 10 
+[12:30:30.592] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.592] [INFO   ] creat AI step 8 
+[12:30:30.592] [INFO   ] creat AI step 9 
+[12:30:30.592] [INFO   ] creat AI step 11 
+[12:30:30.592] [INFO   ] creat AI step 3 
+[12:30:30.592] [INFO   ] creat AI step 7 
+[12:30:30.593] [INFO   ] AI key pressed step 1 
+[12:30:30.592] [INFO   ] thread Thread-0wip5
+[12:30:30.593] [INFO   ] AI key pressed step 2 
+[12:30:30.593] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.593] [INFO   ] KP step 1computer-1
+[12:30:30.593] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.593] [INFO   ] KP step 10computer-1
+[12:30:30.593] [INFO   ] thread Thread-0wip3
+[12:30:30.593] [INFO   ] AI key pressed step 3, random slot: 8
+[12:30:30.593] [INFO   ] creat AI step 8 
+[12:30:30.593] [INFO   ] creat AI step 9 
+[12:30:30.593] [INFO   ] thread Thread-0wip4
+[12:30:30.593] [INFO   ] thread Thread-1wip5
+[12:30:30.593] [INFO   ] creat AI step 10 
+[12:30:30.593] [INFO   ] creat AI step 11 
+[12:30:30.593] [INFO   ] creat AI step 3 
+[12:30:30.593] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.593] [INFO   ] creat AI step 7 
+[12:30:30.593] [INFO   ] AI key pressed step 1 
+[12:30:30.593] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.593] [INFO   ] AI key pressed step 2 
+[12:30:30.593] [INFO   ] KP step 1computer-0
+[12:30:30.593] [INFO   ] KP step 10computer-0
+[12:30:30.594] [INFO   ] AI key pressed step 3, random slot: 8
+[12:30:30.594] [INFO   ] creat AI step 8 
+[12:30:30.594] [INFO   ] creat AI step 9 
+[12:30:30.593] [INFO   ] thread Thread-1wip3
+[12:30:30.594] [INFO   ] thread Thread-0wip5
+[12:30:30.594] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.594] [INFO   ] thread Thread-1wip4
+[12:30:30.594] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.594] [INFO   ] thread Thread-0wip3
+[12:30:30.594] [INFO   ] thread Thread-0wip4
+[12:30:30.594] [INFO   ] creat AI step 10 
+[12:30:30.594] [INFO   ] creat AI step 10 
+[12:30:30.594] [INFO   ] creat AI step 11 
+[12:30:30.594] [INFO   ] creat AI step 3 
+[12:30:30.594] [INFO   ] creat AI step 11 
+[12:30:30.594] [INFO   ] creat AI step 7 
+[12:30:30.594] [INFO   ] AI key pressed step 1 
+[12:30:30.594] [INFO   ] creat AI step 3 
+[12:30:30.594] [INFO   ] creat AI step 7 
+[12:30:30.594] [INFO   ] AI key pressed step 1 
+[12:30:30.594] [INFO   ] AI key pressed step 2 
+[12:30:30.594] [INFO   ] AI key pressed step 2 
+[12:30:30.594] [INFO   ] KP step 1computer-0
+[12:30:30.594] [INFO   ] KP step 10computer-0
+[12:30:30.594] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.594] [INFO   ] creat AI step 8 
+[12:30:30.594] [INFO   ] creat AI step 9 
+[12:30:30.594] [INFO   ] KP step 1computer-1
+[12:30:30.595] [INFO   ] KP step 10computer-1
+[12:30:30.595] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.595] [INFO   ] creat AI step 8 
+[12:30:30.595] [INFO   ] creat AI step 9 
+[12:30:30.595] [INFO   ] thread Thread-0wip5
+[12:30:30.595] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.595] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.595] [INFO   ] thread Thread-0wip3
+[12:30:30.595] [INFO   ] thread Thread-0wip4
+[12:30:30.595] [INFO   ] thread Thread-1wip5
+[12:30:30.595] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.595] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.595] [INFO   ] thread Thread-1wip3
+[12:30:30.595] [INFO   ] creat AI step 10 
+[12:30:30.596] [INFO   ] creat AI step 11 
+[12:30:30.596] [INFO   ] creat AI step 3 
+[12:30:30.596] [INFO   ] creat AI step 7 
+[12:30:30.596] [INFO   ] AI key pressed step 1 
+[12:30:30.595] [INFO   ] thread Thread-1wip4
+[12:30:30.596] [INFO   ] creat AI step 10 
+[12:30:30.596] [INFO   ] creat AI step 11 
+[12:30:30.596] [INFO   ] creat AI step 3 
+[12:30:30.596] [INFO   ] creat AI step 7 
+[12:30:30.596] [INFO   ] AI key pressed step 1 
+[12:30:30.596] [INFO   ] AI key pressed step 2 
+[12:30:30.596] [INFO   ] KP step 1computer-1
+[12:30:30.596] [INFO   ] KP step 10computer-1
+[12:30:30.596] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.596] [INFO   ] creat AI step 8 
+[12:30:30.596] [INFO   ] creat AI step 9 
+[12:30:30.596] [INFO   ] thread Thread-1wip5
+[12:30:30.596] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.596] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.596] [INFO   ] thread Thread-1wip3
+[12:30:30.596] [INFO   ] thread Thread-1wip4
+[12:30:30.596] [INFO   ] creat AI step 10 
+[12:30:30.596] [INFO   ] creat AI step 11 
+[12:30:30.596] [INFO   ] AI key pressed step 2 
+[12:30:30.596] [INFO   ] KP step 1computer-0
+[12:30:30.596] [INFO   ] KP step 10computer-0
+[12:30:30.596] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.596] [INFO   ] creat AI step 8 
+[12:30:30.596] [INFO   ] creat AI step 9 
+[12:30:30.596] [INFO   ] thread Thread-0wip5
+[12:30:30.596] [INFO   ] creat AI step 3 
+[12:30:30.596] [INFO   ] creat AI step 7 
+[12:30:30.597] [INFO   ] AI key pressed step 1 
+[12:30:30.596] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.597] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.597] [INFO   ] thread Thread-0wip3
+[12:30:30.597] [INFO   ] thread Thread-0wip4
+[12:30:30.597] [INFO   ] AI key pressed step 2 
+[12:30:30.597] [INFO   ] KP step 1computer-1
+[12:30:30.597] [INFO   ] KP step 10computer-1
+[12:30:30.597] [INFO   ] AI key pressed step 3, random slot: 4
+[12:30:30.597] [INFO   ] creat AI step 8 
+[12:30:30.597] [INFO   ] creat AI step 9 
+[12:30:30.597] [INFO   ] creat AI step 10 
+[12:30:30.597] [INFO   ] creat AI step 11 
+[12:30:30.597] [INFO   ] creat AI step 3 
+[12:30:30.597] [INFO   ] creat AI step 7 
+[12:30:30.597] [INFO   ] AI key pressed step 1 
+[12:30:30.597] [INFO   ] thread Thread-1wip5
+[12:30:30.597] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.597] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.597] [INFO   ] thread Thread-1wip3
+[12:30:30.597] [INFO   ] thread Thread-1wip4
+[12:30:30.597] [INFO   ] AI key pressed step 2 
+[12:30:30.597] [INFO   ] KP step 1computer-0
+[12:30:30.597] [INFO   ] KP step 10computer-0
+[12:30:30.597] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.597] [INFO   ] creat AI step 8 
+[12:30:30.597] [INFO   ] creat AI step 9 
+[12:30:30.597] [INFO   ] creat AI step 10 
+[12:30:30.598] [INFO   ] creat AI step 11 
+[12:30:30.598] [INFO   ] creat AI step 3 
+[12:30:30.597] [INFO   ] thread Thread-0wip5
+[12:30:30.598] [INFO   ] creat AI step 7 
+[12:30:30.598] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.598] [INFO   ] AI key pressed step 1 
+[12:30:30.598] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.598] [INFO   ] AI key pressed step 2 
+[12:30:30.599] [INFO   ] KP step 1computer-1
+[12:30:30.599] [INFO   ] KP step 10computer-1
+[12:30:30.598] [INFO   ] thread Thread-0wip3
+[12:30:30.599] [INFO   ] thread Thread-0wip4
+[12:30:30.599] [INFO   ] AI key pressed step 3, random slot: 8
+[12:30:30.599] [INFO   ] creat AI step 10 
+[12:30:30.599] [INFO   ] creat AI step 11 
+[12:30:30.599] [INFO   ] creat AI step 3 
+[12:30:30.599] [INFO   ] creat AI step 7 
+[12:30:30.599] [INFO   ] AI key pressed step 1 
+[12:30:30.599] [INFO   ] creat AI step 8 
+[12:30:30.599] [INFO   ] creat AI step 9 
+[12:30:30.599] [INFO   ] AI key pressed step 2 
+[12:30:30.599] [INFO   ] KP step 1computer-0
+[12:30:30.599] [INFO   ] KP step 10computer-0
+[12:30:30.599] [INFO   ] AI key pressed step 3, random slot: 8
+[12:30:30.599] [INFO   ] thread Thread-1wip5
+[12:30:30.599] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.599] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.599] [INFO   ] thread Thread-1wip3
+[12:30:30.599] [INFO   ] thread Thread-1wip4
+[12:30:30.599] [INFO   ] creat AI step 8 
+[12:30:30.599] [INFO   ] creat AI step 9 
+[12:30:30.599] [INFO   ] creat AI step 10 
+[12:30:30.600] [INFO   ] thread Thread-0wip5
+[12:30:30.600] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.600] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.600] [INFO   ] thread Thread-0wip3
+[12:30:30.600] [INFO   ] thread Thread-0wip4
+[12:30:30.600] [INFO   ] creat AI step 11 
+[12:30:30.600] [INFO   ] creat AI step 3 
+[12:30:30.600] [INFO   ] creat AI step 10 
+[12:30:30.600] [INFO   ] creat AI step 11 
+[12:30:30.600] [INFO   ] creat AI step 3 
+[12:30:30.600] [INFO   ] creat AI step 7 
+[12:30:30.600] [INFO   ] AI key pressed step 1 
+[12:30:30.600] [INFO   ] creat AI step 7 
+[12:30:30.600] [INFO   ] AI key pressed step 1 
+[12:30:30.600] [INFO   ] AI key pressed step 2 
+[12:30:30.600] [INFO   ] KP step 1computer-0
+[12:30:30.600] [INFO   ] KP step 10computer-0
+[12:30:30.600] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.600] [INFO   ] creat AI step 8 
+[12:30:30.600] [INFO   ] creat AI step 9 
+[12:30:30.600] [INFO   ] AI key pressed step 2 
+[12:30:30.600] [INFO   ] thread Thread-0wip5
+[12:30:30.601] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.601] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.601] [INFO   ] thread Thread-0wip3
+[12:30:30.601] [INFO   ] thread Thread-0wip4
+[12:30:30.600] [INFO   ] KP step 1computer-1
+[12:30:30.601] [INFO   ] KP step 10computer-1
+[12:30:30.601] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.601] [INFO   ] creat AI step 8 
+[12:30:30.601] [INFO   ] creat AI step 9 
+[12:30:30.601] [INFO   ] creat AI step 10 
+[12:30:30.601] [INFO   ] creat AI step 11 
+[12:30:30.601] [INFO   ] creat AI step 3 
+[12:30:30.601] [INFO   ] creat AI step 7 
+[12:30:30.601] [INFO   ] AI key pressed step 1 
+[12:30:30.601] [INFO   ] AI key pressed step 2 
+[12:30:30.601] [INFO   ] KP step 1computer-0
+[12:30:30.601] [INFO   ] thread Thread-1wip5
+[12:30:30.601] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.601] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.601] [INFO   ] thread Thread-1wip3
+[12:30:30.601] [INFO   ] thread Thread-1wip4
+[12:30:30.601] [INFO   ] KP step 10computer-0
+[12:30:30.601] [INFO   ] AI key pressed step 3, random slot: 1
+[12:30:30.601] [INFO   ] creat AI step 8 
+[12:30:30.601] [INFO   ] creat AI step 9 
+[12:30:30.601] [INFO   ] creat AI step 10 
+[12:30:30.601] [INFO   ] creat AI step 11 
+[12:30:30.601] [INFO   ] creat AI step 3 
+[12:30:30.602] [INFO   ] creat AI step 7 
+[12:30:30.602] [INFO   ] AI key pressed step 1 
+[12:30:30.601] [INFO   ] thread Thread-0wip5
+[12:30:30.602] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.602] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.602] [INFO   ] thread Thread-0wip3
+[12:30:30.602] [INFO   ] thread Thread-0wip4
+[12:30:30.602] [INFO   ] AI key pressed step 2 
+[12:30:30.602] [INFO   ] creat AI step 10 
+[12:30:30.602] [INFO   ] creat AI step 11 
+[12:30:30.602] [INFO   ] creat AI step 3 
+[12:30:30.602] [INFO   ] creat AI step 7 
+[12:30:30.602] [INFO   ] AI key pressed step 1 
+[12:30:30.602] [INFO   ] AI key pressed step 2 
+[12:30:30.602] [INFO   ] KP step 1computer-0
+[12:30:30.602] [INFO   ] KP step 10computer-0
+[12:30:30.602] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.602] [INFO   ] creat AI step 8 
+[12:30:30.602] [INFO   ] creat AI step 9 
+[12:30:30.602] [INFO   ] KP step 1computer-1
+[12:30:30.602] [INFO   ] thread Thread-0wip5
+[12:30:30.602] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.602] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.602] [INFO   ] thread Thread-0wip3
+[12:30:30.602] [INFO   ] thread Thread-0wip4
+[12:30:30.602] [INFO   ] KP step 10computer-1
+[12:30:30.602] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.602] [INFO   ] creat AI step 8 
+[12:30:30.602] [INFO   ] creat AI step 10 
+[12:30:30.602] [INFO   ] creat AI step 9 
+[12:30:30.602] [INFO   ] creat AI step 11 
+[12:30:30.602] [INFO   ] thread Thread-1wip5
+[12:30:30.602] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.602] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.602] [INFO   ] thread Thread-1wip3
+[12:30:30.602] [INFO   ] thread Thread-1wip4
+[12:30:30.602] [INFO   ] creat AI step 3 
+[12:30:30.602] [INFO   ] creat AI step 7 
+[12:30:30.602] [INFO   ] AI key pressed step 1 
+[12:30:30.602] [INFO   ] creat AI step 10 
+[12:30:30.602] [INFO   ] creat AI step 11 
+[12:30:30.602] [INFO   ] creat AI step 3 
+[12:30:30.602] [INFO   ] creat AI step 7 
+[12:30:30.602] [INFO   ] AI key pressed step 1 
+[12:30:30.602] [INFO   ] AI key pressed step 2 
+[12:30:30.602] [INFO   ] AI key pressed step 2 
+[12:30:30.603] [INFO   ] KP step 1computer-1
+[12:30:30.603] [INFO   ] KP step 10computer-1
+[12:30:30.603] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.603] [INFO   ] creat AI step 8 
+[12:30:30.603] [INFO   ] creat AI step 9 
+[12:30:30.602] [INFO   ] KP step 1computer-0
+[12:30:30.603] [INFO   ] KP step 10computer-0
+[12:30:30.603] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.603] [INFO   ] creat AI step 8 
+[12:30:30.603] [INFO   ] creat AI step 9 
+[12:30:30.603] [INFO   ] thread Thread-1wip5
+[12:30:30.603] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.603] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.603] [INFO   ] thread Thread-0wip5
+[12:30:30.603] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.603] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.603] [INFO   ] thread Thread-0wip3
+[12:30:30.603] [INFO   ] thread Thread-0wip4
+[12:30:30.603] [INFO   ] thread Thread-1wip3
+[12:30:30.603] [INFO   ] thread Thread-1wip4
+[12:30:30.603] [INFO   ] creat AI step 10 
+[12:30:30.603] [INFO   ] creat AI step 11 
+[12:30:30.603] [INFO   ] creat AI step 3 
+[12:30:30.603] [INFO   ] creat AI step 7 
+[12:30:30.603] [INFO   ] AI key pressed step 1 
+[12:30:30.603] [INFO   ] creat AI step 10 
+[12:30:30.603] [INFO   ] creat AI step 11 
+[12:30:30.603] [INFO   ] creat AI step 3 
+[12:30:30.603] [INFO   ] creat AI step 7 
+[12:30:30.603] [INFO   ] AI key pressed step 1 
+[12:30:30.603] [INFO   ] AI key pressed step 2 
+[12:30:30.603] [INFO   ] KP step 1computer-1
+[12:30:30.603] [INFO   ] KP step 10computer-1
+[12:30:30.603] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.603] [INFO   ] creat AI step 8 
+[12:30:30.603] [INFO   ] creat AI step 9 
+[12:30:30.603] [INFO   ] AI key pressed step 2 
+[12:30:30.604] [INFO   ] KP step 1computer-0
+[12:30:30.604] [INFO   ] KP step 10computer-0
+[12:30:30.604] [INFO   ] thread Thread-1wip5
+[12:30:30.604] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:30.604] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.604] [INFO   ] creat AI step 8 
+[12:30:30.604] [INFO   ] creat AI step 9 
+[12:30:30.604] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.605] [INFO   ] thread Thread-1wip3
+[12:30:30.605] [INFO   ] thread Thread-1wip4
+[12:30:30.605] [INFO   ] thread Thread-0wip5
+[12:30:30.605] [INFO   ] creat AI step 10 
+[12:30:30.605] [INFO   ] creat AI step 11 
+[12:30:30.605] [INFO   ] creat AI step 3 
+[12:30:30.605] [INFO   ] creat AI step 7 
+[12:30:30.605] [INFO   ] AI key pressed step 1 
+[12:30:30.605] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.605] [INFO   ] AI key pressed step 2 
+[12:30:30.605] [INFO   ] KP step 1computer-1
+[12:30:30.605] [INFO   ] KP step 10computer-1
+[12:30:30.605] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:30.605] [INFO   ] creat AI step 8 
+[12:30:30.605] [INFO   ] creat AI step 9 
+[12:30:30.605] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.605] [INFO   ] thread Thread-1wip5
+[12:30:30.605] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.605] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.605] [INFO   ] thread Thread-1wip3
+[12:30:30.605] [INFO   ] thread Thread-1wip4
+[12:30:30.605] [INFO   ] thread Thread-0wip3
+[12:30:30.605] [INFO   ] creat AI step 10 
+[12:30:30.606] [INFO   ] creat AI step 11 
+[12:30:30.606] [INFO   ] creat AI step 3 
+[12:30:30.606] [INFO   ] creat AI step 7 
+[12:30:30.606] [INFO   ] AI key pressed step 1 
+[12:30:30.605] [INFO   ] thread Thread-0wip4
+[12:30:30.606] [INFO   ] AI key pressed step 2 
+[12:30:30.606] [INFO   ] creat AI step 10 
+[12:30:30.606] [INFO   ] creat AI step 11 
+[12:30:30.606] [INFO   ] creat AI step 3 
+[12:30:30.606] [INFO   ] creat AI step 7 
+[12:30:30.606] [INFO   ] AI key pressed step 1 
+[12:30:30.606] [INFO   ] AI key pressed step 2 
+[12:30:30.606] [INFO   ] KP step 1computer-0
+[12:30:30.606] [INFO   ] KP step 1computer-1
+[12:30:30.606] [INFO   ] KP step 10computer-0
+[12:30:30.607] [INFO   ] AI key pressed step 3, random slot: 2
+[12:30:30.607] [INFO   ] creat AI step 8 
+[12:30:30.607] [INFO   ] creat AI step 9 
+[12:30:30.607] [INFO   ] thread Thread-0wip5
+[12:30:30.607] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.607] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.607] [INFO   ] thread Thread-0wip3
+[12:30:30.607] [INFO   ] thread Thread-0wip4
+[12:30:30.607] [INFO   ] KP step 10computer-1
+[12:30:30.607] [INFO   ] creat AI step 10 
+[12:30:30.607] [INFO   ] creat AI step 11 
+[12:30:30.607] [INFO   ] creat AI step 3 
+[12:30:30.607] [INFO   ] creat AI step 7 
+[12:30:30.607] [INFO   ] AI key pressed step 1 
+[12:30:30.607] [INFO   ] AI key pressed step 2 
+[12:30:30.607] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.607] [INFO   ] creat AI step 8 
+[12:30:30.607] [INFO   ] KP step 1computer-0
+[12:30:30.607] [INFO   ] creat AI step 9 
+[12:30:30.607] [INFO   ] thread Thread-1wip5
+[12:30:30.607] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.607] [INFO   ] KP step 10computer-0
+[12:30:30.607] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.609] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.609] [INFO   ] creat AI step 8 
+[12:30:30.609] [INFO   ] creat AI step 9 
+[12:30:30.609] [INFO   ] thread Thread-1wip3
+[12:30:30.609] [INFO   ] thread Thread-1wip4
+[12:30:30.609] [INFO   ] thread Thread-0wip5
+[12:30:30.609] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.609] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.609] [INFO   ] creat AI step 10 
+[12:30:30.609] [INFO   ] thread Thread-0wip3
+[12:30:30.609] [INFO   ] thread Thread-0wip4
+[12:30:30.609] [INFO   ] creat AI step 11 
+[12:30:30.609] [INFO   ] creat AI step 3 
+[12:30:30.609] [INFO   ] creat AI step 7 
+[12:30:30.609] [INFO   ] AI key pressed step 1 
+[12:30:30.609] [INFO   ] creat AI step 10 
+[12:30:30.609] [INFO   ] creat AI step 11 
+[12:30:30.609] [INFO   ] AI key pressed step 2 
+[12:30:30.609] [INFO   ] KP step 1computer-1
+[12:30:30.609] [INFO   ] KP step 10computer-1
+[12:30:30.609] [INFO   ] AI key pressed step 3, random slot: 0
+[12:30:30.609] [INFO   ] creat AI step 8 
+[12:30:30.609] [INFO   ] creat AI step 9 
+[12:30:30.609] [INFO   ] creat AI step 3 
+[12:30:30.610] [INFO   ] thread Thread-1wip5
+[12:30:30.610] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.610] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.610] [INFO   ] thread Thread-1wip3
+[12:30:30.610] [INFO   ] thread Thread-1wip4
+[12:30:30.610] [INFO   ] creat AI step 7 
+[12:30:30.610] [INFO   ] creat AI step 10 
+[12:30:30.610] [INFO   ] creat AI step 11 
+[12:30:30.610] [INFO   ] creat AI step 3 
+[12:30:30.610] [INFO   ] creat AI step 7 
+[12:30:30.610] [INFO   ] AI key pressed step 1 
+[12:30:30.610] [INFO   ] AI key pressed step 1 
+[12:30:30.610] [INFO   ] AI key pressed step 2 
+[12:30:30.610] [INFO   ] AI key pressed step 2 
+[12:30:30.610] [INFO   ] KP step 1computer-1
+[12:30:30.610] [INFO   ] KP step 1computer-0
+[12:30:30.610] [INFO   ] KP step 10computer-0
+[12:30:30.610] [INFO   ] KP step 10computer-1
+[12:30:30.610] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:30.610] [INFO   ] creat AI step 8 
+[12:30:30.610] [INFO   ] creat AI step 9 
+[12:30:30.610] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:30.610] [INFO   ] thread Thread-0wip5
+[12:30:30.610] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.610] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.610] [INFO   ] thread Thread-0wip3
+[12:30:30.610] [INFO   ] thread Thread-0wip4
+[12:30:30.610] [INFO   ] creat AI step 8 
+[12:30:30.610] [INFO   ] creat AI step 10 
+[12:30:30.610] [INFO   ] creat AI step 11 
+[12:30:30.610] [INFO   ] creat AI step 3 
+[12:30:30.610] [INFO   ] creat AI step 7 
+[12:30:30.610] [INFO   ] AI key pressed step 1 
+[12:30:30.610] [INFO   ] AI key pressed step 2 
+[12:30:30.610] [INFO   ] KP step 1computer-0
+[12:30:30.610] [INFO   ] KP step 10computer-0
+[12:30:30.610] [INFO   ] AI key pressed step 3, random slot: 11
+[12:30:30.610] [INFO   ] creat AI step 8 
+[12:30:30.611] [INFO   ] creat AI step 9 
+[12:30:30.610] [INFO   ] creat AI step 9 
+[12:30:30.611] [INFO   ] thread Thread-0wip5
+[12:30:30.611] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.611] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.611] [INFO   ] thread Thread-0wip3
+[12:30:30.611] [INFO   ] thread Thread-0wip4
+[12:30:30.611] [INFO   ] thread Thread-1wip5
+[12:30:30.611] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.611] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.611] [INFO   ] thread Thread-1wip3
+[12:30:30.611] [INFO   ] creat AI step 10 
+[12:30:30.611] [INFO   ] creat AI step 11 
+[12:30:30.611] [INFO   ] creat AI step 3 
+[12:30:30.611] [INFO   ] creat AI step 7 
+[12:30:30.611] [INFO   ] AI key pressed step 1 
+[12:30:30.611] [INFO   ] AI key pressed step 2 
+[12:30:30.611] [INFO   ] KP step 1computer-0
+[12:30:30.611] [INFO   ] KP step 10computer-0
+[12:30:30.611] [INFO   ] AI key pressed step 3, random slot: 8
+[12:30:30.611] [INFO   ] creat AI step 8 
+[12:30:30.611] [INFO   ] creat AI step 9 
+[12:30:30.611] [INFO   ] thread Thread-1wip4
+[12:30:30.611] [INFO   ] thread Thread-0wip5
+[12:30:30.611] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.611] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.611] [INFO   ] thread Thread-0wip3
+[12:30:30.611] [INFO   ] creat AI step 10 
+[12:30:30.612] [INFO   ] thread Thread-0wip4
+[12:30:30.612] [INFO   ] creat AI step 11 
+[12:30:30.612] [INFO   ] creat AI step 10 
+[12:30:30.612] [INFO   ] creat AI step 11 
+[12:30:30.612] [INFO   ] creat AI step 3 
+[12:30:30.612] [INFO   ] creat AI step 7 
+[12:30:30.612] [INFO   ] AI key pressed step 1 
+[12:30:30.612] [INFO   ] creat AI step 3 
+[12:30:30.612] [INFO   ] AI key pressed step 2 
+[12:30:30.612] [INFO   ] KP step 1computer-0
+[12:30:30.612] [INFO   ] KP step 10computer-0
+[12:30:30.612] [INFO   ] AI key pressed step 3, random slot: 8
+[12:30:30.612] [INFO   ] creat AI step 8 
+[12:30:30.612] [INFO   ] creat AI step 9 
+[12:30:30.612] [INFO   ] creat AI step 7 
+[12:30:30.612] [INFO   ] thread Thread-0wip5
+[12:30:30.612] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:30.612] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:30.612] [INFO   ] thread Thread-0wip3
+[12:30:30.613] [INFO   ] thread Thread-0wip4
+[12:30:30.613] [INFO   ] creat AI step 10 
+[12:30:30.613] [INFO   ] creat AI step 11 
+[12:30:30.613] [INFO   ] creat AI step 3 
+[12:30:30.612] [INFO   ] AI key pressed step 1 
+[12:30:30.613] [INFO   ] creat AI step 4 
+[12:30:30.613] [INFO   ] place card step 0 
+[12:30:30.613] [INFO   ] creat AI step 5 
+[12:30:30.613] [INFO   ] AI key pressed step 2 
+[12:30:30.613] [INFO   ] KP step 1computer-1
+[12:30:30.613] [INFO   ] KP step 10computer-1
+[12:30:30.613] [INFO   ] AI key pressed step 3, random slot: 6
+[12:30:30.613] [INFO   ] creat AI step 8 
+[12:30:30.613] [INFO   ] creat AI step 9 
+[12:30:30.613] [INFO   ] place card step 1 
+[12:30:30.613] [INFO   ] thread Thread-1wip5
+[12:30:30.613] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:30.613] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:30.613] [INFO   ] thread Thread-1wip3
+[12:30:30.613] [INFO   ] thread Thread-1wip4
+[12:30:30.613] [INFO   ] creat AI step 10 
+[12:30:30.613] [INFO   ] creat AI step 11 
+[12:30:30.613] [INFO   ] creat AI step 3 
+[12:30:30.613] [INFO   ] creat AI step 4 
+[12:30:30.613] [INFO   ] creat AI step 5 
+[12:30:30.723] [SEVERE ] placing card 45 in slot 0
+[12:30:30.831] [SEVERE ] placing card 33 in slot 1
+[12:30:30.939] [SEVERE ] placing card 76 in slot 2
+[12:30:31.047] [SEVERE ] placing card 29 in slot 3
+[12:30:31.155] [SEVERE ] placing card 49 in slot 4
+[12:30:31.265] [SEVERE ] placing card 72 in slot 5
+[12:30:31.375] [SEVERE ] placing card 23 in slot 6
+[12:30:31.484] [SEVERE ] placing card 61 in slot 7
+[12:30:31.593] [SEVERE ] placing card 11 in slot 8
+[12:30:31.702] [SEVERE ] placing card 64 in slot 9
+[12:30:31.811] [SEVERE ] placing card 37 in slot 10
+[12:30:31.919] [SEVERE ] placing card 26 in slot 11
+[12:30:31.919] [INFO   ] place card step 2 
+[12:30:31.919] [INFO   ] place card step 3 
+[12:30:31.923] [INFO   ] place card step 5 
+[12:30:31.923] [INFO   ] place card step 6 
+[12:30:31.923] [INFO   ] place card step 7 
+[12:30:31.923] [INFO   ] place card step 8 
+[12:30:31.923] [INFO   ] creat AI step 6 
+[12:30:31.923] [INFO   ] creat AI step 7 
+[12:30:31.923] [INFO   ] AI key pressed step 1 
+[12:30:31.923] [INFO   ] AI key pressed step 2 
+[12:30:31.923] [INFO   ] KP step 1computer-0
+[12:30:31.924] [INFO   ] KP step 2computer-0
+[12:30:31.924] [INFO   ] KP step 4computer-0
+[12:30:31.923] [INFO   ] creat AI step 6 
+[12:30:31.924] [INFO   ] creat AI step 7 
+[12:30:31.924] [INFO   ] AI key pressed step 1 
+[12:30:31.924] [INFO   ] AI key pressed step 2 
+[12:30:31.924] [INFO   ] KP step 1computer-1
+[12:30:31.924] [INFO   ] KP step 2computer-1
+[12:30:31.924] [INFO   ] KP step 4computer-1
+[12:30:31.924] [INFO   ] KP step 5computer-0
+[12:30:31.924] [INFO   ] KP step 5computer-1
+[12:30:31.924] [SEVERE ] player 2 placing token on slot 3
+[12:30:31.924] [SEVERE ] player 1 placing token on slot 10
+[12:30:31.925] [INFO   ] KP step 6computer-1
+[12:30:31.925] [INFO   ] KP step 7computer-1
+[12:30:31.925] [INFO   ] KP step 8computer-1
+[12:30:31.925] [INFO   ] KP step 10computer-1
+[12:30:31.925] [INFO   ] AI key pressed step 3, random slot: 3
+[12:30:31.925] [INFO   ] creat AI step 8 
+[12:30:31.925] [INFO   ] creat AI step 9 
+[12:30:31.925] [INFO   ] KP step 6computer-0
+[12:30:31.926] [INFO   ] KP step 7computer-0
+[12:30:31.926] [INFO   ] KP step 8computer-0
+[12:30:31.926] [INFO   ] KP step 10computer-0
+[12:30:31.926] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:31.926] [INFO   ] creat AI step 8 
+[12:30:31.926] [INFO   ] creat AI step 9 
+[12:30:31.926] [INFO   ] thread Thread-1wip5
+[12:30:31.926] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:31.926] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:31.926] [INFO   ] thread Thread-0wip5
+[12:30:31.926] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:31.926] [SEVERE ] updating countdown to 58471
+[12:30:31.926] [INFO   ] thread Thread-1wip3
+[12:30:31.926] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:31.926] [INFO   ] thread Thread-1wip4
+[12:30:31.927] [INFO   ] thread Thread-0wip3
+[12:30:31.927] [INFO   ] thread Thread-0wip4
+[12:30:31.927] [INFO   ] creat AI step 10 
+[12:30:31.927] [INFO   ] creat AI step 11 
+[12:30:31.927] [INFO   ] creat AI step 10 
+[12:30:31.928] [INFO   ] creat AI step 11 
+[12:30:31.928] [INFO   ] creat AI step 3 
+[12:30:31.928] [INFO   ] creat AI step 7 
+[12:30:31.928] [INFO   ] AI key pressed step 1 
+[12:30:31.928] [INFO   ] creat AI step 3 
+[12:30:31.928] [INFO   ] creat AI step 7 
+[12:30:31.929] [INFO   ] AI key pressed step 1 
+[12:30:31.928] [INFO   ] AI key pressed step 2 
+[12:30:31.929] [INFO   ] KP step 1computer-0
+[12:30:31.929] [INFO   ] KP step 2computer-0
+[12:30:31.929] [INFO   ] KP step 4computer-0
+[12:30:31.929] [INFO   ] KP step 5computer-0
+[12:30:31.929] [SEVERE ] player 1 placing token on slot 5
+[12:30:31.929] [INFO   ] KP step 6computer-0
+[12:30:31.929] [INFO   ] KP step 7computer-0
+[12:30:31.929] [INFO   ] KP step 8computer-0
+[12:30:31.929] [INFO   ] KP step 10computer-0
+[12:30:31.929] [INFO   ] AI key pressed step 2 
+[12:30:31.930] [INFO   ] AI key pressed step 3, random slot: 5
+[12:30:31.930] [INFO   ] creat AI step 8 
+[12:30:31.930] [INFO   ] creat AI step 9 
+[12:30:31.930] [INFO   ] KP step 1computer-1
+[12:30:31.930] [INFO   ] KP step 2computer-1
+[12:30:31.930] [INFO   ] thread Thread-0wip5
+[12:30:31.930] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:31.930] [INFO   ] KP step 4computer-1
+[12:30:31.930] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:31.931] [INFO   ] KP step 5computer-1
+[12:30:31.931] [SEVERE ] player 2 placing token on slot 10
+[12:30:31.931] [INFO   ] thread Thread-0wip3
+[12:30:31.931] [INFO   ] thread Thread-0wip4
+[12:30:31.931] [INFO   ] KP step 6computer-1
+[12:30:31.931] [INFO   ] KP step 7computer-1
+[12:30:31.931] [INFO   ] KP step 8computer-1
+[12:30:31.931] [INFO   ] KP step 10computer-1
+[12:30:31.931] [INFO   ] AI key pressed step 3, random slot: 10
+[12:30:31.931] [INFO   ] creat AI step 8 
+[12:30:31.932] [INFO   ] creat AI step 9 
+[12:30:31.932] [INFO   ] creat AI step 10 
+[12:30:31.932] [INFO   ] creat AI step 11 
+[12:30:31.932] [INFO   ] thread Thread-1wip5
+[12:30:31.932] [INFO   ] creat AI step 3 
+[12:30:31.932] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:31.932] [INFO   ] creat AI step 7 
+[12:30:31.932] [INFO   ] AI key pressed step 1 
+[12:30:31.932] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:31.933] [INFO   ] thread Thread-1wip3
+[12:30:31.932] [INFO   ] AI key pressed step 2 
+[12:30:31.933] [INFO   ] thread Thread-1wip4
+[12:30:31.933] [INFO   ] KP step 1computer-0
+[12:30:31.933] [INFO   ] KP step 2computer-0
+[12:30:31.933] [INFO   ] creat AI step 10 
+[12:30:31.933] [INFO   ] KP step 4computer-0
+[12:30:31.933] [INFO   ] KP step 5computer-0
+[12:30:31.933] [SEVERE ] player 1 placing token on slot 8
+[12:30:31.933] [INFO   ] creat AI step 11 
+[12:30:31.934] [INFO   ] creat AI step 3 
+[12:30:31.934] [INFO   ] creat AI step 7 
+[12:30:31.934] [INFO   ] AI key pressed step 1 
+[12:30:31.934] [INFO   ] KP step 6computer-0
+[12:30:31.934] [INFO   ] AI key pressed step 2 
+[12:30:31.934] [INFO   ] KP step 7computer-0
+[12:30:31.934] [INFO   ] KP step 8computer-0
+[12:30:31.934] [INFO   ] KP step 1computer-1
+[12:30:31.934] [INFO   ] KP step 2computer-1
+[12:30:31.934] [INFO   ] KP step 9computer-0
+[12:30:31.934] [INFO   ] KP step 10computer-0
+[12:30:31.934] [INFO   ] AI key pressed step 3, random slot: 8
+[12:30:31.934] [INFO   ] creat AI step 8 
+[12:30:31.934] [INFO   ] KP step 4computer-1
+[12:30:31.934] [INFO   ] thread Thread-0wip5
+[12:30:31.934] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:31.934] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:31.934] [INFO   ] KP step 5computer-1
+[12:30:31.936] [SEVERE ] player 2 placing token on slot 9
+[12:30:31.936] [INFO   ] thread Thread-0 before  synchronize on dealer.
+[12:30:31.936] [INFO   ] KP step 6computer-1
+[12:30:31.936] [INFO   ] KP step 7computer-1
+[12:30:31.936] [INFO   ] KP step 8computer-1
+[12:30:31.937] [INFO   ] KP step 9computer-1
+[12:30:31.937] [INFO   ] KP step 10computer-1
+[12:30:31.937] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:31.937] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:31.937] [INFO   ] AI key pressed step 3, random slot: 9
+[12:30:31.937] [INFO   ] creat AI step 8 
+[12:30:31.937] [INFO   ] thread Thread-1wip5
+[12:30:31.937] [INFO   ] creat AI step 9 
+[12:30:31.938] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:31.938] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:31.938] [INFO   ] thread Thread-1 before  synchronize on dealer.
+[12:30:31.938] [INFO   ] thread Thread-0wip1
+[12:30:31.938] [INFO   ] thread Thread-0wip2
+[12:30:31.938] [INFO   ] thread Thread-0 before  synchronize on dealer.
+[12:30:31.938] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:31.938] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:31.939] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[12:30:31.939] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[12:30:31.939] [INFO   ] creat AI step 9 
+[12:30:31.939] [INFO   ] thread Thread-1wip1
+[12:30:31.939] [INFO   ] thread Thread-1wip2
+[12:30:31.939] [INFO   ] thread Thread-1 before  synchronize on dealer.
+[12:30:31.939] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[12:30:31.939] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[12:30:32.139] [INFO   ] remove  in the table step 1
+[12:30:32.140] [INFO   ] remove  in the table step 2
+[12:30:32.140] [INFO   ] penalty
+[12:30:32.140] [SEVERE ] setting player 1 freeze to 3000
+[12:30:33.146] [SEVERE ] setting player 1 freeze to 2000
+[12:30:34.160] [SEVERE ] setting player 1 freeze to 1000
+[12:30:35.171] [SEVERE ] setting player 1 freeze to 0
+[12:30:35.171] [SEVERE ] removing player 1 token from slot 10
+[12:30:35.171] [SEVERE ] removing player 1 token from slot 5
+[12:30:35.172] [SEVERE ] removing player 1 token from slot 8
+[12:30:35.172] [INFO   ] remove  in the table step 1
+[12:30:35.172] [INFO   ] creat AI step 10 
+[12:30:35.172] [INFO   ] creat AI step 11 
+[12:30:35.172] [INFO   ] creat AI step 3 
+[12:30:35.172] [INFO   ] creat AI step 4 
+[12:30:35.172] [INFO   ] creat AI step 5 
+[12:30:35.172] [INFO   ] remove  in the table step 2
+[12:30:35.172] [INFO   ] thread Thread-0wip1
+[12:30:35.172] [INFO   ] penalty
+[12:30:35.172] [SEVERE ] setting player 2 freeze to 3000
+[12:30:36.173] [SEVERE ] setting player 2 freeze to 2000
+[12:30:37.180] [SEVERE ] setting player 2 freeze to 1000
+[12:30:38.191] [SEVERE ] setting player 2 freeze to 0
+[12:30:38.191] [SEVERE ] removing player 2 token from slot 3
+[12:30:38.191] [SEVERE ] removing player 2 token from slot 10
+[12:30:38.191] [SEVERE ] removing player 2 token from slot 9
+[12:30:38.192] [INFO   ] creat AI step 10 
+[12:30:38.192] [INFO   ] creat AI step 11 
+[12:30:38.192] [INFO   ] creat AI step 3 
+[12:30:38.192] [INFO   ] creat AI step 4 
+[12:30:38.192] [INFO   ] creat AI step 5 
+[12:30:38.192] [INFO   ] thread Thread-1wip1

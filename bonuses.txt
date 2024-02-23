@@ -12,13 +12,12 @@ with a short description of:
 
 1. Fully supporting all configuration fields and avoiding the use of magic numbers
 
-We are not entitled to this bonus.
-
+in every field that we need throw the project and has been implemented in the config file we used and didnt use any magic number
 --------------------
 
 2. Terminating all threads (that you created) gracefully and in reverse order to the order they were created in.
 
-We are not entitled to this bonus.
+we therminated the players field in the reverse order they werer create, and wait for each to b terminate and then terminate the dealer.
 
 --------------------
 

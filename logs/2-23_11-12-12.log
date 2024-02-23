@@ -1,0 +1,400 @@
+[11:12:12.235] [INFO   ] thread main starting.
+[11:12:12.269] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[11:12:12.278] [SEVERE ] configuration file was loaded from resources directory.
+[11:12:13.244] [INFO   ] thread dealer starting.
+[11:12:13.246] [INFO   ] thread dealer starting.
+[11:12:13.247] [INFO   ] thread Thread-0 starting.
+[11:12:13.249] [INFO   ] creat AI step 1 
+[11:12:13.249] [INFO   ] thread computer-0 starting.
+[11:12:13.250] [INFO   ] creat AI step 2 
+[11:12:13.250] [INFO   ] creat AI step 3 
+[11:12:13.250] [INFO   ] thread Thread-0wip1
+[11:12:13.251] [INFO   ] thread Thread-1 starting.
+[11:12:13.251] [INFO   ] creat AI step 7 
+[11:12:13.253] [INFO   ] thread Thread-0wip2
+[11:12:13.254] [INFO   ] creat AI step 1 
+[11:12:13.255] [INFO   ] thread computer-1 starting.
+[11:12:13.254] [INFO   ] AI key pressed step 1 
+[11:12:13.255] [INFO   ] creat AI step 2 
+[11:12:13.254] [INFO   ] thread Thread-0wip3
+[11:12:13.256] [INFO   ] thread Thread-0wip4
+[11:12:13.256] [INFO   ] AI key pressed step 2 
+[11:12:13.256] [INFO   ] creat AI step 3 
+[11:12:13.259] [INFO   ] creat AI step 7 
+[11:12:13.259] [INFO   ] KP step 1
+[11:12:13.259] [INFO   ] thread Thread-1wip1
+[11:12:13.257] [SEVERE ] updating countdown to 60000
+[11:12:13.260] [INFO   ] thread Thread-1wip2
+[11:12:13.261] [INFO   ] thread Thread-1wip3
+[11:12:13.261] [INFO   ] thread Thread-1wip4
+[11:12:13.260] [INFO   ] KP step 7
+[11:12:13.260] [INFO   ] AI key pressed step 1 
+[11:12:13.263] [INFO   ] KP step 8
+[11:12:13.263] [INFO   ] AI key pressed step 2 
+[11:12:13.263] [INFO   ] KP step 10
+[11:12:13.264] [INFO   ] AI key pressed step 3, random slot: 2
+[11:12:13.264] [INFO   ] creat AI step 8 
+[11:12:13.263] [INFO   ] KP step 1
+[11:12:13.265] [INFO   ] creat AI step 9 
+[11:12:13.265] [INFO   ] KP step 7
+[11:12:13.266] [INFO   ] KP step 8
+[11:12:13.266] [INFO   ] KP step 10
+[11:12:13.266] [INFO   ] AI key pressed step 3, random slot: 1
+[11:12:13.266] [INFO   ] creat AI step 8 
+[11:12:13.267] [INFO   ] creat AI step 9 
+[11:12:13.483] [INFO   ] place card step 0 
+[11:12:13.484] [INFO   ] place card step 1 
+[11:12:13.593] [SEVERE ] placing card 76 in slot 0
+[11:12:13.702] [SEVERE ] placing card 9 in slot 1
+[11:12:13.810] [SEVERE ] placing card 71 in slot 2
+[11:12:13.919] [SEVERE ] placing card 49 in slot 3
+[11:12:14.028] [SEVERE ] placing card 51 in slot 4
+[11:12:14.137] [SEVERE ] placing card 3 in slot 5
+[11:12:14.245] [SEVERE ] placing card 30 in slot 6
+[11:12:14.353] [SEVERE ] placing card 24 in slot 7
+[11:12:14.462] [SEVERE ] placing card 45 in slot 8
+[11:12:14.570] [SEVERE ] placing card 19 in slot 9
+[11:12:14.679] [SEVERE ] placing card 75 in slot 10
+[11:12:14.788] [SEVERE ] placing card 40 in slot 11
+[11:12:14.789] [INFO   ] place card step 2 
+[11:12:14.789] [INFO   ] place card step 3 
+[11:12:14.795] [INFO   ] place card step 5 
+[11:12:14.796] [INFO   ] place card step 6 
+[11:12:14.796] [INFO   ] place card step 7 
+[11:12:14.796] [INFO   ] place card step 8 
+[11:12:15.802] [SEVERE ] updating countdown to 57460
+[11:12:16.241] [INFO   ] place card step 0 
+[11:12:16.241] [INFO   ] place card step 1 
+[11:12:16.241] [INFO   ] place card step 2 
+[11:12:16.241] [INFO   ] place card step 3 
+[11:12:16.244] [INFO   ] place card step 5 
+[11:12:16.244] [INFO   ] place card step 6 
+[11:12:16.245] [INFO   ] place card step 7 
+[11:12:16.245] [INFO   ] place card step 8 
+[11:12:17.253] [SEVERE ] updating countdown to 56009
+[11:12:17.689] [INFO   ] place card step 0 
+[11:12:17.689] [INFO   ] place card step 1 
+[11:12:17.689] [INFO   ] place card step 2 
+[11:12:17.689] [INFO   ] place card step 3 
+[11:12:17.693] [INFO   ] place card step 5 
+[11:12:17.693] [INFO   ] place card step 6 
+[11:12:17.693] [INFO   ] place card step 7 
+[11:12:17.693] [INFO   ] place card step 8 
+[11:12:18.704] [SEVERE ] updating countdown to 54558
+[11:12:19.138] [INFO   ] place card step 0 
+[11:12:19.138] [INFO   ] place card step 1 
+[11:12:19.138] [INFO   ] place card step 2 
+[11:12:19.138] [INFO   ] place card step 3 
+[11:12:19.140] [INFO   ] place card step 5 
+[11:12:19.140] [INFO   ] place card step 6 
+[11:12:19.140] [INFO   ] place card step 7 
+[11:12:19.140] [INFO   ] place card step 8 
+[11:12:20.149] [SEVERE ] updating countdown to 53113
+[11:12:20.585] [INFO   ] place card step 0 
+[11:12:20.585] [INFO   ] place card step 1 
+[11:12:20.585] [INFO   ] place card step 2 
+[11:12:20.585] [INFO   ] place card step 3 
+[11:12:20.588] [INFO   ] place card step 5 
+[11:12:20.588] [INFO   ] place card step 6 
+[11:12:20.588] [INFO   ] place card step 7 
+[11:12:20.588] [INFO   ] place card step 8 
+[11:12:21.597] [SEVERE ] updating countdown to 51665
+[11:12:22.036] [INFO   ] place card step 0 
+[11:12:22.036] [INFO   ] place card step 1 
+[11:12:22.036] [INFO   ] place card step 2 
+[11:12:22.036] [INFO   ] place card step 3 
+[11:12:22.037] [INFO   ] place card step 5 
+[11:12:22.037] [INFO   ] place card step 6 
+[11:12:22.037] [INFO   ] place card step 7 
+[11:12:22.037] [INFO   ] place card step 8 
+[11:12:23.047] [SEVERE ] updating countdown to 50215
+[11:12:23.482] [INFO   ] place card step 0 
+[11:12:23.482] [INFO   ] place card step 1 
+[11:12:23.482] [INFO   ] place card step 2 
+[11:12:23.482] [INFO   ] place card step 3 
+[11:12:23.483] [INFO   ] place card step 5 
+[11:12:23.483] [INFO   ] place card step 6 
+[11:12:23.484] [INFO   ] place card step 7 
+[11:12:23.484] [INFO   ] place card step 8 
+[11:12:24.490] [SEVERE ] updating countdown to 48772
+[11:12:24.927] [INFO   ] place card step 0 
+[11:12:24.928] [INFO   ] place card step 1 
+[11:12:24.928] [INFO   ] place card step 2 
+[11:12:24.928] [INFO   ] place card step 3 
+[11:12:24.929] [INFO   ] place card step 5 
+[11:12:24.929] [INFO   ] place card step 6 
+[11:12:24.929] [INFO   ] place card step 7 
+[11:12:24.929] [INFO   ] place card step 8 
+[11:12:25.937] [SEVERE ] updating countdown to 47325
+[11:12:26.373] [INFO   ] place card step 0 
+[11:12:26.373] [INFO   ] place card step 1 
+[11:12:26.373] [INFO   ] place card step 2 
+[11:12:26.373] [INFO   ] place card step 3 
+[11:12:26.376] [INFO   ] place card step 5 
+[11:12:26.376] [INFO   ] place card step 6 
+[11:12:26.376] [INFO   ] place card step 7 
+[11:12:26.376] [INFO   ] place card step 8 
+[11:12:27.382] [SEVERE ] updating countdown to 45880
+[11:12:27.816] [INFO   ] place card step 0 
+[11:12:27.816] [INFO   ] place card step 1 
+[11:12:27.816] [INFO   ] place card step 2 
+[11:12:27.816] [INFO   ] place card step 3 
+[11:12:27.817] [INFO   ] place card step 5 
+[11:12:27.817] [INFO   ] place card step 6 
+[11:12:27.817] [INFO   ] place card step 7 
+[11:12:27.817] [INFO   ] place card step 8 
+[11:12:28.817] [SEVERE ] updating countdown to 44445
+[11:12:29.255] [INFO   ] place card step 0 
+[11:12:29.255] [INFO   ] place card step 1 
+[11:12:29.255] [INFO   ] place card step 2 
+[11:12:29.256] [INFO   ] place card step 3 
+[11:12:29.257] [INFO   ] place card step 5 
+[11:12:29.257] [INFO   ] place card step 6 
+[11:12:29.259] [INFO   ] place card step 7 
+[11:12:29.259] [INFO   ] place card step 8 
+[11:12:30.262] [SEVERE ] updating countdown to 43000
+[11:12:30.698] [INFO   ] place card step 0 
+[11:12:30.698] [INFO   ] place card step 1 
+[11:12:30.698] [INFO   ] place card step 2 
+[11:12:30.699] [INFO   ] place card step 3 
+[11:12:30.699] [INFO   ] place card step 5 
+[11:12:30.699] [INFO   ] place card step 6 
+[11:12:30.700] [INFO   ] place card step 7 
+[11:12:30.700] [INFO   ] place card step 8 
+[11:12:31.706] [SEVERE ] updating countdown to 41556
+[11:12:32.140] [INFO   ] place card step 0 
+[11:12:32.140] [INFO   ] place card step 1 
+[11:12:32.140] [INFO   ] place card step 2 
+[11:12:32.140] [INFO   ] place card step 3 
+[11:12:32.141] [INFO   ] place card step 5 
+[11:12:32.141] [INFO   ] place card step 6 
+[11:12:32.141] [INFO   ] place card step 7 
+[11:12:32.142] [INFO   ] place card step 8 
+[11:12:33.153] [SEVERE ] updating countdown to 40109
+[11:12:33.588] [INFO   ] place card step 0 
+[11:12:33.588] [INFO   ] place card step 1 
+[11:12:33.588] [INFO   ] place card step 2 
+[11:12:33.588] [INFO   ] place card step 3 
+[11:12:33.588] [INFO   ] place card step 5 
+[11:12:33.589] [INFO   ] place card step 6 
+[11:12:33.589] [INFO   ] place card step 7 
+[11:12:33.589] [INFO   ] place card step 8 
+[11:12:34.601] [SEVERE ] updating countdown to 38661
+[11:12:35.037] [INFO   ] place card step 0 
+[11:12:35.037] [INFO   ] place card step 1 
+[11:12:35.037] [INFO   ] place card step 2 
+[11:12:35.038] [INFO   ] place card step 3 
+[11:12:35.038] [INFO   ] place card step 5 
+[11:12:35.039] [INFO   ] place card step 6 
+[11:12:35.039] [INFO   ] place card step 7 
+[11:12:35.039] [INFO   ] place card step 8 
+[11:12:36.049] [SEVERE ] updating countdown to 37213
+[11:12:36.485] [INFO   ] place card step 0 
+[11:12:36.485] [INFO   ] place card step 1 
+[11:12:36.485] [INFO   ] place card step 2 
+[11:12:36.485] [INFO   ] place card step 3 
+[11:12:36.486] [INFO   ] place card step 5 
+[11:12:36.486] [INFO   ] place card step 6 
+[11:12:36.486] [INFO   ] place card step 7 
+[11:12:36.486] [INFO   ] place card step 8 
+[11:12:37.494] [SEVERE ] updating countdown to 35768
+[11:12:37.931] [INFO   ] place card step 0 
+[11:12:37.932] [INFO   ] place card step 1 
+[11:12:37.932] [INFO   ] place card step 2 
+[11:12:37.933] [INFO   ] place card step 3 
+[11:12:37.934] [INFO   ] place card step 5 
+[11:12:37.935] [INFO   ] place card step 6 
+[11:12:37.935] [INFO   ] place card step 7 
+[11:12:37.935] [INFO   ] place card step 8 
+[11:12:38.950] [SEVERE ] updating countdown to 34312
+[11:12:39.383] [INFO   ] place card step 0 
+[11:12:39.383] [INFO   ] place card step 1 
+[11:12:39.383] [INFO   ] place card step 2 
+[11:12:39.384] [INFO   ] place card step 3 
+[11:12:39.384] [INFO   ] place card step 5 
+[11:12:39.386] [INFO   ] place card step 6 
+[11:12:39.386] [INFO   ] place card step 7 
+[11:12:39.386] [INFO   ] place card step 8 
+[11:12:40.396] [SEVERE ] updating countdown to 32866
+[11:12:40.828] [INFO   ] place card step 0 
+[11:12:40.828] [INFO   ] place card step 1 
+[11:12:40.828] [INFO   ] place card step 2 
+[11:12:40.828] [INFO   ] place card step 3 
+[11:12:40.829] [INFO   ] place card step 5 
+[11:12:40.829] [INFO   ] place card step 6 
+[11:12:40.829] [INFO   ] place card step 7 
+[11:12:40.829] [INFO   ] place card step 8 
+[11:12:41.841] [SEVERE ] updating countdown to 31421
+[11:12:42.275] [INFO   ] place card step 0 
+[11:12:42.275] [INFO   ] place card step 1 
+[11:12:42.275] [INFO   ] place card step 2 
+[11:12:42.276] [INFO   ] place card step 3 
+[11:12:42.276] [INFO   ] place card step 5 
+[11:12:42.277] [INFO   ] place card step 6 
+[11:12:42.277] [INFO   ] place card step 7 
+[11:12:42.277] [INFO   ] place card step 8 
+[11:12:43.284] [SEVERE ] updating countdown to 29978
+[11:12:43.718] [INFO   ] place card step 0 
+[11:12:43.718] [INFO   ] place card step 1 
+[11:12:43.718] [INFO   ] place card step 2 
+[11:12:43.718] [INFO   ] place card step 3 
+[11:12:43.718] [INFO   ] place card step 5 
+[11:12:43.718] [INFO   ] place card step 6 
+[11:12:43.718] [INFO   ] place card step 7 
+[11:12:43.718] [INFO   ] place card step 8 
+[11:12:44.728] [SEVERE ] updating countdown to 28534
+[11:12:45.162] [INFO   ] place card step 0 
+[11:12:45.162] [INFO   ] place card step 1 
+[11:12:45.162] [INFO   ] place card step 2 
+[11:12:45.162] [INFO   ] place card step 3 
+[11:12:45.163] [INFO   ] place card step 5 
+[11:12:45.163] [INFO   ] place card step 6 
+[11:12:45.163] [INFO   ] place card step 7 
+[11:12:45.163] [INFO   ] place card step 8 
+[11:12:46.176] [SEVERE ] updating countdown to 27086
+[11:12:46.610] [INFO   ] place card step 0 
+[11:12:46.610] [INFO   ] place card step 1 
+[11:12:46.610] [INFO   ] place card step 2 
+[11:12:46.610] [INFO   ] place card step 3 
+[11:12:46.611] [INFO   ] place card step 5 
+[11:12:46.611] [INFO   ] place card step 6 
+[11:12:46.611] [INFO   ] place card step 7 
+[11:12:46.611] [INFO   ] place card step 8 
+[11:12:47.618] [SEVERE ] updating countdown to 25644
+[11:12:48.052] [INFO   ] place card step 0 
+[11:12:48.052] [INFO   ] place card step 1 
+[11:12:48.052] [INFO   ] place card step 2 
+[11:12:48.052] [INFO   ] place card step 3 
+[11:12:48.053] [INFO   ] place card step 5 
+[11:12:48.053] [INFO   ] place card step 6 
+[11:12:48.053] [INFO   ] place card step 7 
+[11:12:48.053] [INFO   ] place card step 8 
+[11:12:49.068] [SEVERE ] updating countdown to 24194
+[11:12:49.503] [INFO   ] place card step 0 
+[11:12:49.503] [INFO   ] place card step 1 
+[11:12:49.503] [INFO   ] place card step 2 
+[11:12:49.503] [INFO   ] place card step 3 
+[11:12:49.503] [INFO   ] place card step 5 
+[11:12:49.503] [INFO   ] place card step 6 
+[11:12:49.504] [INFO   ] place card step 7 
+[11:12:49.504] [INFO   ] place card step 8 
+[11:12:50.511] [SEVERE ] updating countdown to 22751
+[11:12:50.731] [SEVERE ] exit button pressed
+[11:12:50.947] [INFO   ] place card step 0 
+[11:12:50.947] [INFO   ] place card step 1 
+[11:12:50.947] [INFO   ] place card step 2 
+[11:12:50.947] [INFO   ] place card step 3 
+[11:12:50.948] [INFO   ] place card step 5 
+[11:12:50.949] [INFO   ] place card step 6 
+[11:12:50.949] [INFO   ] place card step 7 
+[11:12:50.949] [INFO   ] place card step 8 
+[11:12:51.962] [SEVERE ] updating countdown to 21300
+[11:12:52.397] [INFO   ] place card step 0 
+[11:12:52.397] [INFO   ] place card step 1 
+[11:12:52.397] [INFO   ] place card step 2 
+[11:12:52.397] [INFO   ] place card step 3 
+[11:12:52.398] [INFO   ] place card step 5 
+[11:12:52.398] [INFO   ] place card step 6 
+[11:12:52.398] [INFO   ] place card step 7 
+[11:12:52.398] [INFO   ] place card step 8 
+[11:12:53.411] [SEVERE ] updating countdown to 19851
+[11:12:53.847] [INFO   ] place card step 0 
+[11:12:53.847] [INFO   ] place card step 1 
+[11:12:53.847] [INFO   ] place card step 2 
+[11:12:53.847] [INFO   ] place card step 3 
+[11:12:53.847] [INFO   ] place card step 5 
+[11:12:53.847] [INFO   ] place card step 6 
+[11:12:53.847] [INFO   ] place card step 7 
+[11:12:53.848] [INFO   ] place card step 8 
+[11:12:54.855] [SEVERE ] updating countdown to 18407
+[11:12:55.292] [INFO   ] place card step 0 
+[11:12:55.292] [INFO   ] place card step 1 
+[11:12:55.292] [INFO   ] place card step 2 
+[11:12:55.292] [INFO   ] place card step 3 
+[11:12:55.293] [INFO   ] place card step 5 
+[11:12:55.293] [INFO   ] place card step 6 
+[11:12:55.293] [INFO   ] place card step 7 
+[11:12:55.293] [INFO   ] place card step 8 
+[11:12:56.303] [SEVERE ] updating countdown to 16959
+[11:12:56.739] [INFO   ] place card step 0 
+[11:12:56.739] [INFO   ] place card step 1 
+[11:12:56.739] [INFO   ] place card step 2 
+[11:12:56.739] [INFO   ] place card step 3 
+[11:12:56.740] [INFO   ] place card step 5 
+[11:12:56.740] [INFO   ] place card step 6 
+[11:12:56.740] [INFO   ] place card step 7 
+[11:12:56.740] [INFO   ] place card step 8 
+[11:12:57.755] [SEVERE ] updating countdown to 15507
+[11:12:58.190] [INFO   ] place card step 0 
+[11:12:58.190] [INFO   ] place card step 1 
+[11:12:58.190] [INFO   ] place card step 2 
+[11:12:58.190] [INFO   ] place card step 3 
+[11:12:58.191] [INFO   ] place card step 5 
+[11:12:58.191] [INFO   ] place card step 6 
+[11:12:58.191] [INFO   ] place card step 7 
+[11:12:58.191] [INFO   ] place card step 8 
+[11:12:59.192] [SEVERE ] updating countdown to 14070
+[11:12:59.626] [INFO   ] place card step 0 
+[11:12:59.628] [INFO   ] place card step 1 
+[11:12:59.628] [INFO   ] place card step 2 
+[11:12:59.629] [INFO   ] place card step 3 
+[11:12:59.629] [INFO   ] place card step 5 
+[11:12:59.629] [INFO   ] place card step 6 
+[11:12:59.629] [INFO   ] place card step 7 
+[11:12:59.629] [INFO   ] place card step 8 
+[11:13:00.640] [SEVERE ] updating countdown to 12622
+[11:13:00.749] [INFO   ] creat AI step 11 
+[11:13:00.749] [INFO   ] thread computer-1 terminated.
+[11:13:00.749] [INFO   ] thread Thread-1 before  synchronize on dealer.
+[11:13:00.750] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[11:13:00.750] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[11:13:00.750] [INFO   ] thread Thread-1 terminated.
+[11:13:00.750] [INFO   ] creat AI step 11 
+[11:13:00.751] [INFO   ] thread computer-0 terminated.
+[11:13:00.751] [INFO   ] thread Thread-0 before  synchronize on dealer.
+[11:13:00.751] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[11:13:00.751] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[11:13:00.752] [INFO   ] thread Thread-0 terminated.
+[11:13:00.857] [INFO   ] remove  in the table step 1
+[11:13:00.857] [INFO   ] remove  in the table step 2
+[11:13:00.858] [SEVERE ] setting player 2 freeze to 3000
+[11:13:01.867] [SEVERE ] setting player 2 freeze to 2000
+[11:13:02.880] [SEVERE ] setting player 2 freeze to 1000
+[11:13:03.892] [SEVERE ] setting player 2 freeze to 0
+[11:13:03.892] [INFO   ] remove  in the table step 1
+[11:13:03.892] [INFO   ] remove  in the table step 2
+[11:13:03.893] [SEVERE ] setting player 1 freeze to 3000
+[11:13:04.901] [SEVERE ] setting player 1 freeze to 2000
+[11:13:05.912] [SEVERE ] setting player 1 freeze to 1000
+[11:13:06.927] [SEVERE ] setting player 1 freeze to 0
+[11:13:07.145] [INFO   ] place card step 0 
+[11:13:07.145] [INFO   ] place card step 1 
+[11:13:07.145] [INFO   ] place card step 2 
+[11:13:07.145] [INFO   ] place card step 3 
+[11:13:07.145] [INFO   ] place card step 5 
+[11:13:07.145] [INFO   ] place card step 6 
+[11:13:07.145] [INFO   ] place card step 7 
+[11:13:07.145] [INFO   ] place card step 8 
+[11:13:07.146] [SEVERE ] updating countdown to 60000
+[11:13:07.362] [INFO   ] REMOVE ALL 1 
+[11:13:07.362] [INFO   ] REMOVE ALL 2 
+[11:13:07.362] [INFO   ] REMOVE ALL 3 
+[11:13:07.472] [SEVERE ] removing card from slot 0
+[11:13:07.580] [SEVERE ] removing card from slot 1
+[11:13:07.689] [SEVERE ] removing card from slot 2
+[11:13:07.798] [SEVERE ] removing card from slot 3
+[11:13:07.909] [SEVERE ] removing card from slot 4
+[11:13:08.017] [SEVERE ] removing card from slot 5
+[11:13:08.126] [SEVERE ] removing card from slot 6
+[11:13:08.237] [SEVERE ] removing card from slot 7
+[11:13:08.345] [SEVERE ] removing card from slot 8
+[11:13:08.454] [SEVERE ] removing card from slot 9
+[11:13:08.563] [SEVERE ] removing card from slot 10
+[11:13:08.673] [SEVERE ] removing card from slot 11
+[11:13:08.673] [INFO   ] REMOVE ALL 4 
+[11:13:08.673] [INFO   ] REMOVE ALL 5 
+[11:13:08.673] [SEVERE ] announcing winner(s): player 1, player 2
+[11:13:08.677] [INFO   ] thread dealer terminated.
+[11:13:08.677] [INFO   ] thread dealer terminated.
+[11:13:08.677] [SEVERE ] thanks for playing... it was fun!
+[11:13:08.678] [INFO   ] thread main terminated.

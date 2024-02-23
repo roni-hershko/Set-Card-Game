@@ -63,7 +63,7 @@ public class Dealer implements Runnable {
 	this.setFound = false;
 	this.changeTime = false;
 	if (env.config.turnTimeoutMillis > 0)
-            reshuffleTime = env.config.turnTimeoutMillis + System.currentTimeMillis(); //minute
+        reshuffleTime = env.config.turnTimeoutMillis + System.currentTimeMillis(); //minute
 	else
 		lastUpdateForElapsed = System.currentTimeMillis();
 }
@@ -116,10 +116,10 @@ public class Dealer implements Runnable {
     public void terminate() {
         freezeAllPlayers(env.config.endGamePauseMillies); 
 		if(!terminate){
-			for (Player player : players) {
-                player.terminate();
+			for (int i = players.length -1; i >= 0; i--) {
+                players[i].terminate();
                 try {
-                    player.getPlayerThread().join();
+                    players[i].getPlayerThread().join();
                 } catch (InterruptedException e) { }
  	  		}
 		}

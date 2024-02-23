@@ -1,0 +1,1019 @@
+[11:30:56.342] [INFO   ] thread main starting.
+[11:30:56.356] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[11:30:56.361] [SEVERE ] configuration file was loaded from resources directory.
+[11:30:57.380] [INFO   ] thread dealer starting.
+[11:30:57.381] [INFO   ] thread dealer starting.
+[11:30:57.382] [INFO   ] thread Thread-0 starting.
+[11:30:57.385] [INFO   ] creat AI step 1 
+[11:30:57.385] [INFO   ] thread computer-0 starting.
+[11:30:57.386] [INFO   ] creat AI step 2 
+[11:30:57.386] [INFO   ] creat AI step 3 
+[11:30:57.386] [INFO   ] thread Thread-0wip1
+[11:30:57.387] [INFO   ] thread Thread-1 starting.
+[11:30:57.387] [INFO   ] creat AI step 7 
+[11:30:57.389] [INFO   ] thread Thread-0wip2
+[11:30:57.390] [INFO   ] AI key pressed step 1 
+[11:30:57.390] [INFO   ] thread Thread-0wip3
+[11:30:57.390] [INFO   ] thread Thread-0wip4
+[11:30:57.391] [INFO   ] AI key pressed step 2 
+[11:30:57.391] [INFO   ] creat AI step 1 
+[11:30:57.391] [INFO   ] KP step 1
+[11:30:57.391] [INFO   ] thread computer-1 starting.
+[11:30:57.392] [INFO   ] KP step 7
+[11:30:57.392] [INFO   ] creat AI step 2 
+[11:30:57.392] [INFO   ] KP step 8
+[11:30:57.394] [SEVERE ] updating countdown to 60000
+[11:30:57.394] [INFO   ] creat AI step 3 
+[11:30:57.394] [INFO   ] creat AI step 7 
+[11:30:57.395] [INFO   ] AI key pressed step 1 
+[11:30:57.394] [INFO   ] thread Thread-1wip1
+[11:30:57.395] [INFO   ] AI key pressed step 2 
+[11:30:57.395] [INFO   ] KP step 1
+[11:30:57.396] [INFO   ] KP step 7
+[11:30:57.394] [INFO   ] KP step 10
+[11:30:57.397] [INFO   ] AI key pressed step 3, random slot: 7
+[11:30:57.397] [INFO   ] creat AI step 8 
+[11:30:57.395] [INFO   ] thread Thread-1wip2
+[11:30:57.397] [INFO   ] creat AI step 9 
+[11:30:57.398] [INFO   ] thread Thread-0wip5
+[11:30:57.398] [INFO   ] thread Thread-1wip3
+[11:30:57.399] [INFO   ] thread Thread-0 before  synchronize on dealer.
+[11:30:57.400] [INFO   ] thread Thread-1wip4
+[11:30:57.401] [INFO   ] KP step 8
+[11:30:57.401] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[11:30:57.402] [INFO   ] KP step 10
+[11:30:57.402] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[11:30:57.402] [INFO   ] AI key pressed step 3, random slot: 3
+[11:30:57.403] [INFO   ] creat AI step 8 
+[11:30:57.403] [INFO   ] creat AI step 9 
+[11:30:57.404] [INFO   ] thread Thread-1wip5
+[11:30:57.404] [INFO   ] thread Thread-1 before  synchronize on dealer.
+[11:30:57.405] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[11:30:57.405] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[11:30:57.621] [INFO   ] place card step 0 
+[11:30:57.622] [INFO   ] place card step 1 
+[11:30:57.729] [SEVERE ] placing card 10 in slot 0
+[11:30:57.838] [SEVERE ] placing card 21 in slot 1
+[11:30:57.947] [SEVERE ] placing card 24 in slot 2
+[11:30:58.055] [SEVERE ] placing card 78 in slot 3
+[11:30:58.163] [SEVERE ] placing card 28 in slot 4
+[11:30:58.270] [SEVERE ] placing card 25 in slot 5
+[11:30:58.378] [SEVERE ] placing card 79 in slot 6
+[11:30:58.488] [SEVERE ] placing card 23 in slot 7
+[11:30:58.597] [SEVERE ] placing card 52 in slot 8
+[11:30:58.707] [SEVERE ] placing card 42 in slot 9
+[11:30:58.815] [SEVERE ] placing card 67 in slot 10
+[11:30:58.923] [SEVERE ] placing card 71 in slot 11
+[11:30:58.923] [INFO   ] place card step 2 
+[11:30:58.924] [INFO   ] place card step 3 
+[11:30:58.935] [INFO   ] place card step 5 
+[11:30:58.936] [INFO   ] place card step 6 
+[11:30:58.936] [INFO   ] place card step 7 
+[11:30:58.936] [INFO   ] place card step 8 
+[11:30:58.937] [SEVERE ] updating countdown to 58459
+[11:30:59.156] [INFO   ] remove  in the table step 1
+[11:30:59.157] [INFO   ] remove  in the table step 2
+[11:30:59.158] [INFO   ] penalty step 1
+[11:30:59.158] [INFO   ] penalty step 2
+[11:30:59.158] [SEVERE ] setting player 1 freeze to 3000
+[11:30:59.159] [INFO   ] penalty step 3
+[11:30:59.159] [INFO   ] penalty step 4
+[11:31:00.167] [SEVERE ] setting player 1 freeze to 2000
+[11:31:00.167] [INFO   ] penalty step 5
+[11:31:00.168] [INFO   ] penalty step 4
+[11:31:01.178] [SEVERE ] setting player 1 freeze to 1000
+[11:31:01.178] [INFO   ] penalty step 5
+[11:31:01.179] [INFO   ] penalty step 4
+[11:31:02.190] [SEVERE ] setting player 1 freeze to 0
+[11:31:02.191] [INFO   ] penalty step 5
+[11:31:02.191] [INFO   ] remove  in the table step 1
+[11:31:02.191] [INFO   ] creat AI step 10 
+[11:31:02.191] [INFO   ] remove  in the table step 2
+[11:31:02.192] [INFO   ] thread Thread-0wip1
+[11:31:02.192] [INFO   ] creat AI step 11 
+[11:31:02.192] [INFO   ] thread Thread-0wip2
+[11:31:02.192] [INFO   ] penalty step 1
+[11:31:02.193] [INFO   ] penalty step 2
+[11:31:02.193] [INFO   ] thread Thread-0wip3
+[11:31:02.193] [INFO   ] creat AI step 3 
+[11:31:02.194] [INFO   ] thread Thread-0wip4
+[11:31:02.194] [SEVERE ] setting player 2 freeze to 3000
+[11:31:02.195] [INFO   ] creat AI step 4 
+[11:31:02.195] [INFO   ] penalty step 3
+[11:31:02.195] [INFO   ] penalty step 4
+[11:31:02.195] [INFO   ] creat AI step 5 
+[11:31:03.198] [SEVERE ] setting player 2 freeze to 2000
+[11:31:03.199] [INFO   ] penalty step 5
+[11:31:03.199] [INFO   ] penalty step 4
+[11:31:04.212] [SEVERE ] setting player 2 freeze to 1000
+[11:31:04.213] [INFO   ] penalty step 5
+[11:31:04.214] [INFO   ] penalty step 4
+[11:31:05.220] [SEVERE ] setting player 2 freeze to 0
+[11:31:05.220] [INFO   ] penalty step 5
+[11:31:05.221] [INFO   ] creat AI step 10 
+[11:31:05.221] [INFO   ] creat AI step 6 
+[11:31:05.221] [INFO   ] thread Thread-1wip1
+[11:31:05.221] [INFO   ] creat AI step 7 
+[11:31:05.221] [INFO   ] AI key pressed step 1 
+[11:31:05.221] [INFO   ] creat AI step 11 
+[11:31:05.221] [INFO   ] AI key pressed step 2 
+[11:31:05.221] [INFO   ] thread Thread-1wip2
+[11:31:05.222] [INFO   ] KP step 1
+[11:31:05.222] [INFO   ] KP step 2
+[11:31:05.222] [INFO   ] KP step 4
+[11:31:05.221] [INFO   ] creat AI step 3 
+[11:31:05.222] [INFO   ] thread Thread-1wip3
+[11:31:05.222] [INFO   ] KP step 5
+[11:31:05.222] [INFO   ] thread Thread-1wip4
+[11:31:05.223] [SEVERE ] player 1 placing token on slot 5
+[11:31:05.223] [INFO   ] creat AI step 7 
+[11:31:05.223] [INFO   ] AI key pressed step 1 
+[11:31:05.223] [INFO   ] AI key pressed step 2 
+[11:31:05.223] [INFO   ] KP step 6
+[11:31:05.223] [INFO   ] KP step 7
+[11:31:05.223] [INFO   ] KP step 8
+[11:31:05.223] [INFO   ] KP step 1
+[11:31:05.223] [INFO   ] KP step 10
+[11:31:05.223] [INFO   ] KP step 2
+[11:31:05.225] [INFO   ] AI key pressed step 3, random slot: 5
+[11:31:05.225] [INFO   ] KP step 4
+[11:31:05.225] [INFO   ] creat AI step 8 
+[11:31:05.225] [INFO   ] creat AI step 9 
+[11:31:05.225] [INFO   ] KP step 5
+[11:31:05.225] [INFO   ] thread Thread-0wip5
+[11:31:05.226] [SEVERE ] player 2 placing token on slot 7
+[11:31:05.226] [INFO   ] thread Thread-0 before  synchronize on dealer.
+[11:31:05.226] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[11:31:05.226] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[11:31:05.226] [INFO   ] KP step 6
+[11:31:05.227] [INFO   ] KP step 7
+[11:31:05.227] [INFO   ] KP step 8
+[11:31:05.227] [INFO   ] KP step 10
+[11:31:05.227] [INFO   ] AI key pressed step 3, random slot: 7
+[11:31:05.227] [INFO   ] creat AI step 8 
+[11:31:05.227] [INFO   ] creat AI step 9 
+[11:31:05.227] [INFO   ] thread Thread-1wip5
+[11:31:05.227] [INFO   ] thread Thread-1 before  synchronize on dealer.
+[11:31:05.228] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[11:31:05.228] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[11:31:05.439] [INFO   ] place card step 0 
+[11:31:05.439] [INFO   ] place card step 1 
+[11:31:05.439] [INFO   ] place card step 2 
+[11:31:05.439] [INFO   ] place card step 3 
+[11:31:05.445] [INFO   ] place card step 5 
+[11:31:05.445] [INFO   ] place card step 6 
+[11:31:05.446] [INFO   ] place card step 7 
+[11:31:05.446] [INFO   ] place card step 8 
+[11:31:05.446] [SEVERE ] updating countdown to 51950
+[11:31:05.657] [INFO   ] remove  in the table step 1
+[11:31:05.657] [INFO   ] remove  in the table step 2
+[11:31:05.657] [INFO   ] penalty step 1
+[11:31:05.657] [INFO   ] penalty step 2
+[11:31:05.657] [SEVERE ] setting player 1 freeze to 3000
+[11:31:05.658] [INFO   ] penalty step 3
+[11:31:05.658] [INFO   ] penalty step 4
+[11:31:06.668] [SEVERE ] setting player 1 freeze to 2000
+[11:31:06.669] [INFO   ] penalty step 5
+[11:31:06.669] [INFO   ] penalty step 4
+[11:31:07.677] [SEVERE ] setting player 1 freeze to 1000
+[11:31:07.677] [INFO   ] penalty step 5
+[11:31:07.678] [INFO   ] penalty step 4
+[11:31:08.686] [SEVERE ] setting player 1 freeze to 0
+[11:31:08.687] [INFO   ] penalty step 5
+[11:31:08.688] [SEVERE ] removing player 1 token from slot 5
+[11:31:08.688] [INFO   ] remove  in the table step 1
+[11:31:08.689] [INFO   ] remove  in the table step 2
+[11:31:08.689] [INFO   ] creat AI step 10 
+[11:31:08.690] [INFO   ] penalty step 1
+[11:31:08.690] [INFO   ] thread Thread-0wip1
+[11:31:08.690] [INFO   ] creat AI step 11 
+[11:31:08.691] [INFO   ] thread Thread-0wip2
+[11:31:08.692] [INFO   ] thread Thread-0wip3
+[11:31:08.690] [INFO   ] penalty step 2
+[11:31:08.692] [INFO   ] thread Thread-0wip4
+[11:31:08.691] [INFO   ] creat AI step 3 
+[11:31:08.693] [INFO   ] creat AI step 4 
+[11:31:08.693] [SEVERE ] setting player 2 freeze to 3000
+[11:31:08.693] [INFO   ] creat AI step 5 
+[11:31:08.694] [INFO   ] penalty step 3
+[11:31:08.694] [INFO   ] penalty step 4
+[11:31:09.696] [SEVERE ] setting player 2 freeze to 2000
+[11:31:09.696] [INFO   ] penalty step 5
+[11:31:09.697] [INFO   ] penalty step 4
+[11:31:10.707] [SEVERE ] setting player 2 freeze to 1000
+[11:31:10.707] [INFO   ] penalty step 5
+[11:31:10.708] [INFO   ] penalty step 4
+[11:31:11.717] [SEVERE ] setting player 2 freeze to 0
+[11:31:11.718] [INFO   ] penalty step 5
+[11:31:11.718] [SEVERE ] removing player 2 token from slot 7
+[11:31:11.718] [INFO   ] creat AI step 10 
+[11:31:11.719] [INFO   ] creat AI step 11 
+[11:31:11.719] [INFO   ] creat AI step 3 
+[11:31:11.719] [INFO   ] creat AI step 7 
+[11:31:11.719] [INFO   ] AI key pressed step 1 
+[11:31:11.718] [INFO   ] creat AI step 6 
+[11:31:11.720] [INFO   ] creat AI step 7 
+[11:31:11.719] [INFO   ] AI key pressed step 2 
+[11:31:11.719] [INFO   ] thread Thread-1wip1
+[11:31:11.720] [INFO   ] KP step 1
+[11:31:11.720] [INFO   ] AI key pressed step 1 
+[11:31:11.721] [INFO   ] KP step 2
+[11:31:11.721] [INFO   ] thread Thread-1wip2
+[11:31:11.721] [INFO   ] KP step 4
+[11:31:11.721] [INFO   ] AI key pressed step 2 
+[11:31:11.722] [INFO   ] KP step 5
+[11:31:11.722] [INFO   ] thread Thread-1wip3
+[11:31:11.723] [INFO   ] thread Thread-1wip4
+[11:31:11.722] [SEVERE ] player 2 placing token on slot 0
+[11:31:11.722] [INFO   ] KP step 1
+[11:31:11.723] [INFO   ] KP step 2
+[11:31:11.723] [INFO   ] KP step 4
+[11:31:11.723] [INFO   ] KP step 6
+[11:31:11.723] [INFO   ] KP step 7
+[11:31:11.723] [INFO   ] KP step 5
+[11:31:11.723] [INFO   ] KP step 8
+[11:31:11.725] [INFO   ] KP step 10
+[11:31:11.725] [INFO   ] AI key pressed step 3, random slot: 0
+[11:31:11.725] [INFO   ] creat AI step 8 
+[11:31:11.725] [INFO   ] creat AI step 9 
+[11:31:11.725] [SEVERE ] player 1 placing token on slot 11
+[11:31:11.726] [INFO   ] thread Thread-1wip5
+[11:31:11.726] [INFO   ] thread Thread-1 before  synchronize on dealer.
+[11:31:11.726] [INFO   ] KP step 6
+[11:31:11.726] [INFO   ] KP step 7
+[11:31:11.727] [INFO   ] KP step 8
+[11:31:11.727] [INFO   ] KP step 10
+[11:31:11.726] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[11:31:11.727] [INFO   ] AI key pressed step 3, random slot: 11
+[11:31:11.727] [INFO   ] creat AI step 8 
+[11:31:11.728] [INFO   ] creat AI step 9 
+[11:31:11.727] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[11:31:11.728] [INFO   ] thread Thread-0wip5
+[11:31:11.728] [INFO   ] thread Thread-0 before  synchronize on dealer.
+[11:31:11.728] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[11:31:11.729] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[11:31:11.935] [INFO   ] place card step 0 
+[11:31:11.935] [INFO   ] place card step 1 
+[11:31:11.936] [INFO   ] place card step 2 
+[11:31:11.936] [INFO   ] place card step 3 
+[11:31:11.940] [INFO   ] place card step 5 
+[11:31:11.941] [INFO   ] place card step 6 
+[11:31:11.941] [INFO   ] place card step 7 
+[11:31:11.941] [INFO   ] place card step 8 
+[11:31:11.941] [SEVERE ] updating countdown to 45455
+[11:31:12.155] [INFO   ] remove  in the table step 1
+[11:31:12.155] [INFO   ] remove  in the table step 2
+[11:31:12.155] [INFO   ] penalty step 1
+[11:31:12.155] [INFO   ] penalty step 2
+[11:31:12.156] [SEVERE ] setting player 2 freeze to 3000
+[11:31:12.157] [INFO   ] penalty step 3
+[11:31:12.157] [INFO   ] penalty step 4
+[11:31:13.166] [SEVERE ] setting player 2 freeze to 2000
+[11:31:13.167] [INFO   ] penalty step 5
+[11:31:13.167] [INFO   ] penalty step 4
+[11:31:14.176] [SEVERE ] setting player 2 freeze to 1000
+[11:31:14.176] [INFO   ] penalty step 5
+[11:31:14.177] [INFO   ] penalty step 4
+[11:31:15.187] [SEVERE ] setting player 2 freeze to 0
+[11:31:15.187] [INFO   ] penalty step 5
+[11:31:15.188] [SEVERE ] removing player 2 token from slot 0
+[11:31:15.188] [INFO   ] remove  in the table step 1
+[11:31:15.188] [INFO   ] creat AI step 10 
+[11:31:15.188] [INFO   ] remove  in the table step 2
+[11:31:15.188] [INFO   ] thread Thread-1wip1
+[11:31:15.188] [INFO   ] creat AI step 11 
+[11:31:15.189] [INFO   ] thread Thread-1wip2
+[11:31:15.188] [INFO   ] penalty step 1
+[11:31:15.189] [INFO   ] penalty step 2
+[11:31:15.189] [INFO   ] thread Thread-1wip3
+[11:31:15.189] [INFO   ] thread Thread-1wip4
+[11:31:15.189] [INFO   ] creat AI step 3 
+[11:31:15.189] [SEVERE ] setting player 1 freeze to 3000
+[11:31:15.189] [INFO   ] creat AI step 4 
+[11:31:15.189] [INFO   ] creat AI step 5 
+[11:31:15.189] [INFO   ] penalty step 3
+[11:31:15.190] [INFO   ] penalty step 4
+[11:31:16.191] [SEVERE ] setting player 1 freeze to 2000
+[11:31:16.191] [INFO   ] penalty step 5
+[11:31:16.191] [INFO   ] penalty step 4
+[11:31:17.202] [SEVERE ] setting player 1 freeze to 1000
+[11:31:17.202] [INFO   ] penalty step 5
+[11:31:17.203] [INFO   ] penalty step 4
+[11:31:18.205] [SEVERE ] setting player 1 freeze to 0
+[11:31:18.206] [INFO   ] penalty step 5
+[11:31:18.206] [SEVERE ] removing player 1 token from slot 11
+[11:31:18.206] [INFO   ] creat AI step 6 
+[11:31:18.207] [INFO   ] creat AI step 7 
+[11:31:18.207] [INFO   ] AI key pressed step 1 
+[11:31:18.208] [INFO   ] AI key pressed step 2 
+[11:31:18.208] [INFO   ] KP step 1
+[11:31:18.208] [INFO   ] KP step 2
+[11:31:18.208] [INFO   ] KP step 4
+[11:31:18.208] [INFO   ] KP step 5
+[11:31:18.208] [SEVERE ] player 2 placing token on slot 9
+[11:31:18.208] [INFO   ] KP step 6
+[11:31:18.206] [INFO   ] creat AI step 10 
+[11:31:18.209] [INFO   ] KP step 7
+[11:31:18.209] [INFO   ] thread Thread-0wip1
+[11:31:18.209] [INFO   ] thread Thread-0wip2
+[11:31:18.209] [INFO   ] thread Thread-0wip3
+[11:31:18.209] [INFO   ] creat AI step 11 
+[11:31:18.210] [INFO   ] thread Thread-0wip4
+[11:31:18.209] [INFO   ] KP step 8
+[11:31:18.210] [INFO   ] creat AI step 3 
+[11:31:18.211] [INFO   ] creat AI step 7 
+[11:31:18.211] [INFO   ] KP step 10
+[11:31:18.211] [INFO   ] AI key pressed step 3, random slot: 9
+[11:31:18.211] [INFO   ] AI key pressed step 1 
+[11:31:18.211] [INFO   ] creat AI step 8 
+[11:31:18.212] [INFO   ] AI key pressed step 2 
+[11:31:18.212] [INFO   ] creat AI step 9 
+[11:31:18.212] [INFO   ] thread Thread-1wip5
+[11:31:18.212] [INFO   ] thread Thread-1 before  synchronize on dealer.
+[11:31:18.212] [INFO   ] KP step 1
+[11:31:18.213] [INFO   ] KP step 2
+[11:31:18.213] [INFO   ] KP step 4
+[11:31:18.213] [INFO   ] KP step 5
+[11:31:18.212] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[11:31:18.213] [SEVERE ] player 1 placing token on slot 8
+[11:31:18.213] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[11:31:18.213] [INFO   ] KP step 6
+[11:31:18.213] [INFO   ] KP step 7
+[11:31:18.213] [INFO   ] KP step 8
+[11:31:18.215] [INFO   ] KP step 10
+[11:31:18.215] [INFO   ] AI key pressed step 3, random slot: 8
+[11:31:18.215] [INFO   ] creat AI step 8 
+[11:31:18.215] [INFO   ] creat AI step 9 
+[11:31:18.215] [INFO   ] thread Thread-0wip5
+[11:31:18.216] [INFO   ] thread Thread-0 before  synchronize on dealer.
+[11:31:18.216] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[11:31:18.216] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[11:31:18.423] [INFO   ] place card step 0 
+[11:31:18.423] [INFO   ] place card step 1 
+[11:31:18.425] [INFO   ] place card step 2 
+[11:31:18.425] [INFO   ] place card step 3 
+[11:31:18.428] [INFO   ] place card step 5 
+[11:31:18.429] [INFO   ] place card step 6 
+[11:31:18.429] [INFO   ] place card step 7 
+[11:31:18.429] [INFO   ] place card step 8 
+[11:31:18.429] [SEVERE ] updating countdown to 38967
+[11:31:18.641] [INFO   ] remove  in the table step 1
+[11:31:18.641] [INFO   ] remove  in the table step 2
+[11:31:18.641] [INFO   ] penalty step 1
+[11:31:18.641] [INFO   ] penalty step 2
+[11:31:18.641] [SEVERE ] setting player 2 freeze to 3000
+[11:31:18.642] [INFO   ] penalty step 3
+[11:31:18.642] [INFO   ] penalty step 4
+[11:31:19.651] [SEVERE ] setting player 2 freeze to 2000
+[11:31:19.651] [INFO   ] penalty step 5
+[11:31:19.652] [INFO   ] penalty step 4
+[11:31:20.662] [SEVERE ] setting player 2 freeze to 1000
+[11:31:20.662] [INFO   ] penalty step 5
+[11:31:20.663] [INFO   ] penalty step 4
+[11:31:21.674] [SEVERE ] setting player 2 freeze to 0
+[11:31:21.675] [INFO   ] penalty step 5
+[11:31:21.675] [SEVERE ] removing player 2 token from slot 9
+[11:31:21.676] [INFO   ] remove  in the table step 1
+[11:31:21.676] [INFO   ] creat AI step 10 
+[11:31:21.676] [INFO   ] remove  in the table step 2
+[11:31:21.676] [INFO   ] thread Thread-1wip1
+[11:31:21.676] [INFO   ] creat AI step 11 
+[11:31:21.677] [INFO   ] thread Thread-1wip2
+[11:31:21.676] [INFO   ] penalty step 1
+[11:31:21.677] [INFO   ] thread Thread-1wip3
+[11:31:21.677] [INFO   ] creat AI step 3 
+[11:31:21.677] [INFO   ] thread Thread-1wip4
+[11:31:21.677] [INFO   ] penalty step 2
+[11:31:21.678] [INFO   ] creat AI step 4 
+[11:31:21.678] [INFO   ] creat AI step 5 
+[11:31:21.678] [SEVERE ] setting player 1 freeze to 3000
+[11:31:21.679] [INFO   ] penalty step 3
+[11:31:21.679] [INFO   ] penalty step 4
+[11:31:22.687] [SEVERE ] setting player 1 freeze to 2000
+[11:31:22.688] [INFO   ] penalty step 5
+[11:31:22.688] [INFO   ] penalty step 4
+[11:31:23.701] [SEVERE ] setting player 1 freeze to 1000
+[11:31:23.701] [INFO   ] penalty step 5
+[11:31:23.701] [INFO   ] penalty step 4
+[11:31:24.713] [SEVERE ] setting player 1 freeze to 0
+[11:31:24.713] [INFO   ] penalty step 5
+[11:31:24.713] [SEVERE ] removing player 1 token from slot 8
+[11:31:24.713] [INFO   ] creat AI step 6 
+[11:31:24.713] [INFO   ] creat AI step 7 
+[11:31:24.713] [INFO   ] AI key pressed step 1 
+[11:31:24.713] [INFO   ] creat AI step 10 
+[11:31:24.713] [INFO   ] AI key pressed step 2 
+[11:31:24.714] [INFO   ] thread Thread-0wip1
+[11:31:24.714] [INFO   ] thread Thread-0wip2
+[11:31:24.714] [INFO   ] thread Thread-0wip3
+[11:31:24.714] [INFO   ] thread Thread-0wip4
+[11:31:24.714] [INFO   ] creat AI step 11 
+[11:31:24.714] [INFO   ] KP step 1
+[11:31:24.714] [INFO   ] creat AI step 3 
+[11:31:24.714] [INFO   ] creat AI step 7 
+[11:31:24.714] [INFO   ] KP step 2
+[11:31:24.715] [INFO   ] KP step 4
+[11:31:24.715] [INFO   ] AI key pressed step 1 
+[11:31:24.715] [INFO   ] KP step 5
+[11:31:24.715] [INFO   ] AI key pressed step 2 
+[11:31:24.715] [SEVERE ] player 2 placing token on slot 3
+[11:31:24.715] [INFO   ] KP step 1
+[11:31:24.715] [INFO   ] KP step 6
+[11:31:24.715] [INFO   ] KP step 2
+[11:31:24.715] [INFO   ] KP step 7
+[11:31:24.715] [INFO   ] KP step 4
+[11:31:24.715] [INFO   ] KP step 8
+[11:31:24.715] [INFO   ] KP step 10
+[11:31:24.715] [INFO   ] KP step 5
+[11:31:24.715] [INFO   ] AI key pressed step 3, random slot: 3
+[11:31:24.716] [SEVERE ] player 1 placing token on slot 5
+[11:31:24.716] [INFO   ] creat AI step 8 
+[11:31:24.716] [INFO   ] KP step 6
+[11:31:24.716] [INFO   ] creat AI step 9 
+[11:31:24.716] [INFO   ] KP step 7
+[11:31:24.716] [INFO   ] thread Thread-1wip5
+[11:31:24.716] [INFO   ] thread Thread-1 before  synchronize on dealer.
+[11:31:24.716] [INFO   ] KP step 8
+[11:31:24.716] [INFO   ] KP step 10
+[11:31:24.716] [INFO   ] AI key pressed step 3, random slot: 5
+[11:31:24.716] [INFO   ] creat AI step 8 
+[11:31:24.716] [INFO   ] creat AI step 9 
+[11:31:24.716] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[11:31:24.716] [INFO   ] thread Thread-0wip5
+[11:31:24.716] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[11:31:24.716] [INFO   ] thread Thread-0 before  synchronize on dealer.
+[11:31:24.717] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[11:31:24.717] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[11:31:24.930] [INFO   ] place card step 0 
+[11:31:24.930] [INFO   ] place card step 1 
+[11:31:24.930] [INFO   ] place card step 2 
+[11:31:24.930] [INFO   ] place card step 3 
+[11:31:24.933] [INFO   ] place card step 5 
+[11:31:24.933] [INFO   ] place card step 6 
+[11:31:24.933] [INFO   ] place card step 7 
+[11:31:24.933] [INFO   ] place card step 8 
+[11:31:24.933] [SEVERE ] updating countdown to 32463
+[11:31:25.149] [INFO   ] remove  in the table step 1
+[11:31:25.149] [INFO   ] remove  in the table step 2
+[11:31:25.149] [INFO   ] penalty step 1
+[11:31:25.149] [INFO   ] penalty step 2
+[11:31:25.150] [SEVERE ] setting player 2 freeze to 3000
+[11:31:25.150] [INFO   ] penalty step 3
+[11:31:25.150] [INFO   ] penalty step 4
+[11:31:26.162] [SEVERE ] setting player 2 freeze to 2000
+[11:31:26.163] [INFO   ] penalty step 5
+[11:31:26.163] [INFO   ] penalty step 4
+[11:31:27.174] [SEVERE ] setting player 2 freeze to 1000
+[11:31:27.174] [INFO   ] penalty step 5
+[11:31:27.174] [INFO   ] penalty step 4
+[11:31:28.185] [SEVERE ] setting player 2 freeze to 0
+[11:31:28.186] [INFO   ] penalty step 5
+[11:31:28.186] [SEVERE ] removing player 2 token from slot 3
+[11:31:28.186] [INFO   ] remove  in the table step 1
+[11:31:28.186] [INFO   ] remove  in the table step 2
+[11:31:28.186] [INFO   ] creat AI step 10 
+[11:31:28.186] [INFO   ] penalty step 1
+[11:31:28.187] [INFO   ] thread Thread-1wip1
+[11:31:28.187] [INFO   ] thread Thread-1wip2
+[11:31:28.187] [INFO   ] creat AI step 11 
+[11:31:28.187] [INFO   ] creat AI step 3 
+[11:31:28.187] [INFO   ] thread Thread-1wip3
+[11:31:28.187] [INFO   ] penalty step 2
+[11:31:28.188] [INFO   ] thread Thread-1wip4
+[11:31:28.188] [SEVERE ] setting player 1 freeze to 3000
+[11:31:28.188] [INFO   ] creat AI step 4 
+[11:31:28.189] [INFO   ] creat AI step 5 
+[11:31:28.189] [INFO   ] penalty step 3
+[11:31:28.189] [INFO   ] penalty step 4
+[11:31:29.197] [SEVERE ] setting player 1 freeze to 2000
+[11:31:29.197] [INFO   ] penalty step 5
+[11:31:29.198] [INFO   ] penalty step 4
+[11:31:30.210] [SEVERE ] setting player 1 freeze to 1000
+[11:31:30.211] [INFO   ] penalty step 5
+[11:31:30.211] [INFO   ] penalty step 4
+[11:31:31.225] [SEVERE ] setting player 1 freeze to 0
+[11:31:31.226] [INFO   ] penalty step 5
+[11:31:31.226] [SEVERE ] removing player 1 token from slot 5
+[11:31:31.226] [INFO   ] creat AI step 10 
+[11:31:31.226] [INFO   ] creat AI step 11 
+[11:31:31.226] [INFO   ] creat AI step 6 
+[11:31:31.227] [INFO   ] thread Thread-0wip1
+[11:31:31.227] [INFO   ] creat AI step 3 
+[11:31:31.227] [INFO   ] thread Thread-0wip2
+[11:31:31.227] [INFO   ] creat AI step 7 
+[11:31:31.227] [INFO   ] thread Thread-0wip3
+[11:31:31.228] [INFO   ] AI key pressed step 1 
+[11:31:31.228] [INFO   ] thread Thread-0wip4
+[11:31:31.228] [INFO   ] AI key pressed step 2 
+[11:31:31.228] [INFO   ] KP step 1
+[11:31:31.228] [INFO   ] creat AI step 7 
+[11:31:31.229] [INFO   ] AI key pressed step 1 
+[11:31:31.229] [INFO   ] KP step 2
+[11:31:31.229] [INFO   ] AI key pressed step 2 
+[11:31:31.229] [INFO   ] KP step 4
+[11:31:31.230] [INFO   ] KP step 1
+[11:31:31.230] [INFO   ] KP step 2
+[11:31:31.230] [INFO   ] KP step 4
+[11:31:31.230] [INFO   ] KP step 5
+[11:31:31.230] [INFO   ] KP step 5
+[11:31:31.231] [SEVERE ] player 2 placing token on slot 3
+[11:31:31.231] [SEVERE ] player 1 placing token on slot 5
+[11:31:31.231] [INFO   ] KP step 6
+[11:31:31.231] [INFO   ] KP step 7
+[11:31:31.231] [INFO   ] KP step 6
+[11:31:31.232] [INFO   ] KP step 7
+[11:31:31.232] [INFO   ] KP step 8
+[11:31:31.232] [INFO   ] KP step 10
+[11:31:31.231] [INFO   ] KP step 8
+[11:31:31.232] [INFO   ] AI key pressed step 3, random slot: 5
+[11:31:31.232] [INFO   ] KP step 10
+[11:31:31.232] [INFO   ] creat AI step 8 
+[11:31:31.233] [INFO   ] AI key pressed step 3, random slot: 3
+[11:31:31.233] [INFO   ] creat AI step 9 
+[11:31:31.233] [INFO   ] thread Thread-0wip5
+[11:31:31.233] [INFO   ] thread Thread-0 before  synchronize on dealer.
+[11:31:31.233] [INFO   ] creat AI step 8 
+[11:31:31.234] [INFO   ] creat AI step 9 
+[11:31:31.234] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[11:31:31.234] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[11:31:31.234] [INFO   ] thread Thread-1wip5
+[11:31:31.234] [INFO   ] thread Thread-1 before  synchronize on dealer.
+[11:31:31.234] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[11:31:31.234] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[11:31:31.439] [INFO   ] place card step 0 
+[11:31:31.439] [INFO   ] place card step 1 
+[11:31:31.439] [INFO   ] place card step 2 
+[11:31:31.439] [INFO   ] place card step 3 
+[11:31:31.440] [INFO   ] place card step 5 
+[11:31:31.440] [INFO   ] place card step 6 
+[11:31:31.440] [INFO   ] place card step 7 
+[11:31:31.440] [INFO   ] place card step 8 
+[11:31:31.440] [SEVERE ] updating countdown to 25956
+[11:31:31.659] [INFO   ] remove  in the table step 1
+[11:31:31.659] [INFO   ] remove  in the table step 2
+[11:31:31.659] [INFO   ] penalty step 1
+[11:31:31.659] [INFO   ] penalty step 2
+[11:31:31.659] [SEVERE ] setting player 1 freeze to 3000
+[11:31:31.660] [INFO   ] penalty step 3
+[11:31:31.660] [INFO   ] penalty step 4
+[11:31:32.667] [SEVERE ] setting player 1 freeze to 2000
+[11:31:32.667] [INFO   ] penalty step 5
+[11:31:32.667] [INFO   ] penalty step 4
+[11:31:33.678] [SEVERE ] setting player 1 freeze to 1000
+[11:31:33.678] [INFO   ] penalty step 5
+[11:31:33.678] [INFO   ] penalty step 4
+[11:31:34.687] [SEVERE ] setting player 1 freeze to 0
+[11:31:34.687] [INFO   ] penalty step 5
+[11:31:34.688] [SEVERE ] removing player 1 token from slot 5
+[11:31:34.688] [INFO   ] remove  in the table step 1
+[11:31:34.688] [INFO   ] creat AI step 10 
+[11:31:34.688] [INFO   ] creat AI step 11 
+[11:31:34.689] [INFO   ] creat AI step 3 
+[11:31:34.689] [INFO   ] creat AI step 4 
+[11:31:34.689] [INFO   ] creat AI step 5 
+[11:31:34.688] [INFO   ] remove  in the table step 2
+[11:31:34.689] [INFO   ] penalty step 1
+[11:31:34.689] [INFO   ] penalty step 2
+[11:31:34.688] [INFO   ] thread Thread-0wip1
+[11:31:34.690] [SEVERE ] setting player 2 freeze to 3000
+[11:31:34.690] [INFO   ] penalty step 3
+[11:31:34.690] [INFO   ] penalty step 4
+[11:31:35.691] [SEVERE ] setting player 2 freeze to 2000
+[11:31:35.691] [INFO   ] penalty step 5
+[11:31:35.692] [INFO   ] penalty step 4
+[11:31:36.707] [SEVERE ] setting player 2 freeze to 1000
+[11:31:36.707] [INFO   ] penalty step 5
+[11:31:36.707] [INFO   ] penalty step 4
+[11:31:37.721] [SEVERE ] setting player 2 freeze to 0
+[11:31:37.721] [INFO   ] penalty step 5
+[11:31:37.722] [SEVERE ] removing player 2 token from slot 3
+[11:31:37.722] [INFO   ] creat AI step 10 
+[11:31:37.722] [INFO   ] creat AI step 11 
+[11:31:37.722] [INFO   ] creat AI step 3 
+[11:31:37.722] [INFO   ] creat AI step 7 
+[11:31:37.722] [INFO   ] AI key pressed step 1 
+[11:31:37.722] [INFO   ] AI key pressed step 2 
+[11:31:37.722] [INFO   ] KP step 1
+[11:31:37.722] [INFO   ] KP step 2
+[11:31:37.723] [INFO   ] KP step 4
+[11:31:37.723] [INFO   ] KP step 5
+[11:31:37.722] [INFO   ] creat AI step 6 
+[11:31:37.723] [INFO   ] creat AI step 7 
+[11:31:37.723] [INFO   ] AI key pressed step 1 
+[11:31:37.723] [INFO   ] AI key pressed step 2 
+[11:31:37.723] [INFO   ] KP step 1
+[11:31:37.723] [INFO   ] KP step 2
+[11:31:37.723] [INFO   ] KP step 4
+[11:31:37.723] [INFO   ] KP step 5
+[11:31:37.723] [SEVERE ] player 1 placing token on slot 6
+[11:31:37.723] [SEVERE ] player 2 placing token on slot 0
+[11:31:37.722] [INFO   ] thread Thread-1wip1
+[11:31:37.724] [INFO   ] thread Thread-1wip2
+[11:31:37.724] [INFO   ] thread Thread-1wip3
+[11:31:37.724] [INFO   ] thread Thread-1wip4
+[11:31:37.724] [INFO   ] KP step 6
+[11:31:37.724] [INFO   ] KP step 7
+[11:31:37.724] [INFO   ] KP step 8
+[11:31:37.724] [INFO   ] KP step 10
+[11:31:37.724] [INFO   ] KP step 6
+[11:31:37.725] [INFO   ] KP step 7
+[11:31:37.723] [INFO   ] thread Thread-0wip2
+[11:31:37.725] [INFO   ] AI key pressed step 3, random slot: 0
+[11:31:37.725] [INFO   ] creat AI step 8 
+[11:31:37.725] [INFO   ] creat AI step 9 
+[11:31:37.725] [INFO   ] thread Thread-0wip3
+[11:31:37.726] [INFO   ] thread Thread-1wip5
+[11:31:37.726] [INFO   ] thread Thread-1 before  synchronize on dealer.
+[11:31:37.726] [INFO   ] thread Thread-0wip4
+[11:31:37.726] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[11:31:37.726] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[11:31:37.726] [INFO   ] KP step 8
+[11:31:37.727] [INFO   ] KP step 10
+[11:31:37.727] [INFO   ] AI key pressed step 3, random slot: 6
+[11:31:37.727] [INFO   ] creat AI step 8 
+[11:31:37.727] [INFO   ] creat AI step 9 
+[11:31:37.727] [INFO   ] thread Thread-0wip5
+[11:31:37.727] [INFO   ] thread Thread-0 before  synchronize on dealer.
+[11:31:37.727] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[11:31:37.727] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[11:31:37.939] [INFO   ] place card step 0 
+[11:31:37.939] [INFO   ] place card step 1 
+[11:31:37.939] [INFO   ] place card step 2 
+[11:31:37.940] [INFO   ] place card step 3 
+[11:31:37.941] [INFO   ] place card step 5 
+[11:31:37.941] [INFO   ] place card step 6 
+[11:31:37.941] [INFO   ] place card step 7 
+[11:31:37.941] [INFO   ] place card step 8 
+[11:31:37.941] [SEVERE ] updating countdown to 19455
+[11:31:38.156] [INFO   ] remove  in the table step 1
+[11:31:38.156] [INFO   ] remove  in the table step 2
+[11:31:38.156] [INFO   ] penalty step 1
+[11:31:38.156] [INFO   ] penalty step 2
+[11:31:38.156] [SEVERE ] setting player 2 freeze to 3000
+[11:31:38.157] [INFO   ] penalty step 3
+[11:31:38.157] [INFO   ] penalty step 4
+[11:31:39.166] [SEVERE ] setting player 2 freeze to 2000
+[11:31:39.167] [INFO   ] penalty step 5
+[11:31:39.167] [INFO   ] penalty step 4
+[11:31:40.177] [SEVERE ] setting player 2 freeze to 1000
+[11:31:40.177] [INFO   ] penalty step 5
+[11:31:40.177] [INFO   ] penalty step 4
+[11:31:41.185] [SEVERE ] setting player 2 freeze to 0
+[11:31:41.185] [INFO   ] penalty step 5
+[11:31:41.185] [SEVERE ] removing player 2 token from slot 0
+[11:31:41.186] [INFO   ] remove  in the table step 1
+[11:31:41.186] [INFO   ] remove  in the table step 2
+[11:31:41.186] [INFO   ] creat AI step 10 
+[11:31:41.186] [INFO   ] creat AI step 11 
+[11:31:41.186] [INFO   ] penalty step 1
+[11:31:41.187] [INFO   ] penalty step 2
+[11:31:41.186] [INFO   ] creat AI step 3 
+[11:31:41.186] [INFO   ] thread Thread-1wip1
+[11:31:41.187] [INFO   ] creat AI step 4 
+[11:31:41.187] [SEVERE ] setting player 1 freeze to 3000
+[11:31:41.187] [INFO   ] creat AI step 5 
+[11:31:41.188] [INFO   ] penalty step 3
+[11:31:41.188] [INFO   ] penalty step 4
+[11:31:42.189] [SEVERE ] setting player 1 freeze to 2000
+[11:31:42.189] [INFO   ] penalty step 5
+[11:31:42.189] [INFO   ] penalty step 4
+[11:31:43.194] [SEVERE ] setting player 1 freeze to 1000
+[11:31:43.194] [INFO   ] penalty step 5
+[11:31:43.194] [INFO   ] penalty step 4
+[11:31:44.202] [SEVERE ] setting player 1 freeze to 0
+[11:31:44.202] [INFO   ] penalty step 5
+[11:31:44.202] [SEVERE ] removing player 1 token from slot 6
+[11:31:44.202] [INFO   ] creat AI step 10 
+[11:31:44.203] [INFO   ] creat AI step 11 
+[11:31:44.203] [INFO   ] creat AI step 3 
+[11:31:44.203] [INFO   ] creat AI step 7 
+[11:31:44.203] [INFO   ] AI key pressed step 1 
+[11:31:44.202] [INFO   ] creat AI step 6 
+[11:31:44.203] [INFO   ] AI key pressed step 2 
+[11:31:44.203] [INFO   ] KP step 1
+[11:31:44.203] [INFO   ] thread Thread-0wip1
+[11:31:44.204] [INFO   ] KP step 2
+[11:31:44.203] [INFO   ] thread Thread-1wip2
+[11:31:44.203] [INFO   ] creat AI step 7 
+[11:31:44.204] [INFO   ] thread Thread-1wip3
+[11:31:44.205] [INFO   ] thread Thread-1wip4
+[11:31:44.204] [INFO   ] KP step 4
+[11:31:44.204] [INFO   ] thread Thread-0wip2
+[11:31:44.205] [INFO   ] thread Thread-0wip3
+[11:31:44.205] [INFO   ] thread Thread-0wip4
+[11:31:44.205] [INFO   ] KP step 5
+[11:31:44.205] [SEVERE ] player 1 placing token on slot 6
+[11:31:44.205] [INFO   ] KP step 6
+[11:31:44.205] [INFO   ] KP step 7
+[11:31:44.206] [INFO   ] KP step 8
+[11:31:44.205] [INFO   ] AI key pressed step 1 
+[11:31:44.206] [INFO   ] AI key pressed step 2 
+[11:31:44.206] [INFO   ] KP step 1
+[11:31:44.206] [INFO   ] KP step 2
+[11:31:44.206] [INFO   ] KP step 10
+[11:31:44.206] [INFO   ] KP step 4
+[11:31:44.207] [INFO   ] AI key pressed step 3, random slot: 6
+[11:31:44.207] [INFO   ] creat AI step 8 
+[11:31:44.208] [INFO   ] creat AI step 9 
+[11:31:44.208] [INFO   ] thread Thread-0wip5
+[11:31:44.208] [INFO   ] thread Thread-0 before  synchronize on dealer.
+[11:31:44.208] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[11:31:44.208] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[11:31:44.207] [INFO   ] KP step 5
+[11:31:44.208] [SEVERE ] player 2 placing token on slot 6
+[11:31:44.208] [INFO   ] KP step 6
+[11:31:44.209] [INFO   ] KP step 7
+[11:31:44.209] [INFO   ] KP step 8
+[11:31:44.209] [INFO   ] KP step 10
+[11:31:44.209] [INFO   ] AI key pressed step 3, random slot: 6
+[11:31:44.209] [INFO   ] creat AI step 8 
+[11:31:44.209] [INFO   ] creat AI step 9 
+[11:31:44.209] [INFO   ] thread Thread-1wip5
+[11:31:44.209] [INFO   ] thread Thread-1 before  synchronize on dealer.
+[11:31:44.209] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[11:31:44.209] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[11:31:44.421] [INFO   ] place card step 0 
+[11:31:44.421] [INFO   ] place card step 1 
+[11:31:44.421] [INFO   ] place card step 2 
+[11:31:44.421] [INFO   ] place card step 3 
+[11:31:44.422] [INFO   ] place card step 5 
+[11:31:44.422] [INFO   ] place card step 6 
+[11:31:44.422] [INFO   ] place card step 7 
+[11:31:44.422] [INFO   ] place card step 8 
+[11:31:44.422] [SEVERE ] updating countdown to 12974
+[11:31:44.639] [INFO   ] remove  in the table step 1
+[11:31:44.639] [INFO   ] remove  in the table step 2
+[11:31:44.639] [INFO   ] penalty step 1
+[11:31:44.639] [INFO   ] penalty step 2
+[11:31:44.639] [SEVERE ] setting player 1 freeze to 3000
+[11:31:44.639] [INFO   ] penalty step 3
+[11:31:44.639] [INFO   ] penalty step 4
+[11:31:45.651] [SEVERE ] setting player 1 freeze to 2000
+[11:31:45.652] [INFO   ] penalty step 5
+[11:31:45.652] [INFO   ] penalty step 4
+[11:31:46.663] [SEVERE ] setting player 1 freeze to 1000
+[11:31:46.663] [INFO   ] penalty step 5
+[11:31:46.663] [INFO   ] penalty step 4
+[11:31:47.676] [SEVERE ] setting player 1 freeze to 0
+[11:31:47.676] [INFO   ] penalty step 5
+[11:31:47.677] [SEVERE ] removing player 1 token from slot 6
+[11:31:47.677] [INFO   ] remove  in the table step 1
+[11:31:47.677] [INFO   ] creat AI step 10 
+[11:31:47.677] [INFO   ] creat AI step 11 
+[11:31:47.677] [INFO   ] remove  in the table step 2
+[11:31:47.677] [INFO   ] creat AI step 3 
+[11:31:47.677] [INFO   ] thread Thread-0wip1
+[11:31:47.677] [INFO   ] creat AI step 4 
+[11:31:47.677] [INFO   ] penalty step 1
+[11:31:47.679] [INFO   ] creat AI step 5 
+[11:31:47.679] [INFO   ] penalty step 2
+[11:31:47.679] [SEVERE ] setting player 2 freeze to 3000
+[11:31:47.680] [INFO   ] penalty step 3
+[11:31:47.680] [INFO   ] penalty step 4
+[11:31:48.680] [SEVERE ] setting player 2 freeze to 2000
+[11:31:48.680] [INFO   ] penalty step 5
+[11:31:48.682] [INFO   ] penalty step 4
+[11:31:48.965] [SEVERE ] exit button pressed
+[11:31:49.697] [SEVERE ] setting player 2 freeze to 1000
+[11:31:49.697] [INFO   ] penalty step 5
+[11:31:49.697] [INFO   ] penalty step 4
+[11:31:50.702] [SEVERE ] setting player 2 freeze to 0
+[11:31:50.702] [INFO   ] penalty step 5
+[11:31:50.702] [SEVERE ] removing player 2 token from slot 6
+[11:31:50.702] [INFO   ] creat AI step 6 
+[11:31:50.702] [INFO   ] creat AI step 7 
+[11:31:50.702] [INFO   ] AI key pressed step 1 
+[11:31:50.702] [INFO   ] creat AI step 10 
+[11:31:50.702] [INFO   ] creat AI step 11 
+[11:31:50.702] [INFO   ] creat AI step 3 
+[11:31:50.702] [INFO   ] creat AI step 7 
+[11:31:50.703] [INFO   ] AI key pressed step 1 
+[11:31:50.703] [INFO   ] AI key pressed step 2 
+[11:31:50.703] [INFO   ] KP step 1
+[11:31:50.703] [INFO   ] KP step 2
+[11:31:50.703] [INFO   ] KP step 4
+[11:31:50.703] [INFO   ] KP step 5
+[11:31:50.703] [SEVERE ] player 2 placing token on slot 6
+[11:31:50.702] [INFO   ] AI key pressed step 2 
+[11:31:50.703] [INFO   ] KP step 1
+[11:31:50.703] [INFO   ] KP step 2
+[11:31:50.703] [INFO   ] KP step 4
+[11:31:50.703] [INFO   ] KP step 5
+[11:31:50.702] [INFO   ] thread Thread-0wip2
+[11:31:50.703] [INFO   ] thread Thread-0wip3
+[11:31:50.703] [INFO   ] thread Thread-0wip4
+[11:31:50.703] [SEVERE ] player 1 placing token on slot 8
+[11:31:50.703] [INFO   ] KP step 6
+[11:31:50.704] [INFO   ] KP step 7
+[11:31:50.704] [INFO   ] KP step 8
+[11:31:50.704] [INFO   ] KP step 10
+[11:31:50.704] [INFO   ] AI key pressed step 3, random slot: 6
+[11:31:50.704] [INFO   ] creat AI step 8 
+[11:31:50.704] [INFO   ] creat AI step 9 
+[11:31:50.702] [INFO   ] thread Thread-1wip1
+[11:31:50.704] [INFO   ] thread Thread-1wip2
+[11:31:50.703] [INFO   ] KP step 6
+[11:31:50.704] [INFO   ] KP step 7
+[11:31:50.704] [INFO   ] KP step 8
+[11:31:50.704] [INFO   ] KP step 10
+[11:31:50.704] [INFO   ] AI key pressed step 3, random slot: 8
+[11:31:50.704] [INFO   ] creat AI step 8 
+[11:31:50.704] [INFO   ] creat AI step 9 
+[11:31:50.704] [INFO   ] thread Thread-1wip3
+[11:31:50.704] [INFO   ] thread Thread-0wip5
+[11:31:50.704] [INFO   ] thread Thread-1wip4
+[11:31:50.705] [INFO   ] thread Thread-0 before  synchronize on dealer.
+[11:31:50.705] [INFO   ] creat AI step 10 
+[11:31:50.705] [INFO   ] creat AI step 11 
+[11:31:50.705] [INFO   ] creat AI step 3 
+[11:31:50.705] [INFO   ] creat AI step 7 
+[11:31:50.705] [INFO   ] AI key pressed step 1 
+[11:31:50.705] [INFO   ] AI key pressed step 2 
+[11:31:50.705] [INFO   ] KP step 1
+[11:31:50.705] [INFO   ] KP step 2
+[11:31:50.705] [INFO   ] KP step 4
+[11:31:50.705] [INFO   ] KP step 5
+[11:31:50.705] [SEVERE ] player 2 placing token on slot 2
+[11:31:50.705] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[11:31:50.706] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[11:31:50.705] [INFO   ] KP step 6
+[11:31:50.706] [INFO   ] KP step 7
+[11:31:50.706] [INFO   ] KP step 8
+[11:31:50.706] [INFO   ] KP step 10
+[11:31:50.706] [INFO   ] AI key pressed step 3, random slot: 2
+[11:31:50.706] [INFO   ] creat AI step 8 
+[11:31:50.706] [INFO   ] creat AI step 9 
+[11:31:50.706] [INFO   ] thread Thread-1wip5
+[11:31:50.706] [INFO   ] thread Thread-1 before  synchronize on dealer.
+[11:31:50.706] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[11:31:50.706] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[11:31:50.921] [INFO   ] place card step 0 
+[11:31:50.921] [INFO   ] place card step 1 
+[11:31:50.921] [INFO   ] place card step 2 
+[11:31:50.921] [INFO   ] place card step 3 
+[11:31:50.921] [INFO   ] place card step 5 
+[11:31:50.921] [INFO   ] place card step 6 
+[11:31:50.921] [INFO   ] place card step 7 
+[11:31:50.921] [INFO   ] place card step 8 
+[11:31:50.921] [SEVERE ] updating countdown to 6475
+[11:31:51.140] [INFO   ] remove  in the table step 1
+[11:31:51.140] [INFO   ] remove  in the table step 2
+[11:31:51.140] [INFO   ] penalty step 1
+[11:31:51.140] [INFO   ] penalty step 2
+[11:31:51.140] [SEVERE ] setting player 1 freeze to 3000
+[11:31:51.141] [INFO   ] penalty step 3
+[11:31:51.141] [INFO   ] penalty step 4
+[11:31:52.148] [SEVERE ] setting player 1 freeze to 2000
+[11:31:52.148] [INFO   ] penalty step 5
+[11:31:52.149] [INFO   ] penalty step 4
+[11:31:53.163] [SEVERE ] setting player 1 freeze to 1000
+[11:31:53.163] [INFO   ] penalty step 5
+[11:31:53.163] [INFO   ] penalty step 4
+[11:31:54.175] [SEVERE ] setting player 1 freeze to 0
+[11:31:54.175] [INFO   ] penalty step 5
+[11:31:54.175] [SEVERE ] removing player 1 token from slot 8
+[11:31:54.175] [INFO   ] remove  in the table step 1
+[11:31:54.175] [INFO   ] creat AI step 10 
+[11:31:54.175] [INFO   ] creat AI step 11 
+[11:31:54.175] [INFO   ] creat AI step 3 
+[11:31:54.175] [INFO   ] creat AI step 4 
+[11:31:54.175] [INFO   ] creat AI step 5 
+[11:31:54.175] [INFO   ] remove  in the table step 2
+[11:31:54.175] [INFO   ] thread Thread-0wip1
+[11:31:54.176] [SEVERE ] setting player 2 score to 1
+[11:31:54.176] [SEVERE ] setting player 2 freeze to 1000
+[11:31:55.177] [SEVERE ] setting player 2 freeze to 0
+[11:31:55.177] [SEVERE ] removing player 2 token from slot 6
+[11:31:55.277] [SEVERE ] removing card from slot 6
+[11:31:55.277] [SEVERE ] removing player 2 token from slot 2
+[11:31:55.385] [SEVERE ] removing card from slot 2
+[11:31:55.385] [SEVERE ] updating countdown to 60000
+[11:31:55.385] [INFO   ] creat AI step 10 
+[11:31:55.385] [INFO   ] creat AI step 11 
+[11:31:55.385] [INFO   ] creat AI step 3 
+[11:31:55.385] [INFO   ] creat AI step 7 
+[11:31:55.385] [INFO   ] AI key pressed step 1 
+[11:31:55.385] [INFO   ] AI key pressed step 2 
+[11:31:55.385] [INFO   ] KP step 1
+[11:31:55.385] [INFO   ] KP step 2
+[11:31:55.385] [INFO   ] KP step 4
+[11:31:55.385] [INFO   ] creat AI step 6 
+[11:31:55.385] [INFO   ] creat AI step 7 
+[11:31:55.385] [INFO   ] AI key pressed step 1 
+[11:31:55.385] [INFO   ] KP step 5
+[11:31:55.385] [SEVERE ] player 2 placing token on slot 7
+[11:31:55.385] [INFO   ] thread Thread-1wip1
+[11:31:55.386] [INFO   ] thread Thread-1wip2
+[11:31:55.386] [INFO   ] thread Thread-1wip3
+[11:31:55.386] [INFO   ] thread Thread-1wip4
+[11:31:55.386] [INFO   ] KP step 6
+[11:31:55.386] [INFO   ] KP step 7
+[11:31:55.385] [INFO   ] thread Thread-0wip2
+[11:31:55.385] [INFO   ] AI key pressed step 2 
+[11:31:55.386] [INFO   ] KP step 1
+[11:31:55.386] [INFO   ] KP step 2
+[11:31:55.386] [INFO   ] KP step 4
+[11:31:55.386] [INFO   ] KP step 5
+[11:31:55.386] [SEVERE ] player 1 placing token on slot 8
+[11:31:55.386] [INFO   ] thread Thread-0wip3
+[11:31:55.386] [INFO   ] thread Thread-0wip4
+[11:31:55.386] [INFO   ] KP step 8
+[11:31:55.386] [INFO   ] KP step 10
+[11:31:55.386] [INFO   ] AI key pressed step 3, random slot: 7
+[11:31:55.386] [INFO   ] creat AI step 8 
+[11:31:55.386] [INFO   ] creat AI step 9 
+[11:31:55.386] [INFO   ] thread Thread-1wip5
+[11:31:55.386] [INFO   ] thread Thread-1 before  synchronize on dealer.
+[11:31:55.386] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[11:31:55.386] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[11:31:55.386] [INFO   ] KP step 6
+[11:31:55.386] [INFO   ] KP step 7
+[11:31:55.386] [INFO   ] KP step 8
+[11:31:55.386] [INFO   ] KP step 10
+[11:31:55.386] [INFO   ] AI key pressed step 3, random slot: 8
+[11:31:55.386] [INFO   ] creat AI step 8 
+[11:31:55.386] [INFO   ] creat AI step 9 
+[11:31:55.386] [INFO   ] thread Thread-0wip5
+[11:31:55.386] [INFO   ] thread Thread-0 before  synchronize on dealer.
+[11:31:55.387] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[11:31:55.387] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[11:31:55.602] [INFO   ] place card step 0 
+[11:31:55.602] [INFO   ] place card step 1 
+[11:31:55.710] [SEVERE ] placing card 6 in slot 2
+[11:31:55.819] [SEVERE ] placing card 80 in slot 6
+[11:31:55.819] [INFO   ] place card step 2 
+[11:31:55.819] [INFO   ] place card step 3 
+[11:31:55.819] [INFO   ] place card step 5 
+[11:31:55.819] [INFO   ] place card step 6 
+[11:31:55.819] [INFO   ] place card step 7 
+[11:31:55.819] [INFO   ] place card step 8 
+[11:31:55.819] [SEVERE ] updating countdown to 59566
+[11:31:56.037] [INFO   ] remove  in the table step 1
+[11:31:56.037] [INFO   ] remove  in the table step 2
+[11:31:56.037] [INFO   ] penalty step 1
+[11:31:56.037] [INFO   ] penalty step 2
+[11:31:56.037] [SEVERE ] setting player 2 freeze to 3000
+[11:31:56.037] [INFO   ] penalty step 3
+[11:31:56.037] [INFO   ] penalty step 4
+[11:31:57.039] [SEVERE ] setting player 2 freeze to 2000
+[11:31:57.039] [INFO   ] penalty step 5
+[11:31:57.039] [INFO   ] penalty step 4
+[11:31:58.048] [SEVERE ] setting player 2 freeze to 1000
+[11:31:58.048] [INFO   ] penalty step 5
+[11:31:58.048] [INFO   ] penalty step 4
+[11:31:59.051] [SEVERE ] setting player 2 freeze to 0
+[11:31:59.051] [INFO   ] penalty step 5
+[11:31:59.051] [SEVERE ] removing player 2 token from slot 7
+[11:31:59.052] [INFO   ] remove  in the table step 1
+[11:31:59.052] [INFO   ] remove  in the table step 2
+[11:31:59.052] [INFO   ] penalty step 1
+[11:31:59.052] [INFO   ] penalty step 2
+[11:31:59.052] [SEVERE ] setting player 1 freeze to 3000
+[11:31:59.052] [INFO   ] creat AI step 11 
+[11:31:59.052] [INFO   ] penalty step 3
+[11:31:59.053] [INFO   ] penalty step 4
+[11:31:59.053] [INFO   ] thread computer-1 terminated.
+[11:31:59.053] [INFO   ] thread Thread-1 terminated.
+[11:32:00.060] [SEVERE ] setting player 1 freeze to 2000
+[11:32:00.060] [INFO   ] penalty step 5
+[11:32:00.060] [INFO   ] penalty step 4
+[11:32:01.073] [SEVERE ] setting player 1 freeze to 1000
+[11:32:01.073] [INFO   ] penalty step 5
+[11:32:01.073] [INFO   ] penalty step 4
+[11:32:02.086] [SEVERE ] setting player 1 freeze to 0
+[11:32:02.086] [INFO   ] penalty step 5
+[11:32:02.086] [SEVERE ] removing player 1 token from slot 8
+[11:32:02.087] [INFO   ] creat AI step 11 
+[11:32:02.087] [INFO   ] thread computer-0 terminated.
+[11:32:02.087] [INFO   ] thread Thread-0 terminated.
+[11:32:02.304] [INFO   ] place card step 0 
+[11:32:02.304] [INFO   ] place card step 1 
+[11:32:02.304] [INFO   ] place card step 2 
+[11:32:02.304] [INFO   ] place card step 3 
+[11:32:02.305] [INFO   ] place card step 5 
+[11:32:02.305] [INFO   ] place card step 6 
+[11:32:02.305] [INFO   ] place card step 7 
+[11:32:02.305] [INFO   ] place card step 8 
+[11:32:02.305] [SEVERE ] updating countdown to 60000
+[11:32:02.521] [INFO   ] REMOVE ALL 1 
+[11:32:02.521] [INFO   ] REMOVE ALL 2 
+[11:32:02.521] [INFO   ] REMOVE ALL 3 
+[11:32:02.632] [SEVERE ] removing card from slot 0
+[11:32:02.740] [SEVERE ] removing card from slot 1
+[11:32:02.849] [SEVERE ] removing card from slot 2
+[11:32:02.957] [SEVERE ] removing card from slot 3
+[11:32:03.065] [SEVERE ] removing card from slot 4
+[11:32:03.175] [SEVERE ] removing card from slot 5
+[11:32:03.285] [SEVERE ] removing card from slot 6
+[11:32:03.393] [SEVERE ] removing card from slot 7
+[11:32:03.503] [SEVERE ] removing card from slot 8
+[11:32:03.612] [SEVERE ] removing card from slot 9
+[11:32:03.722] [SEVERE ] removing card from slot 10
+[11:32:03.831] [SEVERE ] removing card from slot 11
+[11:32:03.831] [INFO   ] REMOVE ALL 4 
+[11:32:03.831] [INFO   ] REMOVE ALL 5 
+[11:32:03.833] [SEVERE ] announcing winner(s): player 2, player 1
+[11:32:03.837] [INFO   ] thread dealer terminated.
+[11:32:03.837] [INFO   ] thread dealer terminated.
+[11:32:03.837] [SEVERE ] thanks for playing... it was fun!
+[11:32:03.838] [INFO   ] thread main terminated.
