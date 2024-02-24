@@ -77,12 +77,9 @@ public class Dealer implements Runnable {
         env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
 		for (Player player : players) {
             new Thread(player).start(); 
-            // synchronized(player.aiPlayerLock){
 				synchronized(player.PlayerLock){
-                // if(!player.isHuman() && !player.AICreated){
 				if(!player.PlayerCreated){
                     try {
-                        // player.aiPlayerLock.wait();
 						player.PlayerLock.wait();
                     } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
                 }
@@ -143,29 +140,23 @@ public class Dealer implements Runnable {
      * Checks cards should be removed from the table and removes them.
      */
     private void removeCardsFromTable() { 
-		env.logger.info("thread " + Thread.currentThread().getName() + " start remove cards.");
 
         freezeAllPlayers(env.config.tableDelayMillis);
-		env.logger.info("thread " + Thread.currentThread().getName() + " rm 1.");
 
         table.canPlaceTokens=false;
-		env.logger.info("thread " + Thread.currentThread().getName() + " rm 2.");
 
 		//check if there is a valid set and remove the cards
 		for (Player player : table.playersQueue) {
             synchronized(player) {
-				env.logger.info("thread " + Thread.currentThread().getName() + "remove cards after lock.");
 				table.removeQueuePlayers(player);  
 				//check the set
                 if(checkSet(player.slotQueue)){ 
 					setFound = true;
                     player.point();  
-					env.logger.info("thread " + Thread.currentThread().getName() + " rm point.");
 
 				}
 				if(!setFound){
 					player.penalty();
-					env.logger.info("thread " + Thread.currentThread().getName() + " rm penalty.");
 
 				}
 					
@@ -173,12 +164,10 @@ public class Dealer implements Runnable {
 				for (int j = 0; j < player.queueCounter; j++){
 					int slot = player.slotQueue.poll();
 					table.removeToken(player.id, slot); 
-					env.logger.info("thread " + Thread.currentThread().getName() + " rm remove token.");
 
 
 					if(setFound){
 						table.removeCard(slot);
-						env.logger.info("thread " + Thread.currentThread().getName() + " rm removecard.");
 
 						//remove the tokens of the cards that were removed from the table from the other players
 						for (Player playerSlot : players) {
@@ -194,7 +183,6 @@ public class Dealer implements Runnable {
 						}
 					}
 				}
-				env.logger.info("thread " + Thread.currentThread().getName() + "remove cards before wake up player.");
 				player.isChecked = true;
 				player.notifyAll();
 				// if(!player.isHuman())
@@ -226,10 +214,8 @@ public class Dealer implements Runnable {
     private void placeCardsOnTable() {
         freezeAllPlayers(env.config.tableDelayMillis); 
 		table.canPlaceTokens=false;
-		env.logger.info("place card step 0 ");
 
-		Collections.shuffle(deck);
-		env.logger.info("place card step 1 ");
+		shuffleDeck();
 
         //place cards on null slots- removed cards 
 		for (int i = 0; i < env.config.tableSize; i++){
@@ -240,7 +226,6 @@ public class Dealer implements Runnable {
                 }
             }
         }
-		env.logger.info("place card step 2 ");
 
         //create lists for searching sets on table
         List<Integer>cardListTable=new LinkedList<Integer>();
@@ -250,42 +235,42 @@ public class Dealer implements Runnable {
              }
          }
 
-		 env.logger.info("place card step 3 ");
-
 		//check if there is a valid set on the table
         List<int[]> findSetsTable = env.util.findSets(cardListTable, env.config.featureSize);
         if(findSetsTable.size()==0){ // no set on table
-			env.logger.info("place card step 4 if no set!!!!! ");
 
             if(deck.size() == 0){ //and no cards in deck
+				table.canPlaceTokens = true;
+				synchronized(table.lock){
+					table.lock.notifyAll(); 
+				}
                 terminate();
             }
 
 			//new cards on table
             removeAllCardsFromTable();
-			env.logger.info("place card step 5 if no set!!!!! ");
+
             //create lists for searching sets on deck + table
             List<Integer> deck = new LinkedList<Integer>();
             for(int i=0; i<env.config.deckSize; i++){
                    deck.add(deck.get(i));
             }
-			env.logger.info("place card step 6 if no set!!!!! ");
 
 			//check if there are sets on deck + table
             List<int[]> findSetsDeck = env.util.findSets(deck, env.config.featureSize);
             if(findSetsDeck.size()==0){ //no sets on deck + table
+				table.canPlaceTokens = true;
+				synchronized(table.lock){
+					table.lock.notifyAll(); 
+				}
                 terminate();
             }
             placeCardsOnTable();
         }
-		env.logger.info("place card step 5 ");
         table.canPlaceTokens = true;
-		env.logger.info("place card step 6 ");
         synchronized(table.lock){
-			env.logger.info("place card step 7 ");
             table.lock.notifyAll();
         }
-		env.logger.info("place card step 8 ");
 
             // List<Integer> deckAndTable=new LinkedList<Integer>();
             // for(int i=0; i<table.slotToCard.length; i++){
@@ -377,8 +362,6 @@ public class Dealer implements Runnable {
                 }
             }
         }
-		env.logger.info("REMOVE ALL 2 ");
-
 
         //remove all the tokens from the table
         for(int i = 0; i < players.length; i++){
@@ -387,26 +370,20 @@ public class Dealer implements Runnable {
                 table.removeToken(players[i].id, slot);
             }
         }
-		env.logger.info("REMOVE ALL 3 ");
-
         
         //remove all the cards from the table
         for (int i = 0; i < env.config.tableSize; i++){
-			Integer card = table.slotToCard[i]; //added by rh
+			Integer card = table.slotToCard[i];
 			if (table.slotToCard[i] != null) { 
             	table.removeCard(i);
 				deck.add(card); //add cards from table to deck
 			}
         }
-		env.logger.info("REMOVE ALL 4 ");
-
         
         table.canPlaceTokens = true;
         synchronized(table.lock){
             table.lock.notifyAll();
         }
-		env.logger.info("REMOVE ALL 5 ");
-
     }
 
     /**
@@ -444,12 +421,12 @@ public class Dealer implements Runnable {
 	}
 
     public void shuffleDeck() {
-        for (int i = 0; i < env.config.deckSize; i++) {
-            int randomIndex = (int) (Math.random() * env.config.deckSize);
-            int temp = deck.get(i);
-            deck.set(i, deck.get(randomIndex));
-            deck.set(randomIndex, temp);
-        }
+        // for (int i = 0; i < env.config.deckSize; i++) {
+        //     int randomIndex = (int) (Math.random() * env.config.deckSize);
+        //     int temp = deck.get(i);
+        //     deck.set(i, deck.get(randomIndex));
+        //     deck.set(randomIndex, temp);
+        // }
 		Collections.shuffle(deck);
     }
 
