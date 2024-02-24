@@ -3,8 +3,9 @@ import bguspl.set.Env;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
-import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.LinkedBlockingQueue;
 import java.util.stream.Collectors;
+import java.util.concurrent.BlockingQueue;
 
 /**
  * This class contains the data that is visible to the player.
@@ -39,7 +40,7 @@ public class Table {
 	//new fields
 	public final Object lock;
 
-	ConcurrentLinkedQueue<Player> playersQueue;
+	BlockingQueue<Player> playersQueue;
 
     volatile boolean canPlaceTokens = true;
 
@@ -50,7 +51,7 @@ public class Table {
         this.slotToCard = slotToCard;
         this.cardToSlot = cardToSlot;
 		this.lock = new Object();
-		playersQueue = new ConcurrentLinkedQueue<Player>();
+		playersQueue = new LinkedBlockingQueue<>(env.config.players);
     }
 
     /**
@@ -104,16 +105,15 @@ public class Table {
         cardToSlot[card] = slot;
         slotToCard[slot] = card;
         env.ui.placeCard(card, slot);
-}
+	}
 
     /**
      * Removes a card from a grid slot on the table.
      * @param slot - the slot from which to remove the card.
      */
     public void removeCard(int slot) {
-
         try {
-            Thread.sleep(env.config.tableDelayMillis);
+        	Thread.sleep(env.config.tableDelayMillis);
         } catch (InterruptedException ignored) {}
 
         int CardToRemove = slotToCard[slot];
@@ -138,14 +138,12 @@ public class Table {
      * @param slot   - the slot from which to remove the token.
      * @return       - true iff a token was successfully removed.
      */
-    //if some player can't remove token, he will be in sleep mode, else he can remove therefor always true
     public boolean removeToken(int player, int slot) {
-        //check if the player has this solt in his queue
 		env.ui.removeToken(player, slot);
 		return true; 
 	}
 
-    //new methods GP
+    //new methodss
     public void addQueuePlayers(Player player) {
         playersQueue.add(player);
     }

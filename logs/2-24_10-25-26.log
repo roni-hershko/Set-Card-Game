@@ -1,0 +1,2540 @@
+[10:25:26.649] [INFO   ] thread main starting.
+[10:25:26.668] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[10:25:26.672] [SEVERE ] configuration file was loaded from resources directory.
+[10:25:27.814] [INFO   ] thread dealer starting.
+[10:25:27.825] [INFO   ] thread dealer starting.
+[10:25:27.854] [INFO   ] thread Thread-0 starting.
+[10:25:27.863] [INFO   ] creat AI step 1 
+[10:25:27.864] [INFO   ] thread computer-0 starting.
+[10:25:27.864] [INFO   ] creat AI step 2 
+[10:25:27.864] [INFO   ] creat AI step 3 
+[10:25:27.864] [INFO   ] thread Thread-0wip1
+[10:25:27.870] [INFO   ] thread Thread-0wip2
+[10:25:27.870] [INFO   ] thread Thread-0wip3
+[10:25:27.870] [INFO   ] thread Thread-0wip4
+[10:25:27.866] [INFO   ] thread Thread-1 starting.
+[10:25:27.864] [INFO   ] creat AI step 7 
+[10:25:27.874] [INFO   ] AI key pressed step 1 
+[10:25:27.876] [INFO   ] AI key pressed step 2 
+[10:25:27.877] [INFO   ] KP step 1computer-0
+[10:25:27.878] [INFO   ] KP step 10computer-0
+[10:25:27.878] [INFO   ] AI key pressed step 3, random slot: 0
+[10:25:27.878] [INFO   ] creat AI step 8 
+[10:25:27.878] [INFO   ] creat AI step 9 
+[10:25:27.879] [INFO   ] thread Thread-0wip5
+[10:25:27.879] [INFO   ] thread Thread-0 after  synchronize on dealer.
+[10:25:27.879] [INFO   ] thread Thread-0 before notify synchronize on dealer.
+[10:25:27.880] [INFO   ] creat AI step 10 
+[10:25:27.880] [INFO   ] creat AI step 11 
+[10:25:27.880] [INFO   ] creat AI step 3 
+[10:25:27.880] [INFO   ] creat AI step 7 
+[10:25:27.881] [INFO   ] AI key pressed step 1 
+[10:25:27.881] [INFO   ] AI key pressed step 2 
+[10:25:27.881] [INFO   ] KP step 1computer-0
+[10:25:27.881] [INFO   ] KP step 10computer-0
+[10:25:27.881] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:27.882] [INFO   ] creat AI step 8 
+[10:25:27.882] [INFO   ] creat AI step 9 
+[10:25:27.882] [INFO   ] creat AI step 10 
+[10:25:27.882] [INFO   ] creat AI step 11 
+[10:25:27.882] [INFO   ] creat AI step 3 
+[10:25:27.882] [INFO   ] creat AI step 7 
+[10:25:27.883] [INFO   ] AI key pressed step 1 
+[10:25:27.883] [INFO   ] AI key pressed step 2 
+[10:25:27.883] [INFO   ] KP step 1computer-0
+[10:25:27.883] [INFO   ] KP step 10computer-0
+[10:25:27.883] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:27.884] [INFO   ] creat AI step 8 
+[10:25:27.884] [INFO   ] creat AI step 9 
+[10:25:27.884] [INFO   ] creat AI step 10 
+[10:25:27.885] [INFO   ] creat AI step 11 
+[10:25:27.885] [INFO   ] creat AI step 3 
+[10:25:27.885] [INFO   ] creat AI step 7 
+[10:25:27.885] [INFO   ] AI key pressed step 1 
+[10:25:27.885] [INFO   ] AI key pressed step 2 
+[10:25:27.886] [INFO   ] KP step 1computer-0
+[10:25:27.886] [INFO   ] KP step 10computer-0
+[10:25:27.886] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:27.886] [INFO   ] creat AI step 8 
+[10:25:27.886] [INFO   ] creat AI step 9 
+[10:25:27.886] [INFO   ] creat AI step 10 
+[10:25:27.887] [INFO   ] creat AI step 11 
+[10:25:27.887] [INFO   ] creat AI step 3 
+[10:25:27.887] [INFO   ] creat AI step 7 
+[10:25:27.887] [INFO   ] AI key pressed step 1 
+[10:25:27.887] [INFO   ] AI key pressed step 2 
+[10:25:27.888] [INFO   ] KP step 1computer-0
+[10:25:27.888] [INFO   ] KP step 10computer-0
+[10:25:27.888] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:27.888] [INFO   ] creat AI step 8 
+[10:25:27.888] [INFO   ] creat AI step 9 
+[10:25:27.888] [INFO   ] creat AI step 10 
+[10:25:27.889] [INFO   ] creat AI step 11 
+[10:25:27.889] [INFO   ] creat AI step 3 
+[10:25:27.889] [INFO   ] creat AI step 7 
+[10:25:27.889] [INFO   ] AI key pressed step 1 
+[10:25:27.889] [INFO   ] AI key pressed step 2 
+[10:25:27.889] [INFO   ] KP step 1computer-0
+[10:25:27.890] [INFO   ] KP step 10computer-0
+[10:25:27.890] [INFO   ] AI key pressed step 3, random slot: 7
+[10:25:27.890] [INFO   ] creat AI step 8 
+[10:25:27.890] [INFO   ] creat AI step 9 
+[10:25:27.890] [INFO   ] creat AI step 10 
+[10:25:27.890] [INFO   ] creat AI step 11 
+[10:25:27.891] [INFO   ] creat AI step 3 
+[10:25:27.891] [INFO   ] creat AI step 7 
+[10:25:27.891] [INFO   ] AI key pressed step 1 
+[10:25:27.891] [INFO   ] AI key pressed step 2 
+[10:25:27.891] [INFO   ] KP step 1computer-0
+[10:25:27.891] [INFO   ] KP step 10computer-0
+[10:25:27.892] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:27.892] [INFO   ] creat AI step 8 
+[10:25:27.892] [INFO   ] creat AI step 9 
+[10:25:27.892] [INFO   ] creat AI step 10 
+[10:25:27.892] [INFO   ] creat AI step 11 
+[10:25:27.892] [INFO   ] creat AI step 3 
+[10:25:27.892] [INFO   ] creat AI step 7 
+[10:25:27.893] [INFO   ] AI key pressed step 1 
+[10:25:27.893] [INFO   ] AI key pressed step 2 
+[10:25:27.893] [INFO   ] KP step 1computer-0
+[10:25:27.893] [INFO   ] KP step 10computer-0
+[10:25:27.894] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:27.894] [INFO   ] creat AI step 8 
+[10:25:27.894] [INFO   ] creat AI step 9 
+[10:25:27.894] [INFO   ] creat AI step 10 
+[10:25:27.894] [INFO   ] creat AI step 11 
+[10:25:27.894] [INFO   ] creat AI step 3 
+[10:25:27.894] [INFO   ] creat AI step 7 
+[10:25:27.896] [INFO   ] AI key pressed step 1 
+[10:25:27.896] [INFO   ] AI key pressed step 2 
+[10:25:27.896] [INFO   ] KP step 1computer-0
+[10:25:27.896] [INFO   ] KP step 10computer-0
+[10:25:27.896] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:27.896] [INFO   ] creat AI step 8 
+[10:25:27.897] [INFO   ] creat AI step 9 
+[10:25:27.897] [INFO   ] creat AI step 10 
+[10:25:27.897] [INFO   ] creat AI step 11 
+[10:25:27.897] [INFO   ] creat AI step 3 
+[10:25:27.897] [INFO   ] creat AI step 7 
+[10:25:27.898] [INFO   ] AI key pressed step 1 
+[10:25:27.898] [INFO   ] AI key pressed step 2 
+[10:25:27.898] [INFO   ] KP step 1computer-0
+[10:25:27.899] [INFO   ] KP step 10computer-0
+[10:25:27.899] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:27.899] [INFO   ] creat AI step 8 
+[10:25:27.899] [INFO   ] creat AI step 9 
+[10:25:27.900] [INFO   ] creat AI step 10 
+[10:25:27.900] [INFO   ] creat AI step 11 
+[10:25:27.900] [INFO   ] creat AI step 3 
+[10:25:27.901] [INFO   ] creat AI step 7 
+[10:25:27.901] [INFO   ] AI key pressed step 1 
+[10:25:27.901] [INFO   ] AI key pressed step 2 
+[10:25:27.901] [INFO   ] KP step 1computer-0
+[10:25:27.903] [INFO   ] KP step 10computer-0
+[10:25:27.903] [INFO   ] AI key pressed step 3, random slot: 0
+[10:25:27.903] [INFO   ] creat AI step 8 
+[10:25:27.903] [INFO   ] creat AI step 9 
+[10:25:27.903] [INFO   ] creat AI step 10 
+[10:25:27.903] [INFO   ] creat AI step 11 
+[10:25:27.904] [INFO   ] creat AI step 3 
+[10:25:27.904] [INFO   ] creat AI step 7 
+[10:25:27.904] [INFO   ] AI key pressed step 1 
+[10:25:27.904] [INFO   ] AI key pressed step 2 
+[10:25:27.904] [INFO   ] KP step 1computer-0
+[10:25:27.904] [INFO   ] KP step 10computer-0
+[10:25:27.905] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:27.905] [INFO   ] creat AI step 8 
+[10:25:27.905] [INFO   ] creat AI step 9 
+[10:25:27.905] [INFO   ] creat AI step 10 
+[10:25:27.906] [INFO   ] creat AI step 11 
+[10:25:27.906] [INFO   ] creat AI step 3 
+[10:25:27.906] [INFO   ] creat AI step 7 
+[10:25:27.906] [INFO   ] AI key pressed step 1 
+[10:25:27.906] [INFO   ] AI key pressed step 2 
+[10:25:27.907] [INFO   ] KP step 1computer-0
+[10:25:27.907] [INFO   ] KP step 10computer-0
+[10:25:27.907] [INFO   ] AI key pressed step 3, random slot: 7
+[10:25:27.907] [INFO   ] creat AI step 8 
+[10:25:27.907] [INFO   ] creat AI step 9 
+[10:25:27.908] [INFO   ] creat AI step 10 
+[10:25:27.908] [INFO   ] creat AI step 11 
+[10:25:27.908] [INFO   ] creat AI step 3 
+[10:25:27.908] [INFO   ] creat AI step 7 
+[10:25:27.908] [INFO   ] AI key pressed step 1 
+[10:25:27.909] [INFO   ] AI key pressed step 2 
+[10:25:27.909] [INFO   ] KP step 1computer-0
+[10:25:27.909] [INFO   ] KP step 10computer-0
+[10:25:27.909] [INFO   ] AI key pressed step 3, random slot: 0
+[10:25:27.909] [INFO   ] creat AI step 8 
+[10:25:27.910] [INFO   ] creat AI step 9 
+[10:25:27.910] [INFO   ] creat AI step 10 
+[10:25:27.910] [INFO   ] creat AI step 11 
+[10:25:27.910] [INFO   ] creat AI step 3 
+[10:25:27.911] [INFO   ] creat AI step 7 
+[10:25:27.911] [INFO   ] AI key pressed step 1 
+[10:25:27.911] [INFO   ] AI key pressed step 2 
+[10:25:27.911] [INFO   ] KP step 1computer-0
+[10:25:27.911] [INFO   ] KP step 10computer-0
+[10:25:27.911] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:27.912] [INFO   ] creat AI step 8 
+[10:25:27.912] [INFO   ] creat AI step 9 
+[10:25:27.912] [INFO   ] creat AI step 10 
+[10:25:27.912] [INFO   ] creat AI step 11 
+[10:25:27.912] [INFO   ] creat AI step 3 
+[10:25:27.913] [INFO   ] creat AI step 7 
+[10:25:27.913] [INFO   ] AI key pressed step 1 
+[10:25:27.913] [INFO   ] AI key pressed step 2 
+[10:25:27.913] [INFO   ] KP step 1computer-0
+[10:25:27.913] [INFO   ] KP step 10computer-0
+[10:25:27.913] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:27.914] [INFO   ] creat AI step 8 
+[10:25:27.914] [INFO   ] creat AI step 9 
+[10:25:27.914] [INFO   ] creat AI step 10 
+[10:25:27.914] [INFO   ] creat AI step 11 
+[10:25:27.914] [INFO   ] creat AI step 1 
+[10:25:27.914] [INFO   ] creat AI step 3 
+[10:25:27.915] [INFO   ] thread computer-1 starting.
+[10:25:27.915] [INFO   ] creat AI step 7 
+[10:25:27.915] [INFO   ] creat AI step 2 
+[10:25:27.915] [INFO   ] AI key pressed step 1 
+[10:25:27.916] [SEVERE ] updating countdown to 60000
+[10:25:27.916] [INFO   ] thread Thread-1wip1
+[10:25:27.916] [INFO   ] creat AI step 3 
+[10:25:27.916] [INFO   ] thread Thread-1wip2
+[10:25:27.916] [INFO   ] AI key pressed step 2 
+[10:25:27.917] [INFO   ] thread Thread-1wip3
+[10:25:27.917] [INFO   ] KP step 1computer-0
+[10:25:27.917] [INFO   ] thread Thread-1wip4
+[10:25:27.917] [INFO   ] KP step 10computer-0
+[10:25:27.917] [INFO   ] creat AI step 7 
+[10:25:27.917] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:27.918] [INFO   ] creat AI step 8 
+[10:25:27.918] [INFO   ] AI key pressed step 1 
+[10:25:27.919] [INFO   ] creat AI step 9 
+[10:25:27.919] [INFO   ] AI key pressed step 2 
+[10:25:27.919] [INFO   ] creat AI step 10 
+[10:25:27.919] [INFO   ] creat AI step 11 
+[10:25:27.919] [INFO   ] KP step 1computer-1
+[10:25:27.919] [INFO   ] creat AI step 3 
+[10:25:27.920] [INFO   ] creat AI step 7 
+[10:25:27.920] [INFO   ] AI key pressed step 1 
+[10:25:27.920] [INFO   ] AI key pressed step 2 
+[10:25:27.920] [INFO   ] KP step 1computer-0
+[10:25:27.920] [INFO   ] KP step 10computer-0
+[10:25:27.919] [INFO   ] KP step 10computer-1
+[10:25:27.920] [INFO   ] AI key pressed step 3, random slot: 5
+[10:25:27.920] [INFO   ] AI key pressed step 3, random slot: 0
+[10:25:27.921] [INFO   ] creat AI step 8 
+[10:25:27.921] [INFO   ] creat AI step 8 
+[10:25:27.921] [INFO   ] creat AI step 9 
+[10:25:27.923] [INFO   ] creat AI step 10 
+[10:25:27.924] [INFO   ] creat AI step 11 
+[10:25:27.924] [INFO   ] creat AI step 3 
+[10:25:27.924] [INFO   ] creat AI step 7 
+[10:25:27.924] [INFO   ] AI key pressed step 1 
+[10:25:27.924] [INFO   ] AI key pressed step 2 
+[10:25:27.924] [INFO   ] KP step 1computer-0
+[10:25:27.924] [INFO   ] KP step 10computer-0
+[10:25:27.924] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:27.924] [INFO   ] creat AI step 8 
+[10:25:27.924] [INFO   ] creat AI step 9 
+[10:25:27.926] [INFO   ] creat AI step 10 
+[10:25:27.926] [INFO   ] creat AI step 11 
+[10:25:27.926] [INFO   ] creat AI step 3 
+[10:25:27.926] [INFO   ] creat AI step 7 
+[10:25:27.926] [INFO   ] AI key pressed step 1 
+[10:25:27.926] [INFO   ] AI key pressed step 2 
+[10:25:27.927] [INFO   ] KP step 1computer-0
+[10:25:27.927] [INFO   ] KP step 10computer-0
+[10:25:27.927] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:27.927] [INFO   ] creat AI step 8 
+[10:25:27.927] [INFO   ] creat AI step 9 
+[10:25:27.927] [INFO   ] creat AI step 10 
+[10:25:27.927] [INFO   ] creat AI step 11 
+[10:25:27.927] [INFO   ] creat AI step 3 
+[10:25:27.927] [INFO   ] creat AI step 7 
+[10:25:27.928] [INFO   ] AI key pressed step 1 
+[10:25:27.923] [INFO   ] creat AI step 9 
+[10:25:27.928] [INFO   ] AI key pressed step 2 
+[10:25:27.928] [INFO   ] KP step 1computer-0
+[10:25:27.928] [INFO   ] KP step 10computer-0
+[10:25:27.929] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:27.929] [INFO   ] creat AI step 8 
+[10:25:27.928] [INFO   ] thread Thread-1wip5
+[10:25:27.929] [INFO   ] creat AI step 9 
+[10:25:27.929] [INFO   ] thread Thread-1 after  synchronize on dealer.
+[10:25:27.929] [INFO   ] creat AI step 10 
+[10:25:27.930] [INFO   ] thread Thread-1 before notify synchronize on dealer.
+[10:25:27.930] [INFO   ] creat AI step 11 
+[10:25:27.930] [INFO   ] creat AI step 10 
+[10:25:27.930] [INFO   ] creat AI step 3 
+[10:25:27.930] [INFO   ] creat AI step 7 
+[10:25:27.931] [INFO   ] AI key pressed step 1 
+[10:25:27.931] [INFO   ] AI key pressed step 2 
+[10:25:27.930] [INFO   ] creat AI step 11 
+[10:25:27.931] [INFO   ] KP step 1computer-0
+[10:25:27.931] [INFO   ] creat AI step 3 
+[10:25:27.932] [INFO   ] KP step 10computer-0
+[10:25:27.932] [INFO   ] creat AI step 7 
+[10:25:27.932] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:27.932] [INFO   ] creat AI step 8 
+[10:25:27.933] [INFO   ] creat AI step 9 
+[10:25:27.933] [INFO   ] creat AI step 10 
+[10:25:27.933] [INFO   ] creat AI step 11 
+[10:25:27.933] [INFO   ] creat AI step 3 
+[10:25:27.934] [INFO   ] creat AI step 7 
+[10:25:27.932] [INFO   ] AI key pressed step 1 
+[10:25:27.934] [INFO   ] AI key pressed step 1 
+[10:25:27.934] [INFO   ] AI key pressed step 2 
+[10:25:27.934] [INFO   ] AI key pressed step 2 
+[10:25:27.936] [INFO   ] KP step 1computer-0
+[10:25:27.936] [INFO   ] KP step 10computer-0
+[10:25:27.936] [INFO   ] AI key pressed step 3, random slot: 0
+[10:25:27.936] [INFO   ] KP step 1computer-1
+[10:25:27.936] [INFO   ] creat AI step 8 
+[10:25:27.936] [INFO   ] KP step 10computer-1
+[10:25:27.936] [INFO   ] creat AI step 9 
+[10:25:27.937] [INFO   ] creat AI step 10 
+[10:25:27.937] [INFO   ] creat AI step 11 
+[10:25:27.937] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:27.937] [INFO   ] creat AI step 3 
+[10:25:27.937] [INFO   ] creat AI step 8 
+[10:25:27.937] [INFO   ] creat AI step 7 
+[10:25:27.937] [INFO   ] AI key pressed step 1 
+[10:25:27.937] [INFO   ] creat AI step 9 
+[10:25:27.937] [INFO   ] AI key pressed step 2 
+[10:25:27.937] [INFO   ] creat AI step 10 
+[10:25:27.938] [INFO   ] KP step 1computer-0
+[10:25:27.939] [INFO   ] KP step 10computer-0
+[10:25:27.939] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:27.939] [INFO   ] creat AI step 8 
+[10:25:27.940] [INFO   ] creat AI step 9 
+[10:25:27.940] [INFO   ] creat AI step 10 
+[10:25:27.939] [INFO   ] creat AI step 11 
+[10:25:27.940] [INFO   ] creat AI step 11 
+[10:25:27.941] [INFO   ] creat AI step 3 
+[10:25:27.941] [INFO   ] creat AI step 7 
+[10:25:27.941] [INFO   ] AI key pressed step 1 
+[10:25:27.940] [INFO   ] creat AI step 3 
+[10:25:27.941] [INFO   ] AI key pressed step 2 
+[10:25:27.941] [INFO   ] KP step 1computer-0
+[10:25:27.941] [INFO   ] KP step 10computer-0
+[10:25:27.941] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:27.942] [INFO   ] creat AI step 8 
+[10:25:27.942] [INFO   ] creat AI step 9 
+[10:25:27.942] [INFO   ] creat AI step 10 
+[10:25:27.942] [INFO   ] creat AI step 11 
+[10:25:27.942] [INFO   ] creat AI step 3 
+[10:25:27.942] [INFO   ] creat AI step 7 
+[10:25:27.942] [INFO   ] AI key pressed step 1 
+[10:25:27.943] [INFO   ] AI key pressed step 2 
+[10:25:27.943] [INFO   ] KP step 1computer-0
+[10:25:27.941] [INFO   ] creat AI step 7 
+[10:25:27.943] [INFO   ] KP step 10computer-0
+[10:25:27.943] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:27.943] [INFO   ] AI key pressed step 1 
+[10:25:27.943] [INFO   ] creat AI step 8 
+[10:25:27.944] [INFO   ] creat AI step 9 
+[10:25:27.944] [INFO   ] AI key pressed step 2 
+[10:25:27.944] [INFO   ] creat AI step 10 
+[10:25:27.944] [INFO   ] creat AI step 11 
+[10:25:27.944] [INFO   ] creat AI step 3 
+[10:25:27.944] [INFO   ] creat AI step 7 
+[10:25:27.944] [INFO   ] KP step 1computer-1
+[10:25:27.944] [INFO   ] AI key pressed step 1 
+[10:25:27.944] [INFO   ] AI key pressed step 2 
+[10:25:27.944] [INFO   ] KP step 1computer-0
+[10:25:27.946] [INFO   ] KP step 10computer-0
+[10:25:27.944] [INFO   ] KP step 10computer-1
+[10:25:27.946] [INFO   ] AI key pressed step 3, random slot: 0
+[10:25:27.946] [INFO   ] creat AI step 8 
+[10:25:27.946] [INFO   ] creat AI step 9 
+[10:25:27.947] [INFO   ] creat AI step 10 
+[10:25:27.947] [INFO   ] creat AI step 11 
+[10:25:27.947] [INFO   ] creat AI step 3 
+[10:25:27.947] [INFO   ] creat AI step 7 
+[10:25:27.947] [INFO   ] AI key pressed step 1 
+[10:25:27.947] [INFO   ] AI key pressed step 2 
+[10:25:27.947] [INFO   ] KP step 1computer-0
+[10:25:27.946] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:27.947] [INFO   ] KP step 10computer-0
+[10:25:27.947] [INFO   ] creat AI step 8 
+[10:25:27.947] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:27.948] [INFO   ] creat AI step 9 
+[10:25:27.948] [INFO   ] creat AI step 8 
+[10:25:27.948] [INFO   ] creat AI step 10 
+[10:25:27.948] [INFO   ] creat AI step 9 
+[10:25:27.948] [INFO   ] creat AI step 11 
+[10:25:27.949] [INFO   ] creat AI step 10 
+[10:25:27.949] [INFO   ] creat AI step 3 
+[10:25:27.949] [INFO   ] creat AI step 11 
+[10:25:27.949] [INFO   ] creat AI step 7 
+[10:25:27.950] [INFO   ] creat AI step 3 
+[10:25:27.950] [INFO   ] AI key pressed step 1 
+[10:25:27.950] [INFO   ] creat AI step 7 
+[10:25:27.950] [INFO   ] AI key pressed step 2 
+[10:25:27.950] [INFO   ] AI key pressed step 1 
+[10:25:27.950] [INFO   ] KP step 1computer-1
+[10:25:27.951] [INFO   ] AI key pressed step 2 
+[10:25:27.951] [INFO   ] KP step 10computer-1
+[10:25:27.951] [INFO   ] KP step 1computer-0
+[10:25:27.951] [INFO   ] AI key pressed step 3, random slot: 7
+[10:25:27.951] [INFO   ] KP step 10computer-0
+[10:25:27.951] [INFO   ] creat AI step 8 
+[10:25:27.952] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:27.952] [INFO   ] creat AI step 9 
+[10:25:27.952] [INFO   ] creat AI step 8 
+[10:25:27.952] [INFO   ] creat AI step 10 
+[10:25:27.952] [INFO   ] creat AI step 9 
+[10:25:27.952] [INFO   ] creat AI step 11 
+[10:25:27.953] [INFO   ] creat AI step 10 
+[10:25:27.953] [INFO   ] creat AI step 3 
+[10:25:27.953] [INFO   ] creat AI step 11 
+[10:25:27.953] [INFO   ] creat AI step 7 
+[10:25:27.953] [INFO   ] creat AI step 3 
+[10:25:27.953] [INFO   ] AI key pressed step 1 
+[10:25:27.953] [INFO   ] creat AI step 7 
+[10:25:27.954] [INFO   ] AI key pressed step 2 
+[10:25:27.954] [INFO   ] AI key pressed step 1 
+[10:25:27.954] [INFO   ] KP step 1computer-1
+[10:25:27.954] [INFO   ] AI key pressed step 2 
+[10:25:27.954] [INFO   ] KP step 10computer-1
+[10:25:27.954] [INFO   ] KP step 1computer-0
+[10:25:27.954] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:27.954] [INFO   ] creat AI step 8 
+[10:25:27.954] [INFO   ] KP step 10computer-0
+[10:25:27.954] [INFO   ] creat AI step 9 
+[10:25:27.956] [INFO   ] creat AI step 10 
+[10:25:27.954] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:27.956] [INFO   ] creat AI step 11 
+[10:25:27.956] [INFO   ] creat AI step 8 
+[10:25:27.956] [INFO   ] creat AI step 3 
+[10:25:27.956] [INFO   ] creat AI step 9 
+[10:25:27.956] [INFO   ] creat AI step 7 
+[10:25:27.956] [INFO   ] AI key pressed step 1 
+[10:25:27.956] [INFO   ] creat AI step 10 
+[10:25:27.957] [INFO   ] AI key pressed step 2 
+[10:25:27.957] [INFO   ] creat AI step 11 
+[10:25:27.957] [INFO   ] KP step 1computer-1
+[10:25:27.957] [INFO   ] creat AI step 3 
+[10:25:27.957] [INFO   ] KP step 10computer-1
+[10:25:27.957] [INFO   ] creat AI step 7 
+[10:25:27.957] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:27.957] [INFO   ] AI key pressed step 1 
+[10:25:27.957] [INFO   ] creat AI step 8 
+[10:25:27.957] [INFO   ] AI key pressed step 2 
+[10:25:27.957] [INFO   ] creat AI step 9 
+[10:25:27.958] [INFO   ] KP step 1computer-0
+[10:25:27.958] [INFO   ] creat AI step 10 
+[10:25:27.958] [INFO   ] KP step 10computer-0
+[10:25:27.959] [INFO   ] creat AI step 11 
+[10:25:27.959] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:27.959] [INFO   ] creat AI step 3 
+[10:25:27.959] [INFO   ] creat AI step 8 
+[10:25:27.959] [INFO   ] creat AI step 7 
+[10:25:27.959] [INFO   ] creat AI step 9 
+[10:25:27.959] [INFO   ] AI key pressed step 1 
+[10:25:27.959] [INFO   ] creat AI step 10 
+[10:25:27.959] [INFO   ] AI key pressed step 2 
+[10:25:27.959] [INFO   ] creat AI step 11 
+[10:25:27.959] [INFO   ] KP step 1computer-1
+[10:25:27.959] [INFO   ] creat AI step 3 
+[10:25:27.960] [INFO   ] creat AI step 7 
+[10:25:27.960] [INFO   ] KP step 10computer-1
+[10:25:27.960] [INFO   ] AI key pressed step 1 
+[10:25:27.960] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:27.960] [INFO   ] AI key pressed step 2 
+[10:25:27.960] [INFO   ] creat AI step 8 
+[10:25:27.960] [INFO   ] KP step 1computer-0
+[10:25:27.961] [INFO   ] KP step 10computer-0
+[10:25:27.961] [INFO   ] creat AI step 9 
+[10:25:27.961] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:27.961] [INFO   ] creat AI step 10 
+[10:25:27.961] [INFO   ] creat AI step 8 
+[10:25:27.961] [INFO   ] creat AI step 9 
+[10:25:27.961] [INFO   ] creat AI step 11 
+[10:25:27.961] [INFO   ] creat AI step 10 
+[10:25:27.962] [INFO   ] creat AI step 3 
+[10:25:27.962] [INFO   ] creat AI step 11 
+[10:25:27.962] [INFO   ] creat AI step 7 
+[10:25:27.962] [INFO   ] creat AI step 3 
+[10:25:27.962] [INFO   ] AI key pressed step 1 
+[10:25:27.962] [INFO   ] creat AI step 7 
+[10:25:27.962] [INFO   ] AI key pressed step 2 
+[10:25:27.963] [INFO   ] AI key pressed step 1 
+[10:25:27.963] [INFO   ] KP step 1computer-1
+[10:25:27.963] [INFO   ] AI key pressed step 2 
+[10:25:27.963] [INFO   ] KP step 10computer-1
+[10:25:27.963] [INFO   ] KP step 1computer-0
+[10:25:27.963] [INFO   ] KP step 10computer-0
+[10:25:27.963] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:27.964] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:27.964] [INFO   ] creat AI step 8 
+[10:25:27.964] [INFO   ] creat AI step 8 
+[10:25:27.964] [INFO   ] creat AI step 9 
+[10:25:27.964] [INFO   ] creat AI step 9 
+[10:25:27.964] [INFO   ] creat AI step 10 
+[10:25:27.964] [INFO   ] creat AI step 10 
+[10:25:27.966] [INFO   ] creat AI step 11 
+[10:25:27.967] [INFO   ] creat AI step 3 
+[10:25:27.966] [INFO   ] creat AI step 11 
+[10:25:27.967] [INFO   ] creat AI step 3 
+[10:25:27.967] [INFO   ] creat AI step 7 
+[10:25:27.967] [INFO   ] AI key pressed step 1 
+[10:25:27.967] [INFO   ] AI key pressed step 2 
+[10:25:27.967] [INFO   ] creat AI step 7 
+[10:25:27.967] [INFO   ] KP step 1computer-0
+[10:25:27.967] [INFO   ] AI key pressed step 1 
+[10:25:27.967] [INFO   ] KP step 10computer-0
+[10:25:27.968] [INFO   ] AI key pressed step 2 
+[10:25:27.968] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:27.968] [INFO   ] KP step 1computer-1
+[10:25:27.968] [INFO   ] creat AI step 8 
+[10:25:27.969] [INFO   ] creat AI step 9 
+[10:25:27.968] [INFO   ] KP step 10computer-1
+[10:25:27.969] [INFO   ] creat AI step 10 
+[10:25:27.969] [INFO   ] creat AI step 11 
+[10:25:27.969] [INFO   ] creat AI step 3 
+[10:25:27.969] [INFO   ] creat AI step 7 
+[10:25:27.969] [INFO   ] AI key pressed step 1 
+[10:25:27.970] [INFO   ] AI key pressed step 2 
+[10:25:27.970] [INFO   ] KP step 1computer-0
+[10:25:27.970] [INFO   ] KP step 10computer-0
+[10:25:27.970] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:27.970] [INFO   ] creat AI step 8 
+[10:25:27.970] [INFO   ] creat AI step 9 
+[10:25:27.970] [INFO   ] creat AI step 10 
+[10:25:27.970] [INFO   ] creat AI step 11 
+[10:25:27.970] [INFO   ] creat AI step 3 
+[10:25:27.970] [INFO   ] creat AI step 7 
+[10:25:27.971] [INFO   ] AI key pressed step 1 
+[10:25:27.972] [INFO   ] AI key pressed step 2 
+[10:25:27.972] [INFO   ] KP step 1computer-0
+[10:25:27.972] [INFO   ] KP step 10computer-0
+[10:25:27.972] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:27.973] [INFO   ] creat AI step 8 
+[10:25:27.973] [INFO   ] creat AI step 9 
+[10:25:27.973] [INFO   ] creat AI step 10 
+[10:25:27.973] [INFO   ] creat AI step 11 
+[10:25:27.973] [INFO   ] creat AI step 3 
+[10:25:27.973] [INFO   ] creat AI step 7 
+[10:25:27.973] [INFO   ] AI key pressed step 1 
+[10:25:27.973] [INFO   ] AI key pressed step 2 
+[10:25:27.973] [INFO   ] KP step 1computer-0
+[10:25:27.973] [INFO   ] KP step 10computer-0
+[10:25:27.974] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:27.974] [INFO   ] creat AI step 8 
+[10:25:27.974] [INFO   ] creat AI step 9 
+[10:25:27.974] [INFO   ] creat AI step 10 
+[10:25:27.974] [INFO   ] creat AI step 11 
+[10:25:27.974] [INFO   ] creat AI step 3 
+[10:25:27.974] [INFO   ] creat AI step 7 
+[10:25:27.974] [INFO   ] AI key pressed step 1 
+[10:25:27.974] [INFO   ] AI key pressed step 2 
+[10:25:27.974] [INFO   ] KP step 1computer-0
+[10:25:27.974] [INFO   ] KP step 10computer-0
+[10:25:27.974] [INFO   ] AI key pressed step 3, random slot: 7
+[10:25:27.974] [INFO   ] creat AI step 8 
+[10:25:27.974] [INFO   ] creat AI step 9 
+[10:25:27.974] [INFO   ] creat AI step 10 
+[10:25:27.974] [INFO   ] creat AI step 11 
+[10:25:27.974] [INFO   ] creat AI step 3 
+[10:25:27.974] [INFO   ] creat AI step 7 
+[10:25:27.974] [INFO   ] AI key pressed step 1 
+[10:25:27.974] [INFO   ] AI key pressed step 2 
+[10:25:27.974] [INFO   ] KP step 1computer-0
+[10:25:27.974] [INFO   ] KP step 10computer-0
+[10:25:27.974] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:27.976] [INFO   ] creat AI step 8 
+[10:25:27.976] [INFO   ] creat AI step 9 
+[10:25:27.976] [INFO   ] creat AI step 10 
+[10:25:27.976] [INFO   ] creat AI step 11 
+[10:25:27.976] [INFO   ] creat AI step 3 
+[10:25:27.976] [INFO   ] creat AI step 7 
+[10:25:27.976] [INFO   ] AI key pressed step 1 
+[10:25:27.976] [INFO   ] AI key pressed step 2 
+[10:25:27.976] [INFO   ] KP step 1computer-0
+[10:25:27.976] [INFO   ] KP step 10computer-0
+[10:25:27.976] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:27.976] [INFO   ] creat AI step 8 
+[10:25:27.976] [INFO   ] creat AI step 9 
+[10:25:27.976] [INFO   ] creat AI step 10 
+[10:25:27.976] [INFO   ] creat AI step 11 
+[10:25:27.976] [INFO   ] creat AI step 3 
+[10:25:27.976] [INFO   ] creat AI step 7 
+[10:25:27.976] [INFO   ] AI key pressed step 1 
+[10:25:27.969] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:27.976] [INFO   ] AI key pressed step 2 
+[10:25:27.976] [INFO   ] creat AI step 8 
+[10:25:27.976] [INFO   ] KP step 1computer-0
+[10:25:27.977] [INFO   ] creat AI step 9 
+[10:25:27.977] [INFO   ] KP step 10computer-0
+[10:25:27.977] [INFO   ] creat AI step 10 
+[10:25:27.977] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:27.977] [INFO   ] creat AI step 8 
+[10:25:27.977] [INFO   ] creat AI step 11 
+[10:25:27.977] [INFO   ] creat AI step 9 
+[10:25:27.977] [INFO   ] creat AI step 3 
+[10:25:27.978] [INFO   ] creat AI step 10 
+[10:25:27.978] [INFO   ] creat AI step 11 
+[10:25:27.978] [INFO   ] creat AI step 3 
+[10:25:27.978] [INFO   ] creat AI step 7 
+[10:25:27.978] [INFO   ] creat AI step 7 
+[10:25:27.978] [INFO   ] AI key pressed step 1 
+[10:25:27.978] [INFO   ] AI key pressed step 1 
+[10:25:27.982] [INFO   ] AI key pressed step 2 
+[10:25:27.984] [INFO   ] KP step 1computer-1
+[10:25:27.984] [INFO   ] KP step 10computer-1
+[10:25:27.978] [INFO   ] AI key pressed step 2 
+[10:25:27.984] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:27.984] [INFO   ] KP step 1computer-0
+[10:25:27.984] [INFO   ] creat AI step 8 
+[10:25:27.984] [INFO   ] KP step 10computer-0
+[10:25:27.984] [INFO   ] creat AI step 9 
+[10:25:27.985] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:27.985] [INFO   ] creat AI step 10 
+[10:25:27.985] [INFO   ] creat AI step 8 
+[10:25:27.985] [INFO   ] creat AI step 9 
+[10:25:27.985] [INFO   ] creat AI step 11 
+[10:25:27.985] [INFO   ] creat AI step 10 
+[10:25:27.985] [INFO   ] creat AI step 11 
+[10:25:27.985] [INFO   ] creat AI step 3 
+[10:25:27.985] [INFO   ] creat AI step 7 
+[10:25:27.986] [INFO   ] AI key pressed step 1 
+[10:25:27.985] [INFO   ] creat AI step 3 
+[10:25:27.986] [INFO   ] AI key pressed step 2 
+[10:25:27.986] [INFO   ] creat AI step 7 
+[10:25:27.986] [INFO   ] KP step 1computer-0
+[10:25:27.986] [INFO   ] AI key pressed step 1 
+[10:25:27.988] [INFO   ] KP step 10computer-0
+[10:25:27.988] [INFO   ] AI key pressed step 2 
+[10:25:27.988] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:27.988] [INFO   ] creat AI step 8 
+[10:25:27.988] [INFO   ] KP step 1computer-1
+[10:25:27.988] [INFO   ] creat AI step 9 
+[10:25:27.988] [INFO   ] KP step 10computer-1
+[10:25:27.989] [INFO   ] creat AI step 10 
+[10:25:27.989] [INFO   ] creat AI step 11 
+[10:25:27.989] [INFO   ] AI key pressed step 3, random slot: 7
+[10:25:27.989] [INFO   ] creat AI step 8 
+[10:25:27.989] [INFO   ] creat AI step 9 
+[10:25:27.989] [INFO   ] creat AI step 10 
+[10:25:27.989] [INFO   ] creat AI step 11 
+[10:25:27.989] [INFO   ] creat AI step 3 
+[10:25:27.989] [INFO   ] creat AI step 7 
+[10:25:27.989] [INFO   ] AI key pressed step 1 
+[10:25:27.989] [INFO   ] creat AI step 3 
+[10:25:27.990] [INFO   ] creat AI step 7 
+[10:25:27.990] [INFO   ] AI key pressed step 2 
+[10:25:27.990] [INFO   ] AI key pressed step 1 
+[10:25:27.990] [INFO   ] KP step 1computer-1
+[10:25:27.990] [INFO   ] AI key pressed step 2 
+[10:25:27.990] [INFO   ] KP step 10computer-1
+[10:25:27.990] [INFO   ] KP step 1computer-0
+[10:25:27.990] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:27.991] [INFO   ] KP step 10computer-0
+[10:25:27.991] [INFO   ] creat AI step 8 
+[10:25:27.991] [INFO   ] AI key pressed step 3, random slot: 7
+[10:25:27.991] [INFO   ] creat AI step 8 
+[10:25:27.991] [INFO   ] creat AI step 9 
+[10:25:27.991] [INFO   ] creat AI step 9 
+[10:25:27.991] [INFO   ] creat AI step 10 
+[10:25:27.991] [INFO   ] creat AI step 11 
+[10:25:27.992] [INFO   ] creat AI step 3 
+[10:25:27.992] [INFO   ] creat AI step 7 
+[10:25:27.992] [INFO   ] AI key pressed step 1 
+[10:25:27.992] [INFO   ] AI key pressed step 2 
+[10:25:27.992] [INFO   ] KP step 1computer-1
+[10:25:27.991] [INFO   ] creat AI step 10 
+[10:25:27.992] [INFO   ] KP step 10computer-1
+[10:25:27.992] [INFO   ] creat AI step 11 
+[10:25:27.992] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:27.993] [INFO   ] creat AI step 8 
+[10:25:27.992] [INFO   ] creat AI step 3 
+[10:25:27.993] [INFO   ] creat AI step 9 
+[10:25:27.993] [INFO   ] creat AI step 7 
+[10:25:27.993] [INFO   ] AI key pressed step 1 
+[10:25:27.993] [INFO   ] creat AI step 10 
+[10:25:27.993] [INFO   ] AI key pressed step 2 
+[10:25:27.993] [INFO   ] creat AI step 11 
+[10:25:27.993] [INFO   ] KP step 1computer-0
+[10:25:27.994] [INFO   ] creat AI step 3 
+[10:25:27.994] [INFO   ] KP step 10computer-0
+[10:25:27.994] [INFO   ] creat AI step 7 
+[10:25:27.994] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:27.994] [INFO   ] AI key pressed step 1 
+[10:25:27.994] [INFO   ] creat AI step 8 
+[10:25:27.994] [INFO   ] AI key pressed step 2 
+[10:25:27.994] [INFO   ] creat AI step 9 
+[10:25:27.994] [INFO   ] KP step 1computer-1
+[10:25:27.994] [INFO   ] creat AI step 10 
+[10:25:27.994] [INFO   ] KP step 10computer-1
+[10:25:27.994] [INFO   ] creat AI step 11 
+[10:25:27.994] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:27.996] [INFO   ] creat AI step 3 
+[10:25:27.996] [INFO   ] creat AI step 7 
+[10:25:27.996] [INFO   ] AI key pressed step 1 
+[10:25:27.996] [INFO   ] creat AI step 8 
+[10:25:27.996] [INFO   ] AI key pressed step 2 
+[10:25:27.996] [INFO   ] creat AI step 9 
+[10:25:27.997] [INFO   ] creat AI step 10 
+[10:25:27.996] [INFO   ] KP step 1computer-0
+[10:25:27.997] [INFO   ] creat AI step 11 
+[10:25:27.997] [INFO   ] KP step 10computer-0
+[10:25:27.997] [INFO   ] creat AI step 3 
+[10:25:27.997] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:27.997] [INFO   ] creat AI step 8 
+[10:25:27.997] [INFO   ] creat AI step 7 
+[10:25:27.997] [INFO   ] creat AI step 9 
+[10:25:27.997] [INFO   ] AI key pressed step 1 
+[10:25:27.997] [INFO   ] creat AI step 10 
+[10:25:27.997] [INFO   ] creat AI step 11 
+[10:25:27.997] [INFO   ] creat AI step 3 
+[10:25:27.997] [INFO   ] creat AI step 7 
+[10:25:27.997] [INFO   ] AI key pressed step 1 
+[10:25:27.997] [INFO   ] AI key pressed step 2 
+[10:25:27.997] [INFO   ] AI key pressed step 2 
+[10:25:27.998] [INFO   ] KP step 1computer-0
+[10:25:27.998] [INFO   ] KP step 10computer-0
+[10:25:27.998] [INFO   ] KP step 1computer-1
+[10:25:27.998] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:27.998] [INFO   ] creat AI step 8 
+[10:25:27.998] [INFO   ] creat AI step 9 
+[10:25:27.998] [INFO   ] KP step 10computer-1
+[10:25:27.998] [INFO   ] creat AI step 10 
+[10:25:27.999] [INFO   ] creat AI step 11 
+[10:25:27.998] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:27.999] [INFO   ] creat AI step 3 
+[10:25:27.999] [INFO   ] creat AI step 7 
+[10:25:27.999] [INFO   ] AI key pressed step 1 
+[10:25:27.999] [INFO   ] creat AI step 8 
+[10:25:28.000] [INFO   ] creat AI step 9 
+[10:25:28.000] [INFO   ] AI key pressed step 2 
+[10:25:28.000] [INFO   ] KP step 1computer-0
+[10:25:28.000] [INFO   ] KP step 10computer-0
+[10:25:28.000] [INFO   ] AI key pressed step 3, random slot: 5
+[10:25:28.000] [INFO   ] creat AI step 8 
+[10:25:28.000] [INFO   ] creat AI step 9 
+[10:25:28.000] [INFO   ] creat AI step 10 
+[10:25:28.000] [INFO   ] creat AI step 10 
+[10:25:28.000] [INFO   ] creat AI step 11 
+[10:25:28.000] [INFO   ] creat AI step 3 
+[10:25:28.001] [INFO   ] creat AI step 7 
+[10:25:28.001] [INFO   ] AI key pressed step 1 
+[10:25:28.000] [INFO   ] creat AI step 11 
+[10:25:28.001] [INFO   ] AI key pressed step 2 
+[10:25:28.001] [INFO   ] creat AI step 3 
+[10:25:28.001] [INFO   ] creat AI step 7 
+[10:25:28.001] [INFO   ] KP step 1computer-0
+[10:25:28.001] [INFO   ] AI key pressed step 1 
+[10:25:28.001] [INFO   ] KP step 10computer-0
+[10:25:28.001] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.001] [INFO   ] AI key pressed step 2 
+[10:25:28.002] [INFO   ] creat AI step 8 
+[10:25:28.002] [INFO   ] creat AI step 9 
+[10:25:28.002] [INFO   ] KP step 1computer-1
+[10:25:28.002] [INFO   ] creat AI step 10 
+[10:25:28.002] [INFO   ] creat AI step 11 
+[10:25:28.002] [INFO   ] creat AI step 3 
+[10:25:28.002] [INFO   ] creat AI step 7 
+[10:25:28.002] [INFO   ] AI key pressed step 1 
+[10:25:28.002] [INFO   ] KP step 10computer-1
+[10:25:28.002] [INFO   ] AI key pressed step 2 
+[10:25:28.002] [INFO   ] KP step 1computer-0
+[10:25:28.002] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.003] [INFO   ] creat AI step 8 
+[10:25:28.003] [INFO   ] creat AI step 9 
+[10:25:28.003] [INFO   ] KP step 10computer-0
+[10:25:28.003] [INFO   ] creat AI step 10 
+[10:25:28.003] [INFO   ] creat AI step 11 
+[10:25:28.003] [INFO   ] AI key pressed step 3, random slot: 7
+[10:25:28.003] [INFO   ] creat AI step 8 
+[10:25:28.003] [INFO   ] creat AI step 9 
+[10:25:28.003] [INFO   ] creat AI step 3 
+[10:25:28.004] [INFO   ] creat AI step 7 
+[10:25:28.004] [INFO   ] creat AI step 10 
+[10:25:28.004] [INFO   ] creat AI step 11 
+[10:25:28.004] [INFO   ] creat AI step 3 
+[10:25:28.004] [INFO   ] AI key pressed step 1 
+[10:25:28.004] [INFO   ] creat AI step 7 
+[10:25:28.004] [INFO   ] AI key pressed step 1 
+[10:25:28.004] [INFO   ] AI key pressed step 2 
+[10:25:28.004] [INFO   ] AI key pressed step 2 
+[10:25:28.004] [INFO   ] KP step 1computer-1
+[10:25:28.004] [INFO   ] KP step 10computer-1
+[10:25:28.004] [INFO   ] KP step 1computer-0
+[10:25:28.004] [INFO   ] AI key pressed step 3, random slot: 0
+[10:25:28.006] [INFO   ] creat AI step 8 
+[10:25:28.006] [INFO   ] creat AI step 9 
+[10:25:28.006] [INFO   ] creat AI step 10 
+[10:25:28.004] [INFO   ] KP step 10computer-0
+[10:25:28.006] [INFO   ] creat AI step 11 
+[10:25:28.006] [INFO   ] creat AI step 3 
+[10:25:28.006] [INFO   ] AI key pressed step 3, random slot: 5
+[10:25:28.006] [INFO   ] creat AI step 7 
+[10:25:28.007] [INFO   ] AI key pressed step 1 
+[10:25:28.007] [INFO   ] AI key pressed step 2 
+[10:25:28.007] [INFO   ] KP step 1computer-1
+[10:25:28.007] [INFO   ] KP step 10computer-1
+[10:25:28.007] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.007] [INFO   ] creat AI step 8 
+[10:25:28.007] [INFO   ] creat AI step 9 
+[10:25:28.007] [INFO   ] creat AI step 10 
+[10:25:28.007] [INFO   ] creat AI step 11 
+[10:25:28.007] [INFO   ] creat AI step 3 
+[10:25:28.007] [INFO   ] creat AI step 7 
+[10:25:28.007] [INFO   ] AI key pressed step 1 
+[10:25:28.007] [INFO   ] AI key pressed step 2 
+[10:25:28.006] [INFO   ] creat AI step 8 
+[10:25:28.007] [INFO   ] KP step 1computer-1
+[10:25:28.007] [INFO   ] creat AI step 9 
+[10:25:28.008] [INFO   ] KP step 10computer-1
+[10:25:28.008] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.008] [INFO   ] creat AI step 10 
+[10:25:28.009] [INFO   ] creat AI step 11 
+[10:25:28.009] [INFO   ] creat AI step 3 
+[10:25:28.009] [INFO   ] creat AI step 8 
+[10:25:28.009] [INFO   ] creat AI step 9 
+[10:25:28.009] [INFO   ] creat AI step 7 
+[10:25:28.009] [INFO   ] creat AI step 10 
+[10:25:28.009] [INFO   ] creat AI step 11 
+[10:25:28.009] [INFO   ] creat AI step 3 
+[10:25:28.009] [INFO   ] AI key pressed step 1 
+[10:25:28.009] [INFO   ] creat AI step 7 
+[10:25:28.010] [INFO   ] AI key pressed step 1 
+[10:25:28.010] [INFO   ] AI key pressed step 2 
+[10:25:28.010] [INFO   ] KP step 1computer-0
+[10:25:28.010] [INFO   ] KP step 10computer-0
+[10:25:28.010] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.010] [INFO   ] creat AI step 8 
+[10:25:28.010] [INFO   ] creat AI step 9 
+[10:25:28.010] [INFO   ] AI key pressed step 2 
+[10:25:28.010] [INFO   ] creat AI step 10 
+[10:25:28.011] [INFO   ] creat AI step 11 
+[10:25:28.011] [INFO   ] KP step 1computer-1
+[10:25:28.013] [INFO   ] KP step 10computer-1
+[10:25:28.011] [INFO   ] creat AI step 3 
+[10:25:28.013] [INFO   ] creat AI step 7 
+[10:25:28.013] [INFO   ] AI key pressed step 1 
+[10:25:28.013] [INFO   ] AI key pressed step 3, random slot: 0
+[10:25:28.013] [INFO   ] AI key pressed step 2 
+[10:25:28.013] [INFO   ] KP step 1computer-0
+[10:25:28.013] [INFO   ] creat AI step 8 
+[10:25:28.013] [INFO   ] creat AI step 9 
+[10:25:28.013] [INFO   ] KP step 10computer-0
+[10:25:28.014] [INFO   ] creat AI step 10 
+[10:25:28.014] [INFO   ] creat AI step 11 
+[10:25:28.014] [INFO   ] creat AI step 3 
+[10:25:28.014] [INFO   ] creat AI step 7 
+[10:25:28.014] [INFO   ] AI key pressed step 1 
+[10:25:28.014] [INFO   ] AI key pressed step 3, random slot: 0
+[10:25:28.014] [INFO   ] AI key pressed step 2 
+[10:25:28.014] [INFO   ] creat AI step 8 
+[10:25:28.014] [INFO   ] creat AI step 9 
+[10:25:28.014] [INFO   ] KP step 1computer-1
+[10:25:28.014] [INFO   ] KP step 10computer-1
+[10:25:28.014] [INFO   ] creat AI step 10 
+[10:25:28.014] [INFO   ] creat AI step 11 
+[10:25:28.014] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.014] [INFO   ] creat AI step 8 
+[10:25:28.016] [INFO   ] creat AI step 9 
+[10:25:28.014] [INFO   ] creat AI step 3 
+[10:25:28.016] [INFO   ] creat AI step 7 
+[10:25:28.016] [INFO   ] AI key pressed step 1 
+[10:25:28.016] [INFO   ] creat AI step 10 
+[10:25:28.016] [INFO   ] creat AI step 11 
+[10:25:28.016] [INFO   ] creat AI step 3 
+[10:25:28.016] [INFO   ] AI key pressed step 2 
+[10:25:28.016] [INFO   ] creat AI step 7 
+[10:25:28.016] [INFO   ] AI key pressed step 1 
+[10:25:28.016] [INFO   ] KP step 1computer-0
+[10:25:28.017] [INFO   ] AI key pressed step 2 
+[10:25:28.017] [INFO   ] KP step 10computer-0
+[10:25:28.017] [INFO   ] KP step 1computer-1
+[10:25:28.017] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:28.017] [INFO   ] creat AI step 8 
+[10:25:28.017] [INFO   ] KP step 10computer-1
+[10:25:28.017] [INFO   ] creat AI step 9 
+[10:25:28.017] [INFO   ] AI key pressed step 3, random slot: 0
+[10:25:28.017] [INFO   ] creat AI step 8 
+[10:25:28.017] [INFO   ] creat AI step 9 
+[10:25:28.017] [INFO   ] creat AI step 10 
+[10:25:28.018] [INFO   ] creat AI step 11 
+[10:25:28.018] [INFO   ] creat AI step 3 
+[10:25:28.018] [INFO   ] creat AI step 10 
+[10:25:28.018] [INFO   ] creat AI step 11 
+[10:25:28.018] [INFO   ] creat AI step 3 
+[10:25:28.018] [INFO   ] creat AI step 7 
+[10:25:28.018] [INFO   ] AI key pressed step 1 
+[10:25:28.018] [INFO   ] creat AI step 7 
+[10:25:28.018] [INFO   ] AI key pressed step 1 
+[10:25:28.018] [INFO   ] AI key pressed step 2 
+[10:25:28.018] [INFO   ] AI key pressed step 2 
+[10:25:28.018] [INFO   ] KP step 1computer-1
+[10:25:28.019] [INFO   ] KP step 1computer-0
+[10:25:28.019] [INFO   ] KP step 10computer-1
+[10:25:28.019] [INFO   ] KP step 10computer-0
+[10:25:28.019] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:28.019] [INFO   ] creat AI step 8 
+[10:25:28.019] [INFO   ] creat AI step 9 
+[10:25:28.019] [INFO   ] AI key pressed step 3, random slot: 5
+[10:25:28.019] [INFO   ] creat AI step 8 
+[10:25:28.019] [INFO   ] creat AI step 9 
+[10:25:28.019] [INFO   ] creat AI step 10 
+[10:25:28.019] [INFO   ] creat AI step 10 
+[10:25:28.019] [INFO   ] creat AI step 11 
+[10:25:28.020] [INFO   ] creat AI step 3 
+[10:25:28.020] [INFO   ] creat AI step 11 
+[10:25:28.020] [INFO   ] creat AI step 7 
+[10:25:28.020] [INFO   ] AI key pressed step 1 
+[10:25:28.020] [INFO   ] creat AI step 3 
+[10:25:28.020] [INFO   ] AI key pressed step 2 
+[10:25:28.020] [INFO   ] creat AI step 7 
+[10:25:28.020] [INFO   ] AI key pressed step 1 
+[10:25:28.020] [INFO   ] KP step 1computer-0
+[10:25:28.021] [INFO   ] KP step 10computer-0
+[10:25:28.021] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:28.022] [INFO   ] creat AI step 8 
+[10:25:28.022] [INFO   ] creat AI step 9 
+[10:25:28.022] [INFO   ] creat AI step 10 
+[10:25:28.022] [INFO   ] creat AI step 11 
+[10:25:28.022] [INFO   ] creat AI step 3 
+[10:25:28.022] [INFO   ] creat AI step 7 
+[10:25:28.022] [INFO   ] AI key pressed step 1 
+[10:25:28.022] [INFO   ] AI key pressed step 2 
+[10:25:28.023] [INFO   ] KP step 1computer-0
+[10:25:28.021] [INFO   ] AI key pressed step 2 
+[10:25:28.028] [INFO   ] KP step 1computer-1
+[10:25:28.028] [INFO   ] KP step 10computer-1
+[10:25:28.028] [INFO   ] KP step 10computer-0
+[10:25:28.028] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.028] [INFO   ] creat AI step 8 
+[10:25:28.028] [INFO   ] creat AI step 9 
+[10:25:28.028] [INFO   ] AI key pressed step 3, random slot: 5
+[10:25:28.028] [INFO   ] creat AI step 8 
+[10:25:28.029] [INFO   ] creat AI step 9 
+[10:25:28.029] [INFO   ] creat AI step 10 
+[10:25:28.029] [INFO   ] creat AI step 11 
+[10:25:28.029] [INFO   ] creat AI step 3 
+[10:25:28.029] [INFO   ] creat AI step 10 
+[10:25:28.029] [INFO   ] creat AI step 11 
+[10:25:28.029] [INFO   ] creat AI step 3 
+[10:25:28.029] [INFO   ] creat AI step 7 
+[10:25:28.029] [INFO   ] AI key pressed step 1 
+[10:25:28.029] [INFO   ] AI key pressed step 2 
+[10:25:28.029] [INFO   ] KP step 1computer-1
+[10:25:28.029] [INFO   ] KP step 10computer-1
+[10:25:28.029] [INFO   ] creat AI step 7 
+[10:25:28.029] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:28.029] [INFO   ] creat AI step 8 
+[10:25:28.030] [INFO   ] creat AI step 9 
+[10:25:28.029] [INFO   ] AI key pressed step 1 
+[10:25:28.030] [INFO   ] creat AI step 10 
+[10:25:28.030] [INFO   ] creat AI step 11 
+[10:25:28.030] [INFO   ] creat AI step 3 
+[10:25:28.030] [INFO   ] creat AI step 7 
+[10:25:28.030] [INFO   ] AI key pressed step 2 
+[10:25:28.030] [INFO   ] AI key pressed step 1 
+[10:25:28.030] [INFO   ] KP step 1computer-0
+[10:25:28.030] [INFO   ] KP step 10computer-0
+[10:25:28.030] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:28.030] [INFO   ] creat AI step 8 
+[10:25:28.030] [INFO   ] creat AI step 9 
+[10:25:28.030] [INFO   ] AI key pressed step 2 
+[10:25:28.031] [INFO   ] KP step 1computer-1
+[10:25:28.031] [INFO   ] KP step 10computer-1
+[10:25:28.031] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:28.031] [INFO   ] creat AI step 8 
+[10:25:28.031] [INFO   ] creat AI step 9 
+[10:25:28.031] [INFO   ] creat AI step 10 
+[10:25:28.031] [INFO   ] creat AI step 11 
+[10:25:28.031] [INFO   ] creat AI step 3 
+[10:25:28.031] [INFO   ] creat AI step 7 
+[10:25:28.031] [INFO   ] AI key pressed step 1 
+[10:25:28.031] [INFO   ] AI key pressed step 2 
+[10:25:28.031] [INFO   ] KP step 1computer-1
+[10:25:28.031] [INFO   ] KP step 10computer-1
+[10:25:28.031] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:28.032] [INFO   ] creat AI step 8 
+[10:25:28.032] [INFO   ] creat AI step 9 
+[10:25:28.032] [INFO   ] creat AI step 10 
+[10:25:28.032] [INFO   ] creat AI step 11 
+[10:25:28.032] [INFO   ] creat AI step 3 
+[10:25:28.032] [INFO   ] creat AI step 7 
+[10:25:28.032] [INFO   ] AI key pressed step 1 
+[10:25:28.032] [INFO   ] AI key pressed step 2 
+[10:25:28.032] [INFO   ] KP step 1computer-1
+[10:25:28.032] [INFO   ] KP step 10computer-1
+[10:25:28.032] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:28.032] [INFO   ] creat AI step 8 
+[10:25:28.032] [INFO   ] creat AI step 9 
+[10:25:28.033] [INFO   ] creat AI step 10 
+[10:25:28.033] [INFO   ] creat AI step 11 
+[10:25:28.033] [INFO   ] creat AI step 3 
+[10:25:28.033] [INFO   ] creat AI step 7 
+[10:25:28.033] [INFO   ] AI key pressed step 1 
+[10:25:28.030] [INFO   ] creat AI step 10 
+[10:25:28.033] [INFO   ] creat AI step 11 
+[10:25:28.033] [INFO   ] AI key pressed step 2 
+[10:25:28.033] [INFO   ] creat AI step 3 
+[10:25:28.033] [INFO   ] KP step 1computer-1
+[10:25:28.033] [INFO   ] creat AI step 7 
+[10:25:28.033] [INFO   ] KP step 10computer-1
+[10:25:28.034] [INFO   ] AI key pressed step 1 
+[10:25:28.034] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.034] [INFO   ] creat AI step 8 
+[10:25:28.034] [INFO   ] AI key pressed step 2 
+[10:25:28.034] [INFO   ] creat AI step 9 
+[10:25:28.034] [INFO   ] KP step 1computer-0
+[10:25:28.034] [INFO   ] creat AI step 10 
+[10:25:28.036] [INFO   ] creat AI step 11 
+[10:25:28.036] [INFO   ] KP step 10computer-0
+[10:25:28.036] [INFO   ] creat AI step 3 
+[10:25:28.036] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:28.037] [INFO   ] creat AI step 8 
+[10:25:28.036] [INFO   ] creat AI step 7 
+[10:25:28.037] [INFO   ] AI key pressed step 1 
+[10:25:28.037] [INFO   ] creat AI step 9 
+[10:25:28.037] [INFO   ] AI key pressed step 2 
+[10:25:28.037] [INFO   ] creat AI step 10 
+[10:25:28.037] [INFO   ] creat AI step 11 
+[10:25:28.037] [INFO   ] KP step 1computer-1
+[10:25:28.037] [INFO   ] creat AI step 3 
+[10:25:28.037] [INFO   ] KP step 10computer-1
+[10:25:28.038] [INFO   ] creat AI step 7 
+[10:25:28.038] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.038] [INFO   ] creat AI step 8 
+[10:25:28.038] [INFO   ] AI key pressed step 1 
+[10:25:28.038] [INFO   ] creat AI step 9 
+[10:25:28.038] [INFO   ] AI key pressed step 2 
+[10:25:28.038] [INFO   ] creat AI step 10 
+[10:25:28.038] [INFO   ] creat AI step 11 
+[10:25:28.038] [INFO   ] KP step 1computer-0
+[10:25:28.038] [INFO   ] creat AI step 3 
+[10:25:28.039] [INFO   ] creat AI step 7 
+[10:25:28.039] [INFO   ] AI key pressed step 1 
+[10:25:28.039] [INFO   ] KP step 10computer-0
+[10:25:28.039] [INFO   ] AI key pressed step 2 
+[10:25:28.039] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.039] [INFO   ] KP step 1computer-1
+[10:25:28.039] [INFO   ] KP step 10computer-1
+[10:25:28.039] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:28.039] [INFO   ] creat AI step 8 
+[10:25:28.039] [INFO   ] creat AI step 9 
+[10:25:28.039] [INFO   ] creat AI step 10 
+[10:25:28.039] [INFO   ] creat AI step 11 
+[10:25:28.039] [INFO   ] creat AI step 3 
+[10:25:28.040] [INFO   ] creat AI step 7 
+[10:25:28.040] [INFO   ] AI key pressed step 1 
+[10:25:28.040] [INFO   ] AI key pressed step 2 
+[10:25:28.040] [INFO   ] KP step 1computer-1
+[10:25:28.040] [INFO   ] KP step 10computer-1
+[10:25:28.040] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.040] [INFO   ] creat AI step 8 
+[10:25:28.040] [INFO   ] creat AI step 9 
+[10:25:28.040] [INFO   ] creat AI step 10 
+[10:25:28.039] [INFO   ] creat AI step 8 
+[10:25:28.040] [INFO   ] creat AI step 11 
+[10:25:28.040] [INFO   ] creat AI step 3 
+[10:25:28.040] [INFO   ] creat AI step 9 
+[10:25:28.041] [INFO   ] creat AI step 7 
+[10:25:28.041] [INFO   ] AI key pressed step 1 
+[10:25:28.041] [INFO   ] creat AI step 10 
+[10:25:28.041] [INFO   ] AI key pressed step 2 
+[10:25:28.041] [INFO   ] creat AI step 11 
+[10:25:28.041] [INFO   ] KP step 1computer-1
+[10:25:28.041] [INFO   ] creat AI step 3 
+[10:25:28.041] [INFO   ] KP step 10computer-1
+[10:25:28.041] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.041] [INFO   ] creat AI step 8 
+[10:25:28.041] [INFO   ] creat AI step 9 
+[10:25:28.042] [INFO   ] creat AI step 10 
+[10:25:28.042] [INFO   ] creat AI step 11 
+[10:25:28.042] [INFO   ] creat AI step 3 
+[10:25:28.042] [INFO   ] creat AI step 7 
+[10:25:28.042] [INFO   ] AI key pressed step 1 
+[10:25:28.042] [INFO   ] AI key pressed step 2 
+[10:25:28.041] [INFO   ] creat AI step 7 
+[10:25:28.042] [INFO   ] AI key pressed step 1 
+[10:25:28.042] [INFO   ] KP step 1computer-1
+[10:25:28.042] [INFO   ] AI key pressed step 2 
+[10:25:28.042] [INFO   ] KP step 10computer-1
+[10:25:28.042] [INFO   ] KP step 1computer-0
+[10:25:28.042] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.043] [INFO   ] KP step 10computer-0
+[10:25:28.043] [INFO   ] creat AI step 8 
+[10:25:28.043] [INFO   ] creat AI step 9 
+[10:25:28.043] [INFO   ] creat AI step 10 
+[10:25:28.043] [INFO   ] creat AI step 11 
+[10:25:28.043] [INFO   ] creat AI step 3 
+[10:25:28.043] [INFO   ] creat AI step 7 
+[10:25:28.043] [INFO   ] AI key pressed step 1 
+[10:25:28.043] [INFO   ] AI key pressed step 2 
+[10:25:28.043] [INFO   ] KP step 1computer-1
+[10:25:28.043] [INFO   ] KP step 10computer-1
+[10:25:28.043] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.043] [INFO   ] creat AI step 8 
+[10:25:28.043] [INFO   ] creat AI step 9 
+[10:25:28.043] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:28.044] [INFO   ] creat AI step 10 
+[10:25:28.044] [INFO   ] creat AI step 8 
+[10:25:28.044] [INFO   ] creat AI step 9 
+[10:25:28.044] [INFO   ] creat AI step 11 
+[10:25:28.045] [INFO   ] creat AI step 3 
+[10:25:28.045] [INFO   ] creat AI step 7 
+[10:25:28.045] [INFO   ] AI key pressed step 1 
+[10:25:28.044] [INFO   ] creat AI step 10 
+[10:25:28.046] [INFO   ] creat AI step 11 
+[10:25:28.046] [INFO   ] creat AI step 3 
+[10:25:28.046] [INFO   ] creat AI step 7 
+[10:25:28.046] [INFO   ] AI key pressed step 1 
+[10:25:28.046] [INFO   ] AI key pressed step 2 
+[10:25:28.046] [INFO   ] KP step 1computer-1
+[10:25:28.046] [INFO   ] KP step 10computer-1
+[10:25:28.046] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:28.046] [INFO   ] creat AI step 8 
+[10:25:28.046] [INFO   ] creat AI step 9 
+[10:25:28.046] [INFO   ] creat AI step 10 
+[10:25:28.047] [INFO   ] creat AI step 11 
+[10:25:28.047] [INFO   ] creat AI step 3 
+[10:25:28.047] [INFO   ] creat AI step 7 
+[10:25:28.047] [INFO   ] AI key pressed step 1 
+[10:25:28.048] [INFO   ] AI key pressed step 2 
+[10:25:28.048] [INFO   ] KP step 1computer-1
+[10:25:28.048] [INFO   ] KP step 10computer-1
+[10:25:28.048] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:28.048] [INFO   ] creat AI step 8 
+[10:25:28.048] [INFO   ] creat AI step 9 
+[10:25:28.048] [INFO   ] creat AI step 10 
+[10:25:28.048] [INFO   ] creat AI step 11 
+[10:25:28.048] [INFO   ] creat AI step 3 
+[10:25:28.048] [INFO   ] creat AI step 7 
+[10:25:28.048] [INFO   ] AI key pressed step 1 
+[10:25:28.048] [INFO   ] AI key pressed step 2 
+[10:25:28.049] [INFO   ] KP step 1computer-1
+[10:25:28.049] [INFO   ] KP step 10computer-1
+[10:25:28.049] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.049] [INFO   ] creat AI step 8 
+[10:25:28.049] [INFO   ] creat AI step 9 
+[10:25:28.049] [INFO   ] creat AI step 10 
+[10:25:28.049] [INFO   ] creat AI step 11 
+[10:25:28.049] [INFO   ] creat AI step 3 
+[10:25:28.049] [INFO   ] creat AI step 7 
+[10:25:28.049] [INFO   ] AI key pressed step 1 
+[10:25:28.049] [INFO   ] AI key pressed step 2 
+[10:25:28.049] [INFO   ] KP step 1computer-1
+[10:25:28.049] [INFO   ] KP step 10computer-1
+[10:25:28.049] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:28.049] [INFO   ] creat AI step 8 
+[10:25:28.049] [INFO   ] creat AI step 9 
+[10:25:28.049] [INFO   ] creat AI step 10 
+[10:25:28.049] [INFO   ] creat AI step 11 
+[10:25:28.049] [INFO   ] creat AI step 3 
+[10:25:28.049] [INFO   ] creat AI step 7 
+[10:25:28.049] [INFO   ] AI key pressed step 1 
+[10:25:28.049] [INFO   ] AI key pressed step 2 
+[10:25:28.049] [INFO   ] KP step 1computer-1
+[10:25:28.050] [INFO   ] KP step 10computer-1
+[10:25:28.050] [INFO   ] AI key pressed step 3, random slot: 5
+[10:25:28.050] [INFO   ] creat AI step 8 
+[10:25:28.050] [INFO   ] creat AI step 9 
+[10:25:28.050] [INFO   ] creat AI step 10 
+[10:25:28.050] [INFO   ] creat AI step 11 
+[10:25:28.050] [INFO   ] creat AI step 3 
+[10:25:28.050] [INFO   ] creat AI step 7 
+[10:25:28.050] [INFO   ] AI key pressed step 1 
+[10:25:28.050] [INFO   ] AI key pressed step 2 
+[10:25:28.050] [INFO   ] KP step 1computer-1
+[10:25:28.050] [INFO   ] KP step 10computer-1
+[10:25:28.050] [INFO   ] AI key pressed step 3, random slot: 0
+[10:25:28.050] [INFO   ] creat AI step 8 
+[10:25:28.050] [INFO   ] creat AI step 9 
+[10:25:28.050] [INFO   ] creat AI step 10 
+[10:25:28.050] [INFO   ] creat AI step 11 
+[10:25:28.050] [INFO   ] creat AI step 3 
+[10:25:28.050] [INFO   ] creat AI step 7 
+[10:25:28.050] [INFO   ] AI key pressed step 1 
+[10:25:28.050] [INFO   ] AI key pressed step 2 
+[10:25:28.050] [INFO   ] KP step 1computer-1
+[10:25:28.050] [INFO   ] KP step 10computer-1
+[10:25:28.051] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.051] [INFO   ] creat AI step 8 
+[10:25:28.051] [INFO   ] creat AI step 9 
+[10:25:28.051] [INFO   ] creat AI step 10 
+[10:25:28.051] [INFO   ] creat AI step 11 
+[10:25:28.051] [INFO   ] creat AI step 3 
+[10:25:28.051] [INFO   ] creat AI step 7 
+[10:25:28.051] [INFO   ] AI key pressed step 1 
+[10:25:28.051] [INFO   ] AI key pressed step 2 
+[10:25:28.051] [INFO   ] KP step 1computer-1
+[10:25:28.051] [INFO   ] KP step 10computer-1
+[10:25:28.051] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:28.051] [INFO   ] creat AI step 8 
+[10:25:28.051] [INFO   ] creat AI step 9 
+[10:25:28.051] [INFO   ] creat AI step 10 
+[10:25:28.051] [INFO   ] creat AI step 11 
+[10:25:28.051] [INFO   ] creat AI step 3 
+[10:25:28.051] [INFO   ] creat AI step 7 
+[10:25:28.051] [INFO   ] AI key pressed step 1 
+[10:25:28.051] [INFO   ] AI key pressed step 2 
+[10:25:28.051] [INFO   ] KP step 1computer-1
+[10:25:28.051] [INFO   ] KP step 10computer-1
+[10:25:28.051] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:28.051] [INFO   ] creat AI step 8 
+[10:25:28.052] [INFO   ] creat AI step 9 
+[10:25:28.052] [INFO   ] creat AI step 10 
+[10:25:28.052] [INFO   ] creat AI step 11 
+[10:25:28.052] [INFO   ] creat AI step 3 
+[10:25:28.052] [INFO   ] creat AI step 7 
+[10:25:28.052] [INFO   ] AI key pressed step 1 
+[10:25:28.054] [INFO   ] AI key pressed step 2 
+[10:25:28.054] [INFO   ] KP step 1computer-1
+[10:25:28.054] [INFO   ] KP step 10computer-1
+[10:25:28.054] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:28.054] [INFO   ] creat AI step 8 
+[10:25:28.054] [INFO   ] creat AI step 9 
+[10:25:28.054] [INFO   ] creat AI step 10 
+[10:25:28.054] [INFO   ] creat AI step 11 
+[10:25:28.054] [INFO   ] creat AI step 3 
+[10:25:28.054] [INFO   ] creat AI step 7 
+[10:25:28.054] [INFO   ] AI key pressed step 1 
+[10:25:28.054] [INFO   ] AI key pressed step 2 
+[10:25:28.054] [INFO   ] KP step 1computer-1
+[10:25:28.054] [INFO   ] KP step 10computer-1
+[10:25:28.054] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.054] [INFO   ] creat AI step 8 
+[10:25:28.054] [INFO   ] creat AI step 9 
+[10:25:28.055] [INFO   ] creat AI step 10 
+[10:25:28.055] [INFO   ] creat AI step 11 
+[10:25:28.055] [INFO   ] creat AI step 3 
+[10:25:28.055] [INFO   ] creat AI step 7 
+[10:25:28.055] [INFO   ] AI key pressed step 1 
+[10:25:28.055] [INFO   ] AI key pressed step 2 
+[10:25:28.055] [INFO   ] KP step 1computer-1
+[10:25:28.055] [INFO   ] KP step 10computer-1
+[10:25:28.055] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:28.055] [INFO   ] creat AI step 8 
+[10:25:28.055] [INFO   ] creat AI step 9 
+[10:25:28.055] [INFO   ] creat AI step 10 
+[10:25:28.055] [INFO   ] creat AI step 11 
+[10:25:28.055] [INFO   ] creat AI step 3 
+[10:25:28.055] [INFO   ] creat AI step 7 
+[10:25:28.055] [INFO   ] AI key pressed step 1 
+[10:25:28.055] [INFO   ] AI key pressed step 2 
+[10:25:28.055] [INFO   ] KP step 1computer-1
+[10:25:28.055] [INFO   ] KP step 10computer-1
+[10:25:28.055] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.055] [INFO   ] creat AI step 8 
+[10:25:28.055] [INFO   ] creat AI step 9 
+[10:25:28.055] [INFO   ] creat AI step 10 
+[10:25:28.056] [INFO   ] creat AI step 11 
+[10:25:28.056] [INFO   ] creat AI step 3 
+[10:25:28.056] [INFO   ] creat AI step 7 
+[10:25:28.056] [INFO   ] AI key pressed step 1 
+[10:25:28.056] [INFO   ] AI key pressed step 2 
+[10:25:28.056] [INFO   ] KP step 1computer-1
+[10:25:28.056] [INFO   ] KP step 10computer-1
+[10:25:28.056] [INFO   ] AI key pressed step 3, random slot: 5
+[10:25:28.056] [INFO   ] creat AI step 8 
+[10:25:28.056] [INFO   ] creat AI step 9 
+[10:25:28.056] [INFO   ] creat AI step 10 
+[10:25:28.056] [INFO   ] creat AI step 11 
+[10:25:28.056] [INFO   ] creat AI step 3 
+[10:25:28.056] [INFO   ] creat AI step 7 
+[10:25:28.056] [INFO   ] AI key pressed step 1 
+[10:25:28.056] [INFO   ] AI key pressed step 2 
+[10:25:28.056] [INFO   ] KP step 1computer-1
+[10:25:28.056] [INFO   ] KP step 10computer-1
+[10:25:28.056] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.056] [INFO   ] creat AI step 8 
+[10:25:28.056] [INFO   ] creat AI step 9 
+[10:25:28.045] [INFO   ] AI key pressed step 2 
+[10:25:28.056] [INFO   ] creat AI step 10 
+[10:25:28.058] [INFO   ] creat AI step 11 
+[10:25:28.058] [INFO   ] creat AI step 3 
+[10:25:28.058] [INFO   ] creat AI step 7 
+[10:25:28.058] [INFO   ] AI key pressed step 1 
+[10:25:28.059] [INFO   ] AI key pressed step 2 
+[10:25:28.059] [INFO   ] KP step 1computer-1
+[10:25:28.059] [INFO   ] KP step 10computer-1
+[10:25:28.059] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.059] [INFO   ] creat AI step 8 
+[10:25:28.059] [INFO   ] creat AI step 9 
+[10:25:28.059] [INFO   ] creat AI step 10 
+[10:25:28.059] [INFO   ] creat AI step 11 
+[10:25:28.059] [INFO   ] creat AI step 3 
+[10:25:28.059] [INFO   ] creat AI step 7 
+[10:25:28.059] [INFO   ] AI key pressed step 1 
+[10:25:28.059] [INFO   ] AI key pressed step 2 
+[10:25:28.059] [INFO   ] KP step 1computer-1
+[10:25:28.059] [INFO   ] KP step 10computer-1
+[10:25:28.059] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.059] [INFO   ] creat AI step 8 
+[10:25:28.059] [INFO   ] creat AI step 9 
+[10:25:28.059] [INFO   ] creat AI step 10 
+[10:25:28.059] [INFO   ] creat AI step 11 
+[10:25:28.059] [INFO   ] creat AI step 3 
+[10:25:28.059] [INFO   ] creat AI step 7 
+[10:25:28.059] [INFO   ] AI key pressed step 1 
+[10:25:28.059] [INFO   ] AI key pressed step 2 
+[10:25:28.059] [INFO   ] KP step 1computer-1
+[10:25:28.059] [INFO   ] KP step 10computer-1
+[10:25:28.059] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.059] [INFO   ] creat AI step 8 
+[10:25:28.059] [INFO   ] creat AI step 9 
+[10:25:28.060] [INFO   ] creat AI step 10 
+[10:25:28.060] [INFO   ] creat AI step 11 
+[10:25:28.060] [INFO   ] creat AI step 3 
+[10:25:28.060] [INFO   ] creat AI step 7 
+[10:25:28.060] [INFO   ] AI key pressed step 1 
+[10:25:28.060] [INFO   ] AI key pressed step 2 
+[10:25:28.060] [INFO   ] KP step 1computer-1
+[10:25:28.060] [INFO   ] KP step 10computer-1
+[10:25:28.060] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:28.060] [INFO   ] creat AI step 8 
+[10:25:28.060] [INFO   ] creat AI step 9 
+[10:25:28.060] [INFO   ] creat AI step 10 
+[10:25:28.060] [INFO   ] creat AI step 11 
+[10:25:28.060] [INFO   ] creat AI step 3 
+[10:25:28.060] [INFO   ] creat AI step 7 
+[10:25:28.060] [INFO   ] AI key pressed step 1 
+[10:25:28.060] [INFO   ] AI key pressed step 2 
+[10:25:28.060] [INFO   ] KP step 1computer-1
+[10:25:28.060] [INFO   ] KP step 10computer-1
+[10:25:28.060] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:28.061] [INFO   ] creat AI step 8 
+[10:25:28.061] [INFO   ] creat AI step 9 
+[10:25:28.061] [INFO   ] creat AI step 10 
+[10:25:28.061] [INFO   ] creat AI step 11 
+[10:25:28.061] [INFO   ] creat AI step 3 
+[10:25:28.061] [INFO   ] creat AI step 7 
+[10:25:28.061] [INFO   ] AI key pressed step 1 
+[10:25:28.061] [INFO   ] AI key pressed step 2 
+[10:25:28.061] [INFO   ] KP step 1computer-1
+[10:25:28.061] [INFO   ] KP step 10computer-1
+[10:25:28.061] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.061] [INFO   ] creat AI step 8 
+[10:25:28.061] [INFO   ] creat AI step 9 
+[10:25:28.061] [INFO   ] creat AI step 10 
+[10:25:28.061] [INFO   ] creat AI step 11 
+[10:25:28.061] [INFO   ] creat AI step 3 
+[10:25:28.061] [INFO   ] creat AI step 7 
+[10:25:28.061] [INFO   ] AI key pressed step 1 
+[10:25:28.061] [INFO   ] AI key pressed step 2 
+[10:25:28.061] [INFO   ] KP step 1computer-1
+[10:25:28.062] [INFO   ] KP step 10computer-1
+[10:25:28.062] [INFO   ] AI key pressed step 3, random slot: 5
+[10:25:28.062] [INFO   ] creat AI step 8 
+[10:25:28.062] [INFO   ] creat AI step 9 
+[10:25:28.062] [INFO   ] creat AI step 10 
+[10:25:28.062] [INFO   ] creat AI step 11 
+[10:25:28.062] [INFO   ] creat AI step 3 
+[10:25:28.062] [INFO   ] creat AI step 7 
+[10:25:28.062] [INFO   ] AI key pressed step 1 
+[10:25:28.062] [INFO   ] AI key pressed step 2 
+[10:25:28.062] [INFO   ] KP step 1computer-1
+[10:25:28.062] [INFO   ] KP step 10computer-1
+[10:25:28.062] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:28.062] [INFO   ] creat AI step 8 
+[10:25:28.062] [INFO   ] creat AI step 9 
+[10:25:28.062] [INFO   ] creat AI step 10 
+[10:25:28.062] [INFO   ] creat AI step 11 
+[10:25:28.062] [INFO   ] creat AI step 3 
+[10:25:28.063] [INFO   ] creat AI step 7 
+[10:25:28.063] [INFO   ] AI key pressed step 1 
+[10:25:28.063] [INFO   ] AI key pressed step 2 
+[10:25:28.063] [INFO   ] KP step 1computer-1
+[10:25:28.063] [INFO   ] KP step 10computer-1
+[10:25:28.063] [INFO   ] AI key pressed step 3, random slot: 5
+[10:25:28.063] [INFO   ] creat AI step 8 
+[10:25:28.063] [INFO   ] creat AI step 9 
+[10:25:28.063] [INFO   ] creat AI step 10 
+[10:25:28.063] [INFO   ] creat AI step 11 
+[10:25:28.064] [INFO   ] creat AI step 3 
+[10:25:28.064] [INFO   ] creat AI step 7 
+[10:25:28.064] [INFO   ] AI key pressed step 1 
+[10:25:28.064] [INFO   ] AI key pressed step 2 
+[10:25:28.064] [INFO   ] KP step 1computer-1
+[10:25:28.064] [INFO   ] KP step 10computer-1
+[10:25:28.064] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:28.064] [INFO   ] creat AI step 8 
+[10:25:28.064] [INFO   ] creat AI step 9 
+[10:25:28.064] [INFO   ] creat AI step 10 
+[10:25:28.064] [INFO   ] creat AI step 11 
+[10:25:28.064] [INFO   ] creat AI step 3 
+[10:25:28.064] [INFO   ] creat AI step 7 
+[10:25:28.064] [INFO   ] AI key pressed step 1 
+[10:25:28.064] [INFO   ] AI key pressed step 2 
+[10:25:28.064] [INFO   ] KP step 1computer-1
+[10:25:28.064] [INFO   ] KP step 10computer-1
+[10:25:28.064] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:28.064] [INFO   ] creat AI step 8 
+[10:25:28.064] [INFO   ] creat AI step 9 
+[10:25:28.064] [INFO   ] creat AI step 10 
+[10:25:28.064] [INFO   ] creat AI step 11 
+[10:25:28.064] [INFO   ] creat AI step 3 
+[10:25:28.064] [INFO   ] creat AI step 7 
+[10:25:28.064] [INFO   ] AI key pressed step 1 
+[10:25:28.064] [INFO   ] AI key pressed step 2 
+[10:25:28.064] [INFO   ] KP step 1computer-1
+[10:25:28.064] [INFO   ] KP step 10computer-1
+[10:25:28.064] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:28.064] [INFO   ] creat AI step 8 
+[10:25:28.066] [INFO   ] creat AI step 9 
+[10:25:28.058] [INFO   ] KP step 1computer-0
+[10:25:28.066] [INFO   ] KP step 10computer-0
+[10:25:28.066] [INFO   ] creat AI step 10 
+[10:25:28.066] [INFO   ] creat AI step 11 
+[10:25:28.066] [INFO   ] creat AI step 3 
+[10:25:28.066] [INFO   ] creat AI step 7 
+[10:25:28.066] [INFO   ] AI key pressed step 1 
+[10:25:28.066] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:28.066] [INFO   ] creat AI step 8 
+[10:25:28.066] [INFO   ] creat AI step 9 
+[10:25:28.066] [INFO   ] AI key pressed step 2 
+[10:25:28.066] [INFO   ] creat AI step 10 
+[10:25:28.066] [INFO   ] KP step 1computer-1
+[10:25:28.066] [INFO   ] KP step 10computer-1
+[10:25:28.066] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.066] [INFO   ] creat AI step 8 
+[10:25:28.066] [INFO   ] creat AI step 9 
+[10:25:28.066] [INFO   ] creat AI step 11 
+[10:25:28.066] [INFO   ] creat AI step 3 
+[10:25:28.066] [INFO   ] creat AI step 10 
+[10:25:28.066] [INFO   ] creat AI step 7 
+[10:25:28.067] [INFO   ] AI key pressed step 1 
+[10:25:28.067] [INFO   ] creat AI step 11 
+[10:25:28.067] [INFO   ] AI key pressed step 2 
+[10:25:28.067] [INFO   ] creat AI step 3 
+[10:25:28.067] [INFO   ] KP step 1computer-0
+[10:25:28.067] [INFO   ] creat AI step 7 
+[10:25:28.067] [INFO   ] AI key pressed step 1 
+[10:25:28.067] [INFO   ] KP step 10computer-0
+[10:25:28.067] [INFO   ] AI key pressed step 2 
+[10:25:28.067] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.067] [INFO   ] KP step 1computer-1
+[10:25:28.068] [INFO   ] creat AI step 8 
+[10:25:28.068] [INFO   ] creat AI step 9 
+[10:25:28.068] [INFO   ] KP step 10computer-1
+[10:25:28.068] [INFO   ] creat AI step 10 
+[10:25:28.068] [INFO   ] creat AI step 11 
+[10:25:28.068] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.068] [INFO   ] creat AI step 8 
+[10:25:28.068] [INFO   ] creat AI step 9 
+[10:25:28.068] [INFO   ] creat AI step 10 
+[10:25:28.068] [INFO   ] creat AI step 11 
+[10:25:28.068] [INFO   ] creat AI step 3 
+[10:25:28.068] [INFO   ] creat AI step 7 
+[10:25:28.068] [INFO   ] AI key pressed step 1 
+[10:25:28.069] [INFO   ] AI key pressed step 2 
+[10:25:28.069] [INFO   ] KP step 1computer-1
+[10:25:28.069] [INFO   ] KP step 10computer-1
+[10:25:28.069] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.069] [INFO   ] creat AI step 8 
+[10:25:28.069] [INFO   ] creat AI step 9 
+[10:25:28.069] [INFO   ] creat AI step 10 
+[10:25:28.069] [INFO   ] creat AI step 11 
+[10:25:28.069] [INFO   ] creat AI step 3 
+[10:25:28.069] [INFO   ] creat AI step 7 
+[10:25:28.069] [INFO   ] AI key pressed step 1 
+[10:25:28.069] [INFO   ] AI key pressed step 2 
+[10:25:28.069] [INFO   ] KP step 1computer-1
+[10:25:28.069] [INFO   ] KP step 10computer-1
+[10:25:28.068] [INFO   ] creat AI step 3 
+[10:25:28.070] [INFO   ] creat AI step 7 
+[10:25:28.070] [INFO   ] AI key pressed step 1 
+[10:25:28.069] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:28.070] [INFO   ] creat AI step 8 
+[10:25:28.070] [INFO   ] creat AI step 9 
+[10:25:28.070] [INFO   ] AI key pressed step 2 
+[10:25:28.070] [INFO   ] creat AI step 10 
+[10:25:28.070] [INFO   ] creat AI step 11 
+[10:25:28.070] [INFO   ] creat AI step 3 
+[10:25:28.070] [INFO   ] KP step 1computer-0
+[10:25:28.070] [INFO   ] KP step 10computer-0
+[10:25:28.070] [INFO   ] creat AI step 7 
+[10:25:28.070] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:28.071] [INFO   ] creat AI step 8 
+[10:25:28.070] [INFO   ] AI key pressed step 1 
+[10:25:28.071] [INFO   ] AI key pressed step 2 
+[10:25:28.071] [INFO   ] KP step 1computer-1
+[10:25:28.071] [INFO   ] KP step 10computer-1
+[10:25:28.071] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:28.071] [INFO   ] creat AI step 8 
+[10:25:28.071] [INFO   ] creat AI step 9 
+[10:25:28.071] [INFO   ] creat AI step 10 
+[10:25:28.071] [INFO   ] creat AI step 11 
+[10:25:28.071] [INFO   ] creat AI step 9 
+[10:25:28.071] [INFO   ] creat AI step 3 
+[10:25:28.071] [INFO   ] creat AI step 10 
+[10:25:28.072] [INFO   ] creat AI step 11 
+[10:25:28.072] [INFO   ] creat AI step 7 
+[10:25:28.072] [INFO   ] AI key pressed step 1 
+[10:25:28.072] [INFO   ] creat AI step 3 
+[10:25:28.072] [INFO   ] AI key pressed step 2 
+[10:25:28.072] [INFO   ] KP step 1computer-1
+[10:25:28.072] [INFO   ] creat AI step 7 
+[10:25:28.072] [INFO   ] KP step 10computer-1
+[10:25:28.073] [INFO   ] AI key pressed step 1 
+[10:25:28.073] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:28.073] [INFO   ] creat AI step 8 
+[10:25:28.073] [INFO   ] creat AI step 9 
+[10:25:28.073] [INFO   ] AI key pressed step 2 
+[10:25:28.073] [INFO   ] creat AI step 10 
+[10:25:28.073] [INFO   ] creat AI step 11 
+[10:25:28.074] [INFO   ] creat AI step 3 
+[10:25:28.074] [INFO   ] creat AI step 7 
+[10:25:28.074] [INFO   ] AI key pressed step 1 
+[10:25:28.074] [INFO   ] AI key pressed step 2 
+[10:25:28.074] [INFO   ] KP step 1computer-1
+[10:25:28.074] [INFO   ] KP step 10computer-1
+[10:25:28.074] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.074] [INFO   ] creat AI step 8 
+[10:25:28.074] [INFO   ] creat AI step 9 
+[10:25:28.074] [INFO   ] creat AI step 10 
+[10:25:28.074] [INFO   ] creat AI step 11 
+[10:25:28.074] [INFO   ] creat AI step 3 
+[10:25:28.074] [INFO   ] creat AI step 7 
+[10:25:28.074] [INFO   ] AI key pressed step 1 
+[10:25:28.074] [INFO   ] AI key pressed step 2 
+[10:25:28.074] [INFO   ] KP step 1computer-1
+[10:25:28.074] [INFO   ] KP step 10computer-1
+[10:25:28.074] [INFO   ] AI key pressed step 3, random slot: 5
+[10:25:28.074] [INFO   ] creat AI step 8 
+[10:25:28.074] [INFO   ] creat AI step 9 
+[10:25:28.074] [INFO   ] creat AI step 10 
+[10:25:28.076] [INFO   ] creat AI step 11 
+[10:25:28.076] [INFO   ] creat AI step 3 
+[10:25:28.076] [INFO   ] creat AI step 7 
+[10:25:28.076] [INFO   ] AI key pressed step 1 
+[10:25:28.076] [INFO   ] AI key pressed step 2 
+[10:25:28.076] [INFO   ] KP step 1computer-1
+[10:25:28.076] [INFO   ] KP step 10computer-1
+[10:25:28.076] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:28.076] [INFO   ] creat AI step 8 
+[10:25:28.076] [INFO   ] creat AI step 9 
+[10:25:28.076] [INFO   ] creat AI step 10 
+[10:25:28.076] [INFO   ] creat AI step 11 
+[10:25:28.077] [INFO   ] creat AI step 3 
+[10:25:28.077] [INFO   ] creat AI step 7 
+[10:25:28.077] [INFO   ] AI key pressed step 1 
+[10:25:28.077] [INFO   ] AI key pressed step 2 
+[10:25:28.077] [INFO   ] KP step 1computer-1
+[10:25:28.077] [INFO   ] KP step 10computer-1
+[10:25:28.077] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:28.077] [INFO   ] creat AI step 8 
+[10:25:28.077] [INFO   ] creat AI step 9 
+[10:25:28.077] [INFO   ] creat AI step 10 
+[10:25:28.077] [INFO   ] creat AI step 11 
+[10:25:28.077] [INFO   ] creat AI step 3 
+[10:25:28.077] [INFO   ] creat AI step 7 
+[10:25:28.077] [INFO   ] AI key pressed step 1 
+[10:25:28.077] [INFO   ] AI key pressed step 2 
+[10:25:28.077] [INFO   ] KP step 1computer-1
+[10:25:28.077] [INFO   ] KP step 10computer-1
+[10:25:28.077] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:28.077] [INFO   ] creat AI step 8 
+[10:25:28.077] [INFO   ] creat AI step 9 
+[10:25:28.078] [INFO   ] creat AI step 10 
+[10:25:28.078] [INFO   ] creat AI step 11 
+[10:25:28.078] [INFO   ] creat AI step 3 
+[10:25:28.078] [INFO   ] creat AI step 7 
+[10:25:28.078] [INFO   ] AI key pressed step 1 
+[10:25:28.078] [INFO   ] AI key pressed step 2 
+[10:25:28.078] [INFO   ] KP step 1computer-1
+[10:25:28.078] [INFO   ] KP step 10computer-1
+[10:25:28.078] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:28.078] [INFO   ] creat AI step 8 
+[10:25:28.078] [INFO   ] creat AI step 9 
+[10:25:28.078] [INFO   ] creat AI step 10 
+[10:25:28.078] [INFO   ] creat AI step 11 
+[10:25:28.078] [INFO   ] creat AI step 3 
+[10:25:28.078] [INFO   ] creat AI step 7 
+[10:25:28.078] [INFO   ] AI key pressed step 1 
+[10:25:28.078] [INFO   ] AI key pressed step 2 
+[10:25:28.079] [INFO   ] KP step 1computer-1
+[10:25:28.079] [INFO   ] KP step 10computer-1
+[10:25:28.079] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:28.079] [INFO   ] creat AI step 8 
+[10:25:28.079] [INFO   ] creat AI step 9 
+[10:25:28.079] [INFO   ] creat AI step 10 
+[10:25:28.079] [INFO   ] creat AI step 11 
+[10:25:28.079] [INFO   ] creat AI step 3 
+[10:25:28.079] [INFO   ] creat AI step 7 
+[10:25:28.079] [INFO   ] AI key pressed step 1 
+[10:25:28.079] [INFO   ] AI key pressed step 2 
+[10:25:28.079] [INFO   ] KP step 1computer-1
+[10:25:28.079] [INFO   ] KP step 10computer-1
+[10:25:28.079] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.079] [INFO   ] creat AI step 8 
+[10:25:28.079] [INFO   ] creat AI step 9 
+[10:25:28.080] [INFO   ] creat AI step 10 
+[10:25:28.080] [INFO   ] creat AI step 11 
+[10:25:28.080] [INFO   ] creat AI step 3 
+[10:25:28.073] [INFO   ] KP step 1computer-0
+[10:25:28.080] [INFO   ] creat AI step 7 
+[10:25:28.080] [INFO   ] AI key pressed step 1 
+[10:25:28.080] [INFO   ] KP step 10computer-0
+[10:25:28.080] [INFO   ] AI key pressed step 2 
+[10:25:28.081] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:28.081] [INFO   ] creat AI step 8 
+[10:25:28.081] [INFO   ] creat AI step 9 
+[10:25:28.081] [INFO   ] KP step 1computer-1
+[10:25:28.081] [INFO   ] creat AI step 10 
+[10:25:28.081] [INFO   ] creat AI step 11 
+[10:25:28.081] [INFO   ] KP step 10computer-1
+[10:25:28.081] [INFO   ] creat AI step 3 
+[10:25:28.081] [INFO   ] creat AI step 7 
+[10:25:28.081] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:28.082] [INFO   ] creat AI step 8 
+[10:25:28.081] [INFO   ] AI key pressed step 1 
+[10:25:28.082] [INFO   ] creat AI step 9 
+[10:25:28.082] [INFO   ] AI key pressed step 2 
+[10:25:28.082] [INFO   ] creat AI step 10 
+[10:25:28.082] [INFO   ] creat AI step 11 
+[10:25:28.082] [INFO   ] KP step 1computer-0
+[10:25:28.082] [INFO   ] creat AI step 3 
+[10:25:28.082] [INFO   ] creat AI step 7 
+[10:25:28.082] [INFO   ] KP step 10computer-0
+[10:25:28.082] [INFO   ] AI key pressed step 1 
+[10:25:28.082] [INFO   ] AI key pressed step 2 
+[10:25:28.083] [INFO   ] KP step 1computer-1
+[10:25:28.083] [INFO   ] KP step 10computer-1
+[10:25:28.082] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.083] [INFO   ] creat AI step 8 
+[10:25:28.083] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:28.083] [INFO   ] creat AI step 8 
+[10:25:28.083] [INFO   ] creat AI step 9 
+[10:25:28.083] [INFO   ] creat AI step 10 
+[10:25:28.083] [INFO   ] creat AI step 11 
+[10:25:28.083] [INFO   ] creat AI step 3 
+[10:25:28.083] [INFO   ] creat AI step 7 
+[10:25:28.083] [INFO   ] creat AI step 9 
+[10:25:28.083] [INFO   ] AI key pressed step 1 
+[10:25:28.083] [INFO   ] creat AI step 10 
+[10:25:28.084] [INFO   ] AI key pressed step 2 
+[10:25:28.084] [INFO   ] KP step 1computer-1
+[10:25:28.084] [INFO   ] creat AI step 11 
+[10:25:28.084] [INFO   ] KP step 10computer-1
+[10:25:28.084] [INFO   ] creat AI step 3 
+[10:25:28.084] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:28.084] [INFO   ] creat AI step 8 
+[10:25:28.084] [INFO   ] creat AI step 9 
+[10:25:28.084] [INFO   ] creat AI step 7 
+[10:25:28.084] [INFO   ] creat AI step 10 
+[10:25:28.084] [INFO   ] creat AI step 11 
+[10:25:28.084] [INFO   ] creat AI step 3 
+[10:25:28.084] [INFO   ] AI key pressed step 1 
+[10:25:28.084] [INFO   ] creat AI step 7 
+[10:25:28.085] [INFO   ] AI key pressed step 2 
+[10:25:28.085] [INFO   ] AI key pressed step 1 
+[10:25:28.085] [INFO   ] AI key pressed step 2 
+[10:25:28.085] [INFO   ] KP step 1computer-0
+[10:25:28.085] [INFO   ] KP step 1computer-1
+[10:25:28.085] [INFO   ] KP step 10computer-0
+[10:25:28.085] [INFO   ] KP step 10computer-1
+[10:25:28.085] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:28.085] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.085] [INFO   ] creat AI step 8 
+[10:25:28.085] [INFO   ] creat AI step 8 
+[10:25:28.085] [INFO   ] creat AI step 9 
+[10:25:28.086] [INFO   ] creat AI step 9 
+[10:25:28.086] [INFO   ] creat AI step 10 
+[10:25:28.086] [INFO   ] creat AI step 10 
+[10:25:28.086] [INFO   ] creat AI step 11 
+[10:25:28.086] [INFO   ] creat AI step 3 
+[10:25:28.086] [INFO   ] creat AI step 7 
+[10:25:28.086] [INFO   ] AI key pressed step 1 
+[10:25:28.086] [INFO   ] creat AI step 11 
+[10:25:28.086] [INFO   ] AI key pressed step 2 
+[10:25:28.086] [INFO   ] creat AI step 3 
+[10:25:28.086] [INFO   ] KP step 1computer-1
+[10:25:28.086] [INFO   ] creat AI step 7 
+[10:25:28.087] [INFO   ] AI key pressed step 1 
+[10:25:28.087] [INFO   ] KP step 10computer-1
+[10:25:28.087] [INFO   ] AI key pressed step 2 
+[10:25:28.087] [INFO   ] KP step 1computer-0
+[10:25:28.087] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:28.087] [INFO   ] KP step 10computer-0
+[10:25:28.087] [INFO   ] creat AI step 8 
+[10:25:28.087] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:28.088] [INFO   ] creat AI step 9 
+[10:25:28.088] [INFO   ] creat AI step 8 
+[10:25:28.088] [INFO   ] creat AI step 10 
+[10:25:28.088] [INFO   ] creat AI step 9 
+[10:25:28.088] [INFO   ] creat AI step 11 
+[10:25:28.088] [INFO   ] creat AI step 10 
+[10:25:28.088] [INFO   ] creat AI step 11 
+[10:25:28.088] [INFO   ] creat AI step 3 
+[10:25:28.088] [INFO   ] creat AI step 7 
+[10:25:28.088] [INFO   ] AI key pressed step 1 
+[10:25:28.088] [INFO   ] creat AI step 3 
+[10:25:28.089] [INFO   ] creat AI step 7 
+[10:25:28.089] [INFO   ] AI key pressed step 1 
+[10:25:28.089] [INFO   ] AI key pressed step 2 
+[10:25:28.088] [INFO   ] AI key pressed step 2 
+[10:25:28.089] [INFO   ] KP step 1computer-1
+[10:25:28.089] [INFO   ] KP step 1computer-0
+[10:25:28.089] [INFO   ] KP step 10computer-1
+[10:25:28.089] [INFO   ] KP step 10computer-0
+[10:25:28.089] [INFO   ] AI key pressed step 3, random slot: 7
+[10:25:28.089] [INFO   ] creat AI step 8 
+[10:25:28.089] [INFO   ] creat AI step 9 
+[10:25:28.089] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:28.089] [INFO   ] creat AI step 10 
+[10:25:28.089] [INFO   ] creat AI step 8 
+[10:25:28.090] [INFO   ] creat AI step 9 
+[10:25:28.090] [INFO   ] creat AI step 11 
+[10:25:28.090] [INFO   ] creat AI step 3 
+[10:25:28.090] [INFO   ] creat AI step 10 
+[10:25:28.090] [INFO   ] creat AI step 11 
+[10:25:28.090] [INFO   ] creat AI step 7 
+[10:25:28.090] [INFO   ] AI key pressed step 1 
+[10:25:28.090] [INFO   ] creat AI step 3 
+[10:25:28.090] [INFO   ] creat AI step 7 
+[10:25:28.090] [INFO   ] AI key pressed step 1 
+[10:25:28.090] [INFO   ] AI key pressed step 2 
+[10:25:28.090] [INFO   ] AI key pressed step 2 
+[10:25:28.091] [INFO   ] KP step 1computer-1
+[10:25:28.091] [INFO   ] KP step 1computer-0
+[10:25:28.091] [INFO   ] KP step 10computer-1
+[10:25:28.091] [INFO   ] KP step 10computer-0
+[10:25:28.091] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:28.091] [INFO   ] creat AI step 8 
+[10:25:28.091] [INFO   ] creat AI step 9 
+[10:25:28.092] [INFO   ] creat AI step 10 
+[10:25:28.092] [INFO   ] creat AI step 11 
+[10:25:28.092] [INFO   ] creat AI step 3 
+[10:25:28.092] [INFO   ] creat AI step 7 
+[10:25:28.092] [INFO   ] AI key pressed step 1 
+[10:25:28.092] [INFO   ] AI key pressed step 2 
+[10:25:28.092] [INFO   ] KP step 1computer-1
+[10:25:28.092] [INFO   ] KP step 10computer-1
+[10:25:28.092] [INFO   ] AI key pressed step 3, random slot: 0
+[10:25:28.091] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:28.092] [INFO   ] creat AI step 8 
+[10:25:28.092] [INFO   ] creat AI step 9 
+[10:25:28.092] [INFO   ] creat AI step 10 
+[10:25:28.092] [INFO   ] creat AI step 11 
+[10:25:28.092] [INFO   ] creat AI step 3 
+[10:25:28.092] [INFO   ] creat AI step 7 
+[10:25:28.092] [INFO   ] AI key pressed step 1 
+[10:25:28.092] [INFO   ] AI key pressed step 2 
+[10:25:28.092] [INFO   ] KP step 1computer-1
+[10:25:28.092] [INFO   ] creat AI step 8 
+[10:25:28.092] [INFO   ] KP step 10computer-1
+[10:25:28.093] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:28.093] [INFO   ] creat AI step 8 
+[10:25:28.093] [INFO   ] creat AI step 9 
+[10:25:28.093] [INFO   ] creat AI step 10 
+[10:25:28.093] [INFO   ] creat AI step 11 
+[10:25:28.093] [INFO   ] creat AI step 3 
+[10:25:28.093] [INFO   ] creat AI step 7 
+[10:25:28.093] [INFO   ] AI key pressed step 1 
+[10:25:28.093] [INFO   ] AI key pressed step 2 
+[10:25:28.093] [INFO   ] KP step 1computer-1
+[10:25:28.093] [INFO   ] KP step 10computer-1
+[10:25:28.094] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.094] [INFO   ] creat AI step 8 
+[10:25:28.093] [INFO   ] creat AI step 9 
+[10:25:28.094] [INFO   ] creat AI step 9 
+[10:25:28.094] [INFO   ] creat AI step 10 
+[10:25:28.094] [INFO   ] creat AI step 11 
+[10:25:28.094] [INFO   ] creat AI step 3 
+[10:25:28.094] [INFO   ] creat AI step 10 
+[10:25:28.094] [INFO   ] creat AI step 11 
+[10:25:28.094] [INFO   ] creat AI step 7 
+[10:25:28.094] [INFO   ] AI key pressed step 1 
+[10:25:28.094] [INFO   ] AI key pressed step 2 
+[10:25:28.094] [INFO   ] KP step 1computer-1
+[10:25:28.094] [INFO   ] KP step 10computer-1
+[10:25:28.094] [INFO   ] creat AI step 3 
+[10:25:28.094] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:28.094] [INFO   ] creat AI step 8 
+[10:25:28.094] [INFO   ] creat AI step 9 
+[10:25:28.094] [INFO   ] creat AI step 7 
+[10:25:28.096] [INFO   ] creat AI step 10 
+[10:25:28.096] [INFO   ] creat AI step 11 
+[10:25:28.096] [INFO   ] creat AI step 3 
+[10:25:28.096] [INFO   ] creat AI step 7 
+[10:25:28.096] [INFO   ] AI key pressed step 1 
+[10:25:28.096] [INFO   ] AI key pressed step 2 
+[10:25:28.096] [INFO   ] KP step 1computer-1
+[10:25:28.096] [INFO   ] KP step 10computer-1
+[10:25:28.096] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:28.096] [INFO   ] creat AI step 8 
+[10:25:28.096] [INFO   ] creat AI step 9 
+[10:25:28.096] [INFO   ] creat AI step 10 
+[10:25:28.096] [INFO   ] creat AI step 11 
+[10:25:28.096] [INFO   ] creat AI step 3 
+[10:25:28.096] [INFO   ] creat AI step 7 
+[10:25:28.096] [INFO   ] AI key pressed step 1 
+[10:25:28.096] [INFO   ] AI key pressed step 2 
+[10:25:28.096] [INFO   ] KP step 1computer-1
+[10:25:28.096] [INFO   ] KP step 10computer-1
+[10:25:28.097] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.097] [INFO   ] creat AI step 8 
+[10:25:28.097] [INFO   ] creat AI step 9 
+[10:25:28.097] [INFO   ] creat AI step 10 
+[10:25:28.097] [INFO   ] creat AI step 11 
+[10:25:28.097] [INFO   ] creat AI step 3 
+[10:25:28.097] [INFO   ] creat AI step 7 
+[10:25:28.097] [INFO   ] AI key pressed step 1 
+[10:25:28.097] [INFO   ] AI key pressed step 2 
+[10:25:28.097] [INFO   ] KP step 1computer-1
+[10:25:28.097] [INFO   ] KP step 10computer-1
+[10:25:28.097] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:28.097] [INFO   ] creat AI step 8 
+[10:25:28.097] [INFO   ] creat AI step 9 
+[10:25:28.097] [INFO   ] creat AI step 10 
+[10:25:28.097] [INFO   ] creat AI step 11 
+[10:25:28.097] [INFO   ] creat AI step 3 
+[10:25:28.097] [INFO   ] creat AI step 7 
+[10:25:28.097] [INFO   ] AI key pressed step 1 
+[10:25:28.097] [INFO   ] AI key pressed step 2 
+[10:25:28.097] [INFO   ] KP step 1computer-1
+[10:25:28.097] [INFO   ] KP step 10computer-1
+[10:25:28.097] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:28.097] [INFO   ] creat AI step 8 
+[10:25:28.097] [INFO   ] creat AI step 9 
+[10:25:28.097] [INFO   ] creat AI step 10 
+[10:25:28.098] [INFO   ] creat AI step 11 
+[10:25:28.098] [INFO   ] creat AI step 3 
+[10:25:28.098] [INFO   ] creat AI step 7 
+[10:25:28.098] [INFO   ] AI key pressed step 1 
+[10:25:28.098] [INFO   ] AI key pressed step 2 
+[10:25:28.098] [INFO   ] KP step 1computer-1
+[10:25:28.099] [INFO   ] KP step 10computer-1
+[10:25:28.099] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.099] [INFO   ] creat AI step 8 
+[10:25:28.099] [INFO   ] creat AI step 9 
+[10:25:28.099] [INFO   ] creat AI step 10 
+[10:25:28.099] [INFO   ] creat AI step 11 
+[10:25:28.099] [INFO   ] creat AI step 3 
+[10:25:28.099] [INFO   ] creat AI step 7 
+[10:25:28.099] [INFO   ] AI key pressed step 1 
+[10:25:28.099] [INFO   ] AI key pressed step 2 
+[10:25:28.099] [INFO   ] KP step 1computer-1
+[10:25:28.099] [INFO   ] KP step 10computer-1
+[10:25:28.099] [INFO   ] AI key pressed step 3, random slot: 5
+[10:25:28.099] [INFO   ] creat AI step 8 
+[10:25:28.099] [INFO   ] creat AI step 9 
+[10:25:28.099] [INFO   ] creat AI step 10 
+[10:25:28.099] [INFO   ] creat AI step 11 
+[10:25:28.099] [INFO   ] creat AI step 3 
+[10:25:28.099] [INFO   ] creat AI step 7 
+[10:25:28.099] [INFO   ] AI key pressed step 1 
+[10:25:28.099] [INFO   ] AI key pressed step 2 
+[10:25:28.099] [INFO   ] KP step 1computer-1
+[10:25:28.099] [INFO   ] KP step 10computer-1
+[10:25:28.099] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.099] [INFO   ] creat AI step 8 
+[10:25:28.099] [INFO   ] creat AI step 9 
+[10:25:28.099] [INFO   ] creat AI step 10 
+[10:25:28.099] [INFO   ] creat AI step 11 
+[10:25:28.099] [INFO   ] creat AI step 3 
+[10:25:28.099] [INFO   ] creat AI step 7 
+[10:25:28.099] [INFO   ] AI key pressed step 1 
+[10:25:28.099] [INFO   ] AI key pressed step 2 
+[10:25:28.099] [INFO   ] KP step 1computer-1
+[10:25:28.099] [INFO   ] KP step 10computer-1
+[10:25:28.099] [INFO   ] AI key pressed step 3, random slot: 5
+[10:25:28.099] [INFO   ] creat AI step 8 
+[10:25:28.099] [INFO   ] creat AI step 9 
+[10:25:28.099] [INFO   ] creat AI step 10 
+[10:25:28.100] [INFO   ] creat AI step 11 
+[10:25:28.100] [INFO   ] creat AI step 3 
+[10:25:28.100] [INFO   ] creat AI step 7 
+[10:25:28.100] [INFO   ] AI key pressed step 1 
+[10:25:28.100] [INFO   ] AI key pressed step 2 
+[10:25:28.100] [INFO   ] KP step 1computer-1
+[10:25:28.100] [INFO   ] KP step 10computer-1
+[10:25:28.100] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.100] [INFO   ] creat AI step 8 
+[10:25:28.100] [INFO   ] creat AI step 9 
+[10:25:28.100] [INFO   ] creat AI step 10 
+[10:25:28.100] [INFO   ] creat AI step 11 
+[10:25:28.100] [INFO   ] creat AI step 3 
+[10:25:28.100] [INFO   ] creat AI step 7 
+[10:25:28.100] [INFO   ] AI key pressed step 1 
+[10:25:28.100] [INFO   ] AI key pressed step 2 
+[10:25:28.100] [INFO   ] KP step 1computer-1
+[10:25:28.100] [INFO   ] KP step 10computer-1
+[10:25:28.100] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.100] [INFO   ] creat AI step 8 
+[10:25:28.100] [INFO   ] creat AI step 9 
+[10:25:28.100] [INFO   ] creat AI step 10 
+[10:25:28.101] [INFO   ] creat AI step 11 
+[10:25:28.101] [INFO   ] creat AI step 3 
+[10:25:28.101] [INFO   ] creat AI step 7 
+[10:25:28.101] [INFO   ] AI key pressed step 1 
+[10:25:28.101] [INFO   ] AI key pressed step 2 
+[10:25:28.101] [INFO   ] KP step 1computer-1
+[10:25:28.101] [INFO   ] KP step 10computer-1
+[10:25:28.101] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:28.101] [INFO   ] creat AI step 8 
+[10:25:28.101] [INFO   ] creat AI step 9 
+[10:25:28.101] [INFO   ] creat AI step 10 
+[10:25:28.101] [INFO   ] creat AI step 11 
+[10:25:28.101] [INFO   ] creat AI step 3 
+[10:25:28.101] [INFO   ] creat AI step 7 
+[10:25:28.101] [INFO   ] AI key pressed step 1 
+[10:25:28.101] [INFO   ] AI key pressed step 2 
+[10:25:28.101] [INFO   ] KP step 1computer-1
+[10:25:28.102] [INFO   ] KP step 10computer-1
+[10:25:28.103] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:28.096] [INFO   ] AI key pressed step 1 
+[10:25:28.103] [INFO   ] creat AI step 8 
+[10:25:28.103] [INFO   ] creat AI step 9 
+[10:25:28.103] [INFO   ] creat AI step 10 
+[10:25:28.103] [INFO   ] creat AI step 11 
+[10:25:28.103] [INFO   ] creat AI step 3 
+[10:25:28.103] [INFO   ] creat AI step 7 
+[10:25:28.103] [INFO   ] AI key pressed step 1 
+[10:25:28.103] [INFO   ] AI key pressed step 2 
+[10:25:28.103] [INFO   ] KP step 1computer-1
+[10:25:28.103] [INFO   ] KP step 10computer-1
+[10:25:28.103] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.103] [INFO   ] creat AI step 8 
+[10:25:28.103] [INFO   ] creat AI step 9 
+[10:25:28.104] [INFO   ] creat AI step 10 
+[10:25:28.104] [INFO   ] creat AI step 11 
+[10:25:28.104] [INFO   ] creat AI step 3 
+[10:25:28.104] [INFO   ] creat AI step 7 
+[10:25:28.104] [INFO   ] AI key pressed step 1 
+[10:25:28.104] [INFO   ] AI key pressed step 2 
+[10:25:28.104] [INFO   ] KP step 1computer-1
+[10:25:28.104] [INFO   ] KP step 10computer-1
+[10:25:28.104] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:28.104] [INFO   ] creat AI step 8 
+[10:25:28.104] [INFO   ] creat AI step 9 
+[10:25:28.104] [INFO   ] creat AI step 10 
+[10:25:28.104] [INFO   ] creat AI step 11 
+[10:25:28.104] [INFO   ] creat AI step 3 
+[10:25:28.104] [INFO   ] creat AI step 7 
+[10:25:28.104] [INFO   ] AI key pressed step 1 
+[10:25:28.104] [INFO   ] AI key pressed step 2 
+[10:25:28.104] [INFO   ] KP step 1computer-1
+[10:25:28.104] [INFO   ] KP step 10computer-1
+[10:25:28.104] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.104] [INFO   ] creat AI step 8 
+[10:25:28.104] [INFO   ] creat AI step 9 
+[10:25:28.104] [INFO   ] creat AI step 10 
+[10:25:28.104] [INFO   ] creat AI step 11 
+[10:25:28.104] [INFO   ] creat AI step 3 
+[10:25:28.104] [INFO   ] creat AI step 7 
+[10:25:28.104] [INFO   ] AI key pressed step 1 
+[10:25:28.104] [INFO   ] AI key pressed step 2 
+[10:25:28.104] [INFO   ] KP step 1computer-1
+[10:25:28.104] [INFO   ] KP step 10computer-1
+[10:25:28.106] [INFO   ] AI key pressed step 3, random slot: 7
+[10:25:28.106] [INFO   ] creat AI step 8 
+[10:25:28.106] [INFO   ] creat AI step 9 
+[10:25:28.106] [INFO   ] creat AI step 10 
+[10:25:28.106] [INFO   ] creat AI step 11 
+[10:25:28.106] [INFO   ] creat AI step 3 
+[10:25:28.106] [INFO   ] creat AI step 7 
+[10:25:28.106] [INFO   ] AI key pressed step 1 
+[10:25:28.106] [INFO   ] AI key pressed step 2 
+[10:25:28.106] [INFO   ] KP step 1computer-1
+[10:25:28.106] [INFO   ] KP step 10computer-1
+[10:25:28.106] [INFO   ] AI key pressed step 3, random slot: 0
+[10:25:28.106] [INFO   ] creat AI step 8 
+[10:25:28.106] [INFO   ] creat AI step 9 
+[10:25:28.106] [INFO   ] creat AI step 10 
+[10:25:28.106] [INFO   ] creat AI step 11 
+[10:25:28.106] [INFO   ] creat AI step 3 
+[10:25:28.106] [INFO   ] creat AI step 7 
+[10:25:28.106] [INFO   ] AI key pressed step 1 
+[10:25:28.107] [INFO   ] AI key pressed step 2 
+[10:25:28.107] [INFO   ] KP step 1computer-1
+[10:25:28.107] [INFO   ] KP step 10computer-1
+[10:25:28.107] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:28.107] [INFO   ] creat AI step 8 
+[10:25:28.107] [INFO   ] creat AI step 9 
+[10:25:28.107] [INFO   ] creat AI step 10 
+[10:25:28.107] [INFO   ] creat AI step 11 
+[10:25:28.107] [INFO   ] creat AI step 3 
+[10:25:28.107] [INFO   ] creat AI step 7 
+[10:25:28.107] [INFO   ] AI key pressed step 1 
+[10:25:28.107] [INFO   ] AI key pressed step 2 
+[10:25:28.107] [INFO   ] KP step 1computer-1
+[10:25:28.107] [INFO   ] KP step 10computer-1
+[10:25:28.107] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:28.107] [INFO   ] creat AI step 8 
+[10:25:28.107] [INFO   ] creat AI step 9 
+[10:25:28.107] [INFO   ] creat AI step 10 
+[10:25:28.107] [INFO   ] creat AI step 11 
+[10:25:28.107] [INFO   ] creat AI step 3 
+[10:25:28.107] [INFO   ] creat AI step 7 
+[10:25:28.107] [INFO   ] AI key pressed step 1 
+[10:25:28.107] [INFO   ] AI key pressed step 2 
+[10:25:28.107] [INFO   ] KP step 1computer-1
+[10:25:28.107] [INFO   ] KP step 10computer-1
+[10:25:28.107] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.107] [INFO   ] creat AI step 8 
+[10:25:28.107] [INFO   ] creat AI step 9 
+[10:25:28.107] [INFO   ] creat AI step 10 
+[10:25:28.107] [INFO   ] creat AI step 11 
+[10:25:28.108] [INFO   ] creat AI step 3 
+[10:25:28.108] [INFO   ] creat AI step 7 
+[10:25:28.108] [INFO   ] AI key pressed step 1 
+[10:25:28.108] [INFO   ] AI key pressed step 2 
+[10:25:28.108] [INFO   ] KP step 1computer-1
+[10:25:28.108] [INFO   ] KP step 10computer-1
+[10:25:28.108] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.108] [INFO   ] creat AI step 8 
+[10:25:28.108] [INFO   ] creat AI step 9 
+[10:25:28.108] [INFO   ] creat AI step 10 
+[10:25:28.108] [INFO   ] creat AI step 11 
+[10:25:28.108] [INFO   ] creat AI step 3 
+[10:25:28.108] [INFO   ] creat AI step 7 
+[10:25:28.108] [INFO   ] AI key pressed step 1 
+[10:25:28.108] [INFO   ] AI key pressed step 2 
+[10:25:28.108] [INFO   ] KP step 1computer-1
+[10:25:28.108] [INFO   ] KP step 10computer-1
+[10:25:28.108] [INFO   ] AI key pressed step 3, random slot: 4
+[10:25:28.108] [INFO   ] creat AI step 8 
+[10:25:28.108] [INFO   ] creat AI step 9 
+[10:25:28.109] [INFO   ] creat AI step 10 
+[10:25:28.109] [INFO   ] creat AI step 11 
+[10:25:28.109] [INFO   ] creat AI step 3 
+[10:25:28.109] [INFO   ] creat AI step 7 
+[10:25:28.109] [INFO   ] AI key pressed step 1 
+[10:25:28.109] [INFO   ] AI key pressed step 2 
+[10:25:28.109] [INFO   ] KP step 1computer-1
+[10:25:28.109] [INFO   ] KP step 10computer-1
+[10:25:28.109] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.109] [INFO   ] creat AI step 8 
+[10:25:28.109] [INFO   ] creat AI step 9 
+[10:25:28.109] [INFO   ] creat AI step 10 
+[10:25:28.109] [INFO   ] creat AI step 11 
+[10:25:28.109] [INFO   ] creat AI step 3 
+[10:25:28.109] [INFO   ] creat AI step 7 
+[10:25:28.109] [INFO   ] AI key pressed step 1 
+[10:25:28.109] [INFO   ] AI key pressed step 2 
+[10:25:28.109] [INFO   ] KP step 1computer-1
+[10:25:28.109] [INFO   ] KP step 10computer-1
+[10:25:28.109] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.110] [INFO   ] creat AI step 8 
+[10:25:28.110] [INFO   ] creat AI step 9 
+[10:25:28.110] [INFO   ] creat AI step 10 
+[10:25:28.110] [INFO   ] creat AI step 11 
+[10:25:28.110] [INFO   ] creat AI step 3 
+[10:25:28.110] [INFO   ] creat AI step 7 
+[10:25:28.110] [INFO   ] AI key pressed step 1 
+[10:25:28.110] [INFO   ] AI key pressed step 2 
+[10:25:28.110] [INFO   ] KP step 1computer-1
+[10:25:28.110] [INFO   ] KP step 10computer-1
+[10:25:28.110] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:28.110] [INFO   ] creat AI step 8 
+[10:25:28.110] [INFO   ] creat AI step 9 
+[10:25:28.110] [INFO   ] creat AI step 10 
+[10:25:28.110] [INFO   ] creat AI step 11 
+[10:25:28.110] [INFO   ] creat AI step 3 
+[10:25:28.110] [INFO   ] creat AI step 7 
+[10:25:28.110] [INFO   ] AI key pressed step 1 
+[10:25:28.110] [INFO   ] AI key pressed step 2 
+[10:25:28.110] [INFO   ] KP step 1computer-1
+[10:25:28.110] [INFO   ] KP step 10computer-1
+[10:25:28.110] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.110] [INFO   ] creat AI step 8 
+[10:25:28.111] [INFO   ] creat AI step 9 
+[10:25:28.111] [INFO   ] creat AI step 10 
+[10:25:28.111] [INFO   ] creat AI step 11 
+[10:25:28.111] [INFO   ] creat AI step 3 
+[10:25:28.111] [INFO   ] creat AI step 7 
+[10:25:28.111] [INFO   ] AI key pressed step 1 
+[10:25:28.111] [INFO   ] AI key pressed step 2 
+[10:25:28.111] [INFO   ] KP step 1computer-1
+[10:25:28.111] [INFO   ] KP step 10computer-1
+[10:25:28.111] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.111] [INFO   ] creat AI step 8 
+[10:25:28.111] [INFO   ] creat AI step 9 
+[10:25:28.111] [INFO   ] creat AI step 10 
+[10:25:28.111] [INFO   ] creat AI step 11 
+[10:25:28.111] [INFO   ] creat AI step 3 
+[10:25:28.111] [INFO   ] creat AI step 7 
+[10:25:28.111] [INFO   ] AI key pressed step 1 
+[10:25:28.111] [INFO   ] AI key pressed step 2 
+[10:25:28.112] [INFO   ] KP step 1computer-1
+[10:25:28.112] [INFO   ] KP step 10computer-1
+[10:25:28.112] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:28.112] [INFO   ] creat AI step 8 
+[10:25:28.112] [INFO   ] creat AI step 9 
+[10:25:28.112] [INFO   ] creat AI step 10 
+[10:25:28.112] [INFO   ] creat AI step 11 
+[10:25:28.112] [INFO   ] creat AI step 3 
+[10:25:28.112] [INFO   ] creat AI step 7 
+[10:25:28.112] [INFO   ] AI key pressed step 1 
+[10:25:28.112] [INFO   ] AI key pressed step 2 
+[10:25:28.112] [INFO   ] KP step 1computer-1
+[10:25:28.112] [INFO   ] KP step 10computer-1
+[10:25:28.112] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:28.112] [INFO   ] creat AI step 8 
+[10:25:28.112] [INFO   ] creat AI step 9 
+[10:25:28.112] [INFO   ] creat AI step 10 
+[10:25:28.112] [INFO   ] creat AI step 11 
+[10:25:28.112] [INFO   ] creat AI step 3 
+[10:25:28.113] [INFO   ] creat AI step 7 
+[10:25:28.113] [INFO   ] AI key pressed step 1 
+[10:25:28.113] [INFO   ] AI key pressed step 2 
+[10:25:28.113] [INFO   ] KP step 1computer-1
+[10:25:28.113] [INFO   ] KP step 10computer-1
+[10:25:28.113] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:28.113] [INFO   ] creat AI step 8 
+[10:25:28.113] [INFO   ] creat AI step 9 
+[10:25:28.113] [INFO   ] creat AI step 10 
+[10:25:28.113] [INFO   ] creat AI step 11 
+[10:25:28.113] [INFO   ] creat AI step 3 
+[10:25:28.113] [INFO   ] creat AI step 7 
+[10:25:28.113] [INFO   ] AI key pressed step 1 
+[10:25:28.113] [INFO   ] AI key pressed step 2 
+[10:25:28.113] [INFO   ] KP step 1computer-1
+[10:25:28.113] [INFO   ] KP step 10computer-1
+[10:25:28.113] [INFO   ] AI key pressed step 3, random slot: 5
+[10:25:28.113] [INFO   ] creat AI step 8 
+[10:25:28.113] [INFO   ] creat AI step 9 
+[10:25:28.113] [INFO   ] creat AI step 10 
+[10:25:28.113] [INFO   ] creat AI step 11 
+[10:25:28.113] [INFO   ] creat AI step 3 
+[10:25:28.113] [INFO   ] creat AI step 7 
+[10:25:28.114] [INFO   ] AI key pressed step 1 
+[10:25:28.114] [INFO   ] AI key pressed step 2 
+[10:25:28.114] [INFO   ] KP step 1computer-1
+[10:25:28.114] [INFO   ] KP step 10computer-1
+[10:25:28.114] [INFO   ] AI key pressed step 3, random slot: 5
+[10:25:28.114] [INFO   ] creat AI step 8 
+[10:25:28.114] [INFO   ] creat AI step 9 
+[10:25:28.114] [INFO   ] creat AI step 10 
+[10:25:28.114] [INFO   ] creat AI step 11 
+[10:25:28.114] [INFO   ] creat AI step 3 
+[10:25:28.114] [INFO   ] creat AI step 7 
+[10:25:28.114] [INFO   ] AI key pressed step 1 
+[10:25:28.114] [INFO   ] AI key pressed step 2 
+[10:25:28.114] [INFO   ] KP step 1computer-1
+[10:25:28.114] [INFO   ] KP step 10computer-1
+[10:25:28.114] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:28.114] [INFO   ] creat AI step 8 
+[10:25:28.114] [INFO   ] creat AI step 9 
+[10:25:28.114] [INFO   ] creat AI step 10 
+[10:25:28.114] [INFO   ] creat AI step 11 
+[10:25:28.114] [INFO   ] creat AI step 3 
+[10:25:28.114] [INFO   ] creat AI step 7 
+[10:25:28.114] [INFO   ] AI key pressed step 1 
+[10:25:28.114] [INFO   ] AI key pressed step 2 
+[10:25:28.114] [INFO   ] KP step 1computer-1
+[10:25:28.114] [INFO   ] KP step 10computer-1
+[10:25:28.114] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:28.114] [INFO   ] creat AI step 8 
+[10:25:28.114] [INFO   ] creat AI step 9 
+[10:25:28.114] [INFO   ] creat AI step 10 
+[10:25:28.114] [INFO   ] creat AI step 11 
+[10:25:28.114] [INFO   ] creat AI step 3 
+[10:25:28.114] [INFO   ] creat AI step 7 
+[10:25:28.114] [INFO   ] AI key pressed step 1 
+[10:25:28.114] [INFO   ] AI key pressed step 2 
+[10:25:28.114] [INFO   ] KP step 1computer-1
+[10:25:28.114] [INFO   ] KP step 10computer-1
+[10:25:28.116] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.116] [INFO   ] creat AI step 8 
+[10:25:28.116] [INFO   ] creat AI step 9 
+[10:25:28.116] [INFO   ] creat AI step 10 
+[10:25:28.116] [INFO   ] creat AI step 11 
+[10:25:28.116] [INFO   ] creat AI step 3 
+[10:25:28.116] [INFO   ] creat AI step 7 
+[10:25:28.116] [INFO   ] AI key pressed step 1 
+[10:25:28.116] [INFO   ] AI key pressed step 2 
+[10:25:28.116] [INFO   ] KP step 1computer-1
+[10:25:28.116] [INFO   ] KP step 10computer-1
+[10:25:28.116] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:28.116] [INFO   ] creat AI step 8 
+[10:25:28.116] [INFO   ] creat AI step 9 
+[10:25:28.116] [INFO   ] creat AI step 10 
+[10:25:28.116] [INFO   ] creat AI step 11 
+[10:25:28.116] [INFO   ] creat AI step 3 
+[10:25:28.116] [INFO   ] creat AI step 7 
+[10:25:28.116] [INFO   ] AI key pressed step 1 
+[10:25:28.116] [INFO   ] AI key pressed step 2 
+[10:25:28.116] [INFO   ] KP step 1computer-1
+[10:25:28.116] [INFO   ] KP step 10computer-1
+[10:25:28.116] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:28.116] [INFO   ] creat AI step 8 
+[10:25:28.116] [INFO   ] creat AI step 9 
+[10:25:28.116] [INFO   ] creat AI step 10 
+[10:25:28.116] [INFO   ] creat AI step 11 
+[10:25:28.116] [INFO   ] creat AI step 3 
+[10:25:28.116] [INFO   ] creat AI step 7 
+[10:25:28.116] [INFO   ] AI key pressed step 1 
+[10:25:28.103] [INFO   ] AI key pressed step 2 
+[10:25:28.116] [INFO   ] AI key pressed step 2 
+[10:25:28.117] [INFO   ] KP step 1computer-1
+[10:25:28.117] [INFO   ] KP step 10computer-1
+[10:25:28.117] [INFO   ] KP step 1computer-0
+[10:25:28.117] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:28.117] [INFO   ] creat AI step 8 
+[10:25:28.117] [INFO   ] creat AI step 9 
+[10:25:28.117] [INFO   ] KP step 10computer-0
+[10:25:28.117] [INFO   ] AI key pressed step 3, random slot: 8
+[10:25:28.117] [INFO   ] creat AI step 8 
+[10:25:28.117] [INFO   ] creat AI step 9 
+[10:25:28.117] [INFO   ] creat AI step 10 
+[10:25:28.117] [INFO   ] creat AI step 11 
+[10:25:28.117] [INFO   ] creat AI step 3 
+[10:25:28.117] [INFO   ] creat AI step 10 
+[10:25:28.118] [INFO   ] creat AI step 11 
+[10:25:28.117] [INFO   ] creat AI step 7 
+[10:25:28.118] [INFO   ] AI key pressed step 1 
+[10:25:28.118] [INFO   ] creat AI step 3 
+[10:25:28.118] [INFO   ] creat AI step 7 
+[10:25:28.118] [INFO   ] AI key pressed step 2 
+[10:25:28.118] [INFO   ] AI key pressed step 1 
+[10:25:28.118] [INFO   ] KP step 1computer-1
+[10:25:28.118] [INFO   ] AI key pressed step 2 
+[10:25:28.119] [INFO   ] KP step 1computer-0
+[10:25:28.118] [INFO   ] KP step 10computer-1
+[10:25:28.119] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.119] [INFO   ] creat AI step 8 
+[10:25:28.119] [INFO   ] creat AI step 9 
+[10:25:28.119] [INFO   ] creat AI step 10 
+[10:25:28.119] [INFO   ] creat AI step 11 
+[10:25:28.119] [INFO   ] creat AI step 3 
+[10:25:28.119] [INFO   ] creat AI step 7 
+[10:25:28.119] [INFO   ] AI key pressed step 1 
+[10:25:28.119] [INFO   ] AI key pressed step 2 
+[10:25:28.119] [INFO   ] KP step 1computer-1
+[10:25:28.119] [INFO   ] KP step 10computer-1
+[10:25:28.119] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.119] [INFO   ] creat AI step 8 
+[10:25:28.120] [INFO   ] creat AI step 9 
+[10:25:28.120] [INFO   ] creat AI step 10 
+[10:25:28.120] [INFO   ] creat AI step 11 
+[10:25:28.120] [INFO   ] creat AI step 3 
+[10:25:28.120] [INFO   ] creat AI step 7 
+[10:25:28.120] [INFO   ] AI key pressed step 1 
+[10:25:28.120] [INFO   ] AI key pressed step 2 
+[10:25:28.120] [INFO   ] KP step 1computer-1
+[10:25:28.120] [INFO   ] KP step 10computer-1
+[10:25:28.120] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.120] [INFO   ] creat AI step 8 
+[10:25:28.120] [INFO   ] creat AI step 9 
+[10:25:28.120] [INFO   ] creat AI step 10 
+[10:25:28.120] [INFO   ] creat AI step 11 
+[10:25:28.120] [INFO   ] creat AI step 3 
+[10:25:28.120] [INFO   ] creat AI step 7 
+[10:25:28.120] [INFO   ] AI key pressed step 1 
+[10:25:28.120] [INFO   ] AI key pressed step 2 
+[10:25:28.121] [INFO   ] KP step 1computer-1
+[10:25:28.121] [INFO   ] KP step 10computer-1
+[10:25:28.121] [INFO   ] AI key pressed step 3, random slot: 10
+[10:25:28.121] [INFO   ] creat AI step 8 
+[10:25:28.121] [INFO   ] creat AI step 9 
+[10:25:28.121] [INFO   ] creat AI step 10 
+[10:25:28.121] [INFO   ] creat AI step 11 
+[10:25:28.121] [INFO   ] creat AI step 3 
+[10:25:28.121] [INFO   ] creat AI step 7 
+[10:25:28.121] [INFO   ] AI key pressed step 1 
+[10:25:28.121] [INFO   ] AI key pressed step 2 
+[10:25:28.121] [INFO   ] KP step 1computer-1
+[10:25:28.121] [INFO   ] KP step 10computer-1
+[10:25:28.121] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.121] [INFO   ] creat AI step 8 
+[10:25:28.121] [INFO   ] creat AI step 9 
+[10:25:28.121] [INFO   ] creat AI step 10 
+[10:25:28.121] [INFO   ] creat AI step 11 
+[10:25:28.121] [INFO   ] creat AI step 3 
+[10:25:28.122] [INFO   ] creat AI step 7 
+[10:25:28.122] [INFO   ] AI key pressed step 1 
+[10:25:28.122] [INFO   ] AI key pressed step 2 
+[10:25:28.119] [INFO   ] KP step 10computer-0
+[10:25:28.122] [INFO   ] KP step 1computer-1
+[10:25:28.122] [INFO   ] KP step 10computer-1
+[10:25:28.122] [INFO   ] AI key pressed step 3, random slot: 11
+[10:25:28.122] [INFO   ] creat AI step 8 
+[10:25:28.122] [INFO   ] creat AI step 9 
+[10:25:28.122] [INFO   ] creat AI step 10 
+[10:25:28.122] [INFO   ] creat AI step 11 
+[10:25:28.122] [INFO   ] creat AI step 3 
+[10:25:28.122] [INFO   ] creat AI step 7 
+[10:25:28.122] [INFO   ] AI key pressed step 1 
+[10:25:28.122] [INFO   ] AI key pressed step 2 
+[10:25:28.122] [INFO   ] KP step 1computer-1
+[10:25:28.122] [INFO   ] KP step 10computer-1
+[10:25:28.123] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.123] [INFO   ] creat AI step 8 
+[10:25:28.123] [INFO   ] creat AI step 9 
+[10:25:28.122] [INFO   ] AI key pressed step 3, random slot: 7
+[10:25:28.123] [INFO   ] creat AI step 10 
+[10:25:28.123] [INFO   ] creat AI step 11 
+[10:25:28.123] [INFO   ] creat AI step 3 
+[10:25:28.123] [INFO   ] creat AI step 7 
+[10:25:28.123] [INFO   ] creat AI step 8 
+[10:25:28.123] [INFO   ] AI key pressed step 1 
+[10:25:28.123] [INFO   ] creat AI step 9 
+[10:25:28.124] [INFO   ] AI key pressed step 2 
+[10:25:28.124] [INFO   ] creat AI step 10 
+[10:25:28.124] [INFO   ] KP step 1computer-1
+[10:25:28.124] [INFO   ] creat AI step 11 
+[10:25:28.124] [INFO   ] creat AI step 3 
+[10:25:28.124] [INFO   ] KP step 10computer-1
+[10:25:28.124] [INFO   ] creat AI step 7 
+[10:25:28.124] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:28.124] [INFO   ] AI key pressed step 1 
+[10:25:28.124] [INFO   ] AI key pressed step 2 
+[10:25:28.124] [INFO   ] creat AI step 8 
+[10:25:28.124] [INFO   ] KP step 1computer-0
+[10:25:28.124] [INFO   ] KP step 10computer-0
+[10:25:28.124] [INFO   ] creat AI step 9 
+[10:25:28.124] [INFO   ] AI key pressed step 3, random slot: 0
+[10:25:28.126] [INFO   ] creat AI step 8 
+[10:25:28.124] [INFO   ] creat AI step 10 
+[10:25:28.126] [INFO   ] creat AI step 9 
+[10:25:28.126] [INFO   ] creat AI step 11 
+[10:25:28.126] [INFO   ] creat AI step 3 
+[10:25:28.126] [INFO   ] creat AI step 10 
+[10:25:28.126] [INFO   ] creat AI step 11 
+[10:25:28.126] [INFO   ] creat AI step 7 
+[10:25:28.126] [INFO   ] AI key pressed step 1 
+[10:25:28.126] [INFO   ] AI key pressed step 2 
+[10:25:28.126] [INFO   ] KP step 1computer-1
+[10:25:28.126] [INFO   ] KP step 10computer-1
+[10:25:28.126] [INFO   ] AI key pressed step 3, random slot: 7
+[10:25:28.126] [INFO   ] creat AI step 8 
+[10:25:28.126] [INFO   ] creat AI step 9 
+[10:25:28.126] [INFO   ] creat AI step 10 
+[10:25:28.126] [INFO   ] creat AI step 11 
+[10:25:28.127] [INFO   ] creat AI step 3 
+[10:25:28.127] [INFO   ] creat AI step 7 
+[10:25:28.126] [INFO   ] creat AI step 3 
+[10:25:28.127] [INFO   ] creat AI step 7 
+[10:25:28.127] [INFO   ] AI key pressed step 1 
+[10:25:28.127] [INFO   ] AI key pressed step 1 
+[10:25:28.127] [INFO   ] AI key pressed step 2 
+[10:25:28.127] [INFO   ] KP step 1computer-0
+[10:25:28.127] [INFO   ] KP step 10computer-0
+[10:25:28.127] [INFO   ] AI key pressed step 3, random slot: 7
+[10:25:28.127] [INFO   ] creat AI step 8 
+[10:25:28.127] [INFO   ] AI key pressed step 2 
+[10:25:28.127] [INFO   ] creat AI step 9 
+[10:25:28.128] [INFO   ] KP step 1computer-1
+[10:25:28.128] [INFO   ] creat AI step 10 
+[10:25:28.128] [INFO   ] KP step 10computer-1
+[10:25:28.128] [INFO   ] creat AI step 11 
+[10:25:28.128] [INFO   ] creat AI step 3 
+[10:25:28.128] [INFO   ] creat AI step 7 
+[10:25:28.128] [INFO   ] AI key pressed step 1 
+[10:25:28.128] [INFO   ] AI key pressed step 3, random slot: 2
+[10:25:28.128] [INFO   ] creat AI step 8 
+[10:25:28.128] [INFO   ] creat AI step 9 
+[10:25:28.128] [INFO   ] creat AI step 10 
+[10:25:28.128] [INFO   ] creat AI step 11 
+[10:25:28.128] [INFO   ] creat AI step 3 
+[10:25:28.128] [INFO   ] creat AI step 7 
+[10:25:28.129] [INFO   ] AI key pressed step 1 
+[10:25:28.129] [INFO   ] AI key pressed step 2 
+[10:25:28.129] [INFO   ] KP step 1computer-1
+[10:25:28.128] [INFO   ] AI key pressed step 2 
+[10:25:28.129] [INFO   ] KP step 10computer-1
+[10:25:28.129] [INFO   ] KP step 1computer-0
+[10:25:28.129] [INFO   ] AI key pressed step 3, random slot: 0
+[10:25:28.129] [INFO   ] creat AI step 8 
+[10:25:28.130] [INFO   ] creat AI step 9 
+[10:25:28.130] [INFO   ] creat AI step 10 
+[10:25:28.130] [INFO   ] creat AI step 11 
+[10:25:28.130] [INFO   ] creat AI step 3 
+[10:25:28.129] [INFO   ] KP step 10computer-0
+[10:25:28.130] [INFO   ] creat AI step 7 
+[10:25:28.130] [INFO   ] AI key pressed step 1 
+[10:25:28.130] [INFO   ] AI key pressed step 2 
+[10:25:28.130] [INFO   ] KP step 1computer-1
+[10:25:28.130] [INFO   ] KP step 10computer-1
+[10:25:28.130] [INFO   ] AI key pressed step 3, random slot: 6
+[10:25:28.130] [INFO   ] creat AI step 8 
+[10:25:28.130] [INFO   ] creat AI step 9 
+[10:25:28.130] [INFO   ] AI key pressed step 3, random slot: 1
+[10:25:28.130] [INFO   ] creat AI step 10 
+[10:25:28.131] [INFO   ] creat AI step 11 
+[10:25:28.131] [INFO   ] creat AI step 3 
+[10:25:28.131] [INFO   ] creat AI step 7 
+[10:25:28.131] [INFO   ] AI key pressed step 1 
+[10:25:28.131] [INFO   ] AI key pressed step 2 
+[10:25:28.131] [INFO   ] KP step 1computer-1
+[10:25:28.131] [INFO   ] KP step 10computer-1
+[10:25:28.131] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:28.131] [INFO   ] creat AI step 8 
+[10:25:28.131] [INFO   ] creat AI step 8 
+[10:25:28.132] [INFO   ] place card step 0 
+[10:25:28.131] [INFO   ] creat AI step 9 
+[10:25:28.132] [INFO   ] creat AI step 9 
+[10:25:28.132] [INFO   ] creat AI step 10 
+[10:25:28.132] [INFO   ] place card step 1 
+[10:25:28.132] [INFO   ] creat AI step 10 
+[10:25:28.132] [INFO   ] creat AI step 11 
+[10:25:28.132] [INFO   ] creat AI step 3 
+[10:25:28.132] [INFO   ] creat AI step 11 
+[10:25:28.133] [INFO   ] creat AI step 3 
+[10:25:28.133] [INFO   ] creat AI step 4 
+[10:25:28.133] [INFO   ] creat AI step 4 
+[10:25:28.133] [INFO   ] creat AI step 5 
+[10:25:28.134] [INFO   ] creat AI step 5 
+[10:25:28.235] [SEVERE ] placing card 29 in slot 0
+[10:25:28.342] [SEVERE ] placing card 32 in slot 1
+[10:25:28.452] [SEVERE ] placing card 64 in slot 2
+[10:25:28.562] [SEVERE ] placing card 11 in slot 3
+[10:25:28.671] [SEVERE ] placing card 3 in slot 4
+[10:25:28.781] [SEVERE ] placing card 1 in slot 5
+[10:25:28.890] [SEVERE ] placing card 35 in slot 6
+[10:25:28.999] [SEVERE ] placing card 30 in slot 7
+[10:25:29.109] [SEVERE ] placing card 37 in slot 8
+[10:25:29.217] [SEVERE ] placing card 66 in slot 9
+[10:25:29.324] [SEVERE ] placing card 42 in slot 10
+[10:25:29.432] [SEVERE ] placing card 19 in slot 11
+[10:25:29.433] [INFO   ] place card step 2 
+[10:25:29.433] [INFO   ] place card step 3 
+[10:25:29.441] [INFO   ] place card step 5 
+[10:25:29.441] [INFO   ] place card step 6 
+[10:25:29.441] [INFO   ] place card step 7 
+[10:25:29.441] [INFO   ] place card step 8 
+[10:25:29.441] [INFO   ] creat AI step 6 
+[10:25:29.441] [INFO   ] creat AI step 7 
+[10:25:29.442] [INFO   ] AI key pressed step 1 
+[10:25:29.442] [INFO   ] AI key pressed step 2 
+[10:25:29.441] [INFO   ] creat AI step 6 
+[10:25:29.442] [INFO   ] creat AI step 7 
+[10:25:29.442] [INFO   ] AI key pressed step 1 
+[10:25:29.442] [INFO   ] AI key pressed step 2 
+[10:25:29.442] [INFO   ] KP step 1computer-0
+[10:25:29.442] [INFO   ] KP step 1computer-1
+[10:25:29.442] [INFO   ] KP step 2computer-1
+[10:25:29.442] [INFO   ] KP step 4computer-1
+[10:25:29.442] [INFO   ] KP step 2computer-0
+[10:25:29.443] [INFO   ] KP step 5computer-1
+[10:25:29.443] [INFO   ] KP step 4computer-0
+[10:25:29.443] [SEVERE ] player 2 placing token on slot 9
+[10:25:29.443] [INFO   ] KP step 5computer-0
+[10:25:29.443] [SEVERE ] player 1 placing token on slot 9
+[10:25:29.443] [INFO   ] KP step 6computer-0
+[10:25:29.443] [INFO   ] KP step 7computer-0
+[10:25:29.443] [INFO   ] KP step 6computer-1
+[10:25:29.444] [INFO   ] KP step 7computer-1
+[10:25:29.444] [INFO   ] KP step 8computer-1
+[10:25:29.444] [INFO   ] KP step 10computer-1
+[10:25:29.444] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:29.444] [INFO   ] creat AI step 8 
+[10:25:29.444] [INFO   ] creat AI step 9 
+[10:25:29.444] [INFO   ] KP step 8computer-0
+[10:25:29.444] [INFO   ] KP step 10computer-0
+[10:25:29.444] [INFO   ] AI key pressed step 3, random slot: 9
+[10:25:29.444] [INFO   ] creat AI step 8 
+[10:25:29.444] [INFO   ] creat AI step 9 
+[10:25:29.444] [INFO   ] creat AI step 10 
+[10:25:29.444] [INFO   ] creat AI step 11 
+[10:25:29.444] [INFO   ] creat AI step 3 
+[10:25:29.444] [INFO   ] creat AI step 7 
+[10:25:29.444] [INFO   ] AI key pressed step 1 
+[10:25:29.444] [INFO   ] AI key pressed step 2 
+[10:25:29.444] [INFO   ] KP step 1computer-1
+[10:25:29.446] [INFO   ] KP step 2computer-1
+[10:25:29.444] [INFO   ] creat AI step 10 
+[10:25:29.447] [INFO   ] KP step 4computer-1
+[10:25:29.447] [INFO   ] creat AI step 11 
+[10:25:29.447] [INFO   ] KP step 5computer-1
+[10:25:29.448] [INFO   ] creat AI step 3 
+[10:25:29.448] [INFO   ] creat AI step 7 
+[10:25:29.448] [INFO   ] AI key pressed step 1 
+[10:25:29.448] [INFO   ] AI key pressed step 2 
+[10:25:29.448] [SEVERE ] player 2 placing token on slot 3
+[10:25:29.448] [INFO   ] KP step 1computer-0
+[10:25:29.448] [INFO   ] KP step 2computer-0
+[10:25:29.449] [INFO   ] KP step 4computer-0
+[10:25:29.449] [INFO   ] KP step 5computer-0
+[10:25:29.449] [SEVERE ] player 1 placing token on slot 7
+[10:25:29.449] [INFO   ] KP step 6computer-1
+[10:25:29.449] [INFO   ] KP step 6computer-0
+[10:25:29.449] [INFO   ] KP step 7computer-0
+[10:25:29.449] [INFO   ] KP step 8computer-0
+[10:25:29.449] [INFO   ] KP step 10computer-0
+[10:25:29.449] [INFO   ] AI key pressed step 3, random slot: 7
+[10:25:29.449] [INFO   ] creat AI step 8 
+[10:25:29.449] [INFO   ] creat AI step 9 
+[10:25:29.450] [INFO   ] creat AI step 10 
+[10:25:29.450] [INFO   ] creat AI step 11 
+[10:25:29.450] [INFO   ] creat AI step 3 
+[10:25:29.450] [INFO   ] creat AI step 7 
+[10:25:29.450] [INFO   ] AI key pressed step 1 
+[10:25:29.450] [INFO   ] AI key pressed step 2 
+[10:25:29.450] [INFO   ] KP step 1computer-0
+[10:25:29.450] [INFO   ] KP step 2computer-0
+[10:25:29.450] [INFO   ] KP step 4computer-0
+[10:25:29.450] [INFO   ] KP step 5computer-0
+[10:25:29.450] [SEVERE ] player 1 placing token on slot 1
+[10:25:29.450] [INFO   ] KP step 6computer-0
+[10:25:29.450] [INFO   ] KP step 7computer-0
+[10:25:29.451] [INFO   ] KP step 8computer-0
+[10:25:29.451] [INFO   ] KP step 9computer-0
+[10:25:29.449] [INFO   ] KP step 7computer-1
+[10:25:29.454] [INFO   ] KP step 8computer-1
+[10:25:29.454] [INFO   ] KP step 10computer-1
+[10:25:29.454] [INFO   ] AI key pressed step 3, random slot: 3
+[10:25:29.454] [INFO   ] creat AI step 8 
+[10:25:29.454] [INFO   ] creat AI step 9 
+[10:25:29.455] [INFO   ] creat AI step 10 
+[10:25:29.455] [INFO   ] creat AI step 11 
+[10:25:29.455] [INFO   ] creat AI step 3 
+[10:25:29.455] [INFO   ] creat AI step 7 
+[10:25:29.455] [INFO   ] AI key pressed step 1 
+[10:25:29.455] [INFO   ] AI key pressed step 2 
+[10:25:29.455] [INFO   ] KP step 1computer-1
+[10:25:29.455] [INFO   ] KP step 2computer-1
+[10:25:29.455] [INFO   ] KP step 4computer-1
+[10:25:29.455] [INFO   ] KP step 5computer-1
+[10:25:29.455] [SEVERE ] player 2 placing token on slot 7
+[10:25:29.456] [INFO   ] KP step 6computer-1
+[10:25:29.456] [INFO   ] KP step 7computer-1
+[10:25:29.456] [INFO   ] KP step 8computer-1
+[10:25:29.456] [INFO   ] KP step 9computer-1
+[10:25:30.447] [SEVERE ] updating countdown to 57470
+[10:25:30.884] [INFO   ] place card step 0 
+[10:25:30.886] [INFO   ] place card step 1 
+[10:25:30.886] [INFO   ] place card step 2 
+[10:25:30.886] [INFO   ] place card step 3 
+[10:25:30.893] [INFO   ] place card step 5 
+[10:25:30.895] [INFO   ] place card step 6 
+[10:25:30.895] [INFO   ] place card step 7 
+[10:25:30.895] [INFO   ] place card step 8 
+[10:25:31.898] [SEVERE ] updating countdown to 56019
+[10:25:32.337] [INFO   ] place card step 0 
+[10:25:32.337] [INFO   ] place card step 1 
+[10:25:32.337] [INFO   ] place card step 2 
+[10:25:32.337] [INFO   ] place card step 3 
+[10:25:32.340] [INFO   ] place card step 5 
+[10:25:32.340] [INFO   ] place card step 6 
+[10:25:32.340] [INFO   ] place card step 7 
+[10:25:32.340] [INFO   ] place card step 8 
+[10:25:33.351] [SEVERE ] updating countdown to 54566
+[10:25:33.783] [INFO   ] place card step 0 
+[10:25:33.783] [INFO   ] place card step 1 
+[10:25:33.783] [INFO   ] place card step 2 
+[10:25:33.783] [INFO   ] place card step 3 
+[10:25:33.784] [INFO   ] place card step 5 
+[10:25:33.784] [INFO   ] place card step 6 
+[10:25:33.784] [INFO   ] place card step 7 
+[10:25:33.784] [INFO   ] place card step 8 
+[10:25:34.797] [SEVERE ] updating countdown to 53120
+[10:25:35.232] [INFO   ] place card step 0 
+[10:25:35.232] [INFO   ] place card step 1 
+[10:25:35.232] [INFO   ] place card step 2 
+[10:25:35.232] [INFO   ] place card step 3 
+[10:25:35.233] [INFO   ] place card step 5 
+[10:25:35.233] [INFO   ] place card step 6 
+[10:25:35.233] [INFO   ] place card step 7 
+[10:25:35.233] [INFO   ] place card step 8 
+[10:25:36.240] [SEVERE ] updating countdown to 51677
+[10:25:36.681] [INFO   ] place card step 0 
+[10:25:36.681] [INFO   ] place card step 1 
+[10:25:36.681] [INFO   ] place card step 2 
+[10:25:36.681] [INFO   ] place card step 3 
+[10:25:36.682] [INFO   ] place card step 5 
+[10:25:36.682] [INFO   ] place card step 6 
+[10:25:36.682] [INFO   ] place card step 7 
+[10:25:36.682] [INFO   ] place card step 8 

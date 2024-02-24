@@ -1,0 +1,1363 @@
+[11:20:13.979] [INFO   ] thread main starting.
+[11:20:13.993] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[11:20:13.997] [SEVERE ] configuration file was loaded from resources directory.
+[11:20:15.403] [INFO   ] thread dealer starting.
+[11:20:15.404] [INFO   ] thread dealer starting.
+[11:20:15.406] [INFO   ] thread Thread-0 starting.
+[11:20:15.411] [INFO   ] creat AI step 1 
+[11:20:15.411] [INFO   ] thread computer-0 starting.
+[11:20:15.412] [INFO   ] creat AI step 2 
+[11:20:15.412] [INFO   ] creat AI step 3 
+[11:20:15.413] [INFO   ] thread Thread-0wip1
+[11:20:15.416] [INFO   ] thread Thread-1 starting.
+[11:20:15.413] [INFO   ] creat AI step 7 
+[11:20:15.417] [INFO   ] thread Thread-0wip2
+[11:20:15.418] [INFO   ] creat AI step 1 
+[11:20:15.418] [INFO   ] AI key pressed step 1 
+[11:20:15.419] [INFO   ] thread computer-1 starting.
+[11:20:15.418] [INFO   ] thread Thread-0wip3
+[11:20:15.419] [INFO   ] creat AI step 2 
+[11:20:15.419] [INFO   ] thread Thread-0wip4
+[11:20:15.419] [INFO   ] AI key pressed step 2 
+[11:20:15.419] [SEVERE ] updating countdown to 60000
+[11:20:15.419] [INFO   ] thread Thread-1wip1
+[11:20:15.419] [INFO   ] creat AI step 3 
+[11:20:15.421] [INFO   ] thread Thread-1wip2
+[11:20:15.421] [INFO   ] KP step 1computer-0
+[11:20:15.422] [INFO   ] thread Thread-1wip3
+[11:20:15.423] [INFO   ] thread Thread-1wip4
+[11:20:15.422] [INFO   ] KP step 7computer-0
+[11:20:15.423] [INFO   ] creat AI step 7 
+[11:20:15.423] [INFO   ] AI key pressed step 3, random slot: 1
+[11:20:15.423] [INFO   ] AI key pressed step 1 
+[11:20:15.423] [INFO   ] creat AI step 8 
+[11:20:15.424] [INFO   ] AI key pressed step 2 
+[11:20:15.424] [INFO   ] creat AI step 9 
+[11:20:15.425] [INFO   ] KP step 1computer-1
+[11:20:15.425] [INFO   ] thread Thread-0wip5
+[11:20:15.426] [INFO   ] KP step 7computer-1
+[11:20:15.426] [INFO   ] AI key pressed step 3, random slot: 1
+[11:20:15.426] [INFO   ] thread Thread-0wip1
+[11:20:15.426] [INFO   ] creat AI step 8 
+[11:20:15.427] [INFO   ] thread Thread-0wip2
+[11:20:15.427] [INFO   ] creat AI step 9 
+[11:20:15.427] [INFO   ] thread Thread-0wip3
+[11:20:15.427] [INFO   ] thread Thread-1wip5
+[11:20:15.428] [INFO   ] thread Thread-0wip4
+[11:20:15.429] [INFO   ] thread Thread-1wip1
+[11:20:15.430] [INFO   ] thread Thread-1wip2
+[11:20:15.430] [INFO   ] thread Thread-1wip3
+[11:20:15.430] [INFO   ] thread Thread-1wip4
+[11:20:15.431] [INFO   ] creat AI step 10 
+[11:20:15.431] [INFO   ] creat AI step 10 
+[11:20:15.434] [INFO   ] creat AI step 11 
+[11:20:15.434] [INFO   ] creat AI step 3 
+[11:20:15.434] [INFO   ] creat AI step 7 
+[11:20:15.434] [INFO   ] AI key pressed step 1 
+[11:20:15.434] [INFO   ] AI key pressed step 2 
+[11:20:15.434] [INFO   ] KP step 1computer-1
+[11:20:15.434] [INFO   ] creat AI step 11 
+[11:20:15.436] [INFO   ] KP step 7computer-1
+[11:20:15.436] [INFO   ] creat AI step 3 
+[11:20:15.436] [INFO   ] AI key pressed step 3, random slot: 5
+[11:20:15.437] [INFO   ] creat AI step 7 
+[11:20:15.437] [INFO   ] creat AI step 8 
+[11:20:15.438] [INFO   ] creat AI step 9 
+[11:20:15.438] [INFO   ] AI key pressed step 1 
+[11:20:15.451] [INFO   ] AI key pressed step 2 
+[11:20:15.451] [INFO   ] thread Thread-1wip5
+[11:20:15.451] [INFO   ] thread Thread-1wip1
+[11:20:15.451] [INFO   ] KP step 1computer-0
+[11:20:15.452] [INFO   ] KP step 7computer-0
+[11:20:15.452] [INFO   ] AI key pressed step 3, random slot: 1
+[11:20:15.452] [INFO   ] creat AI step 8 
+[11:20:15.453] [INFO   ] creat AI step 9 
+[11:20:15.453] [INFO   ] thread Thread-0wip5
+[11:20:15.452] [INFO   ] thread Thread-1wip2
+[11:20:15.454] [INFO   ] thread Thread-0wip1
+[11:20:15.454] [INFO   ] thread Thread-1wip3
+[11:20:15.454] [INFO   ] thread Thread-0wip2
+[11:20:15.454] [INFO   ] thread Thread-1wip4
+[11:20:15.454] [INFO   ] thread Thread-0wip3
+[11:20:15.456] [INFO   ] creat AI step 10 
+[11:20:15.456] [INFO   ] thread Thread-0wip4
+[11:20:15.457] [INFO   ] creat AI step 11 
+[11:20:15.457] [INFO   ] creat AI step 10 
+[11:20:15.457] [INFO   ] creat AI step 3 
+[11:20:15.457] [INFO   ] creat AI step 11 
+[11:20:15.457] [INFO   ] creat AI step 7 
+[11:20:15.458] [INFO   ] creat AI step 3 
+[11:20:15.458] [INFO   ] AI key pressed step 1 
+[11:20:15.459] [INFO   ] creat AI step 7 
+[11:20:15.459] [INFO   ] AI key pressed step 2 
+[11:20:15.459] [INFO   ] AI key pressed step 1 
+[11:20:15.459] [INFO   ] KP step 1computer-1
+[11:20:15.460] [INFO   ] AI key pressed step 2 
+[11:20:15.461] [INFO   ] KP step 7computer-1
+[11:20:15.461] [INFO   ] KP step 1computer-0
+[11:20:15.462] [INFO   ] AI key pressed step 3, random slot: 1
+[11:20:15.463] [INFO   ] KP step 7computer-0
+[11:20:15.463] [INFO   ] creat AI step 8 
+[11:20:15.464] [INFO   ] AI key pressed step 3, random slot: 0
+[11:20:15.464] [INFO   ] creat AI step 9 
+[11:20:15.465] [INFO   ] creat AI step 8 
+[11:20:15.465] [INFO   ] creat AI step 9 
+[11:20:15.465] [INFO   ] thread Thread-1wip5
+[11:20:15.465] [INFO   ] thread Thread-0wip5
+[11:20:15.465] [INFO   ] thread Thread-1wip1
+[11:20:15.466] [INFO   ] thread Thread-0wip1
+[11:20:15.466] [INFO   ] thread Thread-1wip2
+[11:20:15.466] [INFO   ] thread Thread-0wip2
+[11:20:15.466] [INFO   ] thread Thread-1wip3
+[11:20:15.466] [INFO   ] thread Thread-0wip3
+[11:20:15.467] [INFO   ] thread Thread-1wip4
+[11:20:15.467] [INFO   ] thread Thread-0wip4
+[11:20:15.467] [INFO   ] creat AI step 10 
+[11:20:15.468] [INFO   ] creat AI step 10 
+[11:20:15.468] [INFO   ] creat AI step 11 
+[11:20:15.468] [INFO   ] creat AI step 11 
+[11:20:15.468] [INFO   ] creat AI step 3 
+[11:20:15.468] [INFO   ] creat AI step 3 
+[11:20:15.469] [INFO   ] creat AI step 7 
+[11:20:15.469] [INFO   ] AI key pressed step 1 
+[11:20:15.469] [INFO   ] creat AI step 7 
+[11:20:15.469] [INFO   ] AI key pressed step 2 
+[11:20:15.470] [INFO   ] AI key pressed step 1 
+[11:20:15.470] [INFO   ] KP step 1computer-1
+[11:20:15.471] [INFO   ] AI key pressed step 2 
+[11:20:15.471] [INFO   ] KP step 7computer-1
+[11:20:15.472] [INFO   ] AI key pressed step 3, random slot: 3
+[11:20:15.472] [INFO   ] creat AI step 8 
+[11:20:15.472] [INFO   ] creat AI step 9 
+[11:20:15.471] [INFO   ] KP step 1computer-0
+[11:20:15.474] [INFO   ] thread Thread-1wip5
+[11:20:15.474] [INFO   ] KP step 7computer-0
+[11:20:15.474] [INFO   ] AI key pressed step 3, random slot: 10
+[11:20:15.474] [INFO   ] creat AI step 8 
+[11:20:15.474] [INFO   ] thread Thread-1wip1
+[11:20:15.474] [INFO   ] creat AI step 9 
+[11:20:15.474] [INFO   ] thread Thread-1wip2
+[11:20:15.474] [INFO   ] thread Thread-0wip5
+[11:20:15.474] [INFO   ] thread Thread-1wip3
+[11:20:15.476] [INFO   ] thread Thread-0wip1
+[11:20:15.476] [INFO   ] thread Thread-1wip4
+[11:20:15.476] [INFO   ] thread Thread-0wip2
+[11:20:15.477] [INFO   ] creat AI step 10 
+[11:20:15.477] [INFO   ] thread Thread-0wip3
+[11:20:15.478] [INFO   ] thread Thread-0wip4
+[11:20:15.477] [INFO   ] creat AI step 11 
+[11:20:15.478] [INFO   ] creat AI step 10 
+[11:20:15.478] [INFO   ] creat AI step 3 
+[11:20:15.478] [INFO   ] creat AI step 7 
+[11:20:15.479] [INFO   ] AI key pressed step 1 
+[11:20:15.479] [INFO   ] AI key pressed step 2 
+[11:20:15.479] [INFO   ] KP step 1computer-1
+[11:20:15.479] [INFO   ] KP step 7computer-1
+[11:20:15.478] [INFO   ] creat AI step 11 
+[11:20:15.479] [INFO   ] AI key pressed step 3, random slot: 4
+[11:20:15.480] [INFO   ] creat AI step 8 
+[11:20:15.480] [INFO   ] creat AI step 3 
+[11:20:15.480] [INFO   ] creat AI step 9 
+[11:20:15.480] [INFO   ] creat AI step 7 
+[11:20:15.481] [INFO   ] AI key pressed step 1 
+[11:20:15.481] [INFO   ] AI key pressed step 2 
+[11:20:15.481] [INFO   ] KP step 1computer-0
+[11:20:15.481] [INFO   ] thread Thread-1wip5
+[11:20:15.482] [INFO   ] thread Thread-1wip1
+[11:20:15.481] [INFO   ] KP step 7computer-0
+[11:20:15.482] [INFO   ] thread Thread-1wip2
+[11:20:15.482] [INFO   ] thread Thread-1wip3
+[11:20:15.482] [INFO   ] thread Thread-1wip4
+[11:20:15.482] [INFO   ] AI key pressed step 3, random slot: 7
+[11:20:15.483] [INFO   ] creat AI step 10 
+[11:20:15.483] [INFO   ] creat AI step 8 
+[11:20:15.483] [INFO   ] creat AI step 11 
+[11:20:15.483] [INFO   ] creat AI step 9 
+[11:20:15.483] [INFO   ] creat AI step 3 
+[11:20:15.484] [INFO   ] creat AI step 7 
+[11:20:15.484] [INFO   ] thread Thread-0wip5
+[11:20:15.484] [INFO   ] thread Thread-0wip1
+[11:20:15.484] [INFO   ] AI key pressed step 1 
+[11:20:15.484] [INFO   ] thread Thread-0wip2
+[11:20:15.484] [INFO   ] AI key pressed step 2 
+[11:20:15.484] [INFO   ] thread Thread-0wip3
+[11:20:15.484] [INFO   ] KP step 1computer-1
+[11:20:15.486] [INFO   ] thread Thread-0wip4
+[11:20:15.486] [INFO   ] KP step 7computer-1
+[11:20:15.486] [INFO   ] AI key pressed step 3, random slot: 2
+[11:20:15.486] [INFO   ] creat AI step 8 
+[11:20:15.486] [INFO   ] creat AI step 10 
+[11:20:15.487] [INFO   ] creat AI step 9 
+[11:20:15.487] [INFO   ] creat AI step 11 
+[11:20:15.487] [INFO   ] creat AI step 3 
+[11:20:15.488] [INFO   ] creat AI step 7 
+[11:20:15.488] [INFO   ] AI key pressed step 1 
+[11:20:15.488] [INFO   ] AI key pressed step 2 
+[11:20:15.489] [INFO   ] KP step 1computer-0
+[11:20:15.489] [INFO   ] KP step 7computer-0
+[11:20:15.489] [INFO   ] AI key pressed step 3, random slot: 2
+[11:20:15.489] [INFO   ] creat AI step 8 
+[11:20:15.489] [INFO   ] creat AI step 9 
+[11:20:15.489] [INFO   ] thread Thread-0wip5
+[11:20:15.490] [INFO   ] thread Thread-0wip1
+[11:20:15.490] [INFO   ] thread Thread-0wip2
+[11:20:15.489] [INFO   ] thread Thread-1wip5
+[11:20:15.490] [INFO   ] thread Thread-0wip3
+[11:20:15.490] [INFO   ] thread Thread-1wip1
+[11:20:15.490] [INFO   ] thread Thread-0wip4
+[11:20:15.490] [INFO   ] thread Thread-1wip2
+[11:20:15.492] [INFO   ] thread Thread-1wip3
+[11:20:15.492] [INFO   ] thread Thread-1wip4
+[11:20:15.492] [INFO   ] creat AI step 10 
+[11:20:15.493] [INFO   ] creat AI step 11 
+[11:20:15.493] [INFO   ] creat AI step 3 
+[11:20:15.492] [INFO   ] creat AI step 10 
+[11:20:15.493] [INFO   ] creat AI step 7 
+[11:20:15.494] [INFO   ] AI key pressed step 1 
+[11:20:15.494] [INFO   ] AI key pressed step 2 
+[11:20:15.494] [INFO   ] KP step 1computer-1
+[11:20:15.493] [INFO   ] creat AI step 11 
+[11:20:15.494] [INFO   ] KP step 7computer-1
+[11:20:15.495] [INFO   ] AI key pressed step 3, random slot: 0
+[11:20:15.495] [INFO   ] creat AI step 3 
+[11:20:15.495] [INFO   ] creat AI step 8 
+[11:20:15.498] [INFO   ] creat AI step 9 
+[11:20:15.498] [INFO   ] creat AI step 7 
+[11:20:15.501] [INFO   ] AI key pressed step 1 
+[11:20:15.501] [INFO   ] AI key pressed step 2 
+[11:20:15.502] [INFO   ] KP step 1computer-0
+[11:20:15.502] [INFO   ] KP step 7computer-0
+[11:20:15.502] [INFO   ] AI key pressed step 3, random slot: 9
+[11:20:15.501] [INFO   ] thread Thread-1wip5
+[11:20:15.507] [INFO   ] thread Thread-1wip1
+[11:20:15.507] [INFO   ] thread Thread-1wip2
+[11:20:15.507] [INFO   ] thread Thread-1wip3
+[11:20:15.507] [INFO   ] thread Thread-1wip4
+[11:20:15.506] [INFO   ] creat AI step 8 
+[11:20:15.508] [INFO   ] creat AI step 10 
+[11:20:15.508] [INFO   ] creat AI step 11 
+[11:20:15.509] [INFO   ] creat AI step 3 
+[11:20:15.508] [INFO   ] creat AI step 9 
+[11:20:15.509] [INFO   ] creat AI step 7 
+[11:20:15.510] [INFO   ] thread Thread-0wip5
+[11:20:15.510] [INFO   ] thread Thread-0wip1
+[11:20:15.510] [INFO   ] AI key pressed step 1 
+[11:20:15.510] [INFO   ] thread Thread-0wip2
+[11:20:15.511] [INFO   ] AI key pressed step 2 
+[11:20:15.511] [INFO   ] thread Thread-0wip3
+[11:20:15.512] [INFO   ] KP step 1computer-1
+[11:20:15.512] [INFO   ] thread Thread-0wip4
+[11:20:15.512] [INFO   ] KP step 7computer-1
+[11:20:15.513] [INFO   ] AI key pressed step 3, random slot: 2
+[11:20:15.513] [INFO   ] creat AI step 8 
+[11:20:15.513] [INFO   ] creat AI step 9 
+[11:20:15.513] [INFO   ] creat AI step 10 
+[11:20:15.515] [INFO   ] creat AI step 11 
+[11:20:15.516] [INFO   ] creat AI step 3 
+[11:20:15.536] [INFO   ] creat AI step 7 
+[11:20:15.537] [INFO   ] AI key pressed step 1 
+[11:20:15.537] [INFO   ] AI key pressed step 2 
+[11:20:15.537] [INFO   ] KP step 1computer-0
+[11:20:15.537] [INFO   ] KP step 7computer-0
+[11:20:15.537] [INFO   ] AI key pressed step 3, random slot: 6
+[11:20:15.538] [INFO   ] creat AI step 8 
+[11:20:15.538] [INFO   ] creat AI step 9 
+[11:20:15.538] [INFO   ] thread Thread-0wip5
+[11:20:15.534] [INFO   ] thread Thread-1wip5
+[11:20:15.538] [INFO   ] thread Thread-0wip1
+[11:20:15.538] [INFO   ] thread Thread-1wip1
+[11:20:15.538] [INFO   ] thread Thread-0wip2
+[11:20:15.539] [INFO   ] thread Thread-0wip3
+[11:20:15.539] [INFO   ] thread Thread-0wip4
+[11:20:15.539] [INFO   ] thread Thread-1wip2
+[11:20:15.540] [INFO   ] thread Thread-1wip3
+[11:20:15.540] [INFO   ] thread Thread-1wip4
+[11:20:15.540] [INFO   ] creat AI step 10 
+[11:20:15.540] [INFO   ] creat AI step 10 
+[11:20:15.540] [INFO   ] creat AI step 11 
+[11:20:15.540] [INFO   ] creat AI step 11 
+[11:20:15.541] [INFO   ] creat AI step 3 
+[11:20:15.541] [INFO   ] creat AI step 3 
+[11:20:15.542] [INFO   ] creat AI step 7 
+[11:20:15.542] [INFO   ] creat AI step 7 
+[11:20:15.542] [INFO   ] AI key pressed step 1 
+[11:20:15.543] [INFO   ] AI key pressed step 2 
+[11:20:15.543] [INFO   ] KP step 1computer-1
+[11:20:15.543] [INFO   ] KP step 7computer-1
+[11:20:15.543] [INFO   ] AI key pressed step 3, random slot: 6
+[11:20:15.543] [INFO   ] creat AI step 8 
+[11:20:15.543] [INFO   ] creat AI step 9 
+[11:20:15.542] [INFO   ] AI key pressed step 1 
+[11:20:15.545] [INFO   ] AI key pressed step 2 
+[11:20:15.545] [INFO   ] KP step 1computer-0
+[11:20:15.546] [INFO   ] KP step 7computer-0
+[11:20:15.546] [INFO   ] AI key pressed step 3, random slot: 7
+[11:20:15.546] [INFO   ] creat AI step 8 
+[11:20:15.546] [INFO   ] creat AI step 9 
+[11:20:15.546] [INFO   ] thread Thread-1wip5
+[11:20:15.546] [INFO   ] thread Thread-0wip5
+[11:20:15.546] [INFO   ] thread Thread-1wip1
+[11:20:15.547] [INFO   ] thread Thread-0wip1
+[11:20:15.547] [INFO   ] thread Thread-1wip2
+[11:20:15.547] [INFO   ] thread Thread-0wip2
+[11:20:15.547] [INFO   ] thread Thread-1wip3
+[11:20:15.547] [INFO   ] thread Thread-0wip3
+[11:20:15.548] [INFO   ] thread Thread-1wip4
+[11:20:15.548] [INFO   ] thread Thread-0wip4
+[11:20:15.548] [INFO   ] creat AI step 10 
+[11:20:15.548] [INFO   ] creat AI step 10 
+[11:20:15.548] [INFO   ] creat AI step 11 
+[11:20:15.549] [INFO   ] creat AI step 3 
+[11:20:15.549] [INFO   ] creat AI step 7 
+[11:20:15.549] [INFO   ] creat AI step 11 
+[11:20:15.549] [INFO   ] AI key pressed step 1 
+[11:20:15.549] [INFO   ] creat AI step 3 
+[11:20:15.549] [INFO   ] AI key pressed step 2 
+[11:20:15.549] [INFO   ] creat AI step 7 
+[11:20:15.550] [INFO   ] KP step 1computer-1
+[11:20:15.550] [INFO   ] AI key pressed step 1 
+[11:20:15.550] [INFO   ] KP step 7computer-1
+[11:20:15.550] [INFO   ] AI key pressed step 2 
+[11:20:15.550] [INFO   ] AI key pressed step 3, random slot: 4
+[11:20:15.550] [INFO   ] KP step 1computer-0
+[11:20:15.551] [INFO   ] creat AI step 8 
+[11:20:15.551] [INFO   ] KP step 7computer-0
+[11:20:15.551] [INFO   ] creat AI step 9 
+[11:20:15.551] [INFO   ] AI key pressed step 3, random slot: 4
+[11:20:15.552] [INFO   ] creat AI step 8 
+[11:20:15.552] [INFO   ] creat AI step 9 
+[11:20:15.555] [INFO   ] thread Thread-0wip5
+[11:20:15.555] [INFO   ] thread Thread-1wip5
+[11:20:15.555] [INFO   ] thread Thread-0wip1
+[11:20:15.556] [INFO   ] thread Thread-1wip1
+[11:20:15.556] [INFO   ] thread Thread-0wip2
+[11:20:15.556] [INFO   ] thread Thread-0wip3
+[11:20:15.556] [INFO   ] thread Thread-1wip2
+[11:20:15.556] [INFO   ] thread Thread-0wip4
+[11:20:15.557] [INFO   ] thread Thread-1wip3
+[11:20:15.557] [INFO   ] thread Thread-1wip4
+[11:20:15.557] [INFO   ] creat AI step 10 
+[11:20:15.557] [INFO   ] creat AI step 10 
+[11:20:15.557] [INFO   ] creat AI step 11 
+[11:20:15.557] [INFO   ] creat AI step 11 
+[11:20:15.557] [INFO   ] creat AI step 3 
+[11:20:15.558] [INFO   ] creat AI step 3 
+[11:20:15.558] [INFO   ] creat AI step 7 
+[11:20:15.558] [INFO   ] creat AI step 7 
+[11:20:15.558] [INFO   ] AI key pressed step 1 
+[11:20:15.558] [INFO   ] AI key pressed step 1 
+[11:20:15.559] [INFO   ] AI key pressed step 2 
+[11:20:15.559] [INFO   ] AI key pressed step 2 
+[11:20:15.559] [INFO   ] KP step 1computer-1
+[11:20:15.559] [INFO   ] KP step 1computer-0
+[11:20:15.560] [INFO   ] KP step 7computer-1
+[11:20:15.560] [INFO   ] KP step 7computer-0
+[11:20:15.560] [INFO   ] AI key pressed step 3, random slot: 6
+[11:20:15.560] [INFO   ] AI key pressed step 3, random slot: 3
+[11:20:15.560] [INFO   ] creat AI step 8 
+[11:20:15.561] [INFO   ] creat AI step 8 
+[11:20:15.561] [INFO   ] creat AI step 9 
+[11:20:15.561] [INFO   ] thread Thread-0wip5
+[11:20:15.561] [INFO   ] creat AI step 9 
+[11:20:15.561] [INFO   ] thread Thread-0wip1
+[11:20:15.562] [INFO   ] thread Thread-0wip2
+[11:20:15.561] [INFO   ] thread Thread-1wip5
+[11:20:15.562] [INFO   ] thread Thread-0wip3
+[11:20:15.565] [INFO   ] thread Thread-0wip4
+[11:20:15.565] [INFO   ] thread Thread-1wip1
+[11:20:15.566] [INFO   ] thread Thread-1wip2
+[11:20:15.567] [INFO   ] thread Thread-1wip3
+[11:20:15.567] [INFO   ] thread Thread-1wip4
+[11:20:15.567] [INFO   ] creat AI step 10 
+[11:20:15.567] [INFO   ] creat AI step 11 
+[11:20:15.567] [INFO   ] creat AI step 3 
+[11:20:15.567] [INFO   ] creat AI step 7 
+[11:20:15.567] [INFO   ] creat AI step 10 
+[11:20:15.567] [INFO   ] AI key pressed step 1 
+[11:20:15.568] [INFO   ] creat AI step 11 
+[11:20:15.568] [INFO   ] AI key pressed step 2 
+[11:20:15.568] [INFO   ] creat AI step 3 
+[11:20:15.568] [INFO   ] KP step 1computer-0
+[11:20:15.568] [INFO   ] creat AI step 7 
+[11:20:15.569] [INFO   ] KP step 7computer-0
+[11:20:15.569] [INFO   ] AI key pressed step 1 
+[11:20:15.569] [INFO   ] AI key pressed step 3, random slot: 1
+[11:20:15.569] [INFO   ] AI key pressed step 2 
+[11:20:15.570] [INFO   ] creat AI step 8 
+[11:20:15.570] [INFO   ] KP step 1computer-1
+[11:20:15.570] [INFO   ] creat AI step 9 
+[11:20:15.570] [INFO   ] KP step 7computer-1
+[11:20:15.570] [INFO   ] thread Thread-0wip5
+[11:20:15.570] [INFO   ] AI key pressed step 3, random slot: 1
+[11:20:15.571] [INFO   ] thread Thread-0wip1
+[11:20:15.571] [INFO   ] creat AI step 8 
+[11:20:15.571] [INFO   ] thread Thread-0wip2
+[11:20:15.571] [INFO   ] creat AI step 9 
+[11:20:15.571] [INFO   ] thread Thread-0wip3
+[11:20:15.571] [INFO   ] thread Thread-1wip5
+[11:20:15.571] [INFO   ] thread Thread-0wip4
+[11:20:15.572] [INFO   ] thread Thread-1wip1
+[11:20:15.572] [INFO   ] thread Thread-1wip2
+[11:20:15.572] [INFO   ] thread Thread-1wip3
+[11:20:15.572] [INFO   ] thread Thread-1wip4
+[11:20:15.572] [INFO   ] creat AI step 10 
+[11:20:15.572] [INFO   ] creat AI step 10 
+[11:20:15.574] [INFO   ] creat AI step 11 
+[11:20:15.574] [INFO   ] creat AI step 11 
+[11:20:15.575] [INFO   ] creat AI step 3 
+[11:20:15.575] [INFO   ] creat AI step 3 
+[11:20:15.575] [INFO   ] creat AI step 7 
+[11:20:15.575] [INFO   ] creat AI step 7 
+[11:20:15.575] [INFO   ] AI key pressed step 1 
+[11:20:15.575] [INFO   ] AI key pressed step 1 
+[11:20:15.575] [INFO   ] AI key pressed step 2 
+[11:20:15.576] [INFO   ] AI key pressed step 2 
+[11:20:15.576] [INFO   ] KP step 1computer-0
+[11:20:15.576] [INFO   ] KP step 1computer-1
+[11:20:15.576] [INFO   ] KP step 7computer-0
+[11:20:15.576] [INFO   ] KP step 7computer-1
+[11:20:15.576] [INFO   ] AI key pressed step 3, random slot: 9
+[11:20:15.576] [INFO   ] AI key pressed step 3, random slot: 7
+[11:20:15.576] [INFO   ] creat AI step 8 
+[11:20:15.577] [INFO   ] creat AI step 8 
+[11:20:15.577] [INFO   ] creat AI step 9 
+[11:20:15.577] [INFO   ] creat AI step 9 
+[11:20:15.577] [INFO   ] thread Thread-0wip5
+[11:20:15.577] [INFO   ] thread Thread-1wip5
+[11:20:15.577] [INFO   ] thread Thread-0wip1
+[11:20:15.577] [INFO   ] thread Thread-1wip1
+[11:20:15.577] [INFO   ] thread Thread-0wip2
+[11:20:15.577] [INFO   ] thread Thread-1wip2
+[11:20:15.577] [INFO   ] thread Thread-0wip3
+[11:20:15.578] [INFO   ] thread Thread-0wip4
+[11:20:15.578] [INFO   ] thread Thread-1wip3
+[11:20:15.578] [INFO   ] thread Thread-1wip4
+[11:20:15.578] [INFO   ] creat AI step 10 
+[11:20:15.578] [INFO   ] creat AI step 10 
+[11:20:15.578] [INFO   ] creat AI step 11 
+[11:20:15.578] [INFO   ] creat AI step 3 
+[11:20:15.578] [INFO   ] creat AI step 7 
+[11:20:15.578] [INFO   ] AI key pressed step 1 
+[11:20:15.578] [INFO   ] AI key pressed step 2 
+[11:20:15.578] [INFO   ] KP step 1computer-1
+[11:20:15.579] [INFO   ] KP step 7computer-1
+[11:20:15.579] [INFO   ] AI key pressed step 3, random slot: 7
+[11:20:15.579] [INFO   ] creat AI step 8 
+[11:20:15.579] [INFO   ] creat AI step 9 
+[11:20:15.578] [INFO   ] creat AI step 11 
+[11:20:15.579] [INFO   ] creat AI step 3 
+[11:20:15.579] [INFO   ] creat AI step 7 
+[11:20:15.579] [INFO   ] thread Thread-1wip5
+[11:20:15.581] [INFO   ] thread Thread-1wip1
+[11:20:15.581] [INFO   ] thread Thread-1wip2
+[11:20:15.582] [INFO   ] thread Thread-1wip3
+[11:20:15.582] [INFO   ] thread Thread-1wip4
+[11:20:15.582] [INFO   ] creat AI step 10 
+[11:20:15.582] [INFO   ] creat AI step 11 
+[11:20:15.582] [INFO   ] creat AI step 3 
+[11:20:15.582] [INFO   ] creat AI step 7 
+[11:20:15.582] [INFO   ] AI key pressed step 1 
+[11:20:15.582] [INFO   ] AI key pressed step 2 
+[11:20:15.582] [INFO   ] KP step 1computer-1
+[11:20:15.582] [INFO   ] KP step 7computer-1
+[11:20:15.582] [INFO   ] AI key pressed step 3, random slot: 3
+[11:20:15.582] [INFO   ] creat AI step 8 
+[11:20:15.582] [INFO   ] creat AI step 9 
+[11:20:15.579] [INFO   ] AI key pressed step 1 
+[11:20:15.582] [INFO   ] AI key pressed step 2 
+[11:20:15.583] [INFO   ] KP step 1computer-0
+[11:20:15.583] [INFO   ] KP step 7computer-0
+[11:20:15.583] [INFO   ] AI key pressed step 3, random slot: 7
+[11:20:15.583] [INFO   ] creat AI step 8 
+[11:20:15.583] [INFO   ] creat AI step 9 
+[11:20:15.583] [INFO   ] thread Thread-1wip5
+[11:20:15.583] [INFO   ] thread Thread-0wip5
+[11:20:15.583] [INFO   ] thread Thread-1wip1
+[11:20:15.583] [INFO   ] thread Thread-0wip1
+[11:20:15.583] [INFO   ] thread Thread-0wip2
+[11:20:15.583] [INFO   ] thread Thread-0wip3
+[11:20:15.583] [INFO   ] thread Thread-0wip4
+[11:20:15.583] [INFO   ] thread Thread-1wip2
+[11:20:15.585] [INFO   ] thread Thread-1wip3
+[11:20:15.585] [INFO   ] thread Thread-1wip4
+[11:20:15.585] [INFO   ] creat AI step 10 
+[11:20:15.585] [INFO   ] creat AI step 10 
+[11:20:15.585] [INFO   ] creat AI step 11 
+[11:20:15.585] [INFO   ] creat AI step 3 
+[11:20:15.585] [INFO   ] creat AI step 7 
+[11:20:15.585] [INFO   ] creat AI step 11 
+[11:20:15.585] [INFO   ] AI key pressed step 1 
+[11:20:15.585] [INFO   ] creat AI step 3 
+[11:20:15.585] [INFO   ] AI key pressed step 2 
+[11:20:15.585] [INFO   ] creat AI step 7 
+[11:20:15.585] [INFO   ] KP step 1computer-1
+[11:20:15.585] [INFO   ] AI key pressed step 1 
+[11:20:15.586] [INFO   ] KP step 7computer-1
+[11:20:15.586] [INFO   ] AI key pressed step 2 
+[11:20:15.586] [INFO   ] AI key pressed step 3, random slot: 10
+[11:20:15.586] [INFO   ] KP step 1computer-0
+[11:20:15.586] [INFO   ] creat AI step 8 
+[11:20:15.587] [INFO   ] creat AI step 9 
+[11:20:15.587] [INFO   ] KP step 7computer-0
+[11:20:15.587] [INFO   ] thread Thread-1wip5
+[11:20:15.587] [INFO   ] AI key pressed step 3, random slot: 9
+[11:20:15.587] [INFO   ] thread Thread-1wip1
+[11:20:15.587] [INFO   ] creat AI step 8 
+[11:20:15.587] [INFO   ] thread Thread-1wip2
+[11:20:15.587] [INFO   ] creat AI step 9 
+[11:20:15.587] [INFO   ] thread Thread-1wip3
+[11:20:15.587] [INFO   ] thread Thread-0wip5
+[11:20:15.588] [INFO   ] thread Thread-1wip4
+[11:20:15.588] [INFO   ] thread Thread-0wip1
+[11:20:15.588] [INFO   ] creat AI step 10 
+[11:20:15.588] [INFO   ] thread Thread-0wip2
+[11:20:15.588] [INFO   ] creat AI step 11 
+[11:20:15.588] [INFO   ] creat AI step 3 
+[11:20:15.589] [INFO   ] creat AI step 7 
+[11:20:15.588] [INFO   ] thread Thread-0wip3
+[11:20:15.589] [INFO   ] AI key pressed step 1 
+[11:20:15.589] [INFO   ] thread Thread-0wip4
+[11:20:15.589] [INFO   ] AI key pressed step 2 
+[11:20:15.589] [INFO   ] creat AI step 10 
+[11:20:15.589] [INFO   ] KP step 1computer-1
+[11:20:15.589] [INFO   ] creat AI step 11 
+[11:20:15.589] [INFO   ] KP step 7computer-1
+[11:20:15.589] [INFO   ] creat AI step 3 
+[11:20:15.589] [INFO   ] AI key pressed step 3, random slot: 8
+[11:20:15.589] [INFO   ] creat AI step 7 
+[11:20:15.590] [INFO   ] AI key pressed step 1 
+[11:20:15.589] [INFO   ] creat AI step 8 
+[11:20:15.590] [INFO   ] AI key pressed step 2 
+[11:20:15.590] [INFO   ] creat AI step 9 
+[11:20:15.590] [INFO   ] KP step 1computer-0
+[11:20:15.590] [INFO   ] KP step 7computer-0
+[11:20:15.590] [INFO   ] AI key pressed step 3, random slot: 0
+[11:20:15.590] [INFO   ] creat AI step 8 
+[11:20:15.591] [INFO   ] creat AI step 9 
+[11:20:15.590] [INFO   ] thread Thread-1wip5
+[11:20:15.591] [INFO   ] thread Thread-0wip5
+[11:20:15.591] [INFO   ] thread Thread-1wip1
+[11:20:15.591] [INFO   ] thread Thread-0wip1
+[11:20:15.591] [INFO   ] thread Thread-1wip2
+[11:20:15.591] [INFO   ] thread Thread-0wip2
+[11:20:15.591] [INFO   ] thread Thread-1wip3
+[11:20:15.591] [INFO   ] thread Thread-0wip3
+[11:20:15.592] [INFO   ] thread Thread-1wip4
+[11:20:15.592] [INFO   ] thread Thread-0wip4
+[11:20:15.592] [INFO   ] creat AI step 10 
+[11:20:15.592] [INFO   ] creat AI step 10 
+[11:20:15.592] [INFO   ] creat AI step 11 
+[11:20:15.593] [INFO   ] creat AI step 3 
+[11:20:15.592] [INFO   ] creat AI step 11 
+[11:20:15.593] [INFO   ] creat AI step 7 
+[11:20:15.593] [INFO   ] creat AI step 3 
+[11:20:15.593] [INFO   ] AI key pressed step 1 
+[11:20:15.593] [INFO   ] creat AI step 7 
+[11:20:15.593] [INFO   ] AI key pressed step 2 
+[11:20:15.594] [INFO   ] AI key pressed step 1 
+[11:20:15.594] [INFO   ] KP step 1computer-1
+[11:20:15.594] [INFO   ] KP step 7computer-1
+[11:20:15.594] [INFO   ] AI key pressed step 2 
+[11:20:15.594] [INFO   ] AI key pressed step 3, random slot: 10
+[11:20:15.594] [INFO   ] creat AI step 8 
+[11:20:15.594] [INFO   ] creat AI step 9 
+[11:20:15.594] [INFO   ] KP step 1computer-0
+[11:20:15.594] [INFO   ] thread Thread-1wip5
+[11:20:15.594] [INFO   ] KP step 7computer-0
+[11:20:15.594] [INFO   ] thread Thread-1wip1
+[11:20:15.595] [INFO   ] thread Thread-1wip2
+[11:20:15.595] [INFO   ] AI key pressed step 3, random slot: 9
+[11:20:15.595] [INFO   ] thread Thread-1wip3
+[11:20:15.595] [INFO   ] thread Thread-1wip4
+[11:20:15.595] [INFO   ] creat AI step 8 
+[11:20:15.595] [INFO   ] creat AI step 10 
+[11:20:15.595] [INFO   ] creat AI step 9 
+[11:20:15.595] [INFO   ] creat AI step 11 
+[11:20:15.595] [INFO   ] thread Thread-0wip5
+[11:20:15.596] [INFO   ] creat AI step 3 
+[11:20:15.596] [INFO   ] thread Thread-0wip1
+[11:20:15.596] [INFO   ] creat AI step 7 
+[11:20:15.596] [INFO   ] thread Thread-0wip2
+[11:20:15.596] [INFO   ] AI key pressed step 1 
+[11:20:15.596] [INFO   ] thread Thread-0wip3
+[11:20:15.596] [INFO   ] AI key pressed step 2 
+[11:20:15.596] [INFO   ] thread Thread-0wip4
+[11:20:15.596] [INFO   ] KP step 1computer-1
+[11:20:15.597] [INFO   ] KP step 7computer-1
+[11:20:15.597] [INFO   ] creat AI step 10 
+[11:20:15.597] [INFO   ] AI key pressed step 3, random slot: 1
+[11:20:15.597] [INFO   ] creat AI step 11 
+[11:20:15.597] [INFO   ] creat AI step 3 
+[11:20:15.597] [INFO   ] creat AI step 8 
+[11:20:15.597] [INFO   ] creat AI step 7 
+[11:20:15.598] [INFO   ] creat AI step 9 
+[11:20:15.598] [INFO   ] AI key pressed step 1 
+[11:20:15.599] [INFO   ] thread Thread-1wip5
+[11:20:15.599] [INFO   ] AI key pressed step 2 
+[11:20:15.599] [INFO   ] thread Thread-1wip1
+[11:20:15.599] [INFO   ] KP step 1computer-0
+[11:20:15.599] [INFO   ] thread Thread-1wip2
+[11:20:15.599] [INFO   ] KP step 7computer-0
+[11:20:15.599] [INFO   ] thread Thread-1wip3
+[11:20:15.599] [INFO   ] AI key pressed step 3, random slot: 7
+[11:20:15.599] [INFO   ] thread Thread-1wip4
+[11:20:15.600] [INFO   ] creat AI step 8 
+[11:20:15.600] [INFO   ] creat AI step 9 
+[11:20:15.600] [INFO   ] creat AI step 10 
+[11:20:15.600] [INFO   ] thread Thread-0wip5
+[11:20:15.600] [INFO   ] creat AI step 11 
+[11:20:15.601] [INFO   ] creat AI step 3 
+[11:20:15.601] [INFO   ] creat AI step 7 
+[11:20:15.601] [INFO   ] AI key pressed step 1 
+[11:20:15.601] [INFO   ] thread Thread-0wip1
+[11:20:15.601] [INFO   ] AI key pressed step 2 
+[11:20:15.601] [INFO   ] thread Thread-0wip2
+[11:20:15.601] [INFO   ] KP step 1computer-1
+[11:20:15.601] [INFO   ] KP step 7computer-1
+[11:20:15.601] [INFO   ] thread Thread-0wip3
+[11:20:15.602] [INFO   ] AI key pressed step 3, random slot: 9
+[11:20:15.602] [INFO   ] thread Thread-0wip4
+[11:20:15.602] [INFO   ] creat AI step 8 
+[11:20:15.602] [INFO   ] creat AI step 10 
+[11:20:15.602] [INFO   ] creat AI step 9 
+[11:20:15.602] [INFO   ] creat AI step 11 
+[11:20:15.602] [INFO   ] thread Thread-1wip5
+[11:20:15.602] [INFO   ] thread Thread-1wip1
+[11:20:15.602] [INFO   ] thread Thread-1wip2
+[11:20:15.602] [INFO   ] thread Thread-1wip3
+[11:20:15.603] [INFO   ] thread Thread-1wip4
+[11:20:15.602] [INFO   ] creat AI step 3 
+[11:20:15.603] [INFO   ] creat AI step 7 
+[11:20:15.603] [INFO   ] AI key pressed step 1 
+[11:20:15.603] [INFO   ] creat AI step 10 
+[11:20:15.603] [INFO   ] creat AI step 11 
+[11:20:15.603] [INFO   ] AI key pressed step 2 
+[11:20:15.603] [INFO   ] creat AI step 3 
+[11:20:15.603] [INFO   ] KP step 1computer-0
+[11:20:15.603] [INFO   ] creat AI step 7 
+[11:20:15.603] [INFO   ] KP step 7computer-0
+[11:20:15.603] [INFO   ] AI key pressed step 1 
+[11:20:15.604] [INFO   ] AI key pressed step 2 
+[11:20:15.604] [INFO   ] KP step 1computer-1
+[11:20:15.604] [INFO   ] KP step 7computer-1
+[11:20:15.604] [INFO   ] AI key pressed step 3, random slot: 0
+[11:20:15.603] [INFO   ] AI key pressed step 3, random slot: 11
+[11:20:15.604] [INFO   ] creat AI step 8 
+[11:20:15.604] [INFO   ] creat AI step 8 
+[11:20:15.604] [INFO   ] creat AI step 9 
+[11:20:15.604] [INFO   ] creat AI step 9 
+[11:20:15.605] [INFO   ] thread Thread-1wip5
+[11:20:15.605] [INFO   ] thread Thread-1wip1
+[11:20:15.605] [INFO   ] thread Thread-0wip5
+[11:20:15.605] [INFO   ] thread Thread-1wip2
+[11:20:15.605] [INFO   ] thread Thread-0wip1
+[11:20:15.606] [INFO   ] thread Thread-0wip2
+[11:20:15.605] [INFO   ] thread Thread-1wip3
+[11:20:15.606] [INFO   ] thread Thread-0wip3
+[11:20:15.606] [INFO   ] thread Thread-1wip4
+[11:20:15.606] [INFO   ] thread Thread-0wip4
+[11:20:15.606] [INFO   ] creat AI step 10 
+[11:20:15.606] [INFO   ] creat AI step 10 
+[11:20:15.606] [INFO   ] creat AI step 11 
+[11:20:15.606] [INFO   ] creat AI step 11 
+[11:20:15.607] [INFO   ] creat AI step 3 
+[11:20:15.606] [INFO   ] creat AI step 3 
+[11:20:15.608] [INFO   ] creat AI step 7 
+[11:20:15.608] [INFO   ] AI key pressed step 1 
+[11:20:15.608] [INFO   ] AI key pressed step 2 
+[11:20:15.608] [INFO   ] KP step 1computer-0
+[11:20:15.608] [INFO   ] KP step 7computer-0
+[11:20:15.608] [INFO   ] AI key pressed step 3, random slot: 4
+[11:20:15.608] [INFO   ] creat AI step 8 
+[11:20:15.608] [INFO   ] creat AI step 9 
+[11:20:15.608] [INFO   ] creat AI step 7 
+[11:20:15.609] [INFO   ] AI key pressed step 1 
+[11:20:15.609] [INFO   ] AI key pressed step 2 
+[11:20:15.609] [INFO   ] KP step 1computer-1
+[11:20:15.609] [INFO   ] KP step 7computer-1
+[11:20:15.609] [INFO   ] AI key pressed step 3, random slot: 5
+[11:20:15.609] [INFO   ] creat AI step 8 
+[11:20:15.609] [INFO   ] creat AI step 9 
+[11:20:15.609] [INFO   ] thread Thread-0wip5
+[11:20:15.609] [INFO   ] thread Thread-0wip1
+[11:20:15.609] [INFO   ] thread Thread-1wip5
+[11:20:15.609] [INFO   ] thread Thread-0wip2
+[11:20:15.610] [INFO   ] thread Thread-1wip1
+[11:20:15.610] [INFO   ] thread Thread-0wip3
+[11:20:15.610] [INFO   ] thread Thread-1wip2
+[11:20:15.610] [INFO   ] thread Thread-0wip4
+[11:20:15.610] [INFO   ] thread Thread-1wip3
+[11:20:15.611] [INFO   ] thread Thread-1wip4
+[11:20:15.611] [INFO   ] creat AI step 10 
+[11:20:15.611] [INFO   ] creat AI step 11 
+[11:20:15.611] [INFO   ] creat AI step 10 
+[11:20:15.611] [INFO   ] creat AI step 3 
+[11:20:15.611] [INFO   ] creat AI step 11 
+[11:20:15.611] [INFO   ] creat AI step 3 
+[11:20:15.611] [INFO   ] creat AI step 7 
+[11:20:15.611] [INFO   ] AI key pressed step 1 
+[11:20:15.611] [INFO   ] AI key pressed step 2 
+[11:20:15.611] [INFO   ] creat AI step 7 
+[11:20:15.612] [INFO   ] AI key pressed step 1 
+[11:20:15.612] [INFO   ] KP step 1computer-0
+[11:20:15.612] [INFO   ] AI key pressed step 2 
+[11:20:15.612] [INFO   ] KP step 1computer-1
+[11:20:15.612] [INFO   ] KP step 7computer-1
+[11:20:15.612] [INFO   ] AI key pressed step 3, random slot: 5
+[11:20:15.612] [INFO   ] creat AI step 8 
+[11:20:15.613] [INFO   ] creat AI step 9 
+[11:20:15.612] [INFO   ] KP step 7computer-0
+[11:20:15.614] [INFO   ] AI key pressed step 3, random slot: 3
+[11:20:15.614] [INFO   ] creat AI step 8 
+[11:20:15.614] [INFO   ] creat AI step 9 
+[11:20:15.614] [INFO   ] thread Thread-1wip5
+[11:20:15.614] [INFO   ] thread Thread-1wip1
+[11:20:15.614] [INFO   ] thread Thread-1wip2
+[11:20:15.615] [INFO   ] thread Thread-1wip3
+[11:20:15.615] [INFO   ] thread Thread-1wip4
+[11:20:15.614] [INFO   ] thread Thread-0wip5
+[11:20:15.615] [INFO   ] thread Thread-0wip1
+[11:20:15.615] [INFO   ] thread Thread-0wip2
+[11:20:15.615] [INFO   ] thread Thread-0wip3
+[11:20:15.616] [INFO   ] thread Thread-0wip4
+[11:20:15.616] [INFO   ] creat AI step 10 
+[11:20:15.616] [INFO   ] creat AI step 11 
+[11:20:15.616] [INFO   ] creat AI step 3 
+[11:20:15.616] [INFO   ] creat AI step 7 
+[11:20:15.616] [INFO   ] AI key pressed step 1 
+[11:20:15.616] [INFO   ] AI key pressed step 2 
+[11:20:15.616] [INFO   ] KP step 1computer-1
+[11:20:15.616] [INFO   ] KP step 7computer-1
+[11:20:15.616] [INFO   ] AI key pressed step 3, random slot: 2
+[11:20:15.616] [INFO   ] creat AI step 8 
+[11:20:15.616] [INFO   ] creat AI step 9 
+[11:20:15.617] [INFO   ] creat AI step 10 
+[11:20:15.617] [INFO   ] creat AI step 11 
+[11:20:15.617] [INFO   ] creat AI step 3 
+[11:20:15.617] [INFO   ] creat AI step 7 
+[11:20:15.617] [INFO   ] AI key pressed step 1 
+[11:20:15.617] [INFO   ] AI key pressed step 2 
+[11:20:15.617] [INFO   ] KP step 1computer-0
+[11:20:15.617] [INFO   ] KP step 7computer-0
+[11:20:15.617] [INFO   ] AI key pressed step 3, random slot: 2
+[11:20:15.617] [INFO   ] creat AI step 8 
+[11:20:15.617] [INFO   ] creat AI step 9 
+[11:20:15.618] [INFO   ] thread Thread-1wip5
+[11:20:15.618] [INFO   ] thread Thread-1wip1
+[11:20:15.618] [INFO   ] thread Thread-1wip2
+[11:20:15.618] [INFO   ] thread Thread-1wip3
+[11:20:15.618] [INFO   ] thread Thread-1wip4
+[11:20:15.618] [INFO   ] thread Thread-0wip5
+[11:20:15.618] [INFO   ] creat AI step 10 
+[11:20:15.618] [INFO   ] creat AI step 11 
+[11:20:15.618] [INFO   ] thread Thread-0wip1
+[11:20:15.618] [INFO   ] creat AI step 3 
+[11:20:15.618] [INFO   ] thread Thread-0wip2
+[11:20:15.618] [INFO   ] creat AI step 7 
+[11:20:15.618] [INFO   ] AI key pressed step 1 
+[11:20:15.619] [INFO   ] AI key pressed step 2 
+[11:20:15.618] [INFO   ] thread Thread-0wip3
+[11:20:15.619] [INFO   ] KP step 1computer-1
+[11:20:15.619] [INFO   ] thread Thread-0wip4
+[11:20:15.619] [INFO   ] KP step 7computer-1
+[11:20:15.619] [INFO   ] creat AI step 10 
+[11:20:15.619] [INFO   ] AI key pressed step 3, random slot: 2
+[11:20:15.619] [INFO   ] creat AI step 8 
+[11:20:15.619] [INFO   ] creat AI step 11 
+[11:20:15.619] [INFO   ] creat AI step 9 
+[11:20:15.619] [INFO   ] creat AI step 3 
+[11:20:15.619] [INFO   ] creat AI step 7 
+[11:20:15.619] [INFO   ] AI key pressed step 1 
+[11:20:15.619] [INFO   ] AI key pressed step 2 
+[11:20:15.619] [INFO   ] KP step 1computer-0
+[11:20:15.619] [INFO   ] KP step 7computer-0
+[11:20:15.619] [INFO   ] AI key pressed step 3, random slot: 4
+[11:20:15.620] [INFO   ] creat AI step 8 
+[11:20:15.620] [INFO   ] creat AI step 9 
+[11:20:15.619] [INFO   ] thread Thread-1wip5
+[11:20:15.620] [INFO   ] thread Thread-1wip1
+[11:20:15.620] [INFO   ] thread Thread-1wip2
+[11:20:15.620] [INFO   ] thread Thread-1wip3
+[11:20:15.620] [INFO   ] thread Thread-0wip5
+[11:20:15.620] [INFO   ] thread Thread-1wip4
+[11:20:15.620] [INFO   ] thread Thread-0wip1
+[11:20:15.620] [INFO   ] thread Thread-0wip2
+[11:20:15.620] [INFO   ] creat AI step 10 
+[11:20:15.621] [INFO   ] creat AI step 11 
+[11:20:15.621] [INFO   ] creat AI step 3 
+[11:20:15.621] [INFO   ] creat AI step 7 
+[11:20:15.621] [INFO   ] AI key pressed step 1 
+[11:20:15.621] [INFO   ] AI key pressed step 2 
+[11:20:15.621] [INFO   ] KP step 1computer-1
+[11:20:15.621] [INFO   ] KP step 7computer-1
+[11:20:15.621] [INFO   ] AI key pressed step 3, random slot: 1
+[11:20:15.622] [INFO   ] creat AI step 8 
+[11:20:15.622] [INFO   ] creat AI step 9 
+[11:20:15.622] [INFO   ] thread Thread-1wip5
+[11:20:15.621] [INFO   ] thread Thread-0wip3
+[11:20:15.622] [INFO   ] thread Thread-0wip4
+[11:20:15.622] [INFO   ] thread Thread-1wip1
+[11:20:15.623] [INFO   ] thread Thread-1wip2
+[11:20:15.623] [INFO   ] thread Thread-1wip3
+[11:20:15.623] [INFO   ] thread Thread-1wip4
+[11:20:15.623] [INFO   ] creat AI step 10 
+[11:20:15.623] [INFO   ] creat AI step 11 
+[11:20:15.623] [INFO   ] creat AI step 10 
+[11:20:15.625] [INFO   ] creat AI step 11 
+[11:20:15.625] [INFO   ] creat AI step 3 
+[11:20:15.625] [INFO   ] creat AI step 7 
+[11:20:15.625] [INFO   ] AI key pressed step 1 
+[11:20:15.625] [INFO   ] AI key pressed step 2 
+[11:20:15.625] [INFO   ] KP step 1computer-1
+[11:20:15.625] [INFO   ] KP step 7computer-1
+[11:20:15.625] [INFO   ] AI key pressed step 3, random slot: 0
+[11:20:15.625] [INFO   ] creat AI step 8 
+[11:20:15.625] [INFO   ] creat AI step 9 
+[11:20:15.623] [INFO   ] creat AI step 3 
+[11:20:15.625] [INFO   ] creat AI step 7 
+[11:20:15.625] [INFO   ] AI key pressed step 1 
+[11:20:15.625] [INFO   ] AI key pressed step 2 
+[11:20:15.625] [INFO   ] KP step 1computer-0
+[11:20:15.625] [INFO   ] KP step 7computer-0
+[11:20:15.625] [INFO   ] AI key pressed step 3, random slot: 3
+[11:20:15.626] [INFO   ] creat AI step 8 
+[11:20:15.626] [INFO   ] creat AI step 9 
+[11:20:15.626] [INFO   ] thread Thread-1wip5
+[11:20:15.626] [INFO   ] thread Thread-1wip1
+[11:20:15.626] [INFO   ] thread Thread-0wip5
+[11:20:15.626] [INFO   ] thread Thread-1wip2
+[11:20:15.627] [INFO   ] thread Thread-1wip3
+[11:20:15.626] [INFO   ] thread Thread-0wip1
+[11:20:15.627] [INFO   ] thread Thread-1wip4
+[11:20:15.627] [INFO   ] thread Thread-0wip2
+[11:20:15.627] [INFO   ] thread Thread-0wip3
+[11:20:15.627] [INFO   ] thread Thread-0wip4
+[11:20:15.627] [INFO   ] creat AI step 10 
+[11:20:15.627] [INFO   ] creat AI step 11 
+[11:20:15.627] [INFO   ] creat AI step 3 
+[11:20:15.627] [INFO   ] creat AI step 7 
+[11:20:15.627] [INFO   ] AI key pressed step 1 
+[11:20:15.627] [INFO   ] creat AI step 10 
+[11:20:15.627] [INFO   ] creat AI step 11 
+[11:20:15.627] [INFO   ] AI key pressed step 2 
+[11:20:15.628] [INFO   ] KP step 1computer-1
+[11:20:15.628] [INFO   ] KP step 7computer-1
+[11:20:15.628] [INFO   ] creat AI step 3 
+[11:20:15.628] [INFO   ] AI key pressed step 3, random slot: 8
+[11:20:15.628] [INFO   ] creat AI step 8 
+[11:20:15.628] [INFO   ] creat AI step 9 
+[11:20:15.628] [INFO   ] creat AI step 7 
+[11:20:15.628] [INFO   ] AI key pressed step 1 
+[11:20:15.628] [INFO   ] AI key pressed step 2 
+[11:20:15.628] [INFO   ] KP step 1computer-0
+[11:20:15.628] [INFO   ] KP step 7computer-0
+[11:20:15.628] [INFO   ] AI key pressed step 3, random slot: 6
+[11:20:15.628] [INFO   ] creat AI step 8 
+[11:20:15.629] [INFO   ] creat AI step 9 
+[11:20:15.628] [INFO   ] thread Thread-1wip5
+[11:20:15.629] [INFO   ] thread Thread-1wip1
+[11:20:15.629] [INFO   ] thread Thread-1wip2
+[11:20:15.629] [INFO   ] thread Thread-1wip3
+[11:20:15.629] [INFO   ] thread Thread-1wip4
+[11:20:15.629] [INFO   ] thread Thread-0wip5
+[11:20:15.629] [INFO   ] thread Thread-0wip1
+[11:20:15.629] [INFO   ] thread Thread-0wip2
+[11:20:15.629] [INFO   ] thread Thread-0wip3
+[11:20:15.629] [INFO   ] thread Thread-0wip4
+[11:20:15.629] [INFO   ] creat AI step 10 
+[11:20:15.629] [INFO   ] creat AI step 11 
+[11:20:15.629] [INFO   ] creat AI step 10 
+[11:20:15.629] [INFO   ] creat AI step 11 
+[11:20:15.629] [INFO   ] creat AI step 3 
+[11:20:15.629] [INFO   ] creat AI step 7 
+[11:20:15.629] [INFO   ] creat AI step 3 
+[11:20:15.629] [INFO   ] creat AI step 7 
+[11:20:15.629] [INFO   ] AI key pressed step 1 
+[11:20:15.629] [INFO   ] AI key pressed step 1 
+[11:20:15.629] [INFO   ] AI key pressed step 2 
+[11:20:15.629] [INFO   ] KP step 1computer-1
+[11:20:15.629] [INFO   ] KP step 7computer-1
+[11:20:15.629] [INFO   ] AI key pressed step 3, random slot: 6
+[11:20:15.629] [INFO   ] creat AI step 8 
+[11:20:15.630] [INFO   ] creat AI step 9 
+[11:20:15.629] [INFO   ] AI key pressed step 2 
+[11:20:15.630] [INFO   ] KP step 1computer-0
+[11:20:15.630] [INFO   ] KP step 7computer-0
+[11:20:15.630] [INFO   ] AI key pressed step 3, random slot: 3
+[11:20:15.630] [INFO   ] creat AI step 8 
+[11:20:15.630] [INFO   ] creat AI step 9 
+[11:20:15.630] [INFO   ] thread Thread-1wip5
+[11:20:15.630] [INFO   ] thread Thread-1wip1
+[11:20:15.630] [INFO   ] thread Thread-1wip2
+[11:20:15.630] [INFO   ] thread Thread-1wip3
+[11:20:15.630] [INFO   ] thread Thread-0wip5
+[11:20:15.630] [INFO   ] thread Thread-1wip4
+[11:20:15.630] [INFO   ] thread Thread-0wip1
+[11:20:15.630] [INFO   ] creat AI step 10 
+[11:20:15.630] [INFO   ] creat AI step 11 
+[11:20:15.630] [INFO   ] creat AI step 3 
+[11:20:15.630] [INFO   ] creat AI step 7 
+[11:20:15.632] [INFO   ] AI key pressed step 1 
+[11:20:15.630] [INFO   ] thread Thread-0wip2
+[11:20:15.632] [INFO   ] AI key pressed step 2 
+[11:20:15.632] [INFO   ] thread Thread-0wip3
+[11:20:15.632] [INFO   ] KP step 1computer-1
+[11:20:15.632] [INFO   ] thread Thread-0wip4
+[11:20:15.632] [INFO   ] KP step 7computer-1
+[11:20:15.633] [INFO   ] AI key pressed step 3, random slot: 11
+[11:20:15.633] [INFO   ] creat AI step 8 
+[11:20:15.633] [INFO   ] creat AI step 9 
+[11:20:15.634] [INFO   ] creat AI step 10 
+[11:20:15.634] [INFO   ] creat AI step 11 
+[11:20:15.634] [INFO   ] creat AI step 3 
+[11:20:15.634] [INFO   ] creat AI step 7 
+[11:20:15.634] [INFO   ] AI key pressed step 1 
+[11:20:15.634] [INFO   ] AI key pressed step 2 
+[11:20:15.634] [INFO   ] KP step 1computer-0
+[11:20:15.634] [INFO   ] KP step 7computer-0
+[11:20:15.634] [INFO   ] AI key pressed step 3, random slot: 5
+[11:20:15.634] [INFO   ] creat AI step 8 
+[11:20:15.635] [INFO   ] creat AI step 9 
+[11:20:15.634] [INFO   ] thread Thread-1wip5
+[11:20:15.635] [INFO   ] thread Thread-1wip1
+[11:20:15.635] [INFO   ] thread Thread-0wip5
+[11:20:15.635] [INFO   ] thread Thread-0wip1
+[11:20:15.635] [INFO   ] thread Thread-1wip2
+[11:20:15.635] [INFO   ] thread Thread-0wip2
+[11:20:15.635] [INFO   ] thread Thread-1wip3
+[11:20:15.635] [INFO   ] thread Thread-0wip3
+[11:20:15.635] [INFO   ] thread Thread-1wip4
+[11:20:15.635] [INFO   ] thread Thread-0wip4
+[11:20:15.635] [INFO   ] creat AI step 10 
+[11:20:15.635] [INFO   ] creat AI step 10 
+[11:20:15.635] [INFO   ] creat AI step 11 
+[11:20:15.636] [INFO   ] creat AI step 11 
+[11:20:15.636] [INFO   ] creat AI step 3 
+[11:20:15.636] [INFO   ] creat AI step 7 
+[11:20:15.636] [INFO   ] AI key pressed step 1 
+[11:20:15.636] [INFO   ] creat AI step 3 
+[11:20:15.636] [INFO   ] creat AI step 7 
+[11:20:15.636] [INFO   ] AI key pressed step 1 
+[11:20:15.637] [INFO   ] AI key pressed step 2 
+[11:20:15.636] [INFO   ] AI key pressed step 2 
+[11:20:15.637] [INFO   ] KP step 1computer-1
+[11:20:15.637] [INFO   ] KP step 1computer-0
+[11:20:15.637] [INFO   ] KP step 7computer-1
+[11:20:15.637] [INFO   ] KP step 7computer-0
+[11:20:15.637] [INFO   ] AI key pressed step 3, random slot: 0
+[11:20:15.637] [INFO   ] creat AI step 8 
+[11:20:15.637] [INFO   ] AI key pressed step 3, random slot: 10
+[11:20:15.637] [INFO   ] creat AI step 8 
+[11:20:15.637] [INFO   ] creat AI step 9 
+[11:20:15.637] [INFO   ] creat AI step 9 
+[11:20:15.638] [INFO   ] thread Thread-0wip5
+[11:20:15.638] [INFO   ] thread Thread-1wip5
+[11:20:15.638] [INFO   ] thread Thread-0wip1
+[11:20:15.638] [INFO   ] thread Thread-1wip1
+[11:20:15.638] [INFO   ] thread Thread-0wip2
+[11:20:15.638] [INFO   ] thread Thread-1wip2
+[11:20:15.638] [INFO   ] thread Thread-1wip3
+[11:20:15.638] [INFO   ] thread Thread-1wip4
+[11:20:15.638] [INFO   ] thread Thread-0wip3
+[11:20:15.638] [INFO   ] creat AI step 10 
+[11:20:15.638] [INFO   ] creat AI step 11 
+[11:20:15.638] [INFO   ] thread Thread-0wip4
+[11:20:15.639] [INFO   ] creat AI step 3 
+[11:20:15.639] [INFO   ] creat AI step 10 
+[11:20:15.639] [INFO   ] creat AI step 11 
+[11:20:15.639] [INFO   ] creat AI step 3 
+[11:20:15.639] [INFO   ] creat AI step 7 
+[11:20:15.639] [INFO   ] creat AI step 7 
+[11:20:15.639] [INFO   ] AI key pressed step 1 
+[11:20:15.639] [INFO   ] AI key pressed step 1 
+[11:20:15.639] [INFO   ] AI key pressed step 2 
+[11:20:15.639] [INFO   ] KP step 1computer-1
+[11:20:15.639] [INFO   ] KP step 7computer-1
+[11:20:15.639] [INFO   ] AI key pressed step 3, random slot: 2
+[11:20:15.639] [INFO   ] creat AI step 8 
+[11:20:15.639] [INFO   ] creat AI step 9 
+[11:20:15.639] [INFO   ] AI key pressed step 2 
+[11:20:15.640] [INFO   ] KP step 1computer-0
+[11:20:15.640] [INFO   ] KP step 7computer-0
+[11:20:15.640] [INFO   ] AI key pressed step 3, random slot: 0
+[11:20:15.640] [INFO   ] creat AI step 8 
+[11:20:15.640] [INFO   ] creat AI step 9 
+[11:20:15.640] [INFO   ] thread Thread-1wip5
+[11:20:15.640] [INFO   ] thread Thread-1wip1
+[11:20:15.640] [INFO   ] thread Thread-1wip2
+[11:20:15.640] [INFO   ] thread Thread-1wip3
+[11:20:15.640] [INFO   ] thread Thread-1wip4
+[11:20:15.640] [INFO   ] thread Thread-0wip5
+[11:20:15.640] [INFO   ] thread Thread-0wip1
+[11:20:15.640] [INFO   ] thread Thread-0wip2
+[11:20:15.640] [INFO   ] thread Thread-0wip3
+[11:20:15.640] [INFO   ] thread Thread-0wip4
+[11:20:15.640] [INFO   ] creat AI step 10 
+[11:20:15.640] [INFO   ] creat AI step 11 
+[11:20:15.640] [INFO   ] creat AI step 10 
+[11:20:15.640] [INFO   ] creat AI step 11 
+[11:20:15.640] [INFO   ] creat AI step 3 
+[11:20:15.641] [INFO   ] creat AI step 7 
+[11:20:15.641] [INFO   ] AI key pressed step 1 
+[11:20:15.641] [INFO   ] creat AI step 3 
+[11:20:15.641] [INFO   ] creat AI step 7 
+[11:20:15.641] [INFO   ] AI key pressed step 2 
+[11:20:15.641] [INFO   ] AI key pressed step 1 
+[11:20:15.641] [INFO   ] KP step 1computer-0
+[11:20:15.641] [INFO   ] AI key pressed step 2 
+[11:20:15.641] [INFO   ] KP step 1computer-1
+[11:20:15.641] [INFO   ] KP step 7computer-1
+[11:20:15.641] [INFO   ] KP step 7computer-0
+[11:20:15.641] [INFO   ] AI key pressed step 3, random slot: 8
+[11:20:15.641] [INFO   ] creat AI step 8 
+[11:20:15.641] [INFO   ] creat AI step 9 
+[11:20:15.641] [INFO   ] AI key pressed step 3, random slot: 11
+[11:20:15.641] [INFO   ] creat AI step 8 
+[11:20:15.641] [INFO   ] creat AI step 9 
+[11:20:15.642] [INFO   ] thread Thread-1wip5
+[11:20:15.642] [INFO   ] thread Thread-1wip1
+[11:20:15.642] [INFO   ] thread Thread-0wip5
+[11:20:15.642] [INFO   ] thread Thread-0wip1
+[11:20:15.642] [INFO   ] thread Thread-0wip2
+[11:20:15.642] [INFO   ] thread Thread-0wip3
+[11:20:15.642] [INFO   ] thread Thread-1wip2
+[11:20:15.642] [INFO   ] thread Thread-0wip4
+[11:20:15.644] [INFO   ] thread Thread-1wip3
+[11:20:15.644] [INFO   ] thread Thread-1wip4
+[11:20:15.644] [INFO   ] creat AI step 10 
+[11:20:15.644] [INFO   ] creat AI step 11 
+[11:20:15.644] [INFO   ] creat AI step 10 
+[11:20:15.644] [INFO   ] creat AI step 11 
+[11:20:15.644] [INFO   ] creat AI step 3 
+[11:20:15.644] [INFO   ] creat AI step 7 
+[11:20:15.644] [INFO   ] AI key pressed step 1 
+[11:20:15.644] [INFO   ] AI key pressed step 2 
+[11:20:15.644] [INFO   ] KP step 1computer-1
+[11:20:15.646] [INFO   ] place card step 0 
+[11:20:15.646] [INFO   ] creat AI step 3 
+[11:20:15.646] [INFO   ] KP step 7computer-1
+[11:20:15.646] [INFO   ] creat AI step 4 
+[11:20:15.646] [INFO   ] place card step 1 
+[11:20:15.646] [INFO   ] creat AI step 5 
+[11:20:15.646] [INFO   ] AI key pressed step 3, random slot: 8
+[11:20:15.647] [INFO   ] creat AI step 8 
+[11:20:15.647] [INFO   ] creat AI step 9 
+[11:20:15.647] [INFO   ] thread Thread-1wip5
+[11:20:15.647] [INFO   ] thread Thread-1wip1
+[11:20:15.647] [INFO   ] thread Thread-1wip2
+[11:20:15.647] [INFO   ] thread Thread-1wip3
+[11:20:15.647] [INFO   ] thread Thread-1wip4
+[11:20:15.647] [INFO   ] creat AI step 10 
+[11:20:15.647] [INFO   ] creat AI step 11 
+[11:20:15.647] [INFO   ] creat AI step 3 
+[11:20:15.647] [INFO   ] creat AI step 4 
+[11:20:15.647] [INFO   ] creat AI step 5 
+[11:20:15.756] [SEVERE ] placing card 10 in slot 0
+[11:20:15.864] [SEVERE ] placing card 31 in slot 1
+[11:20:15.973] [SEVERE ] placing card 8 in slot 2
+[11:20:16.082] [SEVERE ] placing card 19 in slot 3
+[11:20:16.190] [SEVERE ] placing card 71 in slot 4
+[11:20:16.299] [SEVERE ] placing card 33 in slot 5
+[11:20:16.408] [SEVERE ] placing card 75 in slot 6
+[11:20:16.517] [SEVERE ] placing card 59 in slot 7
+[11:20:16.626] [SEVERE ] placing card 61 in slot 8
+[11:20:16.734] [SEVERE ] placing card 66 in slot 9
+[11:20:16.842] [SEVERE ] placing card 3 in slot 10
+[11:20:16.952] [SEVERE ] placing card 4 in slot 11
+[11:20:16.952] [INFO   ] place card step 2 
+[11:20:16.952] [INFO   ] place card step 3 
+[11:20:16.966] [INFO   ] place card step 5 
+[11:20:16.966] [INFO   ] place card step 6 
+[11:20:16.966] [INFO   ] place card step 7 
+[11:20:16.967] [INFO   ] place card step 8 
+[11:20:16.967] [INFO   ] creat AI step 6 
+[11:20:16.968] [INFO   ] creat AI step 7 
+[11:20:16.968] [INFO   ] AI key pressed step 1 
+[11:20:16.968] [INFO   ] creat AI step 6 
+[11:20:16.968] [INFO   ] creat AI step 7 
+[11:20:16.968] [INFO   ] AI key pressed step 1 
+[11:20:16.968] [INFO   ] AI key pressed step 2 
+[11:20:16.968] [INFO   ] KP step 1computer-1
+[11:20:16.968] [INFO   ] KP step 2computer-1
+[11:20:16.969] [INFO   ] KP step 4computer-1
+[11:20:16.969] [INFO   ] KP step 5computer-1
+[11:20:16.969] [SEVERE ] player 2 placing token on slot 9
+[11:20:16.970] [INFO   ] KP step 6computer-1
+[11:20:16.970] [INFO   ] KP step 7computer-1
+[11:20:16.970] [INFO   ] AI key pressed step 3, random slot: 9
+[11:20:16.970] [INFO   ] creat AI step 8 
+[11:20:16.970] [INFO   ] creat AI step 9 
+[11:20:16.968] [INFO   ] AI key pressed step 2 
+[11:20:16.971] [INFO   ] KP step 1computer-0
+[11:20:16.971] [INFO   ] KP step 2computer-0
+[11:20:16.971] [INFO   ] KP step 4computer-0
+[11:20:16.971] [INFO   ] KP step 5computer-0
+[11:20:16.971] [SEVERE ] player 1 placing token on slot 10
+[11:20:16.971] [INFO   ] thread Thread-1wip5
+[11:20:16.971] [INFO   ] thread Thread-1wip1
+[11:20:16.971] [INFO   ] thread Thread-1wip2
+[11:20:16.972] [INFO   ] thread Thread-1wip3
+[11:20:16.972] [INFO   ] thread Thread-1wip4
+[11:20:16.972] [INFO   ] creat AI step 10 
+[11:20:16.972] [INFO   ] creat AI step 11 
+[11:20:16.972] [INFO   ] creat AI step 3 
+[11:20:16.972] [INFO   ] creat AI step 7 
+[11:20:16.972] [INFO   ] AI key pressed step 1 
+[11:20:16.972] [INFO   ] AI key pressed step 2 
+[11:20:16.972] [INFO   ] KP step 1computer-1
+[11:20:16.972] [INFO   ] KP step 2computer-1
+[11:20:16.972] [INFO   ] KP step 4computer-1
+[11:20:16.973] [INFO   ] KP step 5computer-1
+[11:20:16.973] [SEVERE ] player 2 placing token on slot 5
+[11:20:16.973] [INFO   ] KP step 6computer-1
+[11:20:16.973] [INFO   ] KP step 7computer-1
+[11:20:16.973] [INFO   ] AI key pressed step 3, random slot: 5
+[11:20:16.973] [INFO   ] creat AI step 8 
+[11:20:16.973] [INFO   ] creat AI step 9 
+[11:20:16.971] [INFO   ] KP step 6computer-0
+[11:20:16.974] [INFO   ] thread Thread-1wip5
+[11:20:16.974] [INFO   ] thread Thread-1wip1
+[11:20:16.974] [INFO   ] thread Thread-1wip2
+[11:20:16.974] [INFO   ] thread Thread-1wip3
+[11:20:16.974] [INFO   ] thread Thread-1wip4
+[11:20:16.974] [INFO   ] creat AI step 10 
+[11:20:16.974] [INFO   ] creat AI step 11 
+[11:20:16.975] [INFO   ] creat AI step 3 
+[11:20:16.976] [INFO   ] creat AI step 7 
+[11:20:16.976] [INFO   ] AI key pressed step 1 
+[11:20:16.974] [INFO   ] KP step 7computer-0
+[11:20:16.976] [INFO   ] AI key pressed step 2 
+[11:20:16.976] [INFO   ] AI key pressed step 3, random slot: 10
+[11:20:16.976] [INFO   ] KP step 1computer-1
+[11:20:16.976] [INFO   ] creat AI step 8 
+[11:20:16.977] [INFO   ] KP step 2computer-1
+[11:20:16.977] [INFO   ] creat AI step 9 
+[11:20:16.977] [INFO   ] KP step 4computer-1
+[11:20:16.977] [INFO   ] KP step 5computer-1
+[11:20:16.977] [SEVERE ] player 2 placing token on slot 10
+[11:20:16.977] [INFO   ] thread Thread-0wip5
+[11:20:16.978] [INFO   ] thread Thread-0wip1
+[11:20:16.978] [INFO   ] thread Thread-0wip2
+[11:20:16.978] [INFO   ] thread Thread-0wip3
+[11:20:16.978] [INFO   ] thread Thread-0wip4
+[11:20:16.978] [INFO   ] KP step 6computer-1
+[11:20:16.979] [INFO   ] KP step 7computer-1
+[11:20:16.979] [INFO   ] creat AI step 10 
+[11:20:16.979] [INFO   ] creat AI step 11 
+[11:20:16.979] [INFO   ] creat AI step 3 
+[11:20:16.979] [INFO   ] creat AI step 7 
+[11:20:16.979] [INFO   ] AI key pressed step 1 
+[11:20:16.979] [INFO   ] AI key pressed step 2 
+[11:20:16.979] [INFO   ] KP step 1computer-0
+[11:20:16.979] [INFO   ] KP step 2computer-0
+[11:20:16.979] [INFO   ] KP step 4computer-0
+[11:20:16.979] [INFO   ] KP step 5computer-0
+[11:20:16.979] [SEVERE ] player 1 placing token on slot 9
+[11:20:16.979] [INFO   ] KP step 6computer-0
+[11:20:16.979] [INFO   ] KP step 7computer-0
+[11:20:16.979] [INFO   ] AI key pressed step 3, random slot: 9
+[11:20:16.979] [INFO   ] creat AI step 8 
+[11:20:16.979] [INFO   ] creat AI step 9 
+[11:20:16.979] [INFO   ] KP step 8computer-1
+[11:20:16.980] [INFO   ] thread Thread-0wip5
+[11:20:16.980] [INFO   ] KP step 11computer-1
+[11:20:16.980] [INFO   ] thread Thread-0wip1
+[11:20:16.980] [INFO   ] thread Thread-0wip2
+[11:20:16.980] [INFO   ] thread Thread-0wip3
+[11:20:16.980] [INFO   ] thread Thread-0wip4
+[11:20:16.980] [INFO   ] creat AI step 10 
+[11:20:16.980] [INFO   ] creat AI step 11 
+[11:20:16.980] [INFO   ] creat AI step 3 
+[11:20:16.980] [INFO   ] creat AI step 7 
+[11:20:16.980] [INFO   ] AI key pressed step 1 
+[11:20:16.980] [INFO   ] AI key pressed step 2 
+[11:20:16.980] [INFO   ] KP step 1computer-0
+[11:20:16.980] [INFO   ] KP step 2computer-0
+[11:20:16.981] [INFO   ] KP step 3computer-0
+[11:20:16.981] [SEVERE ] removing player 1 token from slot 9
+[11:20:16.981] [INFO   ] KP step 7computer-0
+[11:20:16.981] [INFO   ] AI key pressed step 3, random slot: 9
+[11:20:16.981] [INFO   ] creat AI step 8 
+[11:20:16.981] [INFO   ] creat AI step 9 
+[11:20:16.981] [INFO   ] thread Thread-0wip5
+[11:20:16.981] [INFO   ] thread Thread-0wip1
+[11:20:16.981] [INFO   ] thread Thread-0wip2
+[11:20:16.982] [INFO   ] thread Thread-0wip3
+[11:20:16.982] [INFO   ] thread Thread-0wip4
+[11:20:16.982] [INFO   ] creat AI step 10 
+[11:20:16.982] [INFO   ] creat AI step 11 
+[11:20:16.982] [INFO   ] creat AI step 3 
+[11:20:16.982] [INFO   ] creat AI step 7 
+[11:20:16.983] [INFO   ] AI key pressed step 1 
+[11:20:16.983] [INFO   ] AI key pressed step 2 
+[11:20:16.983] [INFO   ] KP step 1computer-0
+[11:20:16.983] [INFO   ] KP step 2computer-0
+[11:20:16.983] [INFO   ] KP step 4computer-0
+[11:20:16.983] [INFO   ] KP step 5computer-0
+[11:20:16.983] [SEVERE ] player 1 placing token on slot 4
+[11:20:16.983] [INFO   ] KP step 6computer-0
+[11:20:16.983] [INFO   ] KP step 7computer-0
+[11:20:16.983] [INFO   ] AI key pressed step 3, random slot: 4
+[11:20:16.983] [INFO   ] creat AI step 8 
+[11:20:16.983] [INFO   ] creat AI step 9 
+[11:20:16.983] [INFO   ] thread Thread-0wip5
+[11:20:16.984] [INFO   ] thread Thread-0wip1
+[11:20:16.984] [INFO   ] thread Thread-0wip2
+[11:20:16.984] [INFO   ] thread Thread-0wip3
+[11:20:16.984] [INFO   ] thread Thread-0wip4
+[11:20:16.984] [INFO   ] creat AI step 10 
+[11:20:16.984] [INFO   ] creat AI step 11 
+[11:20:16.984] [INFO   ] creat AI step 3 
+[11:20:16.984] [INFO   ] creat AI step 7 
+[11:20:16.984] [INFO   ] AI key pressed step 1 
+[11:20:16.984] [INFO   ] AI key pressed step 2 
+[11:20:16.984] [INFO   ] KP step 1computer-0
+[11:20:16.984] [INFO   ] KP step 2computer-0
+[11:20:16.984] [INFO   ] KP step 4computer-0
+[11:20:16.984] [INFO   ] KP step 5computer-0
+[11:20:16.984] [SEVERE ] player 1 placing token on slot 1
+[11:20:16.984] [INFO   ] KP step 6computer-0
+[11:20:16.984] [INFO   ] KP step 7computer-0
+[11:20:16.984] [INFO   ] KP step 8computer-0
+[11:20:16.984] [INFO   ] KP step 11computer-0
+[11:20:17.982] [SEVERE ] updating countdown to 57441
+[11:20:17.984] [INFO   ] thread dealer start remove cards.
+[11:20:18.202] [INFO   ] thread dealer rm 1.
+[11:20:18.202] [INFO   ] thread dealer rm 2.
+[11:20:18.202] [INFO   ] thread dealerremove cards after lock.
+[11:20:18.203] [INFO   ] remove  in the table step 1
+[11:20:18.203] [INFO   ] remove  in the table step 2
+[11:20:18.203] [INFO   ] penalty
+[11:20:18.203] [SEVERE ] setting player 2 freeze to 3000
+[11:20:19.216] [SEVERE ] setting player 2 freeze to 2000
+[11:20:20.219] [SEVERE ] setting player 2 freeze to 1000
+[11:20:21.231] [SEVERE ] setting player 2 freeze to 0
+[11:20:21.231] [INFO   ] thread dealer rm penalty.
+[11:20:21.232] [SEVERE ] removing player 2 token from slot 9
+[11:20:21.232] [INFO   ] thread dealer rm remove token.
+[11:20:21.232] [SEVERE ] removing player 2 token from slot 5
+[11:20:21.232] [INFO   ] thread dealer rm remove token.
+[11:20:21.232] [SEVERE ] removing player 2 token from slot 10
+[11:20:21.232] [INFO   ] thread dealer rm remove token.
+[11:20:21.233] [INFO   ] thread dealerremove cards before wake up player.
+[11:20:21.233] [INFO   ] thread dealerremove cards after lock.
+[11:20:21.233] [INFO   ] remove  in the table step 1
+[11:20:21.233] [INFO   ] remove  in the table step 2
+[11:20:21.233] [INFO   ] penalty
+[11:20:21.234] [SEVERE ] setting player 1 freeze to 3000
+[11:20:21.233] [INFO   ] thread Thread-1wip5
+[11:20:21.234] [INFO   ] thread Thread-1wip1
+[11:20:21.234] [INFO   ] thread Thread-1wip2
+[11:20:21.234] [INFO   ] thread Thread-1wip3
+[11:20:21.234] [INFO   ] thread Thread-1wip4
+[11:20:22.234] [SEVERE ] setting player 1 freeze to 2000
+[11:20:23.240] [SEVERE ] setting player 1 freeze to 1000
+[11:20:24.250] [SEVERE ] setting player 1 freeze to 0
+[11:20:24.250] [INFO   ] thread dealer rm penalty.
+[11:20:24.250] [SEVERE ] removing player 1 token from slot 10
+[11:20:24.250] [INFO   ] thread dealer rm remove token.
+[11:20:24.250] [SEVERE ] removing player 1 token from slot 4
+[11:20:24.251] [INFO   ] thread dealer rm remove token.
+[11:20:24.251] [SEVERE ] removing player 1 token from slot 1
+[11:20:24.251] [INFO   ] thread dealer rm remove token.
+[11:20:24.251] [INFO   ] thread dealerremove cards before wake up player.
+[11:20:24.251] [INFO   ] thread Thread-0wip5
+[11:20:24.251] [INFO   ] thread Thread-0wip1
+[11:20:24.251] [INFO   ] thread Thread-0wip2
+[11:20:24.251] [INFO   ] thread Thread-0wip3
+[11:20:24.251] [INFO   ] thread Thread-0wip4
+[11:20:24.472] [INFO   ] place card step 0 
+[11:20:24.472] [INFO   ] place card step 1 
+[11:20:24.472] [INFO   ] place card step 2 
+[11:20:24.472] [INFO   ] place card step 3 
+[11:20:24.482] [INFO   ] place card step 5 
+[11:20:24.483] [INFO   ] place card step 6 
+[11:20:24.483] [INFO   ] place card step 7 
+[11:20:24.483] [INFO   ] place card step 8 
+[11:20:25.487] [SEVERE ] updating countdown to 49936
+[11:20:25.487] [INFO   ] thread dealer start remove cards.
+[11:20:25.704] [INFO   ] thread dealer rm 1.
+[11:20:25.704] [INFO   ] thread dealer rm 2.
+[11:20:25.922] [INFO   ] place card step 0 
+[11:20:25.922] [INFO   ] place card step 1 
+[11:20:25.923] [INFO   ] place card step 2 
+[11:20:25.923] [INFO   ] place card step 3 
+[11:20:25.929] [INFO   ] place card step 5 
+[11:20:25.929] [INFO   ] place card step 6 
+[11:20:25.929] [INFO   ] place card step 7 
+[11:20:25.929] [INFO   ] place card step 8 
+[11:20:26.931] [SEVERE ] updating countdown to 48492
+[11:20:26.931] [INFO   ] thread dealer start remove cards.
+[11:20:27.149] [INFO   ] thread dealer rm 1.
+[11:20:27.149] [INFO   ] thread dealer rm 2.
+[11:20:27.369] [INFO   ] place card step 0 
+[11:20:27.369] [INFO   ] place card step 1 
+[11:20:27.369] [INFO   ] place card step 2 
+[11:20:27.369] [INFO   ] place card step 3 
+[11:20:27.370] [INFO   ] place card step 5 
+[11:20:27.370] [INFO   ] place card step 6 
+[11:20:27.370] [INFO   ] place card step 7 
+[11:20:27.370] [INFO   ] place card step 8 
+[11:20:28.381] [SEVERE ] updating countdown to 47042
+[11:20:28.381] [INFO   ] thread dealer start remove cards.
+[11:20:28.600] [INFO   ] thread dealer rm 1.
+[11:20:28.600] [INFO   ] thread dealer rm 2.
+[11:20:28.816] [INFO   ] place card step 0 
+[11:20:28.816] [INFO   ] place card step 1 
+[11:20:28.816] [INFO   ] place card step 2 
+[11:20:28.817] [INFO   ] place card step 3 
+[11:20:28.818] [INFO   ] place card step 5 
+[11:20:28.818] [INFO   ] place card step 6 
+[11:20:28.818] [INFO   ] place card step 7 
+[11:20:28.819] [INFO   ] place card step 8 
+[11:20:29.829] [SEVERE ] updating countdown to 45594
+[11:20:29.829] [INFO   ] thread dealer start remove cards.
+[11:20:30.048] [INFO   ] thread dealer rm 1.
+[11:20:30.048] [INFO   ] thread dealer rm 2.
+[11:20:30.266] [INFO   ] place card step 0 
+[11:20:30.266] [INFO   ] place card step 1 
+[11:20:30.266] [INFO   ] place card step 2 
+[11:20:30.266] [INFO   ] place card step 3 
+[11:20:30.268] [INFO   ] place card step 5 
+[11:20:30.268] [INFO   ] place card step 6 
+[11:20:30.268] [INFO   ] place card step 7 
+[11:20:30.268] [INFO   ] place card step 8 
+[11:20:31.280] [SEVERE ] updating countdown to 44143
+[11:20:31.281] [INFO   ] thread dealer start remove cards.
+[11:20:31.498] [INFO   ] thread dealer rm 1.
+[11:20:31.498] [INFO   ] thread dealer rm 2.
+[11:20:31.714] [INFO   ] place card step 0 
+[11:20:31.714] [INFO   ] place card step 1 
+[11:20:31.714] [INFO   ] place card step 2 
+[11:20:31.714] [INFO   ] place card step 3 
+[11:20:31.716] [INFO   ] place card step 5 
+[11:20:31.716] [INFO   ] place card step 6 
+[11:20:31.716] [INFO   ] place card step 7 
+[11:20:31.716] [INFO   ] place card step 8 
+[11:20:32.623] [SEVERE ] exit button pressed
+[11:20:32.724] [SEVERE ] updating countdown to 42699
+[11:20:32.724] [INFO   ] thread dealer start remove cards.
+[11:20:32.942] [INFO   ] thread dealer rm 1.
+[11:20:32.942] [INFO   ] thread dealer rm 2.
+[11:20:33.161] [INFO   ] place card step 0 
+[11:20:33.161] [INFO   ] place card step 1 
+[11:20:33.161] [INFO   ] place card step 2 
+[11:20:33.161] [INFO   ] place card step 3 
+[11:20:33.161] [INFO   ] place card step 5 
+[11:20:33.161] [INFO   ] place card step 6 
+[11:20:33.161] [INFO   ] place card step 7 
+[11:20:33.161] [INFO   ] place card step 8 
+[11:20:34.171] [SEVERE ] updating countdown to 41252
+[11:20:34.171] [INFO   ] thread dealer start remove cards.
+[11:20:34.387] [INFO   ] thread dealer rm 1.
+[11:20:34.387] [INFO   ] thread dealer rm 2.
+[11:20:34.606] [INFO   ] place card step 0 
+[11:20:34.606] [INFO   ] place card step 1 
+[11:20:34.606] [INFO   ] place card step 2 
+[11:20:34.606] [INFO   ] place card step 3 
+[11:20:34.606] [INFO   ] place card step 5 
+[11:20:34.606] [INFO   ] place card step 6 
+[11:20:34.606] [INFO   ] place card step 7 
+[11:20:34.606] [INFO   ] place card step 8 
+[11:20:35.613] [SEVERE ] updating countdown to 39810
+[11:20:35.613] [INFO   ] thread dealer start remove cards.
