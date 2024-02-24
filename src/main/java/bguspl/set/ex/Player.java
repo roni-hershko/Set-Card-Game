@@ -70,9 +70,14 @@ public class Player implements Runnable {
 
 	int second = 1000;
 
-    boolean AICreated = false;
+    volatile boolean AICreated = false;
+
+	volatile boolean PlayerCreated = false;
+
     
     Dealer dealer;
+
+	volatile boolean isReadyToCheck = false;
 
 	/**
      * The class constructor.
@@ -114,15 +119,20 @@ public class Player implements Runnable {
 				}
             }
         }
-        synchronized(aiPlayerLock) {  //for the dealer
-            aiPlayerLock.notifyAll(); 
-        }
+        // synchronized(aiPlayerLock) {  //for the dealer
+        //     aiPlayerLock.notifyAll(); 
+        // }
+		PlayerCreated= true;
+		synchronized(PlayerLock){
+			PlayerLock.notifyAll();
+		}
+		
         while (!terminate) { 
 			env.logger.info("thread " + Thread.currentThread().getName() + "wip1");
 
             synchronized(this){
 				env.logger.info("thread " + Thread.currentThread().getName() + "wip2");
-               if(queueCounter != env.config.featureSize){					
+            	if(!isReadyToCheck){					
 					env.logger.info("thread " + Thread.currentThread().getName() + "wip3");
                     try {
 						env.logger.info("thread " + Thread.currentThread().getName() + "wip4");
@@ -132,17 +142,37 @@ public class Player implements Runnable {
 
                     } catch (InterruptedException e) {Thread.currentThread().interrupt();}
                 }
-				// if(queueCounter == env.config.featureSize){
-				// 	env.logger.info("thread " + Thread.currentThread().getName() + " before synchronize on dealer.");
-				// 	table.addQueuePlayers(this);
-				// }
-		} 
-	}
+				env.logger.info("KP step 8"+ Thread.currentThread().getName());
+				table.addQueuePlayers(this);
+		
+				synchronized(dealer){
+					env.logger.info("KP step 9"+ Thread.currentThread().getName());
+					dealer.notifyAll();
+					env.logger.info("KP step 10"+ Thread.currentThread().getName());
+				}
+				while(!isChecked){
+					try {
+						env.logger.info("KP step 11"+ Thread.currentThread().getName());
+						notifyAll(); // added
+						wait();
+						env.logger.info("KP step 12"+ Thread.currentThread().getName());
+
+					} catch (InterruptedException e) { Thread.currentThread().interrupt(); } 
+				}
+				isChecked = false; 
+			}
+		
+					// if(queueCounter == env.config.featureSize){
+					// 	env.logger.info("thread " + Thread.currentThread().getName() + " before synchronize on dealer.");
+					// 	table.addQueuePlayers(this);
+					// }
+	
+		}
 		Thread.interrupted();
 		if (!human) try { aiThread.join(); } catch (InterruptedException ignored) {}
-	   env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
-    }
-
+		env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
+	}
+	
     /**
      * Creates an additional thread for an AI (computer) player. The main loop of this thread repeatedly generates
      * key presses. If the queue of key presses is full, the thread waits until it is not full.
@@ -180,7 +210,8 @@ public class Player implements Runnable {
                 }
 				env.logger.info("creat AI step 7 ");
 
-                AIkeyPressed();
+				int randomSlot = (int) (Math.random() * env.config.tableSize);
+				keyPressed(randomSlot);
 				env.logger.info("creat AI step 8 ");
 
                 try {
@@ -221,7 +252,7 @@ public class Player implements Runnable {
      * @param slot - the slot corresponding to the key pressed.
      */
     public void keyPressed(int slot) {
-		synchronized(PlayerLock){
+		synchronized(slotQueue){
 			isChecked = false;
 			env.logger.info("KP step 1"+ Thread.currentThread().getName());
 
@@ -256,30 +287,15 @@ public class Player implements Runnable {
 			}
 
 			env.logger.info("KP step 7"+ Thread.currentThread().getName());
-		}
-		synchronized(this){
-			if(queueCounter == env.config.featureSize && !terminate){
-				env.logger.info("KP step 8"+ Thread.currentThread().getName());
-				table.addQueuePlayers(this);
+			synchronized(this){
+				if(queueCounter == env.config.featureSize && !terminate){
+					isReadyToCheck= true;
+					notifyAll();
+
+				}
 			}
 		}
-		synchronized(dealer){
-			env.logger.info("KP step 9"+ Thread.currentThread().getName());
-			dealer.notifyAll();
-			env.logger.info("KP step 10"+ Thread.currentThread().getName());
-		}
-		while(!isChecked) { //maybe syncronized
-			try {
-				env.logger.info("KP step 11"+ Thread.currentThread().getName());
-				notifyAll();
-				wait();
-				env.logger.info("KP step 12"+ Thread.currentThread().getName());
-
-			} catch (InterruptedException e) { Thread.currentThread().interrupt(); } 
-		}
-		isChecked = false; 
 	}
-	
 	
     /**
      * Award a point to a player and perform other related actions.
@@ -332,16 +348,20 @@ public class Player implements Runnable {
         return playerThread;
     }
 
-    public void AIkeyPressed(){
-		env.logger.info("AI key pressed step 1 ");
-		int randomSlot = (int) (Math.random() * env.config.tableSize);
-		env.logger.info("AI key pressed step 2 ");
-        keyPressed(randomSlot);
-		env.logger.info("AI key pressed step 3, random slot: " + randomSlot );
-    }
+	// public void AIkeyPressed(){
+	// 	try {
+	// 		Thread.sleep(100);
+	// 	} catch (InterruptedException e) {
+	// 		Thread.currentThread().interrupt();
+	// 	}
+	// 	env.logger.info("AI key pressed step 1 ");
+	// 	int randomSlot = (int) (Math.random() * env.config.tableSize);
+	// 	env.logger.info("AI key pressed step 2 ");
+	// 	keyPressed(randomSlot);
+	// 	env.logger.info("AI key pressed step 3, random slot: " + randomSlot );
+	// }
 
-    public boolean isHuman() {
-        return human;
-    }
-
+	public boolean isHuman() {
+		return human;
+	}
 }

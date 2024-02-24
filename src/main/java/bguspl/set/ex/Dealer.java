@@ -77,10 +77,13 @@ public class Dealer implements Runnable {
         env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
 		for (Player player : players) {
             new Thread(player).start(); 
-            synchronized(player.aiPlayerLock){
-                if(!player.isHuman() && !player.AICreated){
+            // synchronized(player.aiPlayerLock){
+				synchronized(player.PlayerLock){
+                // if(!player.isHuman() && !player.AICreated){
+				if(!player.PlayerCreated){
                     try {
-                        player.aiPlayerLock.wait();
+                        // player.aiPlayerLock.wait();
+						player.PlayerLock.wait();
                     } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
                 }
             }
@@ -192,11 +195,14 @@ public class Dealer implements Runnable {
 					}
 				}
 				env.logger.info("thread " + Thread.currentThread().getName() + "remove cards before wake up player.");
+				player.isChecked = true;
 				player.notifyAll();
+				// if(!player.isHuman())
+				// 	player.aiPlayerLock.notifyAll();
 				player.queueCounter = 0;
 			}
 
-			player.isChecked = true;
+			//player.isChecked = true;
 			if(setFound){
         		changeTime = true;
 				setFound=false;
@@ -365,7 +371,7 @@ public class Dealer implements Runnable {
         //empty the queue of players in the table
         for(int i = 0; i < players.length; i++){ 
             for( Player player : table.playersQueue){
-                synchronized(player.PlayerLock){
+                synchronized(player){
                     table.removeQueuePlayers(player);
                     player.notifyAll();
                 }
@@ -386,9 +392,10 @@ public class Dealer implements Runnable {
         
         //remove all the cards from the table
         for (int i = 0; i < env.config.tableSize; i++){
+			Integer card = table.slotToCard[i]; //added by rh
 			if (table.slotToCard[i] != null) { 
             	table.removeCard(i);
-				deck.add(i); //add cards from table to deck
+				deck.add(card); //add cards from table to deck
 			}
         }
 		env.logger.info("REMOVE ALL 4 ");

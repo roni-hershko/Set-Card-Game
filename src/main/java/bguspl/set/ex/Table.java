@@ -143,7 +143,7 @@ public class Table {
 		return true; 
 	}
 
-    //new methodss
+    //new methods
     public void addQueuePlayers(Player player) {
         playersQueue.add(player);
     }
