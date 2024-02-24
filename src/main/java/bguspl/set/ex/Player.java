@@ -76,7 +76,6 @@ public class Player implements Runnable {
 
 	volatile boolean isSetFound = false;
 
-    
     Dealer dealer;
 
 	volatile boolean isReadyToCheck = false;
@@ -121,9 +120,6 @@ public class Player implements Runnable {
 				}
             }
         }
-        // synchronized(aiPlayerLock) {  //for the dealer
-        //     aiPlayerLock.notifyAll(); 
-        // }
 		PlayerCreated= true;
 		synchronized(PlayerLock){
 			PlayerLock.notifyAll();
@@ -188,6 +184,9 @@ public class Player implements Runnable {
                             }
                         }
                     }
+					try{
+						Thread.sleep(350);
+					} catch (InterruptedException e) {Thread.currentThread().interrupt();}
 
 					int randomSlot = (int) (Math.random() * env.config.tableSize);
 					keyPressed(randomSlot);

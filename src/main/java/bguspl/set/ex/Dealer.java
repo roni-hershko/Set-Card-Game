@@ -49,11 +49,6 @@ public class Dealer implements Runnable {
 
     int miliSec10 = 10;
 
-	private volatile boolean setFound; //maybe initialize only in remove cards from table
-
-	private volatile boolean changeTime;
-
-
 	public Dealer(Env env, Table table, Player[] players) {
 
 		this.env = env;
@@ -61,8 +56,6 @@ public class Dealer implements Runnable {
 		this.players = players;
 		deck = IntStream.range(0, env.config.deckSize).boxed().collect(Collectors.toList());
 		terminate = false;
-		this.setFound = false; //maybe initialize only in remove cards from table
-		this.changeTime = false;
 		if (env.config.turnTimeoutMillis > 0)
 			reshuffleTime = env.config.turnTimeoutMillis + System.currentTimeMillis(); //minute
 		else
@@ -88,8 +81,16 @@ public class Dealer implements Runnable {
 		updateTimerDisplay(true);	
 
         while (!shouldFinish()) {
+			env.logger.info("thread " + Thread.currentThread().getName() + " run step 1.");
+
             placeCardsOnTable();
+
+			env.logger.info("thread " + Thread.currentThread().getName() + " run step 2.");
+
             timerLoop();
+
+			env.logger.info("thread " + Thread.currentThread().getName() + " run step 3.");
+
             updateTimerDisplay(true);
             removeAllCardsFromTable();
         }
@@ -103,10 +104,24 @@ public class Dealer implements Runnable {
 	private void timerLoop() {
 
         while (!terminate && System.currentTimeMillis() < reshuffleTime) {
+			env.logger.info("thread " + Thread.currentThread().getName() + " timer loop 1.");
+
 			sleepUntilWokenOrTimeout();
+
+			env.logger.info("thread " + Thread.currentThread().getName() + " timer loop 2.");
+
             updateTimerDisplay(false);
+
+			env.logger.info("thread " + Thread.currentThread().getName() + " timer loop 3.");
+
             removeCardsFromTable();
+
+			env.logger.info("thread " + Thread.currentThread().getName() + " timer loop 4.");
+
             placeCardsOnTable();
+
+			env.logger.info("thread " + Thread.currentThread().getName() + " timer loop 5.");
+
         }
     }
 
@@ -144,106 +159,112 @@ public class Dealer implements Runnable {
         freezeAllPlayers(env.config.tableDelayMillis);
 
         table.canPlaceTokens=false;
+			env.logger.info("thread " + Thread.currentThread().getName() + " rm 1.");
 
 		//check if there is a valid set and remove the cards
 		for (Player player : table.playersQueue) { //start of check set ad
             synchronized(player) {
-				table.removeQueuePlayers(player);  
+				env.logger.info("thread " + Thread.currentThread().getName() + " rm 2.");
+
+				table.removeQueuePlayers(player); 
+
+				env.logger.info("thread " + Thread.currentThread().getName() + " rm 3.");
+ 
 
 				//check the set
                  if(checkSet(player.slotQueue)){ 
+					env.logger.info("thread " + Thread.currentThread().getName() + " rm 4.");
+
 					player.isSetFound = true;
-					// player.point();
-				 	// setFound = true;
-                //     player.point();  
 				}
-				// if(!setFound){
-				// 	player.penalty();
-				// }
-					
+				env.logger.info("thread " + Thread.currentThread().getName() + " rm 5.");
+
 				//remove the set cards from the player data
 				for (int j = 0; j < player.queueCounter; j++){
+					env.logger.info("thread " + Thread.currentThread().getName() + " rm 6.");
+
+					updateTimerDisplay(false);
 					int slot; //added by rh
+
 					synchronized(player.slotQueue){ //added by rh 
+						env.logger.info("thread " + Thread.currentThread().getName() + " rm 7.");
+
 						slot = player.slotQueue.poll();
 					}
+					env.logger.info("thread " + Thread.currentThread().getName() + " rm 8.");
+
 					table.removeToken(player.id, slot); 
 
+					updateTimerDisplay(false);
+
+					env.logger.info("thread " + Thread.currentThread().getName() + " rm 9.");
 
 					if(player.isSetFound){
+						env.logger.info("thread " + Thread.currentThread().getName() + " rm 10.");
+
 						table.removeCard(slot);
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 						//remove the tokens of the cards that were removed from the table from the other players
 						for (Player playerSlot : players) { //start remove all tokens ad
+							env.logger.info("thread " + Thread.currentThread().getName() + " rm 11.");
+
+							updateTimerDisplay(false);
+
 							if(player.id != playerSlot.id && playerSlot.slotQueue.contains(slot)){
 								table.removeToken(playerSlot.id, slot);
+								env.logger.info("thread " + Thread.currentThread().getName() + " rm 12.");
+
 								//check if the player. is in the queue of players
 								synchronized(playerSlot.slotQueue){
+									env.logger.info("thread " + Thread.currentThread().getName() + " rm 13.");
+
 									if(playerSlot.slotQueue.contains(slot)){
+										env.logger.info("thread " + Thread.currentThread().getName() + " rm 14.");
+
 										playerSlot.slotQueue.remove(slot); 
 										playerSlot.queueCounter--;
 									}
 								}
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+								env.logger.info("thread " + Thread.currentThread().getName() + " rm 15.");
+
 								if(table.playersQueue.contains(playerSlot)) //???
+								env.logger.info("thread " + Thread.currentThread().getName() + " rm 16.");
+
 									table.removeQueuePlayers(playerSlot); //??
 							}
 						}
-
 					}
-					
 				}
-				env.logger.info("thread " + Thread.currentThread().getName() + "step 1.");
+				env.logger.info("thread " + Thread.currentThread().getName() + " rm 17.");
 
 				table.canPlaceTokens = true;
 				synchronized(table.lock){
-					table.lock.notifyAll();
-					env.logger.info("thread " + Thread.currentThread().getName() + "step 2.");
-					
+					env.logger.info("thread " + Thread.currentThread().getName() + " rm 18.");
 
+					table.lock.notifyAll();
+					env.logger.info("thread " + Thread.currentThread().getName() + "rm 19 .");
+					
 				}   
-				env.logger.info("thread " + Thread.currentThread().getName() + "step 3.");
+				env.logger.info("thread " + Thread.currentThread().getName() + " rm 20.");
 
 				player.queueCounter = 0;
-				env.logger.info("thread " + Thread.currentThread().getName() + "step 4.");
 
 				if(player.isSetFound){
-					env.logger.info("thread " + Thread.currentThread().getName() + "step 5.");
+					env.logger.info("thread " + Thread.currentThread().getName() + " rm 21.");
 
 					updateTimerDisplay(true);
-					env.logger.info("thread " + Thread.currentThread().getName() + "step 6.");
-
-					// setFound=false;
 				}
-				env.logger.info("thread " + Thread.currentThread().getName() + "befor dealer notify player.");
+				else {
+					updateTimerDisplay(false);
+				}
+				env.logger.info("thread " + Thread.currentThread().getName() + " rm 22.");
 
 				player.notifyAll();
-				env.logger.info("thread " + Thread.currentThread().getName() + "after dealer notify player.");
+				env.logger.info("thread " + Thread.currentThread().getName() + " rm 23.");
 
 			}
 		}
 	}
-
-		//player.isChecked = true;  //??
-		// if(!player.isHuman())
-		// 	player.aiPlayerLock.notifyAll();
-	//player.isChecked = true;
-// 	if(setFound){
-// 		changeTime = true;
-// 		setFound=false;
-// 	}
-// }
-
-		// if(changeTime)
-		// 	updateTimerDisplay(true);
-
-		// changeTime = false;
-		// table.canPlaceTokens = true;
-		// synchronized(table.lock){
-		// 	table.lock.notifyAll();
-		// }   
-    
 
     /**
      * Check if any cards can be removed from the deck and placed on the table.
@@ -263,17 +284,30 @@ public class Dealer implements Runnable {
                 }
             }
         }
+		env.logger.info("thread " + Thread.currentThread().getName() + " step 1.");
+
+		updateTimerDisplay(false);
+
 
         //create lists for searching sets on table
         List<Integer>cardListTable=new LinkedList<Integer>();
         for(int i=0; i<table.slotToCard.length; i++){
+
+			env.logger.info("thread " + Thread.currentThread().getName() + " step 2.");
+
              if(table.slotToCard[i] != null){
                 cardListTable.add(table.slotToCard[i]);
              }
          }
+		 env.logger.info("thread " + Thread.currentThread().getName() + " step 3.");
+
+		 updateTimerDisplay(false);
 
 		//check if there is a valid set on the table
         List<int[]> findSetsTable = env.util.findSets(cardListTable, env.config.featureSize);
+
+		env.logger.info("thread " + Thread.currentThread().getName() + " step 4.");
+
         if(findSetsTable.size()==0){ // no set on table
 
             if(deck.size() == 0){ //and no cards in deck
@@ -284,8 +318,13 @@ public class Dealer implements Runnable {
                 terminate();
             }
 
+		env.logger.info("thread " + Thread.currentThread().getName() + " step 5.");
+
+			updateTimerDisplay(false);
 			//new cards on table
             removeAllCardsFromTable();
+
+			env.logger.info("thread " + Thread.currentThread().getName() + " step 6.");
 
             //create lists for searching sets on deck + table
             List<Integer> deck = new LinkedList<Integer>();
@@ -293,8 +332,14 @@ public class Dealer implements Runnable {
                    deck.add(deck.get(i));
             }
 
+			env.logger.info("thread " + Thread.currentThread().getName() + " step 7.");
+
+			updateTimerDisplay(false);
+
 			//check if there are sets on deck + table
             List<int[]> findSetsDeck = env.util.findSets(deck, env.config.featureSize);
+			env.logger.info("thread " + Thread.currentThread().getName() + " step 8.");
+
             if(findSetsDeck.size()==0){ //no sets on deck + table
 				table.canPlaceTokens = true;
 				synchronized(table.lock){
@@ -302,32 +347,21 @@ public class Dealer implements Runnable {
 				}
                 terminate();
             }
+			env.logger.info("thread " + Thread.currentThread().getName() + " step 9.");
+
+			updateTimerDisplay(false);
             placeCardsOnTable();
         }
+		env.logger.info("thread " + Thread.currentThread().getName() + " step 10.");
+
         table.canPlaceTokens = true;
         synchronized(table.lock){
+			env.logger.info("thread " + Thread.currentThread().getName() + " step 11.");
+
             table.lock.notifyAll();
+			env.logger.info("thread " + Thread.currentThread().getName() + " step 12.");
+
         }
-
-            // List<Integer> deckAndTable=new LinkedList<Integer>();
-            // for(int i=0; i<table.slotToCard.length; i++){
-            //     if(table.slotToCard[i] != null){
-            //         deckAndTable.add(table.slotToCard[i]);
-            //     }
-            // }
-            // for(int i=0; i<deck.size(); i++){
-            //     deckAndTable.add(deck.get(i));
-            // }
-
-            // List<int[]> findSetsDeck = env.util.findSets(deckAndTable, env.config.featureSize);
-
-            // if(findSetsDeck.size()==0){
-            //     terminate = true;
-            // }
-            // else{
-            //     shuffleDeck();
-            //     placeCardsOnTable();
-            // }
     }
 
     /**
@@ -388,8 +422,6 @@ public class Dealer implements Runnable {
     private void removeAllCardsFromTable() {
         freezeAllPlayers(env.config.tableDelayMillis); 
         table.canPlaceTokens=false;
-		env.logger.info("REMOVE ALL 1 ");
-
         //empty the queue of players in the table
         for(int i = 0; i < players.length; i++){ 
             for( Player player : table.playersQueue){
@@ -407,7 +439,9 @@ public class Dealer implements Runnable {
                 table.removeToken(players[i].id, slot);
             }
         }
-        
+		
+		updateTimerDisplay(false);
+
         //remove all the cards from the table
         for (int i = 0; i < env.config.tableSize; i++){
 			Integer card = table.slotToCard[i];
@@ -457,16 +491,16 @@ public class Dealer implements Runnable {
 		return env.util.testSet(cards);
 	}
 
-	public void checkSetResult(Player player) {
-		if(checkSet(player.slotQueue)){ 
-			setFound = true;
-			player.point();  
-		}
-		else{
-			setFound = false;
-			player.penalty();
-		}
-	}
+	// public void checkSetResult(Player player) {
+	// 	if(checkSet(player.slotQueue)){ 
+	// 		setFound = true;
+	// 		player.point();  
+	// 	}
+	// 	else{
+	// 		setFound = false;
+	// 		player.penalty();
+	// 	}
+	// }
 
     public void shuffleDeck() {
 		Collections.shuffle(deck);

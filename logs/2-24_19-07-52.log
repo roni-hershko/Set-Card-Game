@@ -1,0 +1,213 @@
+[19:07:52.889] [INFO   ] thread main starting.
+[19:07:52.899] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[19:07:52.901] [SEVERE ] configuration file was loaded from resources directory.
+[19:07:53.480] [INFO   ] thread dealer starting.
+[19:07:53.480] [INFO   ] thread dealer starting.
+[19:07:53.481] [INFO   ] thread Thread-0 starting.
+[19:07:53.482] [INFO   ] thread computer-0 starting.
+[19:07:53.483] [INFO   ] thread Thread-1 starting.
+[19:07:53.483] [INFO   ] thread computer-1 starting.
+[19:07:53.484] [SEVERE ] updating countdown to 60000
+[19:07:53.798] [SEVERE ] placing card 36 in slot 0
+[19:07:53.899] [SEVERE ] placing card 40 in slot 1
+[19:07:54.001] [SEVERE ] placing card 19 in slot 2
+[19:07:54.110] [SEVERE ] placing card 18 in slot 3
+[19:07:54.219] [SEVERE ] placing card 78 in slot 4
+[19:07:54.327] [SEVERE ] placing card 33 in slot 5
+[19:07:54.435] [SEVERE ] placing card 60 in slot 6
+[19:07:54.546] [SEVERE ] placing card 48 in slot 7
+[19:07:54.656] [SEVERE ] placing card 63 in slot 8
+[19:07:54.767] [SEVERE ] placing card 51 in slot 9
+[19:07:54.877] [SEVERE ] placing card 12 in slot 10
+[19:07:54.985] [SEVERE ] placing card 75 in slot 11
+[19:07:55.346] [SEVERE ] player 1 placing token on slot 0
+[19:07:55.346] [SEVERE ] player 2 placing token on slot 7
+[19:07:55.705] [SEVERE ] player 2 placing token on slot 3
+[19:07:55.705] [SEVERE ] removing player 1 token from slot 0
+[19:07:56.001] [SEVERE ] updating countdown to 57485
+[19:07:56.064] [SEVERE ] player 2 placing token on slot 6
+[19:07:56.064] [SEVERE ] player 1 placing token on slot 10
+[19:07:56.220] [INFO   ] remove  in the table step 1
+[19:07:56.221] [INFO   ] remove  in the table step 2
+[19:07:56.221] [SEVERE ] removing player 2 token from slot 7
+[19:07:56.221] [SEVERE ] removing player 2 token from slot 3
+[19:07:56.222] [SEVERE ] removing player 2 token from slot 6
+[19:07:56.222] [INFO   ] thread dealerstep 1.
+[19:07:56.222] [INFO   ] thread dealerstep 2.
+[19:07:56.222] [INFO   ] thread dealerstep 3.
+[19:07:56.222] [INFO   ] thread dealerstep 4.
+[19:07:56.222] [SEVERE ] updating countdown to 57264
+[19:07:56.222] [INFO   ] thread dealerbefor dealer notify player.
+[19:07:56.223] [INFO   ] thread dealerafter dealer notify player.
+[19:07:56.223] [INFO   ] thread Thread-1 player was notified by dealer.
+[19:07:56.223] [INFO   ] penalty
+[19:07:56.223] [SEVERE ] setting player 2 freeze to 3000
+[19:07:56.422] [SEVERE ] player 1 placing token on slot 8
+[19:07:56.780] [SEVERE ] player 1 placing token on slot 5
+[19:07:56.781] [SEVERE ] updating countdown to 56705
+[19:07:56.996] [INFO   ] remove  in the table step 1
+[19:07:56.996] [INFO   ] remove  in the table step 2
+[19:07:56.997] [SEVERE ] removing player 1 token from slot 10
+[19:07:56.997] [SEVERE ] removing player 1 token from slot 8
+[19:07:56.998] [SEVERE ] removing player 1 token from slot 5
+[19:07:56.998] [INFO   ] thread dealerstep 1.
+[19:07:56.999] [INFO   ] thread dealerstep 2.
+[19:07:56.999] [INFO   ] thread dealerstep 3.
+[19:07:56.999] [INFO   ] thread dealerstep 4.
+[19:07:56.999] [SEVERE ] updating countdown to 56487
+[19:07:56.999] [INFO   ] thread dealerbefor dealer notify player.
+[19:07:57.000] [INFO   ] thread dealerafter dealer notify player.
+[19:07:57.000] [INFO   ] thread Thread-0 player was notified by dealer.
+[19:07:57.001] [INFO   ] penalty
+[19:07:57.001] [SEVERE ] setting player 1 freeze to 3000
+[19:07:57.230] [SEVERE ] setting player 2 freeze to 2000
+[19:07:58.009] [SEVERE ] setting player 1 freeze to 2000
+[19:07:58.228] [SEVERE ] updating countdown to 55258
+[19:07:58.243] [SEVERE ] setting player 2 freeze to 1000
+[19:07:59.021] [SEVERE ] setting player 1 freeze to 1000
+[19:07:59.254] [SEVERE ] setting player 2 freeze to 0
+[19:07:59.611] [SEVERE ] player 2 placing token on slot 7
+[19:07:59.672] [SEVERE ] updating countdown to 53814
+[19:08:00.034] [SEVERE ] setting player 1 freeze to 0
+[19:08:00.471] [SEVERE ] player 2 placing token on slot 9
+[19:08:00.471] [SEVERE ] player 1 placing token on slot 7
+[19:08:00.826] [SEVERE ] player 2 placing token on slot 11
+[19:08:00.826] [SEVERE ] player 1 placing token on slot 8
+[19:08:00.826] [SEVERE ] updating countdown to 52660
+[19:08:01.046] [INFO   ] remove  in the table step 1
+[19:08:01.046] [INFO   ] remove  in the table step 2
+[19:08:01.047] [SEVERE ] removing player 2 token from slot 7
+[19:08:01.047] [SEVERE ] removing player 2 token from slot 9
+[19:08:01.048] [SEVERE ] removing player 2 token from slot 11
+[19:08:01.049] [INFO   ] thread dealerstep 1.
+[19:08:01.049] [INFO   ] thread dealerstep 2.
+[19:08:01.049] [INFO   ] thread dealerstep 3.
+[19:08:01.050] [INFO   ] thread dealerstep 4.
+[19:08:01.051] [SEVERE ] updating countdown to 52435
+[19:08:01.052] [INFO   ] thread dealerbefor dealer notify player.
+[19:08:01.053] [INFO   ] thread dealerafter dealer notify player.
+[19:08:01.053] [INFO   ] thread Thread-1 player was notified by dealer.
+[19:08:01.054] [INFO   ] penalty
+[19:08:01.055] [SEVERE ] setting player 2 freeze to 3000
+[19:08:01.186] [SEVERE ] player 1 placing token on slot 4
+[19:08:01.268] [SEVERE ] updating countdown to 52218
+[19:08:01.486] [INFO   ] remove  in the table step 1
+[19:08:01.486] [INFO   ] remove  in the table step 2
+[19:08:01.486] [SEVERE ] removing player 1 token from slot 7
+[19:08:01.487] [SEVERE ] removing player 1 token from slot 8
+[19:08:01.487] [SEVERE ] removing player 1 token from slot 4
+[19:08:01.488] [INFO   ] thread dealerstep 1.
+[19:08:01.489] [INFO   ] thread dealerstep 2.
+[19:08:01.489] [INFO   ] thread dealerstep 3.
+[19:08:01.489] [INFO   ] thread dealerstep 4.
+[19:08:01.489] [SEVERE ] updating countdown to 51997
+[19:08:01.490] [INFO   ] thread dealerbefor dealer notify player.
+[19:08:01.490] [INFO   ] thread dealerafter dealer notify player.
+[19:08:01.490] [INFO   ] thread Thread-0 player was notified by dealer.
+[19:08:01.491] [INFO   ] penalty
+[19:08:01.491] [SEVERE ] setting player 1 freeze to 3000
+[19:08:02.059] [SEVERE ] setting player 2 freeze to 2000
+[19:08:02.498] [SEVERE ] setting player 1 freeze to 2000
+[19:08:02.717] [SEVERE ] updating countdown to 50769
+[19:08:03.074] [SEVERE ] setting player 2 freeze to 1000
+[19:08:03.507] [SEVERE ] setting player 1 freeze to 1000
+[19:08:04.082] [SEVERE ] setting player 2 freeze to 0
+[19:08:04.159] [SEVERE ] updating countdown to 49327
+[19:08:04.514] [SEVERE ] setting player 1 freeze to 0
+[19:08:04.951] [SEVERE ] player 2 placing token on slot 11
+[19:08:04.951] [SEVERE ] player 1 placing token on slot 5
+[19:08:05.307] [SEVERE ] removing player 1 token from slot 5
+[19:08:05.307] [SEVERE ] player 2 placing token on slot 4
+[19:08:05.605] [SEVERE ] updating countdown to 47881
+[19:08:05.660] [SEVERE ] removing player 2 token from slot 11
+[19:08:05.660] [SEVERE ] player 1 placing token on slot 3
+[19:08:06.402] [SEVERE ] player 1 placing token on slot 5
+[19:08:06.402] [SEVERE ] player 2 placing token on slot 7
+[19:08:06.761] [SEVERE ] player 1 placing token on slot 9
+[19:08:06.761] [SEVERE ] removing player 2 token from slot 4
+[19:08:06.762] [SEVERE ] updating countdown to 46724
+[19:08:06.981] [INFO   ] remove  in the table step 1
+[19:08:06.981] [INFO   ] remove  in the table step 2
+[19:08:06.982] [SEVERE ] removing player 1 token from slot 3
+[19:08:06.982] [SEVERE ] removing player 1 token from slot 5
+[19:08:06.982] [SEVERE ] removing player 1 token from slot 9
+[19:08:06.982] [INFO   ] thread dealerstep 1.
+[19:08:06.983] [INFO   ] thread dealerstep 2.
+[19:08:06.983] [INFO   ] thread dealerstep 3.
+[19:08:06.983] [INFO   ] thread dealerstep 4.
+[19:08:06.983] [SEVERE ] updating countdown to 46503
+[19:08:06.983] [INFO   ] thread dealerbefor dealer notify player.
+[19:08:06.983] [INFO   ] thread dealerafter dealer notify player.
+[19:08:06.984] [INFO   ] thread Thread-0 player was notified by dealer.
+[19:08:06.984] [INFO   ] penalty
+[19:08:06.984] [SEVERE ] setting player 1 freeze to 3000
+[19:08:07.120] [SEVERE ] player 2 placing token on slot 2
+[19:08:07.477] [SEVERE ] player 2 placing token on slot 4
+[19:08:07.477] [SEVERE ] updating countdown to 46009
+[19:08:07.695] [INFO   ] remove  in the table step 1
+[19:08:07.695] [INFO   ] remove  in the table step 2
+[19:08:07.695] [SEVERE ] removing player 2 token from slot 7
+[19:08:07.696] [SEVERE ] removing player 2 token from slot 2
+[19:08:07.696] [SEVERE ] removing player 2 token from slot 4
+[19:08:07.696] [INFO   ] thread dealerstep 1.
+[19:08:07.696] [INFO   ] thread dealerstep 2.
+[19:08:07.697] [INFO   ] thread dealerstep 3.
+[19:08:07.697] [INFO   ] thread dealerstep 4.
+[19:08:07.697] [SEVERE ] updating countdown to 45789
+[19:08:07.697] [INFO   ] thread dealerbefor dealer notify player.
+[19:08:07.697] [INFO   ] thread dealerafter dealer notify player.
+[19:08:07.698] [INFO   ] thread Thread-1 player was notified by dealer.
+[19:08:07.698] [INFO   ] penalty
+[19:08:07.698] [SEVERE ] setting player 2 freeze to 3000
+[19:08:07.989] [SEVERE ] setting player 1 freeze to 2000
+[19:08:08.701] [SEVERE ] setting player 2 freeze to 2000
+[19:08:08.919] [SEVERE ] updating countdown to 44567
+[19:08:08.997] [SEVERE ] setting player 1 freeze to 1000
+[19:08:09.706] [SEVERE ] exit button pressed
+[19:08:09.714] [SEVERE ] setting player 2 freeze to 1000
+[19:08:10.011] [SEVERE ] setting player 1 freeze to 0
+[19:08:10.372] [SEVERE ] updating countdown to 43114
+[19:08:10.372] [SEVERE ] player 1 placing token on slot 10
+[19:08:10.728] [SEVERE ] setting player 2 freeze to 0
+[19:08:11.165] [SEVERE ] player 1 placing token on slot 4
+[19:08:11.165] [SEVERE ] player 2 placing token on slot 6
+[19:08:11.522] [SEVERE ] player 2 placing token on slot 2
+[19:08:11.522] [SEVERE ] player 1 placing token on slot 6
+[19:08:11.523] [SEVERE ] updating countdown to 41963
+[19:08:11.740] [INFO   ] remove  in the table step 1
+[19:08:11.740] [INFO   ] remove  in the table step 2
+[19:08:11.740] [SEVERE ] removing player 1 token from slot 10
+[19:08:11.741] [SEVERE ] removing player 1 token from slot 4
+[19:08:11.741] [SEVERE ] removing player 1 token from slot 6
+[19:08:11.741] [INFO   ] thread dealerstep 1.
+[19:08:11.741] [INFO   ] thread dealerstep 2.
+[19:08:11.741] [INFO   ] thread dealerstep 3.
+[19:08:11.741] [INFO   ] thread dealerstep 4.
+[19:08:11.741] [SEVERE ] updating countdown to 41745
+[19:08:11.741] [INFO   ] thread dealerbefor dealer notify player.
+[19:08:11.741] [INFO   ] thread dealerafter dealer notify player.
+[19:08:11.741] [INFO   ] thread Thread-0 player was notified by dealer.
+[19:08:11.741] [INFO   ] penalty
+[19:08:11.742] [SEVERE ] setting player 1 freeze to 3000
+[19:08:11.880] [SEVERE ] removing player 2 token from slot 2
+[19:08:12.239] [SEVERE ] player 2 placing token on slot 2
+[19:08:12.595] [SEVERE ] player 2 placing token on slot 9
+[19:08:12.596] [SEVERE ] updating countdown to 40890
+[19:08:12.751] [SEVERE ] setting player 1 freeze to 2000
+[19:08:12.814] [INFO   ] remove  in the table step 1
+[19:08:12.814] [INFO   ] remove  in the table step 2
+[19:08:12.815] [SEVERE ] removing player 2 token from slot 6
+[19:08:12.815] [SEVERE ] removing player 2 token from slot 2
+[19:08:12.815] [SEVERE ] removing player 2 token from slot 9
+[19:08:12.815] [INFO   ] thread dealerstep 1.
+[19:08:12.815] [INFO   ] thread dealerstep 2.
+[19:08:12.815] [INFO   ] thread dealerstep 3.
+[19:08:12.816] [INFO   ] thread dealerstep 4.
+[19:08:12.816] [SEVERE ] updating countdown to 40670
+[19:08:12.816] [INFO   ] thread dealerbefor dealer notify player.
+[19:08:12.816] [INFO   ] thread dealerafter dealer notify player.
+[19:08:12.816] [INFO   ] thread Thread-1 player was notified by dealer.
+[19:08:12.817] [INFO   ] penalty
+[19:08:12.817] [SEVERE ] setting player 2 freeze to 3000
+[19:08:13.754] [SEVERE ] setting player 1 freeze to 1000
+[19:08:13.831] [SEVERE ] setting player 2 freeze to 2000
