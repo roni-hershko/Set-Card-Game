@@ -60,7 +60,7 @@ public class Player implements Runnable {
 	 */
 	BlockingQueue<Integer> slotQueue;
 
-	int queueCounter; 
+	//int queueCounter; 
 
 	public volatile boolean isChecked;
 
@@ -95,7 +95,7 @@ public class Player implements Runnable {
         this.table = table;
         this.id = id;
         this.human = human;
-	 	this.queueCounter = 0; 
+	 	//this.queueCounter = 0; 
 		this.slotQueue = new LinkedBlockingQueue<>(env.config.featureSize);
         this.isChecked = false;
 		this.PlayerLock = new Object();
@@ -231,7 +231,7 @@ public class Player implements Runnable {
 			if(table.slotToCard[slot] != null && table.canPlaceTokens){
 				boolean isDoubleClick = false;	
 
-				for(int i = 0; i < queueCounter; i++){
+				for(int i = 0; i < slotQueue.size(); i++){
 					int currSlot= slotQueue.poll(); 
 					if(currSlot != slot)
 						slotQueue.add(currSlot);
@@ -241,19 +241,19 @@ public class Player implements Runnable {
 					else{
 						isDoubleClick = true;
 						table.removeToken(id, slot);
-						queueCounter--;
+						//queueCounter--;
 					}
 				}
 
-				if (!isDoubleClick && queueCounter < env.config.featureSize) {
+				if (!isDoubleClick && slotQueue.size() < env.config.featureSize) {
 					slotQueue.add(slot); //add the key press to the queue
-					queueCounter++;
+					//queueCounter++;
 					table.placeToken(id, slot); //place the token on the table
 				}
 			}
 
 			synchronized(this){
-				if(queueCounter == env.config.featureSize && !terminate){
+				if(slotQueue.size() == env.config.featureSize && !terminate){
 					isReadyToCheck= true;
 					notifyAll();
 
