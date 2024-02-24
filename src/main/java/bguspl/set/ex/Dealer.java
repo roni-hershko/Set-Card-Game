@@ -49,7 +49,7 @@ public class Dealer implements Runnable {
 
     int miliSec10 = 10;
 
-	private volatile boolean setFound;
+	private volatile boolean setFound; //maybe initialize only in remove cards from table
 
 	private volatile boolean changeTime;
 
@@ -61,7 +61,7 @@ public class Dealer implements Runnable {
 		this.players = players;
 		deck = IntStream.range(0, env.config.deckSize).boxed().collect(Collectors.toList());
 		terminate = false;
-		this.setFound = false;
+		this.setFound = false; //maybe initialize only in remove cards from table
 		this.changeTime = false;
 		if (env.config.turnTimeoutMillis > 0)
 			reshuffleTime = env.config.turnTimeoutMillis + System.currentTimeMillis(); //minute
@@ -146,67 +146,104 @@ public class Dealer implements Runnable {
         table.canPlaceTokens=false;
 
 		//check if there is a valid set and remove the cards
-		for (Player player : table.playersQueue) {
+		for (Player player : table.playersQueue) { //start of check set ad
             synchronized(player) {
 				table.removeQueuePlayers(player);  
+
 				//check the set
-                if(checkSet(player.slotQueue)){ 
-					setFound = true;
-                    player.point();  
-
+                 if(checkSet(player.slotQueue)){ 
+					player.isSetFound = true;
+					// player.point();
+				 	// setFound = true;
+                //     player.point();  
 				}
-				if(!setFound){
-					player.penalty();
-
-				}
+				// if(!setFound){
+				// 	player.penalty();
+				// }
 					
 				//remove the set cards from the player data
 				for (int j = 0; j < player.queueCounter; j++){
-					int slot = player.slotQueue.poll();
+					int slot; //added by rh
+					synchronized(player.slotQueue){ //added by rh 
+						slot = player.slotQueue.poll();
+					}
 					table.removeToken(player.id, slot); 
 
 
-					if(setFound){
+					if(player.isSetFound){
 						table.removeCard(slot);
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 						//remove the tokens of the cards that were removed from the table from the other players
-						for (Player playerSlot : players) {
-							
+						for (Player playerSlot : players) { //start remove all tokens ad
 							if(player.id != playerSlot.id && playerSlot.slotQueue.contains(slot)){
 								table.removeToken(playerSlot.id, slot);
 								//check if the player. is in the queue of players
-								if(table.playersQueue.contains(playerSlot))
-									table.removeQueuePlayers(playerSlot);
-								playerSlot.slotQueue.remove(slot); 
-								playerSlot.queueCounter--;
+								synchronized(playerSlot.slotQueue){
+									if(playerSlot.slotQueue.contains(slot)){
+										playerSlot.slotQueue.remove(slot); 
+										playerSlot.queueCounter--;
+									}
+								}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+								if(table.playersQueue.contains(playerSlot)) //???
+									table.removeQueuePlayers(playerSlot); //??
 							}
 						}
+
 					}
+					
 				}
-				player.isChecked = true;
-				player.notifyAll();
-				// if(!player.isHuman())
-				// 	player.aiPlayerLock.notifyAll();
+				env.logger.info("thread " + Thread.currentThread().getName() + "step 1.");
+
+				table.canPlaceTokens = true;
+				synchronized(table.lock){
+					table.lock.notifyAll();
+					env.logger.info("thread " + Thread.currentThread().getName() + "step 2.");
+					
+
+				}   
+				env.logger.info("thread " + Thread.currentThread().getName() + "step 3.");
+
 				player.queueCounter = 0;
+				env.logger.info("thread " + Thread.currentThread().getName() + "step 4.");
+
+				if(player.isSetFound){
+					env.logger.info("thread " + Thread.currentThread().getName() + "step 5.");
+
+					updateTimerDisplay(true);
+					env.logger.info("thread " + Thread.currentThread().getName() + "step 6.");
+
+					// setFound=false;
+				}
+				env.logger.info("thread " + Thread.currentThread().getName() + "befor dealer notify player.");
+
+				player.notifyAll();
+				env.logger.info("thread " + Thread.currentThread().getName() + "after dealer notify player.");
+
 			}
+		}
+	}
 
-			//player.isChecked = true;
-			if(setFound){
-        		changeTime = true;
-				setFound=false;
-			}
-        }
+		//player.isChecked = true;  //??
+		// if(!player.isHuman())
+		// 	player.aiPlayerLock.notifyAll();
+	//player.isChecked = true;
+// 	if(setFound){
+// 		changeTime = true;
+// 		setFound=false;
+// 	}
+// }
 
-		if(changeTime)
-			updateTimerDisplay(true);
+		// if(changeTime)
+		// 	updateTimerDisplay(true);
 
-		changeTime = false;
-		table.canPlaceTokens = true;
-
-		synchronized(table.lock){
-			table.lock.notifyAll();
-		}   
-    }
+		// changeTime = false;
+		// table.canPlaceTokens = true;
+		// synchronized(table.lock){
+		// 	table.lock.notifyAll();
+		// }   
+    
 
     /**
      * Check if any cards can be removed from the deck and placed on the table.
@@ -410,23 +447,28 @@ public class Dealer implements Runnable {
     }
 
 	//new methods
-	public boolean checkSet(Queue<Integer> playerQueue ) {
-		int[] cards = new int[playerQueue.size()];
-        for (int i = 0; i < playerQueue.size(); i++) {
-			int slot = playerQueue.poll();
+	public boolean checkSet(Queue<Integer> playerSlotQueue ) {
+		int[] cards = new int[playerSlotQueue.size()];
+        for (int i = 0; i < playerSlotQueue.size(); i++) {
+			int slot = playerSlotQueue.poll();
             cards[i] = table.slotToCard[slot];
-			playerQueue.add(slot);
+			playerSlotQueue.add(slot);
         }
 		return env.util.testSet(cards);
 	}
 
+	public void checkSetResult(Player player) {
+		if(checkSet(player.slotQueue)){ 
+			setFound = true;
+			player.point();  
+		}
+		else{
+			setFound = false;
+			player.penalty();
+		}
+	}
+
     public void shuffleDeck() {
-        // for (int i = 0; i < env.config.deckSize; i++) {
-        //     int randomIndex = (int) (Math.random() * env.config.deckSize);
-        //     int temp = deck.get(i);
-        //     deck.set(i, deck.get(randomIndex));
-        //     deck.set(randomIndex, temp);
-        // }
 		Collections.shuffle(deck);
     }
 
