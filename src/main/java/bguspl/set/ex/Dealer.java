@@ -239,10 +239,9 @@ public class Dealer implements Runnable {
 								}
 								env.logger.info("thread " + Thread.currentThread().getName() + " rm 15.");
 
-								if(table.playersQueue.contains(playerSlot)) //???
-								env.logger.info("thread " + Thread.currentThread().getName() + " rm 16.");
-
+								if(table.playersQueue.contains(playerSlot)){ //???}
 									table.removeQueuePlayers(playerSlot); //??
+								}
 							}
 						}
 					}
