@@ -130,13 +130,22 @@ public class Dealer implements Runnable {
      */
     public void terminate() {
         freezeAllPlayers(env.config.endGamePauseMillies); 
+		env.logger.info("thread " + Thread.currentThread().getName() + " terminate 1.");
+
 		if(!terminate){
+
+			env.logger.info("thread " + Thread.currentThread().getName() + " terminate 2.");
+
 			for (int i = players.length -1; i >= 0; i--) {
+				env.logger.info("thread " + Thread.currentThread().getName() + " terminate 3.");
+
                 players[i].terminate();
-                try { //mabye not needed
-                    players[i].getPlayerThread().join(); //mabye not needed
-                } catch (InterruptedException e) { } //mabye not needed
+            //     try { //mabye not needed
+            //         players[i].getPlayerThread().join(); //mabye not needed
+            //     } catch (InterruptedException e) { } //mabye not needed
  	  		}
+			   env.logger.info("thread " + Thread.currentThread().getName() + " terminate 4.");
+
 		}
 	    terminate = true;
         //Thread.currentThread().interrupt();
@@ -158,11 +167,12 @@ public class Dealer implements Runnable {
 
         freezeAllPlayers(env.config.tableDelayMillis);
 
-        table.canPlaceTokens=false;
 			env.logger.info("thread " + Thread.currentThread().getName() + " rm 1.");
 
 		//check if there is a valid set and remove the cards
-		for (Player player : table.playersQueue) { //start of check set ad
+		for (Player player : table.playersQueue) {
+			table.canPlaceTokens=false;
+			//start of check set ad
             synchronized(player) {
 				env.logger.info("thread " + Thread.currentThread().getName() + " rm 2.");
 
@@ -180,20 +190,22 @@ public class Dealer implements Runnable {
 				env.logger.info("thread " + Thread.currentThread().getName() + " rm 5.");
 
 				//remove the set cards from the player data
-				for (int j = 0; j < player.slotQueue.size(); j++){
+				for (int j = 0; j <env.config.featureSize; j++){
 					env.logger.info("thread " + Thread.currentThread().getName() + " rm 6."+ "slotQueue.size " + player.slotQueue.size());
 
 					updateTimerDisplay(false); //remember to remove
 					int slot; //added by rh
 
 					synchronized(player.slotQueue){ //added by rh 
-						env.logger.info("thread " + Thread.currentThread().getName() + " rm 7.");
+						env.logger.info("thread " + Thread.currentThread().getName() + " rm 7!!!.");
 
 						slot = player.slotQueue.poll();
 					}
-					env.logger.info("thread " + Thread.currentThread().getName() + " rm 8.");
+					env.logger.info("thread " + Thread.currentThread().getName() + " rm 8 !!!!.");
 
 					table.removeToken(player.id, slot); 
+					env.logger.info("thread " + Thread.currentThread().getName() + " rm 8.5 !!!!.");
+
 
 					updateTimerDisplay(false); //remember to remove
 
@@ -252,7 +264,7 @@ public class Dealer implements Runnable {
 				if(player.isSetFound){
 					env.logger.info("thread " + Thread.currentThread().getName() + " rm 21.");
 
-					updateTimerDisplay(true); 
+					//updateTimerDisplay(true); //remember to remove
 				}
 				else {
 					updateTimerDisplay(false); //remember to remove
@@ -288,7 +300,7 @@ public class Dealer implements Runnable {
         }
 		env.logger.info("thread " + Thread.currentThread().getName() + " step 1.");
 
-		updateTimerDisplay(false); //remember to remove
+		updateTimerDisplay(false); 
 
 
         //create lists for searching sets on table
@@ -320,18 +332,20 @@ public class Dealer implements Runnable {
                 terminate();
             }
 
+			updateTimerDisplay(true); 
+
 		env.logger.info("thread " + Thread.currentThread().getName() + " step 5.");
 
-			pdateTimerDisplay(false); //remember to remove
+			updateTimerDisplay(false); //remember to remove
 			//new cards on table
             removeAllCardsFromTable();
 
 			env.logger.info("thread " + Thread.currentThread().getName() + " step 6.");
 
             //create lists for searching sets on deck + table
-            List<Integer> deck = new LinkedList<Integer>();
+            List<Integer> deckForFindSets = new LinkedList<Integer>();
             for(int i=0; i<env.config.deckSize; i++){
-                   deck.add(deck.get(i));
+				deckForFindSets.add(deck.get(i));
             }
 
 			env.logger.info("thread " + Thread.currentThread().getName() + " step 7.");

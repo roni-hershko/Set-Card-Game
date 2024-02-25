@@ -1,0 +1,1265 @@
+[10:17:55.390] [INFO   ] thread main starting.
+[10:17:55.390] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[10:17:55.390] [SEVERE ] configuration file was loaded from resources directory.
+[10:17:55.960] [INFO   ] thread dealer starting.
+[10:17:55.960] [INFO   ] thread dealer starting.
+[10:17:55.968] [INFO   ] thread Thread-0 starting.
+[10:17:55.968] [INFO   ] thread Thread-1 starting.
+[10:17:55.968] [SEVERE ] updating countdown to 10000
+[10:17:55.975] [INFO   ] thread dealer run step 1.
+[10:17:56.304] [SEVERE ] placing card 26 in slot 0
+[10:17:56.415] [SEVERE ] placing card 75 in slot 1
+[10:17:56.525] [SEVERE ] placing card 22 in slot 2
+[10:17:56.634] [SEVERE ] placing card 61 in slot 3
+[10:17:56.745] [SEVERE ] placing card 19 in slot 4
+[10:17:56.855] [SEVERE ] placing card 78 in slot 5
+[10:17:56.966] [SEVERE ] placing card 11 in slot 6
+[10:17:57.075] [SEVERE ] placing card 74 in slot 7
+[10:17:57.185] [SEVERE ] placing card 41 in slot 8
+[10:17:57.295] [SEVERE ] placing card 3 in slot 9
+[10:17:57.406] [SEVERE ] placing card 9 in slot 10
+[10:17:57.519] [SEVERE ] placing card 57 in slot 11
+[10:17:57.519] [INFO   ] thread dealer step 1.
+[10:17:57.519] [SEVERE ] updating countdown to 8451
+[10:17:57.519] [INFO   ] thread dealer step 2.
+[10:17:57.519] [INFO   ] thread dealer step 2.
+[10:17:57.519] [INFO   ] thread dealer step 2.
+[10:17:57.519] [INFO   ] thread dealer step 2.
+[10:17:57.519] [INFO   ] thread dealer step 2.
+[10:17:57.519] [INFO   ] thread dealer step 2.
+[10:17:57.519] [INFO   ] thread dealer step 2.
+[10:17:57.519] [INFO   ] thread dealer step 2.
+[10:17:57.519] [INFO   ] thread dealer step 2.
+[10:17:57.519] [INFO   ] thread dealer step 2.
+[10:17:57.519] [INFO   ] thread dealer step 2.
+[10:17:57.519] [INFO   ] thread dealer step 2.
+[10:17:57.519] [INFO   ] thread dealer step 3.
+[10:17:57.519] [SEVERE ] updating countdown to 8451
+[10:17:57.534] [INFO   ] thread dealer step 4.
+[10:17:57.534] [INFO   ] thread dealer step 10.
+[10:17:57.534] [INFO   ] thread dealer step 11.
+[10:17:57.534] [INFO   ] thread dealer step 12.
+[10:17:57.534] [INFO   ] thread dealer run step 2.
+[10:17:57.534] [INFO   ] thread dealer timer loop 1.
+[10:17:58.542] [INFO   ] thread dealer timer loop 2.
+[10:17:58.542] [SEVERE ] updating countdown to 7428
+[10:17:58.542] [INFO   ] thread dealer timer loop 3.
+[10:17:58.769] [INFO   ] thread dealer rm 1.
+[10:17:58.770] [INFO   ] thread dealer timer loop 4.
+[10:17:58.989] [INFO   ] thread dealer step 1.
+[10:17:58.989] [SEVERE ] updating countdown to 6981
+[10:17:58.989] [INFO   ] thread dealer step 2.
+[10:17:58.989] [INFO   ] thread dealer step 2.
+[10:17:58.989] [INFO   ] thread dealer step 2.
+[10:17:58.989] [INFO   ] thread dealer step 2.
+[10:17:58.989] [INFO   ] thread dealer step 2.
+[10:17:58.989] [INFO   ] thread dealer step 2.
+[10:17:58.989] [INFO   ] thread dealer step 2.
+[10:17:58.989] [INFO   ] thread dealer step 2.
+[10:17:58.994] [INFO   ] thread dealer step 2.
+[10:17:58.994] [INFO   ] thread dealer step 2.
+[10:17:58.994] [INFO   ] thread dealer step 2.
+[10:17:58.994] [INFO   ] thread dealer step 2.
+[10:17:58.994] [INFO   ] thread dealer step 3.
+[10:17:58.994] [SEVERE ] updating countdown to 6976
+[10:17:58.994] [INFO   ] thread dealer step 4.
+[10:17:58.994] [INFO   ] thread dealer step 10.
+[10:17:58.994] [INFO   ] thread dealer step 11.
+[10:17:58.994] [INFO   ] thread dealer step 12.
+[10:17:58.994] [INFO   ] thread dealer timer loop 5.
+[10:17:58.994] [INFO   ] thread dealer timer loop 1.
+[10:17:59.272] [SEVERE ] key 75 was pressed by player 2
+[10:17:59.272] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:17:59.272] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:17:59.272] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:17:59.272] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:17:59.272] [INFO   ] thread AWT-EventQueue-0 kp step 11.
+[10:17:59.272] [INFO   ] thread AWT-EventQueue-0 kp step 12.
+[10:17:59.272] [SEVERE ] player 2 placing token on slot 5
+[10:17:59.272] [INFO   ] thread AWT-EventQueue-0 kp step 13.
+[10:17:59.272] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:17:59.506] [SEVERE ] key 76 was pressed by player 2
+[10:17:59.506] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:17:59.506] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:17:59.506] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:17:59.506] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:17:59.506] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:17:59.506] [INFO   ] thread AWT-EventQueue-0 kp step 6.
+[10:17:59.506] [INFO   ] thread AWT-EventQueue-0 kp step 7.
+[10:17:59.506] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:17:59.506] [INFO   ] thread AWT-EventQueue-0 kp step 11.
+[10:17:59.506] [INFO   ] thread AWT-EventQueue-0 kp step 12.
+[10:17:59.506] [SEVERE ] player 2 placing token on slot 6
+[10:17:59.506] [INFO   ] thread AWT-EventQueue-0 kp step 13.
+[10:17:59.506] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:17:59.895] [SEVERE ] key 59 was pressed by player 2
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 6.
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 7.
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 6.
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 7.
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 11.
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 12.
+[10:17:59.895] [SEVERE ] player 2 placing token on slot 7
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 13.
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 15.
+[10:17:59.895] [INFO   ] thread AWT-EventQueue-0 kp step 16.
+[10:17:59.895] [INFO   ] thread dealer timer loop 2.
+[10:17:59.895] [SEVERE ] updating countdown to 6075
+[10:17:59.895] [INFO   ] thread dealer timer loop 3.
+[10:18:00.115] [INFO   ] thread dealer rm 1.
+[10:18:00.115] [INFO   ] thread dealer rm 2.
+[10:18:00.115] [INFO   ] remove  in the table step 1
+[10:18:00.115] [INFO   ] remove  in the table step 2
+[10:18:00.115] [INFO   ] thread dealer rm 3.
+[10:18:00.115] [INFO   ] thread dealer rm 5.
+[10:18:00.115] [INFO   ] thread dealer rm 6.slotQueue.size 3
+[10:18:00.115] [SEVERE ] updating countdown to 5855
+[10:18:00.115] [INFO   ] thread dealer rm 7!!!.
+[10:18:00.115] [INFO   ] thread dealer rm 8 !!!!.
+[10:18:00.115] [SEVERE ] removing player 2 token from slot 5
+[10:18:00.115] [INFO   ] thread dealer rm 8.5 !!!!.
+[10:18:00.115] [SEVERE ] updating countdown to 5855
+[10:18:00.115] [INFO   ] thread dealer rm 9.
+[10:18:00.115] [INFO   ] thread dealer rm 6.slotQueue.size 2
+[10:18:00.115] [SEVERE ] updating countdown to 5855
+[10:18:00.115] [INFO   ] thread dealer rm 7!!!.
+[10:18:00.115] [INFO   ] thread dealer rm 8 !!!!.
+[10:18:00.115] [SEVERE ] removing player 2 token from slot 6
+[10:18:00.115] [INFO   ] thread dealer rm 8.5 !!!!.
+[10:18:00.115] [SEVERE ] updating countdown to 5855
+[10:18:00.115] [INFO   ] thread dealer rm 9.
+[10:18:00.115] [INFO   ] thread dealer rm 6.slotQueue.size 1
+[10:18:00.115] [SEVERE ] updating countdown to 5855
+[10:18:00.115] [INFO   ] thread dealer rm 7!!!.
+[10:18:00.115] [INFO   ] thread dealer rm 8 !!!!.
+[10:18:00.115] [SEVERE ] removing player 2 token from slot 7
+[10:18:00.115] [INFO   ] thread dealer rm 8.5 !!!!.
+[10:18:00.115] [SEVERE ] updating countdown to 5855
+[10:18:00.115] [INFO   ] thread dealer rm 9.
+[10:18:00.115] [INFO   ] thread dealer rm 17.
+[10:18:00.115] [INFO   ] thread dealer rm 18.
+[10:18:00.115] [INFO   ] thread dealerrm 19 .
+[10:18:00.115] [INFO   ] thread dealer rm 20.
+[10:18:00.125] [SEVERE ] updating countdown to 5845
+[10:18:00.125] [INFO   ] thread dealer rm 22.
+[10:18:00.125] [INFO   ] thread dealer rm 23.
+[10:18:00.125] [SEVERE ] updating countdown to 5845
+[10:18:00.126] [INFO   ] thread dealer timer loop 4.
+[10:18:00.125] [INFO   ] thread Thread-1 player was notified by dealer.
+[10:18:00.126] [INFO   ] penalty
+[10:18:00.126] [SEVERE ] setting player 2 freeze to 3000
+[10:18:00.346] [INFO   ] thread dealer step 1.
+[10:18:00.346] [SEVERE ] updating countdown to 5624
+[10:18:00.346] [INFO   ] thread dealer step 2.
+[10:18:00.346] [INFO   ] thread dealer step 2.
+[10:18:00.346] [INFO   ] thread dealer step 2.
+[10:18:00.346] [INFO   ] thread dealer step 2.
+[10:18:00.346] [INFO   ] thread dealer step 2.
+[10:18:00.346] [INFO   ] thread dealer step 2.
+[10:18:00.346] [INFO   ] thread dealer step 2.
+[10:18:00.346] [INFO   ] thread dealer step 2.
+[10:18:00.346] [INFO   ] thread dealer step 2.
+[10:18:00.346] [INFO   ] thread dealer step 2.
+[10:18:00.346] [INFO   ] thread dealer step 2.
+[10:18:00.346] [INFO   ] thread dealer step 2.
+[10:18:00.346] [INFO   ] thread dealer step 3.
+[10:18:00.346] [SEVERE ] updating countdown to 5624
+[10:18:00.346] [INFO   ] thread dealer step 4.
+[10:18:00.346] [INFO   ] thread dealer step 10.
+[10:18:00.346] [INFO   ] thread dealer step 11.
+[10:18:00.346] [INFO   ] thread dealer step 12.
+[10:18:00.346] [INFO   ] thread dealer timer loop 5.
+[10:18:00.346] [INFO   ] thread dealer timer loop 1.
+[10:18:01.128] [SEVERE ] setting player 2 freeze to 2000
+[10:18:01.348] [INFO   ] thread dealer timer loop 2.
+[10:18:01.349] [INFO   ] thread dealer timer loop 3.
+[10:18:01.565] [INFO   ] thread dealer rm 1.
+[10:18:01.566] [INFO   ] thread dealer timer loop 4.
+[10:18:01.597] [SEVERE ] key 77 was pressed by player 2
+[10:18:01.597] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:18:01.597] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:18:01.597] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:18:01.597] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:18:01.597] [INFO   ] thread AWT-EventQueue-0 kp step 11.
+[10:18:01.597] [INFO   ] thread AWT-EventQueue-0 kp step 12.
+[10:18:01.597] [SEVERE ] player 2 placing token on slot 8
+[10:18:01.597] [INFO   ] thread AWT-EventQueue-0 kp step 13.
+[10:18:01.775] [INFO   ] thread dealer step 1.
+[10:18:01.775] [INFO   ] thread dealer step 2.
+[10:18:01.775] [INFO   ] thread dealer step 2.
+[10:18:01.775] [INFO   ] thread dealer step 2.
+[10:18:01.775] [INFO   ] thread dealer step 2.
+[10:18:01.775] [INFO   ] thread dealer step 2.
+[10:18:01.775] [INFO   ] thread dealer step 2.
+[10:18:01.776] [INFO   ] thread dealer step 2.
+[10:18:01.776] [INFO   ] thread dealer step 2.
+[10:18:01.776] [INFO   ] thread dealer step 2.
+[10:18:01.776] [INFO   ] thread dealer step 2.
+[10:18:01.776] [INFO   ] thread dealer step 2.
+[10:18:01.776] [INFO   ] thread dealer step 2.
+[10:18:01.776] [INFO   ] thread dealer step 3.
+[10:18:01.777] [INFO   ] thread dealer step 4.
+[10:18:01.777] [INFO   ] thread dealer step 10.
+[10:18:01.777] [INFO   ] thread dealer step 11.
+[10:18:01.777] [INFO   ] thread dealer step 12.
+[10:18:01.778] [INFO   ] thread dealer timer loop 5.
+[10:18:01.778] [INFO   ] thread dealer timer loop 1.
+[10:18:01.788] [INFO   ] thread dealer timer loop 2.
+[10:18:01.788] [INFO   ] thread dealer timer loop 3.
+[10:18:01.990] [INFO   ] thread dealer rm 1.
+[10:18:01.990] [INFO   ] thread dealer timer loop 4.
+[10:18:02.143] [SEVERE ] setting player 2 freeze to 1000
+[10:18:02.191] [INFO   ] thread dealer step 1.
+[10:18:02.191] [INFO   ] thread dealer step 2.
+[10:18:02.191] [INFO   ] thread dealer step 2.
+[10:18:02.192] [INFO   ] thread dealer step 2.
+[10:18:02.192] [INFO   ] thread dealer step 2.
+[10:18:02.192] [INFO   ] thread dealer step 2.
+[10:18:02.192] [INFO   ] thread dealer step 2.
+[10:18:02.192] [INFO   ] thread dealer step 2.
+[10:18:02.192] [INFO   ] thread dealer step 2.
+[10:18:02.192] [INFO   ] thread dealer step 2.
+[10:18:02.192] [INFO   ] thread dealer step 2.
+[10:18:02.193] [INFO   ] thread dealer step 2.
+[10:18:02.193] [INFO   ] thread dealer step 2.
+[10:18:02.193] [INFO   ] thread dealer step 3.
+[10:18:02.196] [INFO   ] thread dealer step 4.
+[10:18:02.196] [INFO   ] thread dealer step 10.
+[10:18:02.196] [INFO   ] thread dealer step 11.
+[10:18:02.197] [INFO   ] thread dealer step 12.
+[10:18:02.198] [INFO   ] thread dealer timer loop 5.
+[10:18:02.198] [INFO   ] thread dealer timer loop 1.
+[10:18:02.217] [INFO   ] thread dealer timer loop 2.
+[10:18:02.217] [INFO   ] thread dealer timer loop 3.
+[10:18:02.437] [INFO   ] thread dealer rm 1.
+[10:18:02.437] [INFO   ] thread dealer timer loop 4.
+[10:18:02.651] [INFO   ] thread dealer step 1.
+[10:18:02.652] [INFO   ] thread dealer step 2.
+[10:18:02.652] [INFO   ] thread dealer step 2.
+[10:18:02.652] [INFO   ] thread dealer step 2.
+[10:18:02.652] [INFO   ] thread dealer step 2.
+[10:18:02.652] [INFO   ] thread dealer step 2.
+[10:18:02.652] [INFO   ] thread dealer step 2.
+[10:18:02.652] [INFO   ] thread dealer step 2.
+[10:18:02.652] [INFO   ] thread dealer step 2.
+[10:18:02.652] [INFO   ] thread dealer step 2.
+[10:18:02.652] [INFO   ] thread dealer step 2.
+[10:18:02.652] [INFO   ] thread dealer step 2.
+[10:18:02.652] [INFO   ] thread dealer step 2.
+[10:18:02.652] [INFO   ] thread dealer step 3.
+[10:18:02.652] [INFO   ] thread dealer step 4.
+[10:18:02.652] [INFO   ] thread dealer step 10.
+[10:18:02.652] [INFO   ] thread dealer step 11.
+[10:18:02.652] [INFO   ] thread dealer step 12.
+[10:18:02.652] [INFO   ] thread dealer timer loop 5.
+[10:18:02.652] [INFO   ] thread dealer timer loop 1.
+[10:18:02.668] [INFO   ] thread dealer timer loop 2.
+[10:18:02.669] [INFO   ] thread dealer timer loop 3.
+[10:18:02.880] [INFO   ] thread dealer rm 1.
+[10:18:02.880] [INFO   ] thread dealer timer loop 4.
+[10:18:03.096] [INFO   ] thread dealer step 1.
+[10:18:03.096] [INFO   ] thread dealer step 2.
+[10:18:03.097] [INFO   ] thread dealer step 2.
+[10:18:03.097] [INFO   ] thread dealer step 2.
+[10:18:03.097] [INFO   ] thread dealer step 2.
+[10:18:03.097] [INFO   ] thread dealer step 2.
+[10:18:03.097] [INFO   ] thread dealer step 2.
+[10:18:03.097] [INFO   ] thread dealer step 2.
+[10:18:03.097] [INFO   ] thread dealer step 2.
+[10:18:03.097] [INFO   ] thread dealer step 2.
+[10:18:03.097] [INFO   ] thread dealer step 2.
+[10:18:03.097] [INFO   ] thread dealer step 2.
+[10:18:03.097] [INFO   ] thread dealer step 2.
+[10:18:03.097] [INFO   ] thread dealer step 3.
+[10:18:03.098] [INFO   ] thread dealer step 4.
+[10:18:03.098] [INFO   ] thread dealer step 10.
+[10:18:03.098] [INFO   ] thread dealer step 11.
+[10:18:03.098] [INFO   ] thread dealer step 12.
+[10:18:03.098] [INFO   ] thread dealer timer loop 5.
+[10:18:03.098] [INFO   ] thread dealer timer loop 1.
+[10:18:03.112] [INFO   ] thread dealer timer loop 2.
+[10:18:03.112] [INFO   ] thread dealer timer loop 3.
+[10:18:03.150] [SEVERE ] setting player 2 freeze to 0
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:18:03.151] [SEVERE ] key 44 was pressed by player 2
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 6.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 7.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 11.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 12.
+[10:18:03.151] [SEVERE ] player 2 placing token on slot 9
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 13.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:18:03.151] [SEVERE ] key 46 was pressed by player 2
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 6.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 7.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 6.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 7.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 11.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 12.
+[10:18:03.151] [SEVERE ] player 2 placing token on slot 10
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 13.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 15.
+[10:18:03.151] [INFO   ] thread AWT-EventQueue-0 kp step 16.
+[10:18:03.331] [INFO   ] thread dealer rm 1.
+[10:18:03.331] [INFO   ] thread dealer rm 2.
+[10:18:03.332] [INFO   ] remove  in the table step 1
+[10:18:03.332] [INFO   ] remove  in the table step 2
+[10:18:03.332] [INFO   ] thread dealer rm 3.
+[10:18:03.332] [INFO   ] thread dealer rm 5.
+[10:18:03.332] [INFO   ] thread dealer rm 6.slotQueue.size 3
+[10:18:03.332] [INFO   ] thread dealer rm 7!!!.
+[10:18:03.332] [INFO   ] thread dealer rm 8 !!!!.
+[10:18:03.332] [SEVERE ] removing player 2 token from slot 8
+[10:18:03.332] [INFO   ] thread dealer rm 8.5 !!!!.
+[10:18:03.332] [INFO   ] thread dealer rm 9.
+[10:18:03.332] [INFO   ] thread dealer rm 6.slotQueue.size 2
+[10:18:03.332] [INFO   ] thread dealer rm 7!!!.
+[10:18:03.332] [INFO   ] thread dealer rm 8 !!!!.
+[10:18:03.332] [SEVERE ] removing player 2 token from slot 9
+[10:18:03.332] [INFO   ] thread dealer rm 8.5 !!!!.
+[10:18:03.332] [INFO   ] thread dealer rm 9.
+[10:18:03.332] [INFO   ] thread dealer rm 6.slotQueue.size 1
+[10:18:03.332] [INFO   ] thread dealer rm 7!!!.
+[10:18:03.332] [INFO   ] thread dealer rm 8 !!!!.
+[10:18:03.332] [SEVERE ] removing player 2 token from slot 10
+[10:18:03.332] [INFO   ] thread dealer rm 8.5 !!!!.
+[10:18:03.335] [INFO   ] thread dealer rm 9.
+[10:18:03.335] [INFO   ] thread dealer rm 17.
+[10:18:03.335] [INFO   ] thread dealer rm 18.
+[10:18:03.335] [INFO   ] thread dealerrm 19 .
+[10:18:03.335] [INFO   ] thread dealer rm 20.
+[10:18:03.335] [INFO   ] thread dealer rm 22.
+[10:18:03.335] [INFO   ] thread dealer rm 23.
+[10:18:03.335] [INFO   ] thread dealer timer loop 4.
+[10:18:03.335] [INFO   ] thread Thread-1 player was notified by dealer.
+[10:18:03.336] [INFO   ] penalty
+[10:18:03.336] [SEVERE ] setting player 2 freeze to 3000
+[10:18:03.554] [INFO   ] thread dealer step 1.
+[10:18:03.554] [INFO   ] thread dealer step 2.
+[10:18:03.554] [INFO   ] thread dealer step 2.
+[10:18:03.554] [INFO   ] thread dealer step 2.
+[10:18:03.554] [INFO   ] thread dealer step 2.
+[10:18:03.554] [INFO   ] thread dealer step 2.
+[10:18:03.554] [INFO   ] thread dealer step 2.
+[10:18:03.554] [INFO   ] thread dealer step 2.
+[10:18:03.554] [INFO   ] thread dealer step 2.
+[10:18:03.554] [INFO   ] thread dealer step 2.
+[10:18:03.554] [INFO   ] thread dealer step 2.
+[10:18:03.554] [INFO   ] thread dealer step 2.
+[10:18:03.554] [INFO   ] thread dealer step 2.
+[10:18:03.554] [INFO   ] thread dealer step 3.
+[10:18:03.554] [INFO   ] thread dealer step 4.
+[10:18:03.554] [INFO   ] thread dealer step 10.
+[10:18:03.554] [INFO   ] thread dealer step 11.
+[10:18:03.554] [INFO   ] thread dealer step 12.
+[10:18:03.554] [INFO   ] thread dealer timer loop 5.
+[10:18:03.554] [INFO   ] thread dealer timer loop 1.
+[10:18:03.571] [INFO   ] thread dealer timer loop 2.
+[10:18:03.571] [INFO   ] thread dealer timer loop 3.
+[10:18:03.782] [INFO   ] thread dealer rm 1.
+[10:18:03.782] [INFO   ] thread dealer timer loop 4.
+[10:18:04.001] [INFO   ] thread dealer step 1.
+[10:18:04.001] [INFO   ] thread dealer step 2.
+[10:18:04.001] [INFO   ] thread dealer step 2.
+[10:18:04.001] [INFO   ] thread dealer step 2.
+[10:18:04.001] [INFO   ] thread dealer step 2.
+[10:18:04.001] [INFO   ] thread dealer step 2.
+[10:18:04.001] [INFO   ] thread dealer step 2.
+[10:18:04.001] [INFO   ] thread dealer step 2.
+[10:18:04.001] [INFO   ] thread dealer step 2.
+[10:18:04.001] [INFO   ] thread dealer step 2.
+[10:18:04.001] [INFO   ] thread dealer step 2.
+[10:18:04.001] [INFO   ] thread dealer step 2.
+[10:18:04.001] [INFO   ] thread dealer step 2.
+[10:18:04.001] [INFO   ] thread dealer step 3.
+[10:18:04.001] [INFO   ] thread dealer step 4.
+[10:18:04.001] [INFO   ] thread dealer step 10.
+[10:18:04.001] [INFO   ] thread dealer step 11.
+[10:18:04.001] [INFO   ] thread dealer step 12.
+[10:18:04.001] [INFO   ] thread dealer timer loop 5.
+[10:18:04.001] [INFO   ] thread dealer timer loop 1.
+[10:18:04.017] [INFO   ] thread dealer timer loop 2.
+[10:18:04.017] [INFO   ] thread dealer timer loop 3.
+[10:18:04.238] [INFO   ] thread dealer rm 1.
+[10:18:04.238] [INFO   ] thread dealer timer loop 4.
+[10:18:04.338] [SEVERE ] setting player 2 freeze to 2000
+[10:18:04.439] [INFO   ] thread dealer step 1.
+[10:18:04.439] [INFO   ] thread dealer step 2.
+[10:18:04.439] [INFO   ] thread dealer step 2.
+[10:18:04.439] [INFO   ] thread dealer step 2.
+[10:18:04.439] [INFO   ] thread dealer step 2.
+[10:18:04.439] [INFO   ] thread dealer step 2.
+[10:18:04.439] [INFO   ] thread dealer step 2.
+[10:18:04.439] [INFO   ] thread dealer step 2.
+[10:18:04.439] [INFO   ] thread dealer step 2.
+[10:18:04.439] [INFO   ] thread dealer step 2.
+[10:18:04.439] [INFO   ] thread dealer step 2.
+[10:18:04.439] [INFO   ] thread dealer step 2.
+[10:18:04.439] [INFO   ] thread dealer step 2.
+[10:18:04.439] [INFO   ] thread dealer step 3.
+[10:18:04.439] [INFO   ] thread dealer step 4.
+[10:18:04.439] [INFO   ] thread dealer step 10.
+[10:18:04.439] [INFO   ] thread dealer step 11.
+[10:18:04.439] [INFO   ] thread dealer step 12.
+[10:18:04.439] [INFO   ] thread dealer timer loop 5.
+[10:18:04.439] [INFO   ] thread dealer timer loop 1.
+[10:18:04.454] [INFO   ] thread dealer timer loop 2.
+[10:18:04.454] [INFO   ] thread dealer timer loop 3.
+[10:18:04.671] [INFO   ] thread dealer rm 1.
+[10:18:04.671] [INFO   ] thread dealer timer loop 4.
+[10:18:04.873] [INFO   ] thread dealer step 1.
+[10:18:04.873] [INFO   ] thread dealer step 2.
+[10:18:04.873] [INFO   ] thread dealer step 2.
+[10:18:04.873] [INFO   ] thread dealer step 2.
+[10:18:04.873] [INFO   ] thread dealer step 2.
+[10:18:04.873] [INFO   ] thread dealer step 2.
+[10:18:04.873] [INFO   ] thread dealer step 2.
+[10:18:04.873] [INFO   ] thread dealer step 2.
+[10:18:04.873] [INFO   ] thread dealer step 2.
+[10:18:04.873] [INFO   ] thread dealer step 2.
+[10:18:04.873] [INFO   ] thread dealer step 2.
+[10:18:04.873] [INFO   ] thread dealer step 2.
+[10:18:04.873] [INFO   ] thread dealer step 2.
+[10:18:04.873] [INFO   ] thread dealer step 3.
+[10:18:04.873] [INFO   ] thread dealer step 4.
+[10:18:04.873] [INFO   ] thread dealer step 10.
+[10:18:04.873] [INFO   ] thread dealer step 11.
+[10:18:04.873] [INFO   ] thread dealer step 12.
+[10:18:04.873] [INFO   ] thread dealer timer loop 5.
+[10:18:04.873] [INFO   ] thread dealer timer loop 1.
+[10:18:04.889] [INFO   ] thread dealer timer loop 2.
+[10:18:04.889] [INFO   ] thread dealer timer loop 3.
+[10:18:05.106] [INFO   ] thread dealer rm 1.
+[10:18:05.106] [INFO   ] thread dealer timer loop 4.
+[10:18:05.328] [INFO   ] thread dealer step 1.
+[10:18:05.329] [INFO   ] thread dealer step 2.
+[10:18:05.329] [INFO   ] thread dealer step 2.
+[10:18:05.329] [INFO   ] thread dealer step 2.
+[10:18:05.329] [INFO   ] thread dealer step 2.
+[10:18:05.329] [INFO   ] thread dealer step 2.
+[10:18:05.329] [INFO   ] thread dealer step 2.
+[10:18:05.329] [INFO   ] thread dealer step 2.
+[10:18:05.329] [INFO   ] thread dealer step 2.
+[10:18:05.329] [INFO   ] thread dealer step 2.
+[10:18:05.329] [INFO   ] thread dealer step 2.
+[10:18:05.329] [INFO   ] thread dealer step 2.
+[10:18:05.329] [INFO   ] thread dealer step 2.
+[10:18:05.329] [INFO   ] thread dealer step 3.
+[10:18:05.329] [INFO   ] thread dealer step 4.
+[10:18:05.329] [INFO   ] thread dealer step 10.
+[10:18:05.329] [INFO   ] thread dealer step 11.
+[10:18:05.329] [INFO   ] thread dealer step 12.
+[10:18:05.329] [INFO   ] thread dealer timer loop 5.
+[10:18:05.329] [INFO   ] thread dealer timer loop 1.
+[10:18:05.344] [INFO   ] thread dealer timer loop 2.
+[10:18:05.344] [SEVERE ] setting player 2 freeze to 1000
+[10:18:05.345] [INFO   ] thread dealer timer loop 3.
+[10:18:05.558] [INFO   ] thread dealer rm 1.
+[10:18:05.558] [INFO   ] thread dealer timer loop 4.
+[10:18:05.558] [SEVERE ] key 65 was pressed by player 1
+[10:18:05.558] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:18:05.558] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:18:05.558] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:18:05.558] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:18:05.558] [INFO   ] thread AWT-EventQueue-0 kp step 11.
+[10:18:05.558] [INFO   ] thread AWT-EventQueue-0 kp step 12.
+[10:18:05.558] [SEVERE ] player 1 placing token on slot 4
+[10:18:05.558] [INFO   ] thread AWT-EventQueue-0 kp step 13.
+[10:18:05.558] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:18:05.742] [SEVERE ] key 83 was pressed by player 1
+[10:18:05.742] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:18:05.742] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:18:05.742] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:18:05.742] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:18:05.742] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:18:05.742] [INFO   ] thread AWT-EventQueue-0 kp step 6.
+[10:18:05.742] [INFO   ] thread AWT-EventQueue-0 kp step 7.
+[10:18:05.742] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:18:05.742] [INFO   ] thread AWT-EventQueue-0 kp step 11.
+[10:18:05.742] [INFO   ] thread AWT-EventQueue-0 kp step 12.
+[10:18:05.742] [SEVERE ] player 1 placing token on slot 5
+[10:18:05.742] [INFO   ] thread AWT-EventQueue-0 kp step 13.
+[10:18:05.742] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:18:05.773] [INFO   ] thread dealer step 1.
+[10:18:05.773] [INFO   ] thread dealer step 2.
+[10:18:05.773] [INFO   ] thread dealer step 2.
+[10:18:05.773] [INFO   ] thread dealer step 2.
+[10:18:05.773] [INFO   ] thread dealer step 2.
+[10:18:05.773] [INFO   ] thread dealer step 2.
+[10:18:05.773] [INFO   ] thread dealer step 2.
+[10:18:05.773] [INFO   ] thread dealer step 2.
+[10:18:05.773] [INFO   ] thread dealer step 2.
+[10:18:05.773] [INFO   ] thread dealer step 2.
+[10:18:05.773] [INFO   ] thread dealer step 2.
+[10:18:05.773] [INFO   ] thread dealer step 2.
+[10:18:05.773] [INFO   ] thread dealer step 2.
+[10:18:05.773] [INFO   ] thread dealer step 3.
+[10:18:05.773] [INFO   ] thread dealer step 4.
+[10:18:05.773] [INFO   ] thread dealer step 10.
+[10:18:05.773] [INFO   ] thread dealer step 11.
+[10:18:05.773] [INFO   ] thread dealer step 12.
+[10:18:05.773] [INFO   ] thread dealer timer loop 5.
+[10:18:05.773] [INFO   ] thread dealer timer loop 1.
+[10:18:05.789] [INFO   ] thread dealer timer loop 2.
+[10:18:05.789] [INFO   ] thread dealer timer loop 3.
+[10:18:05.929] [SEVERE ] key 68 was pressed by player 1
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 6.
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 7.
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 6.
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 7.
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 11.
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 12.
+[10:18:05.929] [SEVERE ] player 1 placing token on slot 6
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 13.
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 15.
+[10:18:05.929] [INFO   ] thread AWT-EventQueue-0 kp step 16.
+[10:18:06.007] [INFO   ] thread dealer rm 1.
+[10:18:06.007] [INFO   ] thread dealer rm 2.
+[10:18:06.007] [INFO   ] remove  in the table step 1
+[10:18:06.007] [INFO   ] remove  in the table step 2
+[10:18:06.007] [INFO   ] thread dealer rm 3.
+[10:18:06.007] [INFO   ] thread dealer rm 5.
+[10:18:06.007] [INFO   ] thread dealer rm 6.slotQueue.size 3
+[10:18:06.007] [INFO   ] thread dealer rm 7!!!.
+[10:18:06.007] [INFO   ] thread dealer rm 8 !!!!.
+[10:18:06.007] [SEVERE ] removing player 1 token from slot 4
+[10:18:06.007] [INFO   ] thread dealer rm 8.5 !!!!.
+[10:18:06.007] [INFO   ] thread dealer rm 9.
+[10:18:06.007] [INFO   ] thread dealer rm 6.slotQueue.size 2
+[10:18:06.007] [INFO   ] thread dealer rm 7!!!.
+[10:18:06.007] [INFO   ] thread dealer rm 8 !!!!.
+[10:18:06.007] [SEVERE ] removing player 1 token from slot 5
+[10:18:06.007] [INFO   ] thread dealer rm 8.5 !!!!.
+[10:18:06.007] [INFO   ] thread dealer rm 9.
+[10:18:06.007] [INFO   ] thread dealer rm 6.slotQueue.size 1
+[10:18:06.007] [INFO   ] thread dealer rm 7!!!.
+[10:18:06.007] [INFO   ] thread dealer rm 8 !!!!.
+[10:18:06.007] [SEVERE ] removing player 1 token from slot 6
+[10:18:06.007] [INFO   ] thread dealer rm 8.5 !!!!.
+[10:18:06.007] [INFO   ] thread dealer rm 9.
+[10:18:06.007] [INFO   ] thread dealer rm 17.
+[10:18:06.007] [INFO   ] thread dealer rm 18.
+[10:18:06.007] [INFO   ] thread dealerrm 19 .
+[10:18:06.007] [INFO   ] thread dealer rm 20.
+[10:18:06.007] [INFO   ] thread dealer rm 22.
+[10:18:06.007] [INFO   ] thread dealer rm 23.
+[10:18:06.007] [INFO   ] thread Thread-0 player was notified by dealer.
+[10:18:06.007] [INFO   ] penalty
+[10:18:06.007] [INFO   ] thread dealer timer loop 4.
+[10:18:06.010] [SEVERE ] setting player 1 freeze to 3000
+[10:18:06.224] [INFO   ] thread dealer step 1.
+[10:18:06.224] [INFO   ] thread dealer step 2.
+[10:18:06.224] [INFO   ] thread dealer step 2.
+[10:18:06.224] [INFO   ] thread dealer step 2.
+[10:18:06.224] [INFO   ] thread dealer step 2.
+[10:18:06.224] [INFO   ] thread dealer step 2.
+[10:18:06.224] [INFO   ] thread dealer step 2.
+[10:18:06.224] [INFO   ] thread dealer step 2.
+[10:18:06.224] [INFO   ] thread dealer step 2.
+[10:18:06.224] [INFO   ] thread dealer step 2.
+[10:18:06.224] [INFO   ] thread dealer step 2.
+[10:18:06.224] [INFO   ] thread dealer step 2.
+[10:18:06.224] [INFO   ] thread dealer step 2.
+[10:18:06.224] [INFO   ] thread dealer step 3.
+[10:18:06.224] [INFO   ] thread dealer step 4.
+[10:18:06.224] [INFO   ] thread dealer step 10.
+[10:18:06.224] [INFO   ] thread dealer step 11.
+[10:18:06.224] [INFO   ] thread dealer step 12.
+[10:18:06.224] [INFO   ] thread dealer timer loop 5.
+[10:18:06.224] [INFO   ] thread dealer run step 3.
+[10:18:06.224] [SEVERE ] updating countdown to 10000
+[10:18:06.360] [SEVERE ] setting player 2 freeze to 0
+[10:18:06.438] [SEVERE ] updating countdown to 9786
+[10:18:06.548] [SEVERE ] removing card from slot 0
+[10:18:06.659] [SEVERE ] removing card from slot 1
+[10:18:06.774] [SEVERE ] removing card from slot 2
+[10:18:06.884] [SEVERE ] removing card from slot 3
+[10:18:06.994] [SEVERE ] removing card from slot 4
+[10:18:07.011] [SEVERE ] setting player 1 freeze to 2000
+[10:18:07.106] [SEVERE ] removing card from slot 5
+[10:18:07.216] [SEVERE ] removing card from slot 6
+[10:18:07.326] [SEVERE ] removing card from slot 7
+[10:18:07.438] [SEVERE ] removing card from slot 8
+[10:18:07.544] [SEVERE ] removing card from slot 9
+[10:18:07.657] [SEVERE ] removing card from slot 10
+[10:18:07.758] [SEVERE ] removing card from slot 11
+[10:18:07.758] [INFO   ] thread dealer run step 1.
+[10:18:08.024] [SEVERE ] setting player 1 freeze to 1000
+[10:18:08.082] [SEVERE ] placing card 18 in slot 0
+[10:18:08.191] [SEVERE ] placing card 77 in slot 1
+[10:18:08.301] [SEVERE ] placing card 21 in slot 2
+[10:18:08.410] [SEVERE ] placing card 11 in slot 3
+[10:18:08.515] [SEVERE ] placing card 49 in slot 4
+[10:18:08.628] [SEVERE ] placing card 15 in slot 5
+[10:18:08.742] [SEVERE ] placing card 22 in slot 6
+[10:18:08.848] [SEVERE ] placing card 28 in slot 7
+[10:18:08.962] [SEVERE ] placing card 58 in slot 8
+[10:18:09.033] [SEVERE ] setting player 1 freeze to 0
+[10:18:09.064] [SEVERE ] placing card 24 in slot 9
+[10:18:09.179] [SEVERE ] placing card 73 in slot 10
+[10:18:09.281] [SEVERE ] placing card 13 in slot 11
+[10:18:09.281] [INFO   ] thread dealer step 1.
+[10:18:09.281] [SEVERE ] updating countdown to 6943
+[10:18:09.281] [INFO   ] thread dealer step 2.
+[10:18:09.281] [INFO   ] thread dealer step 2.
+[10:18:09.281] [INFO   ] thread dealer step 2.
+[10:18:09.281] [INFO   ] thread dealer step 2.
+[10:18:09.281] [INFO   ] thread dealer step 2.
+[10:18:09.281] [INFO   ] thread dealer step 2.
+[10:18:09.281] [INFO   ] thread dealer step 2.
+[10:18:09.281] [INFO   ] thread dealer step 2.
+[10:18:09.281] [INFO   ] thread dealer step 2.
+[10:18:09.281] [INFO   ] thread dealer step 2.
+[10:18:09.281] [INFO   ] thread dealer step 2.
+[10:18:09.281] [INFO   ] thread dealer step 2.
+[10:18:09.281] [INFO   ] thread dealer step 3.
+[10:18:09.281] [SEVERE ] updating countdown to 6943
+[10:18:09.281] [INFO   ] thread dealer step 4.
+[10:18:09.281] [INFO   ] thread dealer step 10.
+[10:18:09.281] [INFO   ] thread dealer step 11.
+[10:18:09.281] [INFO   ] thread dealer step 12.
+[10:18:09.281] [INFO   ] thread dealer run step 2.
+[10:18:09.281] [INFO   ] thread dealer timer loop 1.
+[10:18:10.290] [INFO   ] thread dealer timer loop 2.
+[10:18:10.290] [SEVERE ] updating countdown to 5934
+[10:18:10.290] [INFO   ] thread dealer timer loop 3.
+[10:18:10.510] [INFO   ] thread dealer rm 1.
+[10:18:10.510] [INFO   ] thread dealer timer loop 4.
+[10:18:10.729] [INFO   ] thread dealer step 1.
+[10:18:10.729] [SEVERE ] updating countdown to 5495
+[10:18:10.729] [INFO   ] thread dealer step 2.
+[10:18:10.729] [INFO   ] thread dealer step 2.
+[10:18:10.729] [INFO   ] thread dealer step 2.
+[10:18:10.729] [INFO   ] thread dealer step 2.
+[10:18:10.729] [INFO   ] thread dealer step 2.
+[10:18:10.729] [INFO   ] thread dealer step 2.
+[10:18:10.729] [INFO   ] thread dealer step 2.
+[10:18:10.729] [INFO   ] thread dealer step 2.
+[10:18:10.729] [INFO   ] thread dealer step 2.
+[10:18:10.729] [INFO   ] thread dealer step 2.
+[10:18:10.729] [INFO   ] thread dealer step 2.
+[10:18:10.729] [INFO   ] thread dealer step 2.
+[10:18:10.729] [INFO   ] thread dealer step 3.
+[10:18:10.729] [SEVERE ] updating countdown to 5495
+[10:18:10.729] [INFO   ] thread dealer step 4.
+[10:18:10.729] [INFO   ] thread dealer step 10.
+[10:18:10.729] [INFO   ] thread dealer step 11.
+[10:18:10.729] [INFO   ] thread dealer step 12.
+[10:18:10.729] [INFO   ] thread dealer timer loop 5.
+[10:18:10.729] [INFO   ] thread dealer timer loop 1.
+[10:18:11.741] [INFO   ] thread dealer timer loop 2.
+[10:18:11.741] [INFO   ] thread dealer timer loop 3.
+[10:18:11.956] [INFO   ] thread dealer rm 1.
+[10:18:11.956] [INFO   ] thread dealer timer loop 4.
+[10:18:12.173] [INFO   ] thread dealer step 1.
+[10:18:12.174] [INFO   ] thread dealer step 2.
+[10:18:12.174] [INFO   ] thread dealer step 2.
+[10:18:12.174] [INFO   ] thread dealer step 2.
+[10:18:12.174] [INFO   ] thread dealer step 2.
+[10:18:12.174] [INFO   ] thread dealer step 2.
+[10:18:12.174] [INFO   ] thread dealer step 2.
+[10:18:12.174] [INFO   ] thread dealer step 2.
+[10:18:12.174] [INFO   ] thread dealer step 2.
+[10:18:12.174] [INFO   ] thread dealer step 2.
+[10:18:12.174] [INFO   ] thread dealer step 2.
+[10:18:12.174] [INFO   ] thread dealer step 2.
+[10:18:12.174] [INFO   ] thread dealer step 2.
+[10:18:12.174] [INFO   ] thread dealer step 3.
+[10:18:12.174] [INFO   ] thread dealer step 4.
+[10:18:12.174] [INFO   ] thread dealer step 10.
+[10:18:12.174] [INFO   ] thread dealer step 11.
+[10:18:12.174] [INFO   ] thread dealer step 12.
+[10:18:12.174] [INFO   ] thread dealer timer loop 5.
+[10:18:12.174] [INFO   ] thread dealer timer loop 1.
+[10:18:12.190] [INFO   ] thread dealer timer loop 2.
+[10:18:12.190] [INFO   ] thread dealer timer loop 3.
+[10:18:12.409] [INFO   ] thread dealer rm 1.
+[10:18:12.409] [INFO   ] thread dealer timer loop 4.
+[10:18:12.625] [INFO   ] thread dealer step 1.
+[10:18:12.625] [INFO   ] thread dealer step 2.
+[10:18:12.625] [INFO   ] thread dealer step 2.
+[10:18:12.625] [INFO   ] thread dealer step 2.
+[10:18:12.625] [INFO   ] thread dealer step 2.
+[10:18:12.625] [INFO   ] thread dealer step 2.
+[10:18:12.625] [INFO   ] thread dealer step 2.
+[10:18:12.625] [INFO   ] thread dealer step 2.
+[10:18:12.625] [INFO   ] thread dealer step 2.
+[10:18:12.625] [INFO   ] thread dealer step 2.
+[10:18:12.625] [INFO   ] thread dealer step 2.
+[10:18:12.625] [INFO   ] thread dealer step 2.
+[10:18:12.625] [INFO   ] thread dealer step 2.
+[10:18:12.625] [INFO   ] thread dealer step 3.
+[10:18:12.625] [INFO   ] thread dealer step 4.
+[10:18:12.625] [INFO   ] thread dealer step 10.
+[10:18:12.625] [INFO   ] thread dealer step 11.
+[10:18:12.625] [INFO   ] thread dealer step 12.
+[10:18:12.625] [INFO   ] thread dealer timer loop 5.
+[10:18:12.625] [INFO   ] thread dealer timer loop 1.
+[10:18:12.641] [INFO   ] thread dealer timer loop 2.
+[10:18:12.641] [INFO   ] thread dealer timer loop 3.
+[10:18:12.863] [INFO   ] thread dealer rm 1.
+[10:18:12.863] [INFO   ] thread dealer timer loop 4.
+[10:18:13.081] [INFO   ] thread dealer step 1.
+[10:18:13.081] [INFO   ] thread dealer step 2.
+[10:18:13.081] [INFO   ] thread dealer step 2.
+[10:18:13.081] [INFO   ] thread dealer step 2.
+[10:18:13.081] [INFO   ] thread dealer step 2.
+[10:18:13.081] [INFO   ] thread dealer step 2.
+[10:18:13.081] [INFO   ] thread dealer step 2.
+[10:18:13.081] [INFO   ] thread dealer step 2.
+[10:18:13.081] [INFO   ] thread dealer step 2.
+[10:18:13.081] [INFO   ] thread dealer step 2.
+[10:18:13.081] [INFO   ] thread dealer step 2.
+[10:18:13.081] [INFO   ] thread dealer step 2.
+[10:18:13.081] [INFO   ] thread dealer step 2.
+[10:18:13.081] [INFO   ] thread dealer step 3.
+[10:18:13.081] [INFO   ] thread dealer step 4.
+[10:18:13.081] [INFO   ] thread dealer step 10.
+[10:18:13.081] [INFO   ] thread dealer step 11.
+[10:18:13.081] [INFO   ] thread dealer step 12.
+[10:18:13.081] [INFO   ] thread dealer timer loop 5.
+[10:18:13.081] [INFO   ] thread dealer timer loop 1.
+[10:18:13.097] [INFO   ] thread dealer timer loop 2.
+[10:18:13.097] [INFO   ] thread dealer timer loop 3.
+[10:18:13.308] [INFO   ] thread dealer rm 1.
+[10:18:13.308] [INFO   ] thread dealer timer loop 4.
+[10:18:13.530] [INFO   ] thread dealer step 1.
+[10:18:13.530] [INFO   ] thread dealer step 2.
+[10:18:13.530] [INFO   ] thread dealer step 2.
+[10:18:13.530] [INFO   ] thread dealer step 2.
+[10:18:13.530] [INFO   ] thread dealer step 2.
+[10:18:13.530] [INFO   ] thread dealer step 2.
+[10:18:13.530] [INFO   ] thread dealer step 2.
+[10:18:13.530] [INFO   ] thread dealer step 2.
+[10:18:13.530] [INFO   ] thread dealer step 2.
+[10:18:13.530] [INFO   ] thread dealer step 2.
+[10:18:13.530] [INFO   ] thread dealer step 2.
+[10:18:13.530] [INFO   ] thread dealer step 2.
+[10:18:13.530] [INFO   ] thread dealer step 2.
+[10:18:13.530] [INFO   ] thread dealer step 3.
+[10:18:13.530] [INFO   ] thread dealer step 4.
+[10:18:13.530] [INFO   ] thread dealer step 10.
+[10:18:13.530] [INFO   ] thread dealer step 11.
+[10:18:13.530] [INFO   ] thread dealer step 12.
+[10:18:13.530] [INFO   ] thread dealer timer loop 5.
+[10:18:13.530] [INFO   ] thread dealer timer loop 1.
+[10:18:13.546] [INFO   ] thread dealer timer loop 2.
+[10:18:13.546] [INFO   ] thread dealer timer loop 3.
+[10:18:13.768] [INFO   ] thread dealer rm 1.
+[10:18:13.768] [INFO   ] thread dealer timer loop 4.
+[10:18:13.978] [INFO   ] thread dealer step 1.
+[10:18:13.978] [INFO   ] thread dealer step 2.
+[10:18:13.978] [INFO   ] thread dealer step 2.
+[10:18:13.978] [INFO   ] thread dealer step 2.
+[10:18:13.978] [INFO   ] thread dealer step 2.
+[10:18:13.978] [INFO   ] thread dealer step 2.
+[10:18:13.978] [INFO   ] thread dealer step 2.
+[10:18:13.978] [INFO   ] thread dealer step 2.
+[10:18:13.978] [INFO   ] thread dealer step 2.
+[10:18:13.978] [INFO   ] thread dealer step 2.
+[10:18:13.978] [INFO   ] thread dealer step 2.
+[10:18:13.978] [INFO   ] thread dealer step 2.
+[10:18:13.978] [INFO   ] thread dealer step 2.
+[10:18:13.978] [INFO   ] thread dealer step 3.
+[10:18:13.978] [INFO   ] thread dealer step 4.
+[10:18:13.978] [INFO   ] thread dealer step 10.
+[10:18:13.978] [INFO   ] thread dealer step 11.
+[10:18:13.978] [INFO   ] thread dealer step 12.
+[10:18:13.978] [INFO   ] thread dealer timer loop 5.
+[10:18:13.978] [INFO   ] thread dealer timer loop 1.
+[10:18:13.994] [INFO   ] thread dealer timer loop 2.
+[10:18:13.994] [INFO   ] thread dealer timer loop 3.
+[10:18:14.205] [INFO   ] thread dealer rm 1.
+[10:18:14.205] [INFO   ] thread dealer timer loop 4.
+[10:18:14.424] [INFO   ] thread dealer step 1.
+[10:18:14.424] [INFO   ] thread dealer step 2.
+[10:18:14.424] [INFO   ] thread dealer step 2.
+[10:18:14.424] [INFO   ] thread dealer step 2.
+[10:18:14.424] [INFO   ] thread dealer step 2.
+[10:18:14.424] [INFO   ] thread dealer step 2.
+[10:18:14.424] [INFO   ] thread dealer step 2.
+[10:18:14.424] [INFO   ] thread dealer step 2.
+[10:18:14.424] [INFO   ] thread dealer step 2.
+[10:18:14.424] [INFO   ] thread dealer step 2.
+[10:18:14.424] [INFO   ] thread dealer step 2.
+[10:18:14.424] [INFO   ] thread dealer step 2.
+[10:18:14.424] [INFO   ] thread dealer step 2.
+[10:18:14.424] [INFO   ] thread dealer step 3.
+[10:18:14.424] [INFO   ] thread dealer step 4.
+[10:18:14.424] [INFO   ] thread dealer step 10.
+[10:18:14.424] [INFO   ] thread dealer step 11.
+[10:18:14.424] [INFO   ] thread dealer step 12.
+[10:18:14.424] [INFO   ] thread dealer timer loop 5.
+[10:18:14.424] [INFO   ] thread dealer timer loop 1.
+[10:18:14.439] [INFO   ] thread dealer timer loop 2.
+[10:18:14.439] [INFO   ] thread dealer timer loop 3.
+[10:18:14.502] [SEVERE ] key 70 was pressed by player 1
+[10:18:14.502] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:18:14.502] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:18:14.502] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:18:14.502] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:18:14.502] [INFO   ] thread AWT-EventQueue-0 kp step 11.
+[10:18:14.502] [INFO   ] thread AWT-EventQueue-0 kp step 12.
+[10:18:14.502] [SEVERE ] player 1 placing token on slot 7
+[10:18:14.502] [INFO   ] thread AWT-EventQueue-0 kp step 13.
+[10:18:14.502] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:18:14.647] [INFO   ] thread dealer rm 1.
+[10:18:14.647] [INFO   ] thread dealer timer loop 4.
+[10:18:14.813] [SEVERE ] key 70 was pressed by player 1
+[10:18:14.813] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:18:14.813] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:18:14.813] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:18:14.813] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:18:14.813] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:18:14.813] [INFO   ] thread AWT-EventQueue-0 kp step 8.
+[10:18:14.813] [SEVERE ] removing player 1 token from slot 7
+[10:18:14.813] [INFO   ] thread AWT-EventQueue-0 kp step 9.
+[10:18:14.813] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:18:14.813] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:18:14.860] [INFO   ] thread dealer step 1.
+[10:18:14.860] [INFO   ] thread dealer step 2.
+[10:18:14.860] [INFO   ] thread dealer step 2.
+[10:18:14.860] [INFO   ] thread dealer step 2.
+[10:18:14.860] [INFO   ] thread dealer step 2.
+[10:18:14.860] [INFO   ] thread dealer step 2.
+[10:18:14.860] [INFO   ] thread dealer step 2.
+[10:18:14.860] [INFO   ] thread dealer step 2.
+[10:18:14.860] [INFO   ] thread dealer step 2.
+[10:18:14.860] [INFO   ] thread dealer step 2.
+[10:18:14.860] [INFO   ] thread dealer step 2.
+[10:18:14.860] [INFO   ] thread dealer step 2.
+[10:18:14.860] [INFO   ] thread dealer step 2.
+[10:18:14.860] [INFO   ] thread dealer step 3.
+[10:18:14.860] [INFO   ] thread dealer step 4.
+[10:18:14.860] [INFO   ] thread dealer step 10.
+[10:18:14.860] [INFO   ] thread dealer step 11.
+[10:18:14.860] [INFO   ] thread dealer step 12.
+[10:18:14.860] [INFO   ] thread dealer timer loop 5.
+[10:18:14.860] [INFO   ] thread dealer timer loop 1.
+[10:18:14.875] [INFO   ] thread dealer timer loop 2.
+[10:18:14.875] [INFO   ] thread dealer timer loop 3.
+[10:18:15.078] [INFO   ] thread dealer rm 1.
+[10:18:15.078] [INFO   ] thread dealer timer loop 4.
+[10:18:15.293] [INFO   ] thread dealer step 1.
+[10:18:15.293] [INFO   ] thread dealer step 2.
+[10:18:15.293] [INFO   ] thread dealer step 2.
+[10:18:15.293] [INFO   ] thread dealer step 2.
+[10:18:15.293] [INFO   ] thread dealer step 2.
+[10:18:15.293] [INFO   ] thread dealer step 2.
+[10:18:15.293] [INFO   ] thread dealer step 2.
+[10:18:15.293] [INFO   ] thread dealer step 2.
+[10:18:15.293] [INFO   ] thread dealer step 2.
+[10:18:15.293] [INFO   ] thread dealer step 2.
+[10:18:15.293] [INFO   ] thread dealer step 2.
+[10:18:15.293] [INFO   ] thread dealer step 2.
+[10:18:15.293] [INFO   ] thread dealer step 2.
+[10:18:15.293] [INFO   ] thread dealer step 3.
+[10:18:15.293] [INFO   ] thread dealer step 4.
+[10:18:15.293] [INFO   ] thread dealer step 10.
+[10:18:15.293] [INFO   ] thread dealer step 11.
+[10:18:15.293] [INFO   ] thread dealer step 12.
+[10:18:15.293] [INFO   ] thread dealer timer loop 5.
+[10:18:15.293] [INFO   ] thread dealer timer loop 1.
+[10:18:15.309] [INFO   ] thread dealer timer loop 2.
+[10:18:15.309] [INFO   ] thread dealer timer loop 3.
+[10:18:15.533] [INFO   ] thread dealer rm 1.
+[10:18:15.533] [INFO   ] thread dealer timer loop 4.
+[10:18:15.748] [INFO   ] thread dealer step 1.
+[10:18:15.748] [INFO   ] thread dealer step 2.
+[10:18:15.748] [INFO   ] thread dealer step 2.
+[10:18:15.748] [INFO   ] thread dealer step 2.
+[10:18:15.748] [INFO   ] thread dealer step 2.
+[10:18:15.748] [INFO   ] thread dealer step 2.
+[10:18:15.748] [INFO   ] thread dealer step 2.
+[10:18:15.748] [INFO   ] thread dealer step 2.
+[10:18:15.748] [INFO   ] thread dealer step 2.
+[10:18:15.748] [INFO   ] thread dealer step 2.
+[10:18:15.748] [INFO   ] thread dealer step 2.
+[10:18:15.748] [INFO   ] thread dealer step 2.
+[10:18:15.748] [INFO   ] thread dealer step 2.
+[10:18:15.748] [INFO   ] thread dealer step 3.
+[10:18:15.748] [INFO   ] thread dealer step 4.
+[10:18:15.748] [INFO   ] thread dealer step 10.
+[10:18:15.748] [INFO   ] thread dealer step 11.
+[10:18:15.748] [INFO   ] thread dealer step 12.
+[10:18:15.748] [INFO   ] thread dealer timer loop 5.
+[10:18:15.748] [INFO   ] thread dealer timer loop 1.
+[10:18:15.764] [INFO   ] thread dealer timer loop 2.
+[10:18:15.764] [INFO   ] thread dealer timer loop 3.
+[10:18:15.966] [INFO   ] thread dealer rm 1.
+[10:18:15.966] [INFO   ] thread dealer timer loop 4.
+[10:18:16.185] [INFO   ] thread dealer step 1.
+[10:18:16.185] [INFO   ] thread dealer step 2.
+[10:18:16.185] [INFO   ] thread dealer step 2.
+[10:18:16.185] [INFO   ] thread dealer step 2.
+[10:18:16.185] [INFO   ] thread dealer step 2.
+[10:18:16.185] [INFO   ] thread dealer step 2.
+[10:18:16.185] [INFO   ] thread dealer step 2.
+[10:18:16.185] [INFO   ] thread dealer step 2.
+[10:18:16.185] [INFO   ] thread dealer step 2.
+[10:18:16.185] [INFO   ] thread dealer step 2.
+[10:18:16.185] [INFO   ] thread dealer step 2.
+[10:18:16.185] [INFO   ] thread dealer step 2.
+[10:18:16.185] [INFO   ] thread dealer step 2.
+[10:18:16.185] [INFO   ] thread dealer step 3.
+[10:18:16.185] [INFO   ] thread dealer step 4.
+[10:18:16.185] [INFO   ] thread dealer step 10.
+[10:18:16.185] [INFO   ] thread dealer step 11.
+[10:18:16.185] [INFO   ] thread dealer step 12.
+[10:18:16.185] [INFO   ] thread dealer timer loop 5.
+[10:18:16.185] [INFO   ] thread dealer timer loop 1.
+[10:18:16.201] [INFO   ] thread dealer timer loop 2.
+[10:18:16.201] [INFO   ] thread dealer timer loop 3.
+[10:18:16.392] [SEVERE ] key 86 was pressed by player 1
+[10:18:16.392] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:18:16.392] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:18:16.392] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:18:16.392] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:18:16.392] [INFO   ] thread AWT-EventQueue-0 kp step 11.
+[10:18:16.392] [INFO   ] thread AWT-EventQueue-0 kp step 12.
+[10:18:16.392] [SEVERE ] player 1 placing token on slot 11
+[10:18:16.392] [INFO   ] thread AWT-EventQueue-0 kp step 13.
+[10:18:16.392] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:18:16.423] [INFO   ] thread dealer rm 1.
+[10:18:16.423] [INFO   ] thread dealer timer loop 4.
+[10:18:16.548] [SEVERE ] key 86 was pressed by player 1
+[10:18:16.548] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:18:16.548] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:18:16.548] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:18:16.548] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:18:16.548] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:18:16.548] [INFO   ] thread AWT-EventQueue-0 kp step 8.
+[10:18:16.548] [SEVERE ] removing player 1 token from slot 11
+[10:18:16.548] [INFO   ] thread AWT-EventQueue-0 kp step 9.
+[10:18:16.548] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:18:16.548] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:18:16.634] [INFO   ] thread dealer step 1.
+[10:18:16.634] [INFO   ] thread dealer step 2.
+[10:18:16.634] [INFO   ] thread dealer step 2.
+[10:18:16.634] [INFO   ] thread dealer step 2.
+[10:18:16.634] [INFO   ] thread dealer step 2.
+[10:18:16.634] [INFO   ] thread dealer step 2.
+[10:18:16.634] [INFO   ] thread dealer step 2.
+[10:18:16.634] [INFO   ] thread dealer step 2.
+[10:18:16.634] [INFO   ] thread dealer step 2.
+[10:18:16.634] [INFO   ] thread dealer step 2.
+[10:18:16.634] [INFO   ] thread dealer step 2.
+[10:18:16.634] [INFO   ] thread dealer step 2.
+[10:18:16.634] [INFO   ] thread dealer step 2.
+[10:18:16.634] [INFO   ] thread dealer step 3.
+[10:18:16.634] [INFO   ] thread dealer step 4.
+[10:18:16.634] [INFO   ] thread dealer step 10.
+[10:18:16.634] [INFO   ] thread dealer step 11.
+[10:18:16.634] [INFO   ] thread dealer step 12.
+[10:18:16.634] [INFO   ] thread dealer timer loop 5.
+[10:18:16.634] [INFO   ] thread dealer run step 3.
+[10:18:16.634] [SEVERE ] updating countdown to 10000
+[10:18:16.712] [SEVERE ] key 67 was pressed by player 1
+[10:18:16.712] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:18:16.712] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:18:16.712] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:18:16.712] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:18:16.712] [INFO   ] thread AWT-EventQueue-0 kp step 11.
+[10:18:16.712] [INFO   ] thread AWT-EventQueue-0 kp step 12.
+[10:18:16.712] [SEVERE ] player 1 placing token on slot 10
+[10:18:16.712] [INFO   ] thread AWT-EventQueue-0 kp step 13.
+[10:18:16.712] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:18:16.852] [SEVERE ] removing player 1 token from slot 10
+[10:18:16.852] [SEVERE ] updating countdown to 9782
+[10:18:16.965] [SEVERE ] removing card from slot 0
+[10:18:17.068] [SEVERE ] removing card from slot 1
+[10:18:17.177] [SEVERE ] removing card from slot 2
+[10:18:17.279] [SEVERE ] removing card from slot 3
+[10:18:17.389] [SEVERE ] removing card from slot 4
+[10:18:17.498] [SEVERE ] removing card from slot 5
+[10:18:17.608] [SEVERE ] removing card from slot 6
+[10:18:17.716] [SEVERE ] removing card from slot 7
+[10:18:17.825] [SEVERE ] removing card from slot 8
+[10:18:17.935] [SEVERE ] removing card from slot 9
+[10:18:18.036] [SEVERE ] removing card from slot 10
+[10:18:18.146] [SEVERE ] removing card from slot 11
+[10:18:18.146] [INFO   ] thread dealer run step 1.
+[10:18:18.479] [SEVERE ] placing card 78 in slot 0
+[10:18:18.588] [SEVERE ] placing card 76 in slot 1
+[10:18:18.699] [SEVERE ] placing card 75 in slot 2
+[10:18:18.808] [SEVERE ] placing card 19 in slot 3
+[10:18:18.917] [SEVERE ] placing card 67 in slot 4
+[10:18:19.020] [SEVERE ] placing card 21 in slot 5
+[10:18:19.135] [SEVERE ] placing card 39 in slot 6
+[10:18:19.244] [SEVERE ] placing card 41 in slot 7
+[10:18:19.356] [SEVERE ] placing card 50 in slot 8
+[10:18:19.467] [SEVERE ] placing card 69 in slot 9
+[10:18:19.576] [SEVERE ] placing card 35 in slot 10
+[10:18:19.685] [SEVERE ] placing card 5 in slot 11
+[10:18:19.685] [INFO   ] thread dealer step 1.
+[10:18:19.685] [SEVERE ] updating countdown to 6949
+[10:18:19.685] [INFO   ] thread dealer step 2.
+[10:18:19.685] [INFO   ] thread dealer step 2.
+[10:18:19.685] [INFO   ] thread dealer step 2.
+[10:18:19.685] [INFO   ] thread dealer step 2.
+[10:18:19.685] [INFO   ] thread dealer step 2.
+[10:18:19.685] [INFO   ] thread dealer step 2.
+[10:18:19.685] [INFO   ] thread dealer step 2.
+[10:18:19.685] [INFO   ] thread dealer step 2.
+[10:18:19.685] [INFO   ] thread dealer step 2.
+[10:18:19.685] [INFO   ] thread dealer step 2.
+[10:18:19.685] [INFO   ] thread dealer step 2.
+[10:18:19.685] [INFO   ] thread dealer step 2.
+[10:18:19.685] [INFO   ] thread dealer step 3.
+[10:18:19.685] [SEVERE ] updating countdown to 6949
+[10:18:19.685] [INFO   ] thread dealer step 4.
+[10:18:19.685] [INFO   ] thread dealer step 10.
+[10:18:19.685] [INFO   ] thread dealer step 11.
+[10:18:19.685] [INFO   ] thread dealer step 12.
+[10:18:19.685] [INFO   ] thread dealer run step 2.
+[10:18:19.685] [INFO   ] thread dealer timer loop 1.
+[10:18:20.692] [INFO   ] thread dealer timer loop 2.
+[10:18:20.692] [SEVERE ] updating countdown to 5942
+[10:18:20.692] [INFO   ] thread dealer timer loop 3.
+[10:18:20.911] [INFO   ] thread dealer rm 1.
+[10:18:20.911] [INFO   ] thread dealer timer loop 4.
+[10:18:21.130] [INFO   ] thread dealer step 1.
+[10:18:21.130] [SEVERE ] updating countdown to 5504
+[10:18:21.130] [INFO   ] thread dealer step 2.
+[10:18:21.130] [INFO   ] thread dealer step 2.
+[10:18:21.130] [INFO   ] thread dealer step 2.
+[10:18:21.130] [INFO   ] thread dealer step 2.
+[10:18:21.130] [INFO   ] thread dealer step 2.
+[10:18:21.130] [INFO   ] thread dealer step 2.
+[10:18:21.130] [INFO   ] thread dealer step 2.
+[10:18:21.130] [INFO   ] thread dealer step 2.
+[10:18:21.130] [INFO   ] thread dealer step 2.
+[10:18:21.130] [INFO   ] thread dealer step 2.
+[10:18:21.130] [INFO   ] thread dealer step 2.
+[10:18:21.130] [INFO   ] thread dealer step 2.
+[10:18:21.130] [INFO   ] thread dealer step 3.
+[10:18:21.130] [SEVERE ] updating countdown to 5504
+[10:18:21.130] [INFO   ] thread dealer step 4.
+[10:18:21.130] [INFO   ] thread dealer step 10.
+[10:18:21.130] [INFO   ] thread dealer step 11.
+[10:18:21.130] [INFO   ] thread dealer step 12.
+[10:18:21.130] [INFO   ] thread dealer timer loop 5.
+[10:18:21.130] [INFO   ] thread dealer timer loop 1.
+[10:18:22.143] [INFO   ] thread dealer timer loop 2.
+[10:18:22.143] [INFO   ] thread dealer timer loop 3.
+[10:18:22.363] [INFO   ] thread dealer rm 1.
+[10:18:22.363] [INFO   ] thread dealer timer loop 4.
+[10:18:22.582] [INFO   ] thread dealer step 1.
+[10:18:22.582] [INFO   ] thread dealer step 2.
+[10:18:22.582] [INFO   ] thread dealer step 2.
+[10:18:22.582] [INFO   ] thread dealer step 2.
+[10:18:22.582] [INFO   ] thread dealer step 2.
+[10:18:22.582] [INFO   ] thread dealer step 2.
+[10:18:22.582] [INFO   ] thread dealer step 2.
+[10:18:22.582] [INFO   ] thread dealer step 2.
+[10:18:22.582] [INFO   ] thread dealer step 2.
+[10:18:22.582] [INFO   ] thread dealer step 2.
+[10:18:22.582] [INFO   ] thread dealer step 2.
+[10:18:22.582] [INFO   ] thread dealer step 2.
+[10:18:22.582] [INFO   ] thread dealer step 2.
+[10:18:22.582] [INFO   ] thread dealer step 3.
+[10:18:22.582] [INFO   ] thread dealer step 4.
+[10:18:22.582] [INFO   ] thread dealer step 10.
+[10:18:22.582] [INFO   ] thread dealer step 11.
+[10:18:22.582] [INFO   ] thread dealer step 12.
+[10:18:22.582] [INFO   ] thread dealer timer loop 5.
+[10:18:22.582] [INFO   ] thread dealer timer loop 1.
+[10:18:22.598] [INFO   ] thread dealer timer loop 2.
+[10:18:22.598] [INFO   ] thread dealer timer loop 3.
+[10:18:22.814] [INFO   ] thread dealer rm 1.
+[10:18:22.814] [INFO   ] thread dealer timer loop 4.
+[10:18:23.031] [INFO   ] thread dealer step 1.
+[10:18:23.032] [INFO   ] thread dealer step 2.
+[10:18:23.032] [INFO   ] thread dealer step 2.
+[10:18:23.032] [INFO   ] thread dealer step 2.
+[10:18:23.032] [INFO   ] thread dealer step 2.
+[10:18:23.032] [INFO   ] thread dealer step 2.
+[10:18:23.032] [INFO   ] thread dealer step 2.
+[10:18:23.032] [INFO   ] thread dealer step 2.
+[10:18:23.032] [INFO   ] thread dealer step 2.
+[10:18:23.032] [INFO   ] thread dealer step 2.
+[10:18:23.032] [INFO   ] thread dealer step 2.
+[10:18:23.032] [INFO   ] thread dealer step 2.
+[10:18:23.032] [INFO   ] thread dealer step 2.
+[10:18:23.032] [INFO   ] thread dealer step 3.
+[10:18:23.032] [INFO   ] thread dealer step 4.
+[10:18:23.032] [INFO   ] thread dealer step 10.
+[10:18:23.032] [INFO   ] thread dealer step 11.
+[10:18:23.032] [INFO   ] thread dealer step 12.
+[10:18:23.032] [INFO   ] thread dealer timer loop 5.
+[10:18:23.032] [INFO   ] thread dealer timer loop 1.
+[10:18:23.048] [INFO   ] thread dealer timer loop 2.
+[10:18:23.049] [INFO   ] thread dealer timer loop 3.
+[10:18:23.273] [INFO   ] thread dealer rm 1.
+[10:18:23.273] [INFO   ] thread dealer timer loop 4.
+[10:18:23.483] [INFO   ] thread dealer step 1.
+[10:18:23.483] [INFO   ] thread dealer step 2.
+[10:18:23.483] [INFO   ] thread dealer step 2.
+[10:18:23.483] [INFO   ] thread dealer step 2.
+[10:18:23.483] [INFO   ] thread dealer step 2.
+[10:18:23.483] [INFO   ] thread dealer step 2.
+[10:18:23.483] [INFO   ] thread dealer step 2.
+[10:18:23.483] [INFO   ] thread dealer step 2.
+[10:18:23.483] [INFO   ] thread dealer step 2.
+[10:18:23.483] [INFO   ] thread dealer step 2.
+[10:18:23.483] [INFO   ] thread dealer step 2.
+[10:18:23.483] [INFO   ] thread dealer step 2.
+[10:18:23.483] [INFO   ] thread dealer step 2.
+[10:18:23.483] [INFO   ] thread dealer step 3.
+[10:18:23.483] [INFO   ] thread dealer step 4.
+[10:18:23.483] [INFO   ] thread dealer step 10.
+[10:18:23.483] [INFO   ] thread dealer step 11.
+[10:18:23.483] [INFO   ] thread dealer step 12.
+[10:18:23.483] [INFO   ] thread dealer timer loop 5.
+[10:18:23.483] [INFO   ] thread dealer timer loop 1.
+[10:18:23.499] [INFO   ] thread dealer timer loop 2.
+[10:18:23.499] [INFO   ] thread dealer timer loop 3.
+[10:18:23.515] [SEVERE ] key 68 was pressed by player 1
+[10:18:23.515] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:18:23.515] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:18:23.515] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:18:23.515] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:18:23.515] [INFO   ] thread AWT-EventQueue-0 kp step 11.
+[10:18:23.515] [INFO   ] thread AWT-EventQueue-0 kp step 12.
+[10:18:23.515] [SEVERE ] player 1 placing token on slot 6
+[10:18:23.515] [INFO   ] thread AWT-EventQueue-0 kp step 13.
+[10:18:23.515] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:18:23.711] [INFO   ] thread dealer rm 1.
+[10:18:23.711] [INFO   ] thread dealer timer loop 4.
+[10:18:23.930] [INFO   ] thread dealer step 1.
+[10:18:23.930] [INFO   ] thread dealer step 2.
+[10:18:23.930] [INFO   ] thread dealer step 2.
+[10:18:23.930] [INFO   ] thread dealer step 2.
+[10:18:23.930] [INFO   ] thread dealer step 2.
+[10:18:23.930] [INFO   ] thread dealer step 2.
+[10:18:23.930] [INFO   ] thread dealer step 2.
+[10:18:23.930] [INFO   ] thread dealer step 2.
+[10:18:23.930] [INFO   ] thread dealer step 2.
+[10:18:23.930] [INFO   ] thread dealer step 2.
+[10:18:23.930] [INFO   ] thread dealer step 2.
+[10:18:23.930] [INFO   ] thread dealer step 2.
+[10:18:23.930] [INFO   ] thread dealer step 2.
+[10:18:23.930] [INFO   ] thread dealer step 3.
+[10:18:23.930] [INFO   ] thread dealer step 4.
+[10:18:23.930] [INFO   ] thread dealer step 10.
+[10:18:23.930] [INFO   ] thread dealer step 11.
+[10:18:23.930] [INFO   ] thread dealer step 12.
+[10:18:23.930] [INFO   ] thread dealer timer loop 5.
+[10:18:23.930] [INFO   ] thread dealer timer loop 1.
+[10:18:23.946] [INFO   ] thread dealer timer loop 2.
+[10:18:23.946] [INFO   ] thread dealer timer loop 3.
+[10:18:23.977] [SEVERE ] key 70 was pressed by player 1
+[10:18:23.977] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:18:23.977] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:18:23.977] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:18:23.977] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:18:23.977] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:18:23.977] [INFO   ] thread AWT-EventQueue-0 kp step 6.
+[10:18:23.977] [INFO   ] thread AWT-EventQueue-0 kp step 7.
+[10:18:23.977] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:18:23.977] [INFO   ] thread AWT-EventQueue-0 kp step 11.
+[10:18:23.977] [INFO   ] thread AWT-EventQueue-0 kp step 12.
+[10:18:23.977] [SEVERE ] player 1 placing token on slot 7
+[10:18:23.977] [INFO   ] thread AWT-EventQueue-0 kp step 13.
+[10:18:23.977] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:18:24.008] [SEVERE ] key 67 was pressed by player 1
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 6.
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 7.
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 6.
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 7.
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 11.
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 12.
+[10:18:24.008] [SEVERE ] player 1 placing token on slot 10
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 13.
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 15.
+[10:18:24.008] [INFO   ] thread AWT-EventQueue-0 kp step 16.
+[10:18:24.148] [SEVERE ] key 70 was pressed by player 1
+[10:18:24.148] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[10:18:24.148] [INFO   ] thread AWT-EventQueue-0 kp step 2.true
+[10:18:24.148] [INFO   ] thread AWT-EventQueue-0 kp step 3.
+[10:18:24.148] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:18:24.148] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:18:24.148] [INFO   ] thread AWT-EventQueue-0 kp step 6.
+[10:18:24.148] [INFO   ] thread AWT-EventQueue-0 kp step 7.
+[10:18:24.148] [INFO   ] thread AWT-EventQueue-0 kp step 4.
+[10:18:24.148] [INFO   ] thread AWT-EventQueue-0 kp step 5.
+[10:18:24.148] [INFO   ] thread AWT-EventQueue-0 kp step 8.
+[10:18:24.148] [SEVERE ] removing player 1 token from slot 7
+[10:18:24.148] [INFO   ] thread AWT-EventQueue-0 kp step 9.
+[10:18:24.148] [INFO   ] thread AWT-EventQueue-0 kp step 10.
+[10:18:24.148] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[10:18:24.164] [INFO   ] thread dealer rm 1.
+[10:18:24.164] [INFO   ] thread dealer rm 2.
+[10:18:24.164] [INFO   ] remove  in the table step 1
+[10:18:24.164] [INFO   ] remove  in the table step 2
+[10:18:24.164] [INFO   ] thread dealer rm 3.
+[10:18:24.164] [INFO   ] thread dealer rm 4.
+[10:18:24.164] [INFO   ] thread dealer rm 5.
+[10:18:24.164] [INFO   ] thread dealer rm 6.slotQueue.size 2
+[10:18:24.164] [INFO   ] thread dealer rm 7!!!.
+[10:18:24.164] [INFO   ] thread dealer rm 8 !!!!.
+[10:18:24.164] [SEVERE ] removing player 1 token from slot 10
+[10:18:24.164] [INFO   ] thread dealer rm 8.5 !!!!.
+[10:18:24.164] [INFO   ] thread dealer rm 9.
+[10:18:24.164] [INFO   ] thread dealer rm 10.
+[10:18:24.275] [SEVERE ] removing card from slot 10
+[10:18:24.275] [INFO   ] thread dealer rm 11.
+[10:18:24.275] [INFO   ] thread dealer rm 11.
+[10:18:24.275] [INFO   ] thread dealer rm 6.slotQueue.size 1
+[10:18:24.275] [INFO   ] thread dealer rm 7!!!.
+[10:18:24.275] [INFO   ] thread dealer rm 8 !!!!.
+[10:18:24.275] [SEVERE ] removing player 1 token from slot 6
+[10:18:24.275] [INFO   ] thread dealer rm 8.5 !!!!.
+[10:18:24.275] [INFO   ] thread dealer rm 9.
+[10:18:24.275] [INFO   ] thread dealer rm 10.
+[10:18:24.385] [SEVERE ] removing card from slot 6
+[10:18:24.385] [INFO   ] thread dealer rm 11.
+[10:18:24.385] [INFO   ] thread dealer rm 11.
+[10:18:24.385] [INFO   ] thread dealer rm 6.slotQueue.size 0
+[10:18:24.385] [INFO   ] thread dealer rm 7!!!.
+[10:18:24.385] [INFO   ] thread dealer terminated.
+[10:18:29.397] [SEVERE ] thanks for playing... it was fun!
+[10:18:29.397] [INFO   ] thread main terminated.
+[10:18:29.397] [SEVERE ] disposing of user interface elements

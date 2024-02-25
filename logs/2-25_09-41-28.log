@@ -1,0 +1,760 @@
+[09:41:28.604] [INFO   ] thread main starting.
+[09:41:28.623] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[09:41:28.628] [SEVERE ] configuration file was loaded from resources directory.
+[09:41:29.245] [INFO   ] thread dealer starting.
+[09:41:29.245] [INFO   ] thread dealer starting.
+[09:41:29.250] [INFO   ] thread Thread-0 starting.
+[09:41:29.250] [INFO   ] thread Thread-1 starting.
+[09:41:29.251] [SEVERE ] updating countdown to 10000
+[09:41:29.252] [INFO   ] thread dealer run step 1.
+[09:41:29.584] [SEVERE ] placing card 50 in slot 0
+[09:41:29.687] [SEVERE ] placing card 58 in slot 1
+[09:41:29.798] [SEVERE ] placing card 44 in slot 2
+[09:41:29.901] [SEVERE ] placing card 74 in slot 3
+[09:41:30.002] [SEVERE ] placing card 0 in slot 4
+[09:41:30.114] [SEVERE ] placing card 57 in slot 5
+[09:41:30.220] [SEVERE ] placing card 25 in slot 6
+[09:41:30.336] [SEVERE ] placing card 75 in slot 7
+[09:41:30.438] [SEVERE ] placing card 21 in slot 8
+[09:41:30.546] [SEVERE ] placing card 3 in slot 9
+[09:41:30.648] [SEVERE ] placing card 17 in slot 10
+[09:41:30.757] [SEVERE ] placing card 42 in slot 11
+[09:41:30.757] [INFO   ] thread dealer step 1.
+[09:41:30.757] [SEVERE ] updating countdown to 8495
+[09:41:30.757] [INFO   ] thread dealer step 2.
+[09:41:30.757] [INFO   ] thread dealer step 2.
+[09:41:30.757] [INFO   ] thread dealer step 2.
+[09:41:30.757] [INFO   ] thread dealer step 2.
+[09:41:30.757] [INFO   ] thread dealer step 2.
+[09:41:30.757] [INFO   ] thread dealer step 2.
+[09:41:30.757] [INFO   ] thread dealer step 2.
+[09:41:30.757] [INFO   ] thread dealer step 2.
+[09:41:30.757] [INFO   ] thread dealer step 2.
+[09:41:30.757] [INFO   ] thread dealer step 2.
+[09:41:30.757] [INFO   ] thread dealer step 2.
+[09:41:30.757] [INFO   ] thread dealer step 2.
+[09:41:30.757] [INFO   ] thread dealer step 3.
+[09:41:30.757] [SEVERE ] updating countdown to 8495
+[09:41:30.757] [INFO   ] thread dealer step 4.
+[09:41:30.757] [INFO   ] thread dealer step 10.
+[09:41:30.757] [INFO   ] thread dealer step 11.
+[09:41:30.757] [INFO   ] thread dealer step 12.
+[09:41:30.757] [INFO   ] thread dealer run step 2.
+[09:41:30.757] [INFO   ] thread dealer timer loop 1.
+[09:41:31.761] [INFO   ] thread dealer timer loop 2.
+[09:41:31.761] [SEVERE ] updating countdown to 7491
+[09:41:31.761] [INFO   ] thread dealer timer loop 3.
+[09:41:31.980] [INFO   ] thread dealer rm 1.
+[09:41:31.980] [INFO   ] thread dealer timer loop 4.
+[09:41:32.199] [INFO   ] thread dealer step 1.
+[09:41:32.199] [SEVERE ] updating countdown to 7053
+[09:41:32.199] [INFO   ] thread dealer step 2.
+[09:41:32.199] [INFO   ] thread dealer step 2.
+[09:41:32.199] [INFO   ] thread dealer step 2.
+[09:41:32.199] [INFO   ] thread dealer step 2.
+[09:41:32.199] [INFO   ] thread dealer step 2.
+[09:41:32.199] [INFO   ] thread dealer step 2.
+[09:41:32.199] [INFO   ] thread dealer step 2.
+[09:41:32.199] [INFO   ] thread dealer step 2.
+[09:41:32.199] [INFO   ] thread dealer step 2.
+[09:41:32.199] [INFO   ] thread dealer step 2.
+[09:41:32.199] [INFO   ] thread dealer step 2.
+[09:41:32.199] [INFO   ] thread dealer step 2.
+[09:41:32.199] [INFO   ] thread dealer step 3.
+[09:41:32.199] [SEVERE ] updating countdown to 7053
+[09:41:32.199] [INFO   ] thread dealer step 4.
+[09:41:32.199] [INFO   ] thread dealer step 10.
+[09:41:32.199] [INFO   ] thread dealer step 11.
+[09:41:32.199] [INFO   ] thread dealer step 12.
+[09:41:32.199] [INFO   ] thread dealer timer loop 5.
+[09:41:32.199] [INFO   ] thread dealer timer loop 1.
+[09:41:33.201] [INFO   ] thread dealer timer loop 2.
+[09:41:33.201] [SEVERE ] updating countdown to 6051
+[09:41:33.201] [INFO   ] thread dealer timer loop 3.
+[09:41:33.420] [INFO   ] thread dealer rm 1.
+[09:41:33.420] [INFO   ] thread dealer timer loop 4.
+[09:41:33.639] [INFO   ] thread dealer step 1.
+[09:41:33.639] [SEVERE ] updating countdown to 5613
+[09:41:33.639] [INFO   ] thread dealer step 2.
+[09:41:33.639] [INFO   ] thread dealer step 2.
+[09:41:33.639] [INFO   ] thread dealer step 2.
+[09:41:33.639] [INFO   ] thread dealer step 2.
+[09:41:33.639] [INFO   ] thread dealer step 2.
+[09:41:33.639] [INFO   ] thread dealer step 2.
+[09:41:33.639] [INFO   ] thread dealer step 2.
+[09:41:33.639] [INFO   ] thread dealer step 2.
+[09:41:33.639] [INFO   ] thread dealer step 2.
+[09:41:33.639] [INFO   ] thread dealer step 2.
+[09:41:33.639] [INFO   ] thread dealer step 2.
+[09:41:33.639] [INFO   ] thread dealer step 2.
+[09:41:33.639] [INFO   ] thread dealer step 3.
+[09:41:33.639] [SEVERE ] updating countdown to 5613
+[09:41:33.639] [INFO   ] thread dealer step 4.
+[09:41:33.639] [INFO   ] thread dealer step 10.
+[09:41:33.639] [INFO   ] thread dealer step 11.
+[09:41:33.639] [INFO   ] thread dealer step 12.
+[09:41:33.639] [INFO   ] thread dealer timer loop 5.
+[09:41:33.639] [INFO   ] thread dealer timer loop 1.
+[09:41:34.646] [INFO   ] thread dealer timer loop 2.
+[09:41:34.646] [INFO   ] thread dealer timer loop 3.
+[09:41:34.864] [INFO   ] thread dealer rm 1.
+[09:41:34.864] [INFO   ] thread dealer timer loop 4.
+[09:41:35.084] [INFO   ] thread dealer step 1.
+[09:41:35.084] [INFO   ] thread dealer step 2.
+[09:41:35.084] [INFO   ] thread dealer step 2.
+[09:41:35.084] [INFO   ] thread dealer step 2.
+[09:41:35.084] [INFO   ] thread dealer step 2.
+[09:41:35.084] [INFO   ] thread dealer step 2.
+[09:41:35.084] [INFO   ] thread dealer step 2.
+[09:41:35.084] [INFO   ] thread dealer step 2.
+[09:41:35.084] [INFO   ] thread dealer step 2.
+[09:41:35.084] [INFO   ] thread dealer step 2.
+[09:41:35.084] [INFO   ] thread dealer step 2.
+[09:41:35.084] [INFO   ] thread dealer step 2.
+[09:41:35.084] [INFO   ] thread dealer step 2.
+[09:41:35.084] [INFO   ] thread dealer step 3.
+[09:41:35.084] [INFO   ] thread dealer step 4.
+[09:41:35.084] [INFO   ] thread dealer step 10.
+[09:41:35.084] [INFO   ] thread dealer step 11.
+[09:41:35.084] [INFO   ] thread dealer step 12.
+[09:41:35.084] [INFO   ] thread dealer timer loop 5.
+[09:41:35.084] [INFO   ] thread dealer timer loop 1.
+[09:41:35.100] [INFO   ] thread dealer timer loop 2.
+[09:41:35.100] [INFO   ] thread dealer timer loop 3.
+[09:41:35.318] [INFO   ] thread dealer rm 1.
+[09:41:35.318] [INFO   ] thread dealer timer loop 4.
+[09:41:35.539] [INFO   ] thread dealer step 1.
+[09:41:35.539] [INFO   ] thread dealer step 2.
+[09:41:35.539] [INFO   ] thread dealer step 2.
+[09:41:35.539] [INFO   ] thread dealer step 2.
+[09:41:35.539] [INFO   ] thread dealer step 2.
+[09:41:35.539] [INFO   ] thread dealer step 2.
+[09:41:35.539] [INFO   ] thread dealer step 2.
+[09:41:35.539] [INFO   ] thread dealer step 2.
+[09:41:35.539] [INFO   ] thread dealer step 2.
+[09:41:35.539] [INFO   ] thread dealer step 2.
+[09:41:35.539] [INFO   ] thread dealer step 2.
+[09:41:35.539] [INFO   ] thread dealer step 2.
+[09:41:35.539] [INFO   ] thread dealer step 2.
+[09:41:35.539] [INFO   ] thread dealer step 3.
+[09:41:35.539] [INFO   ] thread dealer step 4.
+[09:41:35.539] [INFO   ] thread dealer step 10.
+[09:41:35.539] [INFO   ] thread dealer step 11.
+[09:41:35.539] [INFO   ] thread dealer step 12.
+[09:41:35.539] [INFO   ] thread dealer timer loop 5.
+[09:41:35.539] [INFO   ] thread dealer timer loop 1.
+[09:41:35.554] [INFO   ] thread dealer timer loop 2.
+[09:41:35.554] [INFO   ] thread dealer timer loop 3.
+[09:41:35.773] [INFO   ] thread dealer rm 1.
+[09:41:35.773] [INFO   ] thread dealer timer loop 4.
+[09:41:35.992] [INFO   ] thread dealer step 1.
+[09:41:35.992] [INFO   ] thread dealer step 2.
+[09:41:35.992] [INFO   ] thread dealer step 2.
+[09:41:35.992] [INFO   ] thread dealer step 2.
+[09:41:35.992] [INFO   ] thread dealer step 2.
+[09:41:35.992] [INFO   ] thread dealer step 2.
+[09:41:35.992] [INFO   ] thread dealer step 2.
+[09:41:35.992] [INFO   ] thread dealer step 2.
+[09:41:35.992] [INFO   ] thread dealer step 2.
+[09:41:35.992] [INFO   ] thread dealer step 2.
+[09:41:35.992] [INFO   ] thread dealer step 2.
+[09:41:35.992] [INFO   ] thread dealer step 2.
+[09:41:35.992] [INFO   ] thread dealer step 2.
+[09:41:35.992] [INFO   ] thread dealer step 3.
+[09:41:35.992] [INFO   ] thread dealer step 4.
+[09:41:35.992] [INFO   ] thread dealer step 10.
+[09:41:35.992] [INFO   ] thread dealer step 11.
+[09:41:35.992] [INFO   ] thread dealer step 12.
+[09:41:35.992] [INFO   ] thread dealer timer loop 5.
+[09:41:35.992] [INFO   ] thread dealer timer loop 1.
+[09:41:36.008] [INFO   ] thread dealer timer loop 2.
+[09:41:36.008] [INFO   ] thread dealer timer loop 3.
+[09:41:36.226] [INFO   ] thread dealer rm 1.
+[09:41:36.226] [INFO   ] thread dealer timer loop 4.
+[09:41:36.446] [INFO   ] thread dealer step 1.
+[09:41:36.446] [INFO   ] thread dealer step 2.
+[09:41:36.446] [INFO   ] thread dealer step 2.
+[09:41:36.446] [INFO   ] thread dealer step 2.
+[09:41:36.446] [INFO   ] thread dealer step 2.
+[09:41:36.446] [INFO   ] thread dealer step 2.
+[09:41:36.446] [INFO   ] thread dealer step 2.
+[09:41:36.446] [INFO   ] thread dealer step 2.
+[09:41:36.446] [INFO   ] thread dealer step 2.
+[09:41:36.446] [INFO   ] thread dealer step 2.
+[09:41:36.446] [INFO   ] thread dealer step 2.
+[09:41:36.446] [INFO   ] thread dealer step 2.
+[09:41:36.446] [INFO   ] thread dealer step 2.
+[09:41:36.446] [INFO   ] thread dealer step 3.
+[09:41:36.446] [INFO   ] thread dealer step 4.
+[09:41:36.446] [INFO   ] thread dealer step 10.
+[09:41:36.446] [INFO   ] thread dealer step 11.
+[09:41:36.446] [INFO   ] thread dealer step 12.
+[09:41:36.446] [INFO   ] thread dealer timer loop 5.
+[09:41:36.446] [INFO   ] thread dealer timer loop 1.
+[09:41:36.462] [INFO   ] thread dealer timer loop 2.
+[09:41:36.462] [INFO   ] thread dealer timer loop 3.
+[09:41:36.681] [INFO   ] thread dealer rm 1.
+[09:41:36.681] [INFO   ] thread dealer timer loop 4.
+[09:41:36.900] [INFO   ] thread dealer step 1.
+[09:41:36.900] [INFO   ] thread dealer step 2.
+[09:41:36.900] [INFO   ] thread dealer step 2.
+[09:41:36.900] [INFO   ] thread dealer step 2.
+[09:41:36.900] [INFO   ] thread dealer step 2.
+[09:41:36.900] [INFO   ] thread dealer step 2.
+[09:41:36.900] [INFO   ] thread dealer step 2.
+[09:41:36.900] [INFO   ] thread dealer step 2.
+[09:41:36.900] [INFO   ] thread dealer step 2.
+[09:41:36.900] [INFO   ] thread dealer step 2.
+[09:41:36.900] [INFO   ] thread dealer step 2.
+[09:41:36.900] [INFO   ] thread dealer step 2.
+[09:41:36.900] [INFO   ] thread dealer step 2.
+[09:41:36.900] [INFO   ] thread dealer step 3.
+[09:41:36.900] [INFO   ] thread dealer step 4.
+[09:41:36.900] [INFO   ] thread dealer step 10.
+[09:41:36.900] [INFO   ] thread dealer step 11.
+[09:41:36.900] [INFO   ] thread dealer step 12.
+[09:41:36.900] [INFO   ] thread dealer timer loop 5.
+[09:41:36.900] [INFO   ] thread dealer timer loop 1.
+[09:41:36.916] [INFO   ] thread dealer timer loop 2.
+[09:41:36.916] [INFO   ] thread dealer timer loop 3.
+[09:41:37.134] [INFO   ] thread dealer rm 1.
+[09:41:37.134] [INFO   ] thread dealer timer loop 4.
+[09:41:37.353] [INFO   ] thread dealer step 1.
+[09:41:37.353] [INFO   ] thread dealer step 2.
+[09:41:37.353] [INFO   ] thread dealer step 2.
+[09:41:37.353] [INFO   ] thread dealer step 2.
+[09:41:37.353] [INFO   ] thread dealer step 2.
+[09:41:37.353] [INFO   ] thread dealer step 2.
+[09:41:37.353] [INFO   ] thread dealer step 2.
+[09:41:37.353] [INFO   ] thread dealer step 2.
+[09:41:37.353] [INFO   ] thread dealer step 2.
+[09:41:37.353] [INFO   ] thread dealer step 2.
+[09:41:37.353] [INFO   ] thread dealer step 2.
+[09:41:37.353] [INFO   ] thread dealer step 2.
+[09:41:37.353] [INFO   ] thread dealer step 2.
+[09:41:37.353] [INFO   ] thread dealer step 3.
+[09:41:37.353] [INFO   ] thread dealer step 4.
+[09:41:37.353] [INFO   ] thread dealer step 10.
+[09:41:37.353] [INFO   ] thread dealer step 11.
+[09:41:37.353] [INFO   ] thread dealer step 12.
+[09:41:37.353] [INFO   ] thread dealer timer loop 5.
+[09:41:37.353] [INFO   ] thread dealer timer loop 1.
+[09:41:37.369] [INFO   ] thread dealer timer loop 2.
+[09:41:37.369] [INFO   ] thread dealer timer loop 3.
+[09:41:37.587] [INFO   ] thread dealer rm 1.
+[09:41:37.587] [INFO   ] thread dealer timer loop 4.
+[09:41:37.806] [INFO   ] thread dealer step 1.
+[09:41:37.806] [INFO   ] thread dealer step 2.
+[09:41:37.806] [INFO   ] thread dealer step 2.
+[09:41:37.806] [INFO   ] thread dealer step 2.
+[09:41:37.806] [INFO   ] thread dealer step 2.
+[09:41:37.806] [INFO   ] thread dealer step 2.
+[09:41:37.806] [INFO   ] thread dealer step 2.
+[09:41:37.806] [INFO   ] thread dealer step 2.
+[09:41:37.806] [INFO   ] thread dealer step 2.
+[09:41:37.806] [INFO   ] thread dealer step 2.
+[09:41:37.806] [INFO   ] thread dealer step 2.
+[09:41:37.806] [INFO   ] thread dealer step 2.
+[09:41:37.806] [INFO   ] thread dealer step 2.
+[09:41:37.806] [INFO   ] thread dealer step 3.
+[09:41:37.806] [INFO   ] thread dealer step 4.
+[09:41:37.806] [INFO   ] thread dealer step 10.
+[09:41:37.806] [INFO   ] thread dealer step 11.
+[09:41:37.806] [INFO   ] thread dealer step 12.
+[09:41:37.806] [INFO   ] thread dealer timer loop 5.
+[09:41:37.806] [INFO   ] thread dealer timer loop 1.
+[09:41:37.822] [INFO   ] thread dealer timer loop 2.
+[09:41:37.822] [INFO   ] thread dealer timer loop 3.
+[09:41:38.044] [INFO   ] thread dealer rm 1.
+[09:41:38.044] [INFO   ] thread dealer timer loop 4.
+[09:41:38.247] [SEVERE ] key 79 was pressed by player 2
+[09:41:38.247] [INFO   ] thread AWT-EventQueue-0 kp step 1.
+[09:41:38.247] [INFO   ] thread AWT-EventQueue-0 kp step 2.
+[09:41:38.247] [INFO   ] thread AWT-EventQueue-0 kp step 14.
+[09:41:38.263] [INFO   ] thread dealer step 1.
+[09:41:38.263] [INFO   ] thread dealer step 2.
+[09:41:38.263] [INFO   ] thread dealer step 2.
+[09:41:38.263] [INFO   ] thread dealer step 2.
+[09:41:38.263] [INFO   ] thread dealer step 2.
+[09:41:38.263] [INFO   ] thread dealer step 2.
+[09:41:38.263] [INFO   ] thread dealer step 2.
+[09:41:38.263] [INFO   ] thread dealer step 2.
+[09:41:38.263] [INFO   ] thread dealer step 2.
+[09:41:38.263] [INFO   ] thread dealer step 2.
+[09:41:38.263] [INFO   ] thread dealer step 2.
+[09:41:38.263] [INFO   ] thread dealer step 2.
+[09:41:38.263] [INFO   ] thread dealer step 2.
+[09:41:38.263] [INFO   ] thread dealer step 3.
+[09:41:38.263] [INFO   ] thread dealer step 4.
+[09:41:38.263] [INFO   ] thread dealer step 10.
+[09:41:38.263] [INFO   ] thread dealer step 11.
+[09:41:38.263] [INFO   ] thread dealer step 12.
+[09:41:38.263] [INFO   ] thread dealer timer loop 5.
+[09:41:38.263] [INFO   ] thread dealer timer loop 1.
+[09:41:38.279] [INFO   ] thread dealer timer loop 2.
+[09:41:38.279] [INFO   ] thread dealer timer loop 3.
+[09:41:38.497] [INFO   ] thread dealer rm 1.
+[09:41:38.497] [INFO   ] thread dealer timer loop 4.
+[09:41:38.715] [INFO   ] thread dealer step 1.
+[09:41:38.715] [INFO   ] thread dealer step 2.
+[09:41:38.715] [INFO   ] thread dealer step 2.
+[09:41:38.715] [INFO   ] thread dealer step 2.
+[09:41:38.715] [INFO   ] thread dealer step 2.
+[09:41:38.715] [INFO   ] thread dealer step 2.
+[09:41:38.715] [INFO   ] thread dealer step 2.
+[09:41:38.715] [INFO   ] thread dealer step 2.
+[09:41:38.715] [INFO   ] thread dealer step 2.
+[09:41:38.715] [INFO   ] thread dealer step 2.
+[09:41:38.715] [INFO   ] thread dealer step 2.
+[09:41:38.715] [INFO   ] thread dealer step 2.
+[09:41:38.715] [INFO   ] thread dealer step 2.
+[09:41:38.715] [INFO   ] thread dealer step 3.
+[09:41:38.715] [INFO   ] thread dealer step 4.
+[09:41:38.715] [INFO   ] thread dealer step 10.
+[09:41:38.715] [INFO   ] thread dealer step 11.
+[09:41:38.715] [INFO   ] thread dealer step 12.
+[09:41:38.715] [INFO   ] thread dealer timer loop 5.
+[09:41:38.715] [INFO   ] thread dealer timer loop 1.
+[09:41:38.731] [INFO   ] thread dealer timer loop 2.
+[09:41:38.731] [INFO   ] thread dealer timer loop 3.
+[09:41:38.950] [INFO   ] thread dealer rm 1.
+[09:41:38.950] [INFO   ] thread dealer timer loop 4.
+[09:41:39.171] [INFO   ] thread dealer step 1.
+[09:41:39.171] [INFO   ] thread dealer step 2.
+[09:41:39.171] [INFO   ] thread dealer step 2.
+[09:41:39.171] [INFO   ] thread dealer step 2.
+[09:41:39.171] [INFO   ] thread dealer step 2.
+[09:41:39.171] [INFO   ] thread dealer step 2.
+[09:41:39.171] [INFO   ] thread dealer step 2.
+[09:41:39.171] [INFO   ] thread dealer step 2.
+[09:41:39.171] [INFO   ] thread dealer step 2.
+[09:41:39.171] [INFO   ] thread dealer step 2.
+[09:41:39.171] [INFO   ] thread dealer step 2.
+[09:41:39.171] [INFO   ] thread dealer step 2.
+[09:41:39.171] [INFO   ] thread dealer step 2.
+[09:41:39.171] [INFO   ] thread dealer step 3.
+[09:41:39.171] [INFO   ] thread dealer step 4.
+[09:41:39.171] [INFO   ] thread dealer step 10.
+[09:41:39.171] [INFO   ] thread dealer step 11.
+[09:41:39.171] [INFO   ] thread dealer step 12.
+[09:41:39.171] [INFO   ] thread dealer timer loop 5.
+[09:41:39.171] [INFO   ] thread dealer timer loop 1.
+[09:41:39.186] [INFO   ] thread dealer timer loop 2.
+[09:41:39.186] [INFO   ] thread dealer timer loop 3.
+[09:41:39.408] [INFO   ] thread dealer rm 1.
+[09:41:39.408] [INFO   ] thread dealer timer loop 4.
+[09:41:39.626] [INFO   ] thread dealer step 1.
+[09:41:39.626] [INFO   ] thread dealer step 2.
+[09:41:39.627] [INFO   ] thread dealer step 2.
+[09:41:39.627] [INFO   ] thread dealer step 2.
+[09:41:39.627] [INFO   ] thread dealer step 2.
+[09:41:39.627] [INFO   ] thread dealer step 2.
+[09:41:39.627] [INFO   ] thread dealer step 2.
+[09:41:39.627] [INFO   ] thread dealer step 2.
+[09:41:39.627] [INFO   ] thread dealer step 2.
+[09:41:39.627] [INFO   ] thread dealer step 2.
+[09:41:39.627] [INFO   ] thread dealer step 2.
+[09:41:39.627] [INFO   ] thread dealer step 2.
+[09:41:39.627] [INFO   ] thread dealer step 2.
+[09:41:39.627] [INFO   ] thread dealer step 3.
+[09:41:39.627] [INFO   ] thread dealer step 4.
+[09:41:39.627] [INFO   ] thread dealer step 10.
+[09:41:39.627] [INFO   ] thread dealer step 11.
+[09:41:39.627] [INFO   ] thread dealer step 12.
+[09:41:39.628] [INFO   ] thread dealer timer loop 5.
+[09:41:39.628] [INFO   ] thread dealer run step 3.
+[09:41:39.628] [SEVERE ] updating countdown to 10000
+[09:41:39.845] [SEVERE ] updating countdown to 9783
+[09:41:39.954] [SEVERE ] removing card from slot 0
+[09:41:40.064] [SEVERE ] removing card from slot 1
+[09:41:40.173] [SEVERE ] removing card from slot 2
+[09:41:40.284] [SEVERE ] removing card from slot 3
+[09:41:40.394] [SEVERE ] removing card from slot 4
+[09:41:40.503] [SEVERE ] removing card from slot 5
+[09:41:40.612] [SEVERE ] removing card from slot 6
+[09:41:40.722] [SEVERE ] removing card from slot 7
+[09:41:40.835] [SEVERE ] removing card from slot 8
+[09:41:40.944] [SEVERE ] removing card from slot 9
+[09:41:41.054] [SEVERE ] removing card from slot 10
+[09:41:41.163] [SEVERE ] removing card from slot 11
+[09:41:41.163] [INFO   ] thread dealer run step 1.
+[09:41:41.491] [SEVERE ] placing card 18 in slot 0
+[09:41:41.601] [SEVERE ] placing card 23 in slot 1
+[09:41:41.710] [SEVERE ] placing card 35 in slot 2
+[09:41:41.818] [SEVERE ] placing card 45 in slot 3
+[09:41:41.929] [SEVERE ] placing card 31 in slot 4
+[09:41:42.038] [SEVERE ] placing card 16 in slot 5
+[09:41:42.148] [SEVERE ] placing card 20 in slot 6
+[09:41:42.257] [SEVERE ] placing card 65 in slot 7
+[09:41:42.367] [SEVERE ] placing card 29 in slot 8
+[09:41:42.476] [SEVERE ] placing card 15 in slot 9
+[09:41:42.586] [SEVERE ] placing card 36 in slot 10
+[09:41:42.695] [SEVERE ] placing card 46 in slot 11
+[09:41:42.695] [INFO   ] thread dealer step 1.
+[09:41:42.695] [SEVERE ] updating countdown to 6933
+[09:41:42.695] [INFO   ] thread dealer step 2.
+[09:41:42.695] [INFO   ] thread dealer step 2.
+[09:41:42.695] [INFO   ] thread dealer step 2.
+[09:41:42.695] [INFO   ] thread dealer step 2.
+[09:41:42.695] [INFO   ] thread dealer step 2.
+[09:41:42.695] [INFO   ] thread dealer step 2.
+[09:41:42.695] [INFO   ] thread dealer step 2.
+[09:41:42.695] [INFO   ] thread dealer step 2.
+[09:41:42.695] [INFO   ] thread dealer step 2.
+[09:41:42.695] [INFO   ] thread dealer step 2.
+[09:41:42.695] [INFO   ] thread dealer step 2.
+[09:41:42.695] [INFO   ] thread dealer step 2.
+[09:41:42.695] [INFO   ] thread dealer step 3.
+[09:41:42.695] [SEVERE ] updating countdown to 6933
+[09:41:42.695] [INFO   ] thread dealer step 4.
+[09:41:42.695] [INFO   ] thread dealer step 10.
+[09:41:42.695] [INFO   ] thread dealer step 11.
+[09:41:42.695] [INFO   ] thread dealer step 12.
+[09:41:42.695] [INFO   ] thread dealer run step 2.
+[09:41:42.695] [INFO   ] thread dealer timer loop 1.
+[09:41:43.697] [INFO   ] thread dealer timer loop 2.
+[09:41:43.697] [SEVERE ] updating countdown to 5931
+[09:41:43.697] [INFO   ] thread dealer timer loop 3.
+[09:41:43.917] [INFO   ] thread dealer rm 1.
+[09:41:43.917] [INFO   ] thread dealer timer loop 4.
+[09:41:44.135] [INFO   ] thread dealer step 1.
+[09:41:44.135] [SEVERE ] updating countdown to 5493
+[09:41:44.135] [INFO   ] thread dealer step 2.
+[09:41:44.135] [INFO   ] thread dealer step 2.
+[09:41:44.135] [INFO   ] thread dealer step 2.
+[09:41:44.135] [INFO   ] thread dealer step 2.
+[09:41:44.135] [INFO   ] thread dealer step 2.
+[09:41:44.135] [INFO   ] thread dealer step 2.
+[09:41:44.135] [INFO   ] thread dealer step 2.
+[09:41:44.135] [INFO   ] thread dealer step 2.
+[09:41:44.135] [INFO   ] thread dealer step 2.
+[09:41:44.135] [INFO   ] thread dealer step 2.
+[09:41:44.135] [INFO   ] thread dealer step 2.
+[09:41:44.135] [INFO   ] thread dealer step 2.
+[09:41:44.135] [INFO   ] thread dealer step 3.
+[09:41:44.135] [SEVERE ] updating countdown to 5493
+[09:41:44.135] [INFO   ] thread dealer step 4.
+[09:41:44.135] [INFO   ] thread dealer step 10.
+[09:41:44.135] [INFO   ] thread dealer step 11.
+[09:41:44.135] [INFO   ] thread dealer step 12.
+[09:41:44.135] [INFO   ] thread dealer timer loop 5.
+[09:41:44.135] [INFO   ] thread dealer timer loop 1.
+[09:41:45.142] [INFO   ] thread dealer timer loop 2.
+[09:41:45.142] [INFO   ] thread dealer timer loop 3.
+[09:41:45.361] [INFO   ] thread dealer rm 1.
+[09:41:45.361] [INFO   ] thread dealer timer loop 4.
+[09:41:45.580] [INFO   ] thread dealer step 1.
+[09:41:45.580] [INFO   ] thread dealer step 2.
+[09:41:45.580] [INFO   ] thread dealer step 2.
+[09:41:45.580] [INFO   ] thread dealer step 2.
+[09:41:45.580] [INFO   ] thread dealer step 2.
+[09:41:45.580] [INFO   ] thread dealer step 2.
+[09:41:45.580] [INFO   ] thread dealer step 2.
+[09:41:45.580] [INFO   ] thread dealer step 2.
+[09:41:45.580] [INFO   ] thread dealer step 2.
+[09:41:45.580] [INFO   ] thread dealer step 2.
+[09:41:45.580] [INFO   ] thread dealer step 2.
+[09:41:45.580] [INFO   ] thread dealer step 2.
+[09:41:45.580] [INFO   ] thread dealer step 2.
+[09:41:45.580] [INFO   ] thread dealer step 3.
+[09:41:45.580] [INFO   ] thread dealer step 4.
+[09:41:45.580] [INFO   ] thread dealer step 10.
+[09:41:45.580] [INFO   ] thread dealer step 11.
+[09:41:45.580] [INFO   ] thread dealer step 12.
+[09:41:45.580] [INFO   ] thread dealer timer loop 5.
+[09:41:45.580] [INFO   ] thread dealer timer loop 1.
+[09:41:45.595] [INFO   ] thread dealer timer loop 2.
+[09:41:45.595] [INFO   ] thread dealer timer loop 3.
+[09:41:45.814] [INFO   ] thread dealer rm 1.
+[09:41:45.814] [INFO   ] thread dealer timer loop 4.
+[09:41:46.033] [INFO   ] thread dealer step 1.
+[09:41:46.033] [INFO   ] thread dealer step 2.
+[09:41:46.033] [INFO   ] thread dealer step 2.
+[09:41:46.033] [INFO   ] thread dealer step 2.
+[09:41:46.033] [INFO   ] thread dealer step 2.
+[09:41:46.033] [INFO   ] thread dealer step 2.
+[09:41:46.033] [INFO   ] thread dealer step 2.
+[09:41:46.033] [INFO   ] thread dealer step 2.
+[09:41:46.033] [INFO   ] thread dealer step 2.
+[09:41:46.033] [INFO   ] thread dealer step 2.
+[09:41:46.033] [INFO   ] thread dealer step 2.
+[09:41:46.033] [INFO   ] thread dealer step 2.
+[09:41:46.033] [INFO   ] thread dealer step 2.
+[09:41:46.033] [INFO   ] thread dealer step 3.
+[09:41:46.033] [INFO   ] thread dealer step 4.
+[09:41:46.033] [INFO   ] thread dealer step 10.
+[09:41:46.033] [INFO   ] thread dealer step 11.
+[09:41:46.033] [INFO   ] thread dealer step 12.
+[09:41:46.033] [INFO   ] thread dealer timer loop 5.
+[09:41:46.033] [INFO   ] thread dealer timer loop 1.
+[09:41:46.049] [INFO   ] thread dealer timer loop 2.
+[09:41:46.049] [INFO   ] thread dealer timer loop 3.
+[09:41:46.267] [INFO   ] thread dealer rm 1.
+[09:41:46.267] [INFO   ] thread dealer timer loop 4.
+[09:41:46.486] [INFO   ] thread dealer step 1.
+[09:41:46.486] [INFO   ] thread dealer step 2.
+[09:41:46.486] [INFO   ] thread dealer step 2.
+[09:41:46.486] [INFO   ] thread dealer step 2.
+[09:41:46.486] [INFO   ] thread dealer step 2.
+[09:41:46.486] [INFO   ] thread dealer step 2.
+[09:41:46.486] [INFO   ] thread dealer step 2.
+[09:41:46.486] [INFO   ] thread dealer step 2.
+[09:41:46.486] [INFO   ] thread dealer step 2.
+[09:41:46.486] [INFO   ] thread dealer step 2.
+[09:41:46.486] [INFO   ] thread dealer step 2.
+[09:41:46.486] [INFO   ] thread dealer step 2.
+[09:41:46.486] [INFO   ] thread dealer step 2.
+[09:41:46.486] [INFO   ] thread dealer step 3.
+[09:41:46.486] [INFO   ] thread dealer step 4.
+[09:41:46.486] [INFO   ] thread dealer step 10.
+[09:41:46.486] [INFO   ] thread dealer step 11.
+[09:41:46.486] [INFO   ] thread dealer step 12.
+[09:41:46.486] [INFO   ] thread dealer timer loop 5.
+[09:41:46.486] [INFO   ] thread dealer timer loop 1.
+[09:41:46.501] [INFO   ] thread dealer timer loop 2.
+[09:41:46.501] [INFO   ] thread dealer timer loop 3.
+[09:41:46.720] [INFO   ] thread dealer rm 1.
+[09:41:46.720] [INFO   ] thread dealer timer loop 4.
+[09:41:46.939] [INFO   ] thread dealer step 1.
+[09:41:46.939] [INFO   ] thread dealer step 2.
+[09:41:46.939] [INFO   ] thread dealer step 2.
+[09:41:46.939] [INFO   ] thread dealer step 2.
+[09:41:46.939] [INFO   ] thread dealer step 2.
+[09:41:46.939] [INFO   ] thread dealer step 2.
+[09:41:46.939] [INFO   ] thread dealer step 2.
+[09:41:46.939] [INFO   ] thread dealer step 2.
+[09:41:46.939] [INFO   ] thread dealer step 2.
+[09:41:46.939] [INFO   ] thread dealer step 2.
+[09:41:46.939] [INFO   ] thread dealer step 2.
+[09:41:46.939] [INFO   ] thread dealer step 2.
+[09:41:46.939] [INFO   ] thread dealer step 2.
+[09:41:46.939] [INFO   ] thread dealer step 3.
+[09:41:46.939] [INFO   ] thread dealer step 4.
+[09:41:46.939] [INFO   ] thread dealer step 10.
+[09:41:46.939] [INFO   ] thread dealer step 11.
+[09:41:46.939] [INFO   ] thread dealer step 12.
+[09:41:46.939] [INFO   ] thread dealer timer loop 5.
+[09:41:46.939] [INFO   ] thread dealer timer loop 1.
+[09:41:46.954] [INFO   ] thread dealer timer loop 2.
+[09:41:46.954] [INFO   ] thread dealer timer loop 3.
+[09:41:47.164] [INFO   ] thread dealer rm 1.
+[09:41:47.164] [INFO   ] thread dealer timer loop 4.
+[09:41:47.384] [INFO   ] thread dealer step 1.
+[09:41:47.384] [INFO   ] thread dealer step 2.
+[09:41:47.384] [INFO   ] thread dealer step 2.
+[09:41:47.384] [INFO   ] thread dealer step 2.
+[09:41:47.384] [INFO   ] thread dealer step 2.
+[09:41:47.384] [INFO   ] thread dealer step 2.
+[09:41:47.384] [INFO   ] thread dealer step 2.
+[09:41:47.384] [INFO   ] thread dealer step 2.
+[09:41:47.384] [INFO   ] thread dealer step 2.
+[09:41:47.384] [INFO   ] thread dealer step 2.
+[09:41:47.384] [INFO   ] thread dealer step 2.
+[09:41:47.384] [INFO   ] thread dealer step 2.
+[09:41:47.384] [INFO   ] thread dealer step 2.
+[09:41:47.384] [INFO   ] thread dealer step 3.
+[09:41:47.384] [INFO   ] thread dealer step 4.
+[09:41:47.384] [INFO   ] thread dealer step 10.
+[09:41:47.384] [INFO   ] thread dealer step 11.
+[09:41:47.384] [INFO   ] thread dealer step 12.
+[09:41:47.384] [INFO   ] thread dealer timer loop 5.
+[09:41:47.384] [INFO   ] thread dealer timer loop 1.
+[09:41:47.399] [INFO   ] thread dealer timer loop 2.
+[09:41:47.399] [INFO   ] thread dealer timer loop 3.
+[09:41:47.618] [INFO   ] thread dealer rm 1.
+[09:41:47.618] [INFO   ] thread dealer timer loop 4.
+[09:41:47.840] [INFO   ] thread dealer step 1.
+[09:41:47.840] [INFO   ] thread dealer step 2.
+[09:41:47.840] [INFO   ] thread dealer step 2.
+[09:41:47.840] [INFO   ] thread dealer step 2.
+[09:41:47.840] [INFO   ] thread dealer step 2.
+[09:41:47.840] [INFO   ] thread dealer step 2.
+[09:41:47.840] [INFO   ] thread dealer step 2.
+[09:41:47.840] [INFO   ] thread dealer step 2.
+[09:41:47.840] [INFO   ] thread dealer step 2.
+[09:41:47.840] [INFO   ] thread dealer step 2.
+[09:41:47.840] [INFO   ] thread dealer step 2.
+[09:41:47.840] [INFO   ] thread dealer step 2.
+[09:41:47.840] [INFO   ] thread dealer step 2.
+[09:41:47.840] [INFO   ] thread dealer step 3.
+[09:41:47.840] [INFO   ] thread dealer step 4.
+[09:41:47.840] [INFO   ] thread dealer step 10.
+[09:41:47.840] [INFO   ] thread dealer step 11.
+[09:41:47.840] [INFO   ] thread dealer step 12.
+[09:41:47.840] [INFO   ] thread dealer timer loop 5.
+[09:41:47.840] [INFO   ] thread dealer timer loop 1.
+[09:41:47.856] [INFO   ] thread dealer timer loop 2.
+[09:41:47.856] [INFO   ] thread dealer timer loop 3.
+[09:41:48.075] [INFO   ] thread dealer rm 1.
+[09:41:48.075] [INFO   ] thread dealer timer loop 4.
+[09:41:48.295] [INFO   ] thread dealer step 1.
+[09:41:48.295] [INFO   ] thread dealer step 2.
+[09:41:48.295] [INFO   ] thread dealer step 2.
+[09:41:48.295] [INFO   ] thread dealer step 2.
+[09:41:48.295] [INFO   ] thread dealer step 2.
+[09:41:48.295] [INFO   ] thread dealer step 2.
+[09:41:48.295] [INFO   ] thread dealer step 2.
+[09:41:48.295] [INFO   ] thread dealer step 2.
+[09:41:48.295] [INFO   ] thread dealer step 2.
+[09:41:48.295] [INFO   ] thread dealer step 2.
+[09:41:48.295] [INFO   ] thread dealer step 2.
+[09:41:48.295] [INFO   ] thread dealer step 2.
+[09:41:48.295] [INFO   ] thread dealer step 2.
+[09:41:48.295] [INFO   ] thread dealer step 3.
+[09:41:48.296] [INFO   ] thread dealer step 4.
+[09:41:48.296] [INFO   ] thread dealer step 10.
+[09:41:48.296] [INFO   ] thread dealer step 11.
+[09:41:48.296] [INFO   ] thread dealer step 12.
+[09:41:48.296] [INFO   ] thread dealer timer loop 5.
+[09:41:48.296] [INFO   ] thread dealer timer loop 1.
+[09:41:48.310] [INFO   ] thread dealer timer loop 2.
+[09:41:48.310] [INFO   ] thread dealer timer loop 3.
+[09:41:48.529] [INFO   ] thread dealer rm 1.
+[09:41:48.529] [INFO   ] thread dealer timer loop 4.
+[09:41:48.748] [INFO   ] thread dealer step 1.
+[09:41:48.748] [INFO   ] thread dealer step 2.
+[09:41:48.748] [INFO   ] thread dealer step 2.
+[09:41:48.748] [INFO   ] thread dealer step 2.
+[09:41:48.748] [INFO   ] thread dealer step 2.
+[09:41:48.748] [INFO   ] thread dealer step 2.
+[09:41:48.748] [INFO   ] thread dealer step 2.
+[09:41:48.748] [INFO   ] thread dealer step 2.
+[09:41:48.748] [INFO   ] thread dealer step 2.
+[09:41:48.748] [INFO   ] thread dealer step 2.
+[09:41:48.748] [INFO   ] thread dealer step 2.
+[09:41:48.748] [INFO   ] thread dealer step 2.
+[09:41:48.748] [INFO   ] thread dealer step 2.
+[09:41:48.748] [INFO   ] thread dealer step 3.
+[09:41:48.748] [INFO   ] thread dealer step 4.
+[09:41:48.748] [INFO   ] thread dealer step 10.
+[09:41:48.748] [INFO   ] thread dealer step 11.
+[09:41:48.748] [INFO   ] thread dealer step 12.
+[09:41:48.748] [INFO   ] thread dealer timer loop 5.
+[09:41:48.748] [INFO   ] thread dealer timer loop 1.
+[09:41:48.764] [INFO   ] thread dealer timer loop 2.
+[09:41:48.764] [INFO   ] thread dealer timer loop 3.
+[09:41:48.984] [INFO   ] thread dealer rm 1.
+[09:41:48.984] [INFO   ] thread dealer timer loop 4.
+[09:41:49.205] [INFO   ] thread dealer step 1.
+[09:41:49.205] [INFO   ] thread dealer step 2.
+[09:41:49.205] [INFO   ] thread dealer step 2.
+[09:41:49.205] [INFO   ] thread dealer step 2.
+[09:41:49.205] [INFO   ] thread dealer step 2.
+[09:41:49.205] [INFO   ] thread dealer step 2.
+[09:41:49.205] [INFO   ] thread dealer step 2.
+[09:41:49.205] [INFO   ] thread dealer step 2.
+[09:41:49.205] [INFO   ] thread dealer step 2.
+[09:41:49.205] [INFO   ] thread dealer step 2.
+[09:41:49.205] [INFO   ] thread dealer step 2.
+[09:41:49.205] [INFO   ] thread dealer step 2.
+[09:41:49.205] [INFO   ] thread dealer step 2.
+[09:41:49.205] [INFO   ] thread dealer step 3.
+[09:41:49.205] [INFO   ] thread dealer step 4.
+[09:41:49.205] [INFO   ] thread dealer step 10.
+[09:41:49.205] [INFO   ] thread dealer step 11.
+[09:41:49.205] [INFO   ] thread dealer step 12.
+[09:41:49.205] [INFO   ] thread dealer timer loop 5.
+[09:41:49.205] [INFO   ] thread dealer timer loop 1.
+[09:41:49.220] [INFO   ] thread dealer timer loop 2.
+[09:41:49.220] [INFO   ] thread dealer timer loop 3.
+[09:41:49.439] [INFO   ] thread dealer rm 1.
+[09:41:49.439] [INFO   ] thread dealer timer loop 4.
+[09:41:49.657] [INFO   ] thread dealer step 1.
+[09:41:49.657] [INFO   ] thread dealer step 2.
+[09:41:49.657] [INFO   ] thread dealer step 2.
+[09:41:49.657] [INFO   ] thread dealer step 2.
+[09:41:49.657] [INFO   ] thread dealer step 2.
+[09:41:49.657] [INFO   ] thread dealer step 2.
+[09:41:49.657] [INFO   ] thread dealer step 2.
+[09:41:49.657] [INFO   ] thread dealer step 2.
+[09:41:49.657] [INFO   ] thread dealer step 2.
+[09:41:49.657] [INFO   ] thread dealer step 2.
+[09:41:49.657] [INFO   ] thread dealer step 2.
+[09:41:49.657] [INFO   ] thread dealer step 2.
+[09:41:49.657] [INFO   ] thread dealer step 2.
+[09:41:49.657] [INFO   ] thread dealer step 3.
+[09:41:49.657] [INFO   ] thread dealer step 4.
+[09:41:49.657] [INFO   ] thread dealer step 10.
+[09:41:49.657] [INFO   ] thread dealer step 11.
+[09:41:49.657] [INFO   ] thread dealer step 12.
+[09:41:49.657] [INFO   ] thread dealer timer loop 5.
+[09:41:49.657] [INFO   ] thread dealer run step 3.
+[09:41:49.657] [SEVERE ] updating countdown to 10000
+[09:41:49.876] [SEVERE ] updating countdown to 9781
+[09:41:49.986] [SEVERE ] removing card from slot 0
+[09:41:50.095] [SEVERE ] removing card from slot 1
+[09:41:50.208] [SEVERE ] removing card from slot 2
+[09:41:50.318] [SEVERE ] removing card from slot 3
+[09:41:50.427] [SEVERE ] removing card from slot 4
+[09:41:50.537] [SEVERE ] removing card from slot 5
+[09:41:50.646] [SEVERE ] removing card from slot 6
+[09:41:50.766] [SEVERE ] removing card from slot 7
+[09:41:50.874] [SEVERE ] removing card from slot 8
+[09:41:50.982] [SEVERE ] removing card from slot 9
+[09:41:51.092] [SEVERE ] removing card from slot 10
+[09:41:51.201] [SEVERE ] removing card from slot 11
+[09:41:51.201] [INFO   ] thread dealer run step 1.
+[09:41:51.201] [SEVERE ] exit button pressed
+[09:41:51.529] [SEVERE ] placing card 34 in slot 0
+[09:41:51.639] [SEVERE ] placing card 36 in slot 1
+[09:41:51.748] [SEVERE ] placing card 27 in slot 2
+[09:41:51.858] [SEVERE ] placing card 63 in slot 3
+[09:41:51.961] [SEVERE ] placing card 44 in slot 4
+[09:41:52.068] [SEVERE ] placing card 35 in slot 5
+[09:41:52.170] [SEVERE ] placing card 14 in slot 6
+[09:41:52.281] [SEVERE ] placing card 40 in slot 7
+[09:41:52.386] [SEVERE ] placing card 53 in slot 8
+[09:41:52.495] [SEVERE ] placing card 62 in slot 9
+[09:41:52.600] [SEVERE ] placing card 68 in slot 10
+[09:41:52.710] [SEVERE ] placing card 47 in slot 11
+[09:41:52.710] [INFO   ] thread dealer step 1.
+[09:41:52.710] [SEVERE ] updating countdown to 6947
+[09:41:52.710] [INFO   ] thread dealer step 2.
+[09:41:52.710] [INFO   ] thread dealer step 2.
+[09:41:52.710] [INFO   ] thread dealer step 2.
+[09:41:52.710] [INFO   ] thread dealer step 2.
+[09:41:52.710] [INFO   ] thread dealer step 2.
+[09:41:52.710] [INFO   ] thread dealer step 2.
+[09:41:52.710] [INFO   ] thread dealer step 2.
+[09:41:52.710] [INFO   ] thread dealer step 2.
+[09:41:52.710] [INFO   ] thread dealer step 2.
+[09:41:52.710] [INFO   ] thread dealer step 2.
+[09:41:52.710] [INFO   ] thread dealer step 2.
+[09:41:52.710] [INFO   ] thread dealer step 2.
+[09:41:52.710] [INFO   ] thread dealer step 3.
+[09:41:52.710] [SEVERE ] updating countdown to 6947
+[09:41:52.710] [INFO   ] thread dealer step 4.
+[09:41:52.710] [INFO   ] thread dealer step 10.
+[09:41:52.710] [INFO   ] thread dealer step 11.
+[09:41:52.710] [INFO   ] thread dealer step 12.
+[09:41:52.710] [INFO   ] thread dealer run step 2.
+[09:41:52.710] [INFO   ] thread dealer timer loop 1.
+[09:41:53.715] [INFO   ] thread dealer timer loop 2.
+[09:41:53.715] [SEVERE ] updating countdown to 5942
+[09:41:53.715] [INFO   ] thread dealer timer loop 3.
+[09:41:53.934] [INFO   ] thread dealer rm 1.
+[09:41:53.934] [INFO   ] thread dealer timer loop 4.
+[09:41:54.157] [INFO   ] thread dealer step 1.
+[09:41:54.157] [SEVERE ] updating countdown to 5500
+[09:41:54.157] [INFO   ] thread dealer step 2.
+[09:41:54.157] [INFO   ] thread dealer step 2.
+[09:41:54.157] [INFO   ] thread dealer step 2.
+[09:41:54.157] [INFO   ] thread dealer step 2.
+[09:41:54.157] [INFO   ] thread dealer step 2.
+[09:41:54.157] [INFO   ] thread dealer step 2.
+[09:41:54.157] [INFO   ] thread dealer step 2.
+[09:41:54.157] [INFO   ] thread dealer step 2.
+[09:41:54.157] [INFO   ] thread dealer step 2.
+[09:41:54.158] [INFO   ] thread dealer step 2.
+[09:41:54.158] [INFO   ] thread dealer step 2.
+[09:41:54.158] [INFO   ] thread dealer step 2.
+[09:41:54.158] [INFO   ] thread dealer step 3.
+[09:41:54.158] [SEVERE ] updating countdown to 5499
+[09:41:54.159] [INFO   ] thread dealer step 4.
+[09:41:54.159] [INFO   ] thread dealer step 10.
+[09:41:54.159] [INFO   ] thread dealer step 11.
+[09:41:54.159] [INFO   ] thread dealer step 12.
+[09:41:54.159] [INFO   ] thread dealer timer loop 5.
+[09:41:54.159] [INFO   ] thread dealer timer loop 1.
+[09:41:55.172] [INFO   ] thread dealer timer loop 2.
+[09:41:55.172] [INFO   ] thread dealer timer loop 3.

@@ -209,7 +209,6 @@ public class Player implements Runnable {
     public void terminate() {
         isReadyToCheck = false;
 		terminate = true;
-		table.canPlaceTokens = false;
 
 		if (!human) 
 			aiThread.interrupt();
@@ -226,36 +225,66 @@ public class Player implements Runnable {
      * @param slot - the slot corresponding to the key pressed.
      */
     public void keyPressed(int slot) {
+		env.logger.info("thread " + Thread.currentThread().getName() + " kp step 1.");
+
 		synchronized(slotQueue){
+			env.logger.info("thread " + Thread.currentThread().getName() + " kp step 2." + table.canPlaceTokens);
 
 			if(table.slotToCard[slot] != null && table.canPlaceTokens){
+				env.logger.info("thread " + Thread.currentThread().getName() + " kp step 3.");
+
 				boolean isDoubleClick = false;	
 
 				for(int i = 0; i < slotQueue.size(); i++){
-					int currSlot= slotQueue.poll(); 
-					if(currSlot != slot)
-						slotQueue.add(currSlot);
+					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 4.");
 
+					int currSlot= slotQueue.poll(); 
+					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 5.");
+
+					if(currSlot != slot){
+					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 6.");
+
+						slotQueue.add(currSlot);
+						env.logger.info("thread " + Thread.currentThread().getName() + " kp step 7.");
+
+					}
 
 					//if the key is pressed twice, remove the token from the table
 					else{
+						env.logger.info("thread " + Thread.currentThread().getName() + " kp step 8.");
+
 						isDoubleClick = true;
 						table.removeToken(id, slot);
+						env.logger.info("thread " + Thread.currentThread().getName() + " kp step 9.");
+
 						//queueCounter--;
 					}
 				}
+				env.logger.info("thread " + Thread.currentThread().getName() + " kp step 10.");
 
 				if (!isDoubleClick && slotQueue.size() < env.config.featureSize) {
+					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 11.");
+
 					slotQueue.add(slot); //add the key press to the queue
+					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 12.");
+
 					//queueCounter++;
 					table.placeToken(id, slot); //place the token on the table
+					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 13.");
+
 				}
 			}
 
 			synchronized(this){
+				env.logger.info("thread " + Thread.currentThread().getName() + " kp step 14.");
+
 				if(slotQueue.size() == env.config.featureSize && !terminate){
+					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 15.");
+
 					isReadyToCheck= true;
 					notifyAll();
+					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 16.");
+
 
 				}
 			}
