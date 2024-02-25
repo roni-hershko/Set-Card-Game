@@ -133,7 +133,10 @@ public class Player implements Runnable {
                         wait();
                     }
                 } catch (InterruptedException e) {Thread.currentThread().interrupt();}
-                table.addQueuePlayers(this);    
+
+				env.logger.info("thread " + Thread.currentThread().getName() + " player was notified by dealer." + " the player is: "+ id +"there are " + slotQueue.size() +" slots");
+				//if(isReadyToCheck)
+                	table.addQueuePlayers(this);    
 		
 			    synchronized(dealer){
 					dealer.notifyAll();
@@ -143,7 +146,7 @@ public class Player implements Runnable {
 						//notifyAll(); // added
 						wait();
 					} catch (InterruptedException e) { Thread.currentThread().interrupt(); } 
-					env.logger.info("thread " + Thread.currentThread().getName() + " player was notified by dealer.");
+					env.logger.info("thread " + Thread.currentThread().getName() + " player was notified by dealer.") ;
 
 					if(isSetFound){
 						point();  
@@ -227,10 +230,18 @@ public class Player implements Runnable {
     public void keyPressed(int slot) {
 		env.logger.info("thread " + Thread.currentThread().getName() + " kp step 1.");
 
+		if(!table.canPlaceTokens){
+			try {
+				synchronized (table.lock) {
+					table.lock.wait();
+				}
+			} catch (InterruptedException e) {Thread.currentThread().interrupt();}
+		}
+
 		synchronized(slotQueue){
 			env.logger.info("thread " + Thread.currentThread().getName() + " kp step 2." + table.canPlaceTokens);
 
-			if(table.slotToCard[slot] != null && table.canPlaceTokens){
+			if(table.slotToCard[slot] != null){
 				env.logger.info("thread " + Thread.currentThread().getName() + " kp step 3.");
 
 				boolean isDoubleClick = false;	
@@ -240,12 +251,11 @@ public class Player implements Runnable {
 
 					int currSlot= slotQueue.poll(); 
 					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 5.");
-
-					if(currSlot != slot){
 					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 6.");
 
+					if(currSlot != slot){
 						slotQueue.add(currSlot);
-						env.logger.info("thread " + Thread.currentThread().getName() + " kp step 7.");
+						env.logger.info("thread " + Thread.currentThread().getName() + " kp step 7. num in q ");
 
 					}
 
@@ -263,10 +273,9 @@ public class Player implements Runnable {
 				env.logger.info("thread " + Thread.currentThread().getName() + " kp step 10.");
 
 				if (!isDoubleClick && slotQueue.size() < env.config.featureSize) {
-					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 11.");
-
+					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 11. num in q "+ slotQueue.size()+" slot: "+slot);
 					slotQueue.add(slot); //add the key press to the queue
-					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 12.");
+					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 12. num in q "+ slotQueue.size());
 
 					//queueCounter++;
 					table.placeToken(id, slot); //place the token on the table
@@ -276,7 +285,7 @@ public class Player implements Runnable {
 			}
 
 			synchronized(this){
-				env.logger.info("thread " + Thread.currentThread().getName() + " kp step 14.");
+				env.logger.info("thread " + Thread.currentThread().getName() + " kp step 14." + "slot size" +slotQueue.size());
 
 				if(slotQueue.size() == env.config.featureSize && !terminate){
 					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 15.");

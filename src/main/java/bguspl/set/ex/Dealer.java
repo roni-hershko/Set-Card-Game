@@ -91,7 +91,7 @@ public class Dealer implements Runnable {
 
 			env.logger.info("thread " + Thread.currentThread().getName() + " run step 3.");
 
-            updateTimerDisplay(true);
+            updateTimerDisplay(false);
             removeAllCardsFromTable();
         }
         announceWinners();
@@ -191,9 +191,9 @@ public class Dealer implements Runnable {
 
 				//remove the set cards from the player data
 				for (int j = 0; j <env.config.featureSize; j++){
-					env.logger.info("thread " + Thread.currentThread().getName() + " rm 6."+ "slotQueue.size " + player.slotQueue.size());
+					env.logger.info("thread " + Thread.currentThread().getName() + " rm 6."+ "slotQueue.size " + player.slotQueue.size() + " the player is: "+ player.id);
 
-					updateTimerDisplay(false); //remember to remove
+					//updateTimerDisplay(false); //remember to remove
 					int slot; //added by rh
 
 					synchronized(player.slotQueue){ //added by rh 
@@ -207,7 +207,7 @@ public class Dealer implements Runnable {
 					env.logger.info("thread " + Thread.currentThread().getName() + " rm 8.5 !!!!.");
 
 
-					updateTimerDisplay(false); //remember to remove
+					//updateTimerDisplay(false); //remember to remove
 
 					env.logger.info("thread " + Thread.currentThread().getName() + " rm 9.");
 
@@ -220,7 +220,7 @@ public class Dealer implements Runnable {
 						for (Player playerSlot : players) { //start remove all tokens ad
 							env.logger.info("thread " + Thread.currentThread().getName() + " rm 11.");
 
-							updateTimerDisplay(false); //remember to remove
+							//updateTimerDisplay(false); //remember to remove
 
 							if(player.id != playerSlot.id && playerSlot.slotQueue.contains(slot)){
 								table.removeToken(playerSlot.id, slot);
@@ -267,7 +267,7 @@ public class Dealer implements Runnable {
 					//updateTimerDisplay(true); //remember to remove
 				}
 				else {
-					updateTimerDisplay(false); //remember to remove
+					//updateTimerDisplay(false); //remember to remove
 				}
 				env.logger.info("thread " + Thread.currentThread().getName() + " rm 22.");
 
@@ -275,7 +275,7 @@ public class Dealer implements Runnable {
 				env.logger.info("thread " + Thread.currentThread().getName() + " rm 23.");
 
 			}
-			updateTimerDisplay(false); //remember to remove
+			//updateTimerDisplay(false); //remember to remove
 
 		}
 	}
@@ -288,10 +288,11 @@ public class Dealer implements Runnable {
 		table.canPlaceTokens=false;
 
 		shuffleDeck();
-
+		boolean needReset = false;
         //place cards on null slots- removed cards 
 		for (int i = 0; i < env.config.tableSize; i++){
             if (table.slotToCard[i] == null){
+				needReset = true;
                 if (env.config.deckSize > 0){
                     int card = deck.remove(0);
                     table.placeCard(card, i);
@@ -299,8 +300,10 @@ public class Dealer implements Runnable {
             }
         }
 		env.logger.info("thread " + Thread.currentThread().getName() + " step 1.");
-
-		updateTimerDisplay(false); 
+		if(needReset)
+			updateTimerDisplay(true); 
+		else 
+			updateTimerDisplay(false); 
 
 
         //create lists for searching sets on table
@@ -315,7 +318,7 @@ public class Dealer implements Runnable {
          }
 		 env.logger.info("thread " + Thread.currentThread().getName() + " step 3.");
 
-		 updateTimerDisplay(false); //remember to remove
+		 //updateTimerDisplay(false); //remember to remove
 
 		//check if there is a valid set on the table
         List<int[]> findSetsTable = env.util.findSets(cardListTable, env.config.featureSize);
@@ -332,11 +335,9 @@ public class Dealer implements Runnable {
                 terminate();
             }
 
-			updateTimerDisplay(true); 
-
 		env.logger.info("thread " + Thread.currentThread().getName() + " step 5.");
 
-			updateTimerDisplay(false); //remember to remove
+			//updateTimerDisplay(false); //remember to remove
 			//new cards on table
             removeAllCardsFromTable();
 
@@ -350,7 +351,7 @@ public class Dealer implements Runnable {
 
 			env.logger.info("thread " + Thread.currentThread().getName() + " step 7.");
 
-			updateTimerDisplay(false); //remember to remove
+			//updateTimerDisplay(false); //remember to remove
 
 			//check if there are sets on deck + table
             List<int[]> findSetsDeck = env.util.findSets(deck, env.config.featureSize);
@@ -365,7 +366,7 @@ public class Dealer implements Runnable {
             }
 			env.logger.info("thread " + Thread.currentThread().getName() + " step 9.");
 
-			updateTimerDisplay(false);
+			//updateTimerDisplay(false);
             placeCardsOnTable();
         }
 		env.logger.info("thread " + Thread.currentThread().getName() + " step 10.");
@@ -436,6 +437,8 @@ public class Dealer implements Runnable {
      * Returns all the cards from the table to the deck.
      */
     private void removeAllCardsFromTable() {
+
+		env.logger.info("remove all step 1 " + Thread.currentThread().getName() + " rm all 1.");
         freezeAllPlayers(env.config.tableDelayMillis); 
         table.canPlaceTokens=false;
         //empty the queue of players in the table
@@ -447,15 +450,23 @@ public class Dealer implements Runnable {
                 }
             }
         }
-
+		env.logger.info("before removing token thread " + Thread.currentThread().getName() + " rm all 2.");
         //remove all the tokens from the table
-        for(int i = 0; i < players.length; i++){
-            for (int j = 0; j < players[i].slotQueue.size(); j++){
-                int slot = players[i].slotQueue.poll();
-                table.removeToken(players[i].id, slot);
+        for(int i = 0; i < env.config.players; i++){
+			synchronized(players[i].slotQueue){
+            	for (int j = 0; j < players[i].slotQueue.size(); j++){
+					env.logger.info("thread " + Thread.currentThread().getName() + " rm all 3" + players[i].slotQueue.size());
+					int slot = players[i].slotQueue.poll();
+					env.logger.info("thread " + Thread.currentThread().getName() + " rm all 4" + "slot to remove: " +slot);
+
+					table.removeToken(players[i].id, slot);
+					j--;
+					env.logger.info("thread " + Thread.currentThread().getName() + " rm all 5" + "token removed: " +slot);
+				}
             }
         }
-		
+		env.logger.info("after removing token thread " + Thread.currentThread().getName() + " rm 6.");
+
 		updateTimerDisplay(false);
 
         //remove all the cards from the table

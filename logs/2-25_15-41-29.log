@@ -1,0 +1,590 @@
+[15:41:29.904] [INFO   ] thread main starting.
+[15:41:29.914] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[15:41:29.914] [SEVERE ] configuration file was loaded from resources directory.
+[15:41:30.485] [INFO   ] thread dealer starting.
+[15:41:30.486] [INFO   ] thread dealer starting.
+[15:41:30.489] [INFO   ] thread Thread-0 starting.
+[15:41:30.490] [INFO   ] thread computer-0 starting.
+[15:41:30.491] [INFO   ] thread Thread-1 starting.
+[15:41:30.491] [INFO   ] thread computer-1 starting.
+[15:41:30.491] [SEVERE ] updating countdown to 10000
+[15:41:30.502] [INFO   ] thread dealer run step 1.
+[15:41:30.805] [SEVERE ] placing card 42 in slot 0
+[15:41:30.843] [INFO   ] thread computer-1 kp step 1.
+[15:41:30.844] [INFO   ] thread computer-1 kp step 2.false
+[15:41:30.844] [INFO   ] thread computer-1 kp step 14.slot size0
+[15:41:30.847] [INFO   ] thread computer-0 kp step 1.
+[15:41:30.847] [INFO   ] thread computer-0 kp step 2.false
+[15:41:30.848] [INFO   ] thread computer-0 kp step 14.slot size0
+[15:41:30.911] [SEVERE ] placing card 6 in slot 1
+[15:41:31.021] [SEVERE ] placing card 66 in slot 2
+[15:41:31.124] [SEVERE ] placing card 9 in slot 3
+[15:41:31.226] [SEVERE ] placing card 22 in slot 4
+[15:41:31.339] [SEVERE ] placing card 5 in slot 5
+[15:41:31.441] [SEVERE ] placing card 36 in slot 6
+[15:41:31.554] [SEVERE ] placing card 47 in slot 7
+[15:41:31.658] [SEVERE ] placing card 72 in slot 8
+[15:41:31.760] [SEVERE ] placing card 58 in slot 9
+[15:41:31.865] [SEVERE ] placing card 38 in slot 10
+[15:41:31.981] [SEVERE ] placing card 44 in slot 11
+[15:41:31.981] [INFO   ] thread dealer step 1.
+[15:41:31.982] [SEVERE ] updating countdown to 10000
+[15:41:31.982] [INFO   ] thread dealer step 2.
+[15:41:31.982] [INFO   ] thread dealer step 2.
+[15:41:31.982] [INFO   ] thread dealer step 2.
+[15:41:31.982] [INFO   ] thread dealer step 2.
+[15:41:31.982] [INFO   ] thread dealer step 2.
+[15:41:31.982] [INFO   ] thread dealer step 2.
+[15:41:31.982] [INFO   ] thread dealer step 2.
+[15:41:31.982] [INFO   ] thread dealer step 2.
+[15:41:31.982] [INFO   ] thread dealer step 2.
+[15:41:31.982] [INFO   ] thread dealer step 2.
+[15:41:31.982] [INFO   ] thread dealer step 2.
+[15:41:31.982] [INFO   ] thread dealer step 2.
+[15:41:31.982] [INFO   ] thread dealer step 3.
+[15:41:31.982] [INFO   ] thread dealer step 4.
+[15:41:31.982] [INFO   ] thread dealer step 10.
+[15:41:31.982] [INFO   ] thread dealer step 11.
+[15:41:31.982] [INFO   ] thread dealer step 12.
+[15:41:31.982] [INFO   ] thread dealer run step 2.
+[15:41:31.982] [INFO   ] thread dealer timer loop 1.
+[15:41:32.345] [INFO   ] thread computer-0 kp step 1.
+[15:41:32.345] [INFO   ] thread computer-0 kp step 2.true
+[15:41:32.345] [INFO   ] thread computer-0 kp step 3.
+[15:41:32.345] [INFO   ] thread computer-0 kp step 10.
+[15:41:32.345] [INFO   ] thread computer-0 kp step 11.
+[15:41:32.345] [INFO   ] thread computer-1 kp step 1.
+[15:41:32.346] [INFO   ] thread computer-1 kp step 2.true
+[15:41:32.345] [INFO   ] thread computer-0 kp step 12.
+[15:41:32.346] [SEVERE ] player 1 placing token on slot 5
+[15:41:32.346] [INFO   ] thread computer-1 kp step 3.
+[15:41:32.346] [INFO   ] thread computer-1 kp step 10.
+[15:41:32.346] [INFO   ] thread computer-0 kp step 13.
+[15:41:32.347] [INFO   ] thread computer-0 kp step 14.slot size1
+[15:41:32.346] [INFO   ] thread computer-1 kp step 11.
+[15:41:32.347] [INFO   ] thread computer-1 kp step 12.
+[15:41:32.347] [SEVERE ] player 2 placing token on slot 0
+[15:41:32.347] [INFO   ] thread computer-1 kp step 13.
+[15:41:32.347] [INFO   ] thread computer-1 kp step 14.slot size1
+[15:41:32.699] [INFO   ] thread computer-0 kp step 1.
+[15:41:32.700] [INFO   ] thread computer-0 kp step 2.true
+[15:41:32.701] [INFO   ] thread computer-0 kp step 3.
+[15:41:32.699] [INFO   ] thread computer-1 kp step 1.
+[15:41:32.701] [INFO   ] thread computer-1 kp step 2.true
+[15:41:32.701] [INFO   ] thread computer-0 kp step 4.
+[15:41:32.702] [INFO   ] thread computer-0 kp step 5.
+[15:41:32.702] [INFO   ] thread computer-0 kp step 6.
+[15:41:32.703] [INFO   ] thread computer-0 kp step 7.
+[15:41:32.703] [INFO   ] thread computer-0 kp step 10.
+[15:41:32.703] [INFO   ] thread computer-0 kp step 11.
+[15:41:32.704] [INFO   ] thread computer-0 kp step 12.
+[15:41:32.704] [SEVERE ] player 1 placing token on slot 10
+[15:41:32.704] [INFO   ] thread computer-0 kp step 13.
+[15:41:32.705] [INFO   ] thread computer-0 kp step 14.slot size2
+[15:41:32.701] [INFO   ] thread computer-1 kp step 3.
+[15:41:32.708] [INFO   ] thread computer-1 kp step 4.
+[15:41:32.708] [INFO   ] thread computer-1 kp step 5.
+[15:41:32.708] [INFO   ] thread computer-1 kp step 6.
+[15:41:32.708] [INFO   ] thread computer-1 kp step 7.
+[15:41:32.708] [INFO   ] thread computer-1 kp step 10.
+[15:41:32.708] [INFO   ] thread computer-1 kp step 11.
+[15:41:32.708] [INFO   ] thread computer-1 kp step 12.
+[15:41:32.708] [SEVERE ] player 2 placing token on slot 2
+[15:41:32.708] [INFO   ] thread computer-1 kp step 13.
+[15:41:32.708] [INFO   ] thread computer-1 kp step 14.slot size2
+[15:41:32.990] [INFO   ] thread dealer timer loop 2.
+[15:41:32.990] [SEVERE ] updating countdown to 8992
+[15:41:32.990] [INFO   ] thread dealer timer loop 3.
+[15:41:33.069] [INFO   ] thread computer-0 kp step 1.
+[15:41:33.069] [INFO   ] thread computer-0 kp step 2.true
+[15:41:33.070] [INFO   ] thread computer-0 kp step 3.
+[15:41:33.070] [INFO   ] thread computer-0 kp step 4.
+[15:41:33.070] [INFO   ] thread computer-0 kp step 5.
+[15:41:33.070] [INFO   ] thread computer-0 kp step 6.
+[15:41:33.070] [INFO   ] thread computer-0 kp step 7.
+[15:41:33.070] [INFO   ] thread computer-0 kp step 4.
+[15:41:33.069] [INFO   ] thread computer-1 kp step 1.
+[15:41:33.072] [INFO   ] thread computer-1 kp step 2.true
+[15:41:33.070] [INFO   ] thread computer-0 kp step 5.
+[15:41:33.073] [INFO   ] thread computer-0 kp step 6.
+[15:41:33.072] [INFO   ] thread computer-1 kp step 3.
+[15:41:33.073] [INFO   ] thread computer-1 kp step 4.
+[15:41:33.074] [INFO   ] thread computer-1 kp step 5.
+[15:41:33.074] [INFO   ] thread computer-1 kp step 6.
+[15:41:33.074] [INFO   ] thread computer-1 kp step 7.
+[15:41:33.074] [INFO   ] thread computer-1 kp step 4.
+[15:41:33.073] [INFO   ] thread computer-0 kp step 7.
+[15:41:33.075] [INFO   ] thread computer-0 kp step 10.
+[15:41:33.074] [INFO   ] thread computer-1 kp step 5.
+[15:41:33.076] [INFO   ] thread computer-1 kp step 6.
+[15:41:33.075] [INFO   ] thread computer-0 kp step 11.
+[15:41:33.076] [INFO   ] thread computer-0 kp step 12.
+[15:41:33.076] [SEVERE ] player 1 placing token on slot 1
+[15:41:33.076] [INFO   ] thread computer-1 kp step 7.
+[15:41:33.076] [INFO   ] thread computer-1 kp step 10.
+[15:41:33.077] [INFO   ] thread computer-1 kp step 11.
+[15:41:33.077] [INFO   ] thread computer-1 kp step 12.
+[15:41:33.077] [SEVERE ] player 2 placing token on slot 6
+[15:41:33.076] [INFO   ] thread computer-0 kp step 13.
+[15:41:33.078] [INFO   ] thread computer-0 kp step 14.slot size3
+[15:41:33.078] [INFO   ] thread computer-0 kp step 15.
+[15:41:33.078] [INFO   ] thread computer-0 kp step 16.
+[15:41:33.078] [INFO   ] thread computer-1 kp step 13.
+[15:41:33.078] [INFO   ] thread computer-1 kp step 14.slot size3
+[15:41:33.078] [INFO   ] thread computer-1 kp step 15.
+[15:41:33.078] [INFO   ] thread Thread-0 player was notified by dealer. the player is: 0there are 3 slots
+[15:41:33.078] [INFO   ] thread computer-1 kp step 16.
+[15:41:33.079] [INFO   ] thread Thread-1 player was notified by dealer. the player is: 1there are 3 slots
+[15:41:33.204] [INFO   ] thread dealer rm 1.
+[15:41:33.204] [INFO   ] thread dealer rm 2.
+[15:41:33.204] [INFO   ] remove  in the table step 1
+[15:41:33.204] [INFO   ] remove  in the table step 2
+[15:41:33.204] [INFO   ] thread dealer rm 3.
+[15:41:33.204] [INFO   ] thread dealer rm 5.
+[15:41:33.204] [INFO   ] thread dealer rm 6.slotQueue.size 3 the player is: 0
+[15:41:33.204] [INFO   ] thread dealer rm 7!!!.
+[15:41:33.204] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:33.204] [SEVERE ] removing player 1 token from slot 5
+[15:41:33.204] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:33.204] [INFO   ] thread dealer rm 9.
+[15:41:33.204] [INFO   ] thread dealer rm 6.slotQueue.size 2 the player is: 0
+[15:41:33.204] [INFO   ] thread dealer rm 7!!!.
+[15:41:33.204] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:33.204] [SEVERE ] removing player 1 token from slot 10
+[15:41:33.204] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:33.204] [INFO   ] thread dealer rm 9.
+[15:41:33.204] [INFO   ] thread dealer rm 6.slotQueue.size 1 the player is: 0
+[15:41:33.204] [INFO   ] thread dealer rm 7!!!.
+[15:41:33.204] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:33.204] [SEVERE ] removing player 1 token from slot 1
+[15:41:33.204] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:33.204] [INFO   ] thread dealer rm 9.
+[15:41:33.204] [INFO   ] thread dealer rm 17.
+[15:41:33.204] [INFO   ] thread dealer rm 18.
+[15:41:33.204] [INFO   ] thread dealerrm 19 .
+[15:41:33.204] [INFO   ] thread dealer rm 20.
+[15:41:33.204] [INFO   ] thread dealer rm 22.
+[15:41:33.204] [INFO   ] thread dealer rm 23.
+[15:41:33.204] [INFO   ] thread dealer rm 2.
+[15:41:33.204] [INFO   ] remove  in the table step 1
+[15:41:33.212] [INFO   ] remove  in the table step 2
+[15:41:33.212] [INFO   ] thread dealer rm 3.
+[15:41:33.212] [INFO   ] thread dealer rm 5.
+[15:41:33.212] [INFO   ] thread dealer rm 6.slotQueue.size 3 the player is: 1
+[15:41:33.212] [INFO   ] thread dealer rm 7!!!.
+[15:41:33.213] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:33.213] [SEVERE ] removing player 2 token from slot 0
+[15:41:33.204] [INFO   ] thread Thread-0 player was notified by dealer.
+[15:41:33.214] [INFO   ] penalty
+[15:41:33.214] [SEVERE ] setting player 1 freeze to 0
+[15:41:33.213] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:33.214] [INFO   ] thread dealer rm 9.
+[15:41:33.214] [INFO   ] thread dealer rm 6.slotQueue.size 2 the player is: 1
+[15:41:33.214] [INFO   ] thread dealer rm 7!!!.
+[15:41:33.214] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:33.214] [SEVERE ] removing player 2 token from slot 2
+[15:41:33.214] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:33.214] [INFO   ] thread dealer rm 9.
+[15:41:33.214] [INFO   ] thread dealer rm 6.slotQueue.size 1 the player is: 1
+[15:41:33.214] [INFO   ] thread dealer rm 7!!!.
+[15:41:33.214] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:33.214] [SEVERE ] removing player 2 token from slot 6
+[15:41:33.214] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:33.214] [INFO   ] thread dealer rm 9.
+[15:41:33.214] [INFO   ] thread dealer rm 17.
+[15:41:33.214] [INFO   ] thread dealer rm 18.
+[15:41:33.214] [INFO   ] thread dealerrm 19 .
+[15:41:33.214] [INFO   ] thread dealer rm 20.
+[15:41:33.214] [INFO   ] thread dealer rm 22.
+[15:41:33.214] [INFO   ] thread dealer rm 23.
+[15:41:33.214] [INFO   ] thread dealer timer loop 4.
+[15:41:33.214] [INFO   ] thread Thread-1 player was notified by dealer.
+[15:41:33.214] [INFO   ] penalty
+[15:41:33.214] [SEVERE ] setting player 2 freeze to 0
+[15:41:33.425] [INFO   ] thread dealer step 1.
+[15:41:33.425] [SEVERE ] updating countdown to 8557
+[15:41:33.425] [INFO   ] thread dealer step 2.
+[15:41:33.425] [INFO   ] thread dealer step 2.
+[15:41:33.425] [INFO   ] thread dealer step 2.
+[15:41:33.425] [INFO   ] thread dealer step 2.
+[15:41:33.425] [INFO   ] thread dealer step 2.
+[15:41:33.425] [INFO   ] thread dealer step 2.
+[15:41:33.425] [INFO   ] thread dealer step 2.
+[15:41:33.425] [INFO   ] thread dealer step 2.
+[15:41:33.425] [INFO   ] thread dealer step 2.
+[15:41:33.425] [INFO   ] thread dealer step 2.
+[15:41:33.425] [INFO   ] thread dealer step 2.
+[15:41:33.425] [INFO   ] thread dealer step 2.
+[15:41:33.425] [INFO   ] thread dealer step 3.
+[15:41:33.425] [INFO   ] thread dealer step 4.
+[15:41:33.425] [INFO   ] thread dealer step 10.
+[15:41:33.425] [INFO   ] thread dealer step 11.
+[15:41:33.425] [INFO   ] thread dealer step 12.
+[15:41:33.425] [INFO   ] thread dealer timer loop 5.
+[15:41:33.425] [INFO   ] thread dealer timer loop 1.
+[15:41:33.566] [INFO   ] thread computer-0 kp step 1.
+[15:41:33.566] [INFO   ] thread computer-0 kp step 2.true
+[15:41:33.566] [INFO   ] thread computer-0 kp step 3.
+[15:41:33.566] [INFO   ] thread computer-0 kp step 10.
+[15:41:33.566] [INFO   ] thread computer-0 kp step 11.
+[15:41:33.566] [INFO   ] thread computer-0 kp step 12.
+[15:41:33.566] [SEVERE ] player 1 placing token on slot 4
+[15:41:33.567] [INFO   ] thread computer-0 kp step 13.
+[15:41:33.567] [INFO   ] thread computer-0 kp step 14.slot size1
+[15:41:33.568] [INFO   ] thread computer-1 kp step 1.
+[15:41:33.568] [INFO   ] thread computer-1 kp step 2.true
+[15:41:33.568] [INFO   ] thread computer-1 kp step 3.
+[15:41:33.568] [INFO   ] thread computer-1 kp step 10.
+[15:41:33.568] [INFO   ] thread computer-1 kp step 11.
+[15:41:33.568] [INFO   ] thread computer-1 kp step 12.
+[15:41:33.568] [SEVERE ] player 2 placing token on slot 6
+[15:41:33.568] [INFO   ] thread computer-1 kp step 13.
+[15:41:33.568] [INFO   ] thread computer-1 kp step 14.slot size1
+[15:41:33.928] [INFO   ] thread computer-0 kp step 1.
+[15:41:33.928] [INFO   ] thread computer-0 kp step 2.true
+[15:41:33.928] [INFO   ] thread computer-0 kp step 3.
+[15:41:33.929] [INFO   ] thread computer-0 kp step 4.
+[15:41:33.930] [INFO   ] thread computer-0 kp step 5.
+[15:41:33.930] [INFO   ] thread computer-0 kp step 6.
+[15:41:33.930] [INFO   ] thread computer-0 kp step 7.
+[15:41:33.930] [INFO   ] thread computer-0 kp step 10.
+[15:41:33.930] [INFO   ] thread computer-0 kp step 11.
+[15:41:33.930] [INFO   ] thread computer-0 kp step 12.
+[15:41:33.930] [SEVERE ] player 1 placing token on slot 11
+[15:41:33.930] [INFO   ] thread computer-0 kp step 13.
+[15:41:33.930] [INFO   ] thread computer-0 kp step 14.slot size2
+[15:41:33.928] [INFO   ] thread computer-1 kp step 1.
+[15:41:33.930] [INFO   ] thread computer-1 kp step 2.true
+[15:41:33.930] [INFO   ] thread computer-1 kp step 3.
+[15:41:33.930] [INFO   ] thread computer-1 kp step 4.
+[15:41:33.930] [INFO   ] thread computer-1 kp step 5.
+[15:41:33.930] [INFO   ] thread computer-1 kp step 6.
+[15:41:33.930] [INFO   ] thread computer-1 kp step 7.
+[15:41:33.930] [INFO   ] thread computer-1 kp step 10.
+[15:41:33.930] [INFO   ] thread computer-1 kp step 11.
+[15:41:33.930] [INFO   ] thread computer-1 kp step 12.
+[15:41:33.930] [SEVERE ] player 2 placing token on slot 3
+[15:41:33.930] [INFO   ] thread computer-1 kp step 13.
+[15:41:33.930] [INFO   ] thread computer-1 kp step 14.slot size2
+[15:41:34.290] [INFO   ] thread computer-1 kp step 1.
+[15:41:34.291] [INFO   ] thread computer-1 kp step 2.true
+[15:41:34.290] [INFO   ] thread computer-0 kp step 1.
+[15:41:34.292] [INFO   ] thread computer-0 kp step 2.true
+[15:41:34.292] [INFO   ] thread computer-0 kp step 3.
+[15:41:34.292] [INFO   ] thread computer-1 kp step 3.
+[15:41:34.292] [INFO   ] thread computer-1 kp step 4.
+[15:41:34.292] [INFO   ] thread computer-0 kp step 4.
+[15:41:34.293] [INFO   ] thread computer-1 kp step 5.
+[15:41:34.294] [INFO   ] thread computer-0 kp step 5.
+[15:41:34.294] [INFO   ] thread computer-0 kp step 6.
+[15:41:34.294] [INFO   ] thread computer-1 kp step 6.
+[15:41:34.295] [INFO   ] thread computer-1 kp step 7.
+[15:41:34.294] [INFO   ] thread computer-0 kp step 7.
+[15:41:34.295] [INFO   ] thread computer-0 kp step 4.
+[15:41:34.295] [INFO   ] thread computer-0 kp step 5.
+[15:41:34.295] [INFO   ] thread computer-0 kp step 6.
+[15:41:34.295] [INFO   ] thread computer-1 kp step 4.
+[15:41:34.295] [INFO   ] thread computer-0 kp step 7.
+[15:41:34.296] [INFO   ] thread computer-1 kp step 5.
+[15:41:34.296] [INFO   ] thread computer-1 kp step 6.
+[15:41:34.296] [INFO   ] thread computer-0 kp step 10.
+[15:41:34.296] [INFO   ] thread computer-0 kp step 11.
+[15:41:34.296] [INFO   ] thread computer-1 kp step 7.
+[15:41:34.297] [INFO   ] thread computer-1 kp step 10.
+[15:41:34.297] [INFO   ] thread computer-1 kp step 11.
+[15:41:34.297] [INFO   ] thread computer-0 kp step 12.
+[15:41:34.297] [SEVERE ] player 1 placing token on slot 10
+[15:41:34.297] [INFO   ] thread computer-1 kp step 12.
+[15:41:34.297] [SEVERE ] player 2 placing token on slot 5
+[15:41:34.297] [INFO   ] thread computer-1 kp step 13.
+[15:41:34.297] [INFO   ] thread computer-0 kp step 13.
+[15:41:34.297] [INFO   ] thread computer-0 kp step 14.slot size3
+[15:41:34.297] [INFO   ] thread computer-0 kp step 15.
+[15:41:34.297] [INFO   ] thread computer-0 kp step 16.
+[15:41:34.297] [INFO   ] thread Thread-0 player was notified by dealer. the player is: 0there are 3 slots
+[15:41:34.297] [INFO   ] thread dealer timer loop 2.
+[15:41:34.297] [SEVERE ] updating countdown to 7685
+[15:41:34.297] [INFO   ] thread dealer timer loop 3.
+[15:41:34.297] [INFO   ] thread computer-1 kp step 14.slot size3
+[15:41:34.298] [INFO   ] thread computer-1 kp step 15.
+[15:41:34.298] [INFO   ] thread computer-1 kp step 16.
+[15:41:34.298] [INFO   ] thread Thread-1 player was notified by dealer. the player is: 1there are 3 slots
+[15:41:34.514] [INFO   ] thread dealer rm 1.
+[15:41:34.514] [INFO   ] thread dealer rm 2.
+[15:41:34.514] [INFO   ] remove  in the table step 1
+[15:41:34.514] [INFO   ] remove  in the table step 2
+[15:41:34.514] [INFO   ] thread dealer rm 3.
+[15:41:34.516] [INFO   ] thread dealer rm 5.
+[15:41:34.516] [INFO   ] thread dealer rm 6.slotQueue.size 3 the player is: 0
+[15:41:34.516] [INFO   ] thread dealer rm 7!!!.
+[15:41:34.516] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:34.517] [SEVERE ] removing player 1 token from slot 4
+[15:41:34.517] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:34.517] [INFO   ] thread dealer rm 9.
+[15:41:34.517] [INFO   ] thread dealer rm 6.slotQueue.size 2 the player is: 0
+[15:41:34.517] [INFO   ] thread dealer rm 7!!!.
+[15:41:34.517] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:34.517] [SEVERE ] removing player 1 token from slot 11
+[15:41:34.517] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:34.517] [INFO   ] thread dealer rm 9.
+[15:41:34.517] [INFO   ] thread dealer rm 6.slotQueue.size 1 the player is: 0
+[15:41:34.517] [INFO   ] thread dealer rm 7!!!.
+[15:41:34.517] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:34.517] [SEVERE ] removing player 1 token from slot 10
+[15:41:34.517] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:34.517] [INFO   ] thread dealer rm 9.
+[15:41:34.517] [INFO   ] thread dealer rm 17.
+[15:41:34.517] [INFO   ] thread dealer rm 18.
+[15:41:34.517] [INFO   ] thread dealerrm 19 .
+[15:41:34.517] [INFO   ] thread dealer rm 20.
+[15:41:34.517] [INFO   ] thread dealer rm 22.
+[15:41:34.517] [INFO   ] thread dealer rm 23.
+[15:41:34.517] [INFO   ] thread dealer rm 2.
+[15:41:34.517] [INFO   ] remove  in the table step 1
+[15:41:34.519] [INFO   ] remove  in the table step 2
+[15:41:34.517] [INFO   ] thread Thread-0 player was notified by dealer.
+[15:41:34.519] [INFO   ] penalty
+[15:41:34.519] [INFO   ] thread dealer rm 3.
+[15:41:34.520] [SEVERE ] setting player 1 freeze to 0
+[15:41:34.520] [INFO   ] thread dealer rm 5.
+[15:41:34.520] [INFO   ] thread dealer rm 6.slotQueue.size 3 the player is: 1
+[15:41:34.520] [INFO   ] thread dealer rm 7!!!.
+[15:41:34.520] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:34.520] [SEVERE ] removing player 2 token from slot 6
+[15:41:34.520] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:34.520] [INFO   ] thread dealer rm 9.
+[15:41:34.520] [INFO   ] thread dealer rm 6.slotQueue.size 2 the player is: 1
+[15:41:34.520] [INFO   ] thread dealer rm 7!!!.
+[15:41:34.520] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:34.520] [SEVERE ] removing player 2 token from slot 3
+[15:41:34.520] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:34.520] [INFO   ] thread dealer rm 9.
+[15:41:34.520] [INFO   ] thread dealer rm 6.slotQueue.size 1 the player is: 1
+[15:41:34.520] [INFO   ] thread dealer rm 7!!!.
+[15:41:34.520] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:34.520] [SEVERE ] removing player 2 token from slot 5
+[15:41:34.520] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:34.520] [INFO   ] thread dealer rm 9.
+[15:41:34.520] [INFO   ] thread dealer rm 17.
+[15:41:34.520] [INFO   ] thread dealer rm 18.
+[15:41:34.520] [INFO   ] thread dealerrm 19 .
+[15:41:34.520] [INFO   ] thread dealer rm 20.
+[15:41:34.520] [INFO   ] thread dealer rm 22.
+[15:41:34.520] [INFO   ] thread dealer rm 23.
+[15:41:34.520] [INFO   ] thread dealer timer loop 4.
+[15:41:34.520] [INFO   ] thread Thread-1 player was notified by dealer.
+[15:41:34.520] [INFO   ] penalty
+[15:41:34.520] [SEVERE ] setting player 2 freeze to 0
+[15:41:34.743] [INFO   ] thread dealer step 1.
+[15:41:34.743] [SEVERE ] updating countdown to 7239
+[15:41:34.743] [INFO   ] thread dealer step 2.
+[15:41:34.744] [INFO   ] thread dealer step 2.
+[15:41:34.744] [INFO   ] thread dealer step 2.
+[15:41:34.744] [INFO   ] thread dealer step 2.
+[15:41:34.744] [INFO   ] thread dealer step 2.
+[15:41:34.744] [INFO   ] thread dealer step 2.
+[15:41:34.744] [INFO   ] thread dealer step 2.
+[15:41:34.744] [INFO   ] thread dealer step 2.
+[15:41:34.744] [INFO   ] thread dealer step 2.
+[15:41:34.744] [INFO   ] thread dealer step 2.
+[15:41:34.744] [INFO   ] thread dealer step 2.
+[15:41:34.744] [INFO   ] thread dealer step 2.
+[15:41:34.744] [INFO   ] thread dealer step 3.
+[15:41:34.745] [INFO   ] thread dealer step 4.
+[15:41:34.745] [INFO   ] thread dealer step 10.
+[15:41:34.745] [INFO   ] thread dealer step 11.
+[15:41:34.745] [INFO   ] thread dealer step 12.
+[15:41:34.745] [INFO   ] thread dealer timer loop 5.
+[15:41:34.745] [INFO   ] thread dealer timer loop 1.
+[15:41:34.877] [INFO   ] thread computer-0 kp step 1.
+[15:41:34.877] [INFO   ] thread computer-0 kp step 2.true
+[15:41:34.877] [INFO   ] thread computer-1 kp step 1.
+[15:41:34.877] [INFO   ] thread computer-0 kp step 3.
+[15:41:34.878] [INFO   ] thread computer-0 kp step 10.
+[15:41:34.878] [INFO   ] thread computer-0 kp step 11.
+[15:41:34.878] [INFO   ] thread computer-0 kp step 12.
+[15:41:34.878] [SEVERE ] player 1 placing token on slot 0
+[15:41:34.878] [INFO   ] thread computer-0 kp step 13.
+[15:41:34.878] [INFO   ] thread computer-0 kp step 14.slot size1
+[15:41:34.878] [INFO   ] thread computer-1 kp step 2.true
+[15:41:34.878] [INFO   ] thread computer-1 kp step 3.
+[15:41:34.878] [INFO   ] thread computer-1 kp step 10.
+[15:41:34.878] [INFO   ] thread computer-1 kp step 11.
+[15:41:34.878] [INFO   ] thread computer-1 kp step 12.
+[15:41:34.878] [SEVERE ] player 2 placing token on slot 0
+[15:41:34.878] [INFO   ] thread computer-1 kp step 13.
+[15:41:34.878] [INFO   ] thread computer-1 kp step 14.slot size1
+[15:41:35.240] [INFO   ] thread computer-0 kp step 1.
+[15:41:35.241] [INFO   ] thread computer-0 kp step 2.true
+[15:41:35.241] [INFO   ] thread computer-0 kp step 3.
+[15:41:35.240] [INFO   ] thread computer-1 kp step 1.
+[15:41:35.241] [INFO   ] thread computer-1 kp step 2.true
+[15:41:35.241] [INFO   ] thread computer-0 kp step 4.
+[15:41:35.241] [INFO   ] thread computer-1 kp step 3.
+[15:41:35.241] [INFO   ] thread computer-1 kp step 4.
+[15:41:35.241] [INFO   ] thread computer-1 kp step 5.
+[15:41:35.241] [INFO   ] thread computer-1 kp step 6.
+[15:41:35.241] [INFO   ] thread computer-1 kp step 7.
+[15:41:35.241] [INFO   ] thread computer-1 kp step 10.
+[15:41:35.241] [INFO   ] thread computer-1 kp step 11.
+[15:41:35.241] [INFO   ] thread computer-0 kp step 5.
+[15:41:35.242] [INFO   ] thread computer-0 kp step 6.
+[15:41:35.242] [INFO   ] thread computer-0 kp step 7.
+[15:41:35.242] [INFO   ] thread computer-0 kp step 10.
+[15:41:35.242] [INFO   ] thread computer-0 kp step 11.
+[15:41:35.242] [INFO   ] thread computer-0 kp step 12.
+[15:41:35.242] [SEVERE ] player 1 placing token on slot 11
+[15:41:35.242] [INFO   ] thread computer-0 kp step 13.
+[15:41:35.242] [INFO   ] thread computer-0 kp step 14.slot size2
+[15:41:35.241] [INFO   ] thread computer-1 kp step 12.
+[15:41:35.242] [SEVERE ] player 2 placing token on slot 11
+[15:41:35.242] [INFO   ] thread computer-1 kp step 13.
+[15:41:35.242] [INFO   ] thread computer-1 kp step 14.slot size2
+[15:41:35.593] [INFO   ] thread computer-0 kp step 1.
+[15:41:35.593] [INFO   ] thread computer-0 kp step 2.true
+[15:41:35.594] [INFO   ] thread computer-0 kp step 3.
+[15:41:35.594] [INFO   ] thread computer-0 kp step 4.
+[15:41:35.593] [INFO   ] thread computer-1 kp step 1.
+[15:41:35.594] [INFO   ] thread computer-1 kp step 2.true
+[15:41:35.594] [INFO   ] thread computer-1 kp step 3.
+[15:41:35.594] [INFO   ] thread computer-1 kp step 4.
+[15:41:35.594] [INFO   ] thread computer-1 kp step 5.
+[15:41:35.594] [INFO   ] thread computer-1 kp step 6.
+[15:41:35.594] [INFO   ] thread computer-0 kp step 5.
+[15:41:35.594] [INFO   ] thread computer-0 kp step 6.
+[15:41:35.594] [INFO   ] thread computer-1 kp step 7.
+[15:41:35.594] [INFO   ] thread computer-1 kp step 4.
+[15:41:35.594] [INFO   ] thread computer-0 kp step 7.
+[15:41:35.594] [INFO   ] thread computer-0 kp step 4.
+[15:41:35.594] [INFO   ] thread computer-0 kp step 5.
+[15:41:35.594] [INFO   ] thread computer-1 kp step 5.
+[15:41:35.595] [INFO   ] thread computer-1 kp step 6.
+[15:41:35.595] [INFO   ] thread computer-1 kp step 7.
+[15:41:35.595] [INFO   ] thread computer-1 kp step 10.
+[15:41:35.595] [INFO   ] thread computer-1 kp step 11.
+[15:41:35.595] [INFO   ] thread computer-1 kp step 12.
+[15:41:35.595] [SEVERE ] player 2 placing token on slot 5
+[15:41:35.595] [INFO   ] thread computer-0 kp step 6.
+[15:41:35.595] [INFO   ] thread computer-0 kp step 7.
+[15:41:35.595] [INFO   ] thread computer-0 kp step 10.
+[15:41:35.595] [INFO   ] thread computer-0 kp step 11.
+[15:41:35.595] [INFO   ] thread computer-1 kp step 13.
+[15:41:35.595] [INFO   ] thread computer-1 kp step 14.slot size3
+[15:41:35.595] [INFO   ] thread computer-0 kp step 12.
+[15:41:35.595] [SEVERE ] player 1 placing token on slot 9
+[15:41:35.595] [INFO   ] thread computer-1 kp step 15.
+[15:41:35.595] [INFO   ] thread computer-1 kp step 16.
+[15:41:35.595] [INFO   ] thread computer-0 kp step 13.
+[15:41:35.595] [INFO   ] thread computer-0 kp step 14.slot size3
+[15:41:35.595] [INFO   ] thread computer-0 kp step 15.
+[15:41:35.595] [INFO   ] thread computer-0 kp step 16.
+[15:41:35.595] [INFO   ] thread Thread-1 player was notified by dealer. the player is: 1there are 3 slots
+[15:41:35.595] [INFO   ] thread Thread-0 player was notified by dealer. the player is: 0there are 3 slots
+[15:41:35.596] [INFO   ] thread dealer timer loop 2.
+[15:41:35.596] [SEVERE ] updating countdown to 6386
+[15:41:35.596] [INFO   ] thread dealer timer loop 3.
+[15:41:35.809] [INFO   ] thread dealer rm 1.
+[15:41:35.809] [INFO   ] thread dealer rm 2.
+[15:41:35.809] [INFO   ] remove  in the table step 1
+[15:41:35.809] [INFO   ] remove  in the table step 2
+[15:41:35.809] [INFO   ] thread dealer rm 3.
+[15:41:35.809] [INFO   ] thread dealer rm 5.
+[15:41:35.809] [INFO   ] thread dealer rm 6.slotQueue.size 3 the player is: 1
+[15:41:35.809] [INFO   ] thread dealer rm 7!!!.
+[15:41:35.809] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:35.809] [SEVERE ] removing player 2 token from slot 0
+[15:41:35.809] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:35.809] [INFO   ] thread dealer rm 9.
+[15:41:35.809] [INFO   ] thread dealer rm 6.slotQueue.size 2 the player is: 1
+[15:41:35.809] [INFO   ] thread dealer rm 7!!!.
+[15:41:35.809] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:35.809] [SEVERE ] removing player 2 token from slot 11
+[15:41:35.810] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:35.810] [INFO   ] thread dealer rm 9.
+[15:41:35.810] [INFO   ] thread dealer rm 6.slotQueue.size 1 the player is: 1
+[15:41:35.810] [INFO   ] thread dealer rm 7!!!.
+[15:41:35.810] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:35.810] [SEVERE ] removing player 2 token from slot 5
+[15:41:35.810] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:35.810] [INFO   ] thread dealer rm 9.
+[15:41:35.810] [INFO   ] thread dealer rm 17.
+[15:41:35.810] [INFO   ] thread dealer rm 18.
+[15:41:35.810] [INFO   ] thread dealerrm 19 .
+[15:41:35.810] [INFO   ] thread dealer rm 20.
+[15:41:35.810] [INFO   ] thread dealer rm 22.
+[15:41:35.810] [INFO   ] thread dealer rm 23.
+[15:41:35.810] [INFO   ] thread dealer rm 2.
+[15:41:35.810] [INFO   ] remove  in the table step 1
+[15:41:35.810] [INFO   ] remove  in the table step 2
+[15:41:35.810] [INFO   ] thread dealer rm 3.
+[15:41:35.810] [INFO   ] thread dealer rm 5.
+[15:41:35.810] [INFO   ] thread dealer rm 6.slotQueue.size 3 the player is: 0
+[15:41:35.810] [INFO   ] thread dealer rm 7!!!.
+[15:41:35.810] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:35.810] [SEVERE ] removing player 1 token from slot 0
+[15:41:35.810] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:35.810] [INFO   ] thread dealer rm 9.
+[15:41:35.810] [INFO   ] thread dealer rm 6.slotQueue.size 2 the player is: 0
+[15:41:35.810] [INFO   ] thread dealer rm 7!!!.
+[15:41:35.810] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:35.810] [SEVERE ] removing player 1 token from slot 11
+[15:41:35.810] [INFO   ] thread Thread-1 player was notified by dealer.
+[15:41:35.812] [INFO   ] penalty
+[15:41:35.813] [SEVERE ] setting player 2 freeze to 0
+[15:41:35.812] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:35.813] [INFO   ] thread dealer rm 9.
+[15:41:35.813] [INFO   ] thread dealer rm 6.slotQueue.size 1 the player is: 0
+[15:41:35.813] [INFO   ] thread dealer rm 7!!!.
+[15:41:35.813] [INFO   ] thread dealer rm 8 !!!!.
+[15:41:35.813] [SEVERE ] removing player 1 token from slot 9
+[15:41:35.813] [INFO   ] thread dealer rm 8.5 !!!!.
+[15:41:35.813] [INFO   ] thread dealer rm 9.
+[15:41:35.813] [INFO   ] thread dealer rm 17.
+[15:41:35.813] [INFO   ] thread dealer rm 18.
+[15:41:35.813] [INFO   ] thread dealerrm 19 .
+[15:41:35.813] [INFO   ] thread dealer rm 20.
+[15:41:35.813] [INFO   ] thread dealer rm 22.
+[15:41:35.813] [INFO   ] thread dealer rm 23.
+[15:41:35.813] [INFO   ] thread dealer timer loop 4.
+[15:41:35.813] [INFO   ] thread Thread-0 player was notified by dealer.
+[15:41:35.814] [INFO   ] penalty
+[15:41:35.814] [SEVERE ] setting player 1 freeze to 0
+[15:41:36.025] [INFO   ] thread dealer step 1.
+[15:41:36.025] [SEVERE ] updating countdown to 5957
+[15:41:36.025] [INFO   ] thread dealer step 2.
+[15:41:36.025] [INFO   ] thread dealer step 2.
+[15:41:36.025] [INFO   ] thread dealer step 2.
+[15:41:36.025] [INFO   ] thread dealer step 2.
+[15:41:36.025] [INFO   ] thread dealer step 2.
+[15:41:36.025] [INFO   ] thread dealer step 2.
+[15:41:36.025] [INFO   ] thread dealer step 2.
+[15:41:36.025] [INFO   ] thread dealer step 2.
+[15:41:36.025] [INFO   ] thread dealer step 2.
+[15:41:36.025] [INFO   ] thread dealer step 2.
+[15:41:36.025] [INFO   ] thread dealer step 2.
+[15:41:36.025] [INFO   ] thread dealer step 2.
+[15:41:36.025] [INFO   ] thread dealer step 3.
+[15:41:36.028] [INFO   ] thread dealer step 4.
+[15:41:36.028] [INFO   ] thread dealer step 10.
+[15:41:36.028] [INFO   ] thread dealer step 11.
+[15:41:36.028] [INFO   ] thread dealer step 12.
+[15:41:36.028] [INFO   ] thread dealer timer loop 5.
+[15:41:36.028] [INFO   ] thread dealer timer loop 1.
+[15:41:36.167] [INFO   ] thread computer-1 kp step 1.
+[15:41:36.167] [INFO   ] thread computer-1 kp step 2.true
+[15:41:36.167] [INFO   ] thread computer-0 kp step 1.
+[15:41:36.168] [INFO   ] thread computer-0 kp step 2.true
+[15:41:36.168] [INFO   ] thread computer-1 kp step 3.
+[15:41:36.168] [INFO   ] thread computer-1 kp step 10.
+[15:41:36.168] [INFO   ] thread computer-0 kp step 3.
+[15:41:36.168] [INFO   ] thread computer-0 kp step 10.
+[15:41:36.168] [INFO   ] thread computer-0 kp step 11.
+[15:41:36.168] [INFO   ] thread computer-1 kp step 11.
+[15:41:36.168] [INFO   ] thread computer-1 kp step 12.
+[15:41:36.168] [INFO   ] thread computer-0 kp step 12.
+[15:41:36.168] [SEVERE ] player 1 placing token on slot 2
+[15:41:36.168] [SEVERE ] player 2 placing token on slot 6
+[15:41:36.168] [INFO   ] thread computer-1 kp step 13.
+[15:41:36.168] [INFO   ] thread computer-0 kp step 13.
+[15:41:36.168] [INFO   ] thread computer-0 kp step 14.slot size1
+[15:41:36.168] [INFO   ] thread computer-1 kp step 14.slot size1
