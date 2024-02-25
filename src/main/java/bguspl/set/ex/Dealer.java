@@ -178,7 +178,7 @@ public class Dealer implements Runnable {
 
 				table.removeQueuePlayers(player); 
 
-				env.logger.info("thread " + Thread.currentThread().getName() + " rm 3.");
+				env.logger.info("thread " + Thread.currentThread().getName() + " rm 3."); 
  
 
 				//check the set
@@ -292,7 +292,7 @@ public class Dealer implements Runnable {
 		for (int i = 0; i < env.config.tableSize; i++){
             if (table.slotToCard[i] == null){
 				needReset = true;
-                if (env.config.deckSize > 0){
+                if (!deck.isEmpty()){
                     int card = deck.remove(0);
                     table.placeCard(card, i);
                 }
@@ -344,7 +344,7 @@ public class Dealer implements Runnable {
 
             //create lists for searching sets on deck + table
             List<Integer> deckForFindSets = new LinkedList<Integer>();
-            for(int i=0; i<env.config.deckSize; i++){
+            for(int i = 0; i < deck.size(); i++){
 				deckForFindSets.add(deck.get(i));
             }
 
@@ -386,7 +386,7 @@ public class Dealer implements Runnable {
     private synchronized void sleepUntilWokenOrTimeout() {
 		if (table.playersQueue.size()==0) { 
 			try {
-				wait(dealerSleepTime);
+				wait(100);
 			} catch (InterruptedException x) { Thread.currentThread().interrupt();}  
 		}
     }
@@ -395,41 +395,58 @@ public class Dealer implements Runnable {
      * Reset and/or update the countdown and the countdown display.
      */
     private void updateTimerDisplay(boolean reset) {
-        long timer;
+        // long timer;
 
-        if(env.config.turnTimeoutMillis == 0){
-            if (reset) {
-                env.ui.setElapsed(0);
-                lastUpdateForElapsed = System.currentTimeMillis();
-            } 
-            else {
-                timer = System.currentTimeMillis() - lastUpdateForElapsed;
-                env.ui.setElapsed(timer);
-            }
-        }
+        // if(env.config.turnTimeoutMillis == 0){
+        //     if (reset) {
+        //         env.ui.setElapsed(0);
+        //         lastUpdateForElapsed = System.currentTimeMillis();
+        //     } 
+        //     else {
+        //         timer = System.currentTimeMillis() - lastUpdateForElapsed;
+        //         env.ui.setElapsed(timer);
+        //     }
+        // }
 
-        else if(env.config.turnTimeoutMillis > 0) {
-            dealerSleepTime=second;
-            if(reset){
-                timer = env.config.turnTimeoutMillis;
-                if(timer <= env.config.turnTimeoutWarningMillis){
-                    env.ui.setCountdown(timer, true);
-                    dealerSleepTime = miliSec10;
-                }
-                else
-                    env.ui.setCountdown(timer, false);
-                    reshuffleTime = System.currentTimeMillis() + env.config.turnTimeoutMillis;
-            }
-            else{
-                timer = reshuffleTime - System.currentTimeMillis();
-                if(timer <= env.config.turnTimeoutWarningMillis){
-                    env.ui.setCountdown(timer , true);
-                    dealerSleepTime = miliSec10;
-                }
-                else
-                    env.ui.setCountdown(timer , false);
-            }
-        }
+        // else if(env.config.turnTimeoutMillis > 0) {
+        //     dealerSleepTime=second;
+        //     if(reset){
+        //         timer = env.config.turnTimeoutMillis;
+        //         if(timer <= env.config.turnTimeoutWarningMillis){
+        //             env.ui.setCountdown(timer, true);
+        //             dealerSleepTime = miliSec10;
+        //         }
+        //         else
+        //             env.ui.setCountdown(timer, false);
+        //             reshuffleTime = System.currentTimeMillis() + env.config.turnTimeoutMillis;
+        //     }
+        //     else{
+        //         timer = reshuffleTime - System.currentTimeMillis();
+        //         if(timer <= env.config.turnTimeoutWarningMillis){
+        //             env.ui.setCountdown(timer , true);
+        //             dealerSleepTime = miliSec10;
+        //         }
+        //         else
+        //             env.ui.setCountdown(timer , false);
+        //     }
+        // }
+
+		boolean warning= false;
+		if(reset){
+			if(env.config.turnTimeoutMillis <= env.config.turnTimeoutWarningMillis){
+				warning = true;
+			}
+			reshuffleTime = System.currentTimeMillis() + env.config.turnTimeoutMillis;
+			env.ui.setCountdown(env.config.turnTimeoutMillis, warning);
+		}
+		else{
+			long timeLeft = reshuffleTime - System.currentTimeMillis() + 50;
+			if(timeLeft <0){
+				timeLeft = 0;
+			}
+			warning =timeLeft <= env.config.turnTimeoutWarningMillis;
+			env.ui.setCountdown(timeLeft, warning);
+		}
     }
 
     /**
