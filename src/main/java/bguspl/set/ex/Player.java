@@ -55,16 +55,11 @@ public class Player implements Runnable {
     private int score;
 
 	//new fields
-    /**
-	 * queue of key presses
-	 */
 	BlockingQueue<Integer> slotQueue;
 
 	public final Object PlayerLock;
 
     public final Object aiPlayerLock;
-
-	int second = 1000;
 
     volatile boolean AICreated = false;
 
@@ -263,9 +258,9 @@ public class Player implements Runnable {
 
 		while(pointFreeze > 0){ 
 			try {
-				Thread.sleep(second); //cut the freeze time of point to seconds so the updateTimerDisplay function will update the time countdown currently
+				Thread.sleep(1000); //cut the freeze time of point to seconds so the updateTimerDisplay function will update the time countdown currently
 			} catch (InterruptedException e){Thread.currentThread().interrupt();}
-			pointFreeze = pointFreeze- second;
+			pointFreeze = pointFreeze - 1000;
 			env.ui.setFreeze(id, pointFreeze);
 		}
         int ignored = table.countCards(); // this part is just for demonstration in the unit tests
@@ -279,9 +274,9 @@ public class Player implements Runnable {
         env.ui.setFreeze(id, penaltyFreeze);
 		while(penaltyFreeze > 0){ 
 			try {
-				Thread.sleep(second); //same as point
+				Thread.sleep(1000); //same as point
 			} catch (InterruptedException e){}
-			penaltyFreeze =penaltyFreeze- second;
+			penaltyFreeze = penaltyFreeze - 1000;
 			env.ui.setFreeze(id, penaltyFreeze);
 		}
     }

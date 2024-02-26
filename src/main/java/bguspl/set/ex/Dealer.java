@@ -5,7 +5,6 @@ import bguspl.set.Env;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.text.DecimalFormat;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -40,14 +39,7 @@ public class Dealer implements Runnable {
      */
     private long reshuffleTime = Long.MAX_VALUE;
  
-    //new fields
-    long lastUpdateForElapsed;
 
-    int second = 1000;
-
-    long dealerSleepTime=1000;
-
-    int miliSec10 = 10;	
 
 	public Dealer(Env env, Table table, Player[] players) {
 
@@ -56,10 +48,7 @@ public class Dealer implements Runnable {
 		this.players = players;
 		deck = IntStream.range(0, env.config.deckSize).boxed().collect(Collectors.toList());
 		terminate = false;
-		if (env.config.turnTimeoutMillis > 0)
-			reshuffleTime = env.config.turnTimeoutMillis + System.currentTimeMillis(); //minute
-		else
-			lastUpdateForElapsed = System.currentTimeMillis();
+		reshuffleTime = env.config.turnTimeoutMillis + System.currentTimeMillis(); 
 	}
 
     /**
@@ -134,12 +123,9 @@ public class Dealer implements Runnable {
      */
     private void removeCardsFromTable() { 
 
-        //freezeAllPlayers(env.config.tableDelayMillis);
-
 		//check if there is a valid set and remove the cards
 		for (Player player : table.playersQueue) {
 			table.canPlaceTokens=false;
-			//start of check set ad
 			table.removeQueuePlayers(player);  
 
 			//check the set
@@ -147,32 +133,32 @@ public class Dealer implements Runnable {
 				player.isSetFound = true;
 			}
 
-			//remove the set cards from the player data
-			//for (int j = 0; j <env.config.featureSize; j++){
+			//remove the tokens from the table
 			while(!player.slotQueue.isEmpty()){
-				int slot; //added by rh
-				synchronized(player.slotQueue){ //added by rh 
+				int slot; 
+				synchronized(player.slotQueue){
 					slot = player.slotQueue.poll();
 				}
 				table.removeToken(player.id, slot); 
 
+				//remove the cards from table if set is found
 				if(player.isSetFound){
 					table.removeCard(slot);
 
 					//remove the tokens of the cards that were removed from the table from the other players
-					for (Player playerSlot : players) { //start remove all tokens ad
+					for (Player playerSlot : players) { 
 						if(player.id != playerSlot.id && playerSlot.slotQueue.contains(slot)){
 							table.removeToken(playerSlot.id, slot);
 
-							//check if the player. is in the queue of players
+							//check if the player is in the queue of players
 							synchronized(playerSlot.slotQueue){
 								if(playerSlot.slotQueue.contains(slot)){
 									playerSlot.slotQueue.remove(slot); 
 								}
 							}
-							
-							if(table.playersQueue.contains(playerSlot)){ //???
-								table.removeQueuePlayers(playerSlot); //??
+							//if the player is in the queue of players, remove him
+							if(table.playersQueue.contains(playerSlot)){ 
+								table.removeQueuePlayers(playerSlot);
 								synchronized(playerSlot) {
 									playerSlot.notifyAll();
 								}
@@ -181,28 +167,29 @@ public class Dealer implements Runnable {
 					}
 				}
 			}
-				table.canPlaceTokens = true;
-				synchronized(table.lock){
-					table.lock.notifyAll();					
-				}
-				synchronized(player) {
-					player.notifyAll();
-				}
+			table.canPlaceTokens = true;
+			synchronized(table.lock){
+				table.lock.notifyAll();					
+			}
+			synchronized(player) {
+				player.notifyAll();
 			}
 		}
+	}
 
     /**
      * Check if any cards can be removed from the deck and placed on the table.
      */
     private void placeCardsOnTable() {
-        //freezeAllPlayers(env.config.tableDelayMillis); 
+
 		table.canPlaceTokens=false;
+		boolean needReset = false; //if there is set or turn timeout
 
 		shuffleDeck();
-		boolean needReset = false;
-        //place cards on null slots- removed cards 
+
+        //place cards on empty slots on the table
 		for (int i = 0; i < env.config.tableSize; i++){
-            if (table.slotToCard[i] == null){
+            if (table.slotToCard[i] == null ){ //&& !deck.isEmpty()
 				needReset = true;
                 if (!deck.isEmpty()){
                     int card = deck.remove(0);
@@ -216,19 +203,16 @@ public class Dealer implements Runnable {
 		else {
 			updateTimerDisplay(false); 
 		}
-		// if(deck.isEmpty()){
-		// 	isDeckEmpty = true;
-		// }
 
-        //create lists for searching sets on table
-        List<Integer>cardListTable=new LinkedList<Integer>();
+        //create list for find sets on table
+        List<Integer>cardsFromTable = new LinkedList<Integer>();
         for(int i=0; i<table.slotToCard.length; i++){
-             if(table.slotToCard[i] != null){
-                cardListTable.add(table.slotToCard[i]);
-             }
-         }
+            if(table.slotToCard[i] != null){
+            	cardsFromTable.add(table.slotToCard[i]);
+            }
+        }
 		//check if there is a valid set on the table
-        List<int[]> findSetsTable = env.util.findSets(cardListTable, env.config.featureSize);
+        List<int[]> findSetsTable = env.util.findSets(cardsFromTable, env.config.featureSize);
 
         if(findSetsTable.size()==0){ // no set on table
             if(deck.size() == 0){ //and no cards in deck
@@ -241,13 +225,13 @@ public class Dealer implements Runnable {
             }
 			else{
 				removeAllCardsFromTable();
-				//create lists for searching sets on deck + table
-				List<Integer> deckForFindSets = new LinkedList<Integer>();
+				//create list for find sets on deck + table
+				List<Integer> cardsFromTableAndDeck = new LinkedList<Integer>();
 				for(int i = 0; i < deck.size(); i++){
-					deckForFindSets.add(deck.get(i));
+					cardsFromTableAndDeck.add(deck.get(i));
 				}
 				//check if there are sets on deck + table
-				List<int[]> findSetsDeck = env.util.findSets(deckForFindSets, env.config.featureSize);
+				List<int[]> findSetsDeck = env.util.findSets(cardsFromTableAndDeck, env.config.featureSize);
 	
 				if(findSetsDeck.size()==0){ //no sets on deck + table
 					table.canPlaceTokens = true;
@@ -273,7 +257,7 @@ public class Dealer implements Runnable {
     private synchronized void sleepUntilWokenOrTimeout() {
 		if (table.playersQueue.size()==0) { 
 			try {
-				wait(100); //changet
+				wait(100);
 			} catch (InterruptedException x) { Thread.currentThread().interrupt();}  
 		}
     }
@@ -282,7 +266,9 @@ public class Dealer implements Runnable {
      * Reset and/or update the countdown and the countdown display.
      */
     private void updateTimerDisplay(boolean reset) {
+
 		boolean warning= false;
+
 		if(reset){
 			if(env.config.turnTimeoutMillis <= env.config.turnTimeoutWarningMillis){
 				warning = true;
@@ -295,7 +281,12 @@ public class Dealer implements Runnable {
 			if(timeLeft < 0){
 				timeLeft = 0;
 			}
-			warning =timeLeft <= env.config.turnTimeoutWarningMillis;
+			if(timeLeft <= env.config.turnTimeoutWarningMillis){
+				warning = true;
+			}
+			else{
+				warning = false;
+			}
 			env.ui.setCountdown(timeLeft, warning);
 		}
     }
@@ -304,9 +295,19 @@ public class Dealer implements Runnable {
      * Returns all the cards from the table to the deck.
      */
     private void removeAllCardsFromTable() {
+
         table.canPlaceTokens=false;
 
-        //empty the queue of players in the table
+		//remove all the tokens from the table
+		for(int i = 0; i < env.config.players; i++){
+			synchronized(players[i].slotQueue){
+				while (!players[i].slotQueue.isEmpty()){
+					int slot = players[i].slotQueue.poll();
+					table.removeToken(players[i].id, slot);
+				}
+			}
+		}
+        //empty the queue of players
         for(int i = 0; i < players.length; i++){ 
             for( Player player : table.playersQueue){
                 synchronized(player){
@@ -315,18 +316,6 @@ public class Dealer implements Runnable {
                 }
             }
         }
-		//remove all the tokens from the table
-        for(int i = 0; i < env.config.players; i++){
-			synchronized(players[i].slotQueue){
-				while (!players[i].slotQueue.isEmpty()) {
-            	//for (int j = 0; j < players[i].slotQueue.size(); j++){
-					int slot = players[i].slotQueue.poll();
-					table.removeToken(players[i].id, slot);
-					// j--;
-				}
-            }
-        }
-		updateTimerDisplay(false);
 
         //remove all the cards from the table
         for (int i = 0; i < env.config.tableSize; i++){
@@ -350,16 +339,19 @@ public class Dealer implements Runnable {
         int winnerScore = 0;
         int numOfWinner = 0; 
 
+		//Find the highest score
 		for (int i = 0; i < players.length; i++) {
 			if (players[i].score() > winnerScore) {
 				winnerScore = players[i].score();
 			}
 		}
+		//find the number of winners
         for (int i = 0; i < players.length; i++) {
             if (players[i].score() == winnerScore) {
                 numOfWinner++;
             }
         }
+		//create an array of the winners
 		int [] winners = new int[numOfWinner];
 		int index = 0;
 		for (int i = 0; i < players.length; i++) {
@@ -372,7 +364,7 @@ public class Dealer implements Runnable {
     }
 
 	//new methods
-	public boolean checkSet(Queue<Integer> playerSlotQueue ) {
+	public boolean checkSet(Queue<Integer> playerSlotQueue) {
 		int[] cards = new int[playerSlotQueue.size()];
         for (int i = 0; i < playerSlotQueue.size(); i++) {
 			int slot = playerSlotQueue.poll();
@@ -382,22 +374,11 @@ public class Dealer implements Runnable {
 		return env.util.testSet(cards);
 	}
 
-	// public void checkSetResult(Player player) {
-	// 	if(checkSet(player.slotQueue)){ 
-	// 		setFound = true;
-	// 		player.point();  
-	// 	}
-	// 	else{
-	// 		setFound = false;
-	// 		player.penalty();
-	// 	}
-	// }
-
     public void shuffleDeck() {
 		Collections.shuffle(deck);
     }
 
-    public void freezeAllPlayers(long time) { //problem with static
+    public void freezeAllPlayers(long time) { 
         for (Player player : players) {
             try {
                 player.getPlayerThread().sleep(time);
