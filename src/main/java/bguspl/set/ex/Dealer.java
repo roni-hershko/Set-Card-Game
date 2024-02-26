@@ -96,14 +96,13 @@ public class Dealer implements Runnable {
      * Called when the game should be terminated.
      */
     public void terminate() {
-        //freezeAllPlayers(env.config.endGamePauseMillies); 
 		if(!terminate){
 			for (int i = players.length -1; i >= 0; i--) {
 
                 players[i].terminate();
-                try { //mabye not needed
-                    players[i].getPlayerThread().join(); //mabye not needed
-                } catch (InterruptedException e) { } //mabye not needed
+                try { 
+                    players[i].getPlayerThread().join(); 
+                } catch (InterruptedException e) { } 
  	  		}
 		}
 	    terminate = true;

@@ -76,12 +76,12 @@ public class Player implements Runnable {
 	/**
      * The class constructor.
      *
-     * @param env    
+     * @param env    - the environment object.
+     * @param dealer - the dealer object.
      * @param table  - the table object.
      * @param id     - the id of the player.
      * @param human  - true iff the player is a human player (i.e. input is provided manually, via the keyboard).
      */
-
     public Player(Env env, Dealer dealer, Table table, int id, boolean human) {
 
         this.env = env;
@@ -101,8 +101,7 @@ public class Player implements Runnable {
     public void run() { 
         playerThread = Thread.currentThread();
         env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
-        if (!human) {
-            createArtificialIntelligence();
+        if (!human) { createArtificialIntelligence();
             synchronized (aiPlayerLock) { 
                 if(!AICreated) {
                     try { 
@@ -156,10 +155,12 @@ public class Player implements Runnable {
     private void createArtificialIntelligence() { 
         // note: this is a very, very smart AI (!)
         aiThread = new Thread(() -> {
-            AICreated = true;
             env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
+			AICreated = true;
+			
+			//wake up the player thread
             synchronized (aiPlayerLock) { 
-                aiPlayerLock.notifyAll(); //wake up the player thread
+                aiPlayerLock.notifyAll(); 
             }
             while (!terminate) {
                 synchronized (this) {
@@ -173,9 +174,7 @@ public class Player implements Runnable {
                             }
                         }
                     }
-
-					int randomSlot = RandomSlot();
-					keyPressed(randomSlot);
+					keyPressed(RandomSlot());
 					while (isReadyToCheck) {
 						try {
 							notifyAll();
@@ -193,7 +192,6 @@ public class Player implements Runnable {
      * Called when the game should be terminated.
      */
     public void terminate() {
-        isReadyToCheck = false;
 		terminate = true;
 
 		if (!human) 
@@ -234,7 +232,6 @@ public class Player implements Runnable {
 					table.placeToken(id, slot); //place the token on the table
 				}
 			}
-
 			synchronized(this){
 				if(slotQueue.size() == env.config.featureSize && !terminate){
 					isReadyToCheck= true;
@@ -258,7 +255,7 @@ public class Player implements Runnable {
 
 		while(pointFreeze > 0){ 
 			try {
-				Thread.sleep(1000); //cut the freeze time of point to seconds so the updateTimerDisplay function will update the time countdown currently
+				Thread.sleep(1000); //cut the freeze time of point to seconds so the updateTimerDisplay function will update the time countdown correctly
 			} catch (InterruptedException e){Thread.currentThread().interrupt();}
 			pointFreeze = pointFreeze - 1000;
 			env.ui.setFreeze(id, pointFreeze);

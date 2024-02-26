@@ -1,0 +1,138 @@
+[17:41:34.951] [INFO   ] thread main starting.
+[17:41:34.958] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[17:41:34.961] [SEVERE ] configuration file was loaded from resources directory.
+[17:41:35.499] [INFO   ] thread dealer starting.
+[17:41:35.499] [INFO   ] thread dealer starting.
+[17:41:35.499] [INFO   ] thread Thread-0 starting.
+[17:41:35.499] [INFO   ] thread Thread-1 starting.
+[17:41:35.499] [SEVERE ] updating countdown to 20000
+[17:41:35.614] [SEVERE ] placing card 0 in slot 0
+[17:41:35.715] [SEVERE ] placing card 48 in slot 1
+[17:41:35.831] [SEVERE ] placing card 17 in slot 2
+[17:41:35.935] [SEVERE ] placing card 67 in slot 3
+[17:41:36.048] [SEVERE ] placing card 15 in slot 4
+[17:41:36.150] [SEVERE ] placing card 47 in slot 5
+[17:41:36.262] [SEVERE ] placing card 18 in slot 6
+[17:41:36.364] [SEVERE ] placing card 70 in slot 7
+[17:41:36.465] [SEVERE ] placing card 44 in slot 8
+[17:41:36.567] [SEVERE ] placing card 14 in slot 9
+[17:41:36.682] [SEVERE ] placing card 31 in slot 10
+[17:41:36.785] [SEVERE ] placing card 22 in slot 11
+[17:41:36.785] [SEVERE ] updating countdown to 20000
+[17:41:36.898] [SEVERE ] updating countdown to 19937
+[17:41:36.899] [SEVERE ] updating countdown to 19936
+[17:41:37.012] [SEVERE ] updating countdown to 19823
+[17:41:37.012] [SEVERE ] updating countdown to 19823
+[17:41:37.121] [SEVERE ] updating countdown to 19714
+[17:41:37.121] [SEVERE ] updating countdown to 19714
+[17:41:37.230] [SEVERE ] updating countdown to 19605
+[17:41:37.230] [SEVERE ] updating countdown to 19605
+[17:41:37.340] [SEVERE ] updating countdown to 19495
+[17:41:37.340] [SEVERE ] updating countdown to 19495
+[17:41:37.449] [SEVERE ] updating countdown to 19386
+[17:41:37.449] [SEVERE ] updating countdown to 19386
+[17:41:37.559] [SEVERE ] updating countdown to 19276
+[17:41:37.559] [SEVERE ] updating countdown to 19276
+[17:41:37.668] [SEVERE ] updating countdown to 19167
+[17:41:37.668] [SEVERE ] updating countdown to 19167
+[17:41:37.778] [SEVERE ] updating countdown to 19057
+[17:41:37.778] [SEVERE ] updating countdown to 19057
+[17:41:37.887] [SEVERE ] updating countdown to 18948
+[17:41:37.887] [SEVERE ] updating countdown to 18948
+[17:41:37.997] [SEVERE ] updating countdown to 18838
+[17:41:37.997] [SEVERE ] updating countdown to 18838
+[17:41:38.107] [SEVERE ] updating countdown to 18728
+[17:41:38.107] [SEVERE ] updating countdown to 18728
+[17:41:38.216] [SEVERE ] updating countdown to 18619
+[17:41:38.216] [SEVERE ] updating countdown to 18619
+[17:41:38.325] [SEVERE ] updating countdown to 18510
+[17:41:38.325] [SEVERE ] updating countdown to 18510
+[17:41:38.435] [SEVERE ] updating countdown to 18400
+[17:41:38.435] [SEVERE ] updating countdown to 18400
+[17:41:38.544] [SEVERE ] updating countdown to 18291
+[17:41:38.544] [SEVERE ] updating countdown to 18291
+[17:41:38.653] [SEVERE ] updating countdown to 18182
+[17:41:38.653] [SEVERE ] updating countdown to 18182
+[17:41:38.763] [SEVERE ] updating countdown to 18072
+[17:41:38.763] [SEVERE ] updating countdown to 18072
+[17:41:38.872] [SEVERE ] updating countdown to 17963
+[17:41:38.872] [SEVERE ] updating countdown to 17963
+[17:41:38.983] [SEVERE ] updating countdown to 17852
+[17:41:38.983] [SEVERE ] updating countdown to 17852
+[17:41:39.092] [SEVERE ] updating countdown to 17743
+[17:41:39.092] [SEVERE ] updating countdown to 17743
+[17:41:39.201] [SEVERE ] updating countdown to 17634
+[17:41:39.201] [SEVERE ] updating countdown to 17634
+[17:41:39.311] [SEVERE ] updating countdown to 17524
+[17:41:39.311] [SEVERE ] updating countdown to 17524
+[17:41:39.420] [SEVERE ] updating countdown to 17415
+[17:41:39.420] [SEVERE ] updating countdown to 17415
+[17:41:39.530] [SEVERE ] updating countdown to 17305
+[17:41:39.530] [SEVERE ] updating countdown to 17305
+[17:41:39.639] [SEVERE ] updating countdown to 17196
+[17:41:39.639] [SEVERE ] updating countdown to 17196
+[17:41:39.748] [SEVERE ] updating countdown to 17087
+[17:41:39.748] [SEVERE ] updating countdown to 17087
+[17:41:39.858] [SEVERE ] updating countdown to 16977
+[17:41:39.858] [SEVERE ] updating countdown to 16977
+[17:41:39.967] [SEVERE ] updating countdown to 16868
+[17:41:39.967] [SEVERE ] updating countdown to 16868
+[17:41:40.077] [SEVERE ] updating countdown to 16758
+[17:41:40.077] [SEVERE ] updating countdown to 16758
+[17:41:40.186] [SEVERE ] updating countdown to 16649
+[17:41:40.186] [SEVERE ] updating countdown to 16649
+[17:41:40.296] [SEVERE ] updating countdown to 16539
+[17:41:40.296] [SEVERE ] updating countdown to 16539
+[17:41:40.405] [SEVERE ] updating countdown to 16430
+[17:41:40.405] [SEVERE ] updating countdown to 16430
+[17:41:40.515] [SEVERE ] updating countdown to 16320
+[17:41:40.515] [SEVERE ] updating countdown to 16320
+[17:41:40.624] [SEVERE ] updating countdown to 16211
+[17:41:40.624] [SEVERE ] updating countdown to 16211
+[17:41:40.734] [SEVERE ] updating countdown to 16101
+[17:41:40.734] [SEVERE ] updating countdown to 16101
+[17:41:40.843] [SEVERE ] updating countdown to 15992
+[17:41:40.843] [SEVERE ] updating countdown to 15992
+[17:41:40.953] [SEVERE ] updating countdown to 15882
+[17:41:40.953] [SEVERE ] updating countdown to 15882
+[17:41:41.063] [SEVERE ] updating countdown to 15772
+[17:41:41.063] [SEVERE ] updating countdown to 15772
+[17:41:41.173] [SEVERE ] updating countdown to 15662
+[17:41:41.173] [SEVERE ] updating countdown to 15662
+[17:41:41.204] [SEVERE ] exit button pressed
+[17:41:41.204] [SEVERE ] setting player 2 freeze to 3000
+[17:41:41.204] [SEVERE ] updating countdown to 15631
+[17:41:41.216] [SEVERE ] setting player 2 freeze to 2000
+[17:41:41.216] [INFO   ] remove  in the table step 1
+[17:41:41.217] [INFO   ] remove  in the table step 2
+[17:41:42.217] [SEVERE ] setting player 2 freeze to 1000
+[17:41:43.232] [SEVERE ] setting player 2 freeze to 0
+[17:41:43.233] [INFO   ] thread Thread-1 terminated.
+[17:41:43.233] [SEVERE ] updating countdown to 13602
+[17:41:43.233] [SEVERE ] setting player 1 freeze to 3000
+[17:41:43.234] [SEVERE ] setting player 1 freeze to 2000
+[17:41:43.235] [SEVERE ] updating countdown to 13600
+[17:41:43.235] [INFO   ] remove  in the table step 1
+[17:41:43.235] [INFO   ] remove  in the table step 2
+[17:41:44.241] [SEVERE ] setting player 1 freeze to 1000
+[17:41:45.247] [SEVERE ] setting player 1 freeze to 0
+[17:41:45.248] [INFO   ] thread Thread-0 terminated.
+[17:41:45.248] [SEVERE ] updating countdown to 11587
+[17:41:45.249] [SEVERE ] updating countdown to 11586
+[17:41:45.364] [SEVERE ] removing card from slot 0
+[17:41:45.474] [SEVERE ] removing card from slot 1
+[17:41:45.583] [SEVERE ] removing card from slot 2
+[17:41:45.692] [SEVERE ] removing card from slot 3
+[17:41:45.802] [SEVERE ] removing card from slot 4
+[17:41:45.904] [SEVERE ] removing card from slot 5
+[17:41:46.014] [SEVERE ] removing card from slot 6
+[17:41:46.123] [SEVERE ] removing card from slot 7
+[17:41:46.233] [SEVERE ] removing card from slot 8
+[17:41:46.342] [SEVERE ] removing card from slot 9
+[17:41:46.452] [SEVERE ] removing card from slot 10
+[17:41:46.561] [SEVERE ] removing card from slot 11
+[17:41:46.561] [SEVERE ] announcing winner(s): player 1, player 2
+[17:41:46.561] [INFO   ] thread dealer terminated.
+[17:41:46.561] [INFO   ] thread dealer terminated.
+[17:41:46.561] [SEVERE ] thanks for playing... it was fun!
+[17:41:46.561] [INFO   ] thread main terminated.
