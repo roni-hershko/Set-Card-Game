@@ -134,28 +134,26 @@ public class Player implements Runnable {
                     }
                 } catch (InterruptedException e) {Thread.currentThread().interrupt();}
 
-				env.logger.info("thread " + Thread.currentThread().getName() + " player was notified by dealer." + " the player is: "+ id +"there are " + slotQueue.size() +" slots");
 				//if(isReadyToCheck)
-                	table.addQueuePlayers(this);    
+                table.addQueuePlayers(this);    
 		
 			    synchronized(dealer){
 					dealer.notifyAll();
 				}
 				//while(!isChecked){///maybe need to remove the while
-					try {
-						//notifyAll(); // added
-						wait();
-					} catch (InterruptedException e) { Thread.currentThread().interrupt(); } 
-					env.logger.info("thread " + Thread.currentThread().getName() + " player was notified by dealer.") ;
+				try {
+					//notifyAll(); // added
+					wait();
+				} catch (InterruptedException e) { Thread.currentThread().interrupt(); } 
 
-					if(isSetFound){
-						point();  
-					}	
-					else{
-						penalty();
-					}
-					isSetFound = false;
-					isReadyToCheck = false;
+				if(isSetFound){
+					point();  
+				}	
+				else{
+					penalty();
+				}
+				isSetFound = false;
+				isReadyToCheck = false;
 			}
 		}
 		Thread.interrupted();
@@ -187,9 +185,6 @@ public class Player implements Runnable {
                             }
                         }
                     }
-					try{
-						Thread.sleep(350);
-					} catch (InterruptedException e) {Thread.currentThread().interrupt();}
 
 					int randomSlot = (int) (Math.random() * env.config.tableSize);
 					keyPressed(randomSlot);
@@ -228,8 +223,6 @@ public class Player implements Runnable {
      * @param slot - the slot corresponding to the key pressed.
      */
     public void keyPressed(int slot) {
-		env.logger.info("thread " + Thread.currentThread().getName() + " kp step 1.");
-
 		// if(!table.canPlaceTokens){
 		// 	try {
 		// 		synchronized (table.lock) {
@@ -239,62 +232,32 @@ public class Player implements Runnable {
 		// }
 
 		synchronized(slotQueue){
-			env.logger.info("thread " + Thread.currentThread().getName() + " kp step 2." + table.canPlaceTokens);
 
 			if(table.slotToCard[slot] != null  && table.canPlaceTokens){
-				env.logger.info("thread " + Thread.currentThread().getName() + " kp step 3.");
-
 				boolean isDoubleClick = false;	
 
 				for(int i = 0; i < slotQueue.size(); i++){
-					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 4.");
-
 					int currSlot= slotQueue.poll(); 
-					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 5.");
-					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 6.");
-
 					if(currSlot != slot){
 						slotQueue.add(currSlot);
-						env.logger.info("thread " + Thread.currentThread().getName() + " kp step 7. num in q ");
-
 					}
 
 					//if the key is pressed twice, remove the token from the table
 					else{
-						env.logger.info("thread " + Thread.currentThread().getName() + " kp step 8.");
-
 						isDoubleClick = true;
 						table.removeToken(id, slot);
-						env.logger.info("thread " + Thread.currentThread().getName() + " kp step 9.");
-
-						//queueCounter--;
 					}
 				}
-				env.logger.info("thread " + Thread.currentThread().getName() + " kp step 10.");
-
 				if (!isDoubleClick && slotQueue.size() < env.config.featureSize) {
-					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 11. num in q "+ slotQueue.size()+" slot: "+slot);
 					slotQueue.add(slot); //add the key press to the queue
-					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 12. num in q "+ slotQueue.size());
-
-					//queueCounter++;
 					table.placeToken(id, slot); //place the token on the table
-					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 13.");
-
 				}
 			}
 
 			synchronized(this){
-				env.logger.info("thread " + Thread.currentThread().getName() + " kp step 14." + "slot size" +slotQueue.size());
-
 				if(slotQueue.size() == env.config.featureSize && !terminate){
-					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 15.");
-
 					isReadyToCheck= true;
 					notifyAll();
-					env.logger.info("thread " + Thread.currentThread().getName() + " kp step 16.");
-
-
 				}
 			}
 		}
@@ -307,8 +270,6 @@ public class Player implements Runnable {
      * @post - the player's score is updated in the ui.
      */
     public void point() {
-        env.logger.info("point");
-
 		score++;
 		env.ui.setScore(id, score);
 		long pointFreeze = env.config.pointFreezeMillis;
@@ -328,7 +289,6 @@ public class Player implements Runnable {
      * Penalize a player and perform other related actions.
      */
     public void penalty() {
-		env.logger.info("penalty");
 		long penaltyFreeze = env.config.penaltyFreezeMillis;
         env.ui.setFreeze(id, penaltyFreeze);
 		while(penaltyFreeze > 0){ 
