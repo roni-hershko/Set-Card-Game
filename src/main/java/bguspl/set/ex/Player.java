@@ -230,18 +230,18 @@ public class Player implements Runnable {
     public void keyPressed(int slot) {
 		env.logger.info("thread " + Thread.currentThread().getName() + " kp step 1.");
 
-		if(!table.canPlaceTokens){
-			try {
-				synchronized (table.lock) {
-					table.lock.wait();
-				}
-			} catch (InterruptedException e) {Thread.currentThread().interrupt();}
-		}
+		// if(!table.canPlaceTokens){
+		// 	try {
+		// 		synchronized (table.lock) {
+		// 			table.lock.wait();
+		// 		}
+		// 	} catch (InterruptedException e) {Thread.currentThread().interrupt();}
+		// }
 
 		synchronized(slotQueue){
 			env.logger.info("thread " + Thread.currentThread().getName() + " kp step 2." + table.canPlaceTokens);
 
-			if(table.slotToCard[slot] != null){
+			if(table.slotToCard[slot] != null  && table.canPlaceTokens){
 				env.logger.info("thread " + Thread.currentThread().getName() + " kp step 3.");
 
 				boolean isDoubleClick = false;	

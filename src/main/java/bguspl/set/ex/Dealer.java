@@ -190,7 +190,9 @@ public class Dealer implements Runnable {
 				env.logger.info("thread " + Thread.currentThread().getName() + " rm 5.");
 
 				//remove the set cards from the player data
-				for (int j = 0; j <env.config.featureSize; j++){
+				//for (int j = 0; j <env.config.featureSize; j++){
+				while(!player.slotQueue.isEmpty()){
+
 					env.logger.info("thread " + Thread.currentThread().getName() + " rm 6."+ "slotQueue.size " + player.slotQueue.size() + " the player is: "+ player.id);
 
 					//updateTimerDisplay(false); //remember to remove
@@ -239,7 +241,7 @@ public class Dealer implements Runnable {
 								}
 								env.logger.info("thread " + Thread.currentThread().getName() + " rm 15.");
 
-								if(table.playersQueue.contains(playerSlot)){ //???}
+								if(table.playersQueue.contains(playerSlot)){ //???
 									table.removeQueuePlayers(playerSlot); //??
 								}
 							}
@@ -470,13 +472,14 @@ public class Dealer implements Runnable {
         //remove all the tokens from the table
         for(int i = 0; i < env.config.players; i++){
 			synchronized(players[i].slotQueue){
-            	for (int j = 0; j < players[i].slotQueue.size(); j++){
+				while (!players[i].slotQueue.isEmpty()) {
+            	//for (int j = 0; j < players[i].slotQueue.size(); j++){
 					env.logger.info("thread " + Thread.currentThread().getName() + " rm all 3" + players[i].slotQueue.size());
 					int slot = players[i].slotQueue.poll();
 					env.logger.info("thread " + Thread.currentThread().getName() + " rm all 4" + "slot to remove: " +slot);
 
 					table.removeToken(players[i].id, slot);
-					j--;
+					// j--;
 					env.logger.info("thread " + Thread.currentThread().getName() + " rm all 5" + "token removed: " +slot);
 				}
             }
