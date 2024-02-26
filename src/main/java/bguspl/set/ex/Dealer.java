@@ -47,13 +47,7 @@ public class Dealer implements Runnable {
 
     long dealerSleepTime=1000;
 
-    int miliSec10 = 10;
-
-	//int miliSec100 = 100;
-
-	//private volatile boolean isDeckEmpty = false;
-
-	
+    int miliSec10 = 10;	
 
 	public Dealer(Env env, Table table, Player[] players) {
 
@@ -102,7 +96,6 @@ public class Dealer implements Runnable {
 	private void timerLoop() {
 
         while (!terminate && System.currentTimeMillis() < reshuffleTime) {
-
 			sleepUntilWokenOrTimeout();
             updateTimerDisplay(false);
             removeCardsFromTable();
@@ -114,18 +107,17 @@ public class Dealer implements Runnable {
      * Called when the game should be terminated.
      */
     public void terminate() {
-        freezeAllPlayers(env.config.endGamePauseMillies); 
+        //freezeAllPlayers(env.config.endGamePauseMillies); 
 		if(!terminate){
 			for (int i = players.length -1; i >= 0; i--) {
 
                 players[i].terminate();
-            //     try { //mabye not needed
-            //         players[i].getPlayerThread().join(); //mabye not needed
-            //     } catch (InterruptedException e) { } //mabye not needed
+                try { //mabye not needed
+                    players[i].getPlayerThread().join(); //mabye not needed
+                } catch (InterruptedException e) { } //mabye not needed
  	  		}
 		}
 	    terminate = true;
-        //Thread.currentThread().interrupt();
 	}
 
     /**
@@ -224,10 +216,9 @@ public class Dealer implements Runnable {
 		else {
 			updateTimerDisplay(false); 
 		}
-
-		//if(deck.isEmpty()){
-		//	isDeckEmpty = true;
-		//}
+		// if(deck.isEmpty()){
+		// 	isDeckEmpty = true;
+		// }
 
         //create lists for searching sets on table
         List<Integer>cardListTable=new LinkedList<Integer>();
@@ -245,30 +236,30 @@ public class Dealer implements Runnable {
 				synchronized(table.lock){
 					table.lock.notifyAll(); 
 				}
-				// removeAllCardsFromTable();
+				removeAllCardsFromTable();
                 terminate();
             }
-			// else{
+			else{
 				removeAllCardsFromTable();
-				 //create lists for searching sets on deck + table
-				 List<Integer> deckForFindSets = new LinkedList<Integer>();
-				 for(int i = 0; i < deck.size(); i++){
-					 deckForFindSets.add(deck.get(i));
-				 }
-				 //check if there are sets on deck + table
-				 List<int[]> findSetsDeck = env.util.findSets(deckForFindSets, env.config.featureSize);
-	 
-				 if(findSetsDeck.size()==0){ //no sets on deck + table
-					 table.canPlaceTokens = true;
-					 synchronized(table.lock){
-						 table.lock.notifyAll(); 
-					 }
-					 terminate();
-				 }
-				//  else{
+				//create lists for searching sets on deck + table
+				List<Integer> deckForFindSets = new LinkedList<Integer>();
+				for(int i = 0; i < deck.size(); i++){
+					deckForFindSets.add(deck.get(i));
+				}
+				//check if there are sets on deck + table
+				List<int[]> findSetsDeck = env.util.findSets(deckForFindSets, env.config.featureSize);
+	
+				if(findSetsDeck.size()==0){ //no sets on deck + table
+					table.canPlaceTokens = true;
+					synchronized(table.lock){
+						table.lock.notifyAll(); 
+					}
+					terminate();
+				}
+				else{
 					placeCardsOnTable();
-				//  }
-			// }
+				}
+			}
         }
         table.canPlaceTokens = true;
         synchronized(table.lock){
@@ -291,42 +282,6 @@ public class Dealer implements Runnable {
      * Reset and/or update the countdown and the countdown display.
      */
     private void updateTimerDisplay(boolean reset) {
-        // long timer;
-
-        // if(env.config.turnTimeoutMillis == 0){
-        //     if (reset) {
-        //         env.ui.setElapsed(0);
-        //         lastUpdateForElapsed = System.currentTimeMillis();
-        //     } 
-        //     else {
-        //         timer = System.currentTimeMillis() - lastUpdateForElapsed;
-        //         env.ui.setElapsed(timer);
-        //     }
-        // }
-
-        // else if(env.config.turnTimeoutMillis > 0) {
-        //     dealerSleepTime=second;
-        //     if(reset){
-        //         timer = env.config.turnTimeoutMillis;
-        //         if(timer <= env.config.turnTimeoutWarningMillis){
-        //             env.ui.setCountdown(timer, true);
-        //             dealerSleepTime = miliSec10;
-        //         }
-        //         else
-        //             env.ui.setCountdown(timer, false);
-        //             reshuffleTime = System.currentTimeMillis() + env.config.turnTimeoutMillis;
-        //     }
-        //     else{
-        //         timer = reshuffleTime - System.currentTimeMillis();
-        //         if(timer <= env.config.turnTimeoutWarningMillis){
-        //             env.ui.setCountdown(timer , true);
-        //             dealerSleepTime = miliSec10;
-        //         }
-        //         else
-        //             env.ui.setCountdown(timer , false);
-        //     }
-        // }
-
 		boolean warning= false;
 		if(reset){
 			if(env.config.turnTimeoutMillis <= env.config.turnTimeoutWarningMillis){
@@ -349,8 +304,6 @@ public class Dealer implements Runnable {
      * Returns all the cards from the table to the deck.
      */
     private void removeAllCardsFromTable() {
-
-        //freezeAllPlayers(env.config.tableDelayMillis); 
         table.canPlaceTokens=false;
 
         //empty the queue of players in the table
@@ -362,7 +315,6 @@ public class Dealer implements Runnable {
                 }
             }
         }
-
 		//remove all the tokens from the table
         for(int i = 0; i < env.config.players; i++){
 			synchronized(players[i].slotQueue){
@@ -384,7 +336,6 @@ public class Dealer implements Runnable {
 				deck.add(card); //add cards from table to deck
 			}
         }
-        
         table.canPlaceTokens = true;
         synchronized(table.lock){
             table.lock.notifyAll();
@@ -397,8 +348,7 @@ public class Dealer implements Runnable {
     private void announceWinners() {
 
         int winnerScore = 0;
-        int winnerIndex = 0;
-		int [] winners = new int[players.length]; 
+        int numOfWinner = 0; 
 
 		for (int i = 0; i < players.length; i++) {
 			if (players[i].score() > winnerScore) {
@@ -407,10 +357,17 @@ public class Dealer implements Runnable {
 		}
         for (int i = 0; i < players.length; i++) {
             if (players[i].score() == winnerScore) {
-                winners[winnerIndex] = players[i].id;
-                winnerIndex++;
+                numOfWinner++;
             }
         }
+		int [] winners = new int[numOfWinner];
+		int index = 0;
+		for (int i = 0; i < players.length; i++) {
+            if (players[i].score() == winnerScore) {
+				winners[index] = players[i].id;
+				index++;
+            }
+		}
 		env.ui.announceWinner(winners);
     }
 

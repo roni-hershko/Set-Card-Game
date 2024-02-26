@@ -60,10 +60,6 @@ public class Player implements Runnable {
 	 */
 	BlockingQueue<Integer> slotQueue;
 
-	//int queueCounter; 
-
-	public volatile boolean isChecked;
-
 	public final Object PlayerLock;
 
     public final Object aiPlayerLock;
@@ -75,10 +71,12 @@ public class Player implements Runnable {
 	volatile boolean PlayerCreated = false;
 
 	volatile boolean isSetFound = false;
+	
+	volatile boolean isReadyToCheck = false;
 
     Dealer dealer;
 
-	volatile boolean isReadyToCheck = false;
+	
 
 	/**
      * The class constructor.
@@ -95,9 +93,7 @@ public class Player implements Runnable {
         this.table = table;
         this.id = id;
         this.human = human;
-	 	//this.queueCounter = 0; 
 		this.slotQueue = new LinkedBlockingQueue<>(env.config.featureSize);
-        this.isChecked = false;
 		this.PlayerLock = new Object();
 		this.aiPlayerLock = new Object();
         this.dealer = dealer;
@@ -134,15 +130,12 @@ public class Player implements Runnable {
                     }
                 } catch (InterruptedException e) {Thread.currentThread().interrupt();}
 
-				//if(isReadyToCheck)
                 table.addQueuePlayers(this);    
 		
 			    synchronized(dealer){
 					dealer.notifyAll();
 				}
-				//while(!isChecked){///maybe need to remove the while
 				try {
-					//notifyAll(); // added
 					wait();
 				} catch (InterruptedException e) { Thread.currentThread().interrupt(); } 
 
@@ -186,7 +179,7 @@ public class Player implements Runnable {
                         }
                     }
 
-					int randomSlot = (int) (Math.random() * env.config.tableSize);
+					int randomSlot = RandomSlot();
 					keyPressed(randomSlot);
 					while (isReadyToCheck) {
 						try {
@@ -223,13 +216,6 @@ public class Player implements Runnable {
      * @param slot - the slot corresponding to the key pressed.
      */
     public void keyPressed(int slot) {
-		// if(!table.canPlaceTokens){
-		// 	try {
-		// 		synchronized (table.lock) {
-		// 			table.lock.wait();
-		// 		}
-		// 	} catch (InterruptedException e) {Thread.currentThread().interrupt();}
-		// }
 
 		synchronized(slotQueue){
 
@@ -279,7 +265,7 @@ public class Player implements Runnable {
 			try {
 				Thread.sleep(second); //cut the freeze time of point to seconds so the updateTimerDisplay function will update the time countdown currently
 			} catch (InterruptedException e){Thread.currentThread().interrupt();}
-			pointFreeze -= second;
+			pointFreeze = pointFreeze- second;
 			env.ui.setFreeze(id, pointFreeze);
 		}
         int ignored = table.countCards(); // this part is just for demonstration in the unit tests
@@ -295,7 +281,7 @@ public class Player implements Runnable {
 			try {
 				Thread.sleep(second); //same as point
 			} catch (InterruptedException e){}
-			penaltyFreeze -= second;
+			penaltyFreeze =penaltyFreeze- second;
 			env.ui.setFreeze(id, penaltyFreeze);
 		}
     }
@@ -313,20 +299,11 @@ public class Player implements Runnable {
         return playerThread;
     }
 
-	// public void AIkeyPressed(){
-	// 	try {
-	// 		Thread.sleep(100);
-	// 	} catch (InterruptedException e) {
-	// 		Thread.currentThread().interrupt();
-	// 	}
-	// 	env.logger.info("AI key pressed step 1 ");
-	// 	int randomSlot = (int) (Math.random() * env.config.tableSize);
-	// 	env.logger.info("AI key pressed step 2 ");
-	// 	keyPressed(randomSlot);
-	// 	env.logger.info("AI key pressed step 3, random slot: " + randomSlot );
-	// }
-
 	public boolean isHuman() {
 		return human;
+	}
+
+	public int RandomSlot() {
+		return (int) (Math.random() * env.config.tableSize);
 	}
 }

@@ -12,12 +12,23 @@ with a short description of:
 
 1. Fully supporting all configuration fields and avoiding the use of magic numbers
 
-in every field that we need throw the project and has been implemented in the config file we used and didnt use any magic number
+
+1. This was implemented by using the configuration fields instead of numerical values. These are used wherever configuration fields are referenced.
+2. This implementation is used in Dealer, Player and table class.
+3. we used logger prints in order to check the maintenance of those configuration fields.
+
+
 --------------------
 
 2. Terminating all threads (that you created) gracefully and in reverse order to the order they were created in.
 
-we therminated the players field in the reverse order they werer create, and wait for each to b terminate and then terminate the dealer.
+
+1.	This was implemented by ensuring that threads are properly shut down using interrupt.
+	we used join in "terminate" functions in dealer class and player class to ensure that threads are given the opportunity to complete any ongoing tasks before termination.
+	we terminated the threads in the reverse order they were created in. 
+2.	This implementation is used in Dealer and Player class.
+3.	we used logger prints in order to check the order of theards creation and termination.
+
 
 --------------------
 
@@ -28,10 +39,15 @@ Note: in modes without a countdown timer the dealer must ensure there is always 
 
 We are not entitled to this bonus.
 
+
 --------------------
 
 4. Making sure that the threads do not wake up unless some actual job needs to be done (e.g., a value needs to be
 changed on the display, key input needs to be handled, etc.) and the only threads created by you are:
 1 thread per player + 1 additional thread for non-human players.
 
-We are not entitled to this bonus.
+a.	This was implemented by properly managing thread synchronization and blocking mechanisms to prevent threads from waking up unnecessarily. 
+	Threads creation are as follow: one thread per player and one additional thread for ai players.
+	All threads remain waiting until there is work to be done such as place tokens, remove token and etc and they are notifyfied.
+b.	This implementation is used in Dealer and Player class using synchronized, wait and notifyall. additionaly we didnt add any other threads then asked.
+c.	To test this we used logger prints to verify that threads remain blocked when there is no work to be done and that they wake up appropriately when needed.
