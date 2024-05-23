@@ -1,6 +1,6 @@
 # **<u>Set Cards Game By Roni Hershko</u>**
 
-## About the Project
+## project Overview
 * The project was made in Java and in order to demonstrate my knowledge in *multi-threading*. It was also made with small usage of *Swift* dir to make the game visible - though the front-end **was not the primary objective** of the project.
 * You will find in the code usage of Java's concurrency tools and data structures such as - 'Synchronized' command, readers-writes locks, Semaphore, concurent queues and lists, etc.
 
@@ -31,7 +31,6 @@ Util util = new UtilImpl(config);
 
         Player[] players = new Player[config.players];
 ```
-### Feel Free To Contact Me !!
 
 
 
